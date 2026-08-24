@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 9,
+ "story": {
+  "originalText": "Yassin: Zhè shì wǒmen de fángjiān, Yassin.\nOmar: Fángjiān hěn míngliàng.\nYassin: Nǐ de chuáng zài zuǒbiān.\nOmar: Ér nǐ de chuáng zài yòubiān.\nYassin: Chuāngbiān yǒu yì zhāng zhuōzi.\nOmar: Wǒ kěyǐ bǎ wǒ de bāo fàng zài zhuōzi shàng.\nYassin: Qǐng bǎ nǐ de yīfu fàng dào yīguì lǐ.\nOmar: Hǎo, xiànzài fángjiān kàn qǐlái hěn hǎo.\nYassin: Dǎsǎo wán wǒ hěn è.\nOmar: Wǒmen zuò diǎn chī de ba.",
+  "translatedText": "Yassin: هذه غرفتنا يا ياسين.\nOmar: الغرفة مضيئة.\nYassin: سريرك على اليسار.\nOmar: وسريرك على اليمين.\nYassin: هناك طاولة قرب النافذة.\nOmar: يمكنني وضع حقيبتي على الطاولة.\nYassin: من فضلك ضع ملابسك في الخزانة.\nOmar: حسناً، تبدو الغرفة جيدة الآن.\nYassin: أنا جائع بعد التنظيف.\nOmar: لنصنع بعض الطعام.",
+  "nativeScriptText": "Yassin: 这是我们的房间，Yassin。\nOmar: 房间很明亮。\nYassin: 你的床在左边。\nOmar: 而你的床在右边。\nYassin: 窗边有一张桌子。\nOmar: 我可以把我的包放在桌子上。\nYassin: 请把你的衣服放到衣柜里。\nOmar: 好，现在房间看起来很好。\nYassin: 打扫完我很饿。\nOmar: 我们做点吃的吧。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 9: غرفة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "这是我们的房间，Yassin。",
+    "translation": "هذه غرفتنا يا ياسين.",
+    "pronunciation": "Zhè shì wǒmen de fángjiān, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "房间很明亮。",
+    "translation": "الغرفة مضيئة.",
+    "pronunciation": "Fángjiān hěn míngliàng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你的床在左边。",
+    "translation": "سريرك على اليسار.",
+    "pronunciation": "Nǐ de chuáng zài zuǒbiān."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "而你的床在右边。",
+    "translation": "وسريرك على اليمين.",
+    "pronunciation": "Ér nǐ de chuáng zài yòubiān."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "窗边有一张桌子。",
+    "translation": "هناك طاولة قرب النافذة.",
+    "pronunciation": "Chuāngbiān yǒu yì zhāng zhuōzi."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我可以把我的包放在桌子上。",
+    "translation": "يمكنني وضع حقيبتي على الطاولة.",
+    "pronunciation": "Wǒ kěyǐ bǎ wǒ de bāo fàng zài zhuōzi shàng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "请把你的衣服放到衣柜里。",
+    "translation": "من فضلك ضع ملابسك في الخزانة.",
+    "pronunciation": "Qǐng bǎ nǐ de yīfu fàng dào yīguì lǐ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "好，现在房间看起来很好。",
+    "translation": "حسناً، تبدو الغرفة جيدة الآن.",
+    "pronunciation": "Hǎo, xiànzài fángjiān kàn qǐlái hěn hǎo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "打扫完我很饿。",
+    "translation": "أنا جائع بعد التنظيف.",
+    "pronunciation": "Dǎsǎo wán wǒ hěn è."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我们做点吃的吧。",
+    "translation": "لنصنع بعض الطعام.",
+    "pronunciation": "Wǒmen zuò diǎn chī de ba."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d9",
+   "title": "غرفة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 9,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s2_d8"
+  ],
+  "createdAt": 1786696446398
+ }
+}

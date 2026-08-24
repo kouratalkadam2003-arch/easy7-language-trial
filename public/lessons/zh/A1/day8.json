@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 8,
+ "story": {
+  "originalText": "Yassin: Huānyíng lái dào wǒmen jiā, Omar.\nOmar: Xièxie. Wǒmen de jiā hěn piàoliang.\nYassin: Jiā bù dà, dàn hěn gānjìng.\nOmar: Shì de, yǒu yí gè chúfáng hé liǎng jiān fángjiān.\nYassin: Chúfáng zài mén fùjìn.\nOmar: Wèishēngjiān zài chúfáng pángbiān.\nYassin: Wǒ xǐhuān zhège jiā.\nOmar: Wǒ yě shì. Zhèlǐ hěn ānjìng.\nYassin: Wǒmen xiànzài kànkan wǒmen de fángjiān.\nOmar: Hǎo de, gēn wǒ lái.",
+  "translatedText": "Yassin: أهلاً بك في بيتنا يا عمر.\nOmar: شكراً. بيتنا جميل.\nYassin: البيت صغير لكنه نظيف.\nOmar: نعم، فيه مطبخ وغرفتان.\nYassin: المطبخ قرب الباب.\nOmar: الحمام بجانب المطبخ.\nYassin: أنا أحب هذا البيت.\nOmar: وأنا أيضاً. أشعر فيه بالهدوء.\nYassin: لنرَ غرفتنا الآن.\nOmar: نعم، تعال معي.",
+  "nativeScriptText": "Yassin: 欢迎来到我们家，Omar。\nOmar: 谢谢。我们的家很漂亮。\nYassin: 家不大，但很干净。\nOmar: 是的，有一个厨房和两间房间。\nYassin: 厨房在门附近。\nOmar: 卫生间在厨房旁边。\nYassin: 我喜欢这个家。\nOmar: 我也是。这里很安静。\nYassin: 我们现在看看我们的房间。\nOmar: 好的，跟我来。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 8: بيتي",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "欢迎来到我们家，Omar。",
+    "translation": "أهلاً بك في بيتنا يا عمر.",
+    "pronunciation": "Huānyíng lái dào wǒmen jiā, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "谢谢。我们的家很漂亮。",
+    "translation": "شكراً. بيتنا جميل.",
+    "pronunciation": "Xièxie. Wǒmen de jiā hěn piàoliang."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "家不大，但很干净。",
+    "translation": "البيت صغير لكنه نظيف.",
+    "pronunciation": "Jiā bù dà, dàn hěn gānjìng."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，有一个厨房和两间房间。",
+    "translation": "نعم، فيه مطبخ وغرفتان.",
+    "pronunciation": "Shì de, yǒu yí gè chúfáng hé liǎng jiān fángjiān."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "厨房在门附近。",
+    "translation": "المطبخ قرب الباب.",
+    "pronunciation": "Chúfáng zài mén fùjìn."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "卫生间在厨房旁边。",
+    "translation": "الحمام بجانب المطبخ.",
+    "pronunciation": "Wèishēngjiān zài chúfáng pángbiān."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我喜欢这个家。",
+    "translation": "أنا أحب هذا البيت.",
+    "pronunciation": "Wǒ xǐhuān zhège jiā."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我也是。这里很安静。",
+    "translation": "وأنا أيضاً. أشعر فيه بالهدوء.",
+    "pronunciation": "Wǒ yě shì. Zhèlǐ hěn ānjìng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我们现在看看我们的房间。",
+    "translation": "لنرَ غرفتنا الآن.",
+    "pronunciation": "Wǒmen xiànzài kànkan wǒmen de fángjiān."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "好的，跟我来。",
+    "translation": "نعم، تعال معي.",
+    "pronunciation": "Hǎo de, gēn wǒ lái."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d8",
+   "title": "بيتي",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 8,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s1_d7"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 21,
+ "story": {
+  "originalText": "Yassin: Sei uno studente o un insegnante?\nOmar: Sono uno studente.\nYassin: Dove lavora l'insegnante?\nOmar: L'insegnante lavora all'istituto.\nYassin: Dov'è il tuo libro?\nOmar: Il mio libro è sulla scrivania.\nYassin: In che giorno è la nostra lezione?\nOmar: La lezione è mercoledì.\nYassin: Ottimo. Sei pronto per il lavoro e la scuola.\nOmar: Grazie. Ora ho fame.",
+  "translatedText": "Yassin: هل أنت طالب أم معلم؟\nOmar: أنا طالب.\nYassin: أين يعمل المعلم؟\nOmar: المعلم يعمل في المعهد.\nYassin: أين كتابك؟\nOmar: كتابي على المكتب.\nYassin: في أي يوم يكون درسنا؟\nOmar: الدرس يوم الأربعاء.\nYassin: ممتاز. أنت مستعد للعمل والمدرسة.\nOmar: شكراً. أنا جائع الآن.",
+  "nativeScriptText": "Yassin: Sei uno studente o un insegnante?\nOmar: Sono uno studente.\nYassin: Dove lavora l'insegnante?\nOmar: L'insegnante lavora all'istituto.\nYassin: Dov'è il tuo libro?\nOmar: Il mio libro è sulla scrivania.\nYassin: In che giorno è la nostra lezione?\nOmar: La lezione è mercoledì.\nYassin: Ottimo. Sei pronto per il lavoro e la scuola.\nOmar: Grazie. Ora ho fame.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 21: مراجعة شاملة (15-20)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Sei uno studente o un insegnante?",
+    "translation": "هل أنت طالب أم معلم؟",
+    "pronunciation": "Sei uno studente o un insegnante?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sono uno studente.",
+    "translation": "أنا طالب.",
+    "pronunciation": "Sono uno studente."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Dove lavora l'insegnante?",
+    "translation": "أين يعمل المعلم؟",
+    "pronunciation": "Dove lavora l'insegnante?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "L'insegnante lavora all'istituto.",
+    "translation": "المعلم يعمل في المعهد.",
+    "pronunciation": "L'insegnante lavora all'istituto."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Dov'è il tuo libro?",
+    "translation": "أين كتابك؟",
+    "pronunciation": "Dov'è il tuo libro?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Il mio libro è sulla scrivania.",
+    "translation": "كتابي على المكتب.",
+    "pronunciation": "Il mio libro è sulla scrivania."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "In che giorno è la nostra lezione?",
+    "translation": "في أي يوم يكون درسنا؟",
+    "pronunciation": "In che giorno è la nostra lezione?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "La lezione è mercoledì.",
+    "translation": "الدرس يوم الأربعاء.",
+    "pronunciation": "La lezione è mercoledì."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ottimo. Sei pronto per il lavoro e la scuola.",
+    "translation": "ممتاز. أنت مستعد للعمل والمدرسة.",
+    "pronunciation": "Ottimo. Sei pronto per il lavoro e la scuola."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Grazie. Ora ho fame.",
+    "translation": "شكراً. أنا جائع الآن.",
+    "pronunciation": "Grazie. Ora ho fame."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d21",
+   "title": "مراجعة شاملة (15-20)",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 21,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s3_d20"
+  ],
+  "createdAt": 1786696446398
+ }
+}

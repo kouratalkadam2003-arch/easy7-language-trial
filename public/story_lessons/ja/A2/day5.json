@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_ja_d05",
+  "languageCode": "ja",
+  "languageNameArabic": "اليابانية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 5,
+  "lessonTitle": "きれいな広場",
+  "englishTitle": "A Clean Square",
+  "arabicTitle": "ساحة نظيفة",
+  "canonicalBeatIds": [
+   "BEAT_A2_D05"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف مكان نظيف أو فوضوي وطلب تعاون.",
+  "realLifeTransferArabic": "تنظيم مكان مشترك مع فريق.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: ساحة نظيفة دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "تبدو ساحة القرية فوضوية بعد السوق، فينظم ليث الجيران لتنظيفها.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: ساحة نظيفة.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: ساحة نظيفة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D05_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D05_01",
+     "narrationArabic": "تبدو ساحة القرية فوضوية بعد السوق، فينظم ليث الجيران لتنظيفها."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D05_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف مكان نظيف أو فوضوي وطلب تعاون.",
+   "lines": [
+    {
+     "lineId": "L_A2_JA_D05_01",
+     "speakerId": "elly",
+     "targetText": "おはようございます、ライスさん。マーケット後の広場は雑然としている。",
+     "englishReference": "Good morning, Laith. The square is messy after the market.",
+     "arabicTranslation": "صباح الخير يا ليث. The square is messy after the market.",
+     "pronunciation": "ohayougozaimasu , raisu san . maaketto nochino hiroba ha zatsuzen toshiteiru .",
+     "phraseIds": [
+      "P_A2_JA_D05_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_JA_D05_02",
+     "speakerId": "laith",
+     "targetText": "おはよう。それから一緒に掃除する必要があります。",
+     "englishReference": "Good morning. Then we need to clean it together.",
+     "arabicTranslation": "صباح الخير. Then we need to clean it together.",
+     "pronunciation": "ohayou . sorekara isshoni souji suru hitsuyou gaarimasu .",
+     "phraseIds": [
+      "P_A2_JA_D05_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D05_03",
+     "speakerId": "elly",
+     "targetText": "まず何をすべきでしょうか？",
+     "englishReference": "What should we do first?",
+     "arabicTranslation": "What should we do first?",
+     "pronunciation": "mazu naniwo subekideshouka ？",
+     "phraseIds": [
+      "P_A2_JA_D05_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D05_04",
+     "speakerId": "laith",
+     "targetText": "まずは空き箱を回収します。",
+     "englishReference": "First, we can collect the empty boxes.",
+     "arabicTranslation": "First, we can collect the empty boxes.",
+     "pronunciation": "mazuha aki hako wo kaishuu shimasu .",
+     "phraseIds": [
+      "P_A2_JA_D05_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D05_05",
+     "speakerId": "elly",
+     "targetText": "近所の人に助けを求めてもらえますか？",
+     "englishReference": "Can you ask the neighbors for help?",
+     "arabicTranslation": "Can you ask the neighbors for help?",
+     "pronunciation": "kinjo no nin ni tasuke wo motome temoraemasuka ？",
+     "phraseIds": [
+      "P_A2_JA_D05_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D05_06",
+     "speakerId": "laith",
+     "targetText": "はい、今から彼らに話します。",
+     "englishReference": "Yes, I will speak to them now.",
+     "arabicTranslation": "Yes, I will speak to them now.",
+     "pronunciation": "hai , imaka ra karera ni hanashi masu .",
+     "phraseIds": [
+      "P_A2_JA_D05_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D05_07",
+     "speakerId": "elly",
+     "targetText": "それは良い計画のように思えます。",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "soreha yoi keikaku noyouni omoe masu .",
+     "phraseIds": [
+      "P_A2_JA_D05_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_JA_D05_08",
+     "speakerId": "laith",
+     "targetText": "ありがとう。また後で。",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "arigatou . mata atode .",
+     "phraseIds": [
+      "P_A2_JA_D05_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D05_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_JA_D05_C01",
+      "P_A2_JA_D05_C02",
+      "P_A2_JA_D05_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_JA_D05_C01",
+      "P_A2_JA_D05_C02",
+      "P_A2_JA_D05_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_JA_D05_I01",
+      "P_A2_JA_D05_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D05_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: تنظيم مكان مشترك مع فريق.",
+   "requiredPhraseIds": [
+    "P_A2_JA_D05_C01",
+    "P_A2_JA_D05_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D05_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "今シーズンの市場は急速に変化しています。",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "ima shiizun no shijou ha kyuusoku ni henkashi teimasu ."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "はい。旧道についての質問が増えています。",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "hai . kyuudou nitsuiteno shitsumon ga fue teimasu ."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D05_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: ساحة نظيفة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: ساحة نظيفة."
+   },
+   "successWorldConsequence": "VILLAGE_SQUARE:CLEAN",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_JA_D05_S01",
+   "text": "おはようございます、ライスさん。マーケット後の広場は雑然としている。",
+   "englishReference": "Good morning, Laith. The square is messy after the market.",
+   "arabicTranslation": "صباح الخير يا ليث. The square is messy after the market.",
+   "pronunciation": "ohayougozaimasu , raisu san . maaketto nochino hiroba ha zatsuzen toshiteiru .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم مكان مشترك مع فريق."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_JA_D05_C01",
+   "text": "おはよう。それから一緒に掃除する必要があります。",
+   "englishReference": "Good morning. Then we need to clean it together.",
+   "arabicTranslation": "صباح الخير. Then we need to clean it together.",
+   "pronunciation": "ohayou . sorekara isshoni souji suru hitsuyou gaarimasu .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم مكان مشترك مع فريق."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D05_I01",
+   "text": "まず何をすべきでしょうか？",
+   "englishReference": "What should we do first?",
+   "arabicTranslation": "What should we do first?",
+   "pronunciation": "mazu naniwo subekideshouka ？",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم مكان مشترك مع فريق."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_JA_D05_C02",
+   "text": "まずは空き箱を回収します。",
+   "englishReference": "First, we can collect the empty boxes.",
+   "arabicTranslation": "First, we can collect the empty boxes.",
+   "pronunciation": "mazuha aki hako wo kaishuu shimasu .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم مكان مشترك مع فريق."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D05_I02",
+   "text": "近所の人に助けを求めてもらえますか？",
+   "englishReference": "Can you ask the neighbors for help?",
+   "arabicTranslation": "Can you ask the neighbors for help?",
+   "pronunciation": "kinjo no nin ni tasuke wo motome temoraemasuka ？",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم مكان مشترك مع فريق."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_JA_D05_C03",
+   "text": "はい、今から彼らに話します。",
+   "englishReference": "Yes, I will speak to them now.",
+   "arabicTranslation": "Yes, I will speak to them now.",
+   "pronunciation": "hai , imaka ra karera ni hanashi masu .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم مكان مشترك مع فريق."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D05_S02",
+   "text": "それは良い計画のように思えます。",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "soreha yoi keikaku noyouni omoe masu .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم مكان مشترك مع فريق."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_JA_D05_S03",
+   "text": "ありがとう。また後で。",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "arigatou . mata atode .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم مكان مشترك مع فريق."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_JA_D05_C01",
+     "P_A2_JA_D05_C02",
+     "P_A2_JA_D05_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_JA_D05_I01",
+     "P_A2_JA_D05_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_JA_D05_C01",
+    "P_A2_JA_D05_C02",
+    "P_A2_JA_D05_C03",
+    "P_A2_JA_D05_I01",
+    "P_A2_JA_D05_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D04:COMPLETE"
+  ],
+  "onSuccess": [
+   "VILLAGE_SQUARE:CLEAN",
+   "A2_D06:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_05",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_ja_d04",
+  "nextLessonId": "story_a2_ja_d06",
+  "nextLessonHookArabic": "يقترح أحد الجيران لعبة بسيطة بعد العمل.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 5: ساحة نظيفة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

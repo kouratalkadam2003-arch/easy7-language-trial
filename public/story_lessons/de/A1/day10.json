@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_de_d10",
+  "languageCode": "de",
+  "languageNameArabic": "الألمانية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 10,
+  "lessonTitle": "Eine warme Mahlzeit",
+  "englishTitle": "A Warm Meal",
+  "arabicTitle": "وجبة دافئة",
+  "canonicalBeatIds": [
+   "BEAT_A1_D10"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "طلب طعام وذكر تفضيل بسيط.",
+  "realLifeTransferArabic": "طلب طعام في بيت أو مقهى.",
+  "successCapabilityArabic": "اطلب طعامًا أو شرابًا ثم قل ما تحب."
+ },
+ "story": {
+  "storyContextArabic": "تعد إيلي وجبة بعد إصلاح النافذة.",
+  "storyMissionArabic": "يطلب ما يحتاجه بأدب ويشارك في التحضير.",
+  "setting": "cabin_and_village",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: وجبة دافئة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D10_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D10_01",
+     "narrationArabic": "تعد إيلي وجبة بعد إصلاح النافذة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D10_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "طلب طعام وذكر تفضيل بسيط.",
+   "lines": [
+    {
+     "lineId": "L_A1_DE_D10_01",
+     "speakerId": "elly",
+     "targetText": "Hallo, Laith. Bist du hungrig?",
+     "englishReference": "Hello, Laith. Are you hungry?",
+     "arabicTranslation": "مرحبًا يا ليث. هل أنت جائع؟",
+     "pronunciation": "Hallo, Laith. Bist du hungrig?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D10_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_DE_D10_02",
+     "speakerId": "laith",
+     "targetText": "Ja, ich habe Hunger.",
+     "englishReference": "Yes, I am hungry.",
+     "arabicTranslation": "نعم، أنا جائع.",
+     "pronunciation": "Ja, ich habe Hunger.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D10_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D10_03",
+     "speakerId": "elly",
+     "targetText": "Möchten Sie Suppe oder Brot?",
+     "englishReference": "Would you like soup or bread?",
+     "arabicTranslation": "هل تريد حساء أم خبزًا؟",
+     "pronunciation": "Möchten Sie Suppe oder Brot?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D10_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D10_04",
+     "speakerId": "laith",
+     "targetText": "Ich hätte gerne Suppe, bitte.",
+     "englishReference": "I would like soup, please.",
+     "arabicTranslation": "أود الحساء، من فضلك.",
+     "pronunciation": "Ich hätte gerne Suppe, bitte.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D10_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_DE_D10_05",
+     "speakerId": "elly",
+     "targetText": "Magst du Gemüse?",
+     "englishReference": "Do you like vegetables?",
+     "arabicTranslation": "هل تحب الخضروات؟",
+     "pronunciation": "Magst du Gemüse?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D10_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D10_06",
+     "speakerId": "laith",
+     "targetText": "Ja, ich mag Gemüse.",
+     "englishReference": "Yes, I like vegetables.",
+     "arabicTranslation": "نعم، أنا أحب الخضروات.",
+     "pronunciation": "Ja, ich mag Gemüse.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D10_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D10_07",
+     "speakerId": "elly",
+     "targetText": "Hier ist Ihre Mahlzeit und etwas Wasser.",
+     "englishReference": "Here is your meal and some water.",
+     "arabicTranslation": "هذه وجبتك وبعض الماء.",
+     "pronunciation": "Hier ist Ihre Mahlzeit und etwas Wasser.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D10_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_DE_D10_08",
+     "speakerId": "laith",
+     "targetText": "Danke, Elly. Auf Wiedersehen, Hunger.",
+     "englishReference": "Thank you, Elly. Goodbye, hunger.",
+     "arabicTranslation": "شكرًا يا إيلي. وداعًا أيها الجوع.",
+     "pronunciation": "Danke, Elly. Auf Wiedersehen, Hunger.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D10_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D10_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_DE_D10_C01",
+      "P_A1_DE_D10_C02",
+      "P_A1_DE_D10_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_DE_D10_C01",
+      "P_A1_DE_D10_C02",
+      "P_A1_DE_D10_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_DE_D10_I01",
+      "P_A1_DE_D10_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D10_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: طلب طعام في بيت أو مقهى.",
+   "requiredPhraseIds": [
+    "P_A1_DE_D10_C01",
+    "P_A1_DE_D10_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D10_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Ich habe gehört, dass Laith heute geholfen hat.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "Ich habe gehört, dass Laith heute geholfen hat."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Das Dorf beginnt, ihn kennenzulernen.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "Das Dorf beginnt, ihn kennenzulernen."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D10_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: وجبة دافئة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "اطلب طعامًا أو شرابًا ثم قل ما تحب."
+   },
+   "successWorldConsequence": "A1_DAY_10:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_DE_D10_S01",
+   "text": "Hallo, Laith. Bist du hungrig?",
+   "englishReference": "Hello, Laith. Are you hungry?",
+   "arabicTranslation": "مرحبًا يا ليث. هل أنت جائع؟",
+   "pronunciation": "Hallo, Laith. Bist du hungrig?",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D10_LEARNING",
+   "transferContexts": [
+    "طلب طعام في بيت أو مقهى."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_DE_D10_I01",
+   "text": "Ja, ich habe Hunger.",
+   "englishReference": "Yes, I am hungry.",
+   "arabicTranslation": "نعم، أنا جائع.",
+   "pronunciation": "Ja, ich habe Hunger.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D10_LEARNING",
+   "transferContexts": [
+    "طلب طعام في بيت أو مقهى."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_DE_D10_C01",
+   "text": "Möchten Sie Suppe oder Brot?",
+   "englishReference": "Would you like soup or bread?",
+   "arabicTranslation": "هل تريد حساء أم خبزًا؟",
+   "pronunciation": "Möchten Sie Suppe oder Brot?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D10_LEARNING",
+   "transferContexts": [
+    "طلب طعام في بيت أو مقهى."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_DE_D10_S02",
+   "text": "Ich hätte gerne Suppe, bitte.",
+   "englishReference": "I would like soup, please.",
+   "arabicTranslation": "أود الحساء، من فضلك.",
+   "pronunciation": "Ich hätte gerne Suppe, bitte.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D10_LEARNING",
+   "transferContexts": [
+    "طلب طعام في بيت أو مقهى."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_DE_D10_C02",
+   "text": "Magst du Gemüse?",
+   "englishReference": "Do you like vegetables?",
+   "arabicTranslation": "هل تحب الخضروات؟",
+   "pronunciation": "Magst du Gemüse?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D10_LEARNING",
+   "transferContexts": [
+    "طلب طعام في بيت أو مقهى."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_DE_D10_C03",
+   "text": "Ja, ich mag Gemüse.",
+   "englishReference": "Yes, I like vegetables.",
+   "arabicTranslation": "نعم، أنا أحب الخضروات.",
+   "pronunciation": "Ja, ich mag Gemüse.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D10_LEARNING",
+   "transferContexts": [
+    "طلب طعام في بيت أو مقهى."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_DE_D10_S03",
+   "text": "Hier ist Ihre Mahlzeit und etwas Wasser.",
+   "englishReference": "Here is your meal and some water.",
+   "arabicTranslation": "هذه وجبتك وبعض الماء.",
+   "pronunciation": "Hier ist Ihre Mahlzeit und etwas Wasser.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D10_LEARNING",
+   "transferContexts": [
+    "طلب طعام في بيت أو مقهى."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_DE_D10_I02",
+   "text": "Danke, Elly. Auf Wiedersehen, Hunger.",
+   "englishReference": "Thank you, Elly. Goodbye, hunger.",
+   "arabicTranslation": "شكرًا يا إيلي. وداعًا أيها الجوع.",
+   "pronunciation": "Danke, Elly. Auf Wiedersehen, Hunger.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D10_LEARNING",
+   "transferContexts": [
+    "طلب طعام في بيت أو مقهى."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_DE_D10_C01",
+     "P_A1_DE_D10_C02",
+     "P_A1_DE_D10_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_DE_D10_C01",
+     "P_A1_DE_D10_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_DE_D10_C01",
+    "P_A1_DE_D10_C02",
+    "P_A1_DE_D10_C03",
+    "P_A1_DE_D10_I01",
+    "P_A1_DE_D10_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D09:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_10:COMPLETE",
+   "A1_D11:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_10",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_de_d09",
+  "nextLessonId": "story_a1_de_d11",
+  "nextLessonHookArabic": "غدًا: أريد أن أساعد.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 10: وجبة دافئة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 30,
+ "story": {
+  "originalText": "Yassin: Buenos días, Omar. ¿Estás listo para el examen?\nOmar: Sí, estoy listo, si Dios quiere.\nYassin: ¿Cuál es tu nombre?\nOmar: Me llamo Omar y soy de Argelia.\nYassin: ¿Cómo estás y dónde está tu libro?\nOmar: Estoy bien. Mi libro está en el escritorio.\nYassin: ¿Qué quieres comer?\nOmar: Quiero arroz y agua, por favor.\nYassin: Excelente. Has aprobado A1. ¡Bien hecho!\nOmar: Gracias, Yassin. Adiós, A1. ¡Hola, A2!",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هل أنت مستعد للامتحان؟\nOmar: نعم، أنا مستعد، إن شاء الله.\nYassin: ما اسمك؟\nOmar: اسمي ياسين، وأنا من الجزائر.\nYassin: كيف حالك، وأين كتابك؟\nOmar: أنا بخير. كتابي على المكتب.\nYassin: ماذا تريد أن تأكل؟\nOmar: أريد الأرز والماء، من فضلك.\nYassin: ممتاز. لقد نجحت في A1. أحسنت!\nOmar: شكراً يا عمر. وداعاً A1. مرحباً A2!",
+  "nativeScriptText": "Yassin: Buenos días, Omar. ¿Estás listo para el examen?\nOmar: Sí, estoy listo, si Dios quiere.\nYassin: ¿Cuál es tu nombre?\nOmar: Me llamo Omar y soy de Argelia.\nYassin: ¿Cómo estás y dónde está tu libro?\nOmar: Estoy bien. Mi libro está en el escritorio.\nYassin: ¿Qué quieres comer?\nOmar: Quiero arroz y agua, por favor.\nYassin: Excelente. Has aprobado A1. ¡Bien hecho!\nOmar: Gracias, Yassin. Adiós, A1. ¡Hola, A2!",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 30: امتحان المستوى A1",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buenos días, Omar. ¿Estás listo para el examen?",
+    "translation": "صباح الخير يا ياسين. هل أنت مستعد للامتحان؟",
+    "pronunciation": "Buenos días, Omar. ¿Estás listo para el examen?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, estoy listo, si Dios quiere.",
+    "translation": "نعم، أنا مستعد، إن شاء الله.",
+    "pronunciation": "Sí, estoy listo, si Dios quiere."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Cuál es tu nombre?",
+    "translation": "ما اسمك؟",
+    "pronunciation": "¿Cuál es tu nombre?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Me llamo Omar y soy de Argelia.",
+    "translation": "اسمي ياسين، وأنا من الجزائر.",
+    "pronunciation": "Me llamo Omar y soy de Argelia."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Cómo estás y dónde está tu libro?",
+    "translation": "كيف حالك، وأين كتابك؟",
+    "pronunciation": "¿Cómo estás y dónde está tu libro?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Estoy bien. Mi libro está en el escritorio.",
+    "translation": "أنا بخير. كتابي على المكتب.",
+    "pronunciation": "Estoy bien. Mi libro está en el escritorio."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Qué quieres comer?",
+    "translation": "ماذا تريد أن تأكل؟",
+    "pronunciation": "¿Qué quieres comer?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Quiero arroz y agua, por favor.",
+    "translation": "أريد الأرز والماء، من فضلك.",
+    "pronunciation": "Quiero arroz y agua, por favor."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Excelente. Has aprobado A1. ¡Bien hecho!",
+    "translation": "ممتاز. لقد نجحت في A1. أحسنت!",
+    "pronunciation": "Excelente. Has aprobado A1. ¡Bien hecho!"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Gracias, Yassin. Adiós, A1. ¡Hola, A2!",
+    "translation": "شكراً يا عمر. وداعاً A1. مرحباً A2!",
+    "pronunciation": "Gracias, Yassin. Adiós, A1. ¡Hola, A2!"
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d30",
+   "title": "امتحان المستوى A1",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 30,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s5_d29"
+  ],
+  "createdAt": 1786696446398
+ }
+}

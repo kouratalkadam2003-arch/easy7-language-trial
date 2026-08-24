@@ -1,0 +1,23 @@
+# Netlify build config.
+#
+# The app is a pure static SPA: Vite builds to dist/, and all AI calls (Gemini
+# Live for radio + voice chat, generateContent for text) go straight from the
+# browser to Google. No Node server or serverless function is involved, so
+# there is nothing to proxy here.
+#
+# Set VITE_GEMINI_API_KEY in Site settings → Environment variables. Note that
+# Vite inlines VITE_* values into the client bundle, so that key is publicly
+# readable once deployed.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# react-router owns the routing; every path must serve index.html.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

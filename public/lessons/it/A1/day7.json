@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 7,
+ "story": {
+  "originalText": "Yassin: Ciao. Come ti chiami?\nOmar: Mi chiamo Yassin.\nYassin: Di dove sei?\nOmar: Vengo dall'Algeria.\nYassin: Quanti anni hai?\nOmar: Ho venti anni.\nYassin: Come stai oggi?\nOmar: Sto bene, grazie.\nYassin: Bravo. Arrivederci, amico mio.\nOmar: Arrivederci. Ci vediamo a casa.",
+  "translatedText": "Yassin: مرحباً. ما اسمك؟\nOmar: اسمي ياسين.\nYassin: من أين أنت؟\nOmar: أنا من الجزائر.\nYassin: كم عمرك؟\nOmar: عمري عشرون سنة.\nYassin: كيف حالك اليوم؟\nOmar: أنا بخير، شكراً.\nYassin: أحسنت. وداعاً يا صديقي.\nOmar: وداعاً. أراك في البيت.",
+  "nativeScriptText": "Yassin: Ciao. Come ti chiami?\nOmar: Mi chiamo Yassin.\nYassin: Di dove sei?\nOmar: Vengo dall'Algeria.\nYassin: Quanti anni hai?\nOmar: Ho venti anni.\nYassin: Come stai oggi?\nOmar: Sto bene, grazie.\nYassin: Bravo. Arrivederci, amico mio.\nOmar: Arrivederci. Ci vediamo a casa.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 7: مراجعة شاملة (1-6)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ciao. Come ti chiami?",
+    "translation": "مرحباً. ما اسمك؟",
+    "pronunciation": "Ciao. Come ti chiami?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Mi chiamo Yassin.",
+    "translation": "اسمي ياسين.",
+    "pronunciation": "Mi chiamo Yassin."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Di dove sei?",
+    "translation": "من أين أنت؟",
+    "pronunciation": "Di dove sei?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Vengo dall'Algeria.",
+    "translation": "أنا من الجزائر.",
+    "pronunciation": "Vengo dall'Algeria."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Quanti anni hai?",
+    "translation": "كم عمرك؟",
+    "pronunciation": "Quanti anni hai?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ho venti anni.",
+    "translation": "عمري عشرون سنة.",
+    "pronunciation": "Ho venti anni."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Come stai oggi?",
+    "translation": "كيف حالك اليوم؟",
+    "pronunciation": "Come stai oggi?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sto bene, grazie.",
+    "translation": "أنا بخير، شكراً.",
+    "pronunciation": "Sto bene, grazie."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bravo. Arrivederci, amico mio.",
+    "translation": "أحسنت. وداعاً يا صديقي.",
+    "pronunciation": "Bravo. Arrivederci, amico mio."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Arrivederci. Ci vediamo a casa.",
+    "translation": "وداعاً. أراك في البيت.",
+    "pronunciation": "Arrivederci. Ci vediamo a casa."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d7",
+   "title": "مراجعة شاملة (1-6)",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 7,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s1_d6"
+  ],
+  "createdAt": 1786696446398
+ }
+}

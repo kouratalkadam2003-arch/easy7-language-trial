@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_ja_d14",
+  "languageCode": "ja",
+  "languageNameArabic": "اليابانية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 14,
+  "lessonTitle": "今週のミッション",
+  "englishTitle": "The Week’s Mission",
+  "arabicTitle": "مهمة الأسبوع",
+  "canonicalBeatIds": [
+   "BEAT_A2_D14"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "دمج الروتين والوقت والصحة والتعاون.",
+  "realLifeTransferArabic": "تنظيم يوم فريق صغير.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: مهمة الأسبوع دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "تنفذ المجموعة يومًا منظمًا يجمع المزرعة والسوق والطعام.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: مهمة الأسبوع.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: مهمة الأسبوع."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D14_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D14_01",
+     "narrationArabic": "تنفذ المجموعة يومًا منظمًا يجمع المزرعة والسوق والطعام."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D14_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "دمج الروتين والوقت والصحة والتعاون.",
+   "lines": [
+    {
+     "lineId": "L_A2_JA_D14_01",
+     "speakerId": "elly",
+     "targetText": "おはようございます、ライスさん。今日の予定は何ですか?",
+     "englishReference": "Good morning, Laith. What is our plan for today?",
+     "arabicTranslation": "صباح الخير يا ليث. What is our plan for today?",
+     "pronunciation": "ohayougozaimasu , raisu san . kyou no yotei ha nande suka ?",
+     "phraseIds": [
+      "P_A2_JA_D14_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_JA_D14_02",
+     "speakerId": "laith",
+     "targetText": "おはよう。まずは庭の準備をします。",
+     "englishReference": "Good morning. First, we prepare the garden.",
+     "arabicTranslation": "صباح الخير. First, we prepare the garden.",
+     "pronunciation": "ohayou . mazuha niwa no junbi woshimasu .",
+     "phraseIds": [
+      "P_A2_JA_D14_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D14_03",
+     "speakerId": "elly",
+     "targetText": "昼食後はどうなりますか？",
+     "englishReference": "What happens after lunch?",
+     "arabicTranslation": "What happens after lunch?",
+     "pronunciation": "chuushokugo hadounarimasuka ？",
+     "phraseIds": [
+      "P_A2_JA_D14_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D14_04",
+     "speakerId": "laith",
+     "targetText": "それから私たちは食べ物を市場チームに持っていきます。",
+     "englishReference": "Then we take the food to the market team.",
+     "arabicTranslation": "Then we take the food to the market team.",
+     "pronunciation": "sorekara watashitachi ha tabemono wo shijou chiimu ni motsu teikimasu .",
+     "phraseIds": [
+      "P_A2_JA_D14_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D14_05",
+     "speakerId": "elly",
+     "targetText": "全員が日没までに終えることができるでしょうか？",
+     "englishReference": "Can everyone finish before sunset?",
+     "arabicTranslation": "Can everyone finish before sunset?",
+     "pronunciation": "zen'in ga nichibotsu madeni oe rukotogadekirudeshouka ？",
+     "phraseIds": [
+      "P_A2_JA_D14_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D14_06",
+     "speakerId": "laith",
+     "targetText": "はい、私たちが協力すれば。",
+     "englishReference": "Yes, if we work together.",
+     "arabicTranslation": "Yes, if we work together.",
+     "pronunciation": "hai , watashitachi ga kyouryoku sureba .",
+     "phraseIds": [
+      "P_A2_JA_D14_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D14_07",
+     "speakerId": "elly",
+     "targetText": "それは良い計画のように思えます。",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "soreha yoi keikaku noyouni omoe masu .",
+     "phraseIds": [
+      "P_A2_JA_D14_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_JA_D14_08",
+     "speakerId": "laith",
+     "targetText": "ありがとう。また後で。",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "arigatou . mata atode .",
+     "phraseIds": [
+      "P_A2_JA_D14_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D14_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_JA_D14_C01",
+      "P_A2_JA_D14_C02",
+      "P_A2_JA_D14_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_JA_D14_C01",
+      "P_A2_JA_D14_C02",
+      "P_A2_JA_D14_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_JA_D14_I01",
+      "P_A2_JA_D14_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D14_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: تنظيم يوم فريق صغير.",
+   "requiredPhraseIds": [
+    "P_A2_JA_D14_C01",
+    "P_A2_JA_D14_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D14_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "今シーズンの市場は急速に変化しています。",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "ima shiizun no shijou ha kyuusoku ni henkashi teimasu ."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "はい。旧道についての質問が増えています。",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "hai . kyuudou nitsuiteno shitsumon ga fue teimasu ."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D14_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: مهمة الأسبوع.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: مهمة الأسبوع."
+   },
+   "successWorldConsequence": "A2_WEEK_2:COMPLETE",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_JA_D14_S01",
+   "text": "おはようございます、ライスさん。今日の予定は何ですか?",
+   "englishReference": "Good morning, Laith. What is our plan for today?",
+   "arabicTranslation": "صباح الخير يا ليث. What is our plan for today?",
+   "pronunciation": "ohayougozaimasu , raisu san . kyou no yotei ha nande suka ?",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_JA_D14_C01",
+   "text": "おはよう。まずは庭の準備をします。",
+   "englishReference": "Good morning. First, we prepare the garden.",
+   "arabicTranslation": "صباح الخير. First, we prepare the garden.",
+   "pronunciation": "ohayou . mazuha niwa no junbi woshimasu .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D14_I01",
+   "text": "昼食後はどうなりますか？",
+   "englishReference": "What happens after lunch?",
+   "arabicTranslation": "What happens after lunch?",
+   "pronunciation": "chuushokugo hadounarimasuka ？",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_JA_D14_C02",
+   "text": "それから私たちは食べ物を市場チームに持っていきます。",
+   "englishReference": "Then we take the food to the market team.",
+   "arabicTranslation": "Then we take the food to the market team.",
+   "pronunciation": "sorekara watashitachi ha tabemono wo shijou chiimu ni motsu teikimasu .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D14_I02",
+   "text": "全員が日没までに終えることができるでしょうか？",
+   "englishReference": "Can everyone finish before sunset?",
+   "arabicTranslation": "Can everyone finish before sunset?",
+   "pronunciation": "zen'in ga nichibotsu madeni oe rukotogadekirudeshouka ？",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_JA_D14_C03",
+   "text": "はい、私たちが協力すれば。",
+   "englishReference": "Yes, if we work together.",
+   "arabicTranslation": "Yes, if we work together.",
+   "pronunciation": "hai , watashitachi ga kyouryoku sureba .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D14_S02",
+   "text": "それは良い計画のように思えます。",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "soreha yoi keikaku noyouni omoe masu .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_JA_D14_S03",
+   "text": "ありがとう。また後で。",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "arigatou . mata atode .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_JA_D14_C01",
+     "P_A2_JA_D14_C02",
+     "P_A2_JA_D14_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_JA_D14_I01",
+     "P_A2_JA_D14_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_JA_D14_C01",
+    "P_A2_JA_D14_C02",
+    "P_A2_JA_D14_C03",
+    "P_A2_JA_D14_I01",
+    "P_A2_JA_D14_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D13:COMPLETE"
+  ],
+  "onSuccess": [
+   "A2_WEEK_2:COMPLETE",
+   "A2_D15:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_14",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_ja_d13",
+  "nextLessonId": "story_a2_ja_d15",
+  "nextLessonHookArabic": "ينتهي الأسبوع بثقة أكبر في فريق ليث.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 14: مهمة الأسبوع."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

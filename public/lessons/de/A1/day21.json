@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 21,
+ "story": {
+  "originalText": "Yassin: Bist du Student oder Lehrer?\nOmar: Ich bin Student.\nYassin: Wo arbeitet der Lehrer?\nOmar: Der Lehrer arbeitet im Institut.\nYassin: Wo ist dein Buch?\nOmar: Mein Buch liegt auf dem Schreibtisch.\nYassin: An welchem Tag ist unser Unterricht?\nOmar: Der Unterricht ist am Mittwoch.\nYassin: Ausgezeichnet. Du bist bereit für Arbeit und Schule.\nOmar: Danke. Ich bin jetzt hungrig.",
+  "translatedText": "Yassin: هل أنت طالب أم معلم؟\nOmar: أنا طالب.\nYassin: أين يعمل المعلم؟\nOmar: المعلم يعمل في المعهد.\nYassin: أين كتابك؟\nOmar: كتابي على المكتب.\nYassin: في أي يوم يكون درسنا؟\nOmar: الدرس يوم الأربعاء.\nYassin: ممتاز. أنت مستعد للعمل والمدرسة.\nOmar: شكراً. أنا جائع الآن.",
+  "nativeScriptText": "Yassin: Bist du Student oder Lehrer?\nOmar: Ich bin Student.\nYassin: Wo arbeitet der Lehrer?\nOmar: Der Lehrer arbeitet im Institut.\nYassin: Wo ist dein Buch?\nOmar: Mein Buch liegt auf dem Schreibtisch.\nYassin: An welchem Tag ist unser Unterricht?\nOmar: Der Unterricht ist am Mittwoch.\nYassin: Ausgezeichnet. Du bist bereit für Arbeit und Schule.\nOmar: Danke. Ich bin jetzt hungrig.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 21: مراجعة شاملة (15-20)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bist du Student oder Lehrer?",
+    "translation": "هل أنت طالب أم معلم؟",
+    "pronunciation": "Bist du Student oder Lehrer?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich bin Student.",
+    "translation": "أنا طالب.",
+    "pronunciation": "Ich bin Student."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wo arbeitet der Lehrer?",
+    "translation": "أين يعمل المعلم؟",
+    "pronunciation": "Wo arbeitet der Lehrer?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Der Lehrer arbeitet im Institut.",
+    "translation": "المعلم يعمل في المعهد.",
+    "pronunciation": "Der Lehrer arbeitet im Institut."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wo ist dein Buch?",
+    "translation": "أين كتابك؟",
+    "pronunciation": "Wo ist dein Buch?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Mein Buch liegt auf dem Schreibtisch.",
+    "translation": "كتابي على المكتب.",
+    "pronunciation": "Mein Buch liegt auf dem Schreibtisch."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "An welchem Tag ist unser Unterricht?",
+    "translation": "في أي يوم يكون درسنا؟",
+    "pronunciation": "An welchem Tag ist unser Unterricht?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Der Unterricht ist am Mittwoch.",
+    "translation": "الدرس يوم الأربعاء.",
+    "pronunciation": "Der Unterricht ist am Mittwoch."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ausgezeichnet. Du bist bereit für Arbeit und Schule.",
+    "translation": "ممتاز. أنت مستعد للعمل والمدرسة.",
+    "pronunciation": "Ausgezeichnet. Du bist bereit für Arbeit und Schule."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Danke. Ich bin jetzt hungrig.",
+    "translation": "شكراً. أنا جائع الآن.",
+    "pronunciation": "Danke. Ich bin jetzt hungrig."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d21",
+   "title": "مراجعة شاملة (15-20)",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 21,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s3_d20"
+  ],
+  "createdAt": 1786696446398
+ }
+}

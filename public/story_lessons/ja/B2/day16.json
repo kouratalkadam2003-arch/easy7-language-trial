@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_ja_d16",
+  "languageCode": "ja",
+  "languageNameArabic": "اليابانية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 16,
+  "lessonTitle": "正直なフィードバック",
+  "englishTitle": "Honest Feedback",
+  "arabicTitle": "ملاحظة صادقة",
+  "canonicalBeatIds": [
+   "BEAT_B2_D16"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "إعطاء ملاحظة بناءة وتلقيها.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: ملاحظة صادقة."
+ },
+ "story": {
+  "storyContextArabic": "يخبر غاستون ليث أن أسلوبه في الاجتماع كان سريعًا.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: ملاحظة صادقة.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: ملاحظة صادقة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D16_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D16_01",
+     "narrationArabic": "يخبر غاستون ليث أن أسلوبه في الاجتماع كان سريعًا."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D16_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "إعطاء ملاحظة بناءة وتلقيها.",
+   "lines": [
+    {
+     "lineId": "L_B2_JA_D16_01",
+     "speakerId": "gaston",
+     "targetText": "決定する前に、会議のフィードバックは双方にどのような影響を与えるでしょうか?",
+     "englishReference": "Before we decide, how does the meeting feedback affect both sides?",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "kettei suru mae ni , kaigi no fiidobakku ha souhou nidonoyouna eikyou wo atae rudeshouka ?",
+     "phraseIds": [
+      "P_B2_JA_D16_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_JA_D16_02",
+     "speakerId": "laith",
+     "targetText": "あなたのアイデアは強力だったと思いますが、速すぎました。",
+     "englishReference": "I think your idea was strong but too fast.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "anatano aidea ha kyouryoku dattato omoi masuga , hayasu gimashita .",
+     "phraseIds": [
+      "P_B2_JA_D16_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_JA_D16_03",
+     "speakerId": "gaston",
+     "targetText": "最も強い反対は何ですか?",
+     "englishReference": "What is the strongest objection?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "mottomo tsuyoi hantai ha nande suka ?",
+     "phraseIds": [
+      "P_B2_JA_D16_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_JA_D16_04",
+     "speakerId": "laith",
+     "targetText": "もっと時間が必要な人もいましたが、計画を改善することは可能です。",
+     "englishReference": "Although some people needed more time, we can improve the plan.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "motto jikan ga hitsuyou na nin moimashitaga , keikaku wo kaizen surukotoha kanou desu .",
+     "phraseIds": [
+      "P_B2_JA_D16_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_JA_D16_05",
+     "speakerId": "gaston",
+     "targetText": "何を提供したいですか?",
+     "englishReference": "What are you willing to offer?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "naniwo teikyou shitaidesuka ?",
+     "phraseIds": [
+      "P_B2_JA_D16_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_JA_D16_06",
+     "speakerId": "laith",
+     "targetText": "同意できれば次回質問させていただきます。",
+     "englishReference": "If we agree, we can ask for questions next time.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "doui dekireba jikai shitsumon saseteitadakimasu .",
+     "phraseIds": [
+      "P_B2_JA_D16_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_JA_D16_07",
+     "speakerId": "gaston",
+     "targetText": "それはバランスが取れているように聞こえます。",
+     "englishReference": "That sounds balanced.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "soreha baransu ga tore teiruyouni kiko emasu .",
+     "phraseIds": [
+      "P_B2_JA_D16_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_JA_D16_08",
+     "speakerId": "laith",
+     "targetText": "ありがとう。契約書を記録しましょう。",
+     "englishReference": "Thank you. Let us record the agreement.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "arigatou . keiyakusho wo kiroku shimashou .",
+     "phraseIds": [
+      "P_B2_JA_D16_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D16_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_JA_D16_C01",
+      "P_B2_JA_D16_C02",
+      "P_B2_JA_D16_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_JA_D16_C01",
+      "P_B2_JA_D16_C02",
+      "P_B2_JA_D16_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_JA_D16_I01",
+      "P_B2_JA_D16_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D16_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_JA_D16_C01",
+    "P_B2_JA_D16_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D16_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "この同盟は地域を変えています。",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة.",
+     "pronunciation": "kono doumei ha chiiki wo kae teimasu ."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "一部の詳細は今のところ非公開のままにしておきます。",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن.",
+     "pronunciation": "ichibu no shousai ha ima notokoro hikoukai nomamanishiteokimasu ."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D16_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: ملاحظة صادقة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "FEEDBACK_USED",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_JA_D16_S01",
+   "text": "決定する前に、会議のフィードバックは双方にどのような影響を与えるでしょうか?",
+   "englishReference": "Before we decide, how does the meeting feedback affect both sides?",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "kettei suru mae ni , kaigi no fiidobakku ha souhou nidonoyouna eikyou wo atae rudeshouka ?",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_JA_D16_C01",
+   "text": "あなたのアイデアは強力だったと思いますが、速すぎました。",
+   "englishReference": "I think your idea was strong but too fast.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "anatano aidea ha kyouryoku dattato omoi masuga , hayasu gimashita .",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_JA_D16_I01",
+   "text": "最も強い反対は何ですか?",
+   "englishReference": "What is the strongest objection?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "mottomo tsuyoi hantai ha nande suka ?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_JA_D16_C02",
+   "text": "もっと時間が必要な人もいましたが、計画を改善することは可能です。",
+   "englishReference": "Although some people needed more time, we can improve the plan.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "motto jikan ga hitsuyou na nin moimashitaga , keikaku wo kaizen surukotoha kanou desu .",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_JA_D16_I02",
+   "text": "何を提供したいですか?",
+   "englishReference": "What are you willing to offer?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "naniwo teikyou shitaidesuka ?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_JA_D16_C03",
+   "text": "同意できれば次回質問させていただきます。",
+   "englishReference": "If we agree, we can ask for questions next time.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "doui dekireba jikai shitsumon saseteitadakimasu .",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_JA_D16_S02",
+   "text": "それはバランスが取れているように聞こえます。",
+   "englishReference": "That sounds balanced.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "soreha baransu ga tore teiruyouni kiko emasu .",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_JA_D16_S03",
+   "text": "ありがとう。契約書を記録しましょう。",
+   "englishReference": "Thank you. Let us record the agreement.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "arigatou . keiyakusho wo kiroku shimashou .",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_JA_D16_C01",
+     "P_B2_JA_D16_C02",
+     "P_B2_JA_D16_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_JA_D16_I01",
+     "P_B2_JA_D16_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_JA_D16_C01",
+    "P_B2_JA_D16_C02",
+    "P_B2_JA_D16_C03",
+    "P_B2_JA_D16_I01",
+    "P_B2_JA_D16_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B2_D15:COMPLETE"
+  ],
+  "onSuccess": [
+   "FEEDBACK_USED",
+   "B2_D17:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_16",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b2_ja_d15",
+  "nextLessonId": "story_b2_ja_d17",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 16: ملاحظة صادقة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_ja_d16",
+  "languageCode": "ja",
+  "languageNameArabic": "اليابانية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 16,
+  "lessonTitle": "新しいヘルパー",
+  "englishTitle": "A New Helper",
+  "arabicTitle": "مساعد جديد",
+  "canonicalBeatIds": [
+   "BEAT_A1_D16"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "طلب تعاون وتوزيع مهمة سهلة.",
+  "realLifeTransferArabic": "العمل مع زميل أو صديق في مهمة.",
+  "successCapabilityArabic": "اطلب من شخص مهمة محددة ثم أعطه تعليمات قصيرة."
+ },
+ "story": {
+  "storyContextArabic": "ينضم إلياس إلى مشروع السقيفة ليوم واحد.",
+  "storyMissionArabic": "يتعلم ليث طلب مساعدة محددة وشكر المساعد.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: مساعد جديد."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D16_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D16_01",
+     "narrationArabic": "ينضم إلياس إلى مشروع السقيفة ليوم واحد."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D16_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "طلب تعاون وتوزيع مهمة سهلة.",
+   "lines": [
+    {
+     "lineId": "L_A1_JA_D16_01",
+     "speakerId": "elias",
+     "targetText": "こんにちは、エリアス。お越しいただきありがとうございます。",
+     "englishReference": "Hello, Elias. Thank you for coming.",
+     "arabicTranslation": "مرحبًا يا إلياس. شكرًا لقدومك.",
+     "pronunciation": "konnichiha , eriasu . o koshi itadakiarigatougozaimasu .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D16_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_JA_D16_02",
+     "speakerId": "laith",
+     "targetText": "こんにちは、レイス。どうすれば助けられますか?",
+     "englishReference": "Hello, Laith. How can I help?",
+     "arabicTranslation": "مرحبًا يا ليث. كيف يمكنني المساعدة؟",
+     "pronunciation": "konnichiha , raisu . dousureba tasuke raremasuka ?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D16_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_JA_D16_03",
+     "speakerId": "elias",
+     "targetText": "床を掃除してもらえますか？",
+     "englishReference": "Can you clean the floor, please?",
+     "arabicTranslation": "هل يمكنك تنظيف الأرض، من فضلك؟",
+     "pronunciation": "toko wo souji shitemoraemasuka ？",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D16_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_JA_D16_04",
+     "speakerId": "laith",
+     "targetText": "はい、できます。",
+     "englishReference": "Yes, I can do that.",
+     "arabicTranslation": "نعم، أستطيع فعل ذلك.",
+     "pronunciation": "hai , dekimasu .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D16_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_JA_D16_05",
+     "speakerId": "elias",
+     "targetText": "屋根を確認してみます。",
+     "englishReference": "I will check the roof.",
+     "arabicTranslation": "سأفحص السقف.",
+     "pronunciation": "yane wo kakuninshi temimasu .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D16_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_JA_D16_06",
+     "speakerId": "laith",
+     "targetText": "ハンマーは必要ですか？",
+     "englishReference": "Do you need the hammer?",
+     "arabicTranslation": "هل تحتاج إلى المطرقة؟",
+     "pronunciation": "hanmaa ha hitsuyou desuka ？",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D16_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_JA_D16_07",
+     "speakerId": "elias",
+     "targetText": "はい、お願いします。ドアの近くに置いてください。",
+     "englishReference": "Yes, please. Put it near the door.",
+     "arabicTranslation": "نعم، من فضلك. ضعها قرب الباب.",
+     "pronunciation": "hai , o negai shimasu . doa no chikaku ni oi tekudasai .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D16_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_JA_D16_08",
+     "speakerId": "laith",
+     "targetText": "よし。頑張れ、レイス。",
+     "englishReference": "All right. Good luck, Laith.",
+     "arabicTranslation": "حسنًا. حظًا موفقًا يا ليث.",
+     "pronunciation": "yoshi . ganbare , raisu .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D16_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D16_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_JA_D16_C01",
+      "P_A1_JA_D16_C02",
+      "P_A1_JA_D16_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_JA_D16_C01",
+      "P_A1_JA_D16_C02",
+      "P_A1_JA_D16_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_JA_D16_I01",
+      "P_A1_JA_D16_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D16_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: العمل مع زميل أو صديق في مهمة.",
+   "requiredPhraseIds": [
+    "P_A1_JA_D16_C01",
+    "P_A1_JA_D16_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D16_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "今日はレイスが手伝ってくれたと聞いた。",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "konnichiha raisu ga tetsudatsu tekuretato kii ta ."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "村は彼のことを知り始めています。",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "mura ha kano kotowo shiri hajime teimasu ."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D16_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: مساعد جديد.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "اطلب من شخص مهمة محددة ثم أعطه تعليمات قصيرة."
+   },
+   "successWorldConsequence": "A1_DAY_16:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_JA_D16_S01",
+   "text": "こんにちは、エリアス。お越しいただきありがとうございます。",
+   "englishReference": "Hello, Elias. Thank you for coming.",
+   "arabicTranslation": "مرحبًا يا إلياس. شكرًا لقدومك.",
+   "pronunciation": "konnichiha , eriasu . o koshi itadakiarigatougozaimasu .",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D16_LEARNING",
+   "transferContexts": [
+    "العمل مع زميل أو صديق في مهمة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_JA_D16_I01",
+   "text": "こんにちは、レイス。どうすれば助けられますか?",
+   "englishReference": "Hello, Laith. How can I help?",
+   "arabicTranslation": "مرحبًا يا ليث. كيف يمكنني المساعدة؟",
+   "pronunciation": "konnichiha , raisu . dousureba tasuke raremasuka ?",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D16_LEARNING",
+   "transferContexts": [
+    "العمل مع زميل أو صديق في مهمة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_JA_D16_C01",
+   "text": "床を掃除してもらえますか？",
+   "englishReference": "Can you clean the floor, please?",
+   "arabicTranslation": "هل يمكنك تنظيف الأرض، من فضلك؟",
+   "pronunciation": "toko wo souji shitemoraemasuka ？",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D16_LEARNING",
+   "transferContexts": [
+    "العمل مع زميل أو صديق في مهمة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_JA_D16_S02",
+   "text": "はい、できます。",
+   "englishReference": "Yes, I can do that.",
+   "arabicTranslation": "نعم، أستطيع فعل ذلك.",
+   "pronunciation": "hai , dekimasu .",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D16_LEARNING",
+   "transferContexts": [
+    "العمل مع زميل أو صديق في مهمة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_JA_D16_C02",
+   "text": "屋根を確認してみます。",
+   "englishReference": "I will check the roof.",
+   "arabicTranslation": "سأفحص السقف.",
+   "pronunciation": "yane wo kakuninshi temimasu .",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D16_LEARNING",
+   "transferContexts": [
+    "العمل مع زميل أو صديق في مهمة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_JA_D16_C03",
+   "text": "ハンマーは必要ですか？",
+   "englishReference": "Do you need the hammer?",
+   "arabicTranslation": "هل تحتاج إلى المطرقة؟",
+   "pronunciation": "hanmaa ha hitsuyou desuka ？",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D16_LEARNING",
+   "transferContexts": [
+    "العمل مع زميل أو صديق في مهمة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_JA_D16_S03",
+   "text": "はい、お願いします。ドアの近くに置いてください。",
+   "englishReference": "Yes, please. Put it near the door.",
+   "arabicTranslation": "نعم، من فضلك. ضعها قرب الباب.",
+   "pronunciation": "hai , o negai shimasu . doa no chikaku ni oi tekudasai .",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D16_LEARNING",
+   "transferContexts": [
+    "العمل مع زميل أو صديق في مهمة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_JA_D16_I02",
+   "text": "よし。頑張れ、レイス。",
+   "englishReference": "All right. Good luck, Laith.",
+   "arabicTranslation": "حسنًا. حظًا موفقًا يا ليث.",
+   "pronunciation": "yoshi . ganbare , raisu .",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D16_LEARNING",
+   "transferContexts": [
+    "العمل مع زميل أو صديق في مهمة."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_JA_D16_C01",
+     "P_A1_JA_D16_C02",
+     "P_A1_JA_D16_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_JA_D16_C01",
+     "P_A1_JA_D16_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_JA_D16_C01",
+    "P_A1_JA_D16_C02",
+    "P_A1_JA_D16_C03",
+    "P_A1_JA_D16_I01",
+    "P_A1_JA_D16_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D15:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_16:COMPLETE",
+   "A1_D17:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_16",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_ja_d15",
+  "nextLessonId": "story_a1_ja_d17",
+  "nextLessonHookArabic": "غدًا: نصيحة فينسنت.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 16: مساعد جديد."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

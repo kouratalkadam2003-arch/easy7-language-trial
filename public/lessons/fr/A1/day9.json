@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 9,
+ "story": {
+  "originalText": "Yassin: C'est notre chambre, Yassin.\nOmar: La chambre est lumineuse.\nYassin: Ton lit est à gauche.\nOmar: Et ton lit est à droite.\nYassin: Il y a une table près de la fenêtre.\nOmar: Je peux mettre mon sac sur la table.\nYassin: S'il te plaît, mets tes vêtements dans l'armoire.\nOmar: D'accord, la chambre a l'air bien maintenant.\nYassin: J'ai faim après le nettoyage.\nOmar: Faisons à manger.",
+  "translatedText": "Yassin: هذه غرفتنا يا ياسين.\nOmar: الغرفة مضيئة.\nYassin: سريرك على اليسار.\nOmar: وسريرك على اليمين.\nYassin: هناك طاولة قرب النافذة.\nOmar: يمكنني وضع حقيبتي على الطاولة.\nYassin: من فضلك ضع ملابسك في الخزانة.\nOmar: حسناً، تبدو الغرفة جيدة الآن.\nYassin: أنا جائع بعد التنظيف.\nOmar: لنصنع بعض الطعام.",
+  "nativeScriptText": "Yassin: C'est notre chambre, Yassin.\nOmar: La chambre est lumineuse.\nYassin: Ton lit est à gauche.\nOmar: Et ton lit est à droite.\nYassin: Il y a une table près de la fenêtre.\nOmar: Je peux mettre mon sac sur la table.\nYassin: S'il te plaît, mets tes vêtements dans l'armoire.\nOmar: D'accord, la chambre a l'air bien maintenant.\nYassin: J'ai faim après le nettoyage.\nOmar: Faisons à manger.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 9: غرفة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "C'est notre chambre, Yassin.",
+    "translation": "هذه غرفتنا يا ياسين.",
+    "pronunciation": "C'est notre chambre, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "La chambre est lumineuse.",
+    "translation": "الغرفة مضيئة.",
+    "pronunciation": "La chambre est lumineuse."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ton lit est à gauche.",
+    "translation": "سريرك على اليسار.",
+    "pronunciation": "Ton lit est à gauche."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Et ton lit est à droite.",
+    "translation": "وسريرك على اليمين.",
+    "pronunciation": "Et ton lit est à droite."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Il y a une table près de la fenêtre.",
+    "translation": "هناك طاولة قرب النافذة.",
+    "pronunciation": "Il y a une table près de la fenêtre."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je peux mettre mon sac sur la table.",
+    "translation": "يمكنني وضع حقيبتي على الطاولة.",
+    "pronunciation": "Je peux mettre mon sac sur la table."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "S'il te plaît, mets tes vêtements dans l'armoire.",
+    "translation": "من فضلك ضع ملابسك في الخزانة.",
+    "pronunciation": "S'il te plaît, mets tes vêtements dans l'armoire."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "D'accord, la chambre a l'air bien maintenant.",
+    "translation": "حسناً، تبدو الغرفة جيدة الآن.",
+    "pronunciation": "D'accord, la chambre a l'air bien maintenant."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "J'ai faim après le nettoyage.",
+    "translation": "أنا جائع بعد التنظيف.",
+    "pronunciation": "J'ai faim après le nettoyage."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Faisons à manger.",
+    "translation": "لنصنع بعض الطعام.",
+    "pronunciation": "Faisons à manger."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d9",
+   "title": "غرفة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 9,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s2_d8"
+  ],
+  "createdAt": 1786696446398
+ }
+}

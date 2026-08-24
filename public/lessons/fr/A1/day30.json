@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 30,
+ "story": {
+  "originalText": "Yassin: Bonjour, Omar. Es-tu prêt pour le test ?\nOmar: Oui, je suis prêt, si Dieu le veut.\nYassin: Quel est ton nom ?\nOmar: Je m’appelle Omar et je viens d’Algérie.\nYassin: Comment vas-tu, et où est ton livre ?\nOmar: Je vais bien. Mon livre est sur le bureau.\nYassin: Que veux-tu manger ?\nOmar: Je veux du riz et de l'eau, s'il te plaît.\nYassin: Excellent. Tu as réussi A1. Bravo !\nOmar: Merci, Yassin. Au revoir, A1. Bonjour, A2 !",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هل أنت مستعد للامتحان؟\nOmar: نعم، أنا مستعد، إن شاء الله.\nYassin: ما اسمك؟\nOmar: اسمي ياسين، وأنا من الجزائر.\nYassin: كيف حالك، وأين كتابك؟\nOmar: أنا بخير. كتابي على المكتب.\nYassin: ماذا تريد أن تأكل؟\nOmar: أريد الأرز والماء، من فضلك.\nYassin: ممتاز. لقد نجحت في A1. أحسنت!\nOmar: شكراً يا عمر. وداعاً A1. مرحباً A2!",
+  "nativeScriptText": "Yassin: Bonjour, Omar. Es-tu prêt pour le test ?\nOmar: Oui, je suis prêt, si Dieu le veut.\nYassin: Quel est ton nom ?\nOmar: Je m’appelle Omar et je viens d’Algérie.\nYassin: Comment vas-tu, et où est ton livre ?\nOmar: Je vais bien. Mon livre est sur le bureau.\nYassin: Que veux-tu manger ?\nOmar: Je veux du riz et de l'eau, s'il te plaît.\nYassin: Excellent. Tu as réussi A1. Bravo !\nOmar: Merci, Yassin. Au revoir, A1. Bonjour, A2 !",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 30: امتحان المستوى A1",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour, Omar. Es-tu prêt pour le test ?",
+    "translation": "صباح الخير يا ياسين. هل أنت مستعد للامتحان؟",
+    "pronunciation": "Bonjour, Omar. Es-tu prêt pour le test ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, je suis prêt, si Dieu le veut.",
+    "translation": "نعم، أنا مستعد، إن شاء الله.",
+    "pronunciation": "Oui, je suis prêt, si Dieu le veut."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Quel est ton nom ?",
+    "translation": "ما اسمك؟",
+    "pronunciation": "Quel est ton nom ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je m’appelle Omar et je viens d’Algérie.",
+    "translation": "اسمي ياسين، وأنا من الجزائر.",
+    "pronunciation": "Je m’appelle Omar et je viens d’Algérie."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Comment vas-tu, et où est ton livre ?",
+    "translation": "كيف حالك، وأين كتابك؟",
+    "pronunciation": "Comment vas-tu, et où est ton livre ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je vais bien. Mon livre est sur le bureau.",
+    "translation": "أنا بخير. كتابي على المكتب.",
+    "pronunciation": "Je vais bien. Mon livre est sur le bureau."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Que veux-tu manger ?",
+    "translation": "ماذا تريد أن تأكل؟",
+    "pronunciation": "Que veux-tu manger ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je veux du riz et de l'eau, s'il te plaît.",
+    "translation": "أريد الأرز والماء، من فضلك.",
+    "pronunciation": "Je veux du riz et de l'eau, s'il te plaît."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Excellent. Tu as réussi A1. Bravo !",
+    "translation": "ممتاز. لقد نجحت في A1. أحسنت!",
+    "pronunciation": "Excellent. Tu as réussi A1. Bravo !"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Merci, Yassin. Au revoir, A1. Bonjour, A2 !",
+    "translation": "شكراً يا عمر. وداعاً A1. مرحباً A2!",
+    "pronunciation": "Merci, Yassin. Au revoir, A1. Bonjour, A2 !"
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d30",
+   "title": "امتحان المستوى A1",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 30,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s5_d29"
+  ],
+  "createdAt": 1786696446398
+ }
+}

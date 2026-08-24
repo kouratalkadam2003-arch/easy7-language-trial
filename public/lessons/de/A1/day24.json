@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 24,
+ "story": {
+  "originalText": "Yassin: Entschuldigung, kann ich bitte die Rechnung haben?\nOmar: Die Rechnung liegt auf dem Tisch.\nYassin: Wie viel ist die Rechnung?\nOmar: Die Rechnung ist sechzehn Dollar.\nYassin: Ich habe zehn Dollar.\nOmar: Ich habe sechs Dollar.\nYassin: Wir können zusammen bezahlen.\nOmar: Danke, mein Freund.\nYassin: Gern geschehen. Geht es dir gut?\nOmar: Ich fühle mich ein bisschen krank.",
+  "translatedText": "Yassin: عفواً، هل يمكنني الحصول على الفاتورة، من فضلك؟\nOmar: الفاتورة على الطاولة.\nYassin: كم قيمة الفاتورة؟\nOmar: الفاتورة ستة عشر دولاراً.\nYassin: لدي عشرة دولارات.\nOmar: لدي ستة دولارات.\nYassin: يمكننا أن ندفع معاً.\nOmar: شكراً يا صديقي.\nYassin: عفواً. هل أنت بخير؟\nOmar: أشعر بالمرض قليلاً.",
+  "nativeScriptText": "Yassin: Entschuldigung, kann ich bitte die Rechnung haben?\nOmar: Die Rechnung liegt auf dem Tisch.\nYassin: Wie viel ist die Rechnung?\nOmar: Die Rechnung ist sechzehn Dollar.\nYassin: Ich habe zehn Dollar.\nOmar: Ich habe sechs Dollar.\nYassin: Wir können zusammen bezahlen.\nOmar: Danke, mein Freund.\nYassin: Gern geschehen. Geht es dir gut?\nOmar: Ich fühle mich ein bisschen krank.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 24: فاتورة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Entschuldigung, kann ich bitte die Rechnung haben?",
+    "translation": "عفواً، هل يمكنني الحصول على الفاتورة، من فضلك؟",
+    "pronunciation": "Entschuldigung, kann ich bitte die Rechnung haben?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Die Rechnung liegt auf dem Tisch.",
+    "translation": "الفاتورة على الطاولة.",
+    "pronunciation": "Die Rechnung liegt auf dem Tisch."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wie viel ist die Rechnung?",
+    "translation": "كم قيمة الفاتورة؟",
+    "pronunciation": "Wie viel ist die Rechnung?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Die Rechnung ist sechzehn Dollar.",
+    "translation": "الفاتورة ستة عشر دولاراً.",
+    "pronunciation": "Die Rechnung ist sechzehn Dollar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich habe zehn Dollar.",
+    "translation": "لدي عشرة دولارات.",
+    "pronunciation": "Ich habe zehn Dollar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich habe sechs Dollar.",
+    "translation": "لدي ستة دولارات.",
+    "pronunciation": "Ich habe sechs Dollar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wir können zusammen bezahlen.",
+    "translation": "يمكننا أن ندفع معاً.",
+    "pronunciation": "Wir können zusammen bezahlen."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Danke, mein Freund.",
+    "translation": "شكراً يا صديقي.",
+    "pronunciation": "Danke, mein Freund."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Gern geschehen. Geht es dir gut?",
+    "translation": "عفواً. هل أنت بخير؟",
+    "pronunciation": "Gern geschehen. Geht es dir gut?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich fühle mich ein bisschen krank.",
+    "translation": "أشعر بالمرض قليلاً.",
+    "pronunciation": "Ich fühle mich ein bisschen krank."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d24",
+   "title": "فاتورة",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 24,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s4_d23"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_fr_d17",
+  "languageCode": "fr",
+  "languageNameArabic": "الفرنسية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 17,
+  "lessonTitle": "Un rendez-vous important",
+  "englishTitle": "An Important Appointment",
+  "arabicTitle": "موعد مهم",
+  "canonicalBeatIds": [
+   "BEAT_A2_D17"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "تحديد موعد وتأكيد الوقت والمكان.",
+  "realLifeTransferArabic": "ترتيب موعد مع زميل أو خدمة.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: موعد مهم دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "يرتب ليث لقاءً مع غاستون لصنع لوحة السوق.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: موعد مهم.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: موعد مهم."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D17_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D17_01",
+     "narrationArabic": "يرتب ليث لقاءً مع غاستون لصنع لوحة السوق."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D17_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "تحديد موعد وتأكيد الوقت والمكان.",
+   "lines": [
+    {
+     "lineId": "L_A2_FR_D17_01",
+     "speakerId": "gaston",
+     "targetText": "Bonjour, Laith. Quand souhaiteriez-vous vous rencontrer ?",
+     "englishReference": "Good morning, Laith. When would you like to meet?",
+     "arabicTranslation": "صباح الخير يا ليث. When would you like to meet?",
+     "pronunciation": "Bonjour, Laith. Quand souhaiteriez-vous vous rencontrer ?",
+     "phraseIds": [
+      "P_A2_FR_D17_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_FR_D17_02",
+     "speakerId": "laith",
+     "targetText": "Bonjour. Pouvons-nous nous voir à dix heures demain ?",
+     "englishReference": "Good morning. Can we meet at ten tomorrow?",
+     "arabicTranslation": "صباح الخير. Can we meet at ten tomorrow?",
+     "pronunciation": "Bonjour. Pouvons-nous nous voir à dix heures demain ?",
+     "phraseIds": [
+      "P_A2_FR_D17_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_FR_D17_03",
+     "speakerId": "gaston",
+     "targetText": "Où devrions-nous nous rencontrer ?",
+     "englishReference": "Where should we meet?",
+     "arabicTranslation": "Where should we meet?",
+     "pronunciation": "Où devrions-nous nous rencontrer ?",
+     "phraseIds": [
+      "P_A2_FR_D17_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_FR_D17_04",
+     "speakerId": "laith",
+     "targetText": "Au hangar derrière le café.",
+     "englishReference": "At the shed behind the café.",
+     "arabicTranslation": "At the shed behind the café.",
+     "pronunciation": "Au hangar derrière le café.",
+     "phraseIds": [
+      "P_A2_FR_D17_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_FR_D17_05",
+     "speakerId": "gaston",
+     "targetText": "Cela fonctionne pour moi. Ne soyez pas en retard.",
+     "englishReference": "That works for me. Do not be late.",
+     "arabicTranslation": "That works for me. Do not be late.",
+     "pronunciation": "Cela fonctionne pour moi. Ne soyez pas en retard.",
+     "phraseIds": [
+      "P_A2_FR_D17_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_FR_D17_06",
+     "speakerId": "laith",
+     "targetText": "Je serai là à l'heure.",
+     "englishReference": "I will be there on time.",
+     "arabicTranslation": "I will be there on time.",
+     "pronunciation": "Je serai là à l'heure.",
+     "phraseIds": [
+      "P_A2_FR_D17_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_FR_D17_07",
+     "speakerId": "gaston",
+     "targetText": "Cela semble être un bon plan.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "Cela semble être un bon plan.",
+     "phraseIds": [
+      "P_A2_FR_D17_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_FR_D17_08",
+     "speakerId": "laith",
+     "targetText": "Merci. À plus tard.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Merci. À plus tard.",
+     "phraseIds": [
+      "P_A2_FR_D17_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D17_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_FR_D17_C01",
+      "P_A2_FR_D17_C02",
+      "P_A2_FR_D17_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_FR_D17_C01",
+      "P_A2_FR_D17_C02",
+      "P_A2_FR_D17_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_FR_D17_I01",
+      "P_A2_FR_D17_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D17_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: ترتيب موعد مع زميل أو خدمة.",
+   "requiredPhraseIds": [
+    "P_A2_FR_D17_C01",
+    "P_A2_FR_D17_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D17_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Le marché évolue rapidement cette saison.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "Le marché évolue rapidement cette saison."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Oui. Les gens posent davantage de questions sur les anciennes routes.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "Oui. Les gens posent davantage de questions sur les anciennes routes."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D17_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: موعد مهم.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: موعد مهم."
+   },
+   "successWorldConsequence": "APPOINTMENT_CONFIRMED",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_FR_D17_S01",
+   "text": "Bonjour, Laith. Quand souhaiteriez-vous vous rencontrer ?",
+   "englishReference": "Good morning, Laith. When would you like to meet?",
+   "arabicTranslation": "صباح الخير يا ليث. When would you like to meet?",
+   "pronunciation": "Bonjour, Laith. Quand souhaiteriez-vous vous rencontrer ?",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "ترتيب موعد مع زميل أو خدمة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_FR_D17_C01",
+   "text": "Bonjour. Pouvons-nous nous voir à dix heures demain ?",
+   "englishReference": "Good morning. Can we meet at ten tomorrow?",
+   "arabicTranslation": "صباح الخير. Can we meet at ten tomorrow?",
+   "pronunciation": "Bonjour. Pouvons-nous nous voir à dix heures demain ?",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "ترتيب موعد مع زميل أو خدمة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_FR_D17_I01",
+   "text": "Où devrions-nous nous rencontrer ?",
+   "englishReference": "Where should we meet?",
+   "arabicTranslation": "Where should we meet?",
+   "pronunciation": "Où devrions-nous nous rencontrer ?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "ترتيب موعد مع زميل أو خدمة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_FR_D17_C02",
+   "text": "Au hangar derrière le café.",
+   "englishReference": "At the shed behind the café.",
+   "arabicTranslation": "At the shed behind the café.",
+   "pronunciation": "Au hangar derrière le café.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "ترتيب موعد مع زميل أو خدمة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_FR_D17_I02",
+   "text": "Cela fonctionne pour moi. Ne soyez pas en retard.",
+   "englishReference": "That works for me. Do not be late.",
+   "arabicTranslation": "That works for me. Do not be late.",
+   "pronunciation": "Cela fonctionne pour moi. Ne soyez pas en retard.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "ترتيب موعد مع زميل أو خدمة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_FR_D17_C03",
+   "text": "Je serai là à l'heure.",
+   "englishReference": "I will be there on time.",
+   "arabicTranslation": "I will be there on time.",
+   "pronunciation": "Je serai là à l'heure.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "ترتيب موعد مع زميل أو خدمة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_FR_D17_S02",
+   "text": "Cela semble être un bon plan.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "Cela semble être un bon plan.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "ترتيب موعد مع زميل أو خدمة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_FR_D17_S03",
+   "text": "Merci. À plus tard.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Merci. À plus tard.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "ترتيب موعد مع زميل أو خدمة."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_FR_D17_C01",
+     "P_A2_FR_D17_C02",
+     "P_A2_FR_D17_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_FR_D17_I01",
+     "P_A2_FR_D17_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_FR_D17_C01",
+    "P_A2_FR_D17_C02",
+    "P_A2_FR_D17_C03",
+    "P_A2_FR_D17_I01",
+    "P_A2_FR_D17_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D16:COMPLETE"
+  ],
+  "onSuccess": [
+   "APPOINTMENT_CONFIRMED",
+   "A2_D18:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_17",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_fr_d16",
+  "nextLessonId": "story_a2_fr_d18",
+  "nextLessonHookArabic": "يزداد الضغط قبل افتتاح سوق نهاية الأسبوع.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 17: موعد مهم."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

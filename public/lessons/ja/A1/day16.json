@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 16,
+ "story": {
+  "originalText": "Yassin: Ohayō, Yassin. Gakusei desu ka?\nOmar: Hai, watashi wa gakusei desu.\nYassin: Nani o benkyō shite imasu ka?\nOmar: Watashi wa gakushūsho de Eigo o benkyō shite imasu.\nYassin: Atarashii gakusei desu ka?\nOmar: Hai, atarashii desu ga, junbi dekite imasu.\nYassin: Yoi gakusei wa mainichi benkyō shimasu.\nOmar: Watashi wa maiban anata to benkyō shimasu.\nYassin: Sensei mo yoi desu.\nOmar: Sensei ni aitai desu.",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هل أنت طالب؟\nOmar: نعم، أنا طالب.\nYassin: ماذا تدرس؟\nOmar: أدرس الإنجليزية في المعهد.\nYassin: هل أنت طالب جديد؟\nOmar: نعم، أنا جديد، لكنني مستعد.\nYassin: الطالب الجيد يدرس كل يوم.\nOmar: أدرس معك كل مساء.\nYassin: معلمنا جيد أيضاً.\nOmar: أريد أن أقابل المعلم.",
+  "nativeScriptText": "Yassin: おはよう、Yassin。学生ですか？\nOmar: はい、私は学生です。\nYassin: 何を勉強していますか？\nOmar: 私は学習所で英語を勉強しています。\nYassin: 新しい学生ですか？\nOmar: はい、新しいですが、準備できています。\nYassin: 良い学生は毎日勉強します。\nOmar: 私は毎晩あなたと勉強します。\nYassin: 先生も良いです。\nOmar: 先生に会いたいです。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 16: طالب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "おはよう、Yassin。学生ですか？",
+    "translation": "صباح الخير يا ياسين. هل أنت طالب؟",
+    "pronunciation": "Ohayō, Yassin. Gakusei desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、私は学生です。",
+    "translation": "نعم، أنا طالب.",
+    "pronunciation": "Hai, watashi wa gakusei desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "何を勉強していますか？",
+    "translation": "ماذا تدرس؟",
+    "pronunciation": "Nani o benkyō shite imasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私は学習所で英語を勉強しています。",
+    "translation": "أدرس الإنجليزية في المعهد.",
+    "pronunciation": "Watashi wa gakushūsho de Eigo o benkyō shite imasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "新しい学生ですか？",
+    "translation": "هل أنت طالب جديد؟",
+    "pronunciation": "Atarashii gakusei desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、新しいですが、準備できています。",
+    "translation": "نعم، أنا جديد، لكنني مستعد.",
+    "pronunciation": "Hai, atarashii desu ga, junbi dekite imasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "良い学生は毎日勉強します。",
+    "translation": "الطالب الجيد يدرس كل يوم.",
+    "pronunciation": "Yoi gakusei wa mainichi benkyō shimasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私は毎晩あなたと勉強します。",
+    "translation": "أدرس معك كل مساء.",
+    "pronunciation": "Watashi wa maiban anata to benkyō shimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "先生も良いです。",
+    "translation": "معلمنا جيد أيضاً.",
+    "pronunciation": "Sensei mo yoi desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "先生に会いたいです。",
+    "translation": "أريد أن أقابل المعلم.",
+    "pronunciation": "Sensei ni aitai desu."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d16",
+   "title": "طالب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 16,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s3_d15"
+  ],
+  "createdAt": 1786696446398
+ }
+}

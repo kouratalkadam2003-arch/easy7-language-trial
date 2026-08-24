@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 15,
+ "story": {
+  "originalText": "Yassin: Ciao, Omar. Hai un lavoro?\nOmar: Sì, ho un lavoro part-time.\nYassin: Dove lavori?\nOmar: Lavoro in un piccolo negozio.\nYassin: Ti piace il tuo lavoro?\nOmar: Sì, le persone sono gentili.\nYassin: Vorrei avere un lavoro un giorno.\nOmar: Per prima cosa, sei uno studente.\nYassin: Sì, studio ogni mattina.\nOmar: Studia bene. Ci vediamo domani.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل لديك عمل؟\nOmar: نعم، لدي عمل بدوام جزئي.\nYassin: أين تعمل؟\nOmar: أعمل في متجر صغير.\nYassin: هل تحب عملك؟\nOmar: نعم، الناس لطفاء.\nYassin: أريد عملاً يوماً ما.\nOmar: أولاً، أنت طالب.\nYassin: نعم، أدرس كل صباح.\nOmar: ادرس جيداً. أراك غداً.",
+  "nativeScriptText": "Yassin: Ciao, Omar. Hai un lavoro?\nOmar: Sì, ho un lavoro part-time.\nYassin: Dove lavori?\nOmar: Lavoro in un piccolo negozio.\nYassin: Ti piace il tuo lavoro?\nOmar: Sì, le persone sono gentili.\nYassin: Vorrei avere un lavoro un giorno.\nOmar: Per prima cosa, sei uno studente.\nYassin: Sì, studio ogni mattina.\nOmar: Studia bene. Ci vediamo domani.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 15: عمل",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ciao, Omar. Hai un lavoro?",
+    "translation": "مرحباً يا عمر. هل لديك عمل؟",
+    "pronunciation": "Ciao, Omar. Hai un lavoro?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, ho un lavoro part-time.",
+    "translation": "نعم، لدي عمل بدوام جزئي.",
+    "pronunciation": "Sì, ho un lavoro part-time."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Dove lavori?",
+    "translation": "أين تعمل؟",
+    "pronunciation": "Dove lavori?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Lavoro in un piccolo negozio.",
+    "translation": "أعمل في متجر صغير.",
+    "pronunciation": "Lavoro in un piccolo negozio."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ti piace il tuo lavoro?",
+    "translation": "هل تحب عملك؟",
+    "pronunciation": "Ti piace il tuo lavoro?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, le persone sono gentili.",
+    "translation": "نعم، الناس لطفاء.",
+    "pronunciation": "Sì, le persone sono gentili."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Vorrei avere un lavoro un giorno.",
+    "translation": "أريد عملاً يوماً ما.",
+    "pronunciation": "Vorrei avere un lavoro un giorno."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Per prima cosa, sei uno studente.",
+    "translation": "أولاً، أنت طالب.",
+    "pronunciation": "Per prima cosa, sei uno studente."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Sì, studio ogni mattina.",
+    "translation": "نعم، أدرس كل صباح.",
+    "pronunciation": "Sì, studio ogni mattina."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Studia bene. Ci vediamo domani.",
+    "translation": "ادرس جيداً. أراك غداً.",
+    "pronunciation": "Studia bene. Ci vediamo domani."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d15",
+   "title": "عمل",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 15,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s2_d14"
+  ],
+  "createdAt": 1786696446398
+ }
+}

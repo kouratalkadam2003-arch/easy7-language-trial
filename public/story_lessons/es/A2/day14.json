@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_es_d14",
+  "languageCode": "es",
+  "languageNameArabic": "الإسبانية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 14,
+  "lessonTitle": "La misión de la semana",
+  "englishTitle": "The Week’s Mission",
+  "arabicTitle": "مهمة الأسبوع",
+  "canonicalBeatIds": [
+   "BEAT_A2_D14"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "دمج الروتين والوقت والصحة والتعاون.",
+  "realLifeTransferArabic": "تنظيم يوم فريق صغير.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: مهمة الأسبوع دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "تنفذ المجموعة يومًا منظمًا يجمع المزرعة والسوق والطعام.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: مهمة الأسبوع.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: مهمة الأسبوع."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D14_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D14_01",
+     "narrationArabic": "تنفذ المجموعة يومًا منظمًا يجمع المزرعة والسوق والطعام."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D14_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "دمج الروتين والوقت والصحة والتعاون.",
+   "lines": [
+    {
+     "lineId": "L_A2_ES_D14_01",
+     "speakerId": "elly",
+     "targetText": "Buenos días, Laith. ¿Cuál es nuestro plan para hoy?",
+     "englishReference": "Good morning, Laith. What is our plan for today?",
+     "arabicTranslation": "صباح الخير يا ليث. What is our plan for today?",
+     "pronunciation": "Buenos días, Laith. ¿Cuál es nuestro plan para hoy?",
+     "phraseIds": [
+      "P_A2_ES_D14_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ES_D14_02",
+     "speakerId": "laith",
+     "targetText": "Buen día. Primero, preparamos el jardín.",
+     "englishReference": "Good morning. First, we prepare the garden.",
+     "arabicTranslation": "صباح الخير. First, we prepare the garden.",
+     "pronunciation": "Buen día. Primero, preparamos el jardín.",
+     "phraseIds": [
+      "P_A2_ES_D14_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D14_03",
+     "speakerId": "elly",
+     "targetText": "¿Qué pasa después del almuerzo?",
+     "englishReference": "What happens after lunch?",
+     "arabicTranslation": "What happens after lunch?",
+     "pronunciation": "¿Qué pasa después del almuerzo?",
+     "phraseIds": [
+      "P_A2_ES_D14_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D14_04",
+     "speakerId": "laith",
+     "targetText": "Luego llevamos la comida al equipo del mercado.",
+     "englishReference": "Then we take the food to the market team.",
+     "arabicTranslation": "Then we take the food to the market team.",
+     "pronunciation": "Luego llevamos la comida al equipo del mercado.",
+     "phraseIds": [
+      "P_A2_ES_D14_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D14_05",
+     "speakerId": "elly",
+     "targetText": "¿Podrán todos terminar antes del atardecer?",
+     "englishReference": "Can everyone finish before sunset?",
+     "arabicTranslation": "Can everyone finish before sunset?",
+     "pronunciation": "¿Podrán todos terminar antes del atardecer?",
+     "phraseIds": [
+      "P_A2_ES_D14_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D14_06",
+     "speakerId": "laith",
+     "targetText": "Sí, si trabajamos juntos.",
+     "englishReference": "Yes, if we work together.",
+     "arabicTranslation": "Yes, if we work together.",
+     "pronunciation": "Sí, si trabajamos juntos.",
+     "phraseIds": [
+      "P_A2_ES_D14_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D14_07",
+     "speakerId": "elly",
+     "targetText": "Suena como un buen plan.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "Suena como un buen plan.",
+     "phraseIds": [
+      "P_A2_ES_D14_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ES_D14_08",
+     "speakerId": "laith",
+     "targetText": "Gracias. Hasta luego.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Gracias. Hasta luego.",
+     "phraseIds": [
+      "P_A2_ES_D14_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D14_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_ES_D14_C01",
+      "P_A2_ES_D14_C02",
+      "P_A2_ES_D14_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_ES_D14_C01",
+      "P_A2_ES_D14_C02",
+      "P_A2_ES_D14_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_ES_D14_I01",
+      "P_A2_ES_D14_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D14_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: تنظيم يوم فريق صغير.",
+   "requiredPhraseIds": [
+    "P_A2_ES_D14_C01",
+    "P_A2_ES_D14_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D14_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "El mercado está cambiando rápidamente esta temporada.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "El mercado está cambiando rápidamente esta temporada."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Sí. La gente hace más preguntas sobre las carreteras antiguas.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "Sí. La gente hace más preguntas sobre las carreteras antiguas."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D14_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: مهمة الأسبوع.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: مهمة الأسبوع."
+   },
+   "successWorldConsequence": "A2_WEEK_2:COMPLETE",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_ES_D14_S01",
+   "text": "Buenos días, Laith. ¿Cuál es nuestro plan para hoy?",
+   "englishReference": "Good morning, Laith. What is our plan for today?",
+   "arabicTranslation": "صباح الخير يا ليث. What is our plan for today?",
+   "pronunciation": "Buenos días, Laith. ¿Cuál es nuestro plan para hoy?",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ES_D14_C01",
+   "text": "Buen día. Primero, preparamos el jardín.",
+   "englishReference": "Good morning. First, we prepare the garden.",
+   "arabicTranslation": "صباح الخير. First, we prepare the garden.",
+   "pronunciation": "Buen día. Primero, preparamos el jardín.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ES_D14_I01",
+   "text": "¿Qué pasa después del almuerzo?",
+   "englishReference": "What happens after lunch?",
+   "arabicTranslation": "What happens after lunch?",
+   "pronunciation": "¿Qué pasa después del almuerzo?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ES_D14_C02",
+   "text": "Luego llevamos la comida al equipo del mercado.",
+   "englishReference": "Then we take the food to the market team.",
+   "arabicTranslation": "Then we take the food to the market team.",
+   "pronunciation": "Luego llevamos la comida al equipo del mercado.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ES_D14_I02",
+   "text": "¿Podrán todos terminar antes del atardecer?",
+   "englishReference": "Can everyone finish before sunset?",
+   "arabicTranslation": "Can everyone finish before sunset?",
+   "pronunciation": "¿Podrán todos terminar antes del atardecer?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ES_D14_C03",
+   "text": "Sí, si trabajamos juntos.",
+   "englishReference": "Yes, if we work together.",
+   "arabicTranslation": "Yes, if we work together.",
+   "pronunciation": "Sí, si trabajamos juntos.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ES_D14_S02",
+   "text": "Suena como un buen plan.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "Suena como un buen plan.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ES_D14_S03",
+   "text": "Gracias. Hasta luego.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Gracias. Hasta luego.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "تنظيم يوم فريق صغير."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_ES_D14_C01",
+     "P_A2_ES_D14_C02",
+     "P_A2_ES_D14_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_ES_D14_I01",
+     "P_A2_ES_D14_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_ES_D14_C01",
+    "P_A2_ES_D14_C02",
+    "P_A2_ES_D14_C03",
+    "P_A2_ES_D14_I01",
+    "P_A2_ES_D14_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D13:COMPLETE"
+  ],
+  "onSuccess": [
+   "A2_WEEK_2:COMPLETE",
+   "A2_D15:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_14",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_es_d13",
+  "nextLessonId": "story_a2_es_d15",
+  "nextLessonHookArabic": "ينتهي الأسبوع بثقة أكبر في فريق ليث.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 14: مهمة الأسبوع."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

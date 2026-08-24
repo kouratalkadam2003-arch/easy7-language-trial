@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 10,
+ "story": {
+  "originalText": "Yassin: Hola, Omar. ¿Qué comida tenemos?\nOmar: Tenemos pan, arroz, huevos y fruta.\nYassin: Me gustan los huevos y el pan.\nOmar: Me gusta el arroz y el pollo.\nYassin: ¿Tenemos pollo hoy?\nOmar: No, no tenemos pollo.\nYassin: Entonces cocinemos huevos.\nOmar: Buena idea. La comida es fácil.\nYassin: Quiero pan con los huevos.\nOmar: Lo traeré ahora.",
+  "translatedText": "Yassin: مرحباً يا عمر. ما الطعام الذي لدينا؟\nOmar: لدينا خبز وأرز وبيض وفاكهة.\nYassin: أنا أحب البيض والخبز.\nOmar: أنا أحب الأرز والدجاج.\nYassin: هل لدينا دجاج اليوم؟\nOmar: لا، ليس لدينا دجاج.\nYassin: إذن لنطبخ البيض.\nOmar: فكرة جيدة. الطعام سهل.\nYassin: أريد خبزاً مع البيض.\nOmar: سأحضره الآن.",
+  "nativeScriptText": "Yassin: Hola, Omar. ¿Qué comida tenemos?\nOmar: Tenemos pan, arroz, huevos y fruta.\nYassin: Me gustan los huevos y el pan.\nOmar: Me gusta el arroz y el pollo.\nYassin: ¿Tenemos pollo hoy?\nOmar: No, no tenemos pollo.\nYassin: Entonces cocinemos huevos.\nOmar: Buena idea. La comida es fácil.\nYassin: Quiero pan con los huevos.\nOmar: Lo traeré ahora.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 10: طعام",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hola, Omar. ¿Qué comida tenemos?",
+    "translation": "مرحباً يا عمر. ما الطعام الذي لدينا؟",
+    "pronunciation": "Hola, Omar. ¿Qué comida tenemos?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Tenemos pan, arroz, huevos y fruta.",
+    "translation": "لدينا خبز وأرز وبيض وفاكهة.",
+    "pronunciation": "Tenemos pan, arroz, huevos y fruta."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Me gustan los huevos y el pan.",
+    "translation": "أنا أحب البيض والخبز.",
+    "pronunciation": "Me gustan los huevos y el pan."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Me gusta el arroz y el pollo.",
+    "translation": "أنا أحب الأرز والدجاج.",
+    "pronunciation": "Me gusta el arroz y el pollo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Tenemos pollo hoy?",
+    "translation": "هل لدينا دجاج اليوم؟",
+    "pronunciation": "¿Tenemos pollo hoy?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, no tenemos pollo.",
+    "translation": "لا، ليس لدينا دجاج.",
+    "pronunciation": "No, no tenemos pollo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Entonces cocinemos huevos.",
+    "translation": "إذن لنطبخ البيض.",
+    "pronunciation": "Entonces cocinemos huevos."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Buena idea. La comida es fácil.",
+    "translation": "فكرة جيدة. الطعام سهل.",
+    "pronunciation": "Buena idea. La comida es fácil."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Quiero pan con los huevos.",
+    "translation": "أريد خبزاً مع البيض.",
+    "pronunciation": "Quiero pan con los huevos."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Lo traeré ahora.",
+    "translation": "سأحضره الآن.",
+    "pronunciation": "Lo traeré ahora."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d10",
+   "title": "طعام",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 10,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s2_d9"
+  ],
+  "createdAt": 1786696446398
+ }
+}

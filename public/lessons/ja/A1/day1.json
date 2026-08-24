@@ -1,0 +1,119 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 1,
+ "story": {
+  "originalText": "Yassin: Konnichiwa. Watashi no namae wa Yassin desu.\nOmar: Konnichiwa, Yassin. Watashi no namae wa Omar desu.\nYassin: Hajimemashite, Omar.\nOmar: Kochira koso, hajimemashite.\nYassin: Kore wa watashitachi no atarashii heya desu ka?\nOmar: Hai, kore wa watashitachi no heya desu.\nYassin: Watashi wa koko ni kita bakari desu.\nOmar: Ie e yōkoso, Yassin.\nYassin: Arigatō, Omar.\nOmar: Mata ashita, tomodachi.",
+  "translatedText": "Yassin: مرحباً، اسمي ياسين.\nOmar: مرحباً يا ياسين. اسمي عمر.\nYassin: سعيد بلقائك يا عمر.\nOmar: سعيد بلقائك أيضاً.\nYassin: هل هذه غرفتنا الجديدة؟\nOmar: نعم، هذه غرفتنا.\nYassin: أنا جديد هنا.\nOmar: أهلاً بك في البيت يا ياسين.\nYassin: شكراً يا عمر.\nOmar: أراك غداً يا صديقي.",
+  "nativeScriptText": "Yassin: こんにちは。私の名前は Yassin です。\nOmar: こんにちは、Yassin。私の名前は Omar です。\nYassin: はじめまして、Omar。\nOmar: こちらこそ、はじめまして。\nYassin: これは私たちの新しい部屋ですか？\nOmar: はい、これは私たちの部屋です。\nYassin: 私はここに来たばかりです。\nOmar: 家へようこそ、Yassin。\nYassin: ありがとう、Omar。\nOmar: また明日、友だち。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 1: اسمي",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "こんにちは。私の名前は Yassin です。",
+    "translation": "مرحباً، اسمي ياسين.",
+    "pronunciation": "Konnichiwa. Watashi no namae wa Yassin desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "こんにちは、Yassin。私の名前は Omar です。",
+    "translation": "مرحباً يا ياسين. اسمي عمر.",
+    "pronunciation": "Konnichiwa, Yassin. Watashi no namae wa Omar desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "はじめまして、Omar。",
+    "translation": "سعيد بلقائك يا عمر.",
+    "pronunciation": "Hajimemashite, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "こちらこそ、はじめまして。",
+    "translation": "سعيد بلقائك أيضاً.",
+    "pronunciation": "Kochira koso, hajimemashite."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "これは私たちの新しい部屋ですか？",
+    "translation": "هل هذه غرفتنا الجديدة؟",
+    "pronunciation": "Kore wa watashitachi no atarashii heya desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、これは私たちの部屋です。",
+    "translation": "نعم، هذه غرفتنا.",
+    "pronunciation": "Hai, kore wa watashitachi no heya desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私はここに来たばかりです。",
+    "translation": "أنا جديد هنا.",
+    "pronunciation": "Watashi wa koko ni kita bakari desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "家へようこそ、Yassin。",
+    "translation": "أهلاً بك في البيت يا ياسين.",
+    "pronunciation": "Ie e yōkoso, Yassin."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "ありがとう、Omar。",
+    "translation": "شكراً يا عمر.",
+    "pronunciation": "Arigatō, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "また明日、友だち。",
+    "translation": "أراك غداً يا صديقي.",
+    "pronunciation": "Mata ashita, tomodachi."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d1",
+   "title": "اسمي",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 1,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [],
+  "createdAt": 1786696446398
+ }
+}

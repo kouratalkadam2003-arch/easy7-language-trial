@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b1_es_d04",
+  "languageCode": "es",
+  "languageNameArabic": "الإسبانية",
+  "cefrLevel": "B1",
+  "chapterId": "chapter_03_responsibility",
+  "dayNumber": 4,
+  "lessonTitle": "El verdadero problema",
+  "englishTitle": "The Real Problem",
+  "arabicTitle": "المشكلة الحقيقية",
+  "canonicalBeatIds": [
+   "BEAT_B1_D04"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف مشكلة وتحديد أثرها.",
+  "realLifeTransferArabic": "التعبير عن رأي مدعوم بسبب واقتراح خطوة عملية.",
+  "successCapabilityArabic": "أدر نقاشًا قصيرًا عن المشكلة الحقيقية."
+ },
+ "story": {
+  "storyContextArabic": "يكتشف ليث أن المشكلة ليست الماء وحده بل غياب المعلومات الواضحة.",
+  "storyMissionArabic": "يتعلم ليث القيادة عبر موضوع: المشكلة الحقيقية.",
+  "setting": "village_council",
+  "charactersPresent": [
+   "laith",
+   "laith_team"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: المشكلة الحقيقية."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B1_D04_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B1_D04_01",
+     "narrationArabic": "يكتشف ليث أن المشكلة ليست الماء وحده بل غياب المعلومات الواضحة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D04_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف مشكلة وتحديد أثرها.",
+   "lines": [
+    {
+     "lineId": "L_B1_ES_D04_01",
+     "speakerId": "laith_team",
+     "targetText": "Necesitamos hablar sobre la información que falta.",
+     "englishReference": "We need to talk about the missing information.",
+     "arabicTranslation": "نحتاج إلى الحديث عن the missing information.",
+     "pronunciation": "Necesitamos hablar sobre la información que falta.",
+     "phraseIds": [
+      "P_B1_ES_D04_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_ES_D04_02",
+     "speakerId": "laith",
+     "targetText": "En mi opinión, el verdadero problema es la información poco clara.",
+     "englishReference": "In my opinion, the real problem is unclear information.",
+     "arabicTranslation": "في رأيي، the real problem is unclear information.",
+     "pronunciation": "En mi opinión, el verdadero problema es la información poco clara.",
+     "phraseIds": [
+      "P_B1_ES_D04_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ES_D04_03",
+     "speakerId": "laith_team",
+     "targetText": "¿Por qué piensas eso?",
+     "englishReference": "Why do you think that?",
+     "arabicTranslation": "لماذا تعتقد ذلك؟",
+     "pronunciation": "¿Por qué piensas eso?",
+     "phraseIds": [
+      "P_B1_ES_D04_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ES_D04_04",
+     "speakerId": "laith",
+     "targetText": "Porque la gente no puede planificar sin hechos.",
+     "englishReference": "Because people cannot plan without facts.",
+     "arabicTranslation": "لأن people cannot plan without facts.",
+     "pronunciation": "Porque la gente no puede planificar sin hechos.",
+     "phraseIds": [
+      "P_B1_ES_D04_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ES_D04_05",
+     "speakerId": "laith_team",
+     "targetText": "¿Qué debemos hacer primero?",
+     "englishReference": "What should we do first?",
+     "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+     "pronunciation": "¿Qué debemos hacer primero?",
+     "phraseIds": [
+      "P_B1_ES_D04_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ES_D04_06",
+     "speakerId": "laith",
+     "targetText": "Sugiero que compartamos las cifras abiertamente.",
+     "englishReference": "I suggest that we should share the numbers openly.",
+     "arabicTranslation": "أقترح أن we should share the numbers openly.",
+     "pronunciation": "Sugiero que compartamos las cifras abiertamente.",
+     "phraseIds": [
+      "P_B1_ES_D04_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ES_D04_07",
+     "speakerId": "laith_team",
+     "targetText": "Eso parece razonable.",
+     "englishReference": "That seems reasonable.",
+     "arabicTranslation": "يبدو ذلك معقولًا.",
+     "pronunciation": "Eso parece razonable.",
+     "phraseIds": [
+      "P_B1_ES_D04_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_ES_D04_08",
+     "speakerId": "laith",
+     "targetText": "Gracias. Se lo explicaré al equipo.",
+     "englishReference": "Thank you. I will explain it to the team.",
+     "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+     "pronunciation": "Gracias. Se lo explicaré al equipo.",
+     "phraseIds": [
+      "P_B1_ES_D04_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D04_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "argument_rebuild",
+     "phraseIds": [
+      "P_B1_ES_D04_C01",
+      "P_B1_ES_D04_C02",
+      "P_B1_ES_D04_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B1_ES_D04_C01",
+      "P_B1_ES_D04_C02",
+      "P_B1_ES_D04_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B1_ES_D04_I01",
+      "P_B1_ES_D04_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D04_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استعمل رأيًا وسببًا واقتراحًا في موقف عمل أو دراسة.",
+   "requiredPhraseIds": [
+    "P_B1_ES_D04_C01",
+    "P_B1_ES_D04_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D04_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "La reunión del pueblo planteó preguntas útiles.",
+     "englishReference": "The village meeting raised useful questions.",
+     "arabicTranslation": "اجتماع القرية أثار أسئلة مفيدة.",
+     "pronunciation": "La reunión del pueblo planteó preguntas útiles."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Es mejor dejar algunas preguntas para más adelante.",
+     "englishReference": "Some questions are better left for later.",
+     "arabicTranslation": "بعض الأسئلة من الأفضل تركها لوقت لاحق.",
+     "pronunciation": "Es mejor dejar algunas preguntas para más adelante."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B1_D04_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "يحتاج الفريق إلى قرار حول: المشكلة الحقيقية.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "state_opinion",
+     "give_reason",
+     "make_proposal"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير رأيًا مدعومًا داخل نقاش.",
+    "afterArabic": "يستطيع المتعلم الآن إبداء رأي وسبب واقتراح."
+   },
+   "successWorldConsequence": "FACT_BOARD:STARTED",
+   "retryPolicy": "يقدّم تلميح للسبب أو للاقتراح ثم تعاد المهمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B1_ES_D04_S01",
+   "text": "Necesitamos hablar sobre la información que falta.",
+   "englishReference": "We need to talk about the missing information.",
+   "arabicTranslation": "نحتاج إلى الحديث عن the missing information.",
+   "pronunciation": "Necesitamos hablar sobre la información que falta.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_ES_D04_C01",
+   "text": "En mi opinión, el verdadero problema es la información poco clara.",
+   "englishReference": "In my opinion, the real problem is unclear information.",
+   "arabicTranslation": "في رأيي، the real problem is unclear information.",
+   "pronunciation": "En mi opinión, el verdadero problema es la información poco clara.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_ES_D04_I01",
+   "text": "¿Por qué piensas eso?",
+   "englishReference": "Why do you think that?",
+   "arabicTranslation": "لماذا تعتقد ذلك؟",
+   "pronunciation": "¿Por qué piensas eso?",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_ES_D04_C02",
+   "text": "Porque la gente no puede planificar sin hechos.",
+   "englishReference": "Because people cannot plan without facts.",
+   "arabicTranslation": "لأن people cannot plan without facts.",
+   "pronunciation": "Porque la gente no puede planificar sin hechos.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_ES_D04_I02",
+   "text": "¿Qué debemos hacer primero?",
+   "englishReference": "What should we do first?",
+   "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+   "pronunciation": "¿Qué debemos hacer primero?",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_ES_D04_C03",
+   "text": "Sugiero que compartamos las cifras abiertamente.",
+   "englishReference": "I suggest that we should share the numbers openly.",
+   "arabicTranslation": "أقترح أن we should share the numbers openly.",
+   "pronunciation": "Sugiero que compartamos las cifras abiertamente.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_ES_D04_S02",
+   "text": "Eso parece razonable.",
+   "englishReference": "That seems reasonable.",
+   "arabicTranslation": "يبدو ذلك معقولًا.",
+   "pronunciation": "Eso parece razonable.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_ES_D04_S03",
+   "text": "Gracias. Se lo explicaré al equipo.",
+   "englishReference": "Thank you. I will explain it to the team.",
+   "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+   "pronunciation": "Gracias. Se lo explicaré al equipo.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "speaker_intent"
+   ],
+   "supportFadePlan": "يعتمد B1 على الحجج لا على الإشارات."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B1_ES_D04_C01",
+     "P_B1_ES_D04_C02",
+     "P_B1_ES_D04_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B1_ES_D04_I01",
+     "P_B1_ES_D04_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B1_ES_D04_C01",
+    "P_B1_ES_D04_C02",
+    "P_B1_ES_D04_C03",
+    "P_B1_ES_D04_I01",
+    "P_B1_ES_D04_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تطلب شخصية من ليث إعادة شرح قرار سابق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B1_D03:COMPLETE"
+  ],
+  "onSuccess": [
+   "FACT_BOARD:STARTED",
+   "B1_D05:UNLOCKED"
+  ],
+  "milestone": "b1_milestone_04",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b1_es_d03",
+  "nextLessonId": "story_b1_es_d05",
+  "nextLessonHookArabic": "يتولد تحدٍّ جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B1 4: المشكلة الحقيقية."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

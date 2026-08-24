@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 13,
+ "story": {
+  "originalText": "Yassin: Buenos días, Omar. Tengo sed.\nOmar: Vamos al café pequeño.\nYassin: Quiero una botella de agua, por favor.\nOmar: Quiero un café, por favor.\nYassin: ¿Bebes café todos los días?\nOmar: No, solo por la mañana.\nYassin: El agua me viene bien hoy.\nOmar: Aquí está tu agua.\nYassin: Gracias. El agua está fría.\nOmar: Mañana repasaremos las palabras de la casa.",
+  "translatedText": "Yassin: صباح الخير يا عمر. أنا عطشان.\nOmar: لنذهب إلى المقهى الصغير.\nYassin: أريد زجاجة ماء، من فضلك.\nOmar: أريد قهوة، من فضلك.\nYassin: هل تشرب القهوة كل يوم؟\nOmar: لا، فقط في الصباح.\nYassin: الماء جيد لي اليوم.\nOmar: هذا ماؤك.\nYassin: شكراً. الماء بارد.\nOmar: غداً سنراجع كلمات البيت.",
+  "nativeScriptText": "Yassin: Buenos días, Omar. Tengo sed.\nOmar: Vamos al café pequeño.\nYassin: Quiero una botella de agua, por favor.\nOmar: Quiero un café, por favor.\nYassin: ¿Bebes café todos los días?\nOmar: No, solo por la mañana.\nYassin: El agua me viene bien hoy.\nOmar: Aquí está tu agua.\nYassin: Gracias. El agua está fría.\nOmar: Mañana repasaremos las palabras de la casa.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 13: ماء / قهوة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buenos días, Omar. Tengo sed.",
+    "translation": "صباح الخير يا عمر. أنا عطشان.",
+    "pronunciation": "Buenos días, Omar. Tengo sed."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Vamos al café pequeño.",
+    "translation": "لنذهب إلى المقهى الصغير.",
+    "pronunciation": "Vamos al café pequeño."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Quiero una botella de agua, por favor.",
+    "translation": "أريد زجاجة ماء، من فضلك.",
+    "pronunciation": "Quiero una botella de agua, por favor."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Quiero un café, por favor.",
+    "translation": "أريد قهوة، من فضلك.",
+    "pronunciation": "Quiero un café, por favor."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Bebes café todos los días?",
+    "translation": "هل تشرب القهوة كل يوم؟",
+    "pronunciation": "¿Bebes café todos los días?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, solo por la mañana.",
+    "translation": "لا، فقط في الصباح.",
+    "pronunciation": "No, solo por la mañana."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "El agua me viene bien hoy.",
+    "translation": "الماء جيد لي اليوم.",
+    "pronunciation": "El agua me viene bien hoy."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Aquí está tu agua.",
+    "translation": "هذا ماؤك.",
+    "pronunciation": "Aquí está tu agua."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Gracias. El agua está fría.",
+    "translation": "شكراً. الماء بارد.",
+    "pronunciation": "Gracias. El agua está fría."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Mañana repasaremos las palabras de la casa.",
+    "translation": "غداً سنراجع كلمات البيت.",
+    "pronunciation": "Mañana repasaremos las palabras de la casa."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d13",
+   "title": "ماء / قهوة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 13,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s2_d12"
+  ],
+  "createdAt": 1786696446398
+ }
+}

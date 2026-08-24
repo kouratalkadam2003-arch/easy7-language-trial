@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_fr_d17",
+  "languageCode": "fr",
+  "languageNameArabic": "الفرنسية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 17,
+  "lessonTitle": "Leadership calme",
+  "englishTitle": "Calm Leadership",
+  "arabicTitle": "قيادة هادئة",
+  "canonicalBeatIds": [
+   "BEAT_B2_D17"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "إدارة توتر وإظهار ثقة متزنة.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: قيادة هادئة."
+ },
+ "story": {
+  "storyContextArabic": "يتوتر الفريق قبل أول وصول لقافلة كبيرة.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: قيادة هادئة.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: قيادة هادئة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D17_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D17_01",
+     "narrationArabic": "يتوتر الفريق قبل أول وصول لقافلة كبيرة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D17_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "إدارة توتر وإظهار ثقة متزنة.",
+   "lines": [
+    {
+     "lineId": "L_B2_FR_D17_01",
+     "speakerId": "elly",
+     "targetText": "Nous devons revoir l’arrivée chargée.",
+     "englishReference": "We need to review the busy arrival.",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "Nous devons revoir l’arrivée chargée.",
+     "phraseIds": [
+      "P_B2_FR_D17_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_FR_D17_02",
+     "speakerId": "laith",
+     "targetText": "Par rapport à l’autre option, nous pouvons rester calmes et organisés.",
+     "englishReference": "Compared with the other option, we can stay calm and organized.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "Par rapport à l’autre option, nous pouvons rester calmes et organisés.",
+     "phraseIds": [
+      "P_B2_FR_D17_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_FR_D17_03",
+     "speakerId": "elly",
+     "targetText": "Pourquoi est-ce important ?",
+     "englishReference": "Why is that important?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "Pourquoi est-ce important ?",
+     "phraseIds": [
+      "P_B2_FR_D17_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_FR_D17_04",
+     "speakerId": "laith",
+     "targetText": "Parce que le travail semble écrasant.",
+     "englishReference": "Because the work looks overwhelming.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "Parce que le travail semble écrasant.",
+     "phraseIds": [
+      "P_B2_FR_D17_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_FR_D17_05",
+     "speakerId": "elly",
+     "targetText": "Que devrait-il se passer ensuite ?",
+     "englishReference": "What should happen next?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "Que devrait-il se passer ensuite ?",
+     "phraseIds": [
+      "P_B2_FR_D17_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_FR_D17_06",
+     "speakerId": "laith",
+     "targetText": "Je suggère que nous puissions entreprendre une tâche à la fois.",
+     "englishReference": "I suggest that we can take one task at a time.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "Je suggère que nous puissions entreprendre une tâche à la fois.",
+     "phraseIds": [
+      "P_B2_FR_D17_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_FR_D17_07",
+     "speakerId": "elly",
+     "targetText": "Je comprends votre position.",
+     "englishReference": "I understand your position.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "Je comprends votre position.",
+     "phraseIds": [
+      "P_B2_FR_D17_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_FR_D17_08",
+     "speakerId": "laith",
+     "targetText": "Bien. Nous pouvons continuer prudemment.",
+     "englishReference": "Good. We can continue carefully.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "Bien. Nous pouvons continuer prudemment.",
+     "phraseIds": [
+      "P_B2_FR_D17_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D17_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_FR_D17_C01",
+      "P_B2_FR_D17_C02",
+      "P_B2_FR_D17_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_FR_D17_C01",
+      "P_B2_FR_D17_C02",
+      "P_B2_FR_D17_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_FR_D17_I01",
+      "P_B2_FR_D17_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D17_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_FR_D17_C01",
+    "P_B2_FR_D17_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D17_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "L’alliance change la région.",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة.",
+     "pronunciation": "L’alliance change la région."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Certains détails devraient rester privés pour le moment.",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن.",
+     "pronunciation": "Certains détails devraient rester privés pour le moment."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D17_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: قيادة هادئة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "CALM_LEADERSHIP:+1",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_FR_D17_S01",
+   "text": "Nous devons revoir l’arrivée chargée.",
+   "englishReference": "We need to review the busy arrival.",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "Nous devons revoir l’arrivée chargée.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_FR_D17_C01",
+   "text": "Par rapport à l’autre option, nous pouvons rester calmes et organisés.",
+   "englishReference": "Compared with the other option, we can stay calm and organized.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "Par rapport à l’autre option, nous pouvons rester calmes et organisés.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_FR_D17_I01",
+   "text": "Pourquoi est-ce important ?",
+   "englishReference": "Why is that important?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "Pourquoi est-ce important ?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_FR_D17_C02",
+   "text": "Parce que le travail semble écrasant.",
+   "englishReference": "Because the work looks overwhelming.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "Parce que le travail semble écrasant.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_FR_D17_I02",
+   "text": "Que devrait-il se passer ensuite ?",
+   "englishReference": "What should happen next?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "Que devrait-il se passer ensuite ?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_FR_D17_C03",
+   "text": "Je suggère que nous puissions entreprendre une tâche à la fois.",
+   "englishReference": "I suggest that we can take one task at a time.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "Je suggère que nous puissions entreprendre une tâche à la fois.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_FR_D17_S02",
+   "text": "Je comprends votre position.",
+   "englishReference": "I understand your position.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "Je comprends votre position.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_FR_D17_S03",
+   "text": "Bien. Nous pouvons continuer prudemment.",
+   "englishReference": "Good. We can continue carefully.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "Bien. Nous pouvons continuer prudemment.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_FR_D17_C01",
+     "P_B2_FR_D17_C02",
+     "P_B2_FR_D17_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_FR_D17_I01",
+     "P_B2_FR_D17_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_FR_D17_C01",
+    "P_B2_FR_D17_C02",
+    "P_B2_FR_D17_C03",
+    "P_B2_FR_D17_I01",
+    "P_B2_FR_D17_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B2_D16:COMPLETE"
+  ],
+  "onSuccess": [
+   "CALM_LEADERSHIP:+1",
+   "B2_D18:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_17",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b2_fr_d16",
+  "nextLessonId": "story_b2_fr_d18",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 17: قيادة هادئة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

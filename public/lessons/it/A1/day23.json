@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 23,
+ "story": {
+  "originalText": "Yassin: Ciao. Quanto costa questo pasto?\nOmar: Il pasto costa dieci dollari.\nYassin: Quanto costa l'acqua?\nOmar: L'acqua costa un dollaro.\nYassin: Quanto costa la zuppa?\nOmar: La zuppa costa cinque dollari.\nYassin: I prezzi sono buoni.\nOmar: Sì, possiamo ordinare ora.\nYassin: Dopo il cibo, abbiamo bisogno del conto.\nOmar: Lo chiederò.",
+  "translatedText": "Yassin: مرحباً. كم ثمن هذه الوجبة؟\nOmar: الوجبة بعشرة دولارات.\nYassin: كم ثمن الماء؟\nOmar: الماء بدولار واحد.\nYassin: كم ثمن الحساء؟\nOmar: الحساء بخمسة دولارات.\nYassin: الأسعار جيدة.\nOmar: نعم، يمكننا الطلب الآن.\nYassin: بعد الطعام، نحتاج إلى الفاتورة.\nOmar: سأطلب الحساب.",
+  "nativeScriptText": "Yassin: Ciao. Quanto costa questo pasto?\nOmar: Il pasto costa dieci dollari.\nYassin: Quanto costa l'acqua?\nOmar: L'acqua costa un dollaro.\nYassin: Quanto costa la zuppa?\nOmar: La zuppa costa cinque dollari.\nYassin: I prezzi sono buoni.\nOmar: Sì, possiamo ordinare ora.\nYassin: Dopo il cibo, abbiamo bisogno del conto.\nOmar: Lo chiederò.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 23: كم؟",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ciao. Quanto costa questo pasto?",
+    "translation": "مرحباً. كم ثمن هذه الوجبة؟",
+    "pronunciation": "Ciao. Quanto costa questo pasto?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Il pasto costa dieci dollari.",
+    "translation": "الوجبة بعشرة دولارات.",
+    "pronunciation": "Il pasto costa dieci dollari."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Quanto costa l'acqua?",
+    "translation": "كم ثمن الماء؟",
+    "pronunciation": "Quanto costa l'acqua?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "L'acqua costa un dollaro.",
+    "translation": "الماء بدولار واحد.",
+    "pronunciation": "L'acqua costa un dollaro."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Quanto costa la zuppa?",
+    "translation": "كم ثمن الحساء؟",
+    "pronunciation": "Quanto costa la zuppa?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "La zuppa costa cinque dollari.",
+    "translation": "الحساء بخمسة دولارات.",
+    "pronunciation": "La zuppa costa cinque dollari."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I prezzi sono buoni.",
+    "translation": "الأسعار جيدة.",
+    "pronunciation": "I prezzi sono buoni."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, possiamo ordinare ora.",
+    "translation": "نعم، يمكننا الطلب الآن.",
+    "pronunciation": "Sì, possiamo ordinare ora."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Dopo il cibo, abbiamo bisogno del conto.",
+    "translation": "بعد الطعام، نحتاج إلى الفاتورة.",
+    "pronunciation": "Dopo il cibo, abbiamo bisogno del conto."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Lo chiederò.",
+    "translation": "سأطلب الحساب.",
+    "pronunciation": "Lo chiederò."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d23",
+   "title": "كم؟",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 23,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s4_d22"
+  ],
+  "createdAt": 1786696446398
+ }
+}

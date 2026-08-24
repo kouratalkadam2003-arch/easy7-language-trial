@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_zh_d07",
+  "languageCode": "zh",
+  "languageNameArabic": "الصينية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 7,
+  "lessonTitle": "公平条款",
+  "englishTitle": "Fair Terms",
+  "arabicTitle": "شروط عادلة",
+  "canonicalBeatIds": [
+   "BEAT_B2_D07"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التفاوض على شرط ومقابل.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: شروط عادلة."
+ },
+ "story": {
+  "storyContextArabic": "تطلب القرية المجاورة سعرًا أقل لمنتجات السوق.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: شروط عادلة.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "visitor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: شروط عادلة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D07_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D07_01",
+     "narrationArabic": "تطلب القرية المجاورة سعرًا أقل لمنتجات السوق."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D07_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التفاوض على شرط ومقابل.",
+   "lines": [
+    {
+     "lineId": "L_B2_ZH_D07_01",
+     "speakerId": "visitor",
+     "targetText": "在我们做出决定之前，价格条款对双方有何影响？",
+     "englishReference": "Before we decide, how does the price terms affect both sides?",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "zài wǒ men zuò chū jué dìng zhī qián, jià gé tiáo kuǎn duì shuāng fāng yǒu hé yǐng xiǎng.",
+     "phraseIds": [
+      "P_B2_ZH_D07_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_ZH_D07_02",
+     "speakerId": "laith",
+     "targetText": "我认为我们可以降低常规订单的价格。",
+     "englishReference": "I think we can reduce the price for regular orders.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "wǒ rèn wéi wǒ men kě yǐ jiàng dī cháng guī dìng dān de jià gé.",
+     "phraseIds": [
+      "P_B2_ZH_D07_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ZH_D07_03",
+     "speakerId": "visitor",
+     "targetText": "最强烈的反对是什么？",
+     "englishReference": "What is the strongest objection?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "zuì qiáng liè de fǎn duì shì shén me.",
+     "phraseIds": [
+      "P_B2_ZH_D07_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ZH_D07_04",
+     "speakerId": "laith",
+     "targetText": "尽管我们的工人需要公平的报酬，但我们可以改进计划。",
+     "englishReference": "Although our workers need fair pay, we can improve the plan.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "jǐn guǎn wǒ men de gōng rén xū yào gōng píng de bào chóu, dàn wǒ men kě yǐ gǎi jìn jì huà.",
+     "phraseIds": [
+      "P_B2_ZH_D07_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ZH_D07_05",
+     "speakerId": "visitor",
+     "targetText": "你愿意提供什么？",
+     "englishReference": "What are you willing to offer?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "nǐ yuàn yì tí gōng shén me.",
+     "phraseIds": [
+      "P_B2_ZH_D07_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ZH_D07_06",
+     "speakerId": "laith",
+     "targetText": "如果我们同意，我们可以提供更长的合同。",
+     "englishReference": "If we agree, we can offer a longer contract.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "rú guǒ wǒ men tóng yì, wǒ men kě yǐ tí gōng gèng zhǎng de hé tóng.",
+     "phraseIds": [
+      "P_B2_ZH_D07_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ZH_D07_07",
+     "speakerId": "visitor",
+     "targetText": "听起来很平衡。",
+     "englishReference": "That sounds balanced.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "tīng qǐ lái hěn píng héng.",
+     "phraseIds": [
+      "P_B2_ZH_D07_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_ZH_D07_08",
+     "speakerId": "laith",
+     "targetText": "谢谢。让我们记录一下协议。",
+     "englishReference": "Thank you. Let us record the agreement.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "xiè xiè. ràng wǒ men jì lù yī xià xié yì.",
+     "phraseIds": [
+      "P_B2_ZH_D07_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D07_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_ZH_D07_C01",
+      "P_B2_ZH_D07_C02",
+      "P_B2_ZH_D07_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_ZH_D07_C01",
+      "P_B2_ZH_D07_C02",
+      "P_B2_ZH_D07_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_ZH_D07_I01",
+      "P_B2_ZH_D07_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D07_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_ZH_D07_C01",
+    "P_B2_ZH_D07_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D07_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "该联盟正在改变该地区。",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة.",
+     "pronunciation": "gāi lián méng zhèng zài gǎi biàn gāi dì qū."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "一些细节目前应保密。",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن.",
+     "pronunciation": "yī xiē xì jié mù qián yīng bǎo mì."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D07_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: شروط عادلة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "FAIR_TERMS:DRAFT",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_ZH_D07_S01",
+   "text": "在我们做出决定之前，价格条款对双方有何影响？",
+   "englishReference": "Before we decide, how does the price terms affect both sides?",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "zài wǒ men zuò chū jué dìng zhī qián, jià gé tiáo kuǎn duì shuāng fāng yǒu hé yǐng xiǎng.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_ZH_D07_C01",
+   "text": "我认为我们可以降低常规订单的价格。",
+   "englishReference": "I think we can reduce the price for regular orders.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "wǒ rèn wéi wǒ men kě yǐ jiàng dī cháng guī dìng dān de jià gé.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_ZH_D07_I01",
+   "text": "最强烈的反对是什么？",
+   "englishReference": "What is the strongest objection?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "zuì qiáng liè de fǎn duì shì shén me.",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_ZH_D07_C02",
+   "text": "尽管我们的工人需要公平的报酬，但我们可以改进计划。",
+   "englishReference": "Although our workers need fair pay, we can improve the plan.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "jǐn guǎn wǒ men de gōng rén xū yào gōng píng de bào chóu, dàn wǒ men kě yǐ gǎi jìn jì huà.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_ZH_D07_I02",
+   "text": "你愿意提供什么？",
+   "englishReference": "What are you willing to offer?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "nǐ yuàn yì tí gōng shén me.",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_ZH_D07_C03",
+   "text": "如果我们同意，我们可以提供更长的合同。",
+   "englishReference": "If we agree, we can offer a longer contract.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "rú guǒ wǒ men tóng yì, wǒ men kě yǐ tí gōng gèng zhǎng de hé tóng.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_ZH_D07_S02",
+   "text": "听起来很平衡。",
+   "englishReference": "That sounds balanced.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "tīng qǐ lái hěn píng héng.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_ZH_D07_S03",
+   "text": "谢谢。让我们记录一下协议。",
+   "englishReference": "Thank you. Let us record the agreement.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "xiè xiè. ràng wǒ men jì lù yī xià xié yì.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_ZH_D07_C01",
+     "P_B2_ZH_D07_C02",
+     "P_B2_ZH_D07_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_ZH_D07_I01",
+     "P_B2_ZH_D07_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_ZH_D07_C01",
+    "P_B2_ZH_D07_C02",
+    "P_B2_ZH_D07_C03",
+    "P_B2_ZH_D07_I01",
+    "P_B2_ZH_D07_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B2_D06:COMPLETE"
+  ],
+  "onSuccess": [
+   "FAIR_TERMS:DRAFT",
+   "B2_D08:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_07",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b2_zh_d06",
+  "nextLessonId": "story_b2_zh_d08",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 7: شروط عادلة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

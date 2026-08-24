@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 3,
+ "story": {
+  "originalText": "Yassin: Yòu jiàn dào nǐ le, Omar.\nOmar: Nǐ hǎo, Yassin. Nǐ duōdà le?\nYassin: Wǒ èrshí suì.\nOmar: Wǒ èrshíyī suì.\nYassin: Wǒmen chàbuduō tóngsuì.\nOmar: Shì de, wǒmen kěyǐ yìqǐ xuéxí.\nYassin: Zhè shì gè hǎo zhǔyì.\nOmar: Míngtiān kāishǐ shàngkè.\nYassin: Wǒ hěn gāoxìng, yě zhǔnbèi hǎo le.\nOmar: Wǎn'ān, Yassin.",
+  "translatedText": "Yassin: مرحباً من جديد يا عمر.\nOmar: مرحباً يا ياسين. كم عمرك؟\nYassin: عمري عشرون سنة.\nOmar: عمري واحد وعشرون سنة.\nYassin: نحن في العمر نفسه تقريباً.\nOmar: نعم، يمكننا الدراسة معاً.\nYassin: هذه فكرة جيدة.\nOmar: يبدأ الدرس غداً.\nYassin: أنا سعيد ومستعد.\nOmar: تصبح على خير يا ياسين.",
+  "nativeScriptText": "Yassin: 又见到你了，Omar。\nOmar: 你好，Yassin。你多大了？\nYassin: 我二十岁。\nOmar: 我二十一岁。\nYassin: 我们差不多同岁。\nOmar: 是的，我们可以一起学习。\nYassin: 这是个好主意。\nOmar: 明天开始上课。\nYassin: 我很高兴，也准备好了。\nOmar: 晚安，Yassin。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 3: عمري",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "又见到你了，Omar。",
+    "translation": "مرحباً من جديد يا عمر.",
+    "pronunciation": "Yòu jiàn dào nǐ le, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "你好，Yassin。你多大了？",
+    "translation": "مرحباً يا ياسين. كم عمرك؟",
+    "pronunciation": "Nǐ hǎo, Yassin. Nǐ duōdà le?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我二十岁。",
+    "translation": "عمري عشرون سنة.",
+    "pronunciation": "Wǒ èrshí suì."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我二十一岁。",
+    "translation": "عمري واحد وعشرون سنة.",
+    "pronunciation": "Wǒ èrshíyī suì."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我们差不多同岁。",
+    "translation": "نحن في العمر نفسه تقريباً.",
+    "pronunciation": "Wǒmen chàbuduō tóngsuì."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，我们可以一起学习。",
+    "translation": "نعم، يمكننا الدراسة معاً.",
+    "pronunciation": "Shì de, wǒmen kěyǐ yìqǐ xuéxí."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "这是个好主意。",
+    "translation": "هذه فكرة جيدة.",
+    "pronunciation": "Zhè shì gè hǎo zhǔyì."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "明天开始上课。",
+    "translation": "يبدأ الدرس غداً.",
+    "pronunciation": "Míngtiān kāishǐ shàngkè."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我很高兴，也准备好了。",
+    "translation": "أنا سعيد ومستعد.",
+    "pronunciation": "Wǒ hěn gāoxìng, yě zhǔnbèi hǎo le."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "晚安，Yassin。",
+    "translation": "تصبح على خير يا ياسين.",
+    "pronunciation": "Wǎn'ān, Yassin."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d3",
+   "title": "عمري",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 3,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s1_d2"
+  ],
+  "createdAt": 1786696446398
+ }
+}

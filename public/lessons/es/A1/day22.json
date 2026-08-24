@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 22,
+ "story": {
+  "originalText": "Yassin: Omar, tengo hambre.\nOmar: Yo también tengo hambre.\nYassin: Vamos a un restaurante.\nOmar: Buena idea. El restaurante está cerca.\nYassin: Quiero arroz y pollo.\nOmar: Quiero sopa y pan.\nYassin: La comida huele bien.\nOmar: Sí, pero necesitamos saber el precio.\nYassin: ¿Cuánto cuesta la comida?\nOmar: Preguntemos mañana.",
+  "translatedText": "Yassin: عمر، أنا جائع.\nOmar: أنا جائع أيضاً.\nYassin: لنذهب إلى مطعم.\nOmar: فكرة جيدة. المطعم قريب.\nYassin: أريد أرزاً ودجاجاً.\nOmar: أريد حساءً وخبزاً.\nYassin: رائحة الطعام جيدة.\nOmar: نعم، لكن نحتاج إلى معرفة السعر.\nYassin: كم ثمن الوجبة؟\nOmar: لنسأل غداً.",
+  "nativeScriptText": "Yassin: Omar, tengo hambre.\nOmar: Yo también tengo hambre.\nYassin: Vamos a un restaurante.\nOmar: Buena idea. El restaurante está cerca.\nYassin: Quiero arroz y pollo.\nOmar: Quiero sopa y pan.\nYassin: La comida huele bien.\nOmar: Sí, pero necesitamos saber el precio.\nYassin: ¿Cuánto cuesta la comida?\nOmar: Preguntemos mañana.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 22: جوعان",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar, tengo hambre.",
+    "translation": "عمر، أنا جائع.",
+    "pronunciation": "Omar, tengo hambre."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yo también tengo hambre.",
+    "translation": "أنا جائع أيضاً.",
+    "pronunciation": "Yo también tengo hambre."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Vamos a un restaurante.",
+    "translation": "لنذهب إلى مطعم.",
+    "pronunciation": "Vamos a un restaurante."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Buena idea. El restaurante está cerca.",
+    "translation": "فكرة جيدة. المطعم قريب.",
+    "pronunciation": "Buena idea. El restaurante está cerca."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Quiero arroz y pollo.",
+    "translation": "أريد أرزاً ودجاجاً.",
+    "pronunciation": "Quiero arroz y pollo."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Quiero sopa y pan.",
+    "translation": "أريد حساءً وخبزاً.",
+    "pronunciation": "Quiero sopa y pan."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "La comida huele bien.",
+    "translation": "رائحة الطعام جيدة.",
+    "pronunciation": "La comida huele bien."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, pero necesitamos saber el precio.",
+    "translation": "نعم، لكن نحتاج إلى معرفة السعر.",
+    "pronunciation": "Sí, pero necesitamos saber el precio."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Cuánto cuesta la comida?",
+    "translation": "كم ثمن الوجبة؟",
+    "pronunciation": "¿Cuánto cuesta la comida?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Preguntemos mañana.",
+    "translation": "لنسأل غداً.",
+    "pronunciation": "Preguntemos mañana."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d22",
+   "title": "جوعان",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 22,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s3_d21"
+  ],
+  "createdAt": 1786696446398
+ }
+}

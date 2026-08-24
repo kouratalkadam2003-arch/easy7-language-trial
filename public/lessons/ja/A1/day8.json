@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 8,
+ "story": {
+  "originalText": "Yassin: Watashitachi no ie e yōkoso, Omar.\nOmar: Arigatō. Watashitachi no ie wa suteki desu.\nYassin: Ie wa chiisai desu ga, kirei desu.\nOmar: Hai, daidokoro to futatsu no heya ga arimasu.\nYassin: Daidokoro wa doa no chikaku desu.\nOmar: Basurūmu wa daidokoro no tonari desu.\nYassin: Kono ie ga suki desu.\nOmar: Watashi mo desu. Ochitsukimasu.\nYassin: Ima, watashitachi no heya o mimashō.\nOmar: Hai, issho ni kite kudasai.",
+  "translatedText": "Yassin: أهلاً بك في بيتنا يا عمر.\nOmar: شكراً. بيتنا جميل.\nYassin: البيت صغير لكنه نظيف.\nOmar: نعم، فيه مطبخ وغرفتان.\nYassin: المطبخ قرب الباب.\nOmar: الحمام بجانب المطبخ.\nYassin: أنا أحب هذا البيت.\nOmar: وأنا أيضاً. أشعر فيه بالهدوء.\nYassin: لنرَ غرفتنا الآن.\nOmar: نعم، تعال معي.",
+  "nativeScriptText": "Yassin: 私たちの家へようこそ、Omar。\nOmar: ありがとう。私たちの家は素敵です。\nYassin: 家は小さいですが、きれいです。\nOmar: はい、台所と二つの部屋があります。\nYassin: 台所はドアの近くです。\nOmar: バスルームは台所の隣です。\nYassin: この家が好きです。\nOmar: 私もです。落ち着きます。\nYassin: 今、私たちの部屋を見ましょう。\nOmar: はい、一緒に来てください。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 8: بيتي",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私たちの家へようこそ、Omar。",
+    "translation": "أهلاً بك في بيتنا يا عمر.",
+    "pronunciation": "Watashitachi no ie e yōkoso, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "ありがとう。私たちの家は素敵です。",
+    "translation": "شكراً. بيتنا جميل.",
+    "pronunciation": "Arigatō. Watashitachi no ie wa suteki desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "家は小さいですが、きれいです。",
+    "translation": "البيت صغير لكنه نظيف.",
+    "pronunciation": "Ie wa chiisai desu ga, kirei desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、台所と二つの部屋があります。",
+    "translation": "نعم، فيه مطبخ وغرفتان.",
+    "pronunciation": "Hai, daidokoro to futatsu no heya ga arimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "台所はドアの近くです。",
+    "translation": "المطبخ قرب الباب.",
+    "pronunciation": "Daidokoro wa doa no chikaku desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "バスルームは台所の隣です。",
+    "translation": "الحمام بجانب المطبخ.",
+    "pronunciation": "Basurūmu wa daidokoro no tonari desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "この家が好きです。",
+    "translation": "أنا أحب هذا البيت.",
+    "pronunciation": "Kono ie ga suki desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私もです。落ち着きます。",
+    "translation": "وأنا أيضاً. أشعر فيه بالهدوء.",
+    "pronunciation": "Watashi mo desu. Ochitsukimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "今、私たちの部屋を見ましょう。",
+    "translation": "لنرَ غرفتنا الآن.",
+    "pronunciation": "Ima, watashitachi no heya o mimashō."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、一緒に来てください。",
+    "translation": "نعم، تعال معي.",
+    "pronunciation": "Hai, issho ni kite kudasai."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d8",
+   "title": "بيتي",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 8,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s1_d7"
+  ],
+  "createdAt": 1786696446398
+ }
+}

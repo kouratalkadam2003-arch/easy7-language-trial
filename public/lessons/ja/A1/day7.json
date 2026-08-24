@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 7,
+ "story": {
+  "originalText": "Yassin: Konnichiwa. Anata no namae wa nan desu ka?\nOmar: Watashi no namae wa Yassin desu.\nYassin: Doko kara kimashita ka?\nOmar: Watashi wa Arujeria kara kimashita.\nYassin: Nansai desu ka?\nOmar: Watashi wa nijū-sai desu.\nYassin: Kyō wa genki desu ka?\nOmar: Genki desu, arigatō.\nYassin: Yoku dekimashita. Sayōnara, tomodachi.\nOmar: Sayōnara. Ie de aimashō.",
+  "translatedText": "Yassin: مرحباً. ما اسمك؟\nOmar: اسمي ياسين.\nYassin: من أين أنت؟\nOmar: أنا من الجزائر.\nYassin: كم عمرك؟\nOmar: عمري عشرون سنة.\nYassin: كيف حالك اليوم؟\nOmar: أنا بخير، شكراً.\nYassin: أحسنت. وداعاً يا صديقي.\nOmar: وداعاً. أراك في البيت.",
+  "nativeScriptText": "Yassin: こんにちは。あなたの名前は何ですか？\nOmar: 私の名前は Yassin です。\nYassin: どこから来ましたか？\nOmar: 私はアルジェリアから来ました。\nYassin: 何歳ですか？\nOmar: 私は二十歳です。\nYassin: 今日は元気ですか？\nOmar: 元気です、ありがとう。\nYassin: よくできました。さようなら、友だち。\nOmar: さようなら。家で会いましょう。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 7: مراجعة شاملة (1-6)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "こんにちは。あなたの名前は何ですか？",
+    "translation": "مرحباً. ما اسمك؟",
+    "pronunciation": "Konnichiwa. Anata no namae wa nan desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私の名前は Yassin です。",
+    "translation": "اسمي ياسين.",
+    "pronunciation": "Watashi no namae wa Yassin desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "どこから来ましたか？",
+    "translation": "من أين أنت؟",
+    "pronunciation": "Doko kara kimashita ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私はアルジェリアから来ました。",
+    "translation": "أنا من الجزائر.",
+    "pronunciation": "Watashi wa Arujeria kara kimashita."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "何歳ですか？",
+    "translation": "كم عمرك؟",
+    "pronunciation": "Nansai desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私は二十歳です。",
+    "translation": "عمري عشرون سنة.",
+    "pronunciation": "Watashi wa nijū-sai desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "今日は元気ですか？",
+    "translation": "كيف حالك اليوم؟",
+    "pronunciation": "Kyō wa genki desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "元気です、ありがとう。",
+    "translation": "أنا بخير، شكراً.",
+    "pronunciation": "Genki desu, arigatō."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "よくできました。さようなら、友だち。",
+    "translation": "أحسنت. وداعاً يا صديقي.",
+    "pronunciation": "Yoku dekimashita. Sayōnara, tomodachi."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "さようなら。家で会いましょう。",
+    "translation": "وداعاً. أراك في البيت.",
+    "pronunciation": "Sayōnara. Ie de aimashō."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d7",
+   "title": "مراجعة شاملة (1-6)",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 7,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s1_d6"
+  ],
+  "createdAt": 1786696446398
+ }
+}

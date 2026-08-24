@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 9,
+ "story": {
+  "originalText": "Yassin: Das ist unser Zimmer, Yassin.\nOmar: Das Zimmer ist hell.\nYassin: Dein Bett ist links.\nOmar: Und mein Bett ist rechts.\nYassin: Es gibt einen Tisch am Fenster.\nOmar: Ich kann meine Tasche auf den Tisch legen.\nYassin: Bitte leg deine Kleidung in den Schrank.\nOmar: Okay, das Zimmer sieht jetzt gut aus.\nYassin: Ich bin nach dem Putzen hungrig.\nOmar: Lass uns etwas zu essen machen.",
+  "translatedText": "Yassin: هذه غرفتنا يا ياسين.\nOmar: الغرفة مضيئة.\nYassin: سريرك على اليسار.\nOmar: وسريرك على اليمين.\nYassin: هناك طاولة قرب النافذة.\nOmar: يمكنني وضع حقيبتي على الطاولة.\nYassin: من فضلك ضع ملابسك في الخزانة.\nOmar: حسناً، تبدو الغرفة جيدة الآن.\nYassin: أنا جائع بعد التنظيف.\nOmar: لنصنع بعض الطعام.",
+  "nativeScriptText": "Yassin: Das ist unser Zimmer, Yassin.\nOmar: Das Zimmer ist hell.\nYassin: Dein Bett ist links.\nOmar: Und mein Bett ist rechts.\nYassin: Es gibt einen Tisch am Fenster.\nOmar: Ich kann meine Tasche auf den Tisch legen.\nYassin: Bitte leg deine Kleidung in den Schrank.\nOmar: Okay, das Zimmer sieht jetzt gut aus.\nYassin: Ich bin nach dem Putzen hungrig.\nOmar: Lass uns etwas zu essen machen.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 9: غرفة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Das ist unser Zimmer, Yassin.",
+    "translation": "هذه غرفتنا يا ياسين.",
+    "pronunciation": "Das ist unser Zimmer, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Das Zimmer ist hell.",
+    "translation": "الغرفة مضيئة.",
+    "pronunciation": "Das Zimmer ist hell."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Dein Bett ist links.",
+    "translation": "سريرك على اليسار.",
+    "pronunciation": "Dein Bett ist links."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Und mein Bett ist rechts.",
+    "translation": "وسريرك على اليمين.",
+    "pronunciation": "Und mein Bett ist rechts."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Es gibt einen Tisch am Fenster.",
+    "translation": "هناك طاولة قرب النافذة.",
+    "pronunciation": "Es gibt einen Tisch am Fenster."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich kann meine Tasche auf den Tisch legen.",
+    "translation": "يمكنني وضع حقيبتي على الطاولة.",
+    "pronunciation": "Ich kann meine Tasche auf den Tisch legen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bitte leg deine Kleidung in den Schrank.",
+    "translation": "من فضلك ضع ملابسك في الخزانة.",
+    "pronunciation": "Bitte leg deine Kleidung in den Schrank."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Okay, das Zimmer sieht jetzt gut aus.",
+    "translation": "حسناً، تبدو الغرفة جيدة الآن.",
+    "pronunciation": "Okay, das Zimmer sieht jetzt gut aus."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich bin nach dem Putzen hungrig.",
+    "translation": "أنا جائع بعد التنظيف.",
+    "pronunciation": "Ich bin nach dem Putzen hungrig."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Lass uns etwas zu essen machen.",
+    "translation": "لنصنع بعض الطعام.",
+    "pronunciation": "Lass uns etwas zu essen machen."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d9",
+   "title": "غرفة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 9,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s2_d8"
+  ],
+  "createdAt": 1786696446398
+ }
+}

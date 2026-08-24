@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 27,
+ "story": {
+  "originalText": "Yassin: Hello, Yassin. Can you help me?\nOmar: Yes, of course. What do you need?\nYassin: I need my medicine and some water.\nOmar: Here is your medicine and water.\nYassin: Thank you. You are very kind.\nOmar: You are welcome, my friend.\nYassin: Can you call the teacher for me?\nOmar: Yes, I can call him now.\nYassin: Tomorrow I will feel better, God willing.\nOmar: God willing. We will review tomorrow.",
+  "translatedText": "Yassin: مرحباً يا ياسين. هل يمكنك مساعدتي؟\nOmar: نعم، بالطبع. ماذا تحتاج؟\nYassin: أحتاج دوائي وبعض الماء.\nOmar: هذا دواؤك وماؤك.\nYassin: شكراً. أنت لطيف جداً.\nOmar: عفواً يا صديقي.\nYassin: هل يمكنك الاتصال بالمعلم من أجلي؟\nOmar: نعم، يمكنني الاتصال به الآن.\nYassin: غداً سأشعر بتحسن، إن شاء الله.\nOmar: إن شاء الله. سنراجع غداً.",
+  "nativeScriptText": "Yassin: Hello, Yassin. Can you help me?\nOmar: Yes, of course. What do you need?\nYassin: I need my medicine and some water.\nOmar: Here is your medicine and water.\nYassin: Thank you. You are very kind.\nOmar: You are welcome, my friend.\nYassin: Can you call the teacher for me?\nOmar: Yes, I can call him now.\nYassin: Tomorrow I will feel better, God willing.\nOmar: God willing. We will review tomorrow.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 27: مساعدة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hello, Yassin. Can you help me?",
+    "translation": "مرحباً يا ياسين. هل يمكنك مساعدتي؟",
+    "pronunciation": "Hello, Yassin. Can you help me?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, of course. What do you need?",
+    "translation": "نعم، بالطبع. ماذا تحتاج؟",
+    "pronunciation": "Yes, of course. What do you need?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I need my medicine and some water.",
+    "translation": "أحتاج دوائي وبعض الماء.",
+    "pronunciation": "I need my medicine and some water."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Here is your medicine and water.",
+    "translation": "هذا دواؤك وماؤك.",
+    "pronunciation": "Here is your medicine and water."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Thank you. You are very kind.",
+    "translation": "شكراً. أنت لطيف جداً.",
+    "pronunciation": "Thank you. You are very kind."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "You are welcome, my friend.",
+    "translation": "عفواً يا صديقي.",
+    "pronunciation": "You are welcome, my friend."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Can you call the teacher for me?",
+    "translation": "هل يمكنك الاتصال بالمعلم من أجلي؟",
+    "pronunciation": "Can you call the teacher for me?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, I can call him now.",
+    "translation": "نعم، يمكنني الاتصال به الآن.",
+    "pronunciation": "Yes, I can call him now."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Tomorrow I will feel better, God willing.",
+    "translation": "غداً سأشعر بتحسن، إن شاء الله.",
+    "pronunciation": "Tomorrow I will feel better, God willing."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "God willing. We will review tomorrow.",
+    "translation": "إن شاء الله. سنراجع غداً.",
+    "pronunciation": "God willing. We will review tomorrow."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d27",
+   "title": "مساعدة",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 27,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s4_d26"
+  ],
+  "createdAt": 1786696446398
+ }
+}

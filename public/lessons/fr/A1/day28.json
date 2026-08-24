@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 28,
+ "story": {
+  "originalText": "Yassin: As-tu faim ?\nOmar: Oui, j'ai faim.\nYassin: Combien coûte le repas ?\nOmar: Le repas coûte dix dollars.\nYassin: Puis-je avoir l'addition, s'il vous plaît ?\nOmar: Oui, voici l'addition.\nYassin: Es-tu malade maintenant ?\nOmar: Non, je me sens mieux après le médecin.\nYassin: Puis-je t'aider ?\nOmar: Non, merci. Je vais bien maintenant.",
+  "translatedText": "Yassin: هل أنت جائع؟\nOmar: نعم، أنا جائع.\nYassin: كم ثمن الوجبة؟\nOmar: الوجبة بعشرة دولارات.\nYassin: هل يمكنني الحصول على الفاتورة، من فضلك؟\nOmar: نعم، هذه هي الفاتورة.\nYassin: هل أنت مريض الآن؟\nOmar: لا، أشعر بتحسن بعد زيارة الطبيب.\nYassin: هل يمكنني مساعدتك في شيء؟\nOmar: لا، شكراً. أنا بخير الآن.",
+  "nativeScriptText": "Yassin: As-tu faim ?\nOmar: Oui, j'ai faim.\nYassin: Combien coûte le repas ?\nOmar: Le repas coûte dix dollars.\nYassin: Puis-je avoir l'addition, s'il vous plaît ?\nOmar: Oui, voici l'addition.\nYassin: Es-tu malade maintenant ?\nOmar: Non, je me sens mieux après le médecin.\nYassin: Puis-je t'aider ?\nOmar: Non, merci. Je vais bien maintenant.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 28: مراجعة شاملة (22-27)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "As-tu faim ?",
+    "translation": "هل أنت جائع؟",
+    "pronunciation": "As-tu faim ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, j'ai faim.",
+    "translation": "نعم، أنا جائع.",
+    "pronunciation": "Oui, j'ai faim."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Combien coûte le repas ?",
+    "translation": "كم ثمن الوجبة؟",
+    "pronunciation": "Combien coûte le repas ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Le repas coûte dix dollars.",
+    "translation": "الوجبة بعشرة دولارات.",
+    "pronunciation": "Le repas coûte dix dollars."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Puis-je avoir l'addition, s'il vous plaît ?",
+    "translation": "هل يمكنني الحصول على الفاتورة، من فضلك؟",
+    "pronunciation": "Puis-je avoir l'addition, s'il vous plaît ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, voici l'addition.",
+    "translation": "نعم، هذه هي الفاتورة.",
+    "pronunciation": "Oui, voici l'addition."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Es-tu malade maintenant ?",
+    "translation": "هل أنت مريض الآن؟",
+    "pronunciation": "Es-tu malade maintenant ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Non, je me sens mieux après le médecin.",
+    "translation": "لا، أشعر بتحسن بعد زيارة الطبيب.",
+    "pronunciation": "Non, je me sens mieux après le médecin."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Puis-je t'aider ?",
+    "translation": "هل يمكنني مساعدتك في شيء؟",
+    "pronunciation": "Puis-je t'aider ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Non, merci. Je vais bien maintenant.",
+    "translation": "لا، شكراً. أنا بخير الآن.",
+    "pronunciation": "Non, merci. Je vais bien maintenant."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d28",
+   "title": "مراجعة شاملة (22-27)",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 28,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s4_d27"
+  ],
+  "createdAt": 1786696446398
+ }
+}

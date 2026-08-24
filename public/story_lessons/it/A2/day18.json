@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_it_d18",
+  "languageCode": "it",
+  "languageNameArabic": "الإيطالية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 18,
+  "lessonTitle": "Sotto pressione",
+  "englishTitle": "Under Pressure",
+  "arabicTitle": "تحت الضغط",
+  "canonicalBeatIds": [
+   "BEAT_A2_D18"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف ضغط واقتراح طريقة تنظيم.",
+  "realLifeTransferArabic": "التحدث عن ضغط عمل وطلب دعم.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: تحت الضغط دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "تتراكم الطلبات قبل السوق الكبير، ويشعر الفريق بالضغط.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: تحت الضغط.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: تحت الضغط."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D18_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D18_01",
+     "narrationArabic": "تتراكم الطلبات قبل السوق الكبير، ويشعر الفريق بالضغط."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D18_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف ضغط واقتراح طريقة تنظيم.",
+   "lines": [
+    {
+     "lineId": "L_A2_IT_D18_01",
+     "speakerId": "elly",
+     "targetText": "Buongiorno, Laith. C'è molto da fare prima di sabato.",
+     "englishReference": "Good morning, Laith. There is a lot to do before Saturday.",
+     "arabicTranslation": "صباح الخير يا ليث. There is a lot to do before Saturday.",
+     "pronunciation": "Buongiorno, Laith. C'è molto da fare prima di sabato.",
+     "phraseIds": [
+      "P_A2_IT_D18_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_IT_D18_02",
+     "speakerId": "laith",
+     "targetText": "Buongiorno. Sì, mi sento sotto pressione oggi.",
+     "englishReference": "Good morning. Yes, I feel under pressure today.",
+     "arabicTranslation": "صباح الخير. Yes, I feel under pressure today.",
+     "pronunciation": "Buongiorno. Sì, mi sento sotto pressione oggi.",
+     "phraseIds": [
+      "P_A2_IT_D18_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D18_03",
+     "speakerId": "elly",
+     "targetText": "Cosa può aiutarci a mantenere la calma?",
+     "englishReference": "What can help us stay calm?",
+     "arabicTranslation": "What can help us stay calm?",
+     "pronunciation": "Cosa può aiutarci a mantenere la calma?",
+     "phraseIds": [
+      "P_A2_IT_D18_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D18_04",
+     "speakerId": "laith",
+     "targetText": "Possiamo dividere il lavoro in modo chiaro.",
+     "englishReference": "We can divide the work clearly.",
+     "arabicTranslation": "We can divide the work clearly.",
+     "pronunciation": "Possiamo dividere il lavoro in modo chiaro.",
+     "phraseIds": [
+      "P_A2_IT_D18_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D18_05",
+     "speakerId": "elly",
+     "targetText": "Puoi fare una lista per la squadra?",
+     "englishReference": "Can you make a list for the team?",
+     "arabicTranslation": "Can you make a list for the team?",
+     "pronunciation": "Puoi fare una lista per la squadra?",
+     "phraseIds": [
+      "P_A2_IT_D18_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D18_06",
+     "speakerId": "laith",
+     "targetText": "Sì, lo scriverò adesso.",
+     "englishReference": "Yes, I will write it now.",
+     "arabicTranslation": "Yes, I will write it now.",
+     "pronunciation": "Sì, lo scriverò adesso.",
+     "phraseIds": [
+      "P_A2_IT_D18_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D18_07",
+     "speakerId": "elly",
+     "targetText": "Sembra un buon piano.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "Sembra un buon piano.",
+     "phraseIds": [
+      "P_A2_IT_D18_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_IT_D18_08",
+     "speakerId": "laith",
+     "targetText": "Grazie. Arrivederci.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Grazie. Arrivederci.",
+     "phraseIds": [
+      "P_A2_IT_D18_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D18_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_IT_D18_C01",
+      "P_A2_IT_D18_C02",
+      "P_A2_IT_D18_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_IT_D18_C01",
+      "P_A2_IT_D18_C02",
+      "P_A2_IT_D18_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_IT_D18_I01",
+      "P_A2_IT_D18_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D18_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: التحدث عن ضغط عمل وطلب دعم.",
+   "requiredPhraseIds": [
+    "P_A2_IT_D18_C01",
+    "P_A2_IT_D18_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D18_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Il mercato sta cambiando rapidamente in questa stagione.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "Il mercato sta cambiando rapidamente in questa stagione."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "SÌ. Le persone fanno più domande sulle vecchie strade.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "SÌ. Le persone fanno più domande sulle vecchie strade."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D18_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: تحت الضغط.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: تحت الضغط."
+   },
+   "successWorldConsequence": "TEAM_PLAN:ACTIVE",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_IT_D18_S01",
+   "text": "Buongiorno, Laith. C'è molto da fare prima di sabato.",
+   "englishReference": "Good morning, Laith. There is a lot to do before Saturday.",
+   "arabicTranslation": "صباح الخير يا ليث. There is a lot to do before Saturday.",
+   "pronunciation": "Buongiorno, Laith. C'è molto da fare prima di sabato.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن ضغط عمل وطلب دعم."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_IT_D18_C01",
+   "text": "Buongiorno. Sì, mi sento sotto pressione oggi.",
+   "englishReference": "Good morning. Yes, I feel under pressure today.",
+   "arabicTranslation": "صباح الخير. Yes, I feel under pressure today.",
+   "pronunciation": "Buongiorno. Sì, mi sento sotto pressione oggi.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن ضغط عمل وطلب دعم."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D18_I01",
+   "text": "Cosa può aiutarci a mantenere la calma?",
+   "englishReference": "What can help us stay calm?",
+   "arabicTranslation": "What can help us stay calm?",
+   "pronunciation": "Cosa può aiutarci a mantenere la calma?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن ضغط عمل وطلب دعم."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_IT_D18_C02",
+   "text": "Possiamo dividere il lavoro in modo chiaro.",
+   "englishReference": "We can divide the work clearly.",
+   "arabicTranslation": "We can divide the work clearly.",
+   "pronunciation": "Possiamo dividere il lavoro in modo chiaro.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن ضغط عمل وطلب دعم."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D18_I02",
+   "text": "Puoi fare una lista per la squadra?",
+   "englishReference": "Can you make a list for the team?",
+   "arabicTranslation": "Can you make a list for the team?",
+   "pronunciation": "Puoi fare una lista per la squadra?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن ضغط عمل وطلب دعم."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_IT_D18_C03",
+   "text": "Sì, lo scriverò adesso.",
+   "englishReference": "Yes, I will write it now.",
+   "arabicTranslation": "Yes, I will write it now.",
+   "pronunciation": "Sì, lo scriverò adesso.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن ضغط عمل وطلب دعم."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D18_S02",
+   "text": "Sembra un buon piano.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "Sembra un buon piano.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن ضغط عمل وطلب دعم."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_IT_D18_S03",
+   "text": "Grazie. Arrivederci.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Grazie. Arrivederci.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن ضغط عمل وطلب دعم."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_IT_D18_C01",
+     "P_A2_IT_D18_C02",
+     "P_A2_IT_D18_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_IT_D18_I01",
+     "P_A2_IT_D18_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_IT_D18_C01",
+    "P_A2_IT_D18_C02",
+    "P_A2_IT_D18_C03",
+    "P_A2_IT_D18_I01",
+    "P_A2_IT_D18_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D17:COMPLETE"
+  ],
+  "onSuccess": [
+   "TEAM_PLAN:ACTIVE",
+   "A2_D19:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_18",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_it_d17",
+  "nextLessonId": "story_a2_it_d19",
+  "nextLessonHookArabic": "تنجح اللوحة الأولى في جذب زوار جدد.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 18: تحت الضغط."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

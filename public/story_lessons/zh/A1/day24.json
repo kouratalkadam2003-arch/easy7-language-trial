@@ -1,0 +1,475 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_zh_d24",
+  "languageCode": "zh",
+  "languageNameArabic": "الصينية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 24,
+  "lessonTitle": "简单的预算",
+  "englishTitle": "A Simple Budget",
+  "arabicTitle": "حساب بسيط",
+  "canonicalBeatIds": [
+   "BEAT_A1_D24"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "السؤال عن السعر والمقارنة البسيطة.",
+  "realLifeTransferArabic": "شراء حاجات وإدارة مصروف محدود.",
+  "successCapabilityArabic": "اسأل عن سعرين واختر ما يناسب ميزانيتك."
+ },
+ "story": {
+  "storyContextArabic": "يذهب ليث إلى السوق ومعه قائمة محدودة للمزرعة.",
+  "storyMissionArabic": "يتعلم أن يسأل ويختار دون إسراف.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias",
+   "vincent"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: حساب بسيط."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D24_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D24_01",
+     "narrationArabic": "يذهب ليث إلى السوق ومعه قائمة محدودة للمزرعة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D24_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "السؤال عن السعر والمقارنة البسيطة.",
+   "lines": [
+    {
+     "lineId": "L_A1_ZH_D24_01",
+     "speakerId": "vincent",
+     "targetText": "你好，文森特。我们需要种子袋。",
+     "englishReference": "Hello, Vincent. We need seed bags.",
+     "arabicTranslation": "مرحبًا يا فينسنت. نحتاج إلى أكياس بذور.",
+     "pronunciation": "nǐ hǎo, wén sēn tè. wǒ men xū yào zhǒng zi dài.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D24_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ZH_D24_02",
+     "speakerId": "laith",
+     "targetText": "你好，莱斯。这些都是好种子。",
+     "englishReference": "Hello, Laith. These are good seeds.",
+     "arabicTranslation": "مرحبًا يا ليث. هذه بذور جيدة.",
+     "pronunciation": "nǐ hǎo, lái sī. zhè xiē dōu shì hǎo zhǒng zi.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D24_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D24_03",
+     "speakerId": "vincent",
+     "targetText": "一袋多少钱？",
+     "englishReference": "How much is one bag?",
+     "arabicTranslation": "كم ثمن كيس واحد؟",
+     "pronunciation": "yī dài duō shǎo qián.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D24_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D24_04",
+     "speakerId": "laith",
+     "targetText": "一袋是两枚硬币。",
+     "englishReference": "One bag is two coins.",
+     "arabicTranslation": "كيس واحد ثمنه قطعتان نقديتان.",
+     "pronunciation": "yī dài shì liǎng méi yìng bì.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D24_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ZH_D24_05",
+     "speakerId": "vincent",
+     "targetText": "三袋多少钱？",
+     "englishReference": "How much are three bags?",
+     "arabicTranslation": "كم ثمن ثلاثة أكياس؟",
+     "pronunciation": "sān dài duō shǎo qián.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D24_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D24_06",
+     "speakerId": "laith",
+     "targetText": "三袋是六枚硬币。",
+     "englishReference": "Three bags are six coins.",
+     "arabicTranslation": "ثلاثة أكياس ثمنها ست قطع نقدية.",
+     "pronunciation": "sān dài shì liù méi yìng bì.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D24_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D24_07",
+     "speakerId": "vincent",
+     "targetText": "没关系。这是六枚硬币。",
+     "englishReference": "That is okay. Here are six coins.",
+     "arabicTranslation": "هذا مناسب. هذه ست قطع نقدية.",
+     "pronunciation": "méi guān xì. zhè shì liù méi yìng bì.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D24_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ZH_D24_08",
+     "speakerId": "laith",
+     "targetText": "谢谢你，莱斯。再见，祝你成长。",
+     "englishReference": "Thank you, Laith. Goodbye and good growing.",
+     "arabicTranslation": "شكرًا يا ليث. وداعًا وزراعة موفقة.",
+     "pronunciation": "xiè xiè nǐ, lái sī. zài jiàn, zhù nǐ chéng zhǎng.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D24_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D24_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_ZH_D24_C01",
+      "P_A1_ZH_D24_C02",
+      "P_A1_ZH_D24_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_ZH_D24_C01",
+      "P_A1_ZH_D24_C02",
+      "P_A1_ZH_D24_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_ZH_D24_I01",
+      "P_A1_ZH_D24_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D24_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: شراء حاجات وإدارة مصروف محدود.",
+   "requiredPhraseIds": [
+    "P_A1_ZH_D24_C01",
+    "P_A1_ZH_D24_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D24_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "我听说莱斯今天帮忙了。",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "wǒ tīng shuō lái sī jīn tiān bāng máng le."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "村里的人开始认识他了。",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "cūn lǐ de rén kāi shǐ rèn shí tā le."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D24_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: حساب بسيط.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "اسأل عن سعرين واختر ما يناسب ميزانيتك."
+   },
+   "successWorldConsequence": "A1_DAY_24:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_ZH_D24_S01",
+   "text": "你好，文森特。我们需要种子袋。",
+   "englishReference": "Hello, Vincent. We need seed bags.",
+   "arabicTranslation": "مرحبًا يا فينسنت. نحتاج إلى أكياس بذور.",
+   "pronunciation": "nǐ hǎo, wén sēn tè. wǒ men xū yào zhǒng zi dài.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D24_LEARNING",
+   "transferContexts": [
+    "شراء حاجات وإدارة مصروف محدود."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ZH_D24_I01",
+   "text": "你好，莱斯。这些都是好种子。",
+   "englishReference": "Hello, Laith. These are good seeds.",
+   "arabicTranslation": "مرحبًا يا ليث. هذه بذور جيدة.",
+   "pronunciation": "nǐ hǎo, lái sī. zhè xiē dōu shì hǎo zhǒng zi.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D24_LEARNING",
+   "transferContexts": [
+    "شراء حاجات وإدارة مصروف محدود."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_ZH_D24_C01",
+   "text": "一袋多少钱？",
+   "englishReference": "How much is one bag?",
+   "arabicTranslation": "كم ثمن كيس واحد؟",
+   "pronunciation": "yī dài duō shǎo qián.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D24_LEARNING",
+   "transferContexts": [
+    "شراء حاجات وإدارة مصروف محدود."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ZH_D24_S02",
+   "text": "一袋是两枚硬币。",
+   "englishReference": "One bag is two coins.",
+   "arabicTranslation": "كيس واحد ثمنه قطعتان نقديتان.",
+   "pronunciation": "yī dài shì liǎng méi yìng bì.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D24_LEARNING",
+   "transferContexts": [
+    "شراء حاجات وإدارة مصروف محدود."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ZH_D24_C02",
+   "text": "三袋多少钱？",
+   "englishReference": "How much are three bags?",
+   "arabicTranslation": "كم ثمن ثلاثة أكياس؟",
+   "pronunciation": "sān dài duō shǎo qián.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D24_LEARNING",
+   "transferContexts": [
+    "شراء حاجات وإدارة مصروف محدود."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ZH_D24_C03",
+   "text": "三袋是六枚硬币。",
+   "englishReference": "Three bags are six coins.",
+   "arabicTranslation": "ثلاثة أكياس ثمنها ست قطع نقدية.",
+   "pronunciation": "sān dài shì liù méi yìng bì.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D24_LEARNING",
+   "transferContexts": [
+    "شراء حاجات وإدارة مصروف محدود."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ZH_D24_S03",
+   "text": "没关系。这是六枚硬币。",
+   "englishReference": "That is okay. Here are six coins.",
+   "arabicTranslation": "هذا مناسب. هذه ست قطع نقدية.",
+   "pronunciation": "méi guān xì. zhè shì liù méi yìng bì.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D24_LEARNING",
+   "transferContexts": [
+    "شراء حاجات وإدارة مصروف محدود."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ZH_D24_I02",
+   "text": "谢谢你，莱斯。再见，祝你成长。",
+   "englishReference": "Thank you, Laith. Goodbye and good growing.",
+   "arabicTranslation": "شكرًا يا ليث. وداعًا وزراعة موفقة.",
+   "pronunciation": "xiè xiè nǐ, lái sī. zài jiàn, zhù nǐ chéng zhǎng.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D24_LEARNING",
+   "transferContexts": [
+    "شراء حاجات وإدارة مصروف محدود."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_ZH_D24_C01",
+     "P_A1_ZH_D24_C02",
+     "P_A1_ZH_D24_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_ZH_D24_C01",
+     "P_A1_ZH_D24_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_ZH_D24_C01",
+    "P_A1_ZH_D24_C02",
+    "P_A1_ZH_D24_C03",
+    "P_A1_ZH_D24_I01",
+    "P_A1_ZH_D24_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D23:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_24:COMPLETE",
+   "A1_D25:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_24",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_zh_d23",
+  "nextLessonId": "story_a1_zh_d25",
+  "nextLessonHookArabic": "غدًا: متعب وفخور.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 24: حساب بسيط."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

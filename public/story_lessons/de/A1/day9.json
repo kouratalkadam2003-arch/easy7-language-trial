@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_de_d09",
+  "languageCode": "de",
+  "languageNameArabic": "الألمانية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 9,
+  "lessonTitle": "Dinge um mich herum",
+  "englishTitle": "Things Around Me",
+  "arabicTitle": "أشياء حولي",
+  "canonicalBeatIds": [
+   "BEAT_A1_D09"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "تسمية أشياء ومواقعها البسيطة.",
+  "realLifeTransferArabic": "فهم تعليمات في البيت أو الفصل أو المكتب.",
+  "successCapabilityArabic": "اعثر على ثلاثة أشياء بعد سماع موقع كل واحدة."
+ },
+ "story": {
+  "storyContextArabic": "يحاول ليث إصلاح نافذة ويبحث عن أدوات في الكوخ.",
+  "storyMissionArabic": "يعثر على الأدوات من خلال فهم الكلمات والمواقع.",
+  "setting": "cabin_and_village",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: أشياء حولي."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D09_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D09_01",
+     "narrationArabic": "يحاول ليث إصلاح نافذة ويبحث عن أدوات في الكوخ."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D09_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "تسمية أشياء ومواقعها البسيطة.",
+   "lines": [
+    {
+     "lineId": "L_A1_DE_D09_01",
+     "speakerId": "elly",
+     "targetText": "Guten Morgen, Laith. Was brauchen Sie?",
+     "englishReference": "Good morning, Laith. What do you need?",
+     "arabicTranslation": "صباح الخير يا ليث. ماذا تحتاج؟",
+     "pronunciation": "Guten Morgen, Laith. Was brauchen Sie?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D09_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_DE_D09_02",
+     "speakerId": "laith",
+     "targetText": "Ich brauche bitte einen Hammer.",
+     "englishReference": "I need a hammer, please.",
+     "arabicTranslation": "أحتاج إلى مطرقة، من فضلك.",
+     "pronunciation": "Ich brauche bitte einen Hammer.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D09_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D09_03",
+     "speakerId": "elly",
+     "targetText": "Der Hammer liegt auf dem Tisch.",
+     "englishReference": "The hammer is on the table.",
+     "arabicTranslation": "المطرقة على الطاولة.",
+     "pronunciation": "Der Hammer liegt auf dem Tisch.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D09_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D09_04",
+     "speakerId": "laith",
+     "targetText": "Und wo ist das Seil?",
+     "englishReference": "And where is the rope?",
+     "arabicTranslation": "وأين الحبل؟",
+     "pronunciation": "Und wo ist das Seil?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D09_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_DE_D09_05",
+     "speakerId": "elly",
+     "targetText": "Das Seil ist in der Nähe der Tür.",
+     "englishReference": "The rope is near the door.",
+     "arabicTranslation": "الحبل قرب الباب.",
+     "pronunciation": "Das Seil ist in der Nähe der Tür.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D09_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D09_06",
+     "speakerId": "laith",
+     "targetText": "Ich sehe es. Danke schön.",
+     "englishReference": "I see it. Thank you.",
+     "arabicTranslation": "أراه. شكرًا لك.",
+     "pronunciation": "Ich sehe es. Danke schön.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D09_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D09_07",
+     "speakerId": "elly",
+     "targetText": "Kannst du die Nägel auch finden?",
+     "englishReference": "Can you find the nails too?",
+     "arabicTranslation": "هل يمكنك العثور على المسامير أيضًا؟",
+     "pronunciation": "Kannst du die Nägel auch finden?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D09_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_DE_D09_08",
+     "speakerId": "laith",
+     "targetText": "Ja, sie sind in der kleinen Schachtel. Auf Wiedersehen.",
+     "englishReference": "Yes, they are in the small box. Goodbye for now.",
+     "arabicTranslation": "نعم، إنها في الصندوق الصغير. إلى اللقاء الآن.",
+     "pronunciation": "Ja, sie sind in der kleinen Schachtel. Auf Wiedersehen.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D09_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D09_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_DE_D09_C01",
+      "P_A1_DE_D09_C02",
+      "P_A1_DE_D09_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_DE_D09_C01",
+      "P_A1_DE_D09_C02",
+      "P_A1_DE_D09_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_DE_D09_I01",
+      "P_A1_DE_D09_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D09_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: فهم تعليمات في البيت أو الفصل أو المكتب.",
+   "requiredPhraseIds": [
+    "P_A1_DE_D09_C01",
+    "P_A1_DE_D09_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D09_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Ich habe gehört, dass Laith heute geholfen hat.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "Ich habe gehört, dass Laith heute geholfen hat."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Das Dorf beginnt, ihn kennenzulernen.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "Das Dorf beginnt, ihn kennenzulernen."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D09_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: أشياء حولي.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "اعثر على ثلاثة أشياء بعد سماع موقع كل واحدة."
+   },
+   "successWorldConsequence": "A1_DAY_09:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_DE_D09_S01",
+   "text": "Guten Morgen, Laith. Was brauchen Sie?",
+   "englishReference": "Good morning, Laith. What do you need?",
+   "arabicTranslation": "صباح الخير يا ليث. ماذا تحتاج؟",
+   "pronunciation": "Guten Morgen, Laith. Was brauchen Sie?",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D09_LEARNING",
+   "transferContexts": [
+    "فهم تعليمات في البيت أو الفصل أو المكتب."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_DE_D09_I01",
+   "text": "Ich brauche bitte einen Hammer.",
+   "englishReference": "I need a hammer, please.",
+   "arabicTranslation": "أحتاج إلى مطرقة، من فضلك.",
+   "pronunciation": "Ich brauche bitte einen Hammer.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D09_LEARNING",
+   "transferContexts": [
+    "فهم تعليمات في البيت أو الفصل أو المكتب."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_DE_D09_C01",
+   "text": "Der Hammer liegt auf dem Tisch.",
+   "englishReference": "The hammer is on the table.",
+   "arabicTranslation": "المطرقة على الطاولة.",
+   "pronunciation": "Der Hammer liegt auf dem Tisch.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D09_LEARNING",
+   "transferContexts": [
+    "فهم تعليمات في البيت أو الفصل أو المكتب."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_DE_D09_S02",
+   "text": "Und wo ist das Seil?",
+   "englishReference": "And where is the rope?",
+   "arabicTranslation": "وأين الحبل؟",
+   "pronunciation": "Und wo ist das Seil?",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D09_LEARNING",
+   "transferContexts": [
+    "فهم تعليمات في البيت أو الفصل أو المكتب."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_DE_D09_C02",
+   "text": "Das Seil ist in der Nähe der Tür.",
+   "englishReference": "The rope is near the door.",
+   "arabicTranslation": "الحبل قرب الباب.",
+   "pronunciation": "Das Seil ist in der Nähe der Tür.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D09_LEARNING",
+   "transferContexts": [
+    "فهم تعليمات في البيت أو الفصل أو المكتب."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_DE_D09_C03",
+   "text": "Ich sehe es. Danke schön.",
+   "englishReference": "I see it. Thank you.",
+   "arabicTranslation": "أراه. شكرًا لك.",
+   "pronunciation": "Ich sehe es. Danke schön.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D09_LEARNING",
+   "transferContexts": [
+    "فهم تعليمات في البيت أو الفصل أو المكتب."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_DE_D09_S03",
+   "text": "Kannst du die Nägel auch finden?",
+   "englishReference": "Can you find the nails too?",
+   "arabicTranslation": "هل يمكنك العثور على المسامير أيضًا؟",
+   "pronunciation": "Kannst du die Nägel auch finden?",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D09_LEARNING",
+   "transferContexts": [
+    "فهم تعليمات في البيت أو الفصل أو المكتب."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_DE_D09_I02",
+   "text": "Ja, sie sind in der kleinen Schachtel. Auf Wiedersehen.",
+   "englishReference": "Yes, they are in the small box. Goodbye for now.",
+   "arabicTranslation": "نعم، إنها في الصندوق الصغير. إلى اللقاء الآن.",
+   "pronunciation": "Ja, sie sind in der kleinen Schachtel. Auf Wiedersehen.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D09_LEARNING",
+   "transferContexts": [
+    "فهم تعليمات في البيت أو الفصل أو المكتب."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_DE_D09_C01",
+     "P_A1_DE_D09_C02",
+     "P_A1_DE_D09_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_DE_D09_C01",
+     "P_A1_DE_D09_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_DE_D09_C01",
+    "P_A1_DE_D09_C02",
+    "P_A1_DE_D09_C03",
+    "P_A1_DE_D09_I01",
+    "P_A1_DE_D09_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D08:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_09:COMPLETE",
+   "A1_D10:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_09",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_de_d08",
+  "nextLessonId": "story_a1_de_d10",
+  "nextLessonHookArabic": "غدًا: وجبة دافئة.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 9: أشياء حولي."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

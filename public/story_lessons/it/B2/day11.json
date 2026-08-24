@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_it_d11",
+  "languageCode": "it",
+  "languageNameArabic": "الإيطالية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 11,
+  "lessonTitle": "Una firma semplice",
+  "englishTitle": "A Simple Signature",
+  "arabicTitle": "توقيع بسيط",
+  "canonicalBeatIds": [
+   "BEAT_B2_D11"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "تأكيد اتفاق بلغة واضحة.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: توقيع بسيط."
+ },
+ "story": {
+  "storyContextArabic": "يكتب ليث وغاستون اتفاقًا أوليًا مع الجيران.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: توقيع بسيط.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: توقيع بسيط."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D11_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D11_01",
+     "narrationArabic": "يكتب ليث وغاستون اتفاقًا أوليًا مع الجيران."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D11_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "تأكيد اتفاق بلغة واضحة.",
+   "lines": [
+    {
+     "lineId": "L_B2_IT_D11_01",
+     "speakerId": "gaston",
+     "targetText": "Dobbiamo rivedere l'accordo scritto.",
+     "englishReference": "We need to review the written agreement.",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "Dobbiamo rivedere l'accordo scritto.",
+     "phraseIds": [
+      "P_B2_IT_D11_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_IT_D11_02",
+     "speakerId": "laith",
+     "targetText": "Rispetto all’altra opzione, l’accordo è sufficientemente chiaro da poter essere firmato.",
+     "englishReference": "Compared with the other option, the agreement is clear enough to sign.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "Rispetto all’altra opzione, l’accordo è sufficientemente chiaro da poter essere firmato.",
+     "phraseIds": [
+      "P_B2_IT_D11_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D11_03",
+     "speakerId": "gaston",
+     "targetText": "Perché è importante?",
+     "englishReference": "Why is that important?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "Perché è importante?",
+     "phraseIds": [
+      "P_B2_IT_D11_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D11_04",
+     "speakerId": "laith",
+     "targetText": "Perché dovremmo leggerlo ancora una volta.",
+     "englishReference": "Because we should read it once more.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "Perché dovremmo leggerlo ancora una volta.",
+     "phraseIds": [
+      "P_B2_IT_D11_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D11_05",
+     "speakerId": "gaston",
+     "targetText": "Cosa dovrebbe succedere dopo?",
+     "englishReference": "What should happen next?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "Cosa dovrebbe succedere dopo?",
+     "phraseIds": [
+      "P_B2_IT_D11_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D11_06",
+     "speakerId": "laith",
+     "targetText": "Suggerisco di aggiungere la data di consegna.",
+     "englishReference": "I suggest that we can add the delivery date.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "Suggerisco di aggiungere la data di consegna.",
+     "phraseIds": [
+      "P_B2_IT_D11_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D11_07",
+     "speakerId": "gaston",
+     "targetText": "Capisco la tua posizione.",
+     "englishReference": "I understand your position.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "Capisco la tua posizione.",
+     "phraseIds": [
+      "P_B2_IT_D11_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_IT_D11_08",
+     "speakerId": "laith",
+     "targetText": "Bene. Possiamo continuare con cautela.",
+     "englishReference": "Good. We can continue carefully.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "Bene. Possiamo continuare con cautela.",
+     "phraseIds": [
+      "P_B2_IT_D11_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D11_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_IT_D11_C01",
+      "P_B2_IT_D11_C02",
+      "P_B2_IT_D11_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_IT_D11_C01",
+      "P_B2_IT_D11_C02",
+      "P_B2_IT_D11_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_IT_D11_I01",
+      "P_B2_IT_D11_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D11_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_IT_D11_C01",
+    "P_B2_IT_D11_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D11_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "L’alleanza sta cambiando la regione.",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة.",
+     "pronunciation": "L’alleanza sta cambiando la regione."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Alcuni dettagli per ora dovrebbero rimanere privati.",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن.",
+     "pronunciation": "Alcuni dettagli per ora dovrebbero rimanere privati."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D11_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: توقيع بسيط.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "AGREEMENT_SIGNED",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_IT_D11_S01",
+   "text": "Dobbiamo rivedere l'accordo scritto.",
+   "englishReference": "We need to review the written agreement.",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "Dobbiamo rivedere l'accordo scritto.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_IT_D11_C01",
+   "text": "Rispetto all’altra opzione, l’accordo è sufficientemente chiaro da poter essere firmato.",
+   "englishReference": "Compared with the other option, the agreement is clear enough to sign.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "Rispetto all’altra opzione, l’accordo è sufficientemente chiaro da poter essere firmato.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_IT_D11_I01",
+   "text": "Perché è importante?",
+   "englishReference": "Why is that important?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "Perché è importante?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_IT_D11_C02",
+   "text": "Perché dovremmo leggerlo ancora una volta.",
+   "englishReference": "Because we should read it once more.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "Perché dovremmo leggerlo ancora una volta.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_IT_D11_I02",
+   "text": "Cosa dovrebbe succedere dopo?",
+   "englishReference": "What should happen next?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "Cosa dovrebbe succedere dopo?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_IT_D11_C03",
+   "text": "Suggerisco di aggiungere la data di consegna.",
+   "englishReference": "I suggest that we can add the delivery date.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "Suggerisco di aggiungere la data di consegna.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_IT_D11_S02",
+   "text": "Capisco la tua posizione.",
+   "englishReference": "I understand your position.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "Capisco la tua posizione.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_IT_D11_S03",
+   "text": "Bene. Possiamo continuare con cautela.",
+   "englishReference": "Good. We can continue carefully.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "Bene. Possiamo continuare con cautela.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_IT_D11_C01",
+     "P_B2_IT_D11_C02",
+     "P_B2_IT_D11_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_IT_D11_I01",
+     "P_B2_IT_D11_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_IT_D11_C01",
+    "P_B2_IT_D11_C02",
+    "P_B2_IT_D11_C03",
+    "P_B2_IT_D11_I01",
+    "P_B2_IT_D11_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B2_D10:COMPLETE"
+  ],
+  "onSuccess": [
+   "AGREEMENT_SIGNED",
+   "B2_D12:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_11",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b2_it_d10",
+  "nextLessonId": "story_b2_it_d12",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 11: توقيع بسيط."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

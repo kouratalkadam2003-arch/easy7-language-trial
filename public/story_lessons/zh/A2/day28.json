@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_zh_d28",
+  "languageCode": "zh",
+  "languageNameArabic": "الصينية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 28,
+  "lessonTitle": "我对这个地方的看法",
+  "englishTitle": "My Thoughts About This Place",
+  "arabicTitle": "أفكاري عن المكان",
+  "canonicalBeatIds": [
+   "BEAT_A2_D28"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "إبداء رأي بسيط وتبريره.",
+  "realLifeTransferArabic": "مشاركة رأي عن مجتمع أو مشروع.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: أفكاري عن المكان دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "بعد السوق، يسأل غاستون ليث إن كان يرى القرية بيتًا حقيقيًا الآن.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: أفكاري عن المكان.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: أفكاري عن المكان."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D28_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D28_01",
+     "narrationArabic": "بعد السوق، يسأل غاستون ليث إن كان يرى القرية بيتًا حقيقيًا الآن."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D28_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "إبداء رأي بسيط وتبريره.",
+   "lines": [
+    {
+     "lineId": "L_A2_ZH_D28_01",
+     "speakerId": "gaston",
+     "targetText": "早上好，莱斯。现在你对这个村子有什么看法？",
+     "englishReference": "Good morning, Laith. What do you think about this village now?",
+     "arabicTranslation": "صباح الخير يا ليث. What do you think about this village now?",
+     "pronunciation": "zǎo shàng hǎo, lái sī. xiàn zài nǐ duì zhè ge cūn zi yǒu shén me kàn fǎ.",
+     "phraseIds": [
+      "P_A2_ZH_D28_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ZH_D28_02",
+     "speakerId": "laith",
+     "targetText": "早上好。我认为这是一个人们互相帮助的地方。",
+     "englishReference": "Good morning. I think it is a place where people help each other.",
+     "arabicTranslation": "صباح الخير. I think it is a place where people help each other.",
+     "pronunciation": "zǎo shàng hǎo. wǒ rèn wéi zhè shì yí gè rén men hù xiāng bāng zhù de dì fāng.",
+     "phraseIds": [
+      "P_A2_ZH_D28_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D28_03",
+     "speakerId": "gaston",
+     "targetText": "你为什么有这样的感觉？",
+     "englishReference": "Why do you feel that way?",
+     "arabicTranslation": "Why do you feel that way?",
+     "pronunciation": "nǐ wèi shén me yǒu zhè yàng de gǎn jué.",
+     "phraseIds": [
+      "P_A2_ZH_D28_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D28_04",
+     "speakerId": "laith",
+     "targetText": "因为我见过人们一起工作。",
+     "englishReference": "Because I have seen people work together.",
+     "arabicTranslation": "Because I have seen people work together.",
+     "pronunciation": "yīn wèi wǒ jiàn guò rén men yì qǐ gōng zuò.",
+     "phraseIds": [
+      "P_A2_ZH_D28_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D28_05",
+     "speakerId": "gaston",
+     "targetText": "你想留在这里吗？",
+     "englishReference": "Do you want to stay here?",
+     "arabicTranslation": "Do you want to stay here?",
+     "pronunciation": "nǐ xiǎng liú zài zhè lǐ ma.",
+     "phraseIds": [
+      "P_A2_ZH_D28_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D28_06",
+     "speakerId": "laith",
+     "targetText": "是的，我相信我会的。",
+     "englishReference": "Yes, I believe I do.",
+     "arabicTranslation": "Yes, I believe I do.",
+     "pronunciation": "shì de, wǒ xiāng xìn wǒ huì de.",
+     "phraseIds": [
+      "P_A2_ZH_D28_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D28_07",
+     "speakerId": "gaston",
+     "targetText": "这听起来是个好计划。",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "zhè tīng qǐ lái shì gè hǎo jì huà.",
+     "phraseIds": [
+      "P_A2_ZH_D28_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ZH_D28_08",
+     "speakerId": "laith",
+     "targetText": "谢谢。稍后见。",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "xiè xiè. shāo hòu jiàn.",
+     "phraseIds": [
+      "P_A2_ZH_D28_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D28_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_ZH_D28_C01",
+      "P_A2_ZH_D28_C02",
+      "P_A2_ZH_D28_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_ZH_D28_C01",
+      "P_A2_ZH_D28_C02",
+      "P_A2_ZH_D28_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_ZH_D28_I01",
+      "P_A2_ZH_D28_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D28_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: مشاركة رأي عن مجتمع أو مشروع.",
+   "requiredPhraseIds": [
+    "P_A2_ZH_D28_C01",
+    "P_A2_ZH_D28_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D28_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "本季市场变化很快。",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "běn jì shì chǎng biàn huà hěn kuài."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "是的。人们对古老道路提出了更多问题。",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "shì de. rén men duì gǔ lǎo dào lù tí chū le gèng duō wèn tí."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D28_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: أفكاري عن المكان.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: أفكاري عن المكان."
+   },
+   "successWorldConsequence": "BELONGING_DECISION:READY",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_ZH_D28_S01",
+   "text": "早上好，莱斯。现在你对这个村子有什么看法？",
+   "englishReference": "Good morning, Laith. What do you think about this village now?",
+   "arabicTranslation": "صباح الخير يا ليث. What do you think about this village now?",
+   "pronunciation": "zǎo shàng hǎo, lái sī. xiàn zài nǐ duì zhè ge cūn zi yǒu shén me kàn fǎ.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة رأي عن مجتمع أو مشروع."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ZH_D28_C01",
+   "text": "早上好。我认为这是一个人们互相帮助的地方。",
+   "englishReference": "Good morning. I think it is a place where people help each other.",
+   "arabicTranslation": "صباح الخير. I think it is a place where people help each other.",
+   "pronunciation": "zǎo shàng hǎo. wǒ rèn wéi zhè shì yí gè rén men hù xiāng bāng zhù de dì fāng.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة رأي عن مجتمع أو مشروع."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ZH_D28_I01",
+   "text": "你为什么有这样的感觉？",
+   "englishReference": "Why do you feel that way?",
+   "arabicTranslation": "Why do you feel that way?",
+   "pronunciation": "nǐ wèi shén me yǒu zhè yàng de gǎn jué.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة رأي عن مجتمع أو مشروع."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ZH_D28_C02",
+   "text": "因为我见过人们一起工作。",
+   "englishReference": "Because I have seen people work together.",
+   "arabicTranslation": "Because I have seen people work together.",
+   "pronunciation": "yīn wèi wǒ jiàn guò rén men yì qǐ gōng zuò.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة رأي عن مجتمع أو مشروع."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ZH_D28_I02",
+   "text": "你想留在这里吗？",
+   "englishReference": "Do you want to stay here?",
+   "arabicTranslation": "Do you want to stay here?",
+   "pronunciation": "nǐ xiǎng liú zài zhè lǐ ma.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة رأي عن مجتمع أو مشروع."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ZH_D28_C03",
+   "text": "是的，我相信我会的。",
+   "englishReference": "Yes, I believe I do.",
+   "arabicTranslation": "Yes, I believe I do.",
+   "pronunciation": "shì de, wǒ xiāng xìn wǒ huì de.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة رأي عن مجتمع أو مشروع."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ZH_D28_S02",
+   "text": "这听起来是个好计划。",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "zhè tīng qǐ lái shì gè hǎo jì huà.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة رأي عن مجتمع أو مشروع."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ZH_D28_S03",
+   "text": "谢谢。稍后见。",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "xiè xiè. shāo hòu jiàn.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة رأي عن مجتمع أو مشروع."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_ZH_D28_C01",
+     "P_A2_ZH_D28_C02",
+     "P_A2_ZH_D28_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_ZH_D28_I01",
+     "P_A2_ZH_D28_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_ZH_D28_C01",
+    "P_A2_ZH_D28_C02",
+    "P_A2_ZH_D28_C03",
+    "P_A2_ZH_D28_I01",
+    "P_A2_ZH_D28_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D27:COMPLETE"
+  ],
+  "onSuccess": [
+   "BELONGING_DECISION:READY",
+   "A2_D29:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_28",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_zh_d27",
+  "nextLessonId": "story_a2_zh_d29",
+  "nextLessonHookArabic": "خبر من البلدة يربط اسم عائلة ليث بطريق قديم.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 28: أفكاري عن المكان."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

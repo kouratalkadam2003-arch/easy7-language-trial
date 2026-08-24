@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_de_d02",
+  "languageCode": "de",
+  "languageNameArabic": "الألمانية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 2,
+  "lessonTitle": "Routen vergleichen",
+  "englishTitle": "Comparing Routes",
+  "arabicTitle": "مقارنة الطرق",
+  "canonicalBeatIds": [
+   "BEAT_B2_D02"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "مقارنة بدائل مع معايير واضحة.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: مقارنة الطرق."
+ },
+ "story": {
+  "storyContextArabic": "يقارن ليث بين طريق سريع محفوف بالخطر وطريق أطول آمن.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: مقارنة الطرق.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: مقارنة الطرق."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D02_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D02_01",
+     "narrationArabic": "يقارن ليث بين طريق سريع محفوف بالخطر وطريق أطول آمن."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D02_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "مقارنة بدائل مع معايير واضحة.",
+   "lines": [
+    {
+     "lineId": "L_B2_DE_D02_01",
+     "speakerId": "gaston",
+     "targetText": "Wir müssen die beiden Handelsrouten überprüfen.",
+     "englishReference": "We need to review the two trade routes.",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "Wir müssen die beiden Handelsrouten überprüfen.",
+     "phraseIds": [
+      "P_B2_DE_D02_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_DE_D02_02",
+     "speakerId": "laith",
+     "targetText": "Im Vergleich zur anderen Variante ist der sicherere Weg auf lange Sicht besser.",
+     "englishReference": "Compared with the other option, the safer route is better in the long term.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "Im Vergleich zur anderen Variante ist der sicherere Weg auf lange Sicht besser.",
+     "phraseIds": [
+      "P_B2_DE_D02_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_DE_D02_03",
+     "speakerId": "gaston",
+     "targetText": "Warum ist das wichtig?",
+     "englishReference": "Why is that important?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "Warum ist das wichtig?",
+     "phraseIds": [
+      "P_B2_DE_D02_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_DE_D02_04",
+     "speakerId": "laith",
+     "targetText": "Weil es mehr Zeit braucht.",
+     "englishReference": "Because it takes more time.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "Weil es mehr Zeit braucht.",
+     "phraseIds": [
+      "P_B2_DE_D02_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_DE_D02_05",
+     "speakerId": "gaston",
+     "targetText": "Was soll als nächstes passieren?",
+     "englishReference": "What should happen next?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "Was soll als nächstes passieren?",
+     "phraseIds": [
+      "P_B2_DE_D02_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_DE_D02_06",
+     "speakerId": "laith",
+     "targetText": "Ich schlage vor, dass wir Lieferungen früher planen können.",
+     "englishReference": "I suggest that we can plan deliveries earlier.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "Ich schlage vor, dass wir Lieferungen früher planen können.",
+     "phraseIds": [
+      "P_B2_DE_D02_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_DE_D02_07",
+     "speakerId": "gaston",
+     "targetText": "Ich verstehe Ihre Position.",
+     "englishReference": "I understand your position.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "Ich verstehe Ihre Position.",
+     "phraseIds": [
+      "P_B2_DE_D02_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_DE_D02_08",
+     "speakerId": "laith",
+     "targetText": "Gut. Wir können behutsam weitermachen.",
+     "englishReference": "Good. We can continue carefully.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "Gut. Wir können behutsam weitermachen.",
+     "phraseIds": [
+      "P_B2_DE_D02_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D02_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_DE_D02_C01",
+      "P_B2_DE_D02_C02",
+      "P_B2_DE_D02_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_DE_D02_C01",
+      "P_B2_DE_D02_C02",
+      "P_B2_DE_D02_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_DE_D02_I01",
+      "P_B2_DE_D02_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D02_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_DE_D02_C01",
+    "P_B2_DE_D02_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D02_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Die Allianz verändert die Region.",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة.",
+     "pronunciation": "Die Allianz verändert die Region."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Einige Details sollten vorerst vertraulich bleiben.",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن.",
+     "pronunciation": "Einige Details sollten vorerst vertraulich bleiben."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D02_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: مقارنة الطرق.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "ROUTE_CHOICE:SAFE",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_DE_D02_S01",
+   "text": "Wir müssen die beiden Handelsrouten überprüfen.",
+   "englishReference": "We need to review the two trade routes.",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "Wir müssen die beiden Handelsrouten überprüfen.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_DE_D02_C01",
+   "text": "Im Vergleich zur anderen Variante ist der sicherere Weg auf lange Sicht besser.",
+   "englishReference": "Compared with the other option, the safer route is better in the long term.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "Im Vergleich zur anderen Variante ist der sicherere Weg auf lange Sicht besser.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_DE_D02_I01",
+   "text": "Warum ist das wichtig?",
+   "englishReference": "Why is that important?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "Warum ist das wichtig?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_DE_D02_C02",
+   "text": "Weil es mehr Zeit braucht.",
+   "englishReference": "Because it takes more time.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "Weil es mehr Zeit braucht.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_DE_D02_I02",
+   "text": "Was soll als nächstes passieren?",
+   "englishReference": "What should happen next?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "Was soll als nächstes passieren?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_DE_D02_C03",
+   "text": "Ich schlage vor, dass wir Lieferungen früher planen können.",
+   "englishReference": "I suggest that we can plan deliveries earlier.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "Ich schlage vor, dass wir Lieferungen früher planen können.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_DE_D02_S02",
+   "text": "Ich verstehe Ihre Position.",
+   "englishReference": "I understand your position.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "Ich verstehe Ihre Position.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_DE_D02_S03",
+   "text": "Gut. Wir können behutsam weitermachen.",
+   "englishReference": "Good. We can continue carefully.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "Gut. Wir können behutsam weitermachen.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_DE_D02_C01",
+     "P_B2_DE_D02_C02",
+     "P_B2_DE_D02_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_DE_D02_I01",
+     "P_B2_DE_D02_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_DE_D02_C01",
+    "P_B2_DE_D02_C02",
+    "P_B2_DE_D02_C03",
+    "P_B2_DE_D02_I01",
+    "P_B2_DE_D02_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B2_D01:COMPLETE"
+  ],
+  "onSuccess": [
+   "ROUTE_CHOICE:SAFE",
+   "B2_D03:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_02",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b2_de_d01",
+  "nextLessonId": "story_b2_de_d03",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 2: مقارنة الطرق."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

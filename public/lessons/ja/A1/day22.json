@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 22,
+ "story": {
+  "originalText": "Yassin: Omar, watashi wa onaka ga suite imasu.\nOmar: Watashi mo onaka ga suite imasu.\nYassin: Resutoran ni ikimashō.\nOmar: Ii kangae desu. Resutoran wa chikai desu.\nYassin: Gohan to toriniku ga hoshii desu.\nOmar: Watashi wa sūpu to pan ga hoshii desu.\nYassin: Ryōri no nioi ga yoi desu.\nOmar: Hai, demo nedan o shiru hitsuyō ga arimasu.\nYassin: Shokuji wa ikura desu ka?\nOmar: Ashita kikimashō.",
+  "translatedText": "Yassin: عمر، أنا جائع.\nOmar: أنا جائع أيضاً.\nYassin: لنذهب إلى مطعم.\nOmar: فكرة جيدة. المطعم قريب.\nYassin: أريد أرزاً ودجاجاً.\nOmar: أريد حساءً وخبزاً.\nYassin: رائحة الطعام جيدة.\nOmar: نعم، لكن نحتاج إلى معرفة السعر.\nYassin: كم ثمن الوجبة؟\nOmar: لنسأل غداً.",
+  "nativeScriptText": "Yassin: Omar、私はお腹が空いています。\nOmar: 私もお腹が空いています。\nYassin: レストランに行きましょう。\nOmar: いい考えです。レストランは近いです。\nYassin: ご飯と鶏肉が欲しいです。\nOmar: 私はスープとパンが欲しいです。\nYassin: 料理の匂いが良いです。\nOmar: はい、でも値段を知る必要があります。\nYassin: 食事はいくらですか？\nOmar: 明日聞きましょう。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 22: جوعان",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar、私はお腹が空いています。",
+    "translation": "عمر، أنا جائع.",
+    "pronunciation": "Omar, watashi wa onaka ga suite imasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私もお腹が空いています。",
+    "translation": "أنا جائع أيضاً.",
+    "pronunciation": "Watashi mo onaka ga suite imasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "レストランに行きましょう。",
+    "translation": "لنذهب إلى مطعم.",
+    "pronunciation": "Resutoran ni ikimashō."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "いい考えです。レストランは近いです。",
+    "translation": "فكرة جيدة. المطعم قريب.",
+    "pronunciation": "Ii kangae desu. Resutoran wa chikai desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "ご飯と鶏肉が欲しいです。",
+    "translation": "أريد أرزاً ودجاجاً.",
+    "pronunciation": "Gohan to toriniku ga hoshii desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私はスープとパンが欲しいです。",
+    "translation": "أريد حساءً وخبزاً.",
+    "pronunciation": "Watashi wa sūpu to pan ga hoshii desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "料理の匂いが良いです。",
+    "translation": "رائحة الطعام جيدة.",
+    "pronunciation": "Ryōri no nioi ga yoi desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、でも値段を知る必要があります。",
+    "translation": "نعم، لكن نحتاج إلى معرفة السعر.",
+    "pronunciation": "Hai, demo nedan o shiru hitsuyō ga arimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "食事はいくらですか？",
+    "translation": "كم ثمن الوجبة؟",
+    "pronunciation": "Shokuji wa ikura desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "明日聞きましょう。",
+    "translation": "لنسأل غداً.",
+    "pronunciation": "Ashita kikimashō."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d22",
+   "title": "جوعان",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 22,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s3_d21"
+  ],
+  "createdAt": 1786696446398
+ }
+}

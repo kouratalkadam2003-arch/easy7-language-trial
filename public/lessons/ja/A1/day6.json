@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 6,
+ "story": {
+  "originalText": "Yassin: Konbanwa, Yassin. Genki desu ka?\nOmar: Genki desu, arigatō. Anata wa?\nYassin: Totemo genki desu. Kamisama ni kansha shimasu.\nOmar: Jugyō no ato de tsukarete imasu ka?\nYassin: Sukoshi tsukarete imasu ga, ureshii desu.\nOmar: Watashi mo ureshii desu.\nYassin: Saisho no shū wa umaku itte imasu.\nOmar: Hai, mainichi sukoshi zutsu manande imasu.\nYassin: Ashita issho ni fukushū shimashō.\nOmar: Ii ne. Oyasuminasai, Omar.",
+  "translatedText": "Yassin: مساء الخير يا ياسين. كيف حالك؟\nOmar: أنا بخير، شكراً. وأنت؟\nYassin: أنا بخير جداً، الحمد لله.\nOmar: هل أنت متعب بعد الدرس؟\nYassin: متعب قليلاً، لكن سعيد.\nOmar: أنا سعيد أيضاً.\nYassin: الأسبوع الأول يسير بشكل جيد.\nOmar: نعم، أتعلم شيئاً كل يوم.\nYassin: غداً سنراجع معاً.\nOmar: رائع. تصبح على خير يا عمر.",
+  "nativeScriptText": "Yassin: こんばんは、Yassin。元気ですか？\nOmar: 元気です、ありがとう。あなたは？\nYassin: とても元気です。神さまに感謝します。\nOmar: 授業の後で疲れていますか？\nYassin: 少し疲れていますが、嬉しいです。\nOmar: 私も嬉しいです。\nYassin: 最初の週はうまくいっています。\nOmar: はい、毎日少しずつ学んでいます。\nYassin: 明日一緒に復習しましょう。\nOmar: いいね。おやすみなさい、Omar。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 6: كيف حالك؟",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "こんばんは、Yassin。元気ですか？",
+    "translation": "مساء الخير يا ياسين. كيف حالك؟",
+    "pronunciation": "Konbanwa, Yassin. Genki desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "元気です、ありがとう。あなたは？",
+    "translation": "أنا بخير، شكراً. وأنت؟",
+    "pronunciation": "Genki desu, arigatō. Anata wa?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "とても元気です。神さまに感謝します。",
+    "translation": "أنا بخير جداً، الحمد لله.",
+    "pronunciation": "Totemo genki desu. Kamisama ni kansha shimasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "授業の後で疲れていますか？",
+    "translation": "هل أنت متعب بعد الدرس؟",
+    "pronunciation": "Jugyō no ato de tsukarete imasu ka?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "少し疲れていますが、嬉しいです。",
+    "translation": "متعب قليلاً، لكن سعيد.",
+    "pronunciation": "Sukoshi tsukarete imasu ga, ureshii desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私も嬉しいです。",
+    "translation": "أنا سعيد أيضاً.",
+    "pronunciation": "Watashi mo ureshii desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "最初の週はうまくいっています。",
+    "translation": "الأسبوع الأول يسير بشكل جيد.",
+    "pronunciation": "Saisho no shū wa umaku itte imasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、毎日少しずつ学んでいます。",
+    "translation": "نعم، أتعلم شيئاً كل يوم.",
+    "pronunciation": "Hai, mainichi sukoshi zutsu manande imasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "明日一緒に復習しましょう。",
+    "translation": "غداً سنراجع معاً.",
+    "pronunciation": "Ashita issho ni fukushū shimashō."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "いいね。おやすみなさい、Omar。",
+    "translation": "رائع. تصبح على خير يا عمر.",
+    "pronunciation": "Ii ne. Oyasuminasai, Omar."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d6",
+   "title": "كيف حالك؟",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 6,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s1_d5"
+  ],
+  "createdAt": 1786696446398
+ }
+}

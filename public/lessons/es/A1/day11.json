@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 11,
+ "story": {
+  "originalText": "Yassin: Omar, quiero un plato, por favor.\nOmar: Aquí tienes un plato.\nYassin: Gracias. Quiero también una cuchara.\nOmar: Las cucharas están en este cajón.\nYassin: Quiero cocinar los huevos.\nOmar: Quiero hacer té.\nYassin: Quiero un poco de sal, por favor.\nOmar: Aquí tienes.\nYassin: Quiero comer ahora.\nOmar: Espera un minuto, por favor.",
+  "translatedText": "Yassin: عمر، أريد طبقاً، من فضلك.\nOmar: هذا طبق لك.\nYassin: شكراً. أريد ملعقة أيضاً.\nOmar: الملاعق في هذا الدرج.\nYassin: أريد أن أطبخ البيض.\nOmar: أريد أن أصنع الشاي.\nYassin: أريد بعض الملح، من فضلك.\nOmar: تفضل.\nYassin: أريد أن آكل الآن.\nOmar: انتظر دقيقة واحدة، من فضلك.",
+  "nativeScriptText": "Yassin: Omar, quiero un plato, por favor.\nOmar: Aquí tienes un plato.\nYassin: Gracias. Quiero también una cuchara.\nOmar: Las cucharas están en este cajón.\nYassin: Quiero cocinar los huevos.\nOmar: Quiero hacer té.\nYassin: Quiero un poco de sal, por favor.\nOmar: Aquí tienes.\nYassin: Quiero comer ahora.\nOmar: Espera un minuto, por favor.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 11: أريد",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar, quiero un plato, por favor.",
+    "translation": "عمر، أريد طبقاً، من فضلك.",
+    "pronunciation": "Omar, quiero un plato, por favor."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Aquí tienes un plato.",
+    "translation": "هذا طبق لك.",
+    "pronunciation": "Aquí tienes un plato."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Gracias. Quiero también una cuchara.",
+    "translation": "شكراً. أريد ملعقة أيضاً.",
+    "pronunciation": "Gracias. Quiero también una cuchara."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Las cucharas están en este cajón.",
+    "translation": "الملاعق في هذا الدرج.",
+    "pronunciation": "Las cucharas están en este cajón."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Quiero cocinar los huevos.",
+    "translation": "أريد أن أطبخ البيض.",
+    "pronunciation": "Quiero cocinar los huevos."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Quiero hacer té.",
+    "translation": "أريد أن أصنع الشاي.",
+    "pronunciation": "Quiero hacer té."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Quiero un poco de sal, por favor.",
+    "translation": "أريد بعض الملح، من فضلك.",
+    "pronunciation": "Quiero un poco de sal, por favor."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Aquí tienes.",
+    "translation": "تفضل.",
+    "pronunciation": "Aquí tienes."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Quiero comer ahora.",
+    "translation": "أريد أن آكل الآن.",
+    "pronunciation": "Quiero comer ahora."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Espera un minuto, por favor.",
+    "translation": "انتظر دقيقة واحدة، من فضلك.",
+    "pronunciation": "Espera un minuto, por favor."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d11",
+   "title": "أريد",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 11,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s2_d10"
+  ],
+  "createdAt": 1786696446398
+ }
+}

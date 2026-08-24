@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 9,
+ "story": {
+  "originalText": "Yassin: Kore wa watashitachi no heya desu, Yassin.\nOmar: Heya wa akarui desu.\nYassin: Anata no beddo wa hidari ni arimasu.\nOmar: Soshite kimi no beddo wa migi ni arimasu.\nYassin: Mado no soba ni tēburu ga arimasu.\nOmar: Baggu o tēburu no ue ni okemasu.\nYassin: Fuku o kurōzetto ni irete kudasai.\nOmar: Wakatta, ima heya wa yoku miemasu.\nYassin: Sōji no ato de onaka ga sukimashita.\nOmar: Nanika tabemono o tsukurimashō.",
+  "translatedText": "Yassin: هذه غرفتنا يا ياسين.\nOmar: الغرفة مضيئة.\nYassin: سريرك على اليسار.\nOmar: وسريرك على اليمين.\nYassin: هناك طاولة قرب النافذة.\nOmar: يمكنني وضع حقيبتي على الطاولة.\nYassin: من فضلك ضع ملابسك في الخزانة.\nOmar: حسناً، تبدو الغرفة جيدة الآن.\nYassin: أنا جائع بعد التنظيف.\nOmar: لنصنع بعض الطعام.",
+  "nativeScriptText": "Yassin: これは私たちの部屋です、Yassin。\nOmar: 部屋は明るいです。\nYassin: あなたのベッドは左にあります。\nOmar: そして君のベッドは右にあります。\nYassin: 窓のそばにテーブルがあります。\nOmar: バッグをテーブルの上に置けます。\nYassin: 服をクローゼットに入れてください。\nOmar: わかった、今部屋は良く見えます。\nYassin: 掃除の後でお腹がすきました。\nOmar: 何か食べ物を作りましょう。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 9: غرفة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "これは私たちの部屋です、Yassin。",
+    "translation": "هذه غرفتنا يا ياسين.",
+    "pronunciation": "Kore wa watashitachi no heya desu, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "部屋は明るいです。",
+    "translation": "الغرفة مضيئة.",
+    "pronunciation": "Heya wa akarui desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "あなたのベッドは左にあります。",
+    "translation": "سريرك على اليسار.",
+    "pronunciation": "Anata no beddo wa hidari ni arimasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "そして君のベッドは右にあります。",
+    "translation": "وسريرك على اليمين.",
+    "pronunciation": "Soshite kimi no beddo wa migi ni arimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "窓のそばにテーブルがあります。",
+    "translation": "هناك طاولة قرب النافذة.",
+    "pronunciation": "Mado no soba ni tēburu ga arimasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "バッグをテーブルの上に置けます。",
+    "translation": "يمكنني وضع حقيبتي على الطاولة.",
+    "pronunciation": "Baggu o tēburu no ue ni okemasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "服をクローゼットに入れてください。",
+    "translation": "من فضلك ضع ملابسك في الخزانة.",
+    "pronunciation": "Fuku o kurōzetto ni irete kudasai."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "わかった、今部屋は良く見えます。",
+    "translation": "حسناً، تبدو الغرفة جيدة الآن.",
+    "pronunciation": "Wakatta, ima heya wa yoku miemasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "掃除の後でお腹がすきました。",
+    "translation": "أنا جائع بعد التنظيف.",
+    "pronunciation": "Sōji no ato de onaka ga sukimashita."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "何か食べ物を作りましょう。",
+    "translation": "لنصنع بعض الطعام.",
+    "pronunciation": "Nanika tabemono o tsukurimashō."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d9",
+   "title": "غرفة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 9,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s2_d8"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,447 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b1_en_d17",
+  "languageCode": "en",
+  "languageNameArabic": "الإنجليزية",
+  "cefrLevel": "B1",
+  "chapterId": "chapter_03_responsibility",
+  "dayNumber": 17,
+  "lessonTitle": "Evidence or Guess?",
+  "englishTitle": "Evidence or Guess?",
+  "arabicTitle": "دليل أم ظن؟",
+  "canonicalBeatIds": [
+   "BEAT_B1_D17"
+  ],
+  "canonVersion": "STORY_CANON_V1_1"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التمييز بين دليل وتخمين.",
+  "realLifeTransferArabic": "التعبير عن رأي مدعوم بسبب واقتراح خطوة عملية.",
+  "successCapabilityArabic": "أدر نقاشًا قصيرًا عن دليل أم ظن؟."
+ },
+ "story": {
+  "storyContextArabic": "يقارن ليث سجل الماء بما يقوله الناس.",
+  "storyMissionArabic": "يتعلم ليث القيادة عبر موضوع: دليل أم ظن؟.",
+  "setting": "village_council",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: دليل أم ظن؟."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B1_D17_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B1_D17_01",
+     "narrationArabic": "يقارن ليث سجل الماء بما يقوله الناس."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D17_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التمييز بين دليل وتخمين.",
+   "lines": [
+    {
+     "lineId": "L_B1_EN_D17_01",
+     "speakerId": "elly",
+     "targetText": "We need to talk about the water records.",
+     "englishReference": "We need to talk about the water records.",
+     "arabicTranslation": "نحتاج إلى الحديث عن the water records.",
+     "pronunciation": "We need to talk about the water records.",
+     "phraseIds": [
+      "P_B1_EN_D17_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_EN_D17_02",
+     "speakerId": "laith",
+     "targetText": "In my opinion, the records are more useful than guesses.",
+     "englishReference": "In my opinion, the records are more useful than guesses.",
+     "arabicTranslation": "في رأيي، the records are more useful than guesses.",
+     "pronunciation": "In my opinion, the records are more useful than guesses.",
+     "phraseIds": [
+      "P_B1_EN_D17_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_EN_D17_03",
+     "speakerId": "elly",
+     "targetText": "Why do you think that?",
+     "englishReference": "Why do you think that?",
+     "arabicTranslation": "لماذا تعتقد ذلك؟",
+     "pronunciation": "Why do you think that?",
+     "phraseIds": [
+      "P_B1_EN_D17_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_EN_D17_04",
+     "speakerId": "laith",
+     "targetText": "Because they show what actually happened.",
+     "englishReference": "Because they show what actually happened.",
+     "arabicTranslation": "لأن they show what actually happened.",
+     "pronunciation": "Because they show what actually happened.",
+     "phraseIds": [
+      "P_B1_EN_D17_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_EN_D17_05",
+     "speakerId": "elly",
+     "targetText": "What should we do first?",
+     "englishReference": "What should we do first?",
+     "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+     "pronunciation": "What should we do first?",
+     "phraseIds": [
+      "P_B1_EN_D17_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_EN_D17_06",
+     "speakerId": "laith",
+     "targetText": "I suggest that we should check them together.",
+     "englishReference": "I suggest that we should check them together.",
+     "arabicTranslation": "أقترح أن we should check them together.",
+     "pronunciation": "I suggest that we should check them together.",
+     "phraseIds": [
+      "P_B1_EN_D17_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_EN_D17_07",
+     "speakerId": "elly",
+     "targetText": "That seems reasonable.",
+     "englishReference": "That seems reasonable.",
+     "arabicTranslation": "يبدو ذلك معقولًا.",
+     "pronunciation": "That seems reasonable.",
+     "phraseIds": [
+      "P_B1_EN_D17_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_EN_D17_08",
+     "speakerId": "laith",
+     "targetText": "Thank you. I will explain it to the team.",
+     "englishReference": "Thank you. I will explain it to the team.",
+     "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+     "pronunciation": "Thank you. I will explain it to the team.",
+     "phraseIds": [
+      "P_B1_EN_D17_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D17_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "argument_rebuild",
+     "phraseIds": [
+      "P_B1_EN_D17_C01",
+      "P_B1_EN_D17_C02",
+      "P_B1_EN_D17_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B1_EN_D17_C01",
+      "P_B1_EN_D17_C02",
+      "P_B1_EN_D17_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B1_EN_D17_I01",
+      "P_B1_EN_D17_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D17_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استعمل رأيًا وسببًا واقتراحًا في موقف عمل أو دراسة.",
+   "requiredPhraseIds": [
+    "P_B1_EN_D17_C01",
+    "P_B1_EN_D17_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D17_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "The village meeting raised useful questions.",
+     "englishReference": "The village meeting raised useful questions.",
+     "arabicTranslation": "اجتماع القرية أثار أسئلة مفيدة."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Some questions are better left for later.",
+     "englishReference": "Some questions are better left for later.",
+     "arabicTranslation": "بعض الأسئلة من الأفضل تركها لوقت لاحق."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B1_D17_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "يحتاج الفريق إلى قرار حول: دليل أم ظن؟.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "state_opinion",
+     "give_reason",
+     "make_proposal"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير رأيًا مدعومًا داخل نقاش.",
+    "afterArabic": "يستطيع المتعلم الآن إبداء رأي وسبب واقتراح."
+   },
+   "successWorldConsequence": "EVIDENCE_REVIEW:OPEN",
+   "retryPolicy": "يقدّم تلميح للسبب أو للاقتراح ثم تعاد المهمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B1_EN_D17_S01",
+   "text": "We need to talk about the water records.",
+   "englishReference": "We need to talk about the water records.",
+   "arabicTranslation": "نحتاج إلى الحديث عن the water records.",
+   "pronunciation": "We need to talk about the water records.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_EN_D17_C01",
+   "text": "In my opinion, the records are more useful than guesses.",
+   "englishReference": "In my opinion, the records are more useful than guesses.",
+   "arabicTranslation": "في رأيي، the records are more useful than guesses.",
+   "pronunciation": "In my opinion, the records are more useful than guesses.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_EN_D17_I01",
+   "text": "Why do you think that?",
+   "englishReference": "Why do you think that?",
+   "arabicTranslation": "لماذا تعتقد ذلك؟",
+   "pronunciation": "Why do you think that?",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_EN_D17_C02",
+   "text": "Because they show what actually happened.",
+   "englishReference": "Because they show what actually happened.",
+   "arabicTranslation": "لأن they show what actually happened.",
+   "pronunciation": "Because they show what actually happened.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_EN_D17_I02",
+   "text": "What should we do first?",
+   "englishReference": "What should we do first?",
+   "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+   "pronunciation": "What should we do first?",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_EN_D17_C03",
+   "text": "I suggest that we should check them together.",
+   "englishReference": "I suggest that we should check them together.",
+   "arabicTranslation": "أقترح أن we should check them together.",
+   "pronunciation": "I suggest that we should check them together.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_EN_D17_S02",
+   "text": "That seems reasonable.",
+   "englishReference": "That seems reasonable.",
+   "arabicTranslation": "يبدو ذلك معقولًا.",
+   "pronunciation": "That seems reasonable.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_EN_D17_S03",
+   "text": "Thank you. I will explain it to the team.",
+   "englishReference": "Thank you. I will explain it to the team.",
+   "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+   "pronunciation": "Thank you. I will explain it to the team.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "speaker_intent"
+   ],
+   "supportFadePlan": "يعتمد B1 على الحجج لا على الإشارات."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B1_EN_D17_C01",
+     "P_B1_EN_D17_C02",
+     "P_B1_EN_D17_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B1_EN_D17_I01",
+     "P_B1_EN_D17_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B1_EN_D17_C01",
+    "P_B1_EN_D17_C02",
+    "P_B1_EN_D17_C03",
+    "P_B1_EN_D17_I01",
+    "P_B1_EN_D17_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تطلب شخصية من ليث إعادة شرح قرار سابق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B1_D16:COMPLETE"
+  ],
+  "onSuccess": [
+   "EVIDENCE_REVIEW:OPEN",
+   "B1_D18:UNLOCKED"
+  ],
+  "milestone": "b1_milestone_17",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b1_en_d16",
+  "nextLessonId": "story_b1_en_d18",
+  "nextLessonHookArabic": "يتولد تحدٍّ جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B1 17: دليل أم ظن؟."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

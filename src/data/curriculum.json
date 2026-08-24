@@ -1,0 +1,914 @@
+{
+  "A1": [
+    {
+      "day": 1,
+      "title": "اسمي",
+      "station": 1
+    },
+    {
+      "day": 2,
+      "title": "من أين",
+      "station": 1
+    },
+    {
+      "day": 3,
+      "title": "عمري",
+      "station": 1
+    },
+    {
+      "day": 4,
+      "title": "تحية",
+      "station": 1
+    },
+    {
+      "day": 5,
+      "title": "مرحبا / وداعاً",
+      "station": 1
+    },
+    {
+      "day": 6,
+      "title": "كيف حالك؟",
+      "station": 1
+    },
+    {
+      "day": 7,
+      "title": "مراجعة شاملة",
+      "station": 1
+    },
+    {
+      "day": 8,
+      "title": "بيتي",
+      "station": 2
+    },
+    {
+      "day": 9,
+      "title": "غرفة",
+      "station": 2
+    },
+    {
+      "day": 10,
+      "title": "طعام",
+      "station": 2
+    },
+    {
+      "day": 11,
+      "title": "أريد",
+      "station": 2
+    },
+    {
+      "day": 12,
+      "title": "لا أريد",
+      "station": 2
+    },
+    {
+      "day": 13,
+      "title": "ماء / قهوة",
+      "station": 2
+    },
+    {
+      "day": 14,
+      "title": "مراجعة شاملة",
+      "station": 2
+    },
+    {
+      "day": 15,
+      "title": "عمل",
+      "station": 3
+    },
+    {
+      "day": 16,
+      "title": "طالب",
+      "station": 3
+    },
+    {
+      "day": 17,
+      "title": "أستاذ",
+      "station": 3
+    },
+    {
+      "day": 18,
+      "title": "كتاب",
+      "station": 3
+    },
+    {
+      "day": 19,
+      "title": "مكتب",
+      "station": 3
+    },
+    {
+      "day": 20,
+      "title": "يوم",
+      "station": 3
+    },
+    {
+      "day": 21,
+      "title": "مراجعة شاملة",
+      "station": 3
+    },
+    {
+      "day": 22,
+      "title": "جوعان",
+      "station": 4
+    },
+    {
+      "day": 23,
+      "title": "كم؟",
+      "station": 4
+    },
+    {
+      "day": 24,
+      "title": "فاتورة",
+      "station": 4
+    },
+    {
+      "day": 25,
+      "title": "مريض",
+      "station": 4
+    },
+    {
+      "day": 26,
+      "title": "دكتور",
+      "station": 4
+    },
+    {
+      "day": 27,
+      "title": "مساعدة",
+      "station": 4
+    },
+    {
+      "day": 28,
+      "title": "مراجعة شاملة",
+      "station": 4
+    },
+    {
+      "day": 29,
+      "title": "أحب / أكره",
+      "station": 5
+    },
+    {
+      "day": 30,
+      "title": "امتحان المستوى",
+      "station": 5
+    }
+  ],
+  "A2": [
+    {
+      "day": 1,
+      "title": "تعرفت على",
+      "station": 1
+    },
+    {
+      "day": 2,
+      "title": "طفولتي",
+      "station": 1
+    },
+    {
+      "day": 3,
+      "title": "الطقس",
+      "station": 1
+    },
+    {
+      "day": 4,
+      "title": "أصدقائي",
+      "station": 1
+    },
+    {
+      "day": 5,
+      "title": "نظيف / فوضى",
+      "station": 1
+    },
+    {
+      "day": 6,
+      "title": "رياضة",
+      "station": 1
+    },
+    {
+      "day": 7,
+      "title": "مراجعة شاملة",
+      "station": 1
+    },
+    {
+      "day": 8,
+      "title": "روتيني",
+      "station": 2
+    },
+    {
+      "day": 9,
+      "title": "أستيقظ",
+      "station": 2
+    },
+    {
+      "day": 10,
+      "title": "متأخر",
+      "station": 2
+    },
+    {
+      "day": 11,
+      "title": "تعبان",
+      "station": 2
+    },
+    {
+      "day": 12,
+      "title": "استرحت",
+      "station": 2
+    },
+    {
+      "day": 13,
+      "title": "أكل صحي",
+      "station": 2
+    },
+    {
+      "day": 14,
+      "title": "مراجعة شاملة",
+      "station": 2
+    },
+    {
+      "day": 15,
+      "title": "زميل",
+      "station": 3
+    },
+    {
+      "day": 16,
+      "title": "مشروع",
+      "station": 3
+    },
+    {
+      "day": 17,
+      "title": "موعد",
+      "station": 3
+    },
+    {
+      "day": 18,
+      "title": "ضغط",
+      "station": 3
+    },
+    {
+      "day": 19,
+      "title": "نجحت",
+      "station": 3
+    },
+    {
+      "day": 20,
+      "title": "فشلت",
+      "station": 3
+    },
+    {
+      "day": 21,
+      "title": "مراجعة شاملة",
+      "station": 3
+    },
+    {
+      "day": 22,
+      "title": "سافرت",
+      "station": 4
+    },
+    {
+      "day": 23,
+      "title": "فندق",
+      "station": 4
+    },
+    {
+      "day": 24,
+      "title": "ضايع",
+      "station": 4
+    },
+    {
+      "day": 25,
+      "title": "خريطة",
+      "station": 4
+    },
+    {
+      "day": 26,
+      "title": "جار",
+      "station": 4
+    },
+    {
+      "day": 27,
+      "title": "سوق",
+      "station": 4
+    },
+    {
+      "day": 28,
+      "title": "مراجعة شاملة",
+      "station": 4
+    },
+    {
+      "day": 29,
+      "title": "رأيي",
+      "station": 5
+    },
+    {
+      "day": 30,
+      "title": "امتحان المستوى",
+      "station": 5
+    }
+  ],
+  "B1": [
+    {
+      "day": 1,
+      "title": "قيمة",
+      "station": 1
+    },
+    {
+      "day": 2,
+      "title": "طموح",
+      "station": 1
+    },
+    {
+      "day": 3,
+      "title": "بيئة",
+      "station": 1
+    },
+    {
+      "day": 4,
+      "title": "ثقافة",
+      "station": 1
+    },
+    {
+      "day": 5,
+      "title": "توازن",
+      "station": 1
+    },
+    {
+      "day": 6,
+      "title": "فريق",
+      "station": 1
+    },
+    {
+      "day": 7,
+      "title": "مراجعة شاملة",
+      "station": 1
+    },
+    {
+      "day": 8,
+      "title": "مهارة",
+      "station": 2
+    },
+    {
+      "day": 9,
+      "title": "مقابلة",
+      "station": 2
+    },
+    {
+      "day": 10,
+      "title": "ترقية",
+      "station": 2
+    },
+    {
+      "day": 11,
+      "title": "استقلت",
+      "station": 2
+    },
+    {
+      "day": 12,
+      "title": "مسؤولية",
+      "station": 2
+    },
+    {
+      "day": 13,
+      "title": "حل",
+      "station": 2
+    },
+    {
+      "day": 14,
+      "title": "مراجعة شاملة",
+      "station": 2
+    },
+    {
+      "day": 15,
+      "title": "جيل",
+      "station": 3
+    },
+    {
+      "day": 16,
+      "title": "تطوع",
+      "station": 3
+    },
+    {
+      "day": 17,
+      "title": "ثقة",
+      "station": 3
+    },
+    {
+      "day": 18,
+      "title": "خيانة",
+      "station": 3
+    },
+    {
+      "day": 19,
+      "title": "انتقاد",
+      "station": 3
+    },
+    {
+      "day": 20,
+      "title": "حل النزاع",
+      "station": 3
+    },
+    {
+      "day": 21,
+      "title": "مراجعة شاملة",
+      "station": 3
+    },
+    {
+      "day": 22,
+      "title": "ذكاء اصطناعي",
+      "station": 4
+    },
+    {
+      "day": 23,
+      "title": "خوارزمية",
+      "station": 4
+    },
+    {
+      "day": 24,
+      "title": "خصوصية",
+      "station": 4
+    },
+    {
+      "day": 25,
+      "title": "وسائل التواصل",
+      "station": 4
+    },
+    {
+      "day": 26,
+      "title": "إدمان",
+      "station": 4
+    },
+    {
+      "day": 27,
+      "title": "توفير",
+      "station": 4
+    },
+    {
+      "day": 28,
+      "title": "مراجعة شاملة",
+      "station": 4
+    },
+    {
+      "day": 29,
+      "title": "نصيحة",
+      "station": 5
+    },
+    {
+      "day": 30,
+      "title": "امتحان المستوى",
+      "station": 5
+    }
+  ],
+  "B2": [
+    {
+      "day": 1,
+      "title": "انطباع أول",
+      "station": 1
+    },
+    {
+      "day": 2,
+      "title": "ذكاء عاطفي",
+      "station": 1
+    },
+    {
+      "day": 3,
+      "title": "تغير مناخي",
+      "station": 1
+    },
+    {
+      "day": 4,
+      "title": "نجاح",
+      "station": 1
+    },
+    {
+      "day": 5,
+      "title": "إبداع",
+      "station": 1
+    },
+    {
+      "day": 6,
+      "title": "جماهير",
+      "station": 1
+    },
+    {
+      "day": 7,
+      "title": "مراجعة شاملة",
+      "station": 1
+    },
+    {
+      "day": 8,
+      "title": "شركة ناشئة",
+      "station": 2
+    },
+    {
+      "day": 9,
+      "title": "أخلاقيات",
+      "station": 2
+    },
+    {
+      "day": 10,
+      "title": "قيادة",
+      "station": 2
+    },
+    {
+      "day": 11,
+      "title": "فساد",
+      "station": 2
+    },
+    {
+      "day": 12,
+      "title": "استدامة",
+      "station": 2
+    },
+    {
+      "day": 13,
+      "title": "منافسة",
+      "station": 2
+    },
+    {
+      "day": 14,
+      "title": "مراجعة شاملة",
+      "station": 2
+    },
+    {
+      "day": 15,
+      "title": "طب بديل",
+      "station": 3
+    },
+    {
+      "day": 16,
+      "title": "صناعة أدوية",
+      "station": 3
+    },
+    {
+      "day": 17,
+      "title": "صحة نفسية",
+      "station": 3
+    },
+    {
+      "day": 18,
+      "title": "جينات",
+      "station": 3
+    },
+    {
+      "day": 19,
+      "title": "وباء",
+      "station": 3
+    },
+    {
+      "day": 20,
+      "title": "أزمة",
+      "station": 3
+    },
+    {
+      "day": 21,
+      "title": "مراجعة شاملة",
+      "station": 3
+    },
+    {
+      "day": 22,
+      "title": "عولمة",
+      "station": 4
+    },
+    {
+      "day": 23,
+      "title": "ضريبة",
+      "station": 4
+    },
+    {
+      "day": 24,
+      "title": "عملة مشفرة",
+      "station": 4
+    },
+    {
+      "day": 25,
+      "title": "هجرة",
+      "station": 4
+    },
+    {
+      "day": 26,
+      "title": "عدالة اجتماعية",
+      "station": 4
+    },
+    {
+      "day": 27,
+      "title": "نزاع عمالي",
+      "station": 4
+    },
+    {
+      "day": 28,
+      "title": "مراجعة شاملة",
+      "station": 4
+    },
+    {
+      "day": 29,
+      "title": "إقناع",
+      "station": 5
+    },
+    {
+      "day": 30,
+      "title": "امتحان المستوى",
+      "station": 5
+    }
+  ],
+  "C1": [
+    {
+      "day": 1,
+      "title": "هوية ثقافية",
+      "station": 1
+    },
+    {
+      "day": 2,
+      "title": "سخرية",
+      "station": 1
+    },
+    {
+      "day": 3,
+      "title": "نزاع جيوسياسي",
+      "station": 1
+    },
+    {
+      "day": 4,
+      "title": "ابتكار",
+      "station": 1
+    },
+    {
+      "day": 5,
+      "title": "تركيز عميق",
+      "station": 1
+    },
+    {
+      "day": 6,
+      "title": "رياضة ودبلوماسية",
+      "station": 1
+    },
+    {
+      "day": 7,
+      "title": "مراجعة شاملة",
+      "station": 1
+    },
+    {
+      "day": 8,
+      "title": "حوكمة",
+      "station": 2
+    },
+    {
+      "day": 9,
+      "title": "منظومة تعليمية",
+      "station": 2
+    },
+    {
+      "day": 10,
+      "title": "تفاوض",
+      "station": 2
+    },
+    {
+      "day": 11,
+      "title": "شفافية",
+      "station": 2
+    },
+    {
+      "day": 12,
+      "title": "فلسفة التعليم",
+      "station": 2
+    },
+    {
+      "day": 13,
+      "title": "نزاع",
+      "station": 2
+    },
+    {
+      "day": 14,
+      "title": "مراجعة شاملة",
+      "station": 2
+    },
+    {
+      "day": 15,
+      "title": "خطاب سياسي",
+      "station": 3
+    },
+    {
+      "day": 16,
+      "title": "دعاية",
+      "station": 3
+    },
+    {
+      "day": 17,
+      "title": "وعي زائف",
+      "station": 3
+    },
+    {
+      "day": 18,
+      "title": "رأي عام",
+      "station": 3
+    },
+    {
+      "day": 19,
+      "title": "صحافة",
+      "station": 3
+    },
+    {
+      "day": 20,
+      "title": "رقابة",
+      "station": 3
+    },
+    {
+      "day": 21,
+      "title": "مراجعة شاملة",
+      "station": 3
+    },
+    {
+      "day": 22,
+      "title": "نقد فني",
+      "station": 4
+    },
+    {
+      "day": 23,
+      "title": "رمزية",
+      "station": 4
+    },
+    {
+      "day": 24,
+      "title": "أدب رحلات",
+      "station": 4
+    },
+    {
+      "day": 25,
+      "title": "رأسمالية",
+      "station": 4
+    },
+    {
+      "day": 26,
+      "title": "بورصة",
+      "station": 4
+    },
+    {
+      "day": 27,
+      "title": "ملكية فكرية",
+      "station": 4
+    },
+    {
+      "day": 28,
+      "title": "مراجعة شاملة",
+      "station": 4
+    },
+    {
+      "day": 29,
+      "title": "خطابة",
+      "station": 5
+    },
+    {
+      "day": 30,
+      "title": "امتحان المستوى",
+      "station": 5
+    }
+  ],
+  "C2": [
+    {
+      "day": 1,
+      "title": "هوية فكرية",
+      "station": 1
+    },
+    {
+      "day": 2,
+      "title": "ذكاء لغوي",
+      "station": 1
+    },
+    {
+      "day": 3,
+      "title": "مفارقة",
+      "station": 1
+    },
+    {
+      "day": 4,
+      "title": "هواية وجودية",
+      "station": 1
+    },
+    {
+      "day": 5,
+      "title": "إنتاجية",
+      "station": 1
+    },
+    {
+      "day": 6,
+      "title": "تنافسية",
+      "station": 1
+    },
+    {
+      "day": 7,
+      "title": "مراجعة شاملة",
+      "station": 1
+    },
+    {
+      "day": 8,
+      "title": "ذكاء اصطناعي فائق",
+      "station": 2
+    },
+    {
+      "day": 9,
+      "title": "بحث أكاديمي",
+      "station": 2
+    },
+    {
+      "day": 10,
+      "title": "قيادة كلية",
+      "station": 2
+    },
+    {
+      "day": 11,
+      "title": "ابتكار المعرفة",
+      "station": 2
+    },
+    {
+      "day": 12,
+      "title": "منهجية",
+      "station": 2
+    },
+    {
+      "day": 13,
+      "title": "استراتيجية كبرى",
+      "station": 2
+    },
+    {
+      "day": 14,
+      "title": "مراجعة شاملة",
+      "station": 2
+    },
+    {
+      "day": 15,
+      "title": "تلاعب جيني",
+      "station": 3
+    },
+    {
+      "day": 16,
+      "title": "سياسة صحية",
+      "station": 3
+    },
+    {
+      "day": 17,
+      "title": "سيكولوجيا الخوف",
+      "station": 3
+    },
+    {
+      "day": 18,
+      "title": "أمن غذائي",
+      "station": 3
+    },
+    {
+      "day": 19,
+      "title": "وباء عالمي",
+      "station": 3
+    },
+    {
+      "day": 20,
+      "title": "أخلاقيات طبية",
+      "station": 3
+    },
+    {
+      "day": 21,
+      "title": "مراجعة شاملة",
+      "station": 3
+    },
+    {
+      "day": 22,
+      "title": "فضاء سيبراني",
+      "station": 4
+    },
+    {
+      "day": 23,
+      "title": "وعي جماعي",
+      "station": 4
+    },
+    {
+      "day": 24,
+      "title": "نقد سينمائي معمق",
+      "station": 4
+    },
+    {
+      "day": 25,
+      "title": "استهلاك",
+      "station": 4
+    },
+    {
+      "day": 26,
+      "title": "جيوسياسة مالية",
+      "station": 4
+    },
+    {
+      "day": 27,
+      "title": "قانون تجاري دولي",
+      "station": 4
+    },
+    {
+      "day": 28,
+      "title": "مراجعة شاملة",
+      "station": 4
+    },
+    {
+      "day": 29,
+      "title": "مناظرة",
+      "station": 5
+    },
+    {
+      "day": 30,
+      "title": "امتحان المستوى",
+      "station": 5
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 14,
+ "story": {
+  "originalText": "Yassin: Zhè shì nǐ jiā ma?\nOmar: Shì de, zhè shì wǒ jiā.\nYassin: Nǐ de fángjiān zài nǎlǐ?\nOmar: Wǒ de fángjiān zài chúfáng pángbiān.\nYassin: Nǐ xiǎng chī shénme?\nOmar: Wǒ xiǎng yào jīdàn hé miànbāo.\nYassin: Nǐ yào kāfēi ma?\nOmar: Bù, wǒ bù yào kāfēi. Wǒ xiǎng yào shuǐ.\nYassin: Fēicháng hǎo. Nǐ xiànzài shuō de hěn hǎo.\nOmar: Xièxie. Zài xuéyuàn jiàn.",
+  "translatedText": "Yassin: هل هذا بيتك؟\nOmar: نعم، هذا بيتي.\nYassin: أين غرفتك؟\nOmar: غرفتي بجانب المطبخ.\nYassin: ما الطعام الذي تريده؟\nOmar: أريد البيض والخبز.\nYassin: هل تريد قهوة؟\nOmar: لا، لا أريد القهوة. أريد الماء.\nYassin: جيد جداً. أنت تتكلم جيداً الآن.\nOmar: شكراً. أراك في المعهد.",
+  "nativeScriptText": "Yassin: 这是你家吗？\nOmar: 是的，这是我家。\nYassin: 你的房间在哪里？\nOmar: 我的房间在厨房旁边。\nYassin: 你想吃什么？\nOmar: 我想要鸡蛋和面包。\nYassin: 你要咖啡吗？\nOmar: 不，我不要咖啡。我想要水。\nYassin: 非常好。你现在说得很好。\nOmar: 谢谢。在学院见。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 14: مراجعة شاملة (8-13)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "这是你家吗？",
+    "translation": "هل هذا بيتك؟",
+    "pronunciation": "Zhè shì nǐ jiā ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，这是我家。",
+    "translation": "نعم، هذا بيتي.",
+    "pronunciation": "Shì de, zhè shì wǒ jiā."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你的房间在哪里？",
+    "translation": "أين غرفتك؟",
+    "pronunciation": "Nǐ de fángjiān zài nǎlǐ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我的房间在厨房旁边。",
+    "translation": "غرفتي بجانب المطبخ.",
+    "pronunciation": "Wǒ de fángjiān zài chúfáng pángbiān."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你想吃什么？",
+    "translation": "ما الطعام الذي تريده؟",
+    "pronunciation": "Nǐ xiǎng chī shénme?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我想要鸡蛋和面包。",
+    "translation": "أريد البيض والخبز.",
+    "pronunciation": "Wǒ xiǎng yào jīdàn hé miànbāo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你要咖啡吗？",
+    "translation": "هل تريد قهوة؟",
+    "pronunciation": "Nǐ yào kāfēi ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "不，我不要咖啡。我想要水。",
+    "translation": "لا، لا أريد القهوة. أريد الماء.",
+    "pronunciation": "Bù, wǒ bù yào kāfēi. Wǒ xiǎng yào shuǐ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "非常好。你现在说得很好。",
+    "translation": "جيد جداً. أنت تتكلم جيداً الآن.",
+    "pronunciation": "Fēicháng hǎo. Nǐ xiànzài shuō de hěn hǎo."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "谢谢。在学院见。",
+    "translation": "شكراً. أراك في المعهد.",
+    "pronunciation": "Xièxie. Zài xuéyuàn jiàn."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d14",
+   "title": "مراجعة شاملة (8-13)",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 14,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s2_d13"
+  ],
+  "createdAt": 1786696446398
+ }
+}

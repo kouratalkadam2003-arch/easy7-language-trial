@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 28,
+ "story": {
+  "originalText": "Yassin: Are you hungry?\nOmar: Yes, I am hungry.\nYassin: How much is the meal?\nOmar: The meal is ten dollars.\nYassin: Can I have the bill, please?\nOmar: Yes, here is the bill.\nYassin: Are you sick now?\nOmar: No, I feel better after the doctor.\nYassin: Can I help you with anything?\nOmar: No, thank you. I am fine now.",
+  "translatedText": "Yassin: هل أنت جائع؟\nOmar: نعم، أنا جائع.\nYassin: كم ثمن الوجبة؟\nOmar: الوجبة بعشرة دولارات.\nYassin: هل يمكنني الحصول على الفاتورة، من فضلك؟\nOmar: نعم، هذه هي الفاتورة.\nYassin: هل أنت مريض الآن؟\nOmar: لا، أشعر بتحسن بعد زيارة الطبيب.\nYassin: هل يمكنني مساعدتك في شيء؟\nOmar: لا، شكراً. أنا بخير الآن.",
+  "nativeScriptText": "Yassin: Are you hungry?\nOmar: Yes, I am hungry.\nYassin: How much is the meal?\nOmar: The meal is ten dollars.\nYassin: Can I have the bill, please?\nOmar: Yes, here is the bill.\nYassin: Are you sick now?\nOmar: No, I feel better after the doctor.\nYassin: Can I help you with anything?\nOmar: No, thank you. I am fine now.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 28: مراجعة شاملة (22-27)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Are you hungry?",
+    "translation": "هل أنت جائع؟",
+    "pronunciation": "Are you hungry?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, I am hungry.",
+    "translation": "نعم، أنا جائع.",
+    "pronunciation": "Yes, I am hungry."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "How much is the meal?",
+    "translation": "كم ثمن الوجبة؟",
+    "pronunciation": "How much is the meal?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The meal is ten dollars.",
+    "translation": "الوجبة بعشرة دولارات.",
+    "pronunciation": "The meal is ten dollars."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Can I have the bill, please?",
+    "translation": "هل يمكنني الحصول على الفاتورة، من فضلك؟",
+    "pronunciation": "Can I have the bill, please?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, here is the bill.",
+    "translation": "نعم، هذه هي الفاتورة.",
+    "pronunciation": "Yes, here is the bill."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Are you sick now?",
+    "translation": "هل أنت مريض الآن؟",
+    "pronunciation": "Are you sick now?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, I feel better after the doctor.",
+    "translation": "لا، أشعر بتحسن بعد زيارة الطبيب.",
+    "pronunciation": "No, I feel better after the doctor."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Can I help you with anything?",
+    "translation": "هل يمكنني مساعدتك في شيء؟",
+    "pronunciation": "Can I help you with anything?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, thank you. I am fine now.",
+    "translation": "لا، شكراً. أنا بخير الآن.",
+    "pronunciation": "No, thank you. I am fine now."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d28",
+   "title": "مراجعة شاملة (22-27)",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 28,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s4_d27"
+  ],
+  "createdAt": 1786696446398
+ }
+}

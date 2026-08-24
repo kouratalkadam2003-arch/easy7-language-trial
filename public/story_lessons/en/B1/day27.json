@@ -1,0 +1,447 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b1_en_d27",
+  "languageCode": "en",
+  "languageNameArabic": "الإنجليزية",
+  "cefrLevel": "B1",
+  "chapterId": "chapter_03_responsibility",
+  "dayNumber": 27,
+  "lessonTitle": "Eyes on the Road",
+  "englishTitle": "Eyes on the Road",
+  "arabicTitle": "عين على الطريق",
+  "canonicalBeatIds": [
+   "BEAT_B1_D27"
+  ],
+  "canonVersion": "STORY_CANON_V1_1"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف ملاحظة وطلب تحقق.",
+  "realLifeTransferArabic": "التعبير عن رأي مدعوم بسبب واقتراح خطوة عملية.",
+  "successCapabilityArabic": "أدر نقاشًا قصيرًا عن عين على الطريق."
+ },
+ "story": {
+  "storyContextArabic": "يلحظ ليث أن شخصًا يتابع حركة العربات قرب الطريق.",
+  "storyMissionArabic": "يتعلم ليث القيادة عبر موضوع: عين على الطريق.",
+  "setting": "village_council",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: عين على الطريق."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B1_D27_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B1_D27_01",
+     "narrationArabic": "يلحظ ليث أن شخصًا يتابع حركة العربات قرب الطريق."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D27_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف ملاحظة وطلب تحقق.",
+   "lines": [
+    {
+     "lineId": "L_B1_EN_D27_01",
+     "speakerId": "gaston",
+     "targetText": "We need to talk about the strange observer.",
+     "englishReference": "We need to talk about the strange observer.",
+     "arabicTranslation": "نحتاج إلى الحديث عن the strange observer.",
+     "pronunciation": "We need to talk about the strange observer.",
+     "phraseIds": [
+      "P_B1_EN_D27_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_EN_D27_02",
+     "speakerId": "laith",
+     "targetText": "In my opinion, I noticed something unusual.",
+     "englishReference": "In my opinion, I noticed something unusual.",
+     "arabicTranslation": "في رأيي، I noticed something unusual.",
+     "pronunciation": "In my opinion, I noticed something unusual.",
+     "phraseIds": [
+      "P_B1_EN_D27_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_EN_D27_03",
+     "speakerId": "gaston",
+     "targetText": "Why do you think that?",
+     "englishReference": "Why do you think that?",
+     "arabicTranslation": "لماذا تعتقد ذلك؟",
+     "pronunciation": "Why do you think that?",
+     "phraseIds": [
+      "P_B1_EN_D27_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_EN_D27_04",
+     "speakerId": "laith",
+     "targetText": "Because the person watched the carts for a long time.",
+     "englishReference": "Because the person watched the carts for a long time.",
+     "arabicTranslation": "لأن the person watched the carts for a long time.",
+     "pronunciation": "Because the person watched the carts for a long time.",
+     "phraseIds": [
+      "P_B1_EN_D27_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_EN_D27_05",
+     "speakerId": "gaston",
+     "targetText": "What should we do first?",
+     "englishReference": "What should we do first?",
+     "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+     "pronunciation": "What should we do first?",
+     "phraseIds": [
+      "P_B1_EN_D27_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_EN_D27_06",
+     "speakerId": "laith",
+     "targetText": "I suggest that we should tell the team carefully.",
+     "englishReference": "I suggest that we should tell the team carefully.",
+     "arabicTranslation": "أقترح أن we should tell the team carefully.",
+     "pronunciation": "I suggest that we should tell the team carefully.",
+     "phraseIds": [
+      "P_B1_EN_D27_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_EN_D27_07",
+     "speakerId": "gaston",
+     "targetText": "That seems reasonable.",
+     "englishReference": "That seems reasonable.",
+     "arabicTranslation": "يبدو ذلك معقولًا.",
+     "pronunciation": "That seems reasonable.",
+     "phraseIds": [
+      "P_B1_EN_D27_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_EN_D27_08",
+     "speakerId": "laith",
+     "targetText": "Thank you. I will explain it to the team.",
+     "englishReference": "Thank you. I will explain it to the team.",
+     "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+     "pronunciation": "Thank you. I will explain it to the team.",
+     "phraseIds": [
+      "P_B1_EN_D27_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D27_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "argument_rebuild",
+     "phraseIds": [
+      "P_B1_EN_D27_C01",
+      "P_B1_EN_D27_C02",
+      "P_B1_EN_D27_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B1_EN_D27_C01",
+      "P_B1_EN_D27_C02",
+      "P_B1_EN_D27_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B1_EN_D27_I01",
+      "P_B1_EN_D27_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D27_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استعمل رأيًا وسببًا واقتراحًا في موقف عمل أو دراسة.",
+   "requiredPhraseIds": [
+    "P_B1_EN_D27_C01",
+    "P_B1_EN_D27_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D27_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "The village meeting raised useful questions.",
+     "englishReference": "The village meeting raised useful questions.",
+     "arabicTranslation": "اجتماع القرية أثار أسئلة مفيدة."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Some questions are better left for later.",
+     "englishReference": "Some questions are better left for later.",
+     "arabicTranslation": "بعض الأسئلة من الأفضل تركها لوقت لاحق."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B1_D27_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "يحتاج الفريق إلى قرار حول: عين على الطريق.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "state_opinion",
+     "give_reason",
+     "make_proposal"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير رأيًا مدعومًا داخل نقاش.",
+    "afterArabic": "يستطيع المتعلم الآن إبداء رأي وسبب واقتراح."
+   },
+   "successWorldConsequence": "ROAD_CLUE:01",
+   "retryPolicy": "يقدّم تلميح للسبب أو للاقتراح ثم تعاد المهمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B1_EN_D27_S01",
+   "text": "We need to talk about the strange observer.",
+   "englishReference": "We need to talk about the strange observer.",
+   "arabicTranslation": "نحتاج إلى الحديث عن the strange observer.",
+   "pronunciation": "We need to talk about the strange observer.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_EN_D27_C01",
+   "text": "In my opinion, I noticed something unusual.",
+   "englishReference": "In my opinion, I noticed something unusual.",
+   "arabicTranslation": "في رأيي، I noticed something unusual.",
+   "pronunciation": "In my opinion, I noticed something unusual.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_EN_D27_I01",
+   "text": "Why do you think that?",
+   "englishReference": "Why do you think that?",
+   "arabicTranslation": "لماذا تعتقد ذلك؟",
+   "pronunciation": "Why do you think that?",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_EN_D27_C02",
+   "text": "Because the person watched the carts for a long time.",
+   "englishReference": "Because the person watched the carts for a long time.",
+   "arabicTranslation": "لأن the person watched the carts for a long time.",
+   "pronunciation": "Because the person watched the carts for a long time.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_EN_D27_I02",
+   "text": "What should we do first?",
+   "englishReference": "What should we do first?",
+   "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+   "pronunciation": "What should we do first?",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_EN_D27_C03",
+   "text": "I suggest that we should tell the team carefully.",
+   "englishReference": "I suggest that we should tell the team carefully.",
+   "arabicTranslation": "أقترح أن we should tell the team carefully.",
+   "pronunciation": "I suggest that we should tell the team carefully.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_EN_D27_S02",
+   "text": "That seems reasonable.",
+   "englishReference": "That seems reasonable.",
+   "arabicTranslation": "يبدو ذلك معقولًا.",
+   "pronunciation": "That seems reasonable.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_EN_D27_S03",
+   "text": "Thank you. I will explain it to the team.",
+   "englishReference": "Thank you. I will explain it to the team.",
+   "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+   "pronunciation": "Thank you. I will explain it to the team.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "speaker_intent"
+   ],
+   "supportFadePlan": "يعتمد B1 على الحجج لا على الإشارات."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B1_EN_D27_C01",
+     "P_B1_EN_D27_C02",
+     "P_B1_EN_D27_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B1_EN_D27_I01",
+     "P_B1_EN_D27_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B1_EN_D27_C01",
+    "P_B1_EN_D27_C02",
+    "P_B1_EN_D27_C03",
+    "P_B1_EN_D27_I01",
+    "P_B1_EN_D27_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تطلب شخصية من ليث إعادة شرح قرار سابق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B1_D26:COMPLETE"
+  ],
+  "onSuccess": [
+   "ROAD_CLUE:01",
+   "B1_D28:UNLOCKED"
+  ],
+  "milestone": "b1_milestone_27",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b1_en_d26",
+  "nextLessonId": "story_b1_en_d28",
+  "nextLessonHookArabic": "يتولد تحدٍّ جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B1 27: عين على الطريق."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

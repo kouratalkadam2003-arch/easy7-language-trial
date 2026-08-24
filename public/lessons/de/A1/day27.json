@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 27,
+ "story": {
+  "originalText": "Yassin: Hallo, Yassin. Kannst du mir helfen?\nOmar: Ja, natürlich. Was brauchst du?\nYassin: Ich brauche meine Medizin und etwas Wasser.\nOmar: Hier ist deine Medizin und dein Wasser.\nYassin: Danke. Du bist sehr nett.\nOmar: Gern geschehen, mein Freund.\nYassin: Kannst du den Lehrer für mich anrufen?\nOmar: Ja, ich kann ihn jetzt anrufen.\nYassin: Morgen werde ich mich besser fühlen, wenn Gott will.\nOmar: Wenn Gott will. Wir werden morgen wiederholen.",
+  "translatedText": "Yassin: مرحباً يا ياسين. هل يمكنك مساعدتي؟\nOmar: نعم، بالطبع. ماذا تحتاج؟\nYassin: أحتاج دوائي وبعض الماء.\nOmar: هذا دواؤك وماؤك.\nYassin: شكراً. أنت لطيف جداً.\nOmar: عفواً يا صديقي.\nYassin: هل يمكنك الاتصال بالمعلم من أجلي؟\nOmar: نعم، يمكنني الاتصال به الآن.\nYassin: غداً سأشعر بتحسن، إن شاء الله.\nOmar: إن شاء الله. سنراجع غداً.",
+  "nativeScriptText": "Yassin: Hallo, Yassin. Kannst du mir helfen?\nOmar: Ja, natürlich. Was brauchst du?\nYassin: Ich brauche meine Medizin und etwas Wasser.\nOmar: Hier ist deine Medizin und dein Wasser.\nYassin: Danke. Du bist sehr nett.\nOmar: Gern geschehen, mein Freund.\nYassin: Kannst du den Lehrer für mich anrufen?\nOmar: Ja, ich kann ihn jetzt anrufen.\nYassin: Morgen werde ich mich besser fühlen, wenn Gott will.\nOmar: Wenn Gott will. Wir werden morgen wiederholen.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 27: مساعدة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hallo, Yassin. Kannst du mir helfen?",
+    "translation": "مرحباً يا ياسين. هل يمكنك مساعدتي؟",
+    "pronunciation": "Hallo, Yassin. Kannst du mir helfen?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, natürlich. Was brauchst du?",
+    "translation": "نعم، بالطبع. ماذا تحتاج؟",
+    "pronunciation": "Ja, natürlich. Was brauchst du?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich brauche meine Medizin und etwas Wasser.",
+    "translation": "أحتاج دوائي وبعض الماء.",
+    "pronunciation": "Ich brauche meine Medizin und etwas Wasser."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hier ist deine Medizin und dein Wasser.",
+    "translation": "هذا دواؤك وماؤك.",
+    "pronunciation": "Hier ist deine Medizin und dein Wasser."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Danke. Du bist sehr nett.",
+    "translation": "شكراً. أنت لطيف جداً.",
+    "pronunciation": "Danke. Du bist sehr nett."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Gern geschehen, mein Freund.",
+    "translation": "عفواً يا صديقي.",
+    "pronunciation": "Gern geschehen, mein Freund."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Kannst du den Lehrer für mich anrufen?",
+    "translation": "هل يمكنك الاتصال بالمعلم من أجلي؟",
+    "pronunciation": "Kannst du den Lehrer für mich anrufen?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, ich kann ihn jetzt anrufen.",
+    "translation": "نعم، يمكنني الاتصال به الآن.",
+    "pronunciation": "Ja, ich kann ihn jetzt anrufen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Morgen werde ich mich besser fühlen, wenn Gott will.",
+    "translation": "غداً سأشعر بتحسن، إن شاء الله.",
+    "pronunciation": "Morgen werde ich mich besser fühlen, wenn Gott will."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Wenn Gott will. Wir werden morgen wiederholen.",
+    "translation": "إن شاء الله. سنراجع غداً.",
+    "pronunciation": "Wenn Gott will. Wir werden morgen wiederholen."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d27",
+   "title": "مساعدة",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 27,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s4_d26"
+  ],
+  "createdAt": 1786696446398
+ }
+}

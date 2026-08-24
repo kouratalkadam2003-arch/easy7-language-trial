@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 24,
+ "story": {
+  "originalText": "Yassin: Dǎrǎo yíxià, néng gěi wǒ zhàngdān ma?\nOmar: Zhàngdān zài zhuōzi shàng.\nYassin: Zhàngdān duōshǎo qián?\nOmar: Zhàngdān shíliù měiyuán.\nYassin: Wǒ yǒu shí měiyuán.\nOmar: Wǒ yǒu liù měiyuán.\nYassin: Wǒmen kěyǐ yìqǐ fù qián.\nOmar: Xièxie nǐ, wǒ de péngyǒu.\nYassin: Bù kèqì. Nǐ hái hǎo ma?\nOmar: Wǒ yǒudiǎn bú shūfu.",
+  "translatedText": "Yassin: عفواً، هل يمكنني الحصول على الفاتورة، من فضلك؟\nOmar: الفاتورة على الطاولة.\nYassin: كم قيمة الفاتورة؟\nOmar: الفاتورة ستة عشر دولاراً.\nYassin: لدي عشرة دولارات.\nOmar: لدي ستة دولارات.\nYassin: يمكننا أن ندفع معاً.\nOmar: شكراً يا صديقي.\nYassin: عفواً. هل أنت بخير؟\nOmar: أشعر بالمرض قليلاً.",
+  "nativeScriptText": "Yassin: 打扰一下，能给我账单吗？\nOmar: 账单在桌子上。\nYassin: 账单多少钱？\nOmar: 账单十六美元。\nYassin: 我有十美元。\nOmar: 我有六美元。\nYassin: 我们可以一起付钱。\nOmar: 谢谢你，我的朋友。\nYassin: 不客气。你还好吗？\nOmar: 我有点不舒服。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 24: فاتورة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "打扰一下，能给我账单吗？",
+    "translation": "عفواً، هل يمكنني الحصول على الفاتورة، من فضلك؟",
+    "pronunciation": "Dǎrǎo yíxià, néng gěi wǒ zhàngdān ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "账单在桌子上。",
+    "translation": "الفاتورة على الطاولة.",
+    "pronunciation": "Zhàngdān zài zhuōzi shàng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "账单多少钱？",
+    "translation": "كم قيمة الفاتورة؟",
+    "pronunciation": "Zhàngdān duōshǎo qián?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "账单十六美元。",
+    "translation": "الفاتورة ستة عشر دولاراً.",
+    "pronunciation": "Zhàngdān shíliù měiyuán."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我有十美元。",
+    "translation": "لدي عشرة دولارات.",
+    "pronunciation": "Wǒ yǒu shí měiyuán."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我有六美元。",
+    "translation": "لدي ستة دولارات.",
+    "pronunciation": "Wǒ yǒu liù měiyuán."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我们可以一起付钱。",
+    "translation": "يمكننا أن ندفع معاً.",
+    "pronunciation": "Wǒmen kěyǐ yìqǐ fù qián."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "谢谢你，我的朋友。",
+    "translation": "شكراً يا صديقي.",
+    "pronunciation": "Xièxie nǐ, wǒ de péngyǒu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "不客气。你还好吗？",
+    "translation": "عفواً. هل أنت بخير؟",
+    "pronunciation": "Bù kèqì. Nǐ hái hǎo ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我有点不舒服。",
+    "translation": "أشعر بالمرض قليلاً.",
+    "pronunciation": "Wǒ yǒudiǎn bú shūfu."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d24",
+   "title": "فاتورة",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 24,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s4_d23"
+  ],
+  "createdAt": 1786696446398
+ }
+}

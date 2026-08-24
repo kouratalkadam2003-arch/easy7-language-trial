@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "B2",
+ "dayNumber": 21,
+ "story": {
+  "originalText": "Yassin: Guten Morgen, Omar.\nOmar: Guten Morgen, Yassin. Ich freue mich, dass wir unser Gespräch fortsetzen können.\nYassin: Ich denke, dass das Thema „Wiederholung der Lektionen 15 bis 20“ aus mehr als einer Perspektive betrachtet werden sollte.\nOmar: Ich stimme zu, obwohl das stärkste Argument von den Belegen abhängt.\nYassin: Meine Position ist, dass das Thema „Wiederholung der Lektionen 15 bis 20“ Verantwortung und klare Ziele erfordert.\nOmar: Das ist ein fairer Punkt, aber wir sollten auch mögliche Risiken bedenken.\nYassin: Kannst du ein Beispiel geben, das deine Position stützt?\nOmar: Ja, ein ehrliches Beispiel zeigt, warum ein ausgewogener Ansatz besser ist.\nYassin: Deine Antwort macht das Gespräch hilfreicher.\nOmar: Bis bald. Morgen sprechen wir über das Thema „Globalisierung“. ",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: أرى أن موضوع مراجعة شاملة (15-20) ينبغي النظر إليه من أكثر من منظور.\nOmar: أوافق، مع أن أقوى حجة تعتمد على الأدلة.\nYassin: موقفي هو أن موضوع مراجعة شاملة (15-20) يتطلب المسؤولية والأهداف الواضحة معًا.\nOmar: هذه نقطة منصفة، لكن ينبغي أن نأخذ المخاطر المحتملة في الحسبان أيضًا.\nYassin: هل تستطيع أن تقدم مثالًا يدعم موقفك؟\nOmar: نعم، يبين مثال صادق لماذا يكون النهج المتوازن أفضل.\nYassin: ردك يجعل النقاش أكثر فائدة.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Globalization.",
+  "nativeScriptText": "Yassin: Guten Morgen, Omar.\nOmar: Guten Morgen, Yassin. Ich freue mich, dass wir unser Gespräch fortsetzen können.\nYassin: Ich denke, dass das Thema „Wiederholung der Lektionen 15 bis 20“ aus mehr als einer Perspektive betrachtet werden sollte.\nOmar: Ich stimme zu, obwohl das stärkste Argument von den Belegen abhängt.\nYassin: Meine Position ist, dass das Thema „Wiederholung der Lektionen 15 bis 20“ Verantwortung und klare Ziele erfordert.\nOmar: Das ist ein fairer Punkt, aber wir sollten auch mögliche Risiken bedenken.\nYassin: Kannst du ein Beispiel geben, das deine Position stützt?\nOmar: Ja, ein ehrliches Beispiel zeigt, warum ein ausgewogener Ansatz besser ist.\nYassin: Deine Antwort macht das Gespräch hilfreicher.\nOmar: Bis bald. Morgen sprechen wir über das Thema „Globalisierung“. ",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 21: مراجعة شاملة (15-20)",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Guten Morgen, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Guten Morgen, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Guten Morgen, Yassin. Ich freue mich, dass wir unser Gespräch fortsetzen können.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Guten Morgen, Yassin. Ich freue mich, dass wir unser Gespräch fortsetzen können."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich denke, dass das Thema „Wiederholung der Lektionen 15 bis 20“ aus mehr als einer Perspektive betrachtet werden sollte.",
+    "translation": "أرى أن موضوع مراجعة شاملة (15-20) ينبغي النظر إليه من أكثر من منظور.",
+    "pronunciation": "Ich denke, dass das Thema „Wiederholung der Lektionen 15 bis 20“ aus mehr als einer Perspektive betrachtet werden sollte."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich stimme zu, obwohl das stärkste Argument von den Belegen abhängt.",
+    "translation": "أوافق، مع أن أقوى حجة تعتمد على الأدلة.",
+    "pronunciation": "Ich stimme zu, obwohl das stärkste Argument von den Belegen abhängt."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Meine Position ist, dass das Thema „Wiederholung der Lektionen 15 bis 20“ Verantwortung und klare Ziele erfordert.",
+    "translation": "موقفي هو أن موضوع مراجعة شاملة (15-20) يتطلب المسؤولية والأهداف الواضحة معًا.",
+    "pronunciation": "Meine Position ist, dass das Thema „Wiederholung der Lektionen 15 bis 20“ Verantwortung und klare Ziele erfordert."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Das ist ein fairer Punkt, aber wir sollten auch mögliche Risiken bedenken.",
+    "translation": "هذه نقطة منصفة، لكن ينبغي أن نأخذ المخاطر المحتملة في الحسبان أيضًا.",
+    "pronunciation": "Das ist ein fairer Punkt, aber wir sollten auch mögliche Risiken bedenken."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Kannst du ein Beispiel geben, das deine Position stützt?",
+    "translation": "هل تستطيع أن تقدم مثالًا يدعم موقفك؟",
+    "pronunciation": "Kannst du ein Beispiel geben, das deine Position stützt?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, ein ehrliches Beispiel zeigt, warum ein ausgewogener Ansatz besser ist.",
+    "translation": "نعم، يبين مثال صادق لماذا يكون النهج المتوازن أفضل.",
+    "pronunciation": "Ja, ein ehrliches Beispiel zeigt, warum ein ausgewogener Ansatz besser ist."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Deine Antwort macht das Gespräch hilfreicher.",
+    "translation": "ردك يجعل النقاش أكثر فائدة.",
+    "pronunciation": "Deine Antwort macht das Gespräch hilfreicher."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bis bald. Morgen sprechen wir über das Thema „Globalisierung“. ",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Globalization.",
+    "pronunciation": "Bis bald. Morgen sprechen wir über das Thema „Globalisierung“. "
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d21",
+   "title": "مراجعة شاملة (15-20)",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 21,
+  "level": "B2",
+  "languageCode": "de",
+  "previousTopics": [
+   "s3_d20"
+  ],
+  "createdAt": 1786705141011
+ }
+}

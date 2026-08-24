@@ -1,0 +1,446 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_c2_zh_d27",
+  "languageCode": "zh",
+  "languageNameArabic": "الصينية",
+  "cefrLevel": "C2",
+  "chapterId": "chapter_06_return",
+  "dayNumber": 27,
+  "lessonTitle": "盟友，而不是臣民",
+  "englishTitle": "An Ally, Not a Subject",
+  "arabicTitle": "حليف لا تابع",
+  "canonicalBeatIds": [
+   "BEAT_C2_D27"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "بناء علاقة سياسية متكافئة.",
+  "realLifeTransferArabic": "تحليل مصادر وحجج أو تفاوض وقرار متقدم.",
+  "successCapabilityArabic": "أدِّ مهمة متقدمة حول: حليف لا تابع."
+ },
+ "story": {
+  "storyContextArabic": "تؤكد القرى أن الدعم لا يعني التبعية.",
+  "storyMissionArabic": "يتقدم ليث عبر: حليف لا تابع.",
+  "setting": "council_and_region",
+  "charactersPresent": [
+   "laith",
+   "visitor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "نتيجة مناسبة لمستوى القصة."
+   ],
+   "forbiddenReveals": []
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: حليف لا تابع."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_C2_D27_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_C2_D27_01",
+     "narrationArabic": "تؤكد القرى أن الدعم لا يعني التبعية."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C2_D27_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "بناء علاقة سياسية متكافئة.",
+   "lines": [
+    {
+     "lineId": "L_C2_ZH_D27_01",
+     "speakerId": "visitor",
+     "targetText": "在行动之前，我们必须明确平等联盟。",
+     "englishReference": "Before we act, we must clarify equal alliance.",
+     "arabicTranslation": "يجب أن نحلل الموضوع بدقة.",
+     "pronunciation": "zài háng dòng zhī qián, wǒ men bì xū míng què píng děng lián méng.",
+     "phraseIds": [
+      "P_C2_ZH_D27_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_C2_ZH_D27_02",
+     "speakerId": "laith",
+     "targetText": "我认为责任需要精确。",
+     "englishReference": "I would argue that responsibility requires precision.",
+     "arabicTranslation": "تفسيري أكثر تعقيدًا مما يبدو.",
+     "pronunciation": "wǒ rèn wéi zé rèn xū yào jīng què.",
+     "phraseIds": [
+      "P_C2_ZH_D27_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_ZH_D27_03",
+     "speakerId": "visitor",
+     "targetText": "还存在哪些风险？",
+     "englishReference": "What risk still remains?",
+     "arabicTranslation": "ما الدليل على ذلك؟",
+     "pronunciation": "hái cún zài nǎ xiē fēng xiǎn.",
+     "phraseIds": [
+      "P_C2_ZH_D27_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_ZH_D27_04",
+     "speakerId": "laith",
+     "targetText": "风险确实存在，但可以降低。",
+     "englishReference": "The risk is real, although it can be reduced.",
+     "arabicTranslation": "الدليل مفيد لكنه محدود.",
+     "pronunciation": "fēng xiǎn què shí cún zài, dàn kě yǐ jiàng dī.",
+     "phraseIds": [
+      "P_C2_ZH_D27_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_ZH_D27_05",
+     "speakerId": "visitor",
+     "targetText": "什么条件才能使协议公平？",
+     "englishReference": "What condition would make the agreement fair?",
+     "arabicTranslation": "كيف نرد على الاعتراض الأقوى؟",
+     "pronunciation": "shén me tiáo jiàn cái néng shǐ xié yì gōng píng.",
+     "phraseIds": [
+      "P_C2_ZH_D27_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_ZH_D27_06",
+     "speakerId": "laith",
+     "targetText": "我们既要保护人民，又要明确目标。",
+     "englishReference": "We should protect people while keeping the goal clear.",
+     "arabicTranslation": "ينبغي أن نعرض استدلالنا بوضوح ونعترف بما لا نعرفه.",
+     "pronunciation": "wǒ men jì yào bǎo hù rén mín, yòu yào míng què mù biāo.",
+     "phraseIds": [
+      "P_C2_ZH_D27_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_ZH_D27_07",
+     "speakerId": "visitor",
+     "targetText": "这是一个要求很高但平衡的建议。",
+     "englishReference": "That is a demanding but balanced proposal.",
+     "arabicTranslation": "هذا موقف مسؤول.",
+     "pronunciation": "zhè shì yí gè yāo qiú hěn gāo dàn píng héng de jiàn yì.",
+     "phraseIds": [
+      "P_C2_ZH_D27_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_C2_ZH_D27_08",
+     "speakerId": "laith",
+     "targetText": "谢谢。让我们负责任地前进。",
+     "englishReference": "Thank you. Let us proceed responsibly.",
+     "arabicTranslation": "شكرًا، لنتابع بحذر.",
+     "pronunciation": "xiè xiè. ràng wǒ men fù zé rèn dì qián jìn.",
+     "phraseIds": [
+      "P_C2_ZH_D27_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C2_D27_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "argument_rebuild",
+     "phraseIds": [
+      "P_C2_ZH_D27_C01",
+      "P_C2_ZH_D27_C02",
+      "P_C2_ZH_D27_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_C2_ZH_D27_C01",
+      "P_C2_ZH_D27_C02",
+      "P_C2_ZH_D27_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_C2_ZH_D27_I01",
+      "P_C2_ZH_D27_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C2_D27_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى نقاش مهني أو أكاديمي أو رسمي.",
+   "requiredPhraseIds": [
+    "P_C2_ZH_D27_C01",
+    "P_C2_ZH_D27_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_C2_D27_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "该地区正在密切关注最新消息。",
+     "englishReference": "The region is listening closely to the latest news.",
+     "arabicTranslation": "المنطقة تتابع الأخبار الأخيرة باهتمام.",
+     "pronunciation": "gāi dì qū zhèng zài mì qiè guān zhù zuì xīn xiāo xī."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "并非每条消息的含义都像它看起来的那样。",
+     "englishReference": "Not every message means what it seems to mean.",
+     "arabicTranslation": "ليست كل رسالة تعني ما تبدو عليه.",
+     "pronunciation": "bìng fēi měi tiáo xiāo xī de hán yì dōu xiàng tā kàn qǐ lái de nà yàng."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_C2_D27_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "يحتاج المجلس إلى قرار حول: حليف لا تابع.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "analyze",
+     "respond_to_objection",
+     "propose_responsibly"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير حجة متقدمة متزنة.",
+    "afterArabic": "يستطيع الآن تحليل موقف وبناء رد مسؤول."
+   },
+   "successWorldConsequence": "C2_DAY_27:COMPLETE",
+   "retryPolicy": "يعاد التحدي بعد تلميح لنوع الدليل أو الشرط."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_C2_ZH_D27_S01",
+   "text": "在行动之前，我们必须明确平等联盟。",
+   "englishReference": "Before we act, we must clarify equal alliance.",
+   "arabicTranslation": "يجب أن نحلل الموضوع بدقة.",
+   "pronunciation": "zài háng dòng zhī qián, wǒ men bì xū míng què píng děng lián méng.",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_C2_ZH_D27_C01",
+   "text": "我认为责任需要精确。",
+   "englishReference": "I would argue that responsibility requires precision.",
+   "arabicTranslation": "تفسيري أكثر تعقيدًا مما يبدو.",
+   "pronunciation": "wǒ rèn wéi zé rèn xū yào jīng què.",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C2_ZH_D27_I01",
+   "text": "还存在哪些风险？",
+   "englishReference": "What risk still remains?",
+   "arabicTranslation": "ما الدليل على ذلك؟",
+   "pronunciation": "hái cún zài nǎ xiē fēng xiǎn.",
+   "classification": "important",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_C2_ZH_D27_C02",
+   "text": "风险确实存在，但可以降低。",
+   "englishReference": "The risk is real, although it can be reduced.",
+   "arabicTranslation": "الدليل مفيد لكنه محدود.",
+   "pronunciation": "fēng xiǎn què shí cún zài, dàn kě yǐ jiàng dī.",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C2_ZH_D27_I02",
+   "text": "什么条件才能使协议公平？",
+   "englishReference": "What condition would make the agreement fair?",
+   "arabicTranslation": "كيف نرد على الاعتراض الأقوى؟",
+   "pronunciation": "shén me tiáo jiàn cái néng shǐ xié yì gōng píng.",
+   "classification": "important",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_C2_ZH_D27_C03",
+   "text": "我们既要保护人民，又要明确目标。",
+   "englishReference": "We should protect people while keeping the goal clear.",
+   "arabicTranslation": "ينبغي أن نعرض استدلالنا بوضوح ونعترف بما لا نعرفه.",
+   "pronunciation": "wǒ men jì yào bǎo hù rén mín, yòu yào míng què mù biāo.",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C2_ZH_D27_S02",
+   "text": "这是一个要求很高但平衡的建议。",
+   "englishReference": "That is a demanding but balanced proposal.",
+   "arabicTranslation": "هذا موقف مسؤول.",
+   "pronunciation": "zhè shì yí gè yāo qiú hěn gāo dàn píng héng de jiàn yì.",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_C2_ZH_D27_S03",
+   "text": "谢谢。让我们负责任地前进。",
+   "englishReference": "Thank you. Let us proceed responsibly.",
+   "arabicTranslation": "شكرًا، لنتابع بحذر.",
+   "pronunciation": "xiè xiè. ràng wǒ men fù zé rèn dì qián jìn.",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "argument_structure"
+   ],
+   "supportFadePlan": "يعتمد المستوى على الاستدلال والنبرة."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_C2_ZH_D27_C01",
+     "P_C2_ZH_D27_C02",
+     "P_C2_ZH_D27_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_C2_ZH_D27_I01",
+     "P_C2_ZH_D27_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_C2_ZH_D27_C01",
+    "P_C2_ZH_D27_C02",
+    "P_C2_ZH_D27_C03",
+    "P_C2_ZH_D27_I01",
+    "P_C2_ZH_D27_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تعود الحجة داخل مجلس أو رسالة لاحقة."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "C2_D26:COMPLETE"
+  ],
+  "onSuccess": [
+   "C2_DAY_27:COMPLETE",
+   "C2_D28:UNLOCKED"
+  ],
+  "milestone": "c2_milestone_27",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_c2_zh_d26",
+  "nextLessonId": "story_c2_zh_d28",
+  "nextLessonHookArabic": "نتيجة اليوم تفتح الخطوة التالية في القصة.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم C2 27: حليف لا تابع."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_de_d20",
+  "languageCode": "de",
+  "languageNameArabic": "الألمانية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 20,
+  "lessonTitle": "Ein organisierter Tag",
+  "englishTitle": "An Organized Day",
+  "arabicTitle": "يوم منظم",
+  "canonicalBeatIds": [
+   "BEAT_A1_D20"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "الحديث عن اليوم والوقت والروتين البسيط.",
+  "realLifeTransferArabic": "تنظيم يوم شخصي أو دراسي.",
+  "successCapabilityArabic": "قل ما ستفعله صباحًا وبعد الظهر وفي المساء."
+ },
+ "story": {
+  "storyContextArabic": "يتعب ليث من محاولة فعل كل شيء دفعة واحدة، فتساعده إيلي على تنظيم يومه.",
+  "storyMissionArabic": "يتعلم أن الخطة والراحة جزءان من التقدم.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: يوم منظم."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D20_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D20_01",
+     "narrationArabic": "يتعب ليث من محاولة فعل كل شيء دفعة واحدة، فتساعده إيلي على تنظيم يومه."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D20_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "الحديث عن اليوم والوقت والروتين البسيط.",
+   "lines": [
+    {
+     "lineId": "L_A1_DE_D20_01",
+     "speakerId": "elly",
+     "targetText": "Hallo, Laith. Was wirst du heute tun?",
+     "englishReference": "Hello, Laith. What will you do today?",
+     "arabicTranslation": "مرحبًا يا ليث. ماذا ستفعل اليوم؟",
+     "pronunciation": "Hallo, Laith. Was wirst du heute tun?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D20_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_DE_D20_02",
+     "speakerId": "laith",
+     "targetText": "Am Morgen werde ich den Boden reinigen.",
+     "englishReference": "In the morning, I will clean the ground.",
+     "arabicTranslation": "في الصباح، سأنظف الأرض.",
+     "pronunciation": "Am Morgen werde ich den Boden reinigen.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D20_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D20_03",
+     "speakerId": "elly",
+     "targetText": "Und am Nachmittag?",
+     "englishReference": "And in the afternoon?",
+     "arabicTranslation": "وماذا في بعد الظهر؟",
+     "pronunciation": "Und am Nachmittag?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D20_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D20_04",
+     "speakerId": "laith",
+     "targetText": "Am Nachmittag werde ich Samen pflanzen.",
+     "englishReference": "In the afternoon, I will plant seeds.",
+     "arabicTranslation": "في بعد الظهر، سأزرع البذور.",
+     "pronunciation": "Am Nachmittag werde ich Samen pflanzen.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D20_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_DE_D20_05",
+     "speakerId": "elly",
+     "targetText": "Wirst du dich auch ausruhen?",
+     "englishReference": "Will you rest too?",
+     "arabicTranslation": "هل سترتاح أيضًا؟",
+     "pronunciation": "Wirst du dich auch ausruhen?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D20_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D20_06",
+     "speakerId": "laith",
+     "targetText": "Ja, ich werde mich abends ausruhen.",
+     "englishReference": "Yes, I will rest in the evening.",
+     "arabicTranslation": "نعم، سأرتاح في المساء.",
+     "pronunciation": "Ja, ich werde mich abends ausruhen.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D20_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D20_07",
+     "speakerId": "elly",
+     "targetText": "Das ist ein guter Tagesplan.",
+     "englishReference": "That is a good day plan.",
+     "arabicTranslation": "هذه خطة يوم جيدة.",
+     "pronunciation": "Das ist ein guter Tagesplan.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D20_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_DE_D20_08",
+     "speakerId": "laith",
+     "targetText": "Danke schön. Auf Wiedersehen, Elly.",
+     "englishReference": "Thank you. Goodbye, Elly.",
+     "arabicTranslation": "شكرًا. وداعًا يا إيلي.",
+     "pronunciation": "Danke schön. Auf Wiedersehen, Elly.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D20_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D20_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_DE_D20_C01",
+      "P_A1_DE_D20_C02",
+      "P_A1_DE_D20_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_DE_D20_C01",
+      "P_A1_DE_D20_C02",
+      "P_A1_DE_D20_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_DE_D20_I01",
+      "P_A1_DE_D20_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D20_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: تنظيم يوم شخصي أو دراسي.",
+   "requiredPhraseIds": [
+    "P_A1_DE_D20_C01",
+    "P_A1_DE_D20_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D20_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Ich habe gehört, dass Laith heute geholfen hat.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "Ich habe gehört, dass Laith heute geholfen hat."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Das Dorf beginnt, ihn kennenzulernen.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "Das Dorf beginnt, ihn kennenzulernen."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D20_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: يوم منظم.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "قل ما ستفعله صباحًا وبعد الظهر وفي المساء."
+   },
+   "successWorldConsequence": "A1_DAY_20:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_DE_D20_S01",
+   "text": "Hallo, Laith. Was wirst du heute tun?",
+   "englishReference": "Hello, Laith. What will you do today?",
+   "arabicTranslation": "مرحبًا يا ليث. ماذا ستفعل اليوم؟",
+   "pronunciation": "Hallo, Laith. Was wirst du heute tun?",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D20_LEARNING",
+   "transferContexts": [
+    "تنظيم يوم شخصي أو دراسي."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_DE_D20_I01",
+   "text": "Am Morgen werde ich den Boden reinigen.",
+   "englishReference": "In the morning, I will clean the ground.",
+   "arabicTranslation": "في الصباح، سأنظف الأرض.",
+   "pronunciation": "Am Morgen werde ich den Boden reinigen.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D20_LEARNING",
+   "transferContexts": [
+    "تنظيم يوم شخصي أو دراسي."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_DE_D20_C01",
+   "text": "Und am Nachmittag?",
+   "englishReference": "And in the afternoon?",
+   "arabicTranslation": "وماذا في بعد الظهر؟",
+   "pronunciation": "Und am Nachmittag?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D20_LEARNING",
+   "transferContexts": [
+    "تنظيم يوم شخصي أو دراسي."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_DE_D20_S02",
+   "text": "Am Nachmittag werde ich Samen pflanzen.",
+   "englishReference": "In the afternoon, I will plant seeds.",
+   "arabicTranslation": "في بعد الظهر، سأزرع البذور.",
+   "pronunciation": "Am Nachmittag werde ich Samen pflanzen.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D20_LEARNING",
+   "transferContexts": [
+    "تنظيم يوم شخصي أو دراسي."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_DE_D20_C02",
+   "text": "Wirst du dich auch ausruhen?",
+   "englishReference": "Will you rest too?",
+   "arabicTranslation": "هل سترتاح أيضًا؟",
+   "pronunciation": "Wirst du dich auch ausruhen?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D20_LEARNING",
+   "transferContexts": [
+    "تنظيم يوم شخصي أو دراسي."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_DE_D20_C03",
+   "text": "Ja, ich werde mich abends ausruhen.",
+   "englishReference": "Yes, I will rest in the evening.",
+   "arabicTranslation": "نعم، سأرتاح في المساء.",
+   "pronunciation": "Ja, ich werde mich abends ausruhen.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D20_LEARNING",
+   "transferContexts": [
+    "تنظيم يوم شخصي أو دراسي."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_DE_D20_S03",
+   "text": "Das ist ein guter Tagesplan.",
+   "englishReference": "That is a good day plan.",
+   "arabicTranslation": "هذه خطة يوم جيدة.",
+   "pronunciation": "Das ist ein guter Tagesplan.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D20_LEARNING",
+   "transferContexts": [
+    "تنظيم يوم شخصي أو دراسي."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_DE_D20_I02",
+   "text": "Danke schön. Auf Wiedersehen, Elly.",
+   "englishReference": "Thank you. Goodbye, Elly.",
+   "arabicTranslation": "شكرًا. وداعًا يا إيلي.",
+   "pronunciation": "Danke schön. Auf Wiedersehen, Elly.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D20_LEARNING",
+   "transferContexts": [
+    "تنظيم يوم شخصي أو دراسي."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_DE_D20_C01",
+     "P_A1_DE_D20_C02",
+     "P_A1_DE_D20_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_DE_D20_C01",
+     "P_A1_DE_D20_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_DE_D20_C01",
+    "P_A1_DE_D20_C02",
+    "P_A1_DE_D20_C03",
+    "P_A1_DE_D20_I01",
+    "P_A1_DE_D20_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D19:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_20:COMPLETE",
+   "A1_D21:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_20",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_de_d19",
+  "nextLessonId": "story_a1_de_d21",
+  "nextLessonHookArabic": "غدًا: خطة نبدأ بها.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 20: يوم منظم."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

@@ -1,0 +1,443 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_c2_en_d23",
+  "languageCode": "en",
+  "languageNameArabic": "الإنجليزية",
+  "cefrLevel": "C2",
+  "chapterId": "chapter_06_return",
+  "dayNumber": 23,
+  "lessonTitle": "The Opposing Voice",
+  "englishTitle": "The Opposing Voice",
+  "arabicTitle": "صوت المعارض",
+  "canonicalBeatIds": [
+   "BEAT_C2_D23"
+  ],
+  "canonVersion": "STORY_CANON_V1_1"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "الرد على معارضة فكرية.",
+  "realLifeTransferArabic": "تحليل مصادر وحجج أو تفاوض وقرار متقدم.",
+  "successCapabilityArabic": "أدِّ مهمة متقدمة حول: صوت المعارض."
+ },
+ "story": {
+  "storyContextArabic": "يعترض نبيل على مشاركة القرى.",
+  "storyMissionArabic": "يتقدم ليث عبر: صوت المعارض.",
+  "setting": "council_and_region",
+  "charactersPresent": [
+   "laith",
+   "visitor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "نتيجة مناسبة لمستوى القصة."
+   ],
+   "forbiddenReveals": []
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: صوت المعارض."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_C2_D23_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_C2_D23_01",
+     "narrationArabic": "يعترض نبيل على مشاركة القرى."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C2_D23_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "الرد على معارضة فكرية.",
+   "lines": [
+    {
+     "lineId": "L_C2_EN_D23_01",
+     "speakerId": "visitor",
+     "targetText": "Before we act, we must clarify the opposing voice.",
+     "englishReference": "Before we act, we must clarify the opposing voice.",
+     "arabicTranslation": "يجب أن نحلل الموضوع بدقة.",
+     "pronunciation": "Before we act, we must clarify the opposing voice.",
+     "phraseIds": [
+      "P_C2_EN_D23_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_C2_EN_D23_02",
+     "speakerId": "laith",
+     "targetText": "I would argue that responsibility requires precision.",
+     "englishReference": "I would argue that responsibility requires precision.",
+     "arabicTranslation": "تفسيري أكثر تعقيدًا مما يبدو.",
+     "pronunciation": "I would argue that responsibility requires precision.",
+     "phraseIds": [
+      "P_C2_EN_D23_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_EN_D23_03",
+     "speakerId": "visitor",
+     "targetText": "What risk still remains?",
+     "englishReference": "What risk still remains?",
+     "arabicTranslation": "ما الدليل على ذلك؟",
+     "pronunciation": "What risk still remains?",
+     "phraseIds": [
+      "P_C2_EN_D23_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_EN_D23_04",
+     "speakerId": "laith",
+     "targetText": "The risk is real, although it can be reduced.",
+     "englishReference": "The risk is real, although it can be reduced.",
+     "arabicTranslation": "الدليل مفيد لكنه محدود.",
+     "pronunciation": "The risk is real, although it can be reduced.",
+     "phraseIds": [
+      "P_C2_EN_D23_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_EN_D23_05",
+     "speakerId": "visitor",
+     "targetText": "What condition would make the agreement fair?",
+     "englishReference": "What condition would make the agreement fair?",
+     "arabicTranslation": "كيف نرد على الاعتراض الأقوى؟",
+     "pronunciation": "What condition would make the agreement fair?",
+     "phraseIds": [
+      "P_C2_EN_D23_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_EN_D23_06",
+     "speakerId": "laith",
+     "targetText": "We should protect people while keeping the goal clear.",
+     "englishReference": "We should protect people while keeping the goal clear.",
+     "arabicTranslation": "ينبغي أن نعرض استدلالنا بوضوح ونعترف بما لا نعرفه.",
+     "pronunciation": "We should protect people while keeping the goal clear.",
+     "phraseIds": [
+      "P_C2_EN_D23_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_EN_D23_07",
+     "speakerId": "visitor",
+     "targetText": "That is a demanding but balanced proposal.",
+     "englishReference": "That is a demanding but balanced proposal.",
+     "arabicTranslation": "هذا موقف مسؤول.",
+     "pronunciation": "That is a demanding but balanced proposal.",
+     "phraseIds": [
+      "P_C2_EN_D23_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_C2_EN_D23_08",
+     "speakerId": "laith",
+     "targetText": "Thank you. Let us proceed responsibly.",
+     "englishReference": "Thank you. Let us proceed responsibly.",
+     "arabicTranslation": "شكرًا، لنتابع بحذر.",
+     "pronunciation": "Thank you. Let us proceed responsibly.",
+     "phraseIds": [
+      "P_C2_EN_D23_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C2_D23_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "argument_rebuild",
+     "phraseIds": [
+      "P_C2_EN_D23_C01",
+      "P_C2_EN_D23_C02",
+      "P_C2_EN_D23_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_C2_EN_D23_C01",
+      "P_C2_EN_D23_C02",
+      "P_C2_EN_D23_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_C2_EN_D23_I01",
+      "P_C2_EN_D23_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C2_D23_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى نقاش مهني أو أكاديمي أو رسمي.",
+   "requiredPhraseIds": [
+    "P_C2_EN_D23_C01",
+    "P_C2_EN_D23_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_C2_D23_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "The region is listening closely to the latest news.",
+     "englishReference": "The region is listening closely to the latest news.",
+     "arabicTranslation": "المنطقة تتابع الأخبار الأخيرة باهتمام."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Not every message means what it seems to mean.",
+     "englishReference": "Not every message means what it seems to mean.",
+     "arabicTranslation": "ليست كل رسالة تعني ما تبدو عليه."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_C2_D23_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "يحتاج المجلس إلى قرار حول: صوت المعارض.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "analyze",
+     "respond_to_objection",
+     "propose_responsibly"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير حجة متقدمة متزنة.",
+    "afterArabic": "يستطيع الآن تحليل موقف وبناء رد مسؤول."
+   },
+   "successWorldConsequence": "C2_DAY_23:COMPLETE",
+   "retryPolicy": "يعاد التحدي بعد تلميح لنوع الدليل أو الشرط."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_C2_EN_D23_S01",
+   "text": "Before we act, we must clarify the opposing voice.",
+   "englishReference": "Before we act, we must clarify the opposing voice.",
+   "arabicTranslation": "يجب أن نحلل الموضوع بدقة.",
+   "pronunciation": "Before we act, we must clarify the opposing voice.",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_C2_EN_D23_C01",
+   "text": "I would argue that responsibility requires precision.",
+   "englishReference": "I would argue that responsibility requires precision.",
+   "arabicTranslation": "تفسيري أكثر تعقيدًا مما يبدو.",
+   "pronunciation": "I would argue that responsibility requires precision.",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C2_EN_D23_I01",
+   "text": "What risk still remains?",
+   "englishReference": "What risk still remains?",
+   "arabicTranslation": "ما الدليل على ذلك؟",
+   "pronunciation": "What risk still remains?",
+   "classification": "important",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_C2_EN_D23_C02",
+   "text": "The risk is real, although it can be reduced.",
+   "englishReference": "The risk is real, although it can be reduced.",
+   "arabicTranslation": "الدليل مفيد لكنه محدود.",
+   "pronunciation": "The risk is real, although it can be reduced.",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C2_EN_D23_I02",
+   "text": "What condition would make the agreement fair?",
+   "englishReference": "What condition would make the agreement fair?",
+   "arabicTranslation": "كيف نرد على الاعتراض الأقوى؟",
+   "pronunciation": "What condition would make the agreement fair?",
+   "classification": "important",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_C2_EN_D23_C03",
+   "text": "We should protect people while keeping the goal clear.",
+   "englishReference": "We should protect people while keeping the goal clear.",
+   "arabicTranslation": "ينبغي أن نعرض استدلالنا بوضوح ونعترف بما لا نعرفه.",
+   "pronunciation": "We should protect people while keeping the goal clear.",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C2_EN_D23_S02",
+   "text": "That is a demanding but balanced proposal.",
+   "englishReference": "That is a demanding but balanced proposal.",
+   "arabicTranslation": "هذا موقف مسؤول.",
+   "pronunciation": "That is a demanding but balanced proposal.",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_C2_EN_D23_S03",
+   "text": "Thank you. Let us proceed responsibly.",
+   "englishReference": "Thank you. Let us proceed responsibly.",
+   "arabicTranslation": "شكرًا، لنتابع بحذر.",
+   "pronunciation": "Thank you. Let us proceed responsibly.",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "argument_structure"
+   ],
+   "supportFadePlan": "يعتمد المستوى على الاستدلال والنبرة."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_C2_EN_D23_C01",
+     "P_C2_EN_D23_C02",
+     "P_C2_EN_D23_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_C2_EN_D23_I01",
+     "P_C2_EN_D23_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_C2_EN_D23_C01",
+    "P_C2_EN_D23_C02",
+    "P_C2_EN_D23_C03",
+    "P_C2_EN_D23_I01",
+    "P_C2_EN_D23_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تعود الحجة داخل مجلس أو رسالة لاحقة."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "C2_D22:COMPLETE"
+  ],
+  "onSuccess": [
+   "C2_DAY_23:COMPLETE",
+   "C2_D24:UNLOCKED"
+  ],
+  "milestone": "c2_milestone_23",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_c2_en_d22",
+  "nextLessonId": "story_c2_en_d24",
+  "nextLessonHookArabic": "نتيجة اليوم تفتح الخطوة التالية في القصة.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم C2 23: صوت المعارض."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

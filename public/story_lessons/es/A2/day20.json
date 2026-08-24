@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_es_d20",
+  "languageCode": "es",
+  "languageNameArabic": "الإسبانية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 20,
+  "lessonTitle": "Un error que podemos arreglar",
+  "englishTitle": "A Mistake We Can Fix",
+  "arabicTitle": "خطأ يمكن إصلاحه",
+  "canonicalBeatIds": [
+   "BEAT_A2_D20"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "الاعتراف بخطأ والاعتذار واقتراح إصلاح.",
+  "realLifeTransferArabic": "التعامل مع خطأ في عمل أو دراسة.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: خطأ يمكن إصلاحه دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "يكتشف ليث سعرًا خاطئًا على لوحة صغيرة ويواجه زبونًا غاضبًا.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: خطأ يمكن إصلاحه.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "noor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: خطأ يمكن إصلاحه."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D20_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D20_01",
+     "narrationArabic": "يكتشف ليث سعرًا خاطئًا على لوحة صغيرة ويواجه زبونًا غاضبًا."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D20_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "الاعتراف بخطأ والاعتذار واقتراح إصلاح.",
+   "lines": [
+    {
+     "lineId": "L_A2_ES_D20_01",
+     "speakerId": "noor",
+     "targetText": "Buenos días, Laith. Este precio en el cartel es incorrecto.",
+     "englishReference": "Good morning, Laith. This price on the sign is wrong.",
+     "arabicTranslation": "صباح الخير يا ليث. This price on the sign is wrong.",
+     "pronunciation": "Buenos días, Laith. Este precio en el cartel es incorrecto.",
+     "phraseIds": [
+      "P_A2_ES_D20_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ES_D20_02",
+     "speakerId": "laith",
+     "targetText": "Buen día. Tienes razón. Cometí un error.",
+     "englishReference": "Good morning. You are right. I made a mistake.",
+     "arabicTranslation": "صباح الخير. You are right. I made a mistake.",
+     "pronunciation": "Buen día. Tienes razón. Cometí un error.",
+     "phraseIds": [
+      "P_A2_ES_D20_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D20_03",
+     "speakerId": "noor",
+     "targetText": "¿Qué harás al respecto?",
+     "englishReference": "What will you do about it?",
+     "arabicTranslation": "What will you do about it?",
+     "pronunciation": "¿Qué harás al respecto?",
+     "phraseIds": [
+      "P_A2_ES_D20_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D20_04",
+     "speakerId": "laith",
+     "targetText": "Lo corregiré y pediré disculpas al cliente.",
+     "englishReference": "I will correct it and apologize to the customer.",
+     "arabicTranslation": "I will correct it and apologize to the customer.",
+     "pronunciation": "Lo corregiré y pediré disculpas al cliente.",
+     "phraseIds": [
+      "P_A2_ES_D20_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D20_05",
+     "speakerId": "noor",
+     "targetText": "¿Puedo ayudarte a cambiar el letrero?",
+     "englishReference": "Can I help you change the sign?",
+     "arabicTranslation": "Can I help you change the sign?",
+     "pronunciation": "¿Puedo ayudarte a cambiar el letrero?",
+     "phraseIds": [
+      "P_A2_ES_D20_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D20_06",
+     "speakerId": "laith",
+     "targetText": "Sí, gracias por decírmelo.",
+     "englishReference": "Yes, thank you for telling me.",
+     "arabicTranslation": "Yes, thank you for telling me.",
+     "pronunciation": "Sí, gracias por decírmelo.",
+     "phraseIds": [
+      "P_A2_ES_D20_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D20_07",
+     "speakerId": "noor",
+     "targetText": "Suena como un buen plan.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "Suena como un buen plan.",
+     "phraseIds": [
+      "P_A2_ES_D20_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ES_D20_08",
+     "speakerId": "laith",
+     "targetText": "Gracias. Hasta luego.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Gracias. Hasta luego.",
+     "phraseIds": [
+      "P_A2_ES_D20_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D20_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_ES_D20_C01",
+      "P_A2_ES_D20_C02",
+      "P_A2_ES_D20_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_ES_D20_C01",
+      "P_A2_ES_D20_C02",
+      "P_A2_ES_D20_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_ES_D20_I01",
+      "P_A2_ES_D20_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D20_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: التعامل مع خطأ في عمل أو دراسة.",
+   "requiredPhraseIds": [
+    "P_A2_ES_D20_C01",
+    "P_A2_ES_D20_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D20_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "El mercado está cambiando rápidamente esta temporada.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "El mercado está cambiando rápidamente esta temporada."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Sí. La gente hace más preguntas sobre las carreteras antiguas.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "Sí. La gente hace más preguntas sobre las carreteras antiguas."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D20_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: خطأ يمكن إصلاحه.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: خطأ يمكن إصلاحه."
+   },
+   "successWorldConsequence": "MISTAKE_REPAIRED",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_ES_D20_S01",
+   "text": "Buenos días, Laith. Este precio en el cartel es incorrecto.",
+   "englishReference": "Good morning, Laith. This price on the sign is wrong.",
+   "arabicTranslation": "صباح الخير يا ليث. This price on the sign is wrong.",
+   "pronunciation": "Buenos días, Laith. Este precio en el cartel es incorrecto.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل مع خطأ في عمل أو دراسة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ES_D20_C01",
+   "text": "Buen día. Tienes razón. Cometí un error.",
+   "englishReference": "Good morning. You are right. I made a mistake.",
+   "arabicTranslation": "صباح الخير. You are right. I made a mistake.",
+   "pronunciation": "Buen día. Tienes razón. Cometí un error.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل مع خطأ في عمل أو دراسة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ES_D20_I01",
+   "text": "¿Qué harás al respecto?",
+   "englishReference": "What will you do about it?",
+   "arabicTranslation": "What will you do about it?",
+   "pronunciation": "¿Qué harás al respecto?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل مع خطأ في عمل أو دراسة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ES_D20_C02",
+   "text": "Lo corregiré y pediré disculpas al cliente.",
+   "englishReference": "I will correct it and apologize to the customer.",
+   "arabicTranslation": "I will correct it and apologize to the customer.",
+   "pronunciation": "Lo corregiré y pediré disculpas al cliente.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل مع خطأ في عمل أو دراسة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ES_D20_I02",
+   "text": "¿Puedo ayudarte a cambiar el letrero?",
+   "englishReference": "Can I help you change the sign?",
+   "arabicTranslation": "Can I help you change the sign?",
+   "pronunciation": "¿Puedo ayudarte a cambiar el letrero?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل مع خطأ في عمل أو دراسة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ES_D20_C03",
+   "text": "Sí, gracias por decírmelo.",
+   "englishReference": "Yes, thank you for telling me.",
+   "arabicTranslation": "Yes, thank you for telling me.",
+   "pronunciation": "Sí, gracias por decírmelo.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل مع خطأ في عمل أو دراسة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ES_D20_S02",
+   "text": "Suena como un buen plan.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "Suena como un buen plan.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل مع خطأ في عمل أو دراسة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ES_D20_S03",
+   "text": "Gracias. Hasta luego.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Gracias. Hasta luego.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل مع خطأ في عمل أو دراسة."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_ES_D20_C01",
+     "P_A2_ES_D20_C02",
+     "P_A2_ES_D20_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_ES_D20_I01",
+     "P_A2_ES_D20_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_ES_D20_C01",
+    "P_A2_ES_D20_C02",
+    "P_A2_ES_D20_C03",
+    "P_A2_ES_D20_I01",
+    "P_A2_ES_D20_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D19:COMPLETE"
+  ],
+  "onSuccess": [
+   "MISTAKE_REPAIRED",
+   "A2_D21:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_20",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_es_d19",
+  "nextLessonId": "story_a2_es_d21",
+  "nextLessonHookArabic": "تتحول المشكلة إلى درس لفريق السوق.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 20: خطأ يمكن إصلاحه."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

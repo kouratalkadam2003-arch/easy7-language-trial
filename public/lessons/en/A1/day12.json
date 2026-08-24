@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 12,
+ "story": {
+  "originalText": "Yassin: Do you want sugar in your tea?\nOmar: No, I do not want sugar.\nYassin: Do you want milk?\nOmar: No, I do not want milk today.\nYassin: Do you want more bread?\nOmar: No, thank you. I do not want more bread.\nYassin: That is okay. You can choose.\nOmar: Thank you. I want water instead.\nYassin: We need water for the meal.\nOmar: Let us get water tomorrow.",
+  "translatedText": "Yassin: هل تريد السكر في شايك؟\nOmar: لا، لا أريد السكر.\nYassin: هل تريد الحليب؟\nOmar: لا، لا أريد الحليب اليوم.\nYassin: هل تريد مزيداً من الخبز؟\nOmar: لا، شكراً. لا أريد مزيداً من الخبز.\nYassin: لا بأس. يمكنك الاختيار.\nOmar: شكراً. أريد الماء بدلاً من ذلك.\nYassin: نحتاج إلى الماء للوجبة.\nOmar: لنحضر الماء غداً.",
+  "nativeScriptText": "Yassin: Do you want sugar in your tea?\nOmar: No, I do not want sugar.\nYassin: Do you want milk?\nOmar: No, I do not want milk today.\nYassin: Do you want more bread?\nOmar: No, thank you. I do not want more bread.\nYassin: That is okay. You can choose.\nOmar: Thank you. I want water instead.\nYassin: We need water for the meal.\nOmar: Let us get water tomorrow.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 12: لا أريد",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Do you want sugar in your tea?",
+    "translation": "هل تريد السكر في شايك؟",
+    "pronunciation": "Do you want sugar in your tea?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, I do not want sugar.",
+    "translation": "لا، لا أريد السكر.",
+    "pronunciation": "No, I do not want sugar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Do you want milk?",
+    "translation": "هل تريد الحليب؟",
+    "pronunciation": "Do you want milk?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, I do not want milk today.",
+    "translation": "لا، لا أريد الحليب اليوم.",
+    "pronunciation": "No, I do not want milk today."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Do you want more bread?",
+    "translation": "هل تريد مزيداً من الخبز؟",
+    "pronunciation": "Do you want more bread?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, thank you. I do not want more bread.",
+    "translation": "لا، شكراً. لا أريد مزيداً من الخبز.",
+    "pronunciation": "No, thank you. I do not want more bread."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "That is okay. You can choose.",
+    "translation": "لا بأس. يمكنك الاختيار.",
+    "pronunciation": "That is okay. You can choose."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Thank you. I want water instead.",
+    "translation": "شكراً. أريد الماء بدلاً من ذلك.",
+    "pronunciation": "Thank you. I want water instead."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "We need water for the meal.",
+    "translation": "نحتاج إلى الماء للوجبة.",
+    "pronunciation": "We need water for the meal."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Let us get water tomorrow.",
+    "translation": "لنحضر الماء غداً.",
+    "pronunciation": "Let us get water tomorrow."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d12",
+   "title": "لا أريد",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 12,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s2_d11"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 11,
+ "story": {
+  "originalText": "Yassin: Omar, je voudrais une assiette, s'il te plaît.\nOmar: Voici une assiette pour toi.\nYassin: Merci. Je voudrais aussi une cuillère.\nOmar: Les cuillères sont dans ce tiroir.\nYassin: Je veux cuire les œufs.\nOmar: Je veux faire du thé.\nYassin: Je veux du sel, s'il te plaît.\nOmar: Voilà.\nYassin: Je veux manger maintenant.\nOmar: Attends une minute, s'il te plaît.",
+  "translatedText": "Yassin: عمر، أريد طبقاً، من فضلك.\nOmar: هذا طبق لك.\nYassin: شكراً. أريد ملعقة أيضاً.\nOmar: الملاعق في هذا الدرج.\nYassin: أريد أن أطبخ البيض.\nOmar: أريد أن أصنع الشاي.\nYassin: أريد بعض الملح، من فضلك.\nOmar: تفضل.\nYassin: أريد أن آكل الآن.\nOmar: انتظر دقيقة واحدة، من فضلك.",
+  "nativeScriptText": "Yassin: Omar, je voudrais une assiette, s'il te plaît.\nOmar: Voici une assiette pour toi.\nYassin: Merci. Je voudrais aussi une cuillère.\nOmar: Les cuillères sont dans ce tiroir.\nYassin: Je veux cuire les œufs.\nOmar: Je veux faire du thé.\nYassin: Je veux du sel, s'il te plaît.\nOmar: Voilà.\nYassin: Je veux manger maintenant.\nOmar: Attends une minute, s'il te plaît.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 11: أريد",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar, je voudrais une assiette, s'il te plaît.",
+    "translation": "عمر، أريد طبقاً، من فضلك.",
+    "pronunciation": "Omar, je voudrais une assiette, s'il te plaît."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Voici une assiette pour toi.",
+    "translation": "هذا طبق لك.",
+    "pronunciation": "Voici une assiette pour toi."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Merci. Je voudrais aussi une cuillère.",
+    "translation": "شكراً. أريد ملعقة أيضاً.",
+    "pronunciation": "Merci. Je voudrais aussi une cuillère."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Les cuillères sont dans ce tiroir.",
+    "translation": "الملاعق في هذا الدرج.",
+    "pronunciation": "Les cuillères sont dans ce tiroir."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Je veux cuire les œufs.",
+    "translation": "أريد أن أطبخ البيض.",
+    "pronunciation": "Je veux cuire les œufs."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je veux faire du thé.",
+    "translation": "أريد أن أصنع الشاي.",
+    "pronunciation": "Je veux faire du thé."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Je veux du sel, s'il te plaît.",
+    "translation": "أريد بعض الملح، من فضلك.",
+    "pronunciation": "Je veux du sel, s'il te plaît."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Voilà.",
+    "translation": "تفضل.",
+    "pronunciation": "Voilà."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Je veux manger maintenant.",
+    "translation": "أريد أن آكل الآن.",
+    "pronunciation": "Je veux manger maintenant."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Attends une minute, s'il te plaît.",
+    "translation": "انتظر دقيقة واحدة، من فضلك.",
+    "pronunciation": "Attends une minute, s'il te plaît."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d11",
+   "title": "أريد",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 11,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s2_d10"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "C2",
+ "dayNumber": 30,
+ "story": {
+  "originalText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: À première vue, le thème « Essai de niveau C2 » semble inviter une réponse simple.\nOmar: Pourtant, ses implications profondes deviennent plus claires lorsque nous comparons des hypothèses concurrentes.\nYassin: Je soutiens que le thème « Essai de niveau C2 » exige une précision conceptuelle et une responsabilité morale.\nOmar: Cet argument est solide, mais sa validité dépend de la manière dont nous définissons les termes centraux.\nYassin: Pouvons-nous éprouver cet argument face à un cas concret mais complexe ?\nOmar: Oui, et ce cas peut révéler une tension qu’aucun principe unique ne résout.\nYassin: Merci, car cet échange aiguise notre réflexion.\nOmar: Au revoir pour le moment. Emportons ces leçons dans toutes nos futures discussions.",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: للوهلة الأولى، يبدو أن موضوع امتحان المستوى (C2) يدعو إلى إجابة بسيطة.\nOmar: لكن آثاره الأعمق تتضح عندما نقارن بين الافتراضات المتنافسة.\nYassin: وأرى أن موضوع امتحان المستوى (C2) يتطلب دقة مفاهيمية ومسؤولية أخلاقية.\nOmar: هذه الحجة قوية، لكن صحتها تعتمد على كيفية تعريفنا للمصطلحات المركزية.\nYassin: هل يمكننا اختبار الحجة في حالة واقعية لكنها معقدة؟\nOmar: نعم، وقد تكشف الحالة توترًا لا يحله مبدأ واحد.\nYassin: شكرًا، لأن هذا التبادل يصقل تفكيرنا.\nOmar: إلى اللقاء، ولنحمل هذه الدروس إلى كل نقاش قادم.",
+  "nativeScriptText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: À première vue, le thème « Essai de niveau C2 » semble inviter une réponse simple.\nOmar: Pourtant, ses implications profondes deviennent plus claires lorsque nous comparons des hypothèses concurrentes.\nYassin: Je soutiens que le thème « Essai de niveau C2 » exige une précision conceptuelle et une responsabilité morale.\nOmar: Cet argument est solide, mais sa validité dépend de la manière dont nous définissons les termes centraux.\nYassin: Pouvons-nous éprouver cet argument face à un cas concret mais complexe ?\nOmar: Oui, et ce cas peut révéler une tension qu’aucun principe unique ne résout.\nYassin: Merci, car cet échange aiguise notre réflexion.\nOmar: Au revoir pour le moment. Emportons ces leçons dans toutes nos futures discussions.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 30: امتحان المستوى (C2)",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Bonjour, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "À première vue, le thème « Essai de niveau C2 » semble inviter une réponse simple.",
+    "translation": "للوهلة الأولى، يبدو أن موضوع امتحان المستوى (C2) يدعو إلى إجابة بسيطة.",
+    "pronunciation": "À première vue, le thème « Essai de niveau C2 » semble inviter une réponse simple."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Pourtant, ses implications profondes deviennent plus claires lorsque nous comparons des hypothèses concurrentes.",
+    "translation": "لكن آثاره الأعمق تتضح عندما نقارن بين الافتراضات المتنافسة.",
+    "pronunciation": "Pourtant, ses implications profondes deviennent plus claires lorsque nous comparons des hypothèses concurrentes."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Je soutiens que le thème « Essai de niveau C2 » exige une précision conceptuelle et une responsabilité morale.",
+    "translation": "وأرى أن موضوع امتحان المستوى (C2) يتطلب دقة مفاهيمية ومسؤولية أخلاقية.",
+    "pronunciation": "Je soutiens que le thème « Essai de niveau C2 » exige une précision conceptuelle et une responsabilité morale."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Cet argument est solide, mais sa validité dépend de la manière dont nous définissons les termes centraux.",
+    "translation": "هذه الحجة قوية، لكن صحتها تعتمد على كيفية تعريفنا للمصطلحات المركزية.",
+    "pronunciation": "Cet argument est solide, mais sa validité dépend de la manière dont nous définissons les termes centraux."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Pouvons-nous éprouver cet argument face à un cas concret mais complexe ?",
+    "translation": "هل يمكننا اختبار الحجة في حالة واقعية لكنها معقدة؟",
+    "pronunciation": "Pouvons-nous éprouver cet argument face à un cas concret mais complexe ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, et ce cas peut révéler une tension qu’aucun principe unique ne résout.",
+    "translation": "نعم، وقد تكشف الحالة توترًا لا يحله مبدأ واحد.",
+    "pronunciation": "Oui, et ce cas peut révéler une tension qu’aucun principe unique ne résout."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Merci, car cet échange aiguise notre réflexion.",
+    "translation": "شكرًا، لأن هذا التبادل يصقل تفكيرنا.",
+    "pronunciation": "Merci, car cet échange aiguise notre réflexion."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Au revoir pour le moment. Emportons ces leçons dans toutes nos futures discussions.",
+    "translation": "إلى اللقاء، ولنحمل هذه الدروس إلى كل نقاش قادم.",
+    "pronunciation": "Au revoir pour le moment. Emportons ces leçons dans toutes nos futures discussions."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d30",
+   "title": "امتحان المستوى (C2)",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 30,
+  "level": "C2",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s5_d29"
+  ],
+  "createdAt": 1786705141011
+ }
+}

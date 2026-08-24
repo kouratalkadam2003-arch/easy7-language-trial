@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_zh_d13",
+  "languageCode": "zh",
+  "languageNameArabic": "الصينية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 13,
+  "lessonTitle": "美味的食物",
+  "englishTitle": "Good Food",
+  "arabicTitle": "طعام جيد",
+  "canonicalBeatIds": [
+   "BEAT_A2_D13"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التحدث عن طعام صحي وتقديم سبب بسيط.",
+  "realLifeTransferArabic": "الحديث عن عادات غذائية.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: طعام جيد دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "تقترح مارثا وجبة أخف لأيام العمل الطويلة.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: طعام جيد.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "martha"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: طعام جيد."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D13_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D13_01",
+     "narrationArabic": "تقترح مارثا وجبة أخف لأيام العمل الطويلة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D13_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التحدث عن طعام صحي وتقديم سبب بسيط.",
+   "lines": [
+    {
+     "lineId": "L_A2_ZH_D13_01",
+     "speakerId": "martha",
+     "targetText": "早上好，莱斯。下班后你通常吃什么？",
+     "englishReference": "Good morning, Laith. What do you usually eat after work?",
+     "arabicTranslation": "صباح الخير يا ليث. What do you usually eat after work?",
+     "pronunciation": "zǎo shàng hǎo, lái sī. xià bān hòu nǐ tōng cháng chī shén me.",
+     "phraseIds": [
+      "P_A2_ZH_D13_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ZH_D13_02",
+     "speakerId": "laith",
+     "targetText": "早上好。我经常吃面包和蔬菜。",
+     "englishReference": "Good morning. I often eat bread and vegetables.",
+     "arabicTranslation": "صباح الخير. I often eat bread and vegetables.",
+     "pronunciation": "zǎo shàng hǎo. wǒ jīng cháng chī miàn bāo hé shū cài.",
+     "phraseIds": [
+      "P_A2_ZH_D13_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D13_03",
+     "speakerId": "martha",
+     "targetText": "这是一个好的开始。你喝足够的水吗？",
+     "englishReference": "That is a good start. Do you drink enough water?",
+     "arabicTranslation": "That is a good start. Do you drink enough water?",
+     "pronunciation": "zhè shì yí gè hǎo de kāi shǐ. nǐ hē zú gòu de shuǐ ma.",
+     "phraseIds": [
+      "P_A2_ZH_D13_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D13_04",
+     "speakerId": "laith",
+     "targetText": "我白天尝试喝水。",
+     "englishReference": "I try to drink water during the day.",
+     "arabicTranslation": "I try to drink water during the day.",
+     "pronunciation": "wǒ bái tiān cháng shì hē shuǐ.",
+     "phraseIds": [
+      "P_A2_ZH_D13_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D13_05",
+     "speakerId": "martha",
+     "targetText": "明天我们给工人们熬汤吧。",
+     "englishReference": "Let us make soup for the workers tomorrow.",
+     "arabicTranslation": "Let us make soup for the workers tomorrow.",
+     "pronunciation": "míng tiān wǒ men gěi gōng rén men áo tāng ba.",
+     "phraseIds": [
+      "P_A2_ZH_D13_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D13_06",
+     "speakerId": "laith",
+     "targetText": "好主意。 I can bring fresh herbs.",
+     "englishReference": "Good idea. I can bring fresh herbs.",
+     "arabicTranslation": "Good idea. I can bring fresh herbs.",
+     "pronunciation": "hǎo zhǔ yì. I c a n b r i n g f r e s h h e r b s.",
+     "phraseIds": [
+      "P_A2_ZH_D13_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D13_07",
+     "speakerId": "martha",
+     "targetText": "这听起来是个好计划。",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "zhè tīng qǐ lái shì gè hǎo jì huà.",
+     "phraseIds": [
+      "P_A2_ZH_D13_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ZH_D13_08",
+     "speakerId": "laith",
+     "targetText": "谢谢。稍后见。",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "xiè xiè. shāo hòu jiàn.",
+     "phraseIds": [
+      "P_A2_ZH_D13_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D13_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_ZH_D13_C01",
+      "P_A2_ZH_D13_C02",
+      "P_A2_ZH_D13_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_ZH_D13_C01",
+      "P_A2_ZH_D13_C02",
+      "P_A2_ZH_D13_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_ZH_D13_I01",
+      "P_A2_ZH_D13_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D13_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: الحديث عن عادات غذائية.",
+   "requiredPhraseIds": [
+    "P_A2_ZH_D13_C01",
+    "P_A2_ZH_D13_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D13_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "本季市场变化很快。",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "běn jì shì chǎng biàn huà hěn kuài."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "是的。人们对古老道路提出了更多问题。",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "shì de. rén men duì gǔ lǎo dào lù tí chū le gèng duō wèn tí."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D13_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: طعام جيد.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: طعام جيد."
+   },
+   "successWorldConsequence": "HEALTHY_MEAL:PLANNED",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_ZH_D13_S01",
+   "text": "早上好，莱斯。下班后你通常吃什么？",
+   "englishReference": "Good morning, Laith. What do you usually eat after work?",
+   "arabicTranslation": "صباح الخير يا ليث. What do you usually eat after work?",
+   "pronunciation": "zǎo shàng hǎo, lái sī. xià bān hòu nǐ tōng cháng chī shén me.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن عادات غذائية."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ZH_D13_C01",
+   "text": "早上好。我经常吃面包和蔬菜。",
+   "englishReference": "Good morning. I often eat bread and vegetables.",
+   "arabicTranslation": "صباح الخير. I often eat bread and vegetables.",
+   "pronunciation": "zǎo shàng hǎo. wǒ jīng cháng chī miàn bāo hé shū cài.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن عادات غذائية."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ZH_D13_I01",
+   "text": "这是一个好的开始。你喝足够的水吗？",
+   "englishReference": "That is a good start. Do you drink enough water?",
+   "arabicTranslation": "That is a good start. Do you drink enough water?",
+   "pronunciation": "zhè shì yí gè hǎo de kāi shǐ. nǐ hē zú gòu de shuǐ ma.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن عادات غذائية."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ZH_D13_C02",
+   "text": "我白天尝试喝水。",
+   "englishReference": "I try to drink water during the day.",
+   "arabicTranslation": "I try to drink water during the day.",
+   "pronunciation": "wǒ bái tiān cháng shì hē shuǐ.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن عادات غذائية."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ZH_D13_I02",
+   "text": "明天我们给工人们熬汤吧。",
+   "englishReference": "Let us make soup for the workers tomorrow.",
+   "arabicTranslation": "Let us make soup for the workers tomorrow.",
+   "pronunciation": "míng tiān wǒ men gěi gōng rén men áo tāng ba.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن عادات غذائية."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ZH_D13_C03",
+   "text": "好主意。 I can bring fresh herbs.",
+   "englishReference": "Good idea. I can bring fresh herbs.",
+   "arabicTranslation": "Good idea. I can bring fresh herbs.",
+   "pronunciation": "hǎo zhǔ yì. I c a n b r i n g f r e s h h e r b s.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن عادات غذائية."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ZH_D13_S02",
+   "text": "这听起来是个好计划。",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "zhè tīng qǐ lái shì gè hǎo jì huà.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن عادات غذائية."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ZH_D13_S03",
+   "text": "谢谢。稍后见。",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "xiè xiè. shāo hòu jiàn.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن عادات غذائية."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_ZH_D13_C01",
+     "P_A2_ZH_D13_C02",
+     "P_A2_ZH_D13_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_ZH_D13_I01",
+     "P_A2_ZH_D13_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_ZH_D13_C01",
+    "P_A2_ZH_D13_C02",
+    "P_A2_ZH_D13_C03",
+    "P_A2_ZH_D13_I01",
+    "P_A2_ZH_D13_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D12:COMPLETE"
+  ],
+  "onSuccess": [
+   "HEALTHY_MEAL:PLANNED",
+   "A2_D14:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_13",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_zh_d12",
+  "nextLessonId": "story_a2_zh_d14",
+  "nextLessonHookArabic": "يطلب غاستون تنظيم أول طلب جماعي.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 13: طعام جيد."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

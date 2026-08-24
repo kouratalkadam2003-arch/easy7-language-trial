@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_zh_d22",
+  "languageCode": "zh",
+  "languageNameArabic": "الصينية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 22,
+  "lessonTitle": "短途旅行",
+  "englishTitle": "A Short Trip",
+  "arabicTitle": "رحلة قصيرة",
+  "canonicalBeatIds": [
+   "BEAT_A2_D22"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف سفر حديث وخطة زيارة.",
+  "realLifeTransferArabic": "الحديث عن رحلة أو زيارة.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: رحلة قصيرة دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "يسافر ليث وغاستون إلى بلدة قريبة لعرض منتجات القرية.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: رحلة قصيرة.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: رحلة قصيرة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D22_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D22_01",
+     "narrationArabic": "يسافر ليث وغاستون إلى بلدة قريبة لعرض منتجات القرية."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D22_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف سفر حديث وخطة زيارة.",
+   "lines": [
+    {
+     "lineId": "L_A2_ZH_D22_01",
+     "speakerId": "gaston",
+     "targetText": "早上好，莱斯。你以前去过村外吗？",
+     "englishReference": "Good morning, Laith. Have you traveled outside the village before?",
+     "arabicTranslation": "صباح الخير يا ليث. Have you traveled outside the village before?",
+     "pronunciation": "zǎo shàng hǎo, lái sī. nǐ yǐ qián qù guò cūn wài ma.",
+     "phraseIds": [
+      "P_A2_ZH_D22_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ZH_D22_02",
+     "speakerId": "laith",
+     "targetText": "早上好。自从我来到这里之后就没有了。",
+     "englishReference": "Good morning. Not since I arrived here.",
+     "arabicTranslation": "صباح الخير. Not since I arrived here.",
+     "pronunciation": "zǎo shàng hǎo. zì cóng wǒ lái dào zhè lǐ zhī hòu jiù méi yǒu le.",
+     "phraseIds": [
+      "P_A2_ZH_D22_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D22_03",
+     "speakerId": "gaston",
+     "targetText": "今天路况如何？",
+     "englishReference": "How was the road today?",
+     "arabicTranslation": "How was the road today?",
+     "pronunciation": "jīn tiān lù kuàng rú hé.",
+     "phraseIds": [
+      "P_A2_ZH_D22_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D22_04",
+     "speakerId": "laith",
+     "targetText": "虽然时间很长，但是景色很美。",
+     "englishReference": "It was long, but the view was beautiful.",
+     "arabicTranslation": "It was long, but the view was beautiful.",
+     "pronunciation": "suī rán shí jiān hěn zhǎng, dàn shì jǐng sè hěn měi.",
+     "phraseIds": [
+      "P_A2_ZH_D22_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D22_05",
+     "speakerId": "gaston",
+     "targetText": "你愿意和我一起去古城吗？",
+     "englishReference": "Will you visit the old town with me?",
+     "arabicTranslation": "Will you visit the old town with me?",
+     "pronunciation": "nǐ yuàn yì hé wǒ yì qǐ qù gǔ chéng ma.",
+     "phraseIds": [
+      "P_A2_ZH_D22_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D22_06",
+     "speakerId": "laith",
+     "targetText": "是的，我想看看。",
+     "englishReference": "Yes, I would like to see it.",
+     "arabicTranslation": "Yes, I would like to see it.",
+     "pronunciation": "shì de, wǒ xiǎng kàn kàn.",
+     "phraseIds": [
+      "P_A2_ZH_D22_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D22_07",
+     "speakerId": "gaston",
+     "targetText": "这听起来是个好计划。",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "zhè tīng qǐ lái shì gè hǎo jì huà.",
+     "phraseIds": [
+      "P_A2_ZH_D22_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ZH_D22_08",
+     "speakerId": "laith",
+     "targetText": "谢谢。稍后见。",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "xiè xiè. shāo hòu jiàn.",
+     "phraseIds": [
+      "P_A2_ZH_D22_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D22_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_ZH_D22_C01",
+      "P_A2_ZH_D22_C02",
+      "P_A2_ZH_D22_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_ZH_D22_C01",
+      "P_A2_ZH_D22_C02",
+      "P_A2_ZH_D22_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_ZH_D22_I01",
+      "P_A2_ZH_D22_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D22_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: الحديث عن رحلة أو زيارة.",
+   "requiredPhraseIds": [
+    "P_A2_ZH_D22_C01",
+    "P_A2_ZH_D22_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D22_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "本季市场变化很快。",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "běn jì shì chǎng biàn huà hěn kuài."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "是的。人们对古老道路提出了更多问题。",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "shì de. rén men duì gǔ lǎo dào lù tí chū le gèng duō wèn tí."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D22_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: رحلة قصيرة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: رحلة قصيرة."
+   },
+   "successWorldConsequence": "TOWN_VISIT:UNLOCKED",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_ZH_D22_S01",
+   "text": "早上好，莱斯。你以前去过村外吗？",
+   "englishReference": "Good morning, Laith. Have you traveled outside the village before?",
+   "arabicTranslation": "صباح الخير يا ليث. Have you traveled outside the village before?",
+   "pronunciation": "zǎo shàng hǎo, lái sī. nǐ yǐ qián qù guò cūn wài ma.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن رحلة أو زيارة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ZH_D22_C01",
+   "text": "早上好。自从我来到这里之后就没有了。",
+   "englishReference": "Good morning. Not since I arrived here.",
+   "arabicTranslation": "صباح الخير. Not since I arrived here.",
+   "pronunciation": "zǎo shàng hǎo. zì cóng wǒ lái dào zhè lǐ zhī hòu jiù méi yǒu le.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن رحلة أو زيارة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ZH_D22_I01",
+   "text": "今天路况如何？",
+   "englishReference": "How was the road today?",
+   "arabicTranslation": "How was the road today?",
+   "pronunciation": "jīn tiān lù kuàng rú hé.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن رحلة أو زيارة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ZH_D22_C02",
+   "text": "虽然时间很长，但是景色很美。",
+   "englishReference": "It was long, but the view was beautiful.",
+   "arabicTranslation": "It was long, but the view was beautiful.",
+   "pronunciation": "suī rán shí jiān hěn zhǎng, dàn shì jǐng sè hěn měi.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن رحلة أو زيارة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ZH_D22_I02",
+   "text": "你愿意和我一起去古城吗？",
+   "englishReference": "Will you visit the old town with me?",
+   "arabicTranslation": "Will you visit the old town with me?",
+   "pronunciation": "nǐ yuàn yì hé wǒ yì qǐ qù gǔ chéng ma.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن رحلة أو زيارة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ZH_D22_C03",
+   "text": "是的，我想看看。",
+   "englishReference": "Yes, I would like to see it.",
+   "arabicTranslation": "Yes, I would like to see it.",
+   "pronunciation": "shì de, wǒ xiǎng kàn kàn.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن رحلة أو زيارة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ZH_D22_S02",
+   "text": "这听起来是个好计划。",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "zhè tīng qǐ lái shì gè hǎo jì huà.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن رحلة أو زيارة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ZH_D22_S03",
+   "text": "谢谢。稍后见。",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "xiè xiè. shāo hòu jiàn.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن رحلة أو زيارة."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_ZH_D22_C01",
+     "P_A2_ZH_D22_C02",
+     "P_A2_ZH_D22_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_ZH_D22_I01",
+     "P_A2_ZH_D22_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_ZH_D22_C01",
+    "P_A2_ZH_D22_C02",
+    "P_A2_ZH_D22_C03",
+    "P_A2_ZH_D22_I01",
+    "P_A2_ZH_D22_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D21:COMPLETE"
+  ],
+  "onSuccess": [
+   "TOWN_VISIT:UNLOCKED",
+   "A2_D23:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_22",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_zh_d21",
+  "nextLessonId": "story_a2_zh_d23",
+  "nextLessonHookArabic": "يحتاجان مكانًا للنوم في البلدة.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 22: رحلة قصيرة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

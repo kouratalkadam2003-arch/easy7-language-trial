@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 11,
+ "story": {
+  "originalText": "Yassin: Omar, ich möchte bitte einen Teller.\nOmar: Hier ist ein Teller für dich.\nYassin: Danke. Ich möchte auch einen Löffel.\nOmar: Die Löffel sind in dieser Schublade.\nYassin: Ich möchte die Eier kochen.\nOmar: Ich möchte Tee machen.\nYassin: Ich möchte bitte etwas Salz.\nOmar: Bitte schön.\nYassin: Ich möchte jetzt essen.\nOmar: Warte bitte eine Minute.",
+  "translatedText": "Yassin: عمر، أريد طبقاً، من فضلك.\nOmar: هذا طبق لك.\nYassin: شكراً. أريد ملعقة أيضاً.\nOmar: الملاعق في هذا الدرج.\nYassin: أريد أن أطبخ البيض.\nOmar: أريد أن أصنع الشاي.\nYassin: أريد بعض الملح، من فضلك.\nOmar: تفضل.\nYassin: أريد أن آكل الآن.\nOmar: انتظر دقيقة واحدة، من فضلك.",
+  "nativeScriptText": "Yassin: Omar, ich möchte bitte einen Teller.\nOmar: Hier ist ein Teller für dich.\nYassin: Danke. Ich möchte auch einen Löffel.\nOmar: Die Löffel sind in dieser Schublade.\nYassin: Ich möchte die Eier kochen.\nOmar: Ich möchte Tee machen.\nYassin: Ich möchte bitte etwas Salz.\nOmar: Bitte schön.\nYassin: Ich möchte jetzt essen.\nOmar: Warte bitte eine Minute.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 11: أريد",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar, ich möchte bitte einen Teller.",
+    "translation": "عمر، أريد طبقاً، من فضلك.",
+    "pronunciation": "Omar, ich möchte bitte einen Teller."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hier ist ein Teller für dich.",
+    "translation": "هذا طبق لك.",
+    "pronunciation": "Hier ist ein Teller für dich."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Danke. Ich möchte auch einen Löffel.",
+    "translation": "شكراً. أريد ملعقة أيضاً.",
+    "pronunciation": "Danke. Ich möchte auch einen Löffel."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Die Löffel sind in dieser Schublade.",
+    "translation": "الملاعق في هذا الدرج.",
+    "pronunciation": "Die Löffel sind in dieser Schublade."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich möchte die Eier kochen.",
+    "translation": "أريد أن أطبخ البيض.",
+    "pronunciation": "Ich möchte die Eier kochen."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich möchte Tee machen.",
+    "translation": "أريد أن أصنع الشاي.",
+    "pronunciation": "Ich möchte Tee machen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich möchte bitte etwas Salz.",
+    "translation": "أريد بعض الملح، من فضلك.",
+    "pronunciation": "Ich möchte bitte etwas Salz."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bitte schön.",
+    "translation": "تفضل.",
+    "pronunciation": "Bitte schön."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich möchte jetzt essen.",
+    "translation": "أريد أن آكل الآن.",
+    "pronunciation": "Ich möchte jetzt essen."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Warte bitte eine Minute.",
+    "translation": "انتظر دقيقة واحدة، من فضلك.",
+    "pronunciation": "Warte bitte eine Minute."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d11",
+   "title": "أريد",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 11,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s2_d10"
+  ],
+  "createdAt": 1786696446398
+ }
+}

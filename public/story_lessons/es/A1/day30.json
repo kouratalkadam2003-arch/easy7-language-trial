@@ -1,0 +1,473 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_es_d30",
+  "languageCode": "es",
+  "languageNameArabic": "الإسبانية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 30,
+  "lessonTitle": "La primera misión del jardín",
+  "englishTitle": "The First Garden Mission",
+  "arabicTitle": "مهمة المزرعة الأولى",
+  "canonicalBeatIds": [
+   "BEAT_A1_D30"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "دمج مهارات A1: التحية، الطلب، السعر، الوصف، المساعدة، والوداع.",
+  "realLifeTransferArabic": "إدارة سلسلة تفاعلات يومية قصيرة بثقة.",
+  "successCapabilityArabic": "أكمل أربع محادثات قصيرة من دون نص جاهز: ترحيب، طلب، سؤال سعر، وطلب مساعدة."
+ },
+ "story": {
+  "storyContextArabic": "تنظم القرية يومًا صغيرًا للاحتفال بأول حصاد رمزي من الأعشاب والخضار.",
+  "storyMissionArabic": "يثبت ليث أنه لم يعد غريبًا وأنه يستطيع التعامل مع يوم كامل بلغة بسيطة.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: مهمة المزرعة الأولى."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D30_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D30_01",
+     "narrationArabic": "تنظم القرية يومًا صغيرًا للاحتفال بأول حصاد رمزي من الأعشاب والخضار."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D30_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "دمج مهارات A1: التحية، الطلب، السعر، الوصف، المساعدة، والوداع.",
+   "lines": [
+    {
+     "lineId": "L_A1_ES_D30_01",
+     "speakerId": "team",
+     "targetText": "Buenos días, Laith. Hoy es el día de nuestro jardín.",
+     "englishReference": "Good morning, Laith. Today is our garden day.",
+     "arabicTranslation": "صباح الخير يا ليث. اليوم هو يوم حديقتنا.",
+     "pronunciation": "Buenos días, Laith. Hoy es el día de nuestro jardín.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D30_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ES_D30_02",
+     "speakerId": "laith",
+     "targetText": "Buen día. Estoy listo para ayudar.",
+     "englishReference": "Good morning. I am ready to help.",
+     "arabicTranslation": "صباح الخير. أنا مستعد للمساعدة.",
+     "pronunciation": "Buen día. Estoy listo para ayudar.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D30_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ES_D30_03",
+     "speakerId": "team",
+     "targetText": "¿Puedes dar la bienvenida a los invitados?",
+     "englishReference": "Can you welcome the guests?",
+     "arabicTranslation": "هل يمكنك الترحيب بالضيوف؟",
+     "pronunciation": "¿Puedes dar la bienvenida a los invitados?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D30_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ES_D30_04",
+     "speakerId": "laith",
+     "targetText": "Sí. Hola, bienvenido a nuestro jardín.",
+     "englishReference": "Yes. Hello, welcome to our garden.",
+     "arabicTranslation": "نعم. مرحبًا، أهلًا بكم في حديقتنا.",
+     "pronunciation": "Sí. Hola, bienvenido a nuestro jardín.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D30_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ES_D30_05",
+     "speakerId": "team",
+     "targetText": "¿Puedes traer agua para la mesa?",
+     "englishReference": "Can you bring water for the table?",
+     "arabicTranslation": "هل يمكنك إحضار الماء للطاولة؟",
+     "pronunciation": "¿Puedes traer agua para la mesa?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D30_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ES_D30_06",
+     "speakerId": "laith",
+     "targetText": "Sí, puedo. ¿Cuánta agua necesitamos?",
+     "englishReference": "Yes, I can. How much water do we need?",
+     "arabicTranslation": "نعم، أستطيع. كم ماء نحتاج؟",
+     "pronunciation": "Sí, puedo. ¿Cuánta agua necesitamos?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D30_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ES_D30_07",
+     "speakerId": "team",
+     "targetText": "Dos botellas son suficientes. Gracias, Laith.",
+     "englishReference": "Two bottles are enough. Thank you, Laith.",
+     "arabicTranslation": "زجاجتان تكفيان. شكرًا يا ليث.",
+     "pronunciation": "Dos botellas son suficientes. Gracias, Laith.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D30_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ES_D30_08",
+     "speakerId": "laith",
+     "targetText": "De nada. Adiós, primer día de jardín.",
+     "englishReference": "You are welcome. Goodbye, first garden day.",
+     "arabicTranslation": "على الرحب والسعة. وداعًا يا أول يوم للحديقة.",
+     "pronunciation": "De nada. Adiós, primer día de jardín.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D30_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D30_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_ES_D30_C01",
+      "P_A1_ES_D30_C02",
+      "P_A1_ES_D30_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_ES_D30_C01",
+      "P_A1_ES_D30_C02",
+      "P_A1_ES_D30_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_ES_D30_I01",
+      "P_A1_ES_D30_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D30_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: إدارة سلسلة تفاعلات يومية قصيرة بثقة.",
+   "requiredPhraseIds": [
+    "P_A1_ES_D30_C01",
+    "P_A1_ES_D30_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D30_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Escuché que Laith ayudó hoy.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "Escuché que Laith ayudó hoy."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "El pueblo empieza a conocerlo.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "El pueblo empieza a conocerlo."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D30_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: مهمة المزرعة الأولى.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "أكمل أربع محادثات قصيرة من دون نص جاهز: ترحيب، طلب، سؤال سعر، وطلب مساعدة."
+   },
+   "successWorldConsequence": "A1_STORY_CHAPTER:COMPLETE; A2_STORY_CHAPTER:UNLOCKED",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_ES_D30_S01",
+   "text": "Buenos días, Laith. Hoy es el día de nuestro jardín.",
+   "englishReference": "Good morning, Laith. Today is our garden day.",
+   "arabicTranslation": "صباح الخير يا ليث. اليوم هو يوم حديقتنا.",
+   "pronunciation": "Buenos días, Laith. Hoy es el día de nuestro jardín.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D30_LEARNING",
+   "transferContexts": [
+    "إدارة سلسلة تفاعلات يومية قصيرة بثقة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ES_D30_I01",
+   "text": "Buen día. Estoy listo para ayudar.",
+   "englishReference": "Good morning. I am ready to help.",
+   "arabicTranslation": "صباح الخير. أنا مستعد للمساعدة.",
+   "pronunciation": "Buen día. Estoy listo para ayudar.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D30_LEARNING",
+   "transferContexts": [
+    "إدارة سلسلة تفاعلات يومية قصيرة بثقة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_ES_D30_C01",
+   "text": "¿Puedes dar la bienvenida a los invitados?",
+   "englishReference": "Can you welcome the guests?",
+   "arabicTranslation": "هل يمكنك الترحيب بالضيوف؟",
+   "pronunciation": "¿Puedes dar la bienvenida a los invitados?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D30_LEARNING",
+   "transferContexts": [
+    "إدارة سلسلة تفاعلات يومية قصيرة بثقة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ES_D30_S02",
+   "text": "Sí. Hola, bienvenido a nuestro jardín.",
+   "englishReference": "Yes. Hello, welcome to our garden.",
+   "arabicTranslation": "نعم. مرحبًا، أهلًا بكم في حديقتنا.",
+   "pronunciation": "Sí. Hola, bienvenido a nuestro jardín.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D30_LEARNING",
+   "transferContexts": [
+    "إدارة سلسلة تفاعلات يومية قصيرة بثقة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ES_D30_C02",
+   "text": "¿Puedes traer agua para la mesa?",
+   "englishReference": "Can you bring water for the table?",
+   "arabicTranslation": "هل يمكنك إحضار الماء للطاولة؟",
+   "pronunciation": "¿Puedes traer agua para la mesa?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D30_LEARNING",
+   "transferContexts": [
+    "إدارة سلسلة تفاعلات يومية قصيرة بثقة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ES_D30_C03",
+   "text": "Sí, puedo. ¿Cuánta agua necesitamos?",
+   "englishReference": "Yes, I can. How much water do we need?",
+   "arabicTranslation": "نعم، أستطيع. كم ماء نحتاج؟",
+   "pronunciation": "Sí, puedo. ¿Cuánta agua necesitamos?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D30_LEARNING",
+   "transferContexts": [
+    "إدارة سلسلة تفاعلات يومية قصيرة بثقة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ES_D30_S03",
+   "text": "Dos botellas son suficientes. Gracias, Laith.",
+   "englishReference": "Two bottles are enough. Thank you, Laith.",
+   "arabicTranslation": "زجاجتان تكفيان. شكرًا يا ليث.",
+   "pronunciation": "Dos botellas son suficientes. Gracias, Laith.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D30_LEARNING",
+   "transferContexts": [
+    "إدارة سلسلة تفاعلات يومية قصيرة بثقة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ES_D30_I02",
+   "text": "De nada. Adiós, primer día de jardín.",
+   "englishReference": "You are welcome. Goodbye, first garden day.",
+   "arabicTranslation": "على الرحب والسعة. وداعًا يا أول يوم للحديقة.",
+   "pronunciation": "De nada. Adiós, primer día de jardín.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D30_LEARNING",
+   "transferContexts": [
+    "إدارة سلسلة تفاعلات يومية قصيرة بثقة."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_ES_D30_C01",
+     "P_A1_ES_D30_C02",
+     "P_A1_ES_D30_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_ES_D30_C01",
+     "P_A1_ES_D30_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_ES_D30_C01",
+    "P_A1_ES_D30_C02",
+    "P_A1_ES_D30_C03",
+    "P_A1_ES_D30_I01",
+    "P_A1_ES_D30_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D29:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_STORY_CHAPTER:COMPLETE; A2_STORY_CHAPTER:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_30",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_es_d29",
+  "nextLessonId": "story_a2_es_d01",
+  "nextLessonHookArabic": "غدًا: بداية مستوى A2: الحياة الجديدة في القرية.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 30: مهمة المزرعة الأولى."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "B1",
+ "dayNumber": 8,
+ "story": {
+  "originalText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: À mon avis, le thème « Compétence » est important dans nos décisions quotidiennes.\nOmar: Je suis d’accord, car nos choix touchent plus de personnes que nous ne l’imaginons.\nYassin: Je pense que le thème « Compétence » peut façonner à la fois la confiance et les possibilités.\nOmar: C’est une raison pratique et facile à comprendre.\nYassin: Peux-tu donner un exemple concret ?\nOmar: Oui, un exemple concret peut rendre cette idée plus claire.\nYassin: Merci d’avoir expliqué ton opinion avec tant de calme.\nOmar: Au revoir pour le moment. Demain, nous parlerons du thème « Entretien ».",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: في رأيي، موضوع مهارة مهم في قراراتنا اليومية.\nOmar: أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.\nYassin: وسببي هو أن موضوع مهارة يمكن أن يشكل الثقة والفرص معًا.\nOmar: هذا سبب عملي، ومن السهل فهمه.\nYassin: هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟\nOmar: نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.\nYassin: شكرًا لأنك شرحت رأيك بهدوء.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Interview.",
+  "nativeScriptText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: À mon avis, le thème « Compétence » est important dans nos décisions quotidiennes.\nOmar: Je suis d’accord, car nos choix touchent plus de personnes que nous ne l’imaginons.\nYassin: Je pense que le thème « Compétence » peut façonner à la fois la confiance et les possibilités.\nOmar: C’est une raison pratique et facile à comprendre.\nYassin: Peux-tu donner un exemple concret ?\nOmar: Oui, un exemple concret peut rendre cette idée plus claire.\nYassin: Merci d’avoir expliqué ton opinion avec tant de calme.\nOmar: Au revoir pour le moment. Demain, nous parlerons du thème « Entretien ».",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 8: مهارة",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Bonjour, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "À mon avis, le thème « Compétence » est important dans nos décisions quotidiennes.",
+    "translation": "في رأيي، موضوع مهارة مهم في قراراتنا اليومية.",
+    "pronunciation": "À mon avis, le thème « Compétence » est important dans nos décisions quotidiennes."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je suis d’accord, car nos choix touchent plus de personnes que nous ne l’imaginons.",
+    "translation": "أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.",
+    "pronunciation": "Je suis d’accord, car nos choix touchent plus de personnes que nous ne l’imaginons."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Je pense que le thème « Compétence » peut façonner à la fois la confiance et les possibilités.",
+    "translation": "وسببي هو أن موضوع مهارة يمكن أن يشكل الثقة والفرص معًا.",
+    "pronunciation": "Je pense que le thème « Compétence » peut façonner à la fois la confiance et les possibilités."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "C’est une raison pratique et facile à comprendre.",
+    "translation": "هذا سبب عملي، ومن السهل فهمه.",
+    "pronunciation": "C’est une raison pratique et facile à comprendre."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Peux-tu donner un exemple concret ?",
+    "translation": "هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟",
+    "pronunciation": "Peux-tu donner un exemple concret ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, un exemple concret peut rendre cette idée plus claire.",
+    "translation": "نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.",
+    "pronunciation": "Oui, un exemple concret peut rendre cette idée plus claire."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Merci d’avoir expliqué ton opinion avec tant de calme.",
+    "translation": "شكرًا لأنك شرحت رأيك بهدوء.",
+    "pronunciation": "Merci d’avoir expliqué ton opinion avec tant de calme."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Au revoir pour le moment. Demain, nous parlerons du thème « Entretien ».",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Interview.",
+    "pronunciation": "Au revoir pour le moment. Demain, nous parlerons du thème « Entretien »."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d8",
+   "title": "مهارة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 8,
+  "level": "B1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s1_d7"
+  ],
+  "createdAt": 1786705141011
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A2",
+ "dayNumber": 16,
+ "story": {
+  "originalText": "Yassin: ohayou , omaru .\nOmar: ohayou , yashin . hanashiai wo tsuzuke rareteureshiidesu .\nYassin: kinou ha ( purojiekuto ) toiu teema nitsuite kangae , yuueki nakotowo manabi mashita .\nOmar: waka rimashita . konnichiha sorenitsuite waka riyasuku hanase masu .\nYassin: ( purojiekuto ) toiu teema deno keiken ga , ashita no keikaku wo kae mashita .\nOmar: soreha ri nikanatteimasu . chiisa na henka ga mainichi watashitachi no tasuke ninarimasu .\nYassin: hitotsu rei wo kyouyuu shitaidesuka .\nOmar: hai , konshuu no shoujiki na rei wo kyouyuu dekimasu .\nYassin: arigatou . anatano kangae wo oboe teokimasu .\nOmar: deha , mata . ashita ha ( apointomento ) toiu teema nitsuite hanashi mashou .",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: فكرت أمس في موضوع مشروع، وتعلمت شيئًا مفيدًا.\nOmar: أفهم ذلك، ويمكننا اليوم أن نتحدث عنه بوضوح.\nYassin: غيرت تجربتي مع موضوع مشروع خطتي للغد.\nOmar: هذا منطقي لأن التغييرات الصغيرة يمكن أن تساعدنا كل يوم.\nYassin: هل تريد أن تشارك مثالًا واحدًا؟\nOmar: نعم، أستطيع أن أشارك مثالًا صادقًا من هذا الأسبوع.\nYassin: شكرًا لك، وسأتذكر فكرتك.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Appointment.",
+  "nativeScriptText": "Yassin: おはよう、オマル。\nOmar: おはよう、ヤシン。話し合いを続けられてうれしいです。\nYassin: 昨日は「プロジェクト」というテーマについて考え、有益なことを学びました。\nOmar: 分かりました。今日はそれについて分かりやすく話せます。\nYassin: 「プロジェクト」というテーマでの経験が、明日の計画を変えました。\nOmar: それは理にかなっています。小さな変化が毎日私たちの助けになります。\nYassin: 一つ例を共有したいですか。\nOmar: はい、今週の正直な例を共有できます。\nYassin: ありがとう。あなたの考えを覚えておきます。\nOmar: では、また。明日は「アポイントメント」というテーマについて話しましょう。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 16: مشروع",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "おはよう、オマル。",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "ohayou , omaru ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "おはよう、ヤシン。話し合いを続けられてうれしいです。",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "ohayou , yashin . hanashiai wo tsuzuke rareteureshiidesu ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "昨日は「プロジェクト」というテーマについて考え、有益なことを学びました。",
+    "translation": "فكرت أمس في موضوع مشروع، وتعلمت شيئًا مفيدًا.",
+    "pronunciation": "kinou ha ( purojiekuto ) toiu teema nitsuite kangae , yuueki nakotowo manabi mashita ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "分かりました。今日はそれについて分かりやすく話せます。",
+    "translation": "أفهم ذلك، ويمكننا اليوم أن نتحدث عنه بوضوح.",
+    "pronunciation": "waka rimashita . konnichiha sorenitsuite waka riyasuku hanase masu ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "「プロジェクト」というテーマでの経験が、明日の計画を変えました。",
+    "translation": "غيرت تجربتي مع موضوع مشروع خطتي للغد.",
+    "pronunciation": "( purojiekuto ) toiu teema deno keiken ga , ashita no keikaku wo kae mashita ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "それは理にかなっています。小さな変化が毎日私たちの助けになります。",
+    "translation": "هذا منطقي لأن التغييرات الصغيرة يمكن أن تساعدنا كل يوم.",
+    "pronunciation": "soreha ri nikanatteimasu . chiisa na henka ga mainichi watashitachi no tasuke ninarimasu ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "一つ例を共有したいですか。",
+    "translation": "هل تريد أن تشارك مثالًا واحدًا؟",
+    "pronunciation": "hitotsu rei wo kyouyuu shitaidesuka ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、今週の正直な例を共有できます。",
+    "translation": "نعم، أستطيع أن أشارك مثالًا صادقًا من هذا الأسبوع.",
+    "pronunciation": "hai , konshuu no shoujiki na rei wo kyouyuu dekimasu ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "ありがとう。あなたの考えを覚えておきます。",
+    "translation": "شكرًا لك، وسأتذكر فكرتك.",
+    "pronunciation": "arigatou . anatano kangae wo oboe teokimasu ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "では、また。明日は「アポイントメント」というテーマについて話しましょう。",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Appointment.",
+    "pronunciation": "deha , mata . ashita ha ( apointomento ) toiu teema nitsuite hanashi mashou ."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d16",
+   "title": "مشروع",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 16,
+  "level": "A2",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s3_d15"
+  ],
+  "createdAt": 1786705141011
+ }
+}

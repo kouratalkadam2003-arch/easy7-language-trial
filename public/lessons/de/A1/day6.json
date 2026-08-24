@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 6,
+ "story": {
+  "originalText": "Yassin: Guten Abend, Yassin. Wie geht es dir?\nOmar: Mir geht es gut, danke. Und dir?\nYassin: Mir geht es sehr gut, Gott sei Dank.\nOmar: Bist du nach dem Unterricht müde?\nYassin: Ein bisschen müde, aber glücklich.\nOmar: Ich bin auch glücklich.\nYassin: Die erste Woche läuft gut.\nOmar: Ja, ich lerne jeden Tag etwas.\nYassin: Morgen werden wir zusammen wiederholen.\nOmar: Super. Gute Nacht, Omar.",
+  "translatedText": "Yassin: مساء الخير يا ياسين. كيف حالك؟\nOmar: أنا بخير، شكراً. وأنت؟\nYassin: أنا بخير جداً، الحمد لله.\nOmar: هل أنت متعب بعد الدرس؟\nYassin: متعب قليلاً، لكن سعيد.\nOmar: أنا سعيد أيضاً.\nYassin: الأسبوع الأول يسير بشكل جيد.\nOmar: نعم، أتعلم شيئاً كل يوم.\nYassin: غداً سنراجع معاً.\nOmar: رائع. تصبح على خير يا عمر.",
+  "nativeScriptText": "Yassin: Guten Abend, Yassin. Wie geht es dir?\nOmar: Mir geht es gut, danke. Und dir?\nYassin: Mir geht es sehr gut, Gott sei Dank.\nOmar: Bist du nach dem Unterricht müde?\nYassin: Ein bisschen müde, aber glücklich.\nOmar: Ich bin auch glücklich.\nYassin: Die erste Woche läuft gut.\nOmar: Ja, ich lerne jeden Tag etwas.\nYassin: Morgen werden wir zusammen wiederholen.\nOmar: Super. Gute Nacht, Omar.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 6: كيف حالك؟",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Guten Abend, Yassin. Wie geht es dir?",
+    "translation": "مساء الخير يا ياسين. كيف حالك؟",
+    "pronunciation": "Guten Abend, Yassin. Wie geht es dir?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Mir geht es gut, danke. Und dir?",
+    "translation": "أنا بخير، شكراً. وأنت؟",
+    "pronunciation": "Mir geht es gut, danke. Und dir?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Mir geht es sehr gut, Gott sei Dank.",
+    "translation": "أنا بخير جداً، الحمد لله.",
+    "pronunciation": "Mir geht es sehr gut, Gott sei Dank."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bist du nach dem Unterricht müde?",
+    "translation": "هل أنت متعب بعد الدرس؟",
+    "pronunciation": "Bist du nach dem Unterricht müde?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ein bisschen müde, aber glücklich.",
+    "translation": "متعب قليلاً، لكن سعيد.",
+    "pronunciation": "Ein bisschen müde, aber glücklich."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich bin auch glücklich.",
+    "translation": "أنا سعيد أيضاً.",
+    "pronunciation": "Ich bin auch glücklich."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Die erste Woche läuft gut.",
+    "translation": "الأسبوع الأول يسير بشكل جيد.",
+    "pronunciation": "Die erste Woche läuft gut."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, ich lerne jeden Tag etwas.",
+    "translation": "نعم، أتعلم شيئاً كل يوم.",
+    "pronunciation": "Ja, ich lerne jeden Tag etwas."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Morgen werden wir zusammen wiederholen.",
+    "translation": "غداً سنراجع معاً.",
+    "pronunciation": "Morgen werden wir zusammen wiederholen."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Super. Gute Nacht, Omar.",
+    "translation": "رائع. تصبح على خير يا عمر.",
+    "pronunciation": "Super. Gute Nacht, Omar."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d6",
+   "title": "كيف حالك؟",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 6,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s1_d5"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_ja_d02",
+  "languageCode": "ja",
+  "languageNameArabic": "اليابانية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 2,
+  "lessonTitle": "パンと思い出",
+  "englishTitle": "Bread and a Memory",
+  "arabicTitle": "خبز وذكرى",
+  "canonicalBeatIds": [
+   "BEAT_A2_D02"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف عادة أو ذكرى قصيرة من الطفولة.",
+  "realLifeTransferArabic": "التحدث عن عادة طفولة مع صديق أو زميل.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: خبز وذكرى دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "أثناء ترتيب الخبز، تسأل مارثا ليث عمّا كان يحب فعله صغيرًا.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: خبز وذكرى.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "martha"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: خبز وذكرى."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D02_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D02_01",
+     "narrationArabic": "أثناء ترتيب الخبز، تسأل مارثا ليث عمّا كان يحب فعله صغيرًا."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D02_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف عادة أو ذكرى قصيرة من الطفولة.",
+   "lines": [
+    {
+     "lineId": "L_A2_JA_D02_01",
+     "speakerId": "martha",
+     "targetText": "おはようございます、ライスさん。あなたは子供の頃、台所で手伝いましたか?",
+     "englishReference": "Good morning, Laith. Did you help in a kitchen when you were a child?",
+     "arabicTranslation": "صباح الخير يا ليث. Did you help in a kitchen when you were a child?",
+     "pronunciation": "ohayougozaimasu , raisu san . anataha kodomo no goro , daidokoro de tetsudai mashitaka ?",
+     "phraseIds": [
+      "P_A2_JA_D02_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_JA_D02_02",
+     "speakerId": "laith",
+     "targetText": "おはよう。いえ、でも母がパンを焼くのを見ていました。",
+     "englishReference": "Good morning. No, but I used to watch my mother bake bread.",
+     "arabicTranslation": "صباح الخير. No, but I used to watch my mother bake bread.",
+     "pronunciation": "ohayou . ie , demo haha ga pan wo yaku nowo mite imashita .",
+     "phraseIds": [
+      "P_A2_JA_D02_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D02_03",
+     "speakerId": "martha",
+     "targetText": "あの匂いをまだ覚えていますか？",
+     "englishReference": "Do you still remember that smell?",
+     "arabicTranslation": "Do you still remember that smell?",
+     "pronunciation": "ano nioi womada oboe teimasuka ？",
+     "phraseIds": [
+      "P_A2_JA_D02_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D02_04",
+     "speakerId": "laith",
+     "targetText": "はい。故郷を思い出します。",
+     "englishReference": "Yes. It reminds me of home.",
+     "arabicTranslation": "Yes. It reminds me of home.",
+     "pronunciation": "hai . kokyou wo omoidashi masu .",
+     "phraseIds": [
+      "P_A2_JA_D02_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D02_05",
+     "speakerId": "martha",
+     "targetText": "これらのパンを棚に並べてもらえますか？",
+     "englishReference": "Can you put these loaves on the shelf?",
+     "arabicTranslation": "Can you put these loaves on the shelf?",
+     "pronunciation": "korerano pan wo tana ni nabete moraemasuka ？",
+     "phraseIds": [
+      "P_A2_JA_D02_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D02_06",
+     "speakerId": "laith",
+     "targetText": "もちろん。今ならそれができます。",
+     "englishReference": "Of course. I can do that now.",
+     "arabicTranslation": "Of course. I can do that now.",
+     "pronunciation": "mochiron . ima narasoregadekimasu .",
+     "phraseIds": [
+      "P_A2_JA_D02_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D02_07",
+     "speakerId": "martha",
+     "targetText": "それは良い計画のように思えます。",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "soreha yoi keikaku noyouni omoe masu .",
+     "phraseIds": [
+      "P_A2_JA_D02_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_JA_D02_08",
+     "speakerId": "laith",
+     "targetText": "ありがとう。また後で。",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "arigatou . mata atode .",
+     "phraseIds": [
+      "P_A2_JA_D02_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D02_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_JA_D02_C01",
+      "P_A2_JA_D02_C02",
+      "P_A2_JA_D02_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_JA_D02_C01",
+      "P_A2_JA_D02_C02",
+      "P_A2_JA_D02_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_JA_D02_I01",
+      "P_A2_JA_D02_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D02_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: التحدث عن عادة طفولة مع صديق أو زميل.",
+   "requiredPhraseIds": [
+    "P_A2_JA_D02_C01",
+    "P_A2_JA_D02_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D02_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "今シーズンの市場は急速に変化しています。",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "ima shiizun no shijou ha kyuusoku ni henkashi teimasu ."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "はい。旧道についての質問が増えています。",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "hai . kyuudou nitsuiteno shitsumon ga fue teimasu ."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D02_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: خبز وذكرى.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: خبز وذكرى."
+   },
+   "successWorldConsequence": "MARTHA_TRUST:+1",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_JA_D02_S01",
+   "text": "おはようございます、ライスさん。あなたは子供の頃、台所で手伝いましたか?",
+   "englishReference": "Good morning, Laith. Did you help in a kitchen when you were a child?",
+   "arabicTranslation": "صباح الخير يا ليث. Did you help in a kitchen when you were a child?",
+   "pronunciation": "ohayougozaimasu , raisu san . anataha kodomo no goro , daidokoro de tetsudai mashitaka ?",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_JA_D02_C01",
+   "text": "おはよう。いえ、でも母がパンを焼くのを見ていました。",
+   "englishReference": "Good morning. No, but I used to watch my mother bake bread.",
+   "arabicTranslation": "صباح الخير. No, but I used to watch my mother bake bread.",
+   "pronunciation": "ohayou . ie , demo haha ga pan wo yaku nowo mite imashita .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D02_I01",
+   "text": "あの匂いをまだ覚えていますか？",
+   "englishReference": "Do you still remember that smell?",
+   "arabicTranslation": "Do you still remember that smell?",
+   "pronunciation": "ano nioi womada oboe teimasuka ？",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_JA_D02_C02",
+   "text": "はい。故郷を思い出します。",
+   "englishReference": "Yes. It reminds me of home.",
+   "arabicTranslation": "Yes. It reminds me of home.",
+   "pronunciation": "hai . kokyou wo omoidashi masu .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D02_I02",
+   "text": "これらのパンを棚に並べてもらえますか？",
+   "englishReference": "Can you put these loaves on the shelf?",
+   "arabicTranslation": "Can you put these loaves on the shelf?",
+   "pronunciation": "korerano pan wo tana ni nabete moraemasuka ？",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_JA_D02_C03",
+   "text": "もちろん。今ならそれができます。",
+   "englishReference": "Of course. I can do that now.",
+   "arabicTranslation": "Of course. I can do that now.",
+   "pronunciation": "mochiron . ima narasoregadekimasu .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D02_S02",
+   "text": "それは良い計画のように思えます。",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "soreha yoi keikaku noyouni omoe masu .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_JA_D02_S03",
+   "text": "ありがとう。また後で。",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "arigatou . mata atode .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_JA_D02_C01",
+     "P_A2_JA_D02_C02",
+     "P_A2_JA_D02_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_JA_D02_I01",
+     "P_A2_JA_D02_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_JA_D02_C01",
+    "P_A2_JA_D02_C02",
+    "P_A2_JA_D02_C03",
+    "P_A2_JA_D02_I01",
+    "P_A2_JA_D02_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D01:COMPLETE"
+  ],
+  "onSuccess": [
+   "MARTHA_TRUST:+1",
+   "A2_D03:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_02",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_ja_d01",
+  "nextLessonId": "story_a2_ja_d03",
+  "nextLessonHookArabic": "الجو يتغير قبل وصول زبائن السوق.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 2: خبز وذكرى."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

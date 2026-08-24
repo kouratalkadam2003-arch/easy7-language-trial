@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 29,
+ "story": {
+  "originalText": "Yassin: Konnichiwa, Yassin. Nani ga suki desu ka?\nOmar: Watashi wa Eigo to hon ga suki desu.\nYassin: Watashi wa kōhī to sakkā ga suki desu.\nOmar: Watashitachi no ie wa suki desu ka?\nYassin: Hai, ie ga totemo suki desu.\nOmar: Watashi wa tsumetai tabemono ga suki de wa arimasen.\nYassin: Watashi wa chikoku suru no ga suki de wa arimasen.\nOmar: Anata to issho ni benkyō suru no ga suki desu.\nYassin: Watashi mo anata to manabu no ga suki desu.\nOmar: Ashita wa A1 no tesuto desu. Sayōnara.",
+  "translatedText": "Yassin: مرحباً يا ياسين. ماذا تحب؟\nOmar: أحب الإنجليزية والكتب.\nYassin: أحب القهوة وكرة القدم.\nOmar: هل تحب بيتنا؟\nYassin: نعم، أحب بيتنا كثيراً.\nOmar: لا أحب الطعام البارد.\nYassin: لا أحب التأخر.\nOmar: أحب الدراسة معك.\nYassin: وأنا أحب التعلم معك أيضاً.\nOmar: غداً امتحان A1. وداعاً.",
+  "nativeScriptText": "Yassin: こんにちは、Yassin。何が好きですか？\nOmar: 私は英語と本が好きです。\nYassin: 私はコーヒーとサッカーが好きです。\nOmar: 私たちの家は好きですか？\nYassin: はい、家がとても好きです。\nOmar: 私は冷たい食べ物が好きではありません。\nYassin: 私は遅刻するのが好きではありません。\nOmar: あなたと一緒に勉強するのが好きです。\nYassin: 私もあなたと学ぶのが好きです。\nOmar: 明日はA1のテストです。さようなら。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 29: أحب / أكره",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "こんにちは、Yassin。何が好きですか？",
+    "translation": "مرحباً يا ياسين. ماذا تحب؟",
+    "pronunciation": "Konnichiwa, Yassin. Nani ga suki desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私は英語と本が好きです。",
+    "translation": "أحب الإنجليزية والكتب.",
+    "pronunciation": "Watashi wa Eigo to hon ga suki desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私はコーヒーとサッカーが好きです。",
+    "translation": "أحب القهوة وكرة القدم.",
+    "pronunciation": "Watashi wa kōhī to sakkā ga suki desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私たちの家は好きですか？",
+    "translation": "هل تحب بيتنا؟",
+    "pronunciation": "Watashitachi no ie wa suki desu ka?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "はい、家がとても好きです。",
+    "translation": "نعم، أحب بيتنا كثيراً.",
+    "pronunciation": "Hai, ie ga totemo suki desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私は冷たい食べ物が好きではありません。",
+    "translation": "لا أحب الطعام البارد.",
+    "pronunciation": "Watashi wa tsumetai tabemono ga suki de wa arimasen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私は遅刻するのが好きではありません。",
+    "translation": "لا أحب التأخر.",
+    "pronunciation": "Watashi wa chikoku suru no ga suki de wa arimasen."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "あなたと一緒に勉強するのが好きです。",
+    "translation": "أحب الدراسة معك.",
+    "pronunciation": "Anata to issho ni benkyō suru no ga suki desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私もあなたと学ぶのが好きです。",
+    "translation": "وأنا أحب التعلم معك أيضاً.",
+    "pronunciation": "Watashi mo anata to manabu no ga suki desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "明日はA1のテストです。さようなら。",
+    "translation": "غداً امتحان A1. وداعاً.",
+    "pronunciation": "Ashita wa A1 no tesuto desu. Sayōnara."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d29",
+   "title": "أحب / أكره",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 29,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s4_d28"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 4,
+ "story": {
+  "originalText": "Yassin: Good morning, Yassin.\nOmar: Good morning, Omar.\nYassin: Welcome to the institute.\nOmar: Thank you very much.\nYassin: We say good afternoon in the afternoon.\nOmar: And do we say good evening in the evening?\nYassin: Yes, that is right.\nOmar: Greetings are important.\nYassin: They show respect and kindness.\nOmar: Thank you. See you after class.",
+  "translatedText": "Yassin: صباح الخير يا ياسين.\nOmar: صباح الخير يا عمر.\nYassin: أهلاً بك في المعهد.\nOmar: شكراً جزيلاً.\nYassin: نستخدم هذه التحية في فترة بعد الظهر.\nOmar: و«مساء الخير» تُقال في المساء؟\nYassin: نعم، هذا صحيح.\nOmar: التحيات مهمة.\nYassin: إنها تُظهر الاحترام واللطف.\nOmar: شكراً. أراك بعد الدرس.",
+  "nativeScriptText": "Yassin: Good morning, Yassin.\nOmar: Good morning, Omar.\nYassin: Welcome to the institute.\nOmar: Thank you very much.\nYassin: We say good afternoon in the afternoon.\nOmar: And do we say good evening in the evening?\nYassin: Yes, that is right.\nOmar: Greetings are important.\nYassin: They show respect and kindness.\nOmar: Thank you. See you after class.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 4: تحية",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Good morning, Yassin.",
+    "translation": "صباح الخير يا ياسين.",
+    "pronunciation": "Good morning, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Good morning, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Good morning, Omar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Welcome to the institute.",
+    "translation": "أهلاً بك في المعهد.",
+    "pronunciation": "Welcome to the institute."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Thank you very much.",
+    "translation": "شكراً جزيلاً.",
+    "pronunciation": "Thank you very much."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "We say good afternoon in the afternoon.",
+    "translation": "نستخدم هذه التحية في فترة بعد الظهر.",
+    "pronunciation": "We say good afternoon in the afternoon."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "And do we say good evening in the evening?",
+    "translation": "و«مساء الخير» تُقال في المساء؟",
+    "pronunciation": "And do we say good evening in the evening?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Yes, that is right.",
+    "translation": "نعم، هذا صحيح.",
+    "pronunciation": "Yes, that is right."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Greetings are important.",
+    "translation": "التحيات مهمة.",
+    "pronunciation": "Greetings are important."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "They show respect and kindness.",
+    "translation": "إنها تُظهر الاحترام واللطف.",
+    "pronunciation": "They show respect and kindness."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Thank you. See you after class.",
+    "translation": "شكراً. أراك بعد الدرس.",
+    "pronunciation": "Thank you. See you after class."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d4",
+   "title": "تحية",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 4,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s1_d3"
+  ],
+  "createdAt": 1786696446398
+ }
+}

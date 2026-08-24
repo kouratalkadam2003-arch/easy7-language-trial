@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 9,
+ "story": {
+  "originalText": "Yassin: Questa è la nostra stanza, Yassin.\nOmar: La stanza è luminosa.\nYassin: Il tuo letto è a sinistra.\nOmar: E il tuo letto è a destra.\nYassin: C'è un tavolo vicino alla finestra.\nOmar: Posso mettere la mia borsa sul tavolo.\nYassin: Per favore, metti i tuoi vestiti nell'armadio.\nOmar: Va bene, la stanza ora sembra a posto.\nYassin: Ho fame dopo aver pulito.\nOmar: Prepariamo qualcosa da mangiare.",
+  "translatedText": "Yassin: هذه غرفتنا يا ياسين.\nOmar: الغرفة مضيئة.\nYassin: سريرك على اليسار.\nOmar: وسريرك على اليمين.\nYassin: هناك طاولة قرب النافذة.\nOmar: يمكنني وضع حقيبتي على الطاولة.\nYassin: من فضلك ضع ملابسك في الخزانة.\nOmar: حسناً، تبدو الغرفة جيدة الآن.\nYassin: أنا جائع بعد التنظيف.\nOmar: لنصنع بعض الطعام.",
+  "nativeScriptText": "Yassin: Questa è la nostra stanza, Yassin.\nOmar: La stanza è luminosa.\nYassin: Il tuo letto è a sinistra.\nOmar: E il tuo letto è a destra.\nYassin: C'è un tavolo vicino alla finestra.\nOmar: Posso mettere la mia borsa sul tavolo.\nYassin: Per favore, metti i tuoi vestiti nell'armadio.\nOmar: Va bene, la stanza ora sembra a posto.\nYassin: Ho fame dopo aver pulito.\nOmar: Prepariamo qualcosa da mangiare.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 9: غرفة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Questa è la nostra stanza, Yassin.",
+    "translation": "هذه غرفتنا يا ياسين.",
+    "pronunciation": "Questa è la nostra stanza, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "La stanza è luminosa.",
+    "translation": "الغرفة مضيئة.",
+    "pronunciation": "La stanza è luminosa."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Il tuo letto è a sinistra.",
+    "translation": "سريرك على اليسار.",
+    "pronunciation": "Il tuo letto è a sinistra."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "E il tuo letto è a destra.",
+    "translation": "وسريرك على اليمين.",
+    "pronunciation": "E il tuo letto è a destra."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "C'è un tavolo vicino alla finestra.",
+    "translation": "هناك طاولة قرب النافذة.",
+    "pronunciation": "C'è un tavolo vicino alla finestra."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Posso mettere la mia borsa sul tavolo.",
+    "translation": "يمكنني وضع حقيبتي على الطاولة.",
+    "pronunciation": "Posso mettere la mia borsa sul tavolo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Per favore, metti i tuoi vestiti nell'armadio.",
+    "translation": "من فضلك ضع ملابسك في الخزانة.",
+    "pronunciation": "Per favore, metti i tuoi vestiti nell'armadio."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Va bene, la stanza ora sembra a posto.",
+    "translation": "حسناً، تبدو الغرفة جيدة الآن.",
+    "pronunciation": "Va bene, la stanza ora sembra a posto."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ho fame dopo aver pulito.",
+    "translation": "أنا جائع بعد التنظيف.",
+    "pronunciation": "Ho fame dopo aver pulito."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Prepariamo qualcosa da mangiare.",
+    "translation": "لنصنع بعض الطعام.",
+    "pronunciation": "Prepariamo qualcosa da mangiare."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d9",
+   "title": "غرفة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 9,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s2_d8"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "C1",
+ "dayNumber": 6,
+ "story": {
+  "originalText": "Yassin: Buongiorno, Omar.\nOmar: Buongiorno, Yassin. Sono felice che possiamo continuare la nostra conversazione.\nYassin: Quando discutiamo del tema «Sport e diplomazia», dovremmo distinguere i fatti dalle supposizioni.\nOmar: Sono d’accordo, perché un’analisi attenta rivela i limiti delle risposte semplici.\nYassin: La mia interpretazione è che il tema «Sport e diplomazia» dipenda dal contesto, dal linguaggio e dal potere.\nOmar: Questa interpretazione è convincente, anche se un’altra prospettiva potrebbe contestarla.\nYassin: Come possiamo spiegare il nostro ragionamento senza ignorare le conseguenze umane?\nOmar: Possiamo esporre chiaramente le prove e riconoscere ciò che rimane incerto.\nYassin: Grazie, perché questo rende la nostra analisi più responsabile.\nOmar: Arrivederci per ora. Domani parleremo del tema «Ripasso delle lezioni da 1 a 6».",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: عندما نناقش موضوع رياضة ودبلوماسية، ينبغي أن نميز بين الحقائق والافتراضات.\nOmar: أوافق، لأن التحليل الدقيق يكشف حدود الإجابات البسيطة.\nYassin: تفسيري هو أن موضوع رياضة ودبلوماسية يعتمد على السياق واللغة والقوة.\nOmar: هذا التفسير مقنع، مع أن منظورًا آخر قد يتحداه.\nYassin: كيف يمكننا أن نشرح استدلالنا من دون تجاهل النتائج الإنسانية؟\nOmar: يمكننا أن نعرض أدلتنا بوضوح وأن نقر بما يبقى غير مؤكد.\nYassin: شكرًا، لأن ذلك يجعل تحليلنا أكثر مسؤولية.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Review 1-6.",
+  "nativeScriptText": "Yassin: Buongiorno, Omar.\nOmar: Buongiorno, Yassin. Sono felice che possiamo continuare la nostra conversazione.\nYassin: Quando discutiamo del tema «Sport e diplomazia», dovremmo distinguere i fatti dalle supposizioni.\nOmar: Sono d’accordo, perché un’analisi attenta rivela i limiti delle risposte semplici.\nYassin: La mia interpretazione è che il tema «Sport e diplomazia» dipenda dal contesto, dal linguaggio e dal potere.\nOmar: Questa interpretazione è convincente, anche se un’altra prospettiva potrebbe contestarla.\nYassin: Come possiamo spiegare il nostro ragionamento senza ignorare le conseguenze umane?\nOmar: Possiamo esporre chiaramente le prove e riconoscere ciò che rimane incerto.\nYassin: Grazie, perché questo rende la nostra analisi più responsabile.\nOmar: Arrivederci per ora. Domani parleremo del tema «Ripasso delle lezioni da 1 a 6».",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 6: رياضة ودبلوماسية",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buongiorno, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Buongiorno, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Buongiorno, Yassin. Sono felice che possiamo continuare la nostra conversazione.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Buongiorno, Yassin. Sono felice che possiamo continuare la nostra conversazione."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Quando discutiamo del tema «Sport e diplomazia», dovremmo distinguere i fatti dalle supposizioni.",
+    "translation": "عندما نناقش موضوع رياضة ودبلوماسية، ينبغي أن نميز بين الحقائق والافتراضات.",
+    "pronunciation": "Quando discutiamo del tema «Sport e diplomazia», dovremmo distinguere i fatti dalle supposizioni."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sono d’accordo, perché un’analisi attenta rivela i limiti delle risposte semplici.",
+    "translation": "أوافق، لأن التحليل الدقيق يكشف حدود الإجابات البسيطة.",
+    "pronunciation": "Sono d’accordo, perché un’analisi attenta rivela i limiti delle risposte semplici."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "La mia interpretazione è che il tema «Sport e diplomazia» dipenda dal contesto, dal linguaggio e dal potere.",
+    "translation": "تفسيري هو أن موضوع رياضة ودبلوماسية يعتمد على السياق واللغة والقوة.",
+    "pronunciation": "La mia interpretazione è che il tema «Sport e diplomazia» dipenda dal contesto, dal linguaggio e dal potere."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Questa interpretazione è convincente, anche se un’altra prospettiva potrebbe contestarla.",
+    "translation": "هذا التفسير مقنع، مع أن منظورًا آخر قد يتحداه.",
+    "pronunciation": "Questa interpretazione è convincente, anche se un’altra prospettiva potrebbe contestarla."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Come possiamo spiegare il nostro ragionamento senza ignorare le conseguenze umane?",
+    "translation": "كيف يمكننا أن نشرح استدلالنا من دون تجاهل النتائج الإنسانية؟",
+    "pronunciation": "Come possiamo spiegare il nostro ragionamento senza ignorare le conseguenze umane?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Possiamo esporre chiaramente le prove e riconoscere ciò che rimane incerto.",
+    "translation": "يمكننا أن نعرض أدلتنا بوضوح وأن نقر بما يبقى غير مؤكد.",
+    "pronunciation": "Possiamo esporre chiaramente le prove e riconoscere ciò che rimane incerto."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Grazie, perché questo rende la nostra analisi più responsabile.",
+    "translation": "شكرًا، لأن ذلك يجعل تحليلنا أكثر مسؤولية.",
+    "pronunciation": "Grazie, perché questo rende la nostra analisi più responsabile."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Arrivederci per ora. Domani parleremo del tema «Ripasso delle lezioni da 1 a 6».",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Review 1-6.",
+    "pronunciation": "Arrivederci per ora. Domani parleremo del tema «Ripasso delle lezioni da 1 a 6»."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d6",
+   "title": "رياضة ودبلوماسية",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 6,
+  "level": "C1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s1_d5"
+  ],
+  "createdAt": 1786705141011
+ }
+}

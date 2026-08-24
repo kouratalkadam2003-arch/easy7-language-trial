@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 25,
+ "story": {
+  "originalText": "Yassin: Omar, es-tu malade ?\nOmar: Oui, je me sens malade aujourd'hui.\nYassin: Qu'est-ce qui ne va pas ?\nOmar: J'ai mal à la tête.\nYassin: As-tu besoin d'eau ?\nOmar: Oui, s'il te plaît. J'ai besoin d'eau.\nYassin: Tu dois te reposer.\nOmar: Je pense que j'ai besoin d'un médecin.\nYassin: Il y a un médecin près de notre maison.\nOmar: S'il te plaît, viens avec moi demain.",
+  "translatedText": "Yassin: عمر، هل أنت مريض؟\nOmar: نعم، أشعر بالمرض اليوم.\nYassin: ما المشكلة؟\nOmar: لدي صداع.\nYassin: هل تحتاج إلى ماء؟\nOmar: نعم، من فضلك. أحتاج إلى ماء.\nYassin: تحتاج إلى الراحة.\nOmar: أعتقد أنني أحتاج إلى طبيب.\nYassin: يوجد طبيب قرب بيتنا.\nOmar: من فضلك تعال معي غداً.",
+  "nativeScriptText": "Yassin: Omar, es-tu malade ?\nOmar: Oui, je me sens malade aujourd'hui.\nYassin: Qu'est-ce qui ne va pas ?\nOmar: J'ai mal à la tête.\nYassin: As-tu besoin d'eau ?\nOmar: Oui, s'il te plaît. J'ai besoin d'eau.\nYassin: Tu dois te reposer.\nOmar: Je pense que j'ai besoin d'un médecin.\nYassin: Il y a un médecin près de notre maison.\nOmar: S'il te plaît, viens avec moi demain.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 25: مريض",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar, es-tu malade ?",
+    "translation": "عمر، هل أنت مريض؟",
+    "pronunciation": "Omar, es-tu malade ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, je me sens malade aujourd'hui.",
+    "translation": "نعم، أشعر بالمرض اليوم.",
+    "pronunciation": "Oui, je me sens malade aujourd'hui."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Qu'est-ce qui ne va pas ?",
+    "translation": "ما المشكلة؟",
+    "pronunciation": "Qu'est-ce qui ne va pas ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "J'ai mal à la tête.",
+    "translation": "لدي صداع.",
+    "pronunciation": "J'ai mal à la tête."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "As-tu besoin d'eau ?",
+    "translation": "هل تحتاج إلى ماء؟",
+    "pronunciation": "As-tu besoin d'eau ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, s'il te plaît. J'ai besoin d'eau.",
+    "translation": "نعم، من فضلك. أحتاج إلى ماء.",
+    "pronunciation": "Oui, s'il te plaît. J'ai besoin d'eau."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Tu dois te reposer.",
+    "translation": "تحتاج إلى الراحة.",
+    "pronunciation": "Tu dois te reposer."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je pense que j'ai besoin d'un médecin.",
+    "translation": "أعتقد أنني أحتاج إلى طبيب.",
+    "pronunciation": "Je pense que j'ai besoin d'un médecin."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Il y a un médecin près de notre maison.",
+    "translation": "يوجد طبيب قرب بيتنا.",
+    "pronunciation": "Il y a un médecin près de notre maison."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "S'il te plaît, viens avec moi demain.",
+    "translation": "من فضلك تعال معي غداً.",
+    "pronunciation": "S'il te plaît, viens avec moi demain."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d25",
+   "title": "مريض",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 25,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s4_d24"
+  ],
+  "createdAt": 1786696446398
+ }
+}

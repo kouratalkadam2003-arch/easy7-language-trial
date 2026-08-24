@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 3,
+ "story": {
+  "originalText": "Yassin: Mata konnichiwa, Omar.\nOmar: Konnichiwa, Yassin. Nan-sai desu ka?\nYassin: Watashi wa nijū-sai desu.\nOmar: Watashi wa nijū-ichi-sai desu.\nYassin: Watashitachi wa hotondo onaji toshi desu.\nOmar: Hai, issho ni benkyō dekimasu.\nYassin: Sore wa yoi kangae desu.\nOmar: Jugyō wa ashita hajimarimasu.\nYassin: Watashi wa ureshikute junbi ga dekite imasu.\nOmar: Oyasuminasai, Yassin.",
+  "translatedText": "Yassin: مرحباً من جديد يا عمر.\nOmar: مرحباً يا ياسين. كم عمرك؟\nYassin: عمري عشرون سنة.\nOmar: عمري واحد وعشرون سنة.\nYassin: نحن في العمر نفسه تقريباً.\nOmar: نعم، يمكننا الدراسة معاً.\nYassin: هذه فكرة جيدة.\nOmar: يبدأ الدرس غداً.\nYassin: أنا سعيد ومستعد.\nOmar: تصبح على خير يا ياسين.",
+  "nativeScriptText": "Yassin: またこんにちは、Omar。\nOmar: こんにちは、Yassin。何歳ですか？\nYassin: 私は二十歳です。\nOmar: 私は二十一歳です。\nYassin: 私たちはほとんど同じ年です。\nOmar: はい、一緒に勉強できます。\nYassin: それは良い考えです。\nOmar: 授業は明日始まります。\nYassin: 私は嬉しくて準備ができています。\nOmar: おやすみなさい、Yassin。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 3: عمري",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "またこんにちは、Omar。",
+    "translation": "مرحباً من جديد يا عمر.",
+    "pronunciation": "Mata konnichiwa, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "こんにちは、Yassin。何歳ですか？",
+    "translation": "مرحباً يا ياسين. كم عمرك؟",
+    "pronunciation": "Konnichiwa, Yassin. Nan-sai desu ka?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私は二十歳です。",
+    "translation": "عمري عشرون سنة.",
+    "pronunciation": "Watashi wa nijū-sai desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私は二十一歳です。",
+    "translation": "عمري واحد وعشرون سنة.",
+    "pronunciation": "Watashi wa nijū-ichi-sai desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私たちはほとんど同じ年です。",
+    "translation": "نحن في العمر نفسه تقريباً.",
+    "pronunciation": "Watashitachi wa hotondo onaji toshi desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、一緒に勉強できます。",
+    "translation": "نعم، يمكننا الدراسة معاً.",
+    "pronunciation": "Hai, issho ni benkyō dekimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "それは良い考えです。",
+    "translation": "هذه فكرة جيدة.",
+    "pronunciation": "Sore wa yoi kangae desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "授業は明日始まります。",
+    "translation": "يبدأ الدرس غداً.",
+    "pronunciation": "Jugyō wa ashita hajimarimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私は嬉しくて準備ができています。",
+    "translation": "أنا سعيد ومستعد.",
+    "pronunciation": "Watashi wa ureshikute junbi ga dekite imasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "おやすみなさい、Yassin。",
+    "translation": "تصبح على خير يا ياسين.",
+    "pronunciation": "Oyasuminasai, Yassin."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d3",
+   "title": "عمري",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 3,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s1_d2"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 9,
+ "story": {
+  "originalText": "Yassin: This is our room, Yassin.\nOmar: The room is bright.\nYassin: Your bed is on the left.\nOmar: And your bed is on the right.\nYassin: There is a table by the window.\nOmar: I can put my bag on the table.\nYassin: Please put your clothes in the closet.\nOmar: Okay, the room looks good now.\nYassin: I am hungry after cleaning.\nOmar: Let us make some food.",
+  "translatedText": "Yassin: هذه غرفتنا يا ياسين.\nOmar: الغرفة مضيئة.\nYassin: سريرك على اليسار.\nOmar: وسريرك على اليمين.\nYassin: هناك طاولة قرب النافذة.\nOmar: يمكنني وضع حقيبتي على الطاولة.\nYassin: من فضلك ضع ملابسك في الخزانة.\nOmar: حسناً، تبدو الغرفة جيدة الآن.\nYassin: أنا جائع بعد التنظيف.\nOmar: لنصنع بعض الطعام.",
+  "nativeScriptText": "Yassin: This is our room, Yassin.\nOmar: The room is bright.\nYassin: Your bed is on the left.\nOmar: And your bed is on the right.\nYassin: There is a table by the window.\nOmar: I can put my bag on the table.\nYassin: Please put your clothes in the closet.\nOmar: Okay, the room looks good now.\nYassin: I am hungry after cleaning.\nOmar: Let us make some food.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 9: غرفة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "This is our room, Yassin.",
+    "translation": "هذه غرفتنا يا ياسين.",
+    "pronunciation": "This is our room, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The room is bright.",
+    "translation": "الغرفة مضيئة.",
+    "pronunciation": "The room is bright."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Your bed is on the left.",
+    "translation": "سريرك على اليسار.",
+    "pronunciation": "Your bed is on the left."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "And your bed is on the right.",
+    "translation": "وسريرك على اليمين.",
+    "pronunciation": "And your bed is on the right."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "There is a table by the window.",
+    "translation": "هناك طاولة قرب النافذة.",
+    "pronunciation": "There is a table by the window."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I can put my bag on the table.",
+    "translation": "يمكنني وضع حقيبتي على الطاولة.",
+    "pronunciation": "I can put my bag on the table."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Please put your clothes in the closet.",
+    "translation": "من فضلك ضع ملابسك في الخزانة.",
+    "pronunciation": "Please put your clothes in the closet."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Okay, the room looks good now.",
+    "translation": "حسناً، تبدو الغرفة جيدة الآن.",
+    "pronunciation": "Okay, the room looks good now."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I am hungry after cleaning.",
+    "translation": "أنا جائع بعد التنظيف.",
+    "pronunciation": "I am hungry after cleaning."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Let us make some food.",
+    "translation": "لنصنع بعض الطعام.",
+    "pronunciation": "Let us make some food."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d9",
+   "title": "غرفة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 9,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s2_d8"
+  ],
+  "createdAt": 1786696446398
+ }
+}

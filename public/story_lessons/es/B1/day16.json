@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b1_es_d16",
+  "languageCode": "es",
+  "languageNameArabic": "الإسبانية",
+  "cefrLevel": "B1",
+  "chapterId": "chapter_03_responsibility",
+  "dayNumber": 16,
+  "lessonTitle": "Un rumor incómodo",
+  "englishTitle": "An Uncomfortable Rumor",
+  "arabicTitle": "إشاعة مزعجة",
+  "canonicalBeatIds": [
+   "BEAT_B1_D16"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "نقل إشاعة بحذر وعدم التعامل معها كحقيقة.",
+  "realLifeTransferArabic": "التعبير عن رأي مدعوم بسبب واقتراح خطوة عملية.",
+  "successCapabilityArabic": "أدر نقاشًا قصيرًا عن إشاعة مزعجة."
+ },
+ "story": {
+  "storyContextArabic": "تنتشر إشاعة أن مارثا أخذت ماءً أكثر من حقها.",
+  "storyMissionArabic": "يتعلم ليث القيادة عبر موضوع: إشاعة مزعجة.",
+  "setting": "village_council",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: إشاعة مزعجة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B1_D16_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B1_D16_01",
+     "narrationArabic": "تنتشر إشاعة أن مارثا أخذت ماءً أكثر من حقها."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D16_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "نقل إشاعة بحذر وعدم التعامل معها كحقيقة.",
+   "lines": [
+    {
+     "lineId": "L_B1_ES_D16_01",
+     "speakerId": "gaston",
+     "targetText": "Necesitamos hablar del rumor sobre Martha.",
+     "englishReference": "We need to talk about the rumor about Martha.",
+     "arabicTranslation": "نحتاج إلى الحديث عن the rumor about Martha.",
+     "pronunciation": "Necesitamos hablar del rumor sobre Martha.",
+     "phraseIds": [
+      "P_B1_ES_D16_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_ES_D16_02",
+     "speakerId": "laith",
+     "targetText": "En mi opinión, no deberíamos repetir esto como un hecho.",
+     "englishReference": "In my opinion, we should not repeat this as a fact.",
+     "arabicTranslation": "في رأيي، we should not repeat this as a fact.",
+     "pronunciation": "En mi opinión, no deberíamos repetir esto como un hecho.",
+     "phraseIds": [
+      "P_B1_ES_D16_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ES_D16_03",
+     "speakerId": "gaston",
+     "targetText": "¿Por qué piensas eso?",
+     "englishReference": "Why do you think that?",
+     "arabicTranslation": "لماذا تعتقد ذلك؟",
+     "pronunciation": "¿Por qué piensas eso?",
+     "phraseIds": [
+      "P_B1_ES_D16_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ES_D16_04",
+     "speakerId": "laith",
+     "targetText": "Porque no conocemos la historia completa.",
+     "englishReference": "Because we do not know the full story.",
+     "arabicTranslation": "لأن we do not know the full story.",
+     "pronunciation": "Porque no conocemos la historia completa.",
+     "phraseIds": [
+      "P_B1_ES_D16_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ES_D16_05",
+     "speakerId": "gaston",
+     "targetText": "¿Qué debemos hacer primero?",
+     "englishReference": "What should we do first?",
+     "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+     "pronunciation": "¿Qué debemos hacer primero?",
+     "phraseIds": [
+      "P_B1_ES_D16_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ES_D16_06",
+     "speakerId": "laith",
+     "targetText": "Sugiero que deberíamos preguntar antes de juzgar.",
+     "englishReference": "I suggest that we should ask before judging.",
+     "arabicTranslation": "أقترح أن we should ask before judging.",
+     "pronunciation": "Sugiero que deberíamos preguntar antes de juzgar.",
+     "phraseIds": [
+      "P_B1_ES_D16_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ES_D16_07",
+     "speakerId": "gaston",
+     "targetText": "Eso parece razonable.",
+     "englishReference": "That seems reasonable.",
+     "arabicTranslation": "يبدو ذلك معقولًا.",
+     "pronunciation": "Eso parece razonable.",
+     "phraseIds": [
+      "P_B1_ES_D16_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_ES_D16_08",
+     "speakerId": "laith",
+     "targetText": "Gracias. Se lo explicaré al equipo.",
+     "englishReference": "Thank you. I will explain it to the team.",
+     "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+     "pronunciation": "Gracias. Se lo explicaré al equipo.",
+     "phraseIds": [
+      "P_B1_ES_D16_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D16_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "argument_rebuild",
+     "phraseIds": [
+      "P_B1_ES_D16_C01",
+      "P_B1_ES_D16_C02",
+      "P_B1_ES_D16_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B1_ES_D16_C01",
+      "P_B1_ES_D16_C02",
+      "P_B1_ES_D16_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B1_ES_D16_I01",
+      "P_B1_ES_D16_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D16_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استعمل رأيًا وسببًا واقتراحًا في موقف عمل أو دراسة.",
+   "requiredPhraseIds": [
+    "P_B1_ES_D16_C01",
+    "P_B1_ES_D16_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D16_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "La reunión del pueblo planteó preguntas útiles.",
+     "englishReference": "The village meeting raised useful questions.",
+     "arabicTranslation": "اجتماع القرية أثار أسئلة مفيدة.",
+     "pronunciation": "La reunión del pueblo planteó preguntas útiles."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Es mejor dejar algunas preguntas para más adelante.",
+     "englishReference": "Some questions are better left for later.",
+     "arabicTranslation": "بعض الأسئلة من الأفضل تركها لوقت لاحق.",
+     "pronunciation": "Es mejor dejar algunas preguntas para más adelante."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B1_D16_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "يحتاج الفريق إلى قرار حول: إشاعة مزعجة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "state_opinion",
+     "give_reason",
+     "make_proposal"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير رأيًا مدعومًا داخل نقاش.",
+    "afterArabic": "يستطيع المتعلم الآن إبداء رأي وسبب واقتراح."
+   },
+   "successWorldConsequence": "RUMOR:PAUSED",
+   "retryPolicy": "يقدّم تلميح للسبب أو للاقتراح ثم تعاد المهمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B1_ES_D16_S01",
+   "text": "Necesitamos hablar del rumor sobre Martha.",
+   "englishReference": "We need to talk about the rumor about Martha.",
+   "arabicTranslation": "نحتاج إلى الحديث عن the rumor about Martha.",
+   "pronunciation": "Necesitamos hablar del rumor sobre Martha.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_ES_D16_C01",
+   "text": "En mi opinión, no deberíamos repetir esto como un hecho.",
+   "englishReference": "In my opinion, we should not repeat this as a fact.",
+   "arabicTranslation": "في رأيي، we should not repeat this as a fact.",
+   "pronunciation": "En mi opinión, no deberíamos repetir esto como un hecho.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_ES_D16_I01",
+   "text": "¿Por qué piensas eso?",
+   "englishReference": "Why do you think that?",
+   "arabicTranslation": "لماذا تعتقد ذلك؟",
+   "pronunciation": "¿Por qué piensas eso?",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_ES_D16_C02",
+   "text": "Porque no conocemos la historia completa.",
+   "englishReference": "Because we do not know the full story.",
+   "arabicTranslation": "لأن we do not know the full story.",
+   "pronunciation": "Porque no conocemos la historia completa.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_ES_D16_I02",
+   "text": "¿Qué debemos hacer primero?",
+   "englishReference": "What should we do first?",
+   "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+   "pronunciation": "¿Qué debemos hacer primero?",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_ES_D16_C03",
+   "text": "Sugiero que deberíamos preguntar antes de juzgar.",
+   "englishReference": "I suggest that we should ask before judging.",
+   "arabicTranslation": "أقترح أن we should ask before judging.",
+   "pronunciation": "Sugiero que deberíamos preguntar antes de juzgar.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_ES_D16_S02",
+   "text": "Eso parece razonable.",
+   "englishReference": "That seems reasonable.",
+   "arabicTranslation": "يبدو ذلك معقولًا.",
+   "pronunciation": "Eso parece razonable.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_ES_D16_S03",
+   "text": "Gracias. Se lo explicaré al equipo.",
+   "englishReference": "Thank you. I will explain it to the team.",
+   "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+   "pronunciation": "Gracias. Se lo explicaré al equipo.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "speaker_intent"
+   ],
+   "supportFadePlan": "يعتمد B1 على الحجج لا على الإشارات."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B1_ES_D16_C01",
+     "P_B1_ES_D16_C02",
+     "P_B1_ES_D16_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B1_ES_D16_I01",
+     "P_B1_ES_D16_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B1_ES_D16_C01",
+    "P_B1_ES_D16_C02",
+    "P_B1_ES_D16_C03",
+    "P_B1_ES_D16_I01",
+    "P_B1_ES_D16_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تطلب شخصية من ليث إعادة شرح قرار سابق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B1_D15:COMPLETE"
+  ],
+  "onSuccess": [
+   "RUMOR:PAUSED",
+   "B1_D17:UNLOCKED"
+  ],
+  "milestone": "b1_milestone_16",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b1_es_d15",
+  "nextLessonId": "story_b1_es_d17",
+  "nextLessonHookArabic": "يتولد تحدٍّ جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B1 16: إشاعة مزعجة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

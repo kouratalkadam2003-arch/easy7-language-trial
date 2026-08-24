@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 29,
+ "story": {
+  "originalText": "Yassin: Hallo, Yassin. Was magst du?\nOmar: Ich mag Englisch und Bücher.\nYassin: Ich mag Kaffee und Fußball.\nOmar: Magst du unser Zuhause?\nYassin: Ja, ich mag unser Zuhause sehr.\nOmar: Ich mag kein kaltes Essen.\nYassin: Ich mag es nicht, zu spät zu sein.\nOmar: Ich mag es, mit dir zu lernen.\nYassin: Ich lerne auch gern mit dir.\nOmar: Morgen ist unser A1-Test. Auf Wiedersehen.",
+  "translatedText": "Yassin: مرحباً يا ياسين. ماذا تحب؟\nOmar: أحب الإنجليزية والكتب.\nYassin: أحب القهوة وكرة القدم.\nOmar: هل تحب بيتنا؟\nYassin: نعم، أحب بيتنا كثيراً.\nOmar: لا أحب الطعام البارد.\nYassin: لا أحب التأخر.\nOmar: أحب الدراسة معك.\nYassin: وأنا أحب التعلم معك أيضاً.\nOmar: غداً امتحان A1. وداعاً.",
+  "nativeScriptText": "Yassin: Hallo, Yassin. Was magst du?\nOmar: Ich mag Englisch und Bücher.\nYassin: Ich mag Kaffee und Fußball.\nOmar: Magst du unser Zuhause?\nYassin: Ja, ich mag unser Zuhause sehr.\nOmar: Ich mag kein kaltes Essen.\nYassin: Ich mag es nicht, zu spät zu sein.\nOmar: Ich mag es, mit dir zu lernen.\nYassin: Ich lerne auch gern mit dir.\nOmar: Morgen ist unser A1-Test. Auf Wiedersehen.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 29: أحب / أكره",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hallo, Yassin. Was magst du?",
+    "translation": "مرحباً يا ياسين. ماذا تحب؟",
+    "pronunciation": "Hallo, Yassin. Was magst du?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich mag Englisch und Bücher.",
+    "translation": "أحب الإنجليزية والكتب.",
+    "pronunciation": "Ich mag Englisch und Bücher."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich mag Kaffee und Fußball.",
+    "translation": "أحب القهوة وكرة القدم.",
+    "pronunciation": "Ich mag Kaffee und Fußball."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Magst du unser Zuhause?",
+    "translation": "هل تحب بيتنا؟",
+    "pronunciation": "Magst du unser Zuhause?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ja, ich mag unser Zuhause sehr.",
+    "translation": "نعم، أحب بيتنا كثيراً.",
+    "pronunciation": "Ja, ich mag unser Zuhause sehr."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich mag kein kaltes Essen.",
+    "translation": "لا أحب الطعام البارد.",
+    "pronunciation": "Ich mag kein kaltes Essen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich mag es nicht, zu spät zu sein.",
+    "translation": "لا أحب التأخر.",
+    "pronunciation": "Ich mag es nicht, zu spät zu sein."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich mag es, mit dir zu lernen.",
+    "translation": "أحب الدراسة معك.",
+    "pronunciation": "Ich mag es, mit dir zu lernen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich lerne auch gern mit dir.",
+    "translation": "وأنا أحب التعلم معك أيضاً.",
+    "pronunciation": "Ich lerne auch gern mit dir."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Morgen ist unser A1-Test. Auf Wiedersehen.",
+    "translation": "غداً امتحان A1. وداعاً.",
+    "pronunciation": "Morgen ist unser A1-Test. Auf Wiedersehen."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d29",
+   "title": "أحب / أكره",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 29,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s4_d28"
+  ],
+  "createdAt": 1786696446398
+ }
+}

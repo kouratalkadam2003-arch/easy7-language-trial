@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 6,
+ "story": {
+  "originalText": "Yassin: Buonasera, Yassin. Come stai?\nOmar: Sto bene, grazie. E tu?\nYassin: Sto molto bene, grazie a Dio.\nOmar: Sei stanco dopo la lezione?\nYassin: Un po' stanco, ma felice.\nOmar: Anch'io sono felice.\nYassin: La prima settimana sta andando bene.\nOmar: Sì, imparo qualcosa ogni giorno.\nYassin: Domani ripassiamo insieme.\nOmar: Ottimo. Buonanotte, Omar.",
+  "translatedText": "Yassin: مساء الخير يا ياسين. كيف حالك؟\nOmar: أنا بخير، شكراً. وأنت؟\nYassin: أنا بخير جداً، الحمد لله.\nOmar: هل أنت متعب بعد الدرس؟\nYassin: متعب قليلاً، لكن سعيد.\nOmar: أنا سعيد أيضاً.\nYassin: الأسبوع الأول يسير بشكل جيد.\nOmar: نعم، أتعلم شيئاً كل يوم.\nYassin: غداً سنراجع معاً.\nOmar: رائع. تصبح على خير يا عمر.",
+  "nativeScriptText": "Yassin: Buonasera, Yassin. Come stai?\nOmar: Sto bene, grazie. E tu?\nYassin: Sto molto bene, grazie a Dio.\nOmar: Sei stanco dopo la lezione?\nYassin: Un po' stanco, ma felice.\nOmar: Anch'io sono felice.\nYassin: La prima settimana sta andando bene.\nOmar: Sì, imparo qualcosa ogni giorno.\nYassin: Domani ripassiamo insieme.\nOmar: Ottimo. Buonanotte, Omar.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 6: كيف حالك؟",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buonasera, Yassin. Come stai?",
+    "translation": "مساء الخير يا ياسين. كيف حالك؟",
+    "pronunciation": "Buonasera, Yassin. Come stai?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sto bene, grazie. E tu?",
+    "translation": "أنا بخير، شكراً. وأنت؟",
+    "pronunciation": "Sto bene, grazie. E tu?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Sto molto bene, grazie a Dio.",
+    "translation": "أنا بخير جداً، الحمد لله.",
+    "pronunciation": "Sto molto bene, grazie a Dio."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sei stanco dopo la lezione?",
+    "translation": "هل أنت متعب بعد الدرس؟",
+    "pronunciation": "Sei stanco dopo la lezione?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Un po' stanco, ma felice.",
+    "translation": "متعب قليلاً، لكن سعيد.",
+    "pronunciation": "Un po' stanco, ma felice."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Anch'io sono felice.",
+    "translation": "أنا سعيد أيضاً.",
+    "pronunciation": "Anch'io sono felice."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "La prima settimana sta andando bene.",
+    "translation": "الأسبوع الأول يسير بشكل جيد.",
+    "pronunciation": "La prima settimana sta andando bene."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, imparo qualcosa ogni giorno.",
+    "translation": "نعم، أتعلم شيئاً كل يوم.",
+    "pronunciation": "Sì, imparo qualcosa ogni giorno."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Domani ripassiamo insieme.",
+    "translation": "غداً سنراجع معاً.",
+    "pronunciation": "Domani ripassiamo insieme."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ottimo. Buonanotte, Omar.",
+    "translation": "رائع. تصبح على خير يا عمر.",
+    "pronunciation": "Ottimo. Buonanotte, Omar."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d6",
+   "title": "كيف حالك؟",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 6,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s1_d5"
+  ],
+  "createdAt": 1786696446398
+ }
+}

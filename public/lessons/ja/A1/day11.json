@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 11,
+ "story": {
+  "originalText": "Yassin: Omar, sara o ichimai kudasai.\nOmar: Dōzo, kore wa anata no sara desu.\nYassin: Arigatō. Supūn mo hoshii desu.\nOmar: Supūn wa kono hikidashi ni arimasu.\nYassin: Tamago o ryōri shitai desu.\nOmar: Watashi wa ocha o tsukuritai desu.\nYassin: Shio o sukoshi kudasai.\nOmar: Dōzo.\nYassin: Ima tabetai desu.\nOmar: Chotto matte kudasai.",
+  "translatedText": "Yassin: عمر، أريد طبقاً، من فضلك.\nOmar: هذا طبق لك.\nYassin: شكراً. أريد ملعقة أيضاً.\nOmar: الملاعق في هذا الدرج.\nYassin: أريد أن أطبخ البيض.\nOmar: أريد أن أصنع الشاي.\nYassin: أريد بعض الملح، من فضلك.\nOmar: تفضل.\nYassin: أريد أن آكل الآن.\nOmar: انتظر دقيقة واحدة، من فضلك.",
+  "nativeScriptText": "Yassin: Omar、皿を一枚ください。\nOmar: どうぞ、これはあなたの皿です。\nYassin: ありがとう。スプーンも欲しいです。\nOmar: スプーンはこの引き出しにあります。\nYassin: 卵を料理したいです。\nOmar: 私はお茶を作りたいです。\nYassin: 塩を少しください。\nOmar: どうぞ。\nYassin: 今食べたいです。\nOmar: ちょっと待ってください。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 11: أريد",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar、皿を一枚ください。",
+    "translation": "عمر، أريد طبقاً، من فضلك.",
+    "pronunciation": "Omar, sara o ichimai kudasai."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "どうぞ、これはあなたの皿です。",
+    "translation": "هذا طبق لك.",
+    "pronunciation": "Dōzo, kore wa anata no sara desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "ありがとう。スプーンも欲しいです。",
+    "translation": "شكراً. أريد ملعقة أيضاً.",
+    "pronunciation": "Arigatō. Supūn mo hoshii desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "スプーンはこの引き出しにあります。",
+    "translation": "الملاعق في هذا الدرج.",
+    "pronunciation": "Supūn wa kono hikidashi ni arimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "卵を料理したいです。",
+    "translation": "أريد أن أطبخ البيض.",
+    "pronunciation": "Tamago o ryōri shitai desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私はお茶を作りたいです。",
+    "translation": "أريد أن أصنع الشاي.",
+    "pronunciation": "Watashi wa ocha o tsukuritai desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "塩を少しください。",
+    "translation": "أريد بعض الملح، من فضلك.",
+    "pronunciation": "Shio o sukoshi kudasai."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "どうぞ。",
+    "translation": "تفضل.",
+    "pronunciation": "Dōzo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "今食べたいです。",
+    "translation": "أريد أن آكل الآن.",
+    "pronunciation": "Ima tabetai desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "ちょっと待ってください。",
+    "translation": "انتظر دقيقة واحدة، من فضلك.",
+    "pronunciation": "Chotto matte kudasai."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d11",
+   "title": "أريد",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 11,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s2_d10"
+  ],
+  "createdAt": 1786696446398
+ }
+}

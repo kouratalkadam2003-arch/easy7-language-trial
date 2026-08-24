@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 28,
+ "story": {
+  "originalText": "Yassin: Onaka ga suite imasu ka?\nOmar: Hai, onaka ga suite imasu.\nYassin: Shokuji wa ikura desu ka?\nOmar: Sono shokuji wa jū doru desu.\nYassin: Seikyū-sho o itadakemasu ka?\nOmar: Hai, dōzo. Kore ga seikyū-sho desu.\nYassin: Ima wa byōki desu ka?\nOmar: Iie, isha no ato de yoku narimashita.\nYassin: Nani ka tetsudaimashō ka?\nOmar: Iie, arigatō. Ima wa daijōbu desu.",
+  "translatedText": "Yassin: هل أنت جائع؟\nOmar: نعم، أنا جائع.\nYassin: كم ثمن الوجبة؟\nOmar: الوجبة بعشرة دولارات.\nYassin: هل يمكنني الحصول على الفاتورة، من فضلك؟\nOmar: نعم، هذه هي الفاتورة.\nYassin: هل أنت مريض الآن؟\nOmar: لا، أشعر بتحسن بعد زيارة الطبيب.\nYassin: هل يمكنني مساعدتك في شيء؟\nOmar: لا، شكراً. أنا بخير الآن.",
+  "nativeScriptText": "Yassin: お腹が空いていますか？\nOmar: はい、お腹が空いています。\nYassin: 食事はいくらですか？\nOmar: その食事は十ドルです。\nYassin: 請求書をいただけますか？\nOmar: はい、どうぞ。これが請求書です。\nYassin: 今は病気ですか？\nOmar: いいえ、医者の後で良くなりました。\nYassin: 何か手伝いましょうか？\nOmar: いいえ、ありがとう。今は大丈夫です。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 28: مراجعة شاملة (22-27)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "お腹が空いていますか？",
+    "translation": "هل أنت جائع؟",
+    "pronunciation": "Onaka ga suite imasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、お腹が空いています。",
+    "translation": "نعم، أنا جائع.",
+    "pronunciation": "Hai, onaka ga suite imasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "食事はいくらですか？",
+    "translation": "كم ثمن الوجبة؟",
+    "pronunciation": "Shokuji wa ikura desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "その食事は十ドルです。",
+    "translation": "الوجبة بعشرة دولارات.",
+    "pronunciation": "Sono shokuji wa jū doru desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "請求書をいただけますか？",
+    "translation": "هل يمكنني الحصول على الفاتورة، من فضلك؟",
+    "pronunciation": "Seikyū-sho o itadakemasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、どうぞ。これが請求書です。",
+    "translation": "نعم، هذه هي الفاتورة.",
+    "pronunciation": "Hai, dōzo. Kore ga seikyū-sho desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "今は病気ですか？",
+    "translation": "هل أنت مريض الآن؟",
+    "pronunciation": "Ima wa byōki desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "いいえ、医者の後で良くなりました。",
+    "translation": "لا، أشعر بتحسن بعد زيارة الطبيب.",
+    "pronunciation": "Iie, isha no ato de yoku narimashita."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "何か手伝いましょうか？",
+    "translation": "هل يمكنني مساعدتك في شيء؟",
+    "pronunciation": "Nani ka tetsudaimashō ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "いいえ、ありがとう。今は大丈夫です。",
+    "translation": "لا، شكراً. أنا بخير الآن.",
+    "pronunciation": "Iie, arigatō. Ima wa daijōbu desu."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d28",
+   "title": "مراجعة شاملة (22-27)",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 28,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s4_d27"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 24,
+ "story": {
+  "originalText": "Yassin: Sumimasen, seikyū-sho o onegaishimasu.\nOmar: Seikyū-sho wa tēburu no ue ni arimasu.\nYassin: Seikyū-sho wa ikura desu ka?\nOmar: Seikyū-sho wa jūroku doru desu.\nYassin: Watashi wa jū doru arimasu.\nOmar: Watashi wa roku doru arimasu.\nYassin: Issho ni haraemasu.\nOmar: Arigatō, tomodachi.\nYassin: Dōitashimashite. Daijōbu desu ka?\nOmar: Sukoshi kibun ga warui desu.",
+  "translatedText": "Yassin: عفواً، هل يمكنني الحصول على الفاتورة، من فضلك؟\nOmar: الفاتورة على الطاولة.\nYassin: كم قيمة الفاتورة؟\nOmar: الفاتورة ستة عشر دولاراً.\nYassin: لدي عشرة دولارات.\nOmar: لدي ستة دولارات.\nYassin: يمكننا أن ندفع معاً.\nOmar: شكراً يا صديقي.\nYassin: عفواً. هل أنت بخير؟\nOmar: أشعر بالمرض قليلاً.",
+  "nativeScriptText": "Yassin: すみません、請求書をお願いします。\nOmar: 請求書はテーブルの上にあります。\nYassin: 請求書はいくらですか？\nOmar: 請求書は十六ドルです。\nYassin: 私は十ドルあります。\nOmar: 私は六ドルあります。\nYassin: 一緒に払えます。\nOmar: ありがとう、友だち。\nYassin: どういたしまして。大丈夫ですか？\nOmar: 少し気分が悪いです。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 24: فاتورة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "すみません、請求書をお願いします。",
+    "translation": "عفواً، هل يمكنني الحصول على الفاتورة، من فضلك؟",
+    "pronunciation": "Sumimasen, seikyū-sho o onegaishimasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "請求書はテーブルの上にあります。",
+    "translation": "الفاتورة على الطاولة.",
+    "pronunciation": "Seikyū-sho wa tēburu no ue ni arimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "請求書はいくらですか？",
+    "translation": "كم قيمة الفاتورة؟",
+    "pronunciation": "Seikyū-sho wa ikura desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "請求書は十六ドルです。",
+    "translation": "الفاتورة ستة عشر دولاراً.",
+    "pronunciation": "Seikyū-sho wa jūroku doru desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私は十ドルあります。",
+    "translation": "لدي عشرة دولارات.",
+    "pronunciation": "Watashi wa jū doru arimasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私は六ドルあります。",
+    "translation": "لدي ستة دولارات.",
+    "pronunciation": "Watashi wa roku doru arimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "一緒に払えます。",
+    "translation": "يمكننا أن ندفع معاً.",
+    "pronunciation": "Issho ni haraemasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "ありがとう、友だち。",
+    "translation": "شكراً يا صديقي.",
+    "pronunciation": "Arigatō, tomodachi."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "どういたしまして。大丈夫ですか？",
+    "translation": "عفواً. هل أنت بخير؟",
+    "pronunciation": "Dōitashimashite. Daijōbu desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "少し気分が悪いです。",
+    "translation": "أشعر بالمرض قليلاً.",
+    "pronunciation": "Sukoshi kibun ga warui desu."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d24",
+   "title": "فاتورة",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 24,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s4_d23"
+  ],
+  "createdAt": 1786696446398
+ }
+}

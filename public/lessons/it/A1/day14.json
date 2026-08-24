@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 14,
+ "story": {
+  "originalText": "Yassin: Questa è la tua casa?\nOmar: Sì, questa è la mia casa.\nYassin: Dove è la tua stanza?\nOmar: La mia stanza è accanto alla cucina.\nYassin: Che cibo vuoi?\nOmar: Voglio uova e pane.\nYassin: Vuoi caffè?\nOmar: No, non voglio caffè. Voglio acqua.\nYassin: Molto bene. Ora parli bene.\nOmar: Grazie. Ci vediamo all'istituto.",
+  "translatedText": "Yassin: هل هذا بيتك؟\nOmar: نعم، هذا بيتي.\nYassin: أين غرفتك؟\nOmar: غرفتي بجانب المطبخ.\nYassin: ما الطعام الذي تريده؟\nOmar: أريد البيض والخبز.\nYassin: هل تريد قهوة؟\nOmar: لا، لا أريد القهوة. أريد الماء.\nYassin: جيد جداً. أنت تتكلم جيداً الآن.\nOmar: شكراً. أراك في المعهد.",
+  "nativeScriptText": "Yassin: Questa è la tua casa?\nOmar: Sì, questa è la mia casa.\nYassin: Dove è la tua stanza?\nOmar: La mia stanza è accanto alla cucina.\nYassin: Che cibo vuoi?\nOmar: Voglio uova e pane.\nYassin: Vuoi caffè?\nOmar: No, non voglio caffè. Voglio acqua.\nYassin: Molto bene. Ora parli bene.\nOmar: Grazie. Ci vediamo all'istituto.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 14: مراجعة شاملة (8-13)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Questa è la tua casa?",
+    "translation": "هل هذا بيتك؟",
+    "pronunciation": "Questa è la tua casa?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, questa è la mia casa.",
+    "translation": "نعم، هذا بيتي.",
+    "pronunciation": "Sì, questa è la mia casa."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Dove è la tua stanza?",
+    "translation": "أين غرفتك؟",
+    "pronunciation": "Dove è la tua stanza?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "La mia stanza è accanto alla cucina.",
+    "translation": "غرفتي بجانب المطبخ.",
+    "pronunciation": "La mia stanza è accanto alla cucina."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Che cibo vuoi?",
+    "translation": "ما الطعام الذي تريده؟",
+    "pronunciation": "Che cibo vuoi?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Voglio uova e pane.",
+    "translation": "أريد البيض والخبز.",
+    "pronunciation": "Voglio uova e pane."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Vuoi caffè?",
+    "translation": "هل تريد قهوة؟",
+    "pronunciation": "Vuoi caffè?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, non voglio caffè. Voglio acqua.",
+    "translation": "لا، لا أريد القهوة. أريد الماء.",
+    "pronunciation": "No, non voglio caffè. Voglio acqua."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Molto bene. Ora parli bene.",
+    "translation": "جيد جداً. أنت تتكلم جيداً الآن.",
+    "pronunciation": "Molto bene. Ora parli bene."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Grazie. Ci vediamo all'istituto.",
+    "translation": "شكراً. أراك في المعهد.",
+    "pronunciation": "Grazie. Ci vediamo all'istituto."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d14",
+   "title": "مراجعة شاملة (8-13)",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 14,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s2_d13"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_fr_d12",
+  "languageCode": "fr",
+  "languageNameArabic": "الفرنسية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 12,
+  "lessonTitle": "Pas une journée de repos",
+  "englishTitle": "Not an Idle Day",
+  "arabicTitle": "ليس اليوم للكسل",
+  "canonicalBeatIds": [
+   "BEAT_A1_D12"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التعبير عن الرفض اللطيف واقتراح بديل.",
+  "realLifeTransferArabic": "قول لا باحترام وتنظيم وقتك.",
+  "successCapabilityArabic": "ارفض اقتراحًا بلطف ثم اقترح وقتًا أو بديلًا مناسبًا."
+ },
+ "story": {
+  "storyContextArabic": "تقترح إيلي أن يرتاح ليث بعد حمل الصندوق، لكنه يريد إتمام مهمة صغيرة فقط.",
+  "storyMissionArabic": "يتعلم رفضًا محترمًا من دون إيذاء نفسه.",
+  "setting": "cabin_and_village",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: ليس اليوم للكسل."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D12_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D12_01",
+     "narrationArabic": "تقترح إيلي أن يرتاح ليث بعد حمل الصندوق، لكنه يريد إتمام مهمة صغيرة فقط."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D12_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التعبير عن الرفض اللطيف واقتراح بديل.",
+   "lines": [
+    {
+     "lineId": "L_A1_FR_D12_01",
+     "speakerId": "elly",
+     "targetText": "Bonjour Laith. Tu devrais te reposer maintenant.",
+     "englishReference": "Hello, Laith. You should rest now.",
+     "arabicTranslation": "مرحبًا يا ليث. ينبغي أن ترتاح الآن.",
+     "pronunciation": "Bonjour Laith. Tu devrais te reposer maintenant.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D12_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D12_02",
+     "speakerId": "laith",
+     "targetText": "Merci, mais je ne veux pas rester les bras croisés.",
+     "englishReference": "Thank you, but I do not want to be idle.",
+     "arabicTranslation": "شكرًا، لكنني لا أريد أن أبقى بلا عمل.",
+     "pronunciation": "Merci, mais je ne veux pas rester les bras croisés.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D12_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D12_03",
+     "speakerId": "elly",
+     "targetText": "Vous avez travaillé toute la matinée.",
+     "englishReference": "You worked all morning.",
+     "arabicTranslation": "لقد عملت طوال الصباح.",
+     "pronunciation": "Vous avez travaillé toute la matinée.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D12_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D12_04",
+     "speakerId": "laith",
+     "targetText": "Je sais. Je peux faire une petite tâche.",
+     "englishReference": "I know. I can do one small task.",
+     "arabicTranslation": "أعرف. يمكنني أن أفعل مهمة صغيرة واحدة.",
+     "pronunciation": "Je sais. Je peux faire une petite tâche.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D12_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D12_05",
+     "speakerId": "elly",
+     "targetText": "Quelle tâche souhaitez-vous effectuer ?",
+     "englishReference": "What task do you want to do?",
+     "arabicTranslation": "ما المهمة التي تريد فعلها؟",
+     "pronunciation": "Quelle tâche souhaitez-vous effectuer ?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D12_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D12_06",
+     "speakerId": "laith",
+     "targetText": "Je veux nettoyer les outils.",
+     "englishReference": "I want to clean the tools.",
+     "arabicTranslation": "أريد تنظيف الأدوات.",
+     "pronunciation": "Je veux nettoyer les outils.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D12_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D12_07",
+     "speakerId": "elly",
+     "targetText": "D'accord. Puis reposez-vous après cela.",
+     "englishReference": "All right. Then rest after that.",
+     "arabicTranslation": "حسنًا. ثم استرح بعد ذلك.",
+     "pronunciation": "D'accord. Puis reposez-vous après cela.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D12_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D12_08",
+     "speakerId": "laith",
+     "targetText": "Oui je le ferai. Au revoir pour l'instant.",
+     "englishReference": "Yes, I will. Goodbye for now.",
+     "arabicTranslation": "نعم، سأفعل. إلى اللقاء الآن.",
+     "pronunciation": "Oui je le ferai. Au revoir pour l'instant.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D12_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D12_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_FR_D12_C01",
+      "P_A1_FR_D12_C02",
+      "P_A1_FR_D12_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_FR_D12_C01",
+      "P_A1_FR_D12_C02",
+      "P_A1_FR_D12_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_FR_D12_I01",
+      "P_A1_FR_D12_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D12_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: قول لا باحترام وتنظيم وقتك.",
+   "requiredPhraseIds": [
+    "P_A1_FR_D12_C01",
+    "P_A1_FR_D12_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D12_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "J'ai entendu dire que Laith avait aidé aujourd'hui.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "J'ai entendu dire que Laith avait aidé aujourd'hui."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Le village commence à le connaître.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "Le village commence à le connaître."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D12_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: ليس اليوم للكسل.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "ارفض اقتراحًا بلطف ثم اقترح وقتًا أو بديلًا مناسبًا."
+   },
+   "successWorldConsequence": "A1_DAY_12:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_FR_D12_S01",
+   "text": "Bonjour Laith. Tu devrais te reposer maintenant.",
+   "englishReference": "Hello, Laith. You should rest now.",
+   "arabicTranslation": "مرحبًا يا ليث. ينبغي أن ترتاح الآن.",
+   "pronunciation": "Bonjour Laith. Tu devrais te reposer maintenant.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D12_LEARNING",
+   "transferContexts": [
+    "قول لا باحترام وتنظيم وقتك."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D12_I01",
+   "text": "Merci, mais je ne veux pas rester les bras croisés.",
+   "englishReference": "Thank you, but I do not want to be idle.",
+   "arabicTranslation": "شكرًا، لكنني لا أريد أن أبقى بلا عمل.",
+   "pronunciation": "Merci, mais je ne veux pas rester les bras croisés.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D12_LEARNING",
+   "transferContexts": [
+    "قول لا باحترام وتنظيم وقتك."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_FR_D12_C01",
+   "text": "Vous avez travaillé toute la matinée.",
+   "englishReference": "You worked all morning.",
+   "arabicTranslation": "لقد عملت طوال الصباح.",
+   "pronunciation": "Vous avez travaillé toute la matinée.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D12_LEARNING",
+   "transferContexts": [
+    "قول لا باحترام وتنظيم وقتك."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D12_S02",
+   "text": "Je sais. Je peux faire une petite tâche.",
+   "englishReference": "I know. I can do one small task.",
+   "arabicTranslation": "أعرف. يمكنني أن أفعل مهمة صغيرة واحدة.",
+   "pronunciation": "Je sais. Je peux faire une petite tâche.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D12_LEARNING",
+   "transferContexts": [
+    "قول لا باحترام وتنظيم وقتك."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D12_C02",
+   "text": "Quelle tâche souhaitez-vous effectuer ?",
+   "englishReference": "What task do you want to do?",
+   "arabicTranslation": "ما المهمة التي تريد فعلها؟",
+   "pronunciation": "Quelle tâche souhaitez-vous effectuer ?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D12_LEARNING",
+   "transferContexts": [
+    "قول لا باحترام وتنظيم وقتك."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D12_C03",
+   "text": "Je veux nettoyer les outils.",
+   "englishReference": "I want to clean the tools.",
+   "arabicTranslation": "أريد تنظيف الأدوات.",
+   "pronunciation": "Je veux nettoyer les outils.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D12_LEARNING",
+   "transferContexts": [
+    "قول لا باحترام وتنظيم وقتك."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D12_S03",
+   "text": "D'accord. Puis reposez-vous après cela.",
+   "englishReference": "All right. Then rest after that.",
+   "arabicTranslation": "حسنًا. ثم استرح بعد ذلك.",
+   "pronunciation": "D'accord. Puis reposez-vous après cela.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D12_LEARNING",
+   "transferContexts": [
+    "قول لا باحترام وتنظيم وقتك."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D12_I02",
+   "text": "Oui je le ferai. Au revoir pour l'instant.",
+   "englishReference": "Yes, I will. Goodbye for now.",
+   "arabicTranslation": "نعم، سأفعل. إلى اللقاء الآن.",
+   "pronunciation": "Oui je le ferai. Au revoir pour l'instant.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D12_LEARNING",
+   "transferContexts": [
+    "قول لا باحترام وتنظيم وقتك."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_FR_D12_C01",
+     "P_A1_FR_D12_C02",
+     "P_A1_FR_D12_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_FR_D12_C01",
+     "P_A1_FR_D12_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_FR_D12_C01",
+    "P_A1_FR_D12_C02",
+    "P_A1_FR_D12_C03",
+    "P_A1_FR_D12_I01",
+    "P_A1_FR_D12_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D11:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_12:COMPLETE",
+   "A1_D13:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_12",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_fr_d11",
+  "nextLessonId": "story_a1_fr_d13",
+  "nextLessonHookArabic": "غدًا: في مقهى غاستون.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 12: ليس اليوم للكسل."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

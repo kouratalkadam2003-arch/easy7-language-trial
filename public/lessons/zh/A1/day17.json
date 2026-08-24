@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 17,
+ "story": {
+  "originalText": "Yassin: Nǐ hǎo, Omar. Ali xiānsheng shì wǒmen de lǎoshī ma?\nOmar: Shì de, Ali xiānsheng shì wǒmen de lǎoshī.\nYassin: Tā shuōhuà màn érqiě qīngxī.\nOmar: Shì de, tā bāngzhù měi gè xuéshēng.\nYassin: Wǒ xiǎng wèn lǎoshī yí gè wèntí.\nOmar: Nǐ kěyǐ xiàkè hòu wèn.\nYassin: Lǎoshī yǒu shū ma?\nOmar: Shì de, tā yǒu yì běn xīn shū gěi wǒmen.\nYassin: Wǒ xūyào nà běn shū.\nOmar: Wǒmen míngtiān kěyǐ mǎi dào.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل الأستاذ علي هو معلمنا؟\nOmar: نعم، الأستاذ علي هو معلمنا.\nYassin: هو يتكلم ببطء ووضوح.\nOmar: نعم، هو يساعد كل طالب.\nYassin: أريد أن أسأل المعلم سؤالاً.\nOmar: يمكنك أن تسأل بعد الدرس.\nYassin: هل لدى المعلم كتاب؟\nOmar: نعم، لديه كتاب جديد لنا.\nYassin: أحتاج ذلك الكتاب.\nOmar: يمكننا الحصول عليه غداً.",
+  "nativeScriptText": "Yassin: 你好，Omar。Ali先生是我们的老师吗？\nOmar: 是的，Ali先生是我们的老师。\nYassin: 他说话慢而且清晰。\nOmar: 是的，他帮助每个学生。\nYassin: 我想问老师一个问题。\nOmar: 你可以下课后问。\nYassin: 老师有书吗？\nOmar: 是的，他有一本新书给我们。\nYassin: 我需要那本书。\nOmar: 我们明天可以买到。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 17: أستاذ",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你好，Omar。Ali先生是我们的老师吗？",
+    "translation": "مرحباً يا عمر. هل الأستاذ علي هو معلمنا؟",
+    "pronunciation": "Nǐ hǎo, Omar. Ali xiānsheng shì wǒmen de lǎoshī ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，Ali先生是我们的老师。",
+    "translation": "نعم، الأستاذ علي هو معلمنا.",
+    "pronunciation": "Shì de, Ali xiānsheng shì wǒmen de lǎoshī."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "他说话慢而且清晰。",
+    "translation": "هو يتكلم ببطء ووضوح.",
+    "pronunciation": "Tā shuōhuà màn érqiě qīngxī."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，他帮助每个学生。",
+    "translation": "نعم، هو يساعد كل طالب.",
+    "pronunciation": "Shì de, tā bāngzhù měi gè xuéshēng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我想问老师一个问题。",
+    "translation": "أريد أن أسأل المعلم سؤالاً.",
+    "pronunciation": "Wǒ xiǎng wèn lǎoshī yí gè wèntí."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "你可以下课后问。",
+    "translation": "يمكنك أن تسأل بعد الدرس.",
+    "pronunciation": "Nǐ kěyǐ xiàkè hòu wèn."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "老师有书吗？",
+    "translation": "هل لدى المعلم كتاب؟",
+    "pronunciation": "Lǎoshī yǒu shū ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，他有一本新书给我们。",
+    "translation": "نعم، لديه كتاب جديد لنا.",
+    "pronunciation": "Shì de, tā yǒu yì běn xīn shū gěi wǒmen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我需要那本书。",
+    "translation": "أحتاج ذلك الكتاب.",
+    "pronunciation": "Wǒ xūyào nà běn shū."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我们明天可以买到。",
+    "translation": "يمكننا الحصول عليه غداً.",
+    "pronunciation": "Wǒmen míngtiān kěyǐ mǎi dào."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d17",
+   "title": "أستاذ",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 17,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s3_d16"
+  ],
+  "createdAt": 1786696446398
+ }
+}

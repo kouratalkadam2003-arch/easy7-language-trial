@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 30,
+ "story": {
+  "originalText": "Yassin: ohayou , omaru . tesuto no junbi hadekiteimasuka .\nOmar: Hai, junbi dekite imasu, insharrā.\nYassin: Anata no namae wa nan desu ka?\nOmar: watashi no namae ha omaru de , arujieria shusshin desu .\nYassin: Genki desu ka, soshite hon wa doko desu ka?\nOmar: Genki desu. Watashi no hon wa tsukue no ue ni arimasu.\nYassin: Nani o tabetai desu ka?\nOmar: Gohan to mizu o onegaishimasu.\nYassin: Subarashii. Anata wa A1 ni gōkaku shimashita. Yoku dekimashita!\nOmar: arigatou , yashin . sayounara , A1 . konnichiha , A2 .",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هل أنت مستعد للامتحان؟\nOmar: نعم، أنا مستعد، إن شاء الله.\nYassin: ما اسمك؟\nOmar: اسمي ياسين، وأنا من الجزائر.\nYassin: كيف حالك، وأين كتابك؟\nOmar: أنا بخير. كتابي على المكتب.\nYassin: ماذا تريد أن تأكل؟\nOmar: أريد الأرز والماء، من فضلك.\nYassin: ممتاز. لقد نجحت في A1. أحسنت!\nOmar: شكراً يا عمر. وداعاً A1. مرحباً A2!",
+  "nativeScriptText": "Yassin: おはよう、オマル。テストの準備はできていますか。\nOmar: はい、準備できています、インシャッラー。\nYassin: あなたの名前は何ですか？\nOmar: 私の名前はオマルで、アルジェリア出身です。\nYassin: 元気ですか、そして本はどこですか？\nOmar: 元気です。私の本は机の上にあります。\nYassin: 何を食べたいですか？\nOmar: ご飯と水をお願いします。\nYassin: 素晴らしい。あなたは A1 に合格しました。よくできました！\nOmar: ありがとう、ヤシン。さようなら、A1。こんにちは、A2。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 30: امتحان المستوى A1",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "おはよう、オマル。テストの準備はできていますか。",
+    "translation": "صباح الخير يا ياسين. هل أنت مستعد للامتحان؟",
+    "pronunciation": "ohayou , omaru . tesuto no junbi hadekiteimasuka ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、準備できています、インシャッラー。",
+    "translation": "نعم، أنا مستعد، إن شاء الله.",
+    "pronunciation": "Hai, junbi dekite imasu, insharrā."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "あなたの名前は何ですか？",
+    "translation": "ما اسمك؟",
+    "pronunciation": "Anata no namae wa nan desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私の名前はオマルで、アルジェリア出身です。",
+    "translation": "اسمي ياسين، وأنا من الجزائر.",
+    "pronunciation": "watashi no namae ha omaru de , arujieria shusshin desu ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "元気ですか、そして本はどこですか？",
+    "translation": "كيف حالك، وأين كتابك؟",
+    "pronunciation": "Genki desu ka, soshite hon wa doko desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "元気です。私の本は机の上にあります。",
+    "translation": "أنا بخير. كتابي على المكتب.",
+    "pronunciation": "Genki desu. Watashi no hon wa tsukue no ue ni arimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "何を食べたいですか？",
+    "translation": "ماذا تريد أن تأكل؟",
+    "pronunciation": "Nani o tabetai desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "ご飯と水をお願いします。",
+    "translation": "أريد الأرز والماء، من فضلك.",
+    "pronunciation": "Gohan to mizu o onegaishimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "素晴らしい。あなたは A1 に合格しました。よくできました！",
+    "translation": "ممتاز. لقد نجحت في A1. أحسنت!",
+    "pronunciation": "Subarashii. Anata wa A1 ni gōkaku shimashita. Yoku dekimashita!"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "ありがとう、ヤシン。さようなら、A1。こんにちは、A2。",
+    "translation": "شكراً يا عمر. وداعاً A1. مرحباً A2!",
+    "pronunciation": "arigatou , yashin . sayounara , A1 . konnichiha , A2 ."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d30",
+   "title": "امتحان المستوى A1",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 30,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s5_d29"
+  ],
+  "createdAt": 1786696446398
+ }
+}

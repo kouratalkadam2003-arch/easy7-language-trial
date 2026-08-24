@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 8,
+ "story": {
+  "originalText": "Yassin: Welcome to our home, Omar.\nOmar: Thank you. Our home is nice.\nYassin: The home is small but clean.\nOmar: Yes, it has a kitchen and two rooms.\nYassin: The kitchen is near the door.\nOmar: The bathroom is next to the kitchen.\nYassin: I like this home.\nOmar: Me too. It feels peaceful.\nYassin: Let us see our room now.\nOmar: Yes, come with me.",
+  "translatedText": "Yassin: أهلاً بك في بيتنا يا عمر.\nOmar: شكراً. بيتنا جميل.\nYassin: البيت صغير لكنه نظيف.\nOmar: نعم، فيه مطبخ وغرفتان.\nYassin: المطبخ قريب من الباب.\nOmar: الحمام بجانب المطبخ.\nYassin: أنا أحب هذا البيت.\nOmar: وأنا أيضاً. أشعر فيه بالهدوء.\nYassin: لنرَ غرفتنا الآن.\nOmar: نعم، تعال معي.",
+  "nativeScriptText": "Yassin: Welcome to our home, Omar.\nOmar: Thank you. Our home is nice.\nYassin: The home is small but clean.\nOmar: Yes, it has a kitchen and two rooms.\nYassin: The kitchen is near the door.\nOmar: The bathroom is next to the kitchen.\nYassin: I like this home.\nOmar: Me too. It feels peaceful.\nYassin: Let us see our room now.\nOmar: Yes, come with me.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 8: بيتي",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Welcome to our home, Omar.",
+    "translation": "أهلاً بك في بيتنا يا عمر.",
+    "pronunciation": "Welcome to our home, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Thank you. Our home is nice.",
+    "translation": "شكراً. بيتنا جميل.",
+    "pronunciation": "Thank you. Our home is nice."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "The home is small but clean.",
+    "translation": "البيت صغير لكنه نظيف.",
+    "pronunciation": "The home is small but clean."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, it has a kitchen and two rooms.",
+    "translation": "نعم، فيه مطبخ وغرفتان.",
+    "pronunciation": "Yes, it has a kitchen and two rooms."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "The kitchen is near the door.",
+    "translation": "المطبخ قريب من الباب.",
+    "pronunciation": "The kitchen is near the door."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The bathroom is next to the kitchen.",
+    "translation": "الحمام بجانب المطبخ.",
+    "pronunciation": "The bathroom is next to the kitchen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I like this home.",
+    "translation": "أنا أحب هذا البيت.",
+    "pronunciation": "I like this home."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Me too. It feels peaceful.",
+    "translation": "وأنا أيضاً. أشعر فيه بالهدوء.",
+    "pronunciation": "Me too. It feels peaceful."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Let us see our room now.",
+    "translation": "لنرَ غرفتنا الآن.",
+    "pronunciation": "Let us see our room now."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, come with me.",
+    "translation": "نعم، تعال معي.",
+    "pronunciation": "Yes, come with me."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d8",
+   "title": "بيتي",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 8,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s1_d7"
+  ],
+  "createdAt": 1786696446398
+ }
+}

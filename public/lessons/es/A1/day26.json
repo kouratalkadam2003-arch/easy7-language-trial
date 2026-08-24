@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 26,
+ "story": {
+  "originalText": "Yassin: Buenos días, Omar. ¿Estás listo para ir al médico?\nOmar: Sí, estoy listo.\nYassin: El médico está en esta clínica.\nOmar: Hola, doctor. Me siento enfermo.\nYassin: Él tiene dolor de cabeza.\nOmar: El médico dice que necesito descansar.\nYassin: ¿Necesitas medicina?\nOmar: Sí, el médico me da medicina.\nYassin: Te ayudaré en casa.\nOmar: Gracias por tu ayuda.",
+  "translatedText": "Yassin: صباح الخير يا عمر. هل أنت مستعد للذهاب إلى الطبيب؟\nOmar: نعم، أنا مستعد.\nYassin: الطبيب في هذه العيادة.\nOmar: مرحباً يا دكتور. أشعر بالمرض.\nYassin: لديه صداع.\nOmar: الطبيب يقول إنني أحتاج إلى الراحة.\nYassin: هل تحتاج إلى دواء؟\nOmar: نعم، الطبيب يعطيني دواء.\nYassin: سأساعدك في البيت.\nOmar: شكراً لمساعدتك.",
+  "nativeScriptText": "Yassin: Buenos días, Omar. ¿Estás listo para ir al médico?\nOmar: Sí, estoy listo.\nYassin: El médico está en esta clínica.\nOmar: Hola, doctor. Me siento enfermo.\nYassin: Él tiene dolor de cabeza.\nOmar: El médico dice que necesito descansar.\nYassin: ¿Necesitas medicina?\nOmar: Sí, el médico me da medicina.\nYassin: Te ayudaré en casa.\nOmar: Gracias por tu ayuda.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 26: دكتور",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buenos días, Omar. ¿Estás listo para ir al médico?",
+    "translation": "صباح الخير يا عمر. هل أنت مستعد للذهاب إلى الطبيب؟",
+    "pronunciation": "Buenos días, Omar. ¿Estás listo para ir al médico?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, estoy listo.",
+    "translation": "نعم، أنا مستعد.",
+    "pronunciation": "Sí, estoy listo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "El médico está en esta clínica.",
+    "translation": "الطبيب في هذه العيادة.",
+    "pronunciation": "El médico está en esta clínica."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hola, doctor. Me siento enfermo.",
+    "translation": "مرحباً يا دكتور. أشعر بالمرض.",
+    "pronunciation": "Hola, doctor. Me siento enfermo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Él tiene dolor de cabeza.",
+    "translation": "لديه صداع.",
+    "pronunciation": "Él tiene dolor de cabeza."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "El médico dice que necesito descansar.",
+    "translation": "الطبيب يقول إنني أحتاج إلى الراحة.",
+    "pronunciation": "El médico dice que necesito descansar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Necesitas medicina?",
+    "translation": "هل تحتاج إلى دواء؟",
+    "pronunciation": "¿Necesitas medicina?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, el médico me da medicina.",
+    "translation": "نعم، الطبيب يعطيني دواء.",
+    "pronunciation": "Sí, el médico me da medicina."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Te ayudaré en casa.",
+    "translation": "سأساعدك في البيت.",
+    "pronunciation": "Te ayudaré en casa."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Gracias por tu ayuda.",
+    "translation": "شكراً لمساعدتك.",
+    "pronunciation": "Gracias por tu ayuda."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d26",
+   "title": "دكتور",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 26,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s4_d25"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 18,
+ "story": {
+  "originalText": "Yassin: Good morning, Yassin. Here is the book.\nOmar: Thank you. Is this the English book?\nYassin: Yes, this is our new English book.\nOmar: The book is very useful.\nYassin: Open the book on page ten.\nOmar: I see a dialogue on this page.\nYassin: Read the first sentence, please.\nOmar: I can read it now.\nYassin: Put the book on the desk.\nOmar: Okay, where is the desk?",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هذا هو الكتاب.\nOmar: شكراً. هل هذا كتاب اللغة الإنجليزية؟\nYassin: نعم، هذا كتاب اللغة الإنجليزية الجديد.\nOmar: الكتاب مفيد جداً.\nYassin: افتح الكتاب في الصفحة العاشرة.\nOmar: أرى حواراً في هذه الصفحة.\nYassin: اقرأ الجملة الأولى، من فضلك.\nOmar: يمكنني قراءتها الآن.\nYassin: ضع الكتاب على المكتب.\nOmar: حسناً، أين المكتب؟",
+  "nativeScriptText": "Yassin: Good morning, Yassin. Here is the book.\nOmar: Thank you. Is this the English book?\nYassin: Yes, this is our new English book.\nOmar: The book is very useful.\nYassin: Open the book on page ten.\nOmar: I see a dialogue on this page.\nYassin: Read the first sentence, please.\nOmar: I can read it now.\nYassin: Put the book on the desk.\nOmar: Okay, where is the desk?",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 18: كتاب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Good morning, Yassin. Here is the book.",
+    "translation": "صباح الخير يا ياسين. هذا هو الكتاب.",
+    "pronunciation": "Good morning, Yassin. Here is the book."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Thank you. Is this the English book?",
+    "translation": "شكراً. هل هذا كتاب اللغة الإنجليزية؟",
+    "pronunciation": "Thank you. Is this the English book?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Yes, this is our new English book.",
+    "translation": "نعم، هذا كتاب اللغة الإنجليزية الجديد.",
+    "pronunciation": "Yes, this is our new English book."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The book is very useful.",
+    "translation": "الكتاب مفيد جداً.",
+    "pronunciation": "The book is very useful."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Open the book on page ten.",
+    "translation": "افتح الكتاب في الصفحة العاشرة.",
+    "pronunciation": "Open the book on page ten."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I see a dialogue on this page.",
+    "translation": "أرى حواراً في هذه الصفحة.",
+    "pronunciation": "I see a dialogue on this page."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Read the first sentence, please.",
+    "translation": "اقرأ الجملة الأولى، من فضلك.",
+    "pronunciation": "Read the first sentence, please."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I can read it now.",
+    "translation": "يمكنني قراءتها الآن.",
+    "pronunciation": "I can read it now."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Put the book on the desk.",
+    "translation": "ضع الكتاب على المكتب.",
+    "pronunciation": "Put the book on the desk."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Okay, where is the desk?",
+    "translation": "حسناً، أين المكتب؟",
+    "pronunciation": "Okay, where is the desk?"
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d18",
+   "title": "كتاب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 18,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s3_d17"
+  ],
+  "createdAt": 1786696446398
+ }
+}

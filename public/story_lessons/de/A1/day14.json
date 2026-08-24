@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_de_d14",
+  "languageCode": "de",
+  "languageNameArabic": "الألمانية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 14,
+  "lessonTitle": "Echte Hilfe",
+  "englishTitle": "Real Help",
+  "arabicTitle": "مساعدة حقيقية",
+  "canonicalBeatIds": [
+   "BEAT_A1_D14"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "دمج الطلبات والأماكن والمساعدة.",
+  "realLifeTransferArabic": "شرح مهمة بسيطة وطلب أدوات.",
+  "successCapabilityArabic": "اطلب أداتين وقل أين ستضعهما لإتمام مهمة."
+ },
+ "story": {
+  "storyContextArabic": "تصلح المجموعة نافذة الكوخ قبل المطر.",
+  "storyMissionArabic": "يثبت ليث أن كلماته يمكن أن تحرك عملًا حقيقيًا.",
+  "setting": "cabin_and_village",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: مساعدة حقيقية."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D14_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D14_01",
+     "narrationArabic": "تصلح المجموعة نافذة الكوخ قبل المطر."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D14_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "دمج الطلبات والأماكن والمساعدة.",
+   "lines": [
+    {
+     "lineId": "L_A1_DE_D14_01",
+     "speakerId": "team",
+     "targetText": "Hallo zusammen. Der Regen kommt.",
+     "englishReference": "Hello, everyone. The rain is coming.",
+     "arabicTranslation": "مرحبًا يا جميعًا. المطر قادم.",
+     "pronunciation": "Hallo zusammen. Der Regen kommt.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D14_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_DE_D14_02",
+     "speakerId": "laith",
+     "targetText": "Dann müssen wir das Fenster reparieren.",
+     "englishReference": "Then we need to fix the window.",
+     "arabicTranslation": "إذًا نحتاج إلى إصلاح النافذة.",
+     "pronunciation": "Dann müssen wir das Fenster reparieren.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D14_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D14_03",
+     "speakerId": "team",
+     "targetText": "Elias, kannst du das Seil mitbringen?",
+     "englishReference": "Elias, can you bring the rope?",
+     "arabicTranslation": "إلياس، هل يمكنك إحضار الحبل؟",
+     "pronunciation": "Elias, kannst du das Seil mitbringen?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D14_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D14_04",
+     "speakerId": "laith",
+     "targetText": "Ja. Das Seil ist in der Nähe der Tür.",
+     "englishReference": "Yes. The rope is near the door.",
+     "arabicTranslation": "نعم. الحبل قرب الباب.",
+     "pronunciation": "Ja. Das Seil ist in der Nähe der Tür.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D14_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_DE_D14_05",
+     "speakerId": "team",
+     "targetText": "Elly, kannst du bitte die Nägel mitbringen?",
+     "englishReference": "Elly, can you bring the nails, please?",
+     "arabicTranslation": "إيلي، هل يمكنك إحضار المسامير، من فضلك؟",
+     "pronunciation": "Elly, kannst du bitte die Nägel mitbringen?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D14_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D14_06",
+     "speakerId": "laith",
+     "targetText": "Natürlich. Sie befinden sich in der kleinen Schachtel.",
+     "englishReference": "Of course. They are in the small box.",
+     "arabicTranslation": "بالطبع. إنها في الصندوق الصغير.",
+     "pronunciation": "Natürlich. Sie befinden sich in der kleinen Schachtel.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D14_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_DE_D14_07",
+     "speakerId": "team",
+     "targetText": "Danke schön. Legen Sie die Werkzeuge hier ab.",
+     "englishReference": "Thank you. Put the tools here.",
+     "arabicTranslation": "شكرًا. ضعوا الأدوات هنا.",
+     "pronunciation": "Danke schön. Legen Sie die Werkzeuge hier ab.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D14_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_DE_D14_08",
+     "speakerId": "laith",
+     "targetText": "Das Fenster ist jetzt sicher. Auf Wiedersehen, Regen.",
+     "englishReference": "The window is safe now. Goodbye, rain.",
+     "arabicTranslation": "النافذة آمنة الآن. وداعًا أيها المطر.",
+     "pronunciation": "Das Fenster ist jetzt sicher. Auf Wiedersehen, Regen.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_DE_D14_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D14_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_DE_D14_C01",
+      "P_A1_DE_D14_C02",
+      "P_A1_DE_D14_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_DE_D14_C01",
+      "P_A1_DE_D14_C02",
+      "P_A1_DE_D14_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_DE_D14_I01",
+      "P_A1_DE_D14_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D14_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: شرح مهمة بسيطة وطلب أدوات.",
+   "requiredPhraseIds": [
+    "P_A1_DE_D14_C01",
+    "P_A1_DE_D14_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D14_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Ich habe gehört, dass Laith heute geholfen hat.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "Ich habe gehört, dass Laith heute geholfen hat."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Das Dorf beginnt, ihn kennenzulernen.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "Das Dorf beginnt, ihn kennenzulernen."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D14_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: مساعدة حقيقية.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "اطلب أداتين وقل أين ستضعهما لإتمام مهمة."
+   },
+   "successWorldConsequence": "CABIN_WINDOW:REPAIRED",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_DE_D14_S01",
+   "text": "Hallo zusammen. Der Regen kommt.",
+   "englishReference": "Hello, everyone. The rain is coming.",
+   "arabicTranslation": "مرحبًا يا جميعًا. المطر قادم.",
+   "pronunciation": "Hallo zusammen. Der Regen kommt.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D14_LEARNING",
+   "transferContexts": [
+    "شرح مهمة بسيطة وطلب أدوات."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_DE_D14_I01",
+   "text": "Dann müssen wir das Fenster reparieren.",
+   "englishReference": "Then we need to fix the window.",
+   "arabicTranslation": "إذًا نحتاج إلى إصلاح النافذة.",
+   "pronunciation": "Dann müssen wir das Fenster reparieren.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D14_LEARNING",
+   "transferContexts": [
+    "شرح مهمة بسيطة وطلب أدوات."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_DE_D14_C01",
+   "text": "Elias, kannst du das Seil mitbringen?",
+   "englishReference": "Elias, can you bring the rope?",
+   "arabicTranslation": "إلياس، هل يمكنك إحضار الحبل؟",
+   "pronunciation": "Elias, kannst du das Seil mitbringen?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D14_LEARNING",
+   "transferContexts": [
+    "شرح مهمة بسيطة وطلب أدوات."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_DE_D14_S02",
+   "text": "Ja. Das Seil ist in der Nähe der Tür.",
+   "englishReference": "Yes. The rope is near the door.",
+   "arabicTranslation": "نعم. الحبل قرب الباب.",
+   "pronunciation": "Ja. Das Seil ist in der Nähe der Tür.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D14_LEARNING",
+   "transferContexts": [
+    "شرح مهمة بسيطة وطلب أدوات."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_DE_D14_C02",
+   "text": "Elly, kannst du bitte die Nägel mitbringen?",
+   "englishReference": "Elly, can you bring the nails, please?",
+   "arabicTranslation": "إيلي، هل يمكنك إحضار المسامير، من فضلك؟",
+   "pronunciation": "Elly, kannst du bitte die Nägel mitbringen?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D14_LEARNING",
+   "transferContexts": [
+    "شرح مهمة بسيطة وطلب أدوات."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_DE_D14_C03",
+   "text": "Natürlich. Sie befinden sich in der kleinen Schachtel.",
+   "englishReference": "Of course. They are in the small box.",
+   "arabicTranslation": "بالطبع. إنها في الصندوق الصغير.",
+   "pronunciation": "Natürlich. Sie befinden sich in der kleinen Schachtel.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D14_LEARNING",
+   "transferContexts": [
+    "شرح مهمة بسيطة وطلب أدوات."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_DE_D14_S03",
+   "text": "Danke schön. Legen Sie die Werkzeuge hier ab.",
+   "englishReference": "Thank you. Put the tools here.",
+   "arabicTranslation": "شكرًا. ضعوا الأدوات هنا.",
+   "pronunciation": "Danke schön. Legen Sie die Werkzeuge hier ab.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D14_LEARNING",
+   "transferContexts": [
+    "شرح مهمة بسيطة وطلب أدوات."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_DE_D14_I02",
+   "text": "Das Fenster ist jetzt sicher. Auf Wiedersehen, Regen.",
+   "englishReference": "The window is safe now. Goodbye, rain.",
+   "arabicTranslation": "النافذة آمنة الآن. وداعًا أيها المطر.",
+   "pronunciation": "Das Fenster ist jetzt sicher. Auf Wiedersehen, Regen.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D14_LEARNING",
+   "transferContexts": [
+    "شرح مهمة بسيطة وطلب أدوات."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_DE_D14_C01",
+     "P_A1_DE_D14_C02",
+     "P_A1_DE_D14_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_DE_D14_C01",
+     "P_A1_DE_D14_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_DE_D14_C01",
+    "P_A1_DE_D14_C02",
+    "P_A1_DE_D14_C03",
+    "P_A1_DE_D14_I01",
+    "P_A1_DE_D14_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D13:COMPLETE"
+  ],
+  "onSuccess": [
+   "CABIN_WINDOW:REPAIRED",
+   "A1_D15:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_14",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_de_d13",
+  "nextLessonId": "story_a1_de_d15",
+  "nextLessonHookArabic": "غدًا: مشروع صغير.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 14: مساعدة حقيقية."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

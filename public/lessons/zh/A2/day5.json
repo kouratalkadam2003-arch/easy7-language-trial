@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A2",
+ "dayNumber": 5,
+ "story": {
+  "originalText": "Yassin: zǎo shàng hǎo, ào mǎ ěr.\nOmar: zǎo shàng hǎo, yà xīn. hěn gāo xìng wǒ men néng jì xù tǎo lùn.\nYassin: zuó tiān wǒ sī kǎo le zhěng jié yǔ zá luàn zhè ge zhǔ tí, bìng xué dào le yī xiē yǒu yòng de dōng xī.\nOmar: wǒ míng bái. jīn tiān wǒ men kě yǐ qīng chǔ dì tán tán tā.\nYassin: wǒ zài zhěng jié yǔ zá luàn zhè ge zhǔ tí shàng de jīng lì gǎi biàn le wǒ míng tiān de jì huà.\nOmar: zhè hěn hé lǐ, yīn wèi xiǎo xiǎo de gǎi biàn měi tiān dōu néng bāng zhù wǒ men.\nYassin: nǐ yuàn yì fēn xiǎng yí gè lì zi ma.\nOmar: yuàn yì, wǒ kě yǐ fēn xiǎng yí gè běn zhōu de zhēn shí lì zi.\nYassin: xiè xiè. wǒ huì jì zhù nǐ de xiǎng fǎ.\nOmar: zàn shí zài jiàn. míng tiān wǒ men jiāng tǎo lùn tǐ yù zhè ge zhǔ tí.",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: فكرت أمس في موضوع نظيف / فوضى، وتعلمت شيئًا مفيدًا.\nOmar: أفهم ذلك، ويمكننا اليوم أن نتحدث عنه بوضوح.\nYassin: غيرت تجربتي مع موضوع نظيف / فوضى خطتي للغد.\nOmar: هذا منطقي لأن التغييرات الصغيرة يمكن أن تساعدنا كل يوم.\nYassin: هل تريد أن تشارك مثالًا واحدًا؟\nOmar: نعم، أستطيع أن أشارك مثالًا صادقًا من هذا الأسبوع.\nYassin: شكرًا لك، وسأتذكر فكرتك.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Sport.",
+  "nativeScriptText": "Yassin: 早上好，奥马尔。\nOmar: 早上好，亚辛。很高兴我们能继续讨论。\nYassin: 昨天我思考了“整洁与杂乱”这个主题，并学到了一些有用的东西。\nOmar: 我明白。今天我们可以清楚地谈谈它。\nYassin: 我在“整洁与杂乱”这个主题上的经历改变了我明天的计划。\nOmar: 这很合理，因为小小的改变每天都能帮助我们。\nYassin: 你愿意分享一个例子吗？\nOmar: 愿意，我可以分享一个本周的真实例子。\nYassin: 谢谢。我会记住你的想法。\nOmar: 暂时再见。明天我们将讨论“体育”这个主题。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 5: نظيف / فوضى",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "早上好，奥马尔。",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "zǎo shàng hǎo, ào mǎ ěr."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "早上好，亚辛。很高兴我们能继续讨论。",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "zǎo shàng hǎo, yà xīn. hěn gāo xìng wǒ men néng jì xù tǎo lùn."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "昨天我思考了“整洁与杂乱”这个主题，并学到了一些有用的东西。",
+    "translation": "فكرت أمس في موضوع نظيف / فوضى، وتعلمت شيئًا مفيدًا.",
+    "pronunciation": "zuó tiān wǒ sī kǎo le zhěng jié yǔ zá luàn zhè ge zhǔ tí, bìng xué dào le yī xiē yǒu yòng de dōng xī."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我明白。今天我们可以清楚地谈谈它。",
+    "translation": "أفهم ذلك، ويمكننا اليوم أن نتحدث عنه بوضوح.",
+    "pronunciation": "wǒ míng bái. jīn tiān wǒ men kě yǐ qīng chǔ dì tán tán tā."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我在“整洁与杂乱”这个主题上的经历改变了我明天的计划。",
+    "translation": "غيرت تجربتي مع موضوع نظيف / فوضى خطتي للغد.",
+    "pronunciation": "wǒ zài zhěng jié yǔ zá luàn zhè ge zhǔ tí shàng de jīng lì gǎi biàn le wǒ míng tiān de jì huà."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "这很合理，因为小小的改变每天都能帮助我们。",
+    "translation": "هذا منطقي لأن التغييرات الصغيرة يمكن أن تساعدنا كل يوم.",
+    "pronunciation": "zhè hěn hé lǐ, yīn wèi xiǎo xiǎo de gǎi biàn měi tiān dōu néng bāng zhù wǒ men."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你愿意分享一个例子吗？",
+    "translation": "هل تريد أن تشارك مثالًا واحدًا؟",
+    "pronunciation": "nǐ yuàn yì fēn xiǎng yí gè lì zi ma."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "愿意，我可以分享一个本周的真实例子。",
+    "translation": "نعم، أستطيع أن أشارك مثالًا صادقًا من هذا الأسبوع.",
+    "pronunciation": "yuàn yì, wǒ kě yǐ fēn xiǎng yí gè běn zhōu de zhēn shí lì zi."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "谢谢。我会记住你的想法。",
+    "translation": "شكرًا لك، وسأتذكر فكرتك.",
+    "pronunciation": "xiè xiè. wǒ huì jì zhù nǐ de xiǎng fǎ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "暂时再见。明天我们将讨论“体育”这个主题。",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Sport.",
+    "pronunciation": "zàn shí zài jiàn. míng tiān wǒ men jiāng tǎo lùn tǐ yù zhè ge zhǔ tí."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d5",
+   "title": "نظيف / فوضى",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 5,
+  "level": "A2",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s1_d4"
+  ],
+  "createdAt": 1786705141011
+ }
+}

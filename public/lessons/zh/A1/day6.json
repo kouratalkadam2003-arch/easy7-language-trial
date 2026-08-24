@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 6,
+ "story": {
+  "originalText": "Yassin: Wǎnshàng hǎo, Yassin. Nǐ hǎo ma?\nOmar: Wǒ hěn hǎo, xièxie. Nǐ ne?\nYassin: Wǒ hěn hǎo, gǎnxiè zhēnzhǔ.\nOmar: Shàngkè hòu nǐ lèi ma?\nYassin: Yǒudiǎn lèi, dàn hěn gāoxìng.\nOmar: Wǒ yě hěn gāoxìng.\nYassin: Dì yī zhōu guò dé hěn hǎo.\nOmar: Shì de, wǒ měitiān dōu xué yìdiǎn dōngxī.\nYassin: Míngtiān wǒmen yìqǐ fùxí.\nOmar: Tài hǎo le. Wǎn'ān, Omar.",
+  "translatedText": "Yassin: مساء الخير يا ياسين. كيف حالك؟\nOmar: أنا بخير، شكراً. وأنت؟\nYassin: أنا بخير جداً، الحمد لله.\nOmar: هل أنت متعب بعد الدرس؟\nYassin: متعب قليلاً، لكن سعيد.\nOmar: أنا سعيد أيضاً.\nYassin: الأسبوع الأول يسير بشكل جيد.\nOmar: نعم، أتعلم شيئاً كل يوم.\nYassin: غداً سنراجع معاً.\nOmar: رائع. تصبح على خير يا عمر.",
+  "nativeScriptText": "Yassin: 晚上好，Yassin。你好吗？\nOmar: 我很好，谢谢。你呢？\nYassin: 我很好，感谢真主。\nOmar: 上课后你累吗？\nYassin: 有点累，但很高兴。\nOmar: 我也很高兴。\nYassin: 第一周过得很好。\nOmar: 是的，我每天都学一点东西。\nYassin: 明天我们一起复习。\nOmar: 太好了。晚安，Omar。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 6: كيف حالك؟",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "晚上好，Yassin。你好吗？",
+    "translation": "مساء الخير يا ياسين. كيف حالك؟",
+    "pronunciation": "Wǎnshàng hǎo, Yassin. Nǐ hǎo ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我很好，谢谢。你呢？",
+    "translation": "أنا بخير، شكراً. وأنت؟",
+    "pronunciation": "Wǒ hěn hǎo, xièxie. Nǐ ne?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我很好，感谢真主。",
+    "translation": "أنا بخير جداً، الحمد لله.",
+    "pronunciation": "Wǒ hěn hǎo, gǎnxiè zhēnzhǔ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "上课后你累吗？",
+    "translation": "هل أنت متعب بعد الدرس؟",
+    "pronunciation": "Shàngkè hòu nǐ lèi ma?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "有点累，但很高兴。",
+    "translation": "متعب قليلاً، لكن سعيد.",
+    "pronunciation": "Yǒudiǎn lèi, dàn hěn gāoxìng."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我也很高兴。",
+    "translation": "أنا سعيد أيضاً.",
+    "pronunciation": "Wǒ yě hěn gāoxìng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "第一周过得很好。",
+    "translation": "الأسبوع الأول يسير بشكل جيد.",
+    "pronunciation": "Dì yī zhōu guò dé hěn hǎo."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，我每天都学一点东西。",
+    "translation": "نعم، أتعلم شيئاً كل يوم.",
+    "pronunciation": "Shì de, wǒ měitiān dōu xué yìdiǎn dōngxī."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "明天我们一起复习。",
+    "translation": "غداً سنراجع معاً.",
+    "pronunciation": "Míngtiān wǒmen yìqǐ fùxí."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "太好了。晚安，Omar。",
+    "translation": "رائع. تصبح على خير يا عمر.",
+    "pronunciation": "Tài hǎo le. Wǎn'ān, Omar."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d6",
+   "title": "كيف حالك؟",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 6,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s1_d5"
+  ],
+  "createdAt": 1786696446398
+ }
+}

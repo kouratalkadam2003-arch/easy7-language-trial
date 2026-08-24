@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A2",
+ "dayNumber": 21,
+ "story": {
+  "originalText": "Yassin: Buenos días, Omar.\nOmar: Buenos días, Yassin. Me alegra que podamos continuar nuestra conversación.\nYassin: Ayer pensé en el tema «Repaso de las lecciones 15 a 20» y aprendí algo útil.\nOmar: Lo entiendo. Hoy podemos hablar de ello con claridad.\nYassin: Mi experiencia con el tema «Repaso de las lecciones 15 a 20» cambió mi plan para mañana.\nOmar: Tiene sentido, porque los pequeños cambios pueden ayudarnos cada día.\nYassin: ¿Te gustaría compartir un ejemplo?\nOmar: Sí, puedo compartir un ejemplo sincero de esta semana.\nYassin: Gracias. Recordaré tu idea.\nOmar: Hasta luego. Mañana hablaremos sobre el tema «Viajé.».",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: فكرت أمس في موضوع مراجعة شاملة (15-20)، وتعلمت شيئًا مفيدًا.\nOmar: أفهم ذلك، ويمكننا اليوم أن نتحدث عنه بوضوح.\nYassin: غيرت تجربتي مع موضوع مراجعة شاملة (15-20) خطتي للغد.\nOmar: هذا منطقي لأن التغييرات الصغيرة يمكن أن تساعدنا كل يوم.\nYassin: هل تريد أن تشارك مثالًا واحدًا؟\nOmar: نعم، أستطيع أن أشارك مثالًا صادقًا من هذا الأسبوع.\nYassin: شكرًا لك، وسأتذكر فكرتك.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن I traveled.",
+  "nativeScriptText": "Yassin: Buenos días, Omar.\nOmar: Buenos días, Yassin. Me alegra que podamos continuar nuestra conversación.\nYassin: Ayer pensé en el tema «Repaso de las lecciones 15 a 20» y aprendí algo útil.\nOmar: Lo entiendo. Hoy podemos hablar de ello con claridad.\nYassin: Mi experiencia con el tema «Repaso de las lecciones 15 a 20» cambió mi plan para mañana.\nOmar: Tiene sentido, porque los pequeños cambios pueden ayudarnos cada día.\nYassin: ¿Te gustaría compartir un ejemplo?\nOmar: Sí, puedo compartir un ejemplo sincero de esta semana.\nYassin: Gracias. Recordaré tu idea.\nOmar: Hasta luego. Mañana hablaremos sobre el tema «Viajé.».",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 21: مراجعة شاملة (15-20)",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buenos días, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Buenos días, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Buenos días, Yassin. Me alegra que podamos continuar nuestra conversación.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Buenos días, Yassin. Me alegra que podamos continuar nuestra conversación."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ayer pensé en el tema «Repaso de las lecciones 15 a 20» y aprendí algo útil.",
+    "translation": "فكرت أمس في موضوع مراجعة شاملة (15-20)، وتعلمت شيئًا مفيدًا.",
+    "pronunciation": "Ayer pensé en el tema «Repaso de las lecciones 15 a 20» y aprendí algo útil."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Lo entiendo. Hoy podemos hablar de ello con claridad.",
+    "translation": "أفهم ذلك، ويمكننا اليوم أن نتحدث عنه بوضوح.",
+    "pronunciation": "Lo entiendo. Hoy podemos hablar de ello con claridad."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Mi experiencia con el tema «Repaso de las lecciones 15 a 20» cambió mi plan para mañana.",
+    "translation": "غيرت تجربتي مع موضوع مراجعة شاملة (15-20) خطتي للغد.",
+    "pronunciation": "Mi experiencia con el tema «Repaso de las lecciones 15 a 20» cambió mi plan para mañana."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Tiene sentido, porque los pequeños cambios pueden ayudarnos cada día.",
+    "translation": "هذا منطقي لأن التغييرات الصغيرة يمكن أن تساعدنا كل يوم.",
+    "pronunciation": "Tiene sentido, porque los pequeños cambios pueden ayudarnos cada día."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Te gustaría compartir un ejemplo?",
+    "translation": "هل تريد أن تشارك مثالًا واحدًا؟",
+    "pronunciation": "¿Te gustaría compartir un ejemplo?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, puedo compartir un ejemplo sincero de esta semana.",
+    "translation": "نعم، أستطيع أن أشارك مثالًا صادقًا من هذا الأسبوع.",
+    "pronunciation": "Sí, puedo compartir un ejemplo sincero de esta semana."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Gracias. Recordaré tu idea.",
+    "translation": "شكرًا لك، وسأتذكر فكرتك.",
+    "pronunciation": "Gracias. Recordaré tu idea."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hasta luego. Mañana hablaremos sobre el tema «Viajé.».",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن I traveled.",
+    "pronunciation": "Hasta luego. Mañana hablaremos sobre el tema «Viajé.»."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d21",
+   "title": "مراجعة شاملة (15-20)",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 21,
+  "level": "A2",
+  "languageCode": "es",
+  "previousTopics": [
+   "s3_d20"
+  ],
+  "createdAt": 1786705141011
+ }
+}

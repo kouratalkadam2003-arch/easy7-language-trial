@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 29,
+ "story": {
+  "originalText": "Yassin: Ciao, Yassin. Cosa ti piace?\nOmar: Mi piace l'inglese e i libri.\nYassin: Mi piace il caffè e il calcio.\nOmar: Ti piace la nostra casa?\nYassin: Sì, la nostra casa mi piace molto.\nOmar: Non mi piace il cibo freddo.\nYassin: Non mi piace essere in ritardo.\nOmar: Mi piace studiare con te.\nYassin: Anche a me piace imparare con te.\nOmar: Domani è il nostro test A1. Arrivederci.",
+  "translatedText": "Yassin: مرحباً يا ياسين. ماذا تحب؟\nOmar: أحب الإنجليزية والكتب.\nYassin: أحب القهوة وكرة القدم.\nOmar: هل تحب بيتنا؟\nYassin: نعم، أحب بيتنا كثيراً.\nOmar: لا أحب الطعام البارد.\nYassin: لا أحب التأخر.\nOmar: أحب الدراسة معك.\nYassin: وأنا أحب التعلم معك أيضاً.\nOmar: غداً امتحان A1. وداعاً.",
+  "nativeScriptText": "Yassin: Ciao, Yassin. Cosa ti piace?\nOmar: Mi piace l'inglese e i libri.\nYassin: Mi piace il caffè e il calcio.\nOmar: Ti piace la nostra casa?\nYassin: Sì, la nostra casa mi piace molto.\nOmar: Non mi piace il cibo freddo.\nYassin: Non mi piace essere in ritardo.\nOmar: Mi piace studiare con te.\nYassin: Anche a me piace imparare con te.\nOmar: Domani è il nostro test A1. Arrivederci.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 29: أحب / أكره",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ciao, Yassin. Cosa ti piace?",
+    "translation": "مرحباً يا ياسين. ماذا تحب؟",
+    "pronunciation": "Ciao, Yassin. Cosa ti piace?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Mi piace l'inglese e i libri.",
+    "translation": "أحب الإنجليزية والكتب.",
+    "pronunciation": "Mi piace l'inglese e i libri."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Mi piace il caffè e il calcio.",
+    "translation": "أحب القهوة وكرة القدم.",
+    "pronunciation": "Mi piace il caffè e il calcio."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ti piace la nostra casa?",
+    "translation": "هل تحب بيتنا؟",
+    "pronunciation": "Ti piace la nostra casa?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Sì, la nostra casa mi piace molto.",
+    "translation": "نعم، أحب بيتنا كثيراً.",
+    "pronunciation": "Sì, la nostra casa mi piace molto."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Non mi piace il cibo freddo.",
+    "translation": "لا أحب الطعام البارد.",
+    "pronunciation": "Non mi piace il cibo freddo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Non mi piace essere in ritardo.",
+    "translation": "لا أحب التأخر.",
+    "pronunciation": "Non mi piace essere in ritardo."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Mi piace studiare con te.",
+    "translation": "أحب الدراسة معك.",
+    "pronunciation": "Mi piace studiare con te."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Anche a me piace imparare con te.",
+    "translation": "وأنا أحب التعلم معك أيضاً.",
+    "pronunciation": "Anche a me piace imparare con te."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Domani è il nostro test A1. Arrivederci.",
+    "translation": "غداً امتحان A1. وداعاً.",
+    "pronunciation": "Domani è il nostro test A1. Arrivederci."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d29",
+   "title": "أحب / أكره",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 29,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s4_d28"
+  ],
+  "createdAt": 1786696446398
+ }
+}

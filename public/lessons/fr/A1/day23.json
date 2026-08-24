@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 23,
+ "story": {
+  "originalText": "Yassin: Bonjour. Combien coûte ce repas ?\nOmar: Le repas coûte dix dollars.\nYassin: Combien coûte l'eau ?\nOmar: L'eau coûte un dollar.\nYassin: Combien coûte la soupe ?\nOmar: La soupe coûte cinq dollars.\nYassin: Les prix sont bons.\nOmar: Oui, nous pouvons commander maintenant.\nYassin: Après le repas, nous avons besoin de l'addition.\nOmar: Je vais la demander.",
+  "translatedText": "Yassin: مرحباً. كم ثمن هذه الوجبة؟\nOmar: الوجبة بعشرة دولارات.\nYassin: كم ثمن الماء؟\nOmar: الماء بدولار واحد.\nYassin: كم ثمن الحساء؟\nOmar: الحساء بخمسة دولارات.\nYassin: الأسعار جيدة.\nOmar: نعم، يمكننا الطلب الآن.\nYassin: بعد الطعام، نحتاج إلى الفاتورة.\nOmar: سأطلبها.",
+  "nativeScriptText": "Yassin: Bonjour. Combien coûte ce repas ?\nOmar: Le repas coûte dix dollars.\nYassin: Combien coûte l'eau ?\nOmar: L'eau coûte un dollar.\nYassin: Combien coûte la soupe ?\nOmar: La soupe coûte cinq dollars.\nYassin: Les prix sont bons.\nOmar: Oui, nous pouvons commander maintenant.\nYassin: Après le repas, nous avons besoin de l'addition.\nOmar: Je vais la demander.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 23: كم؟",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour. Combien coûte ce repas ?",
+    "translation": "مرحباً. كم ثمن هذه الوجبة؟",
+    "pronunciation": "Bonjour. Combien coûte ce repas ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Le repas coûte dix dollars.",
+    "translation": "الوجبة بعشرة دولارات.",
+    "pronunciation": "Le repas coûte dix dollars."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Combien coûte l'eau ?",
+    "translation": "كم ثمن الماء؟",
+    "pronunciation": "Combien coûte l'eau ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "L'eau coûte un dollar.",
+    "translation": "الماء بدولار واحد.",
+    "pronunciation": "L'eau coûte un dollar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Combien coûte la soupe ?",
+    "translation": "كم ثمن الحساء؟",
+    "pronunciation": "Combien coûte la soupe ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "La soupe coûte cinq dollars.",
+    "translation": "الحساء بخمسة دولارات.",
+    "pronunciation": "La soupe coûte cinq dollars."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Les prix sont bons.",
+    "translation": "الأسعار جيدة.",
+    "pronunciation": "Les prix sont bons."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, nous pouvons commander maintenant.",
+    "translation": "نعم، يمكننا الطلب الآن.",
+    "pronunciation": "Oui, nous pouvons commander maintenant."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Après le repas, nous avons besoin de l'addition.",
+    "translation": "بعد الطعام، نحتاج إلى الفاتورة.",
+    "pronunciation": "Après le repas, nous avons besoin de l'addition."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je vais la demander.",
+    "translation": "سأطلبها.",
+    "pronunciation": "Je vais la demander."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d23",
+   "title": "كم؟",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 23,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s4_d22"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 25,
+ "story": {
+  "originalText": "Yassin: Omar, bist du krank?\nOmar: Ja, ich fühle mich heute krank.\nYassin: Was ist los?\nOmar: Ich habe Kopfschmerzen.\nYassin: Brauchst du Wasser?\nOmar: Ja, bitte. Ich brauche Wasser.\nYassin: Du musst dich ausruhen.\nOmar: Ich glaube, ich brauche einen Arzt.\nYassin: Es gibt einen Arzt in der Nähe unseres Hauses.\nOmar: Bitte komm morgen mit mir.",
+  "translatedText": "Yassin: عمر، هل أنت مريض؟\nOmar: نعم، أشعر بالمرض اليوم.\nYassin: ما المشكلة؟\nOmar: لدي صداع.\nYassin: هل تحتاج إلى ماء؟\nOmar: نعم، من فضلك. أحتاج إلى ماء.\nYassin: تحتاج إلى الراحة.\nOmar: أعتقد أنني أحتاج إلى طبيب.\nYassin: يوجد طبيب قرب بيتنا.\nOmar: من فضلك تعال معي غداً.",
+  "nativeScriptText": "Yassin: Omar, bist du krank?\nOmar: Ja, ich fühle mich heute krank.\nYassin: Was ist los?\nOmar: Ich habe Kopfschmerzen.\nYassin: Brauchst du Wasser?\nOmar: Ja, bitte. Ich brauche Wasser.\nYassin: Du musst dich ausruhen.\nOmar: Ich glaube, ich brauche einen Arzt.\nYassin: Es gibt einen Arzt in der Nähe unseres Hauses.\nOmar: Bitte komm morgen mit mir.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 25: مريض",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar, bist du krank?",
+    "translation": "عمر، هل أنت مريض؟",
+    "pronunciation": "Omar, bist du krank?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, ich fühle mich heute krank.",
+    "translation": "نعم، أشعر بالمرض اليوم.",
+    "pronunciation": "Ja, ich fühle mich heute krank."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Was ist los?",
+    "translation": "ما المشكلة؟",
+    "pronunciation": "Was ist los?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich habe Kopfschmerzen.",
+    "translation": "لدي صداع.",
+    "pronunciation": "Ich habe Kopfschmerzen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Brauchst du Wasser?",
+    "translation": "هل تحتاج إلى ماء؟",
+    "pronunciation": "Brauchst du Wasser?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, bitte. Ich brauche Wasser.",
+    "translation": "نعم، من فضلك. أحتاج إلى ماء.",
+    "pronunciation": "Ja, bitte. Ich brauche Wasser."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Du musst dich ausruhen.",
+    "translation": "تحتاج إلى الراحة.",
+    "pronunciation": "Du musst dich ausruhen."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich glaube, ich brauche einen Arzt.",
+    "translation": "أعتقد أنني أحتاج إلى طبيب.",
+    "pronunciation": "Ich glaube, ich brauche einen Arzt."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Es gibt einen Arzt in der Nähe unseres Hauses.",
+    "translation": "يوجد طبيب قرب بيتنا.",
+    "pronunciation": "Es gibt einen Arzt in der Nähe unseres Hauses."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bitte komm morgen mit mir.",
+    "translation": "من فضلك تعال معي غداً.",
+    "pronunciation": "Bitte komm morgen mit mir."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d25",
+   "title": "مريض",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 25,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s4_d24"
+  ],
+  "createdAt": 1786696446398
+ }
+}

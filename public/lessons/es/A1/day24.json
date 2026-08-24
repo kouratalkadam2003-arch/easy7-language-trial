@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 24,
+ "story": {
+  "originalText": "Yassin: Disculpe, ¿me puede traer la cuenta, por favor?\nOmar: La cuenta está en la mesa.\nYassin: ¿Cuánto es la cuenta?\nOmar: La cuenta es de dieciséis dólares.\nYassin: Tengo diez dólares.\nOmar: Tengo seis dólares.\nYassin: Podemos pagar juntos.\nOmar: Gracias, mi amigo.\nYassin: De nada. ¿Estás bien?\nOmar: Me siento un poco enfermo.",
+  "translatedText": "Yassin: عفواً، هل يمكنني الحصول على الفاتورة، من فضلك؟\nOmar: الفاتورة على الطاولة.\nYassin: كم قيمة الفاتورة؟\nOmar: الفاتورة ستة عشر دولاراً.\nYassin: لدي عشرة دولارات.\nOmar: لدي ستة دولارات.\nYassin: يمكننا أن ندفع معاً.\nOmar: شكراً يا صديقي.\nYassin: عفواً. هل أنت بخير؟\nOmar: أشعر بالمرض قليلاً.",
+  "nativeScriptText": "Yassin: Disculpe, ¿me puede traer la cuenta, por favor?\nOmar: La cuenta está en la mesa.\nYassin: ¿Cuánto es la cuenta?\nOmar: La cuenta es de dieciséis dólares.\nYassin: Tengo diez dólares.\nOmar: Tengo seis dólares.\nYassin: Podemos pagar juntos.\nOmar: Gracias, mi amigo.\nYassin: De nada. ¿Estás bien?\nOmar: Me siento un poco enfermo.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 24: فاتورة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Disculpe, ¿me puede traer la cuenta, por favor?",
+    "translation": "عفواً، هل يمكنني الحصول على الفاتورة، من فضلك؟",
+    "pronunciation": "Disculpe, ¿me puede traer la cuenta, por favor?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "La cuenta está en la mesa.",
+    "translation": "الفاتورة على الطاولة.",
+    "pronunciation": "La cuenta está en la mesa."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Cuánto es la cuenta?",
+    "translation": "كم قيمة الفاتورة؟",
+    "pronunciation": "¿Cuánto es la cuenta?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "La cuenta es de dieciséis dólares.",
+    "translation": "الفاتورة ستة عشر دولاراً.",
+    "pronunciation": "La cuenta es de dieciséis dólares."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Tengo diez dólares.",
+    "translation": "لدي عشرة دولارات.",
+    "pronunciation": "Tengo diez dólares."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Tengo seis dólares.",
+    "translation": "لدي ستة دولارات.",
+    "pronunciation": "Tengo seis dólares."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Podemos pagar juntos.",
+    "translation": "يمكننا أن ندفع معاً.",
+    "pronunciation": "Podemos pagar juntos."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Gracias, mi amigo.",
+    "translation": "شكراً يا صديقي.",
+    "pronunciation": "Gracias, mi amigo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "De nada. ¿Estás bien?",
+    "translation": "عفواً. هل أنت بخير؟",
+    "pronunciation": "De nada. ¿Estás bien?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Me siento un poco enfermo.",
+    "translation": "أشعر بالمرض قليلاً.",
+    "pronunciation": "Me siento un poco enfermo."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d24",
+   "title": "فاتورة",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 24,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s4_d23"
+  ],
+  "createdAt": 1786696446398
+ }
+}

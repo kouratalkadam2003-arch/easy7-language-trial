@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "C1",
+ "dayNumber": 4,
+ "story": {
+  "originalText": "Yassin: Guten Morgen, Omar.\nOmar: Guten Morgen, Yassin. Ich freue mich, dass wir unser Gespräch fortsetzen können.\nYassin: Wenn wir über das Thema „Innovation“ sprechen, sollten wir Tatsachen von Annahmen unterscheiden.\nOmar: Ich stimme zu, weil eine sorgfältige Analyse die Grenzen einfacher Antworten zeigt.\nYassin: Meine Deutung ist, dass das Thema „Innovation“ von Kontext, Sprache und Macht abhängt.\nOmar: Diese Deutung überzeugt, obwohl eine andere Perspektive sie infrage stellen könnte.\nYassin: Wie können wir unser Denken erklären, ohne menschliche Folgen zu ignorieren?\nOmar: Wir können unsere Belege klar darlegen und einräumen, was ungewiss bleibt.\nYassin: Danke, denn das macht unsere Analyse verantwortungsvoller.\nOmar: Bis bald. Morgen sprechen wir über das Thema „Tiefer Fokus“. ",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: عندما نناقش موضوع ابتكار، ينبغي أن نميز بين الحقائق والافتراضات.\nOmar: أوافق، لأن التحليل الدقيق يكشف حدود الإجابات البسيطة.\nYassin: تفسيري هو أن موضوع ابتكار يعتمد على السياق واللغة والقوة.\nOmar: هذا التفسير مقنع، مع أن منظورًا آخر قد يتحداه.\nYassin: كيف يمكننا أن نشرح استدلالنا من دون تجاهل النتائج الإنسانية؟\nOmar: يمكننا أن نعرض أدلتنا بوضوح وأن نقر بما يبقى غير مؤكد.\nYassin: شكرًا، لأن ذلك يجعل تحليلنا أكثر مسؤولية.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Deep focus.",
+  "nativeScriptText": "Yassin: Guten Morgen, Omar.\nOmar: Guten Morgen, Yassin. Ich freue mich, dass wir unser Gespräch fortsetzen können.\nYassin: Wenn wir über das Thema „Innovation“ sprechen, sollten wir Tatsachen von Annahmen unterscheiden.\nOmar: Ich stimme zu, weil eine sorgfältige Analyse die Grenzen einfacher Antworten zeigt.\nYassin: Meine Deutung ist, dass das Thema „Innovation“ von Kontext, Sprache und Macht abhängt.\nOmar: Diese Deutung überzeugt, obwohl eine andere Perspektive sie infrage stellen könnte.\nYassin: Wie können wir unser Denken erklären, ohne menschliche Folgen zu ignorieren?\nOmar: Wir können unsere Belege klar darlegen und einräumen, was ungewiss bleibt.\nYassin: Danke, denn das macht unsere Analyse verantwortungsvoller.\nOmar: Bis bald. Morgen sprechen wir über das Thema „Tiefer Fokus“. ",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 4: ابتكار",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Guten Morgen, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Guten Morgen, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Guten Morgen, Yassin. Ich freue mich, dass wir unser Gespräch fortsetzen können.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Guten Morgen, Yassin. Ich freue mich, dass wir unser Gespräch fortsetzen können."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wenn wir über das Thema „Innovation“ sprechen, sollten wir Tatsachen von Annahmen unterscheiden.",
+    "translation": "عندما نناقش موضوع ابتكار، ينبغي أن نميز بين الحقائق والافتراضات.",
+    "pronunciation": "Wenn wir über das Thema „Innovation“ sprechen, sollten wir Tatsachen von Annahmen unterscheiden."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich stimme zu, weil eine sorgfältige Analyse die Grenzen einfacher Antworten zeigt.",
+    "translation": "أوافق، لأن التحليل الدقيق يكشف حدود الإجابات البسيطة.",
+    "pronunciation": "Ich stimme zu, weil eine sorgfältige Analyse die Grenzen einfacher Antworten zeigt."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Meine Deutung ist, dass das Thema „Innovation“ von Kontext, Sprache und Macht abhängt.",
+    "translation": "تفسيري هو أن موضوع ابتكار يعتمد على السياق واللغة والقوة.",
+    "pronunciation": "Meine Deutung ist, dass das Thema „Innovation“ von Kontext, Sprache und Macht abhängt."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Diese Deutung überzeugt, obwohl eine andere Perspektive sie infrage stellen könnte.",
+    "translation": "هذا التفسير مقنع، مع أن منظورًا آخر قد يتحداه.",
+    "pronunciation": "Diese Deutung überzeugt, obwohl eine andere Perspektive sie infrage stellen könnte."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wie können wir unser Denken erklären, ohne menschliche Folgen zu ignorieren?",
+    "translation": "كيف يمكننا أن نشرح استدلالنا من دون تجاهل النتائج الإنسانية؟",
+    "pronunciation": "Wie können wir unser Denken erklären, ohne menschliche Folgen zu ignorieren?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Wir können unsere Belege klar darlegen und einräumen, was ungewiss bleibt.",
+    "translation": "يمكننا أن نعرض أدلتنا بوضوح وأن نقر بما يبقى غير مؤكد.",
+    "pronunciation": "Wir können unsere Belege klar darlegen und einräumen, was ungewiss bleibt."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Danke, denn das macht unsere Analyse verantwortungsvoller.",
+    "translation": "شكرًا، لأن ذلك يجعل تحليلنا أكثر مسؤولية.",
+    "pronunciation": "Danke, denn das macht unsere Analyse verantwortungsvoller."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bis bald. Morgen sprechen wir über das Thema „Tiefer Fokus“. ",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Deep focus.",
+    "pronunciation": "Bis bald. Morgen sprechen wir über das Thema „Tiefer Fokus“. "
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d4",
+   "title": "ابتكار",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 4,
+  "level": "C1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s1_d3"
+  ],
+  "createdAt": 1786705141011
+ }
+}

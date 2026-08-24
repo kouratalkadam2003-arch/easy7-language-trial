@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "B1",
+ "dayNumber": 30,
+ "story": {
+  "originalText": "Yassin: zǎo shàng hǎo, ào mǎ ěr.\nOmar: zǎo shàng hǎo, yà xīn. hěn gāo xìng wǒ men néng jì xù tǎo lùn.\nYassin: zài wǒ kàn lái, B jí cè shì zhè ge zhǔ tí zài wǒ men de rì cháng jué dìng zhōng hěn zhòng yào.\nOmar: wǒ tóng yì, yīn wèi wǒ men de xuǎn zé yǐng xiǎng de rén bǐ wǒ men xiǎng xiàng de gèng duō.\nYassin: wǒ rèn wéi, B jí cè shì zhè ge zhǔ tí néng gòu yǐng xiǎng xìn rèn hé jī huì.\nOmar: zhè shì yí gè shí jì ér róng yì lǐ jiě de lǐ yóu.\nYassin: nǐ néng gěi yí gè jù tǐ de lì zi ma.\nOmar: néng, yí gè jù tǐ de lì zi néng shǐ zhè ge xiǎng fǎ gèng qīng chǔ.\nYassin: xiè xiè nǐ rú cǐ píng jìng dì jiě shì nǐ de guān diǎn.\nOmar: zàn shí zài jiàn. míng tiān wǒ men jiāng yán jiū wǒ men de gōng kāi tí yì chǎn shēng de dì yī yìn xiàng.",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: في رأيي، موضوع امتحان المستوى (B1) مهم في قراراتنا اليومية.\nOmar: أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.\nYassin: وسببي هو أن موضوع امتحان المستوى (B1) يمكن أن يشكل الثقة والفرص معًا.\nOmar: هذا سبب عملي، ومن السهل فهمه.\nYassin: هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟\nOmar: نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.\nYassin: شكرًا لأنك شرحت رأيك بهدوء.\nOmar: غدًا سندرس الانطباع الأول الذي يتركه اقتراحنا العام.",
+  "nativeScriptText": "Yassin: 早上好，奥马尔。\nOmar: 早上好，亚辛。很高兴我们能继续讨论。\nYassin: 在我看来，“B1级测试”这个主题在我们的日常决定中很重要。\nOmar: 我同意，因为我们的选择影响的人比我们想象的更多。\nYassin: 我认为，“B1级测试”这个主题能够影响信任和机会。\nOmar: 这是一个实际而容易理解的理由。\nYassin: 你能给一个具体的例子吗？\nOmar: 能，一个具体的例子能使这个想法更清楚。\nYassin: 谢谢你如此平静地解释你的观点。\nOmar: 暂时再见。明天我们将研究我们的公开提议产生的第一印象。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 30: امتحان المستوى (B1)",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "早上好，奥马尔。",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "zǎo shàng hǎo, ào mǎ ěr."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "早上好，亚辛。很高兴我们能继续讨论。",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "zǎo shàng hǎo, yà xīn. hěn gāo xìng wǒ men néng jì xù tǎo lùn."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "在我看来，“B1级测试”这个主题在我们的日常决定中很重要。",
+    "translation": "في رأيي، موضوع امتحان المستوى (B1) مهم في قراراتنا اليومية.",
+    "pronunciation": "zài wǒ kàn lái, B jí cè shì zhè ge zhǔ tí zài wǒ men de rì cháng jué dìng zhōng hěn zhòng yào."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我同意，因为我们的选择影响的人比我们想象的更多。",
+    "translation": "أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.",
+    "pronunciation": "wǒ tóng yì, yīn wèi wǒ men de xuǎn zé yǐng xiǎng de rén bǐ wǒ men xiǎng xiàng de gèng duō."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我认为，“B1级测试”这个主题能够影响信任和机会。",
+    "translation": "وسببي هو أن موضوع امتحان المستوى (B1) يمكن أن يشكل الثقة والفرص معًا.",
+    "pronunciation": "wǒ rèn wéi, B jí cè shì zhè ge zhǔ tí néng gòu yǐng xiǎng xìn rèn hé jī huì."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "这是一个实际而容易理解的理由。",
+    "translation": "هذا سبب عملي، ومن السهل فهمه.",
+    "pronunciation": "zhè shì yí gè shí jì ér róng yì lǐ jiě de lǐ yóu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你能给一个具体的例子吗？",
+    "translation": "هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟",
+    "pronunciation": "nǐ néng gěi yí gè jù tǐ de lì zi ma."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "能，一个具体的例子能使这个想法更清楚。",
+    "translation": "نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.",
+    "pronunciation": "néng, yí gè jù tǐ de lì zi néng shǐ zhè ge xiǎng fǎ gèng qīng chǔ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "谢谢你如此平静地解释你的观点。",
+    "translation": "شكرًا لأنك شرحت رأيك بهدوء.",
+    "pronunciation": "xiè xiè nǐ rú cǐ píng jìng dì jiě shì nǐ de guān diǎn."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "暂时再见。明天我们将研究我们的公开提议产生的第一印象。",
+    "translation": "غدًا سندرس الانطباع الأول الذي يتركه اقتراحنا العام.",
+    "pronunciation": "zàn shí zài jiàn. míng tiān wǒ men jiāng yán jiū wǒ men de gōng kāi tí yì chǎn shēng de dì yī yìn xiàng."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d30",
+   "title": "امتحان المستوى (B1)",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 30,
+  "level": "B1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s5_d29"
+  ],
+  "createdAt": 1786705141011
+ }
+}

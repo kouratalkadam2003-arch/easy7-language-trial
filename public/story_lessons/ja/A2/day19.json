@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_ja_d19",
+  "languageCode": "ja",
+  "languageNameArabic": "اليابانية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 19,
+  "lessonTitle": "小さな成功",
+  "englishTitle": "A Small Success",
+  "arabicTitle": "نجاح صغير",
+  "canonicalBeatIds": [
+   "BEAT_A2_D19"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "الحديث عن نجاح وسبب نتائجه.",
+  "realLifeTransferArabic": "مشاركة إنجاز في دراسة أو عمل.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: نجاح صغير دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "تجذب لوحة السوق زوارًا جددًا ويحتفل الفريق بنتيجة بسيطة.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: نجاح صغير.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: نجاح صغير."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D19_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D19_01",
+     "narrationArabic": "تجذب لوحة السوق زوارًا جددًا ويحتفل الفريق بنتيجة بسيطة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D19_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "الحديث عن نجاح وسبب نتائجه.",
+   "lines": [
+    {
+     "lineId": "L_A2_JA_D19_01",
+     "speakerId": "gaston",
+     "targetText": "おはようございます、ライスさん。新しい標識はとてもうまくいきました。",
+     "englishReference": "Good morning, Laith. The new sign worked very well.",
+     "arabicTranslation": "صباح الخير يا ليث. The new sign worked very well.",
+     "pronunciation": "ohayougozaimasu , raisu san . atarashii hyoushiki hatotemoumakuikimashita .",
+     "phraseIds": [
+      "P_A2_JA_D19_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_JA_D19_02",
+     "speakerId": "laith",
+     "targetText": "おはよう。時間通りに終わってよかったです。",
+     "englishReference": "Good morning. I am happy we finished it on time.",
+     "arabicTranslation": "صباح الخير. I am happy we finished it on time.",
+     "pronunciation": "ohayou . jikan touri ni owa tteyokattadesu .",
+     "phraseIds": [
+      "P_A2_JA_D19_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D19_03",
+     "speakerId": "gaston",
+     "targetText": "何がプロジェクトの成功に貢献したのでしょうか?",
+     "englishReference": "What helped the project succeed?",
+     "arabicTranslation": "What helped the project succeed?",
+     "pronunciation": "nani ga purojiekuto no seikou ni kouken shitanodeshouka ?",
+     "phraseIds": [
+      "P_A2_JA_D19_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D19_04",
+     "speakerId": "laith",
+     "targetText": "全員が 1 つの明確なタスクを実行しました。",
+     "englishReference": "Everyone did one clear task.",
+     "arabicTranslation": "Everyone did one clear task.",
+     "pronunciation": "zen'in ga  1  tsuno meikaku na tasuku wo jikkou shimashita .",
+     "phraseIds": [
+      "P_A2_JA_D19_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D19_05",
+     "speakerId": "gaston",
+     "targetText": "来週また看板を作りますか？",
+     "englishReference": "Will you make another sign next week?",
+     "arabicTranslation": "Will you make another sign next week?",
+     "pronunciation": "raishuu mata kanban wo tsukuri masuka ？",
+     "phraseIds": [
+      "P_A2_JA_D19_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D19_06",
+     "speakerId": "laith",
+     "targetText": "はい、改善していきたいと思います。",
+     "englishReference": "Yes, I would like to improve it.",
+     "arabicTranslation": "Yes, I would like to improve it.",
+     "pronunciation": "hai , kaizen shiteikitaito omoi masu .",
+     "phraseIds": [
+      "P_A2_JA_D19_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D19_07",
+     "speakerId": "gaston",
+     "targetText": "それは良い計画のように思えます。",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "soreha yoi keikaku noyouni omoe masu .",
+     "phraseIds": [
+      "P_A2_JA_D19_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_JA_D19_08",
+     "speakerId": "laith",
+     "targetText": "ありがとう。また後で。",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "arigatou . mata atode .",
+     "phraseIds": [
+      "P_A2_JA_D19_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D19_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_JA_D19_C01",
+      "P_A2_JA_D19_C02",
+      "P_A2_JA_D19_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_JA_D19_C01",
+      "P_A2_JA_D19_C02",
+      "P_A2_JA_D19_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_JA_D19_I01",
+      "P_A2_JA_D19_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D19_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: مشاركة إنجاز في دراسة أو عمل.",
+   "requiredPhraseIds": [
+    "P_A2_JA_D19_C01",
+    "P_A2_JA_D19_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D19_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "今シーズンの市場は急速に変化しています。",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "ima shiizun no shijou ha kyuusoku ni henkashi teimasu ."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "はい。旧道についての質問が増えています。",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "hai . kyuudou nitsuiteno shitsumon ga fue teimasu ."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D19_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: نجاح صغير.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: نجاح صغير."
+   },
+   "successWorldConsequence": "MARKET_SIGN:SUCCESS",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_JA_D19_S01",
+   "text": "おはようございます、ライスさん。新しい標識はとてもうまくいきました。",
+   "englishReference": "Good morning, Laith. The new sign worked very well.",
+   "arabicTranslation": "صباح الخير يا ليث. The new sign worked very well.",
+   "pronunciation": "ohayougozaimasu , raisu san . atarashii hyoushiki hatotemoumakuikimashita .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة إنجاز في دراسة أو عمل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_JA_D19_C01",
+   "text": "おはよう。時間通りに終わってよかったです。",
+   "englishReference": "Good morning. I am happy we finished it on time.",
+   "arabicTranslation": "صباح الخير. I am happy we finished it on time.",
+   "pronunciation": "ohayou . jikan touri ni owa tteyokattadesu .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة إنجاز في دراسة أو عمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D19_I01",
+   "text": "何がプロジェクトの成功に貢献したのでしょうか?",
+   "englishReference": "What helped the project succeed?",
+   "arabicTranslation": "What helped the project succeed?",
+   "pronunciation": "nani ga purojiekuto no seikou ni kouken shitanodeshouka ?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة إنجاز في دراسة أو عمل."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_JA_D19_C02",
+   "text": "全員が 1 つの明確なタスクを実行しました。",
+   "englishReference": "Everyone did one clear task.",
+   "arabicTranslation": "Everyone did one clear task.",
+   "pronunciation": "zen'in ga  1  tsuno meikaku na tasuku wo jikkou shimashita .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة إنجاز في دراسة أو عمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D19_I02",
+   "text": "来週また看板を作りますか？",
+   "englishReference": "Will you make another sign next week?",
+   "arabicTranslation": "Will you make another sign next week?",
+   "pronunciation": "raishuu mata kanban wo tsukuri masuka ？",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة إنجاز في دراسة أو عمل."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_JA_D19_C03",
+   "text": "はい、改善していきたいと思います。",
+   "englishReference": "Yes, I would like to improve it.",
+   "arabicTranslation": "Yes, I would like to improve it.",
+   "pronunciation": "hai , kaizen shiteikitaito omoi masu .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة إنجاز في دراسة أو عمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D19_S02",
+   "text": "それは良い計画のように思えます。",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "soreha yoi keikaku noyouni omoe masu .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة إنجاز في دراسة أو عمل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_JA_D19_S03",
+   "text": "ありがとう。また後で。",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "arigatou . mata atode .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مشاركة إنجاز في دراسة أو عمل."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_JA_D19_C01",
+     "P_A2_JA_D19_C02",
+     "P_A2_JA_D19_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_JA_D19_I01",
+     "P_A2_JA_D19_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_JA_D19_C01",
+    "P_A2_JA_D19_C02",
+    "P_A2_JA_D19_C03",
+    "P_A2_JA_D19_I01",
+    "P_A2_JA_D19_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D18:COMPLETE"
+  ],
+  "onSuccess": [
+   "MARKET_SIGN:SUCCESS",
+   "A2_D20:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_19",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_ja_d18",
+  "nextLessonId": "story_a2_ja_d20",
+  "nextLessonHookArabic": "خطأ في قائمة الأسعار يهدد ثقة زبون.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 19: نجاح صغير."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

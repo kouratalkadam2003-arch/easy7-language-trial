@@ -1,0 +1,447 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_en_d18",
+  "languageCode": "en",
+  "languageNameArabic": "الإنجليزية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 18,
+  "lessonTitle": "What Matters Most?",
+  "englishTitle": "What Matters Most?",
+  "arabicTitle": "ما الذي يهم؟",
+  "canonicalBeatIds": [
+   "BEAT_B2_D18"
+  ],
+  "canonVersion": "STORY_CANON_V1_1"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "تحديد قيمة مشتركة عند اتخاذ قرار.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: ما الذي يهم؟."
+ },
+ "story": {
+  "storyContextArabic": "تختلف القرى حول سرعة الربح وحماية المزارعين.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: ما الذي يهم؟.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "visitor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: ما الذي يهم؟."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D18_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D18_01",
+     "narrationArabic": "تختلف القرى حول سرعة الربح وحماية المزارعين."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D18_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "تحديد قيمة مشتركة عند اتخاذ قرار.",
+   "lines": [
+    {
+     "lineId": "L_B2_EN_D18_01",
+     "speakerId": "visitor",
+     "targetText": "The team has concerns about the shared values.",
+     "englishReference": "The team has concerns about the shared values.",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "The team has concerns about the shared values.",
+     "phraseIds": [
+      "P_B2_EN_D18_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_EN_D18_02",
+     "speakerId": "laith",
+     "targetText": "My position is that fairness matters more than quick profit.",
+     "englishReference": "My position is that fairness matters more than quick profit.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "My position is that fairness matters more than quick profit.",
+     "phraseIds": [
+      "P_B2_EN_D18_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D18_03",
+     "speakerId": "visitor",
+     "targetText": "Can you explain the risk?",
+     "englishReference": "Can you explain the risk?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "Can you explain the risk?",
+     "phraseIds": [
+      "P_B2_EN_D18_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D18_04",
+     "speakerId": "laith",
+     "targetText": "The risk is that quick profit is tempting.",
+     "englishReference": "The risk is that quick profit is tempting.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "The risk is that quick profit is tempting.",
+     "phraseIds": [
+      "P_B2_EN_D18_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D18_05",
+     "speakerId": "visitor",
+     "targetText": "How can we reduce it?",
+     "englishReference": "How can we reduce it?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "How can we reduce it?",
+     "phraseIds": [
+      "P_B2_EN_D18_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D18_06",
+     "speakerId": "laith",
+     "targetText": "We can act if we can protect both people and trade.",
+     "englishReference": "We can act if we can protect both people and trade.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "We can act if we can protect both people and trade.",
+     "phraseIds": [
+      "P_B2_EN_D18_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D18_07",
+     "speakerId": "visitor",
+     "targetText": "That is a useful condition.",
+     "englishReference": "That is a useful condition.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "That is a useful condition.",
+     "phraseIds": [
+      "P_B2_EN_D18_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_EN_D18_08",
+     "speakerId": "laith",
+     "targetText": "Thank you. I will share it with the team.",
+     "englishReference": "Thank you. I will share it with the team.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "Thank you. I will share it with the team.",
+     "phraseIds": [
+      "P_B2_EN_D18_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D18_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_EN_D18_C01",
+      "P_B2_EN_D18_C02",
+      "P_B2_EN_D18_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_EN_D18_C01",
+      "P_B2_EN_D18_C02",
+      "P_B2_EN_D18_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_EN_D18_I01",
+      "P_B2_EN_D18_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D18_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_EN_D18_C01",
+    "P_B2_EN_D18_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D18_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "The alliance is changing the region.",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Some details should remain private for now.",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D18_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: ما الذي يهم؟.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "VALUES_STATEMENT:MADE",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_EN_D18_S01",
+   "text": "The team has concerns about the shared values.",
+   "englishReference": "The team has concerns about the shared values.",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "The team has concerns about the shared values.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_EN_D18_C01",
+   "text": "My position is that fairness matters more than quick profit.",
+   "englishReference": "My position is that fairness matters more than quick profit.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "My position is that fairness matters more than quick profit.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_EN_D18_I01",
+   "text": "Can you explain the risk?",
+   "englishReference": "Can you explain the risk?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "Can you explain the risk?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_EN_D18_C02",
+   "text": "The risk is that quick profit is tempting.",
+   "englishReference": "The risk is that quick profit is tempting.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "The risk is that quick profit is tempting.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_EN_D18_I02",
+   "text": "How can we reduce it?",
+   "englishReference": "How can we reduce it?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "How can we reduce it?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_EN_D18_C03",
+   "text": "We can act if we can protect both people and trade.",
+   "englishReference": "We can act if we can protect both people and trade.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "We can act if we can protect both people and trade.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_EN_D18_S02",
+   "text": "That is a useful condition.",
+   "englishReference": "That is a useful condition.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "That is a useful condition.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_EN_D18_S03",
+   "text": "Thank you. I will share it with the team.",
+   "englishReference": "Thank you. I will share it with the team.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "Thank you. I will share it with the team.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_EN_D18_C01",
+     "P_B2_EN_D18_C02",
+     "P_B2_EN_D18_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_EN_D18_I01",
+     "P_B2_EN_D18_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_EN_D18_C01",
+    "P_B2_EN_D18_C02",
+    "P_B2_EN_D18_C03",
+    "P_B2_EN_D18_I01",
+    "P_B2_EN_D18_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B2_D17:COMPLETE"
+  ],
+  "onSuccess": [
+   "VALUES_STATEMENT:MADE",
+   "B2_D19:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_18",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b2_en_d17",
+  "nextLessonId": "story_b2_en_d19",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 18: ما الذي يهم؟."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

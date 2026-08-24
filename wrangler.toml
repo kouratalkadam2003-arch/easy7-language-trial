@@ -1,0 +1,6 @@
+name = "easy7-languages"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "dist"
+
+[vars]
+NODE_VERSION = "20"

@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 22,
+ "story": {
+  "originalText": "Yassin: Omar, wǒ è le.\nOmar: Wǒ yě è le.\nYassin: Wǒmen qù cānguǎn ba.\nOmar: Hǎo zhǔyì. Cānguǎn jiù zài fùjìn.\nYassin: Wǒ xiǎng chī mǐfàn hé jīròu.\nOmar: Wǒ xiǎng yào tāng hé miànbāo.\nYassin: Shíwù wén qǐlái hěn hǎo.\nOmar: Shì de, dàn wǒmen xūyào zhīdào jiàgé.\nYassin: Zhè dùn fàn duōshǎo qián?\nOmar: Wǒmen míngtiān wèn ba.",
+  "translatedText": "Yassin: عمر، أنا جائع.\nOmar: أنا جائع أيضاً.\nYassin: لنذهب إلى مطعم.\nOmar: فكرة جيدة. المطعم قريب.\nYassin: أريد أرزاً ودجاجاً.\nOmar: أريد حساءً وخبزاً.\nYassin: رائحة الطعام جيدة.\nOmar: نعم، لكن نحتاج إلى معرفة السعر.\nYassin: كم ثمن الوجبة؟\nOmar: لنسأل غداً.",
+  "nativeScriptText": "Yassin: Omar，我饿了。\nOmar: 我也饿了。\nYassin: 我们去餐馆吧。\nOmar: 好主意。餐馆就在附近。\nYassin: 我想吃米饭和鸡肉。\nOmar: 我想要汤和面包。\nYassin: 食物闻起来很好。\nOmar: 是的，但我们需要知道价格。\nYassin: 这顿饭多少钱？\nOmar: 我们明天问吧。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 22: جوعان",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar，我饿了。",
+    "translation": "عمر، أنا جائع.",
+    "pronunciation": "Omar, wǒ è le."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我也饿了。",
+    "translation": "أنا جائع أيضاً.",
+    "pronunciation": "Wǒ yě è le."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我们去餐馆吧。",
+    "translation": "لنذهب إلى مطعم.",
+    "pronunciation": "Wǒmen qù cānguǎn ba."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "好主意。餐馆就在附近。",
+    "translation": "فكرة جيدة. المطعم قريب.",
+    "pronunciation": "Hǎo zhǔyì. Cānguǎn jiù zài fùjìn."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我想吃米饭和鸡肉。",
+    "translation": "أريد أرزاً ودجاجاً.",
+    "pronunciation": "Wǒ xiǎng chī mǐfàn hé jīròu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我想要汤和面包。",
+    "translation": "أريد حساءً وخبزاً.",
+    "pronunciation": "Wǒ xiǎng yào tāng hé miànbāo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "食物闻起来很好。",
+    "translation": "رائحة الطعام جيدة.",
+    "pronunciation": "Shíwù wén qǐlái hěn hǎo."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，但我们需要知道价格。",
+    "translation": "نعم، لكن نحتاج إلى معرفة السعر.",
+    "pronunciation": "Shì de, dàn wǒmen xūyào zhīdào jiàgé."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "这顿饭多少钱？",
+    "translation": "كم ثمن الوجبة؟",
+    "pronunciation": "Zhè dùn fàn duōshǎo qián?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我们明天问吧。",
+    "translation": "لنسأل غداً.",
+    "pronunciation": "Wǒmen míngtiān wèn ba."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d22",
+   "title": "جوعان",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 22,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s3_d21"
+  ],
+  "createdAt": 1786696446398
+ }
+}

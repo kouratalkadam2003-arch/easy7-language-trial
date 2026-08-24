@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 19,
+ "story": {
+  "originalText": "Yassin: Konnichiwa, Omar. Koko wa jimusho desu ka?\nOmar: Hai, koko wa gakushūsho no jimusho desu.\nYassin: Tsukue wa ōkii desu.\nOmar: Sensei wa ano tsukue ni suwarimasu.\nYassin: Koko ni hon o oite mo ii desu ka?\nOmar: Hai, tsukue no ue ni oite kudasai.\nYassin: Jimusho wa shizuka desu.\nOmar: Jugyō no ato ni koko e kimasu.\nYassin: Tsugi no jugyō wa nan yōbi desu ka?\nOmar: Hinichi o omise shimasu.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل هذا هو المكتب؟\nOmar: نعم، هذا مكتب المعهد.\nYassin: المكتب كبير.\nOmar: المعلم يجلس عند ذلك المكتب.\nYassin: هل يمكنني وضع كتابي هنا؟\nOmar: نعم، ضعه على المكتب.\nYassin: المكتب هادئ.\nOmar: نأتي إلى هنا بعد الدرس.\nYassin: في أي يوم يكون درسنا القادم؟\nOmar: دعني أريك الأيام.",
+  "nativeScriptText": "Yassin: こんにちは、Omar。ここは事務所ですか？\nOmar: はい、ここは学習所の事務所です。\nYassin: 机は大きいです。\nOmar: 先生はあの机に座ります。\nYassin: ここに本を置いてもいいですか？\nOmar: はい、机の上に置いてください。\nYassin: 事務所は静かです。\nOmar: 授業の後にここへ来ます。\nYassin: 次の授業は何曜日ですか？\nOmar: 日にちをお見せします。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 19: مكتب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "こんにちは、Omar。ここは事務所ですか？",
+    "translation": "مرحباً يا عمر. هل هذا هو المكتب؟",
+    "pronunciation": "Konnichiwa, Omar. Koko wa jimusho desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、ここは学習所の事務所です。",
+    "translation": "نعم، هذا مكتب المعهد.",
+    "pronunciation": "Hai, koko wa gakushūsho no jimusho desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "机は大きいです。",
+    "translation": "المكتب كبير.",
+    "pronunciation": "Tsukue wa ōkii desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "先生はあの机に座ります。",
+    "translation": "المعلم يجلس عند ذلك المكتب.",
+    "pronunciation": "Sensei wa ano tsukue ni suwarimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "ここに本を置いてもいいですか？",
+    "translation": "هل يمكنني وضع كتابي هنا؟",
+    "pronunciation": "Koko ni hon o oite mo ii desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、机の上に置いてください。",
+    "translation": "نعم، ضعه على المكتب.",
+    "pronunciation": "Hai, tsukue no ue ni oite kudasai."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "事務所は静かです。",
+    "translation": "المكتب هادئ.",
+    "pronunciation": "Jimusho wa shizuka desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "授業の後にここへ来ます。",
+    "translation": "نأتي إلى هنا بعد الدرس.",
+    "pronunciation": "Jugyō no ato ni koko e kimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "次の授業は何曜日ですか？",
+    "translation": "في أي يوم يكون درسنا القادم؟",
+    "pronunciation": "Tsugi no jugyō wa nan yōbi desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "日にちをお見せします。",
+    "translation": "دعني أريك الأيام.",
+    "pronunciation": "Hinichi o omise shimasu."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d19",
+   "title": "مكتب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 19,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s3_d18"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_it_d29",
+  "languageCode": "it",
+  "languageNameArabic": "الإيطالية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 29,
+  "lessonTitle": "Questo posto è importante per me",
+  "englishTitle": "This Place Matters to Me",
+  "arabicTitle": "هذا المكان مهم لي",
+  "canonicalBeatIds": [
+   "BEAT_A1_D29"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "إبداء الإعجاب والانتماء والرأي البسيط.",
+  "realLifeTransferArabic": "الحديث عن مكان تحبه أو هدف يهمك.",
+  "successCapabilityArabic": "قل ما تحب في المكان وما تأمل أن يحدث لاحقًا."
+ },
+ "story": {
+  "storyContextArabic": "يجتمع بعض أهل القرية قرب الحديقة الصغيرة ويرون أثر العمل.",
+  "storyMissionArabic": "يقول ليث لماذا أصبح المكان مهمًا له.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: هذا المكان مهم لي."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D29_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D29_01",
+     "narrationArabic": "يجتمع بعض أهل القرية قرب الحديقة الصغيرة ويرون أثر العمل."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D29_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "إبداء الإعجاب والانتماء والرأي البسيط.",
+   "lines": [
+    {
+     "lineId": "L_A1_IT_D29_01",
+     "speakerId": "elly",
+     "targetText": "Ciao, Lait. Ami questo posto adesso.",
+     "englishReference": "Hello, Laith. You love this place now.",
+     "arabicTranslation": "مرحبًا يا ليث. أنت تحب هذا المكان الآن.",
+     "pronunciation": "Ciao, Lait. Ami questo posto adesso.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D29_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_IT_D29_02",
+     "speakerId": "laith",
+     "targetText": "Sì, adoro questo villaggio.",
+     "englishReference": "Yes, I love this village.",
+     "arabicTranslation": "نعم، أنا أحب هذه القرية.",
+     "pronunciation": "Sì, adoro questo villaggio.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D29_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_IT_D29_03",
+     "speakerId": "elly",
+     "targetText": "Perché lo ami?",
+     "englishReference": "Why do you love it?",
+     "arabicTranslation": "لماذا تحبها؟",
+     "pronunciation": "Perché lo ami?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D29_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_IT_D29_04",
+     "speakerId": "laith",
+     "targetText": "Perché qui le brave persone si aiutano a vicenda.",
+     "englishReference": "Because good people help each other here.",
+     "arabicTranslation": "لأن الناس الطيبين يساعدون بعضهم هنا.",
+     "pronunciation": "Perché qui le brave persone si aiutano a vicenda.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D29_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_IT_D29_05",
+     "speakerId": "elly",
+     "targetText": "Cosa speri per il giardino?",
+     "englishReference": "What do you hope for the garden?",
+     "arabicTranslation": "ماذا تأمل للحديقة؟",
+     "pronunciation": "Cosa speri per il giardino?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D29_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_IT_D29_06",
+     "speakerId": "laith",
+     "targetText": "Spero che diventi forte e verde.",
+     "englishReference": "I hope it grows strong and green.",
+     "arabicTranslation": "آمل أن تنمو قوية وخضراء.",
+     "pronunciation": "Spero che diventi forte e verde.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D29_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_IT_D29_07",
+     "speakerId": "elly",
+     "targetText": "Questa è una bella speranza.",
+     "englishReference": "That is a beautiful hope.",
+     "arabicTranslation": "هذا أمل جميل.",
+     "pronunciation": "Questa è una bella speranza.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D29_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_IT_D29_08",
+     "speakerId": "laith",
+     "targetText": "Grazie. Ci vediamo domani in giardino.",
+     "englishReference": "Thank you. See you at the garden tomorrow.",
+     "arabicTranslation": "شكرًا. أراكم في الحديقة غدًا.",
+     "pronunciation": "Grazie. Ci vediamo domani in giardino.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D29_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D29_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_IT_D29_C01",
+      "P_A1_IT_D29_C02",
+      "P_A1_IT_D29_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_IT_D29_C01",
+      "P_A1_IT_D29_C02",
+      "P_A1_IT_D29_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_IT_D29_I01",
+      "P_A1_IT_D29_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D29_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: الحديث عن مكان تحبه أو هدف يهمك.",
+   "requiredPhraseIds": [
+    "P_A1_IT_D29_C01",
+    "P_A1_IT_D29_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D29_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Ho sentito che Laith mi ha aiutato oggi.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "Ho sentito che Laith mi ha aiutato oggi."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Il villaggio comincia a conoscerlo.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "Il villaggio comincia a conoscerlo."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D29_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: هذا المكان مهم لي.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "قل ما تحب في المكان وما تأمل أن يحدث لاحقًا."
+   },
+   "successWorldConsequence": "A1_DAY_29:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_IT_D29_S01",
+   "text": "Ciao, Lait. Ami questo posto adesso.",
+   "englishReference": "Hello, Laith. You love this place now.",
+   "arabicTranslation": "مرحبًا يا ليث. أنت تحب هذا المكان الآن.",
+   "pronunciation": "Ciao, Lait. Ami questo posto adesso.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D29_LEARNING",
+   "transferContexts": [
+    "الحديث عن مكان تحبه أو هدف يهمك."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_IT_D29_I01",
+   "text": "Sì, adoro questo villaggio.",
+   "englishReference": "Yes, I love this village.",
+   "arabicTranslation": "نعم، أنا أحب هذه القرية.",
+   "pronunciation": "Sì, adoro questo villaggio.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D29_LEARNING",
+   "transferContexts": [
+    "الحديث عن مكان تحبه أو هدف يهمك."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_IT_D29_C01",
+   "text": "Perché lo ami?",
+   "englishReference": "Why do you love it?",
+   "arabicTranslation": "لماذا تحبها؟",
+   "pronunciation": "Perché lo ami?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D29_LEARNING",
+   "transferContexts": [
+    "الحديث عن مكان تحبه أو هدف يهمك."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_IT_D29_S02",
+   "text": "Perché qui le brave persone si aiutano a vicenda.",
+   "englishReference": "Because good people help each other here.",
+   "arabicTranslation": "لأن الناس الطيبين يساعدون بعضهم هنا.",
+   "pronunciation": "Perché qui le brave persone si aiutano a vicenda.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D29_LEARNING",
+   "transferContexts": [
+    "الحديث عن مكان تحبه أو هدف يهمك."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_IT_D29_C02",
+   "text": "Cosa speri per il giardino?",
+   "englishReference": "What do you hope for the garden?",
+   "arabicTranslation": "ماذا تأمل للحديقة؟",
+   "pronunciation": "Cosa speri per il giardino?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D29_LEARNING",
+   "transferContexts": [
+    "الحديث عن مكان تحبه أو هدف يهمك."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_IT_D29_C03",
+   "text": "Spero che diventi forte e verde.",
+   "englishReference": "I hope it grows strong and green.",
+   "arabicTranslation": "آمل أن تنمو قوية وخضراء.",
+   "pronunciation": "Spero che diventi forte e verde.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D29_LEARNING",
+   "transferContexts": [
+    "الحديث عن مكان تحبه أو هدف يهمك."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_IT_D29_S03",
+   "text": "Questa è una bella speranza.",
+   "englishReference": "That is a beautiful hope.",
+   "arabicTranslation": "هذا أمل جميل.",
+   "pronunciation": "Questa è una bella speranza.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D29_LEARNING",
+   "transferContexts": [
+    "الحديث عن مكان تحبه أو هدف يهمك."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_IT_D29_I02",
+   "text": "Grazie. Ci vediamo domani in giardino.",
+   "englishReference": "Thank you. See you at the garden tomorrow.",
+   "arabicTranslation": "شكرًا. أراكم في الحديقة غدًا.",
+   "pronunciation": "Grazie. Ci vediamo domani in giardino.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D29_LEARNING",
+   "transferContexts": [
+    "الحديث عن مكان تحبه أو هدف يهمك."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_IT_D29_C01",
+     "P_A1_IT_D29_C02",
+     "P_A1_IT_D29_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_IT_D29_C01",
+     "P_A1_IT_D29_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_IT_D29_C01",
+    "P_A1_IT_D29_C02",
+    "P_A1_IT_D29_C03",
+    "P_A1_IT_D29_I01",
+    "P_A1_IT_D29_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D28:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_29:COMPLETE",
+   "A1_D30:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_29",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_it_d28",
+  "nextLessonId": "story_a1_it_d30",
+  "nextLessonHookArabic": "غدًا: مهمة المزرعة الأولى.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 29: هذا المكان مهم لي."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 17,
+ "story": {
+  "originalText": "Yassin: Konnichiwa, Omar. Ali sensei wa watashitachi no sensei desu ka?\nOmar: Hai, Ali sensei wa watashitachi no sensei desu.\nYassin: Kare wa yukkuri hakkiri hanashimasu.\nOmar: Hai, kare wa subete no gakusei o tasukemasu.\nYassin: Sensei ni shitsumon shitai desu.\nOmar: Jugyō no ato de kikemasu yo.\nYassin: Sensei wa hon o motte imasu ka?\nOmar: Hai, watashitachi no tame no atarashii hon ga arimasu.\nYassin: Sono hon ga hitsuyō desu.\nOmar: Ashita sore o te ni iremashō.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل الأستاذ علي هو معلمنا؟\nOmar: نعم، الأستاذ علي هو معلمنا.\nYassin: هو يتكلم ببطء ووضوح.\nOmar: نعم، هو يساعد كل طالب.\nYassin: أريد أن أسأل المعلم سؤالاً.\nOmar: يمكنك أن تسأل بعد الدرس.\nYassin: هل لدى المعلم كتاب؟\nOmar: نعم، لديه كتاب جديد لنا.\nYassin: أحتاج ذلك الكتاب.\nOmar: يمكننا الحصول عليه غداً.",
+  "nativeScriptText": "Yassin: こんにちは、Omar。Ali 先生は私たちの先生ですか？\nOmar: はい、Ali 先生は私たちの先生です。\nYassin: 彼はゆっくりはっきり話します。\nOmar: はい、彼は全ての学生を助けます。\nYassin: 先生に質問したいです。\nOmar: 授業の後で聞けますよ。\nYassin: 先生は本を持っていますか？\nOmar: はい、私たちのための新しい本があります。\nYassin: その本が必要です。\nOmar: 明日それを手に入れましょう。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 17: أستاذ",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "こんにちは、Omar。Ali 先生は私たちの先生ですか？",
+    "translation": "مرحباً يا عمر. هل الأستاذ علي هو معلمنا؟",
+    "pronunciation": "Konnichiwa, Omar. Ali sensei wa watashitachi no sensei desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、Ali 先生は私たちの先生です。",
+    "translation": "نعم، الأستاذ علي هو معلمنا.",
+    "pronunciation": "Hai, Ali sensei wa watashitachi no sensei desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "彼はゆっくりはっきり話します。",
+    "translation": "هو يتكلم ببطء ووضوح.",
+    "pronunciation": "Kare wa yukkuri hakkiri hanashimasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、彼は全ての学生を助けます。",
+    "translation": "نعم، هو يساعد كل طالب.",
+    "pronunciation": "Hai, kare wa subete no gakusei o tasukemasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "先生に質問したいです。",
+    "translation": "أريد أن أسأل المعلم سؤالاً.",
+    "pronunciation": "Sensei ni shitsumon shitai desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "授業の後で聞けますよ。",
+    "translation": "يمكنك أن تسأل بعد الدرس.",
+    "pronunciation": "Jugyō no ato de kikemasu yo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "先生は本を持っていますか？",
+    "translation": "هل لدى المعلم كتاب؟",
+    "pronunciation": "Sensei wa hon o motte imasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、私たちのための新しい本があります。",
+    "translation": "نعم، لديه كتاب جديد لنا.",
+    "pronunciation": "Hai, watashitachi no tame no atarashii hon ga arimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "その本が必要です。",
+    "translation": "أحتاج ذلك الكتاب.",
+    "pronunciation": "Sono hon ga hitsuyō desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "明日それを手に入れましょう。",
+    "translation": "يمكننا الحصول عليه غداً.",
+    "pronunciation": "Ashita sore o te ni iremashō."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d17",
+   "title": "أستاذ",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 17,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s3_d16"
+  ],
+  "createdAt": 1786696446398
+ }
+}

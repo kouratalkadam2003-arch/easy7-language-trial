@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 2,
+ "story": {
+  "originalText": "Yassin: Good morning, Yassin.\nOmar: Good morning, Omar.\nYassin: Where are you from?\nOmar: I am from Algeria.\nYassin: Algeria is a beautiful country.\nOmar: Thank you. Where are you from?\nYassin: I am from Morocco.\nOmar: We are from North Africa.\nYassin: Yes, and now we are here together.\nOmar: See you later, Omar.",
+  "translatedText": "Yassin: صباح الخير يا ياسين.\nOmar: صباح الخير يا عمر.\nYassin: من أين أنت؟\nOmar: أنا من الجزائر.\nYassin: الجزائر بلد جميل.\nOmar: شكراً. من أين أنت؟\nYassin: أنا من المغرب.\nOmar: نحن من شمال أفريقيا.\nYassin: نعم، والآن نحن هنا معاً.\nOmar: أراك لاحقاً يا عمر.",
+  "nativeScriptText": "Yassin: Good morning, Yassin.\nOmar: Good morning, Omar.\nYassin: Where are you from?\nOmar: I am from Algeria.\nYassin: Algeria is a beautiful country.\nOmar: Thank you. Where are you from?\nYassin: I am from Morocco.\nOmar: We are from North Africa.\nYassin: Yes, and now we are here together.\nOmar: See you later, Omar.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 2: من أين",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Good morning, Yassin.",
+    "translation": "صباح الخير يا ياسين.",
+    "pronunciation": "Good morning, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Good morning, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Good morning, Omar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Where are you from?",
+    "translation": "من أين أنت؟",
+    "pronunciation": "Where are you from?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I am from Algeria.",
+    "translation": "أنا من الجزائر.",
+    "pronunciation": "I am from Algeria."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Algeria is a beautiful country.",
+    "translation": "الجزائر بلد جميل.",
+    "pronunciation": "Algeria is a beautiful country."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Thank you. Where are you from?",
+    "translation": "شكراً. من أين أنت؟",
+    "pronunciation": "Thank you. Where are you from?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I am from Morocco.",
+    "translation": "أنا من المغرب.",
+    "pronunciation": "I am from Morocco."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "We are from North Africa.",
+    "translation": "نحن من شمال أفريقيا.",
+    "pronunciation": "We are from North Africa."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Yes, and now we are here together.",
+    "translation": "نعم، والآن نحن هنا معاً.",
+    "pronunciation": "Yes, and now we are here together."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "See you later, Omar.",
+    "translation": "أراك لاحقاً يا عمر.",
+    "pronunciation": "See you later, Omar."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d2",
+   "title": "من أين",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 2,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s1_d1"
+  ],
+  "createdAt": 1786696446398
+ }
+}

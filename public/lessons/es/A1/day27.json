@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 27,
+ "story": {
+  "originalText": "Yassin: Hola, Yassin. ¿Puedes ayudarme?\nOmar: Sí, claro. ¿Qué necesitas?\nYassin: Necesito mi medicina y un poco de agua.\nOmar: Aquí está tu medicina y tu agua.\nYassin: Gracias. Eres muy amable.\nOmar: De nada, mi amigo.\nYassin: ¿Puedes llamar al profesor por mí?\nOmar: Sí, puedo llamarlo ahora.\nYassin: Mañana me sentiré mejor, si Dios quiere.\nOmar: Si Dios quiere. Repasaremos mañana.",
+  "translatedText": "Yassin: مرحباً يا ياسين. هل يمكنك مساعدتي؟\nOmar: نعم، بالطبع. ماذا تحتاج؟\nYassin: أحتاج دوائي وبعض الماء.\nOmar: هذا دواؤك وماؤك.\nYassin: شكراً. أنت لطيف جداً.\nOmar: عفواً يا صديقي.\nYassin: هل يمكنك الاتصال بالمعلم من أجلي؟\nOmar: نعم، يمكنني الاتصال به الآن.\nYassin: غداً سأشعر بتحسن، إن شاء الله.\nOmar: إن شاء الله. سنراجع غداً.",
+  "nativeScriptText": "Yassin: Hola, Yassin. ¿Puedes ayudarme?\nOmar: Sí, claro. ¿Qué necesitas?\nYassin: Necesito mi medicina y un poco de agua.\nOmar: Aquí está tu medicina y tu agua.\nYassin: Gracias. Eres muy amable.\nOmar: De nada, mi amigo.\nYassin: ¿Puedes llamar al profesor por mí?\nOmar: Sí, puedo llamarlo ahora.\nYassin: Mañana me sentiré mejor, si Dios quiere.\nOmar: Si Dios quiere. Repasaremos mañana.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 27: مساعدة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hola, Yassin. ¿Puedes ayudarme?",
+    "translation": "مرحباً يا ياسين. هل يمكنك مساعدتي؟",
+    "pronunciation": "Hola, Yassin. ¿Puedes ayudarme?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, claro. ¿Qué necesitas?",
+    "translation": "نعم، بالطبع. ماذا تحتاج؟",
+    "pronunciation": "Sí, claro. ¿Qué necesitas?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Necesito mi medicina y un poco de agua.",
+    "translation": "أحتاج دوائي وبعض الماء.",
+    "pronunciation": "Necesito mi medicina y un poco de agua."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Aquí está tu medicina y tu agua.",
+    "translation": "هذا دواؤك وماؤك.",
+    "pronunciation": "Aquí está tu medicina y tu agua."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Gracias. Eres muy amable.",
+    "translation": "شكراً. أنت لطيف جداً.",
+    "pronunciation": "Gracias. Eres muy amable."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "De nada, mi amigo.",
+    "translation": "عفواً يا صديقي.",
+    "pronunciation": "De nada, mi amigo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Puedes llamar al profesor por mí?",
+    "translation": "هل يمكنك الاتصال بالمعلم من أجلي؟",
+    "pronunciation": "¿Puedes llamar al profesor por mí?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, puedo llamarlo ahora.",
+    "translation": "نعم، يمكنني الاتصال به الآن.",
+    "pronunciation": "Sí, puedo llamarlo ahora."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Mañana me sentiré mejor, si Dios quiere.",
+    "translation": "غداً سأشعر بتحسن، إن شاء الله.",
+    "pronunciation": "Mañana me sentiré mejor, si Dios quiere."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Si Dios quiere. Repasaremos mañana.",
+    "translation": "إن شاء الله. سنراجع غداً.",
+    "pronunciation": "Si Dios quiere. Repasaremos mañana."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d27",
+   "title": "مساعدة",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 27,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s4_d26"
+  ],
+  "createdAt": 1786696446398
+ }
+}

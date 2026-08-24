@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 4,
+ "story": {
+  "originalText": "Yassin: Zǎoshang hǎo, Yassin.\nOmar: Zǎoshang hǎo, Omar.\nYassin: Huānyíng lái dào xuéyuàn.\nOmar: Fēicháng gǎnxiè.\nYassin: Zhōngwǔ yǐhòu wǒmen shuō 'xiàwǔ hǎo'.\nOmar: Nà 'wǎnshàng hǎo' shì wǎnshàng shuō de ma?\nYassin: Shì de, méi cuò.\nOmar: Wènhòu hěn zhòngyào.\nYassin: Tāmen biǎoshì zūnzhòng hé yǒuhǎo.\nOmar: Xièxie. Xiàkè hòu jiàn.",
+  "translatedText": "Yassin: صباح الخير يا ياسين.\nOmar: صباح الخير يا عمر.\nYassin: أهلاً بك في المعهد.\nOmar: شكراً جزيلاً.\nYassin: نقول «مساء الخير» بعد الظهر.\nOmar: و«مساء الخير» تُقال في المساء؟\nYassin: نعم، هذا صحيح.\nOmar: التحيات مهمة.\nYassin: إنها تُظهر الاحترام واللطف.\nOmar: شكراً. أراك بعد الدرس.",
+  "nativeScriptText": "Yassin: 早上好，Yassin。\nOmar: 早上好，Omar。\nYassin: 欢迎来到学院。\nOmar: 非常感谢。\nYassin: 中午以后我们说“下午好”。\nOmar: 那“晚上好”是晚上说的吗？\nYassin: 是的，没错。\nOmar: 问候很重要。\nYassin: 它们表示尊重和友好。\nOmar: 谢谢。下课后见。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 4: تحية",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "早上好，Yassin。",
+    "translation": "صباح الخير يا ياسين.",
+    "pronunciation": "Zǎoshang hǎo, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "早上好，Omar。",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Zǎoshang hǎo, Omar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "欢迎来到学院。",
+    "translation": "أهلاً بك في المعهد.",
+    "pronunciation": "Huānyíng lái dào xuéyuàn."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "非常感谢。",
+    "translation": "شكراً جزيلاً.",
+    "pronunciation": "Fēicháng gǎnxiè."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "中午以后我们说“下午好”。",
+    "translation": "نقول «مساء الخير» بعد الظهر.",
+    "pronunciation": "Zhōngwǔ yǐhòu wǒmen shuō 'xiàwǔ hǎo'."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "那“晚上好”是晚上说的吗？",
+    "translation": "و«مساء الخير» تُقال في المساء؟",
+    "pronunciation": "Nà 'wǎnshàng hǎo' shì wǎnshàng shuō de ma?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "是的，没错。",
+    "translation": "نعم، هذا صحيح.",
+    "pronunciation": "Shì de, méi cuò."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "问候很重要。",
+    "translation": "التحيات مهمة.",
+    "pronunciation": "Wènhòu hěn zhòngyào."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "它们表示尊重和友好。",
+    "translation": "إنها تُظهر الاحترام واللطف.",
+    "pronunciation": "Tāmen biǎoshì zūnzhòng hé yǒuhǎo."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "谢谢。下课后见。",
+    "translation": "شكراً. أراك بعد الدرس.",
+    "pronunciation": "Xièxie. Xiàkè hòu jiàn."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d4",
+   "title": "تحية",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 4,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s1_d3"
+  ],
+  "createdAt": 1786696446398
+ }
+}

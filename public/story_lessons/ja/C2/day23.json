@@ -1,0 +1,446 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_c2_ja_d23",
+  "languageCode": "ja",
+  "languageNameArabic": "اليابانية",
+  "cefrLevel": "C2",
+  "chapterId": "chapter_06_return",
+  "dayNumber": 23,
+  "lessonTitle": "反対の声",
+  "englishTitle": "The Opposing Voice",
+  "arabicTitle": "صوت المعارض",
+  "canonicalBeatIds": [
+   "BEAT_C2_D23"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "الرد على معارضة فكرية.",
+  "realLifeTransferArabic": "تحليل مصادر وحجج أو تفاوض وقرار متقدم.",
+  "successCapabilityArabic": "أدِّ مهمة متقدمة حول: صوت المعارض."
+ },
+ "story": {
+  "storyContextArabic": "يعترض نبيل على مشاركة القرى.",
+  "storyMissionArabic": "يتقدم ليث عبر: صوت المعارض.",
+  "setting": "council_and_region",
+  "charactersPresent": [
+   "laith",
+   "visitor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "نتيجة مناسبة لمستوى القصة."
+   ],
+   "forbiddenReveals": []
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: صوت المعارض."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_C2_D23_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_C2_D23_01",
+     "narrationArabic": "يعترض نبيل على مشاركة القرى."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C2_D23_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "الرد على معارضة فكرية.",
+   "lines": [
+    {
+     "lineId": "L_C2_JA_D23_01",
+     "speakerId": "visitor",
+     "targetText": "行動を起こす前に、反対の声を明確にしなければなりません。",
+     "englishReference": "Before we act, we must clarify the opposing voice.",
+     "arabicTranslation": "يجب أن نحلل الموضوع بدقة.",
+     "pronunciation": "koudou wo oko su mae ni , hantai no koe wo meikaku nishinakerebanarimasen .",
+     "phraseIds": [
+      "P_C2_JA_D23_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_C2_JA_D23_02",
+     "speakerId": "laith",
+     "targetText": "責任には正確性が必要だと私は主張します。",
+     "englishReference": "I would argue that responsibility requires precision.",
+     "arabicTranslation": "تفسيري أكثر تعقيدًا مما يبدو.",
+     "pronunciation": "sekinin niha seikakusei ga hitsuyou dato watashi ha shuchou shimasu .",
+     "phraseIds": [
+      "P_C2_JA_D23_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_JA_D23_03",
+     "speakerId": "visitor",
+     "targetText": "どのようなリスクがまだ残っていますか?",
+     "englishReference": "What risk still remains?",
+     "arabicTranslation": "ما الدليل على ذلك؟",
+     "pronunciation": "donoyouna risuku gamada nokotsu teimasuka ?",
+     "phraseIds": [
+      "P_C2_JA_D23_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_JA_D23_04",
+     "speakerId": "laith",
+     "targetText": "リスクは現実のものですが、軽減することは可能です。",
+     "englishReference": "The risk is real, although it can be reduced.",
+     "arabicTranslation": "الدليل مفيد لكنه محدود.",
+     "pronunciation": "risuku ha genjitsu nomonodesuga , keigen surukotoha kanou desu .",
+     "phraseIds": [
+      "P_C2_JA_D23_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_JA_D23_05",
+     "speakerId": "visitor",
+     "targetText": "どのような条件が合意を公平なものにするでしょうか?",
+     "englishReference": "What condition would make the agreement fair?",
+     "arabicTranslation": "كيف نرد على الاعتراض الأقوى؟",
+     "pronunciation": "donoyouna jouken ga goui wo kouhei namononisurudeshouka ?",
+     "phraseIds": [
+      "P_C2_JA_D23_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_JA_D23_06",
+     "speakerId": "laith",
+     "targetText": "目標を明確にしつつ、人々を守らなければなりません。",
+     "englishReference": "We should protect people while keeping the goal clear.",
+     "arabicTranslation": "ينبغي أن نعرض استدلالنا بوضوح ونعترف بما لا نعرفه.",
+     "pronunciation": "mokuhyou wo meikaku nishitsutsu , hitobito wo mamora nakerebanarimasen .",
+     "phraseIds": [
+      "P_C2_JA_D23_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C2_JA_D23_07",
+     "speakerId": "visitor",
+     "targetText": "それは要求は厳しいが、バランスのとれた提案だ。",
+     "englishReference": "That is a demanding but balanced proposal.",
+     "arabicTranslation": "هذا موقف مسؤول.",
+     "pronunciation": "soreha youkyuu ha ikameshii ga , baransu notoreta teian da .",
+     "phraseIds": [
+      "P_C2_JA_D23_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_C2_JA_D23_08",
+     "speakerId": "laith",
+     "targetText": "ありがとう。責任を持って進めていきましょう。",
+     "englishReference": "Thank you. Let us proceed responsibly.",
+     "arabicTranslation": "شكرًا، لنتابع بحذر.",
+     "pronunciation": "arigatou . sekinin wo motsu te susume teikimashou .",
+     "phraseIds": [
+      "P_C2_JA_D23_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C2_D23_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "argument_rebuild",
+     "phraseIds": [
+      "P_C2_JA_D23_C01",
+      "P_C2_JA_D23_C02",
+      "P_C2_JA_D23_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_C2_JA_D23_C01",
+      "P_C2_JA_D23_C02",
+      "P_C2_JA_D23_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_C2_JA_D23_I01",
+      "P_C2_JA_D23_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C2_D23_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى نقاش مهني أو أكاديمي أو رسمي.",
+   "requiredPhraseIds": [
+    "P_C2_JA_D23_C01",
+    "P_C2_JA_D23_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_C2_D23_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "この地域は最新のニュースに注意深く耳を傾けています。",
+     "englishReference": "The region is listening closely to the latest news.",
+     "arabicTranslation": "المنطقة تتابع الأخبار الأخيرة باهتمام.",
+     "pronunciation": "kono chiiki ha saishin no nyuusu ni chuuibukaku mimi wo katamuke teimasu ."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "すべてのメッセージが、見た目の意味を意味しているわけではありません。",
+     "englishReference": "Not every message means what it seems to mean.",
+     "arabicTranslation": "ليست كل رسالة تعني ما تبدو عليه.",
+     "pronunciation": "subeteno messeeji ga , mitame no imi wo imi shiteiruwakedehaarimasen ."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_C2_D23_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "يحتاج المجلس إلى قرار حول: صوت المعارض.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "analyze",
+     "respond_to_objection",
+     "propose_responsibly"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير حجة متقدمة متزنة.",
+    "afterArabic": "يستطيع الآن تحليل موقف وبناء رد مسؤول."
+   },
+   "successWorldConsequence": "C2_DAY_23:COMPLETE",
+   "retryPolicy": "يعاد التحدي بعد تلميح لنوع الدليل أو الشرط."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_C2_JA_D23_S01",
+   "text": "行動を起こす前に、反対の声を明確にしなければなりません。",
+   "englishReference": "Before we act, we must clarify the opposing voice.",
+   "arabicTranslation": "يجب أن نحلل الموضوع بدقة.",
+   "pronunciation": "koudou wo oko su mae ni , hantai no koe wo meikaku nishinakerebanarimasen .",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_C2_JA_D23_C01",
+   "text": "責任には正確性が必要だと私は主張します。",
+   "englishReference": "I would argue that responsibility requires precision.",
+   "arabicTranslation": "تفسيري أكثر تعقيدًا مما يبدو.",
+   "pronunciation": "sekinin niha seikakusei ga hitsuyou dato watashi ha shuchou shimasu .",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C2_JA_D23_I01",
+   "text": "どのようなリスクがまだ残っていますか?",
+   "englishReference": "What risk still remains?",
+   "arabicTranslation": "ما الدليل على ذلك؟",
+   "pronunciation": "donoyouna risuku gamada nokotsu teimasuka ?",
+   "classification": "important",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_C2_JA_D23_C02",
+   "text": "リスクは現実のものですが、軽減することは可能です。",
+   "englishReference": "The risk is real, although it can be reduced.",
+   "arabicTranslation": "الدليل مفيد لكنه محدود.",
+   "pronunciation": "risuku ha genjitsu nomonodesuga , keigen surukotoha kanou desu .",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C2_JA_D23_I02",
+   "text": "どのような条件が合意を公平なものにするでしょうか?",
+   "englishReference": "What condition would make the agreement fair?",
+   "arabicTranslation": "كيف نرد على الاعتراض الأقوى؟",
+   "pronunciation": "donoyouna jouken ga goui wo kouhei namononisurudeshouka ?",
+   "classification": "important",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_C2_JA_D23_C03",
+   "text": "目標を明確にしつつ、人々を守らなければなりません。",
+   "englishReference": "We should protect people while keeping the goal clear.",
+   "arabicTranslation": "ينبغي أن نعرض استدلالنا بوضوح ونعترف بما لا نعرفه.",
+   "pronunciation": "mokuhyou wo meikaku nishitsutsu , hitobito wo mamora nakerebanarimasen .",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C2_JA_D23_S02",
+   "text": "それは要求は厳しいが、バランスのとれた提案だ。",
+   "englishReference": "That is a demanding but balanced proposal.",
+   "arabicTranslation": "هذا موقف مسؤول.",
+   "pronunciation": "soreha youkyuu ha ikameshii ga , baransu notoreta teian da .",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_C2_JA_D23_S03",
+   "text": "ありがとう。責任を持って進めていきましょう。",
+   "englishReference": "Thank you. Let us proceed responsibly.",
+   "arabicTranslation": "شكرًا، لنتابع بحذر.",
+   "pronunciation": "arigatou . sekinin wo motsu te susume teikimashou .",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "argument_structure"
+   ],
+   "supportFadePlan": "يعتمد المستوى على الاستدلال والنبرة."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_C2_JA_D23_C01",
+     "P_C2_JA_D23_C02",
+     "P_C2_JA_D23_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_C2_JA_D23_I01",
+     "P_C2_JA_D23_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_C2_JA_D23_C01",
+    "P_C2_JA_D23_C02",
+    "P_C2_JA_D23_C03",
+    "P_C2_JA_D23_I01",
+    "P_C2_JA_D23_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تعود الحجة داخل مجلس أو رسالة لاحقة."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "C2_D22:COMPLETE"
+  ],
+  "onSuccess": [
+   "C2_DAY_23:COMPLETE",
+   "C2_D24:UNLOCKED"
+  ],
+  "milestone": "c2_milestone_23",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_c2_ja_d22",
+  "nextLessonId": "story_c2_ja_d24",
+  "nextLessonHookArabic": "نتيجة اليوم تفتح الخطوة التالية في القصة.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم C2 23: صوت المعارض."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

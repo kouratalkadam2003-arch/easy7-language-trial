@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 14,
+ "story": {
+  "originalText": "Yassin: Kore wa anata no ie desu ka?\nOmar: Hai, kore wa watashi no ie desu.\nYassin: Anata no heya wa doko desu ka?\nOmar: Watashi no heya wa daidokoro no tonari desu.\nYassin: Nani o tabetai desu ka?\nOmar: Tamago to pan ga hoshii desu.\nYassin: Kōhī wa hoshii desu ka?\nOmar: Iie, kōhī wa irimasen. Mizu ga hoshii desu.\nYassin: Totemo jōzu desu. Ima wa yoku hanasemasu ne.\nOmar: Arigatō. Gakushūsho de aimashō.",
+  "translatedText": "Yassin: هل هذا بيتك؟\nOmar: نعم، هذا بيتي.\nYassin: أين غرفتك؟\nOmar: غرفتي بجانب المطبخ.\nYassin: ما الطعام الذي تريده؟\nOmar: أريد البيض والخبز.\nYassin: هل تريد قهوة؟\nOmar: لا، لا أريد القهوة. أريد الماء.\nYassin: جيد جداً. أنت تتكلم جيداً الآن.\nOmar: شكراً. أراك في المعهد.",
+  "nativeScriptText": "Yassin: これはあなたの家ですか？\nOmar: はい、これは私の家です。\nYassin: あなたの部屋はどこですか？\nOmar: 私の部屋は台所の隣です。\nYassin: 何を食べたいですか？\nOmar: 卵とパンが欲しいです。\nYassin: コーヒーは欲しいですか？\nOmar: いいえ、コーヒーは要りません。水が欲しいです。\nYassin: とても上手です。今はよく話せますね。\nOmar: ありがとう。学習所で会いましょう。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 14: مراجعة شاملة (8-13)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "これはあなたの家ですか？",
+    "translation": "هل هذا بيتك؟",
+    "pronunciation": "Kore wa anata no ie desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、これは私の家です。",
+    "translation": "نعم، هذا بيتي.",
+    "pronunciation": "Hai, kore wa watashi no ie desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "あなたの部屋はどこですか？",
+    "translation": "أين غرفتك؟",
+    "pronunciation": "Anata no heya wa doko desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私の部屋は台所の隣です。",
+    "translation": "غرفتي بجانب المطبخ.",
+    "pronunciation": "Watashi no heya wa daidokoro no tonari desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "何を食べたいですか？",
+    "translation": "ما الطعام الذي تريده؟",
+    "pronunciation": "Nani o tabetai desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "卵とパンが欲しいです。",
+    "translation": "أريد البيض والخبز.",
+    "pronunciation": "Tamago to pan ga hoshii desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "コーヒーは欲しいですか？",
+    "translation": "هل تريد قهوة؟",
+    "pronunciation": "Kōhī wa hoshii desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "いいえ、コーヒーは要りません。水が欲しいです。",
+    "translation": "لا، لا أريد القهوة. أريد الماء.",
+    "pronunciation": "Iie, kōhī wa irimasen. Mizu ga hoshii desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "とても上手です。今はよく話せますね。",
+    "translation": "جيد جداً. أنت تتكلم جيداً الآن.",
+    "pronunciation": "Totemo jōzu desu. Ima wa yoku hanasemasu ne."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "ありがとう。学習所で会いましょう。",
+    "translation": "شكراً. أراك في المعهد.",
+    "pronunciation": "Arigatō. Gakushūsho de aimashō."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d14",
+   "title": "مراجعة شاملة (8-13)",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 14,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s2_d13"
+  ],
+  "createdAt": 1786696446398
+ }
+}

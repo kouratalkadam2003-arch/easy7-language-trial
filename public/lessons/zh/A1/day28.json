@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 28,
+ "story": {
+  "originalText": "Yassin: Nǐ è ma?\nOmar: Shì de, wǒ è le.\nYassin: Zhè dùn fàn duōshǎo qián?\nOmar: Zhè dùn fàn shí měiyuán.\nYassin: Qǐng gěi wǒ zhàngdān, hǎo ma?\nOmar: Hǎo de, zhàngdān zài zhèlǐ.\nYassin: Nǐ xiànzài hái shēngbìng ma?\nOmar: Bù, wǒ kàn le yīshēng hòu gǎnjué hǎo duō le.\nYassin: Wǒ néng bāng nǐ zuò shénme ma?\nOmar: Bù, xièxie. Wǒ xiànzài méi shì le.",
+  "translatedText": "Yassin: هل أنت جائع؟\nOmar: نعم، أنا جائع.\nYassin: كم ثمن الوجبة؟\nOmar: الوجبة بعشرة دولارات.\nYassin: هل يمكنني الحصول على الفاتورة، من فضلك؟\nOmar: نعم، هذه هي الفاتورة.\nYassin: هل أنت مريض الآن؟\nOmar: لا، أشعر بتحسن بعد رؤية الطبيب.\nYassin: هل يمكنني مساعدتك في شيء؟\nOmar: لا، شكراً. أنا بخير الآن.",
+  "nativeScriptText": "Yassin: 你饿吗？\nOmar: 是的，我饿了。\nYassin: 这顿饭多少钱？\nOmar: 这顿饭十美元。\nYassin: 请给我账单，好吗？\nOmar: 好的，账单在这里。\nYassin: 你现在还生病吗？\nOmar: 不，我看了医生后感觉好多了。\nYassin: 我能帮你做什么吗？\nOmar: 不，谢谢。我现在没事了。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 28: مراجعة شاملة (22-27)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你饿吗？",
+    "translation": "هل أنت جائع؟",
+    "pronunciation": "Nǐ è ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，我饿了。",
+    "translation": "نعم، أنا جائع.",
+    "pronunciation": "Shì de, wǒ è le."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "这顿饭多少钱？",
+    "translation": "كم ثمن الوجبة؟",
+    "pronunciation": "Zhè dùn fàn duōshǎo qián?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "这顿饭十美元。",
+    "translation": "الوجبة بعشرة دولارات.",
+    "pronunciation": "Zhè dùn fàn shí měiyuán."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "请给我账单，好吗？",
+    "translation": "هل يمكنني الحصول على الفاتورة، من فضلك؟",
+    "pronunciation": "Qǐng gěi wǒ zhàngdān, hǎo ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "好的，账单在这里。",
+    "translation": "نعم، هذه هي الفاتورة.",
+    "pronunciation": "Hǎo de, zhàngdān zài zhèlǐ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你现在还生病吗？",
+    "translation": "هل أنت مريض الآن؟",
+    "pronunciation": "Nǐ xiànzài hái shēngbìng ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "不，我看了医生后感觉好多了。",
+    "translation": "لا، أشعر بتحسن بعد رؤية الطبيب.",
+    "pronunciation": "Bù, wǒ kàn le yīshēng hòu gǎnjué hǎo duō le."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我能帮你做什么吗？",
+    "translation": "هل يمكنني مساعدتك في شيء؟",
+    "pronunciation": "Wǒ néng bāng nǐ zuò shénme ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "不，谢谢。我现在没事了。",
+    "translation": "لا، شكراً. أنا بخير الآن.",
+    "pronunciation": "Bù, xièxie. Wǒ xiànzài méi shì le."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d28",
+   "title": "مراجعة شاملة (22-27)",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 28,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s4_d27"
+  ],
+  "createdAt": 1786696446398
+ }
+}

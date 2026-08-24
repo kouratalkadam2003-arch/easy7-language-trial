@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 10,
+ "story": {
+  "originalText": "Yassin: Konnichiwa, Omar. Donna tabemono ga arimasu ka?\nOmar: Pan, gohan, tamago, kudamono ga arimasu.\nYassin: Watashi wa tamago to pan ga suki desu.\nOmar: Watashi wa gohan to toriniku ga suki desu.\nYassin: Kyō wa toriniku ga arimasu ka?\nOmar: Iie, toriniku wa arimasen.\nYassin: Sore nara tamago o ryōri shimashō.\nOmar: Ii kangae desu. Ryōri wa kantan desu.\nYassin: Tamago ni pan o tsukete tabetai desu.\nOmar: Ima motte kimasu.",
+  "translatedText": "Yassin: مرحباً يا عمر. ما الطعام الذي لدينا؟\nOmar: لدينا خبز وأرز وبيض وفاكهة.\nYassin: أنا أحب البيض والخبز.\nOmar: أنا أحب الأرز والدجاج.\nYassin: هل لدينا دجاج اليوم؟\nOmar: لا، ليس لدينا دجاج.\nYassin: إذن لنطبخ البيض.\nOmar: فكرة جيدة. الطبخ سهل.\nYassin: أريد خبزاً مع البيض.\nOmar: سأحضره الآن.",
+  "nativeScriptText": "Yassin: こんにちは、Omar。どんな食べ物がありますか？\nOmar: パン、ご飯、卵、果物があります。\nYassin: 私は卵とパンが好きです。\nOmar: 私はご飯と鶏肉が好きです。\nYassin: 今日は鶏肉がありますか？\nOmar: いいえ、鶏肉はありません。\nYassin: それなら卵を料理しましょう。\nOmar: いい考えです。料理は簡単です。\nYassin: 卵にパンをつけて食べたいです。\nOmar: 今持ってきます。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 10: طعام",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "こんにちは、Omar。どんな食べ物がありますか？",
+    "translation": "مرحباً يا عمر. ما الطعام الذي لدينا؟",
+    "pronunciation": "Konnichiwa, Omar. Donna tabemono ga arimasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "パン、ご飯、卵、果物があります。",
+    "translation": "لدينا خبز وأرز وبيض وفاكهة.",
+    "pronunciation": "Pan, gohan, tamago, kudamono ga arimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私は卵とパンが好きです。",
+    "translation": "أنا أحب البيض والخبز.",
+    "pronunciation": "Watashi wa tamago to pan ga suki desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私はご飯と鶏肉が好きです。",
+    "translation": "أنا أحب الأرز والدجاج.",
+    "pronunciation": "Watashi wa gohan to toriniku ga suki desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "今日は鶏肉がありますか？",
+    "translation": "هل لدينا دجاج اليوم؟",
+    "pronunciation": "Kyō wa toriniku ga arimasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "いいえ、鶏肉はありません。",
+    "translation": "لا، ليس لدينا دجاج.",
+    "pronunciation": "Iie, toriniku wa arimasen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "それなら卵を料理しましょう。",
+    "translation": "إذن لنطبخ البيض.",
+    "pronunciation": "Sore nara tamago o ryōri shimashō."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "いい考えです。料理は簡単です。",
+    "translation": "فكرة جيدة. الطبخ سهل.",
+    "pronunciation": "Ii kangae desu. Ryōri wa kantan desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "卵にパンをつけて食べたいです。",
+    "translation": "أريد خبزاً مع البيض.",
+    "pronunciation": "Tamago ni pan o tsukete tabetai desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "今持ってきます。",
+    "translation": "سأحضره الآن.",
+    "pronunciation": "Ima motte kimasu."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d10",
+   "title": "طعام",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 10,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s2_d9"
+  ],
+  "createdAt": 1786696446398
+ }
+}

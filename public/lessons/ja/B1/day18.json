@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "B1",
+ "dayNumber": 18,
+ "story": {
+  "originalText": "Yassin: ohayou , omaru .\nOmar: ohayou , yashin . hanashiai wo tsuzuke rareteureshiidesu .\nYassin: watashi no kangae deha , ( uragiri ) toiu teema ha hibi no ketsudan de juuyou desu .\nOmar: watashi mo sansei desu . watashitachi no sentaku ha , omou ijou ni ooku no nin ni eikyou shimasu .\nYassin: ( uragiri ) toiu teema ha , shinrai to kikai no ryouhou ni eikyou wo atae rareruto omoi masu .\nOmar: soreha jitsuyouteki de rikai shiyasui riyuu desu .\nYassin: gutaiteki na rei wo hitotsu age raremasuka .\nOmar: hai , gutaiteki na rei gaareba , kono kangae hamotto meikaku ninarimasu .\nYassin: ochitsui te iken wo setsumeishi tekuretearigatou .\nOmar: deha , mata . ashita ha ( kuriteikaru na ) toiu teema nitsuite hanashi mashou .",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: في رأيي، موضوع خيانة مهم في قراراتنا اليومية.\nOmar: أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.\nYassin: وسببي هو أن موضوع خيانة يمكن أن يشكل الثقة والفرص معًا.\nOmar: هذا سبب عملي، ومن السهل فهمه.\nYassin: هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟\nOmar: نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.\nYassin: شكرًا لأنك شرحت رأيك بهدوء.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Criticism.",
+  "nativeScriptText": "Yassin: おはよう、オマル。\nOmar: おはよう、ヤシン。話し合いを続けられてうれしいです。\nYassin: 私の考えでは、「裏切り」というテーマは日々の決断で重要です。\nOmar: 私も賛成です。私たちの選択は、思う以上に多くの人に影響します。\nYassin: 「裏切り」というテーマは、信頼と機会の両方に影響を与えられると思います。\nOmar: それは実用的で理解しやすい理由です。\nYassin: 具体的な例を一つ挙げられますか。\nOmar: はい、具体的な例があれば、この考えはもっと明確になります。\nYassin: 落ち着いて意見を説明してくれてありがとう。\nOmar: では、また。明日は「クリティカルな」というテーマについて話しましょう。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 18: خيانة",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "おはよう、オマル。",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "ohayou , omaru ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "おはよう、ヤシン。話し合いを続けられてうれしいです。",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "ohayou , yashin . hanashiai wo tsuzuke rareteureshiidesu ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私の考えでは、「裏切り」というテーマは日々の決断で重要です。",
+    "translation": "في رأيي، موضوع خيانة مهم في قراراتنا اليومية.",
+    "pronunciation": "watashi no kangae deha , ( uragiri ) toiu teema ha hibi no ketsudan de juuyou desu ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私も賛成です。私たちの選択は、思う以上に多くの人に影響します。",
+    "translation": "أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.",
+    "pronunciation": "watashi mo sansei desu . watashitachi no sentaku ha , omou ijou ni ooku no nin ni eikyou shimasu ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "「裏切り」というテーマは、信頼と機会の両方に影響を与えられると思います。",
+    "translation": "وسببي هو أن موضوع خيانة يمكن أن يشكل الثقة والفرص معًا.",
+    "pronunciation": "( uragiri ) toiu teema ha , shinrai to kikai no ryouhou ni eikyou wo atae rareruto omoi masu ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "それは実用的で理解しやすい理由です。",
+    "translation": "هذا سبب عملي، ومن السهل فهمه.",
+    "pronunciation": "soreha jitsuyouteki de rikai shiyasui riyuu desu ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "具体的な例を一つ挙げられますか。",
+    "translation": "هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟",
+    "pronunciation": "gutaiteki na rei wo hitotsu age raremasuka ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、具体的な例があれば、この考えはもっと明確になります。",
+    "translation": "نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.",
+    "pronunciation": "hai , gutaiteki na rei gaareba , kono kangae hamotto meikaku ninarimasu ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "落ち着いて意見を説明してくれてありがとう。",
+    "translation": "شكرًا لأنك شرحت رأيك بهدوء.",
+    "pronunciation": "ochitsui te iken wo setsumeishi tekuretearigatou ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "では、また。明日は「クリティカルな」というテーマについて話しましょう。",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Criticism.",
+    "pronunciation": "deha , mata . ashita ha ( kuriteikaru na ) toiu teema nitsuite hanashi mashou ."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d18",
+   "title": "خيانة",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 18,
+  "level": "B1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s3_d17"
+  ],
+  "createdAt": 1786705141011
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 21,
+ "story": {
+  "originalText": "Yassin: Anata wa gakusei desu ka, soretomo sensei desu ka?\nOmar: Watashi wa gakusei desu.\nYassin: Sensei wa doko de hataraite imasu ka?\nOmar: Sensei wa gakushūsho de hataraite imasu.\nYassin: Anata no hon wa doko desu ka?\nOmar: Watashi no hon wa tsukue no ue ni arimasu.\nYassin: Jugyō wa nan yōbi desu ka?\nOmar: Jugyō wa suiyōbi desu.\nYassin: Subarashii. Shigoto to gakkō no junbi ga dekite imasu ne.\nOmar: Arigatō. Ima onaka ga suite imasu.",
+  "translatedText": "Yassin: هل أنت طالب أم معلم؟\nOmar: أنا طالب.\nYassin: أين يعمل المعلم؟\nOmar: المعلم يعمل في المعهد.\nYassin: أين كتابك؟\nOmar: كتابي على المكتب.\nYassin: في أي يوم يكون درسنا؟\nOmar: الدرس يوم الأربعاء.\nYassin: ممتاز. أنت مستعد للعمل والمدرسة.\nOmar: شكراً. أنا جائع الآن.",
+  "nativeScriptText": "Yassin: あなたは学生ですか、それとも先生ですか？\nOmar: 私は学生です。\nYassin: 先生はどこで働いていますか？\nOmar: 先生は学習所で働いています。\nYassin: あなたの本はどこですか？\nOmar: 私の本は机の上にあります。\nYassin: 授業は何曜日ですか？\nOmar: 授業は水曜日です。\nYassin: 素晴らしい。仕事と学校の準備ができていますね。\nOmar: ありがとう。今お腹が空いています。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 21: مراجعة شاملة (15-20)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "あなたは学生ですか、それとも先生ですか？",
+    "translation": "هل أنت طالب أم معلم؟",
+    "pronunciation": "Anata wa gakusei desu ka, soretomo sensei desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私は学生です。",
+    "translation": "أنا طالب.",
+    "pronunciation": "Watashi wa gakusei desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "先生はどこで働いていますか？",
+    "translation": "أين يعمل المعلم؟",
+    "pronunciation": "Sensei wa doko de hataraite imasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "先生は学習所で働いています。",
+    "translation": "المعلم يعمل في المعهد.",
+    "pronunciation": "Sensei wa gakushūsho de hataraite imasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "あなたの本はどこですか？",
+    "translation": "أين كتابك؟",
+    "pronunciation": "Anata no hon wa doko desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私の本は机の上にあります。",
+    "translation": "كتابي على المكتب.",
+    "pronunciation": "Watashi no hon wa tsukue no ue ni arimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "授業は何曜日ですか？",
+    "translation": "في أي يوم يكون درسنا؟",
+    "pronunciation": "Jugyō wa nan yōbi desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "授業は水曜日です。",
+    "translation": "الدرس يوم الأربعاء.",
+    "pronunciation": "Jugyō wa suiyōbi desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "素晴らしい。仕事と学校の準備ができていますね。",
+    "translation": "ممتاز. أنت مستعد للعمل والمدرسة.",
+    "pronunciation": "Subarashii. Shigoto to gakkō no junbi ga dekite imasu ne."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "ありがとう。今お腹が空いています。",
+    "translation": "شكراً. أنا جائع الآن.",
+    "pronunciation": "Arigatō. Ima onaka ga suite imasu."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d21",
+   "title": "مراجعة شاملة (15-20)",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 21,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s3_d20"
+  ],
+  "createdAt": 1786696446398
+ }
+}

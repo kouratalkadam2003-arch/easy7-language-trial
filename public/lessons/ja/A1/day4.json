@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 4,
+ "story": {
+  "originalText": "Yassin: Ohayō, Yassin.\nOmar: Ohayō, Omar.\nYassin: Gakushūsho e yōkoso.\nOmar: Dōmo arigatō gozaimasu.\nYassin: Hiru no ato ni wa \"konnichiwa\" o iimasu.\nOmar: Soshite \"konbanwa\" wa yoru ni iimasu ka?\nYassin: Hai, sore wa tadashii desu.\nOmar: Aisatsu wa taisetsu desu.\nYassin: Sore wa keii to shinsetsu o shimeshimasu.\nOmar: Arigatō. Jugyō no ato de aimashō.",
+  "translatedText": "Yassin: صباح الخير يا ياسين.\nOmar: صباح الخير يا عمر.\nYassin: أهلاً بك في المعهد.\nOmar: شكراً جزيلاً.\nYassin: نقول «مرحباً» بعد الظهر.\nOmar: و«مساء الخير» تُقال في المساء؟\nYassin: نعم، هذا صحيح.\nOmar: التحيات مهمة.\nYassin: إنها تُظهر الاحترام واللطف.\nOmar: شكراً. أراك بعد الدرس.",
+  "nativeScriptText": "Yassin: おはよう、Yassin。\nOmar: おはよう、Omar。\nYassin: 学習所へようこそ。\nOmar: どうもありがとうございます。\nYassin: 昼のあとには「こんにちは」を言います。\nOmar: そして「こんばんは」は夜に言いますか？\nYassin: はい、それは正しいです。\nOmar: あいさつは大切です。\nYassin: それは敬意と親切を示します。\nOmar: ありがとう。授業の後で会いましょう。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 4: تحية",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "おはよう、Yassin。",
+    "translation": "صباح الخير يا ياسين.",
+    "pronunciation": "Ohayō, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "おはよう、Omar。",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Ohayō, Omar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "学習所へようこそ。",
+    "translation": "أهلاً بك في المعهد.",
+    "pronunciation": "Gakushūsho e yōkoso."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "どうもありがとうございます。",
+    "translation": "شكراً جزيلاً.",
+    "pronunciation": "Dōmo arigatō gozaimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "昼のあとには「こんにちは」を言います。",
+    "translation": "نقول «مرحباً» بعد الظهر.",
+    "pronunciation": "Hiru no ato ni wa \"konnichiwa\" o iimasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "そして「こんばんは」は夜に言いますか？",
+    "translation": "و«مساء الخير» تُقال في المساء؟",
+    "pronunciation": "Soshite \"konbanwa\" wa yoru ni iimasu ka?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "はい、それは正しいです。",
+    "translation": "نعم، هذا صحيح.",
+    "pronunciation": "Hai, sore wa tadashii desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "あいさつは大切です。",
+    "translation": "التحيات مهمة.",
+    "pronunciation": "Aisatsu wa taisetsu desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "それは敬意と親切を示します。",
+    "translation": "إنها تُظهر الاحترام واللطف.",
+    "pronunciation": "Sore wa keii to shinsetsu o shimeshimasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "ありがとう。授業の後で会いましょう。",
+    "translation": "شكراً. أراك بعد الدرس.",
+    "pronunciation": "Arigatō. Jugyō no ato de aimashō."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d4",
+   "title": "تحية",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 4,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s1_d3"
+  ],
+  "createdAt": 1786696446398
+ }
+}

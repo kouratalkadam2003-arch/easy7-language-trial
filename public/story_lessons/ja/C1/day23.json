@@ -1,0 +1,446 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_c1_ja_d23",
+  "languageCode": "ja",
+  "languageNameArabic": "اليابانية",
+  "cefrLevel": "C1",
+  "chapterId": "chapter_05_truth",
+  "dayNumber": 23,
+  "lessonTitle": "怒りと理解の間",
+  "englishTitle": "Between Anger and Understanding",
+  "arabicTitle": "بين الغضب والفهم",
+  "canonicalBeatIds": [
+   "BEAT_C1_D23"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التعبير عن موقف عاطفي معقد.",
+  "realLifeTransferArabic": "تحليل مصادر وحجج أو تفاوض وقرار متقدم.",
+  "successCapabilityArabic": "أدِّ مهمة متقدمة حول: بين الغضب والفهم."
+ },
+ "story": {
+  "storyContextArabic": "يواجه ليث صدمته من حقيقة عاصف.",
+  "storyMissionArabic": "يتقدم ليث عبر: بين الغضب والفهم.",
+  "setting": "council_and_region",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "نتيجة مناسبة لمستوى القصة."
+   ],
+   "forbiddenReveals": []
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: بين الغضب والفهم."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_C1_D23_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_C1_D23_01",
+     "narrationArabic": "يواجه ليث صدمته من حقيقة عاصف."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C1_D23_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التعبير عن موقف عاطفي معقد.",
+   "lines": [
+    {
+     "lineId": "L_C1_JA_D23_01",
+     "speakerId": "gaston",
+     "targetText": "私たちは怒りと理解を注意深く検討する必要があります。",
+     "englishReference": "We need to examine anger and understanding carefully.",
+     "arabicTranslation": "يجب أن نحلل الموضوع بدقة.",
+     "pronunciation": "watashitachi ha ikari to rikai wo chuuibukaku kentousu ru hitsuyou gaarimasu .",
+     "phraseIds": [
+      "P_C1_JA_D23_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_C1_JA_D23_02",
+     "speakerId": "laith",
+     "targetText": "私の解釈は、見た目よりも複雑です。",
+     "englishReference": "My interpretation is more complex than it first appears.",
+     "arabicTranslation": "تفسيري أكثر تعقيدًا مما يبدو.",
+     "pronunciation": "watashi no kaishaku ha , mitame yorimo fukuzatsu desu .",
+     "phraseIds": [
+      "P_C1_JA_D23_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C1_JA_D23_03",
+     "speakerId": "gaston",
+     "targetText": "その見解を裏付ける証拠は何ですか?",
+     "englishReference": "What evidence supports that view?",
+     "arabicTranslation": "ما الدليل على ذلك؟",
+     "pronunciation": "sono kenkai wo urazuke ru shouko ha nande suka ?",
+     "phraseIds": [
+      "P_C1_JA_D23_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C1_JA_D23_04",
+     "speakerId": "laith",
+     "targetText": "証拠は役に立ちますが、限界もあります。",
+     "englishReference": "The evidence is useful, but it has limits.",
+     "arabicTranslation": "الدليل مفيد لكنه محدود.",
+     "pronunciation": "shouko ha yakunitachi masuga , genkai moarimasu .",
+     "phraseIds": [
+      "P_C1_JA_D23_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C1_JA_D23_05",
+     "speakerId": "gaston",
+     "targetText": "最も強い反対にどう対応すべきでしょうか?",
+     "englishReference": "How should we respond to the strongest objection?",
+     "arabicTranslation": "كيف نرد على الاعتراض الأقوى؟",
+     "pronunciation": "mottomo tsuyoi hantai nidou taiou subekideshouka ?",
+     "phraseIds": [
+      "P_C1_JA_D23_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C1_JA_D23_06",
+     "speakerId": "laith",
+     "targetText": "私たちは自分の推論を明確に述べ、不確実性を認めるべきです。",
+     "englishReference": "We should state our reasoning clearly and admit uncertainty.",
+     "arabicTranslation": "ينبغي أن نعرض استدلالنا بوضوح ونعترف بما لا نعرفه.",
+     "pronunciation": "watashitachi ha jibun no suiron wo meikaku ni nobe , fukakujitsusei wo mitome rubekidesu .",
+     "phraseIds": [
+      "P_C1_JA_D23_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C1_JA_D23_07",
+     "speakerId": "gaston",
+     "targetText": "それは責任のある立場です。",
+     "englishReference": "That is a responsible position.",
+     "arabicTranslation": "هذا موقف مسؤول.",
+     "pronunciation": "soreha sekinin noaru tachiba desu .",
+     "phraseIds": [
+      "P_C1_JA_D23_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_C1_JA_D23_08",
+     "speakerId": "laith",
+     "targetText": "ありがとう。気をつけて続けていきましょう。",
+     "englishReference": "Thank you. Let us continue with care.",
+     "arabicTranslation": "شكرًا، لنتابع بحذر.",
+     "pronunciation": "arigatou . kiwo tsukete tsuzuke teikimashou .",
+     "phraseIds": [
+      "P_C1_JA_D23_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C1_D23_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "argument_rebuild",
+     "phraseIds": [
+      "P_C1_JA_D23_C01",
+      "P_C1_JA_D23_C02",
+      "P_C1_JA_D23_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_C1_JA_D23_C01",
+      "P_C1_JA_D23_C02",
+      "P_C1_JA_D23_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_C1_JA_D23_I01",
+      "P_C1_JA_D23_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C1_D23_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى نقاش مهني أو أكاديمي أو رسمي.",
+   "requiredPhraseIds": [
+    "P_C1_JA_D23_C01",
+    "P_C1_JA_D23_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_C1_D23_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "この地域は最新のニュースに注意深く耳を傾けています。",
+     "englishReference": "The region is listening closely to the latest news.",
+     "arabicTranslation": "المنطقة تتابع الأخبار الأخيرة باهتمام.",
+     "pronunciation": "kono chiiki ha saishin no nyuusu ni chuuibukaku mimi wo katamuke teimasu ."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "すべてのメッセージが、見た目の意味を意味しているわけではありません。",
+     "englishReference": "Not every message means what it seems to mean.",
+     "arabicTranslation": "ليست كل رسالة تعني ما تبدو عليه.",
+     "pronunciation": "subeteno messeeji ga , mitame no imi wo imi shiteiruwakedehaarimasen ."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_C1_D23_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "يحتاج المجلس إلى قرار حول: بين الغضب والفهم.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "analyze",
+     "respond_to_objection",
+     "propose_responsibly"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير حجة متقدمة متزنة.",
+    "afterArabic": "يستطيع الآن تحليل موقف وبناء رد مسؤول."
+   },
+   "successWorldConsequence": "C1_DAY_23:COMPLETE",
+   "retryPolicy": "يعاد التحدي بعد تلميح لنوع الدليل أو الشرط."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_C1_JA_D23_S01",
+   "text": "私たちは怒りと理解を注意深く検討する必要があります。",
+   "englishReference": "We need to examine anger and understanding carefully.",
+   "arabicTranslation": "يجب أن نحلل الموضوع بدقة.",
+   "pronunciation": "watashitachi ha ikari to rikai wo chuuibukaku kentousu ru hitsuyou gaarimasu .",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_C1_JA_D23_C01",
+   "text": "私の解釈は、見た目よりも複雑です。",
+   "englishReference": "My interpretation is more complex than it first appears.",
+   "arabicTranslation": "تفسيري أكثر تعقيدًا مما يبدو.",
+   "pronunciation": "watashi no kaishaku ha , mitame yorimo fukuzatsu desu .",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C1_JA_D23_I01",
+   "text": "その見解を裏付ける証拠は何ですか?",
+   "englishReference": "What evidence supports that view?",
+   "arabicTranslation": "ما الدليل على ذلك؟",
+   "pronunciation": "sono kenkai wo urazuke ru shouko ha nande suka ?",
+   "classification": "important",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_C1_JA_D23_C02",
+   "text": "証拠は役に立ちますが、限界もあります。",
+   "englishReference": "The evidence is useful, but it has limits.",
+   "arabicTranslation": "الدليل مفيد لكنه محدود.",
+   "pronunciation": "shouko ha yakunitachi masuga , genkai moarimasu .",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C1_JA_D23_I02",
+   "text": "最も強い反対にどう対応すべきでしょうか?",
+   "englishReference": "How should we respond to the strongest objection?",
+   "arabicTranslation": "كيف نرد على الاعتراض الأقوى؟",
+   "pronunciation": "mottomo tsuyoi hantai nidou taiou subekideshouka ?",
+   "classification": "important",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_C1_JA_D23_C03",
+   "text": "私たちは自分の推論を明確に述べ、不確実性を認めるべきです。",
+   "englishReference": "We should state our reasoning clearly and admit uncertainty.",
+   "arabicTranslation": "ينبغي أن نعرض استدلالنا بوضوح ونعترف بما لا نعرفه.",
+   "pronunciation": "watashitachi ha jibun no suiron wo meikaku ni nobe , fukakujitsusei wo mitome rubekidesu .",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C1_JA_D23_S02",
+   "text": "それは責任のある立場です。",
+   "englishReference": "That is a responsible position.",
+   "arabicTranslation": "هذا موقف مسؤول.",
+   "pronunciation": "soreha sekinin noaru tachiba desu .",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_C1_JA_D23_S03",
+   "text": "ありがとう。気をつけて続けていきましょう。",
+   "englishReference": "Thank you. Let us continue with care.",
+   "arabicTranslation": "شكرًا، لنتابع بحذر.",
+   "pronunciation": "arigatou . kiwo tsukete tsuzuke teikimashou .",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "argument_structure"
+   ],
+   "supportFadePlan": "يعتمد المستوى على الاستدلال والنبرة."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_C1_JA_D23_C01",
+     "P_C1_JA_D23_C02",
+     "P_C1_JA_D23_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_C1_JA_D23_I01",
+     "P_C1_JA_D23_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_C1_JA_D23_C01",
+    "P_C1_JA_D23_C02",
+    "P_C1_JA_D23_C03",
+    "P_C1_JA_D23_I01",
+    "P_C1_JA_D23_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تعود الحجة داخل مجلس أو رسالة لاحقة."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "C1_D22:COMPLETE"
+  ],
+  "onSuccess": [
+   "C1_DAY_23:COMPLETE",
+   "C1_D24:UNLOCKED"
+  ],
+  "milestone": "c1_milestone_23",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_c1_ja_d22",
+  "nextLessonId": "story_c1_ja_d24",
+  "nextLessonHookArabic": "نتيجة اليوم تفتح الخطوة التالية في القصة.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم C1 23: بين الغضب والفهم."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "B1",
+ "dayNumber": 4,
+ "story": {
+  "originalText": "Yassin: Guten Morgen, Omar.\nOmar: Guten Morgen, Yassin. Ich freue mich, dass wir unser Gespräch fortsetzen können.\nYassin: Meiner Ansicht nach ist das Thema „Kultur“ in unseren täglichen Entscheidungen wichtig.\nOmar: Ich stimme zu, weil unsere Entscheidungen mehr Menschen betreffen, als wir erwarten.\nYassin: Ich denke, dass das Thema „Kultur“ sowohl Vertrauen als auch Chancen prägen kann.\nOmar: Das ist ein praktischer und leicht verständlicher Grund.\nYassin: Kannst du ein konkretes Beispiel geben?\nOmar: Ja, ein konkretes Beispiel kann diese Idee klarer machen.\nYassin: Danke, dass du deine Meinung so ruhig erklärt hast.\nOmar: Bis bald. Morgen sprechen wir über das Thema „Saldo“. ",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: في رأيي، موضوع ثقافة مهم في قراراتنا اليومية.\nOmar: أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.\nYassin: وسببي هو أن موضوع ثقافة يمكن أن يشكل الثقة والفرص معًا.\nOmar: هذا سبب عملي، ومن السهل فهمه.\nYassin: هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟\nOmar: نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.\nYassin: شكرًا لأنك شرحت رأيك بهدوء.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Balance.",
+  "nativeScriptText": "Yassin: Guten Morgen, Omar.\nOmar: Guten Morgen, Yassin. Ich freue mich, dass wir unser Gespräch fortsetzen können.\nYassin: Meiner Ansicht nach ist das Thema „Kultur“ in unseren täglichen Entscheidungen wichtig.\nOmar: Ich stimme zu, weil unsere Entscheidungen mehr Menschen betreffen, als wir erwarten.\nYassin: Ich denke, dass das Thema „Kultur“ sowohl Vertrauen als auch Chancen prägen kann.\nOmar: Das ist ein praktischer und leicht verständlicher Grund.\nYassin: Kannst du ein konkretes Beispiel geben?\nOmar: Ja, ein konkretes Beispiel kann diese Idee klarer machen.\nYassin: Danke, dass du deine Meinung so ruhig erklärt hast.\nOmar: Bis bald. Morgen sprechen wir über das Thema „Saldo“. ",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 4: ثقافة",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Guten Morgen, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Guten Morgen, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Guten Morgen, Yassin. Ich freue mich, dass wir unser Gespräch fortsetzen können.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Guten Morgen, Yassin. Ich freue mich, dass wir unser Gespräch fortsetzen können."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Meiner Ansicht nach ist das Thema „Kultur“ in unseren täglichen Entscheidungen wichtig.",
+    "translation": "في رأيي، موضوع ثقافة مهم في قراراتنا اليومية.",
+    "pronunciation": "Meiner Ansicht nach ist das Thema „Kultur“ in unseren täglichen Entscheidungen wichtig."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich stimme zu, weil unsere Entscheidungen mehr Menschen betreffen, als wir erwarten.",
+    "translation": "أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.",
+    "pronunciation": "Ich stimme zu, weil unsere Entscheidungen mehr Menschen betreffen, als wir erwarten."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich denke, dass das Thema „Kultur“ sowohl Vertrauen als auch Chancen prägen kann.",
+    "translation": "وسببي هو أن موضوع ثقافة يمكن أن يشكل الثقة والفرص معًا.",
+    "pronunciation": "Ich denke, dass das Thema „Kultur“ sowohl Vertrauen als auch Chancen prägen kann."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Das ist ein praktischer und leicht verständlicher Grund.",
+    "translation": "هذا سبب عملي، ومن السهل فهمه.",
+    "pronunciation": "Das ist ein praktischer und leicht verständlicher Grund."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Kannst du ein konkretes Beispiel geben?",
+    "translation": "هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟",
+    "pronunciation": "Kannst du ein konkretes Beispiel geben?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, ein konkretes Beispiel kann diese Idee klarer machen.",
+    "translation": "نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.",
+    "pronunciation": "Ja, ein konkretes Beispiel kann diese Idee klarer machen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Danke, dass du deine Meinung so ruhig erklärt hast.",
+    "translation": "شكرًا لأنك شرحت رأيك بهدوء.",
+    "pronunciation": "Danke, dass du deine Meinung so ruhig erklärt hast."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bis bald. Morgen sprechen wir über das Thema „Saldo“. ",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Balance.",
+    "pronunciation": "Bis bald. Morgen sprechen wir über das Thema „Saldo“. "
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d4",
+   "title": "ثقافة",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 4,
+  "level": "B1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s1_d3"
+  ],
+  "createdAt": 1786705141011
+ }
+}

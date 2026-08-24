@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_zh_d24",
+  "languageCode": "zh",
+  "languageNameArabic": "الصينية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 24,
+  "lessonTitle": "私人报告",
+  "englishTitle": "A Private Report",
+  "arabicTitle": "خبر سري",
+  "canonicalBeatIds": [
+   "BEAT_B2_D24"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التحدث عن معلومة سرية ومسؤولية التعامل معها.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: خبر سري."
+ },
+ "story": {
+  "storyContextArabic": "تجد نور ورقة لا تحمل اسمًا قرب مكتب الراديو.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: خبر سري.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "noor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: خبر سري."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D24_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D24_01",
+     "narrationArabic": "تجد نور ورقة لا تحمل اسمًا قرب مكتب الراديو."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D24_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التحدث عن معلومة سرية ومسؤولية التعامل معها.",
+   "lines": [
+    {
+     "lineId": "L_B2_ZH_D24_01",
+     "speakerId": "noor",
+     "targetText": "该团队对私人报告表示担忧。",
+     "englishReference": "The team has concerns about the private report.",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "gāi tuán duì duì sī rén bào gào biǎo shì dān yōu.",
+     "phraseIds": [
+      "P_B2_ZH_D24_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_ZH_D24_02",
+     "speakerId": "laith",
+     "targetText": "我的立场是我们不应该很快分享这一点。",
+     "englishReference": "My position is that we should not share this quickly.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "wǒ de lì chǎng shì wǒ men bù yīng gāi hěn kuài fēn xiǎng zhè yì diǎn.",
+     "phraseIds": [
+      "P_B2_ZH_D24_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ZH_D24_03",
+     "speakerId": "noor",
+     "targetText": "您能解释一下风险吗？",
+     "englishReference": "Can you explain the risk?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "nín néng jiě shì yī xià fēng xiǎn ma.",
+     "phraseIds": [
+      "P_B2_ZH_D24_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ZH_D24_04",
+     "speakerId": "laith",
+     "targetText": "风险在于它可能会不公平地伤害某人。",
+     "englishReference": "The risk is that it may harm someone unfairly.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "fēng xiǎn zài yú tā kě néng huì bù gōng píng dì shāng hài mǒu rén.",
+     "phraseIds": [
+      "P_B2_ZH_D24_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ZH_D24_05",
+     "speakerId": "noor",
+     "targetText": "我们怎样才能减少它呢？",
+     "englishReference": "How can we reduce it?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "wǒ men zěn yàng cái néng jiǎn shǎo tā ne.",
+     "phraseIds": [
+      "P_B2_ZH_D24_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ZH_D24_06",
+     "speakerId": "laith",
+     "targetText": "如果我们只能向合适的人展示，我们就能采取行动。",
+     "englishReference": "We can act if we can show it only to the right people.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "rú guǒ wǒ men zhǐ néng xiàng hé shì de rén zhǎn shì, wǒ men jiù néng cǎi qǔ xíng dòng.",
+     "phraseIds": [
+      "P_B2_ZH_D24_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ZH_D24_07",
+     "speakerId": "noor",
+     "targetText": "这是一个有用的条件。",
+     "englishReference": "That is a useful condition.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "zhè shì yí gè yǒu yòng de tiáo jiàn.",
+     "phraseIds": [
+      "P_B2_ZH_D24_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_ZH_D24_08",
+     "speakerId": "laith",
+     "targetText": "谢谢。我会与团队分享。",
+     "englishReference": "Thank you. I will share it with the team.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "xiè xiè. wǒ huì yǔ tuán duì fēn xiǎng.",
+     "phraseIds": [
+      "P_B2_ZH_D24_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D24_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_ZH_D24_C01",
+      "P_B2_ZH_D24_C02",
+      "P_B2_ZH_D24_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_ZH_D24_C01",
+      "P_B2_ZH_D24_C02",
+      "P_B2_ZH_D24_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_ZH_D24_I01",
+      "P_B2_ZH_D24_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D24_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_ZH_D24_C01",
+    "P_B2_ZH_D24_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D24_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "该联盟正在改变该地区。",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة.",
+     "pronunciation": "gāi lián méng zhèng zài gǎi biàn gāi dì qū."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "一些细节目前应保密。",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن.",
+     "pronunciation": "yī xiē xì jié mù qián yīng bǎo mì."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D24_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: خبر سري.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "PRIVATE_REPORT:SECURED",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_ZH_D24_S01",
+   "text": "该团队对私人报告表示担忧。",
+   "englishReference": "The team has concerns about the private report.",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "gāi tuán duì duì sī rén bào gào biǎo shì dān yōu.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_ZH_D24_C01",
+   "text": "我的立场是我们不应该很快分享这一点。",
+   "englishReference": "My position is that we should not share this quickly.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "wǒ de lì chǎng shì wǒ men bù yīng gāi hěn kuài fēn xiǎng zhè yì diǎn.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_ZH_D24_I01",
+   "text": "您能解释一下风险吗？",
+   "englishReference": "Can you explain the risk?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "nín néng jiě shì yī xià fēng xiǎn ma.",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_ZH_D24_C02",
+   "text": "风险在于它可能会不公平地伤害某人。",
+   "englishReference": "The risk is that it may harm someone unfairly.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "fēng xiǎn zài yú tā kě néng huì bù gōng píng dì shāng hài mǒu rén.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_ZH_D24_I02",
+   "text": "我们怎样才能减少它呢？",
+   "englishReference": "How can we reduce it?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "wǒ men zěn yàng cái néng jiǎn shǎo tā ne.",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_ZH_D24_C03",
+   "text": "如果我们只能向合适的人展示，我们就能采取行动。",
+   "englishReference": "We can act if we can show it only to the right people.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "rú guǒ wǒ men zhǐ néng xiàng hé shì de rén zhǎn shì, wǒ men jiù néng cǎi qǔ xíng dòng.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_ZH_D24_S02",
+   "text": "这是一个有用的条件。",
+   "englishReference": "That is a useful condition.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "zhè shì yí gè yǒu yòng de tiáo jiàn.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_ZH_D24_S03",
+   "text": "谢谢。我会与团队分享。",
+   "englishReference": "Thank you. I will share it with the team.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "xiè xiè. wǒ huì yǔ tuán duì fēn xiǎng.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_ZH_D24_C01",
+     "P_B2_ZH_D24_C02",
+     "P_B2_ZH_D24_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_ZH_D24_I01",
+     "P_B2_ZH_D24_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_ZH_D24_C01",
+    "P_B2_ZH_D24_C02",
+    "P_B2_ZH_D24_C03",
+    "P_B2_ZH_D24_I01",
+    "P_B2_ZH_D24_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B2_D23:COMPLETE"
+  ],
+  "onSuccess": [
+   "PRIVATE_REPORT:SECURED",
+   "B2_D25:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_24",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b2_zh_d23",
+  "nextLessonId": "story_b2_zh_d25",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 24: خبر سري."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

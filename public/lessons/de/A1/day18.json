@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 18,
+ "story": {
+  "originalText": "Yassin: Guten Morgen, Yassin. Hier ist das Buch.\nOmar: Danke. Ist das das Englischbuch?\nYassin: Ja, das ist unser neues Englischbuch.\nOmar: Das Buch ist sehr nützlich.\nYassin: Öffne das Buch auf Seite zehn.\nOmar: Ich sehe einen Dialog auf dieser Seite.\nYassin: Lies bitte den ersten Satz.\nOmar: Ich kann ihn jetzt lesen.\nYassin: Leg das Buch auf den Schreibtisch.\nOmar: Okay, wo ist der Schreibtisch?",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هذا هو الكتاب.\nOmar: شكراً. هل هذا كتاب الإنجليزية؟\nYassin: نعم، هذا كتاب الإنجليزية الجديد.\nOmar: الكتاب مفيد جداً.\nYassin: افتح الكتاب في الصفحة العاشرة.\nOmar: أرى حواراً في هذه الصفحة.\nYassin: اقرأ الجملة الأولى، من فضلك.\nOmar: يمكنني أن أقرأ الجملة الآن.\nYassin: ضع الكتاب على المكتب.\nOmar: حسناً، أين المكتب؟",
+  "nativeScriptText": "Yassin: Guten Morgen, Yassin. Hier ist das Buch.\nOmar: Danke. Ist das das Englischbuch?\nYassin: Ja, das ist unser neues Englischbuch.\nOmar: Das Buch ist sehr nützlich.\nYassin: Öffne das Buch auf Seite zehn.\nOmar: Ich sehe einen Dialog auf dieser Seite.\nYassin: Lies bitte den ersten Satz.\nOmar: Ich kann ihn jetzt lesen.\nYassin: Leg das Buch auf den Schreibtisch.\nOmar: Okay, wo ist der Schreibtisch?",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 18: كتاب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Guten Morgen, Yassin. Hier ist das Buch.",
+    "translation": "صباح الخير يا ياسين. هذا هو الكتاب.",
+    "pronunciation": "Guten Morgen, Yassin. Hier ist das Buch."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Danke. Ist das das Englischbuch?",
+    "translation": "شكراً. هل هذا كتاب الإنجليزية؟",
+    "pronunciation": "Danke. Ist das das Englischbuch?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ja, das ist unser neues Englischbuch.",
+    "translation": "نعم، هذا كتاب الإنجليزية الجديد.",
+    "pronunciation": "Ja, das ist unser neues Englischbuch."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Das Buch ist sehr nützlich.",
+    "translation": "الكتاب مفيد جداً.",
+    "pronunciation": "Das Buch ist sehr nützlich."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Öffne das Buch auf Seite zehn.",
+    "translation": "افتح الكتاب في الصفحة العاشرة.",
+    "pronunciation": "Öffne das Buch auf Seite zehn."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich sehe einen Dialog auf dieser Seite.",
+    "translation": "أرى حواراً في هذه الصفحة.",
+    "pronunciation": "Ich sehe einen Dialog auf dieser Seite."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Lies bitte den ersten Satz.",
+    "translation": "اقرأ الجملة الأولى، من فضلك.",
+    "pronunciation": "Lies bitte den ersten Satz."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich kann ihn jetzt lesen.",
+    "translation": "يمكنني أن أقرأ الجملة الآن.",
+    "pronunciation": "Ich kann ihn jetzt lesen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Leg das Buch auf den Schreibtisch.",
+    "translation": "ضع الكتاب على المكتب.",
+    "pronunciation": "Leg das Buch auf den Schreibtisch."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Okay, wo ist der Schreibtisch?",
+    "translation": "حسناً، أين المكتب؟",
+    "pronunciation": "Okay, wo ist der Schreibtisch?"
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d18",
+   "title": "كتاب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 18,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s3_d17"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 12,
+ "story": {
+  "originalText": "Yassin: Willst du Zucker in deinen Tee?\nOmar: Nein, ich möchte keinen Zucker.\nYassin: Willst du Milch?\nOmar: Nein, ich möchte heute keine Milch.\nYassin: Willst du mehr Brot?\nOmar: Nein, danke. Ich möchte kein Brot mehr.\nYassin: Das ist in Ordnung. Du kannst wählen.\nOmar: Danke. Ich möchte stattdessen Wasser.\nYassin: Wir brauchen Wasser für die Mahlzeit.\nOmar: Lass uns morgen Wasser holen.",
+  "translatedText": "Yassin: هل تريد السكر في شايك؟\nOmar: لا، لا أريد السكر.\nYassin: هل تريد الحليب؟\nOmar: لا، لا أريد الحليب اليوم.\nYassin: هل تريد مزيداً من الخبز؟\nOmar: لا، شكراً. لا أريد مزيداً من الخبز.\nYassin: لا بأس. يمكنك الاختيار.\nOmar: شكراً. أريد الماء بدلاً من ذلك.\nYassin: نحتاج إلى الماء للوجبة.\nOmar: لنحضر الماء غداً.",
+  "nativeScriptText": "Yassin: Willst du Zucker in deinen Tee?\nOmar: Nein, ich möchte keinen Zucker.\nYassin: Willst du Milch?\nOmar: Nein, ich möchte heute keine Milch.\nYassin: Willst du mehr Brot?\nOmar: Nein, danke. Ich möchte kein Brot mehr.\nYassin: Das ist in Ordnung. Du kannst wählen.\nOmar: Danke. Ich möchte stattdessen Wasser.\nYassin: Wir brauchen Wasser für die Mahlzeit.\nOmar: Lass uns morgen Wasser holen.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 12: لا أريد",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Willst du Zucker in deinen Tee?",
+    "translation": "هل تريد السكر في شايك؟",
+    "pronunciation": "Willst du Zucker in deinen Tee?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Nein, ich möchte keinen Zucker.",
+    "translation": "لا، لا أريد السكر.",
+    "pronunciation": "Nein, ich möchte keinen Zucker."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Willst du Milch?",
+    "translation": "هل تريد الحليب؟",
+    "pronunciation": "Willst du Milch?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Nein, ich möchte heute keine Milch.",
+    "translation": "لا، لا أريد الحليب اليوم.",
+    "pronunciation": "Nein, ich möchte heute keine Milch."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Willst du mehr Brot?",
+    "translation": "هل تريد مزيداً من الخبز؟",
+    "pronunciation": "Willst du mehr Brot?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Nein, danke. Ich möchte kein Brot mehr.",
+    "translation": "لا، شكراً. لا أريد مزيداً من الخبز.",
+    "pronunciation": "Nein, danke. Ich möchte kein Brot mehr."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Das ist in Ordnung. Du kannst wählen.",
+    "translation": "لا بأس. يمكنك الاختيار.",
+    "pronunciation": "Das ist in Ordnung. Du kannst wählen."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Danke. Ich möchte stattdessen Wasser.",
+    "translation": "شكراً. أريد الماء بدلاً من ذلك.",
+    "pronunciation": "Danke. Ich möchte stattdessen Wasser."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wir brauchen Wasser für die Mahlzeit.",
+    "translation": "نحتاج إلى الماء للوجبة.",
+    "pronunciation": "Wir brauchen Wasser für die Mahlzeit."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Lass uns morgen Wasser holen.",
+    "translation": "لنحضر الماء غداً.",
+    "pronunciation": "Lass uns morgen Wasser holen."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d12",
+   "title": "لا أريد",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 12,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s2_d11"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_it_d01",
+  "languageCode": "it",
+  "languageNameArabic": "الإيطالية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 1,
+  "lessonTitle": "Un volto familiare",
+  "englishTitle": "A Familiar Face",
+  "arabicTitle": "وجه مألوف",
+  "canonicalBeatIds": [
+   "BEAT_A2_D01"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التحدث عن لقاء حديث وتحديد وقت بسيط.",
+  "realLifeTransferArabic": "مقابلة جار أو زميل بعد نشاط جماعي.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: وجه مألوف دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "بعد يوم الحديقة، يلتقي ليث فينسنت قرب السوق ويقرر مساعدة مارثا.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: وجه مألوف.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "vincent"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: وجه مألوف."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D01_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D01_01",
+     "narrationArabic": "بعد يوم الحديقة، يلتقي ليث فينسنت قرب السوق ويقرر مساعدة مارثا."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D01_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التحدث عن لقاء حديث وتحديد وقت بسيط.",
+   "lines": [
+    {
+     "lineId": "L_A2_IT_D01_01",
+     "speakerId": "vincent",
+     "targetText": "Buongiorno, Laith. Ti ho visto al Garden Day.",
+     "englishReference": "Good morning, Laith. I saw you at the garden day.",
+     "arabicTranslation": "صباح الخير يا ليث. I saw you at the garden day.",
+     "pronunciation": "Buongiorno, Laith. Ti ho visto al Garden Day.",
+     "phraseIds": [
+      "P_A2_IT_D01_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_IT_D01_02",
+     "speakerId": "laith",
+     "targetText": "Buongiorno. Lì ho incontrato molte persone.",
+     "englishReference": "Good morning. I met many people there.",
+     "arabicTranslation": "صباح الخير. I met many people there.",
+     "pronunciation": "Buongiorno. Lì ho incontrato molte persone.",
+     "phraseIds": [
+      "P_A2_IT_D01_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D01_03",
+     "speakerId": "vincent",
+     "targetText": "Vuoi conoscere meglio il borgo?",
+     "englishReference": "Do you want to know the village better?",
+     "arabicTranslation": "Do you want to know the village better?",
+     "pronunciation": "Vuoi conoscere meglio il borgo?",
+     "phraseIds": [
+      "P_A2_IT_D01_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D01_04",
+     "speakerId": "laith",
+     "targetText": "SÌ. Voglio conoscere meglio i miei vicini.",
+     "englishReference": "Yes. I want to know my neighbors better.",
+     "arabicTranslation": "Yes. I want to know my neighbors better.",
+     "pronunciation": "SÌ. Voglio conoscere meglio i miei vicini.",
+     "phraseIds": [
+      "P_A2_IT_D01_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D01_05",
+     "speakerId": "vincent",
+     "targetText": "Martha ha bisogno di aiuto al mercato oggi.",
+     "englishReference": "Martha needs help at the market today.",
+     "arabicTranslation": "Martha needs help at the market today.",
+     "pronunciation": "Martha ha bisogno di aiuto al mercato oggi.",
+     "phraseIds": [
+      "P_A2_IT_D01_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D01_06",
+     "speakerId": "laith",
+     "targetText": "Posso incontrarla dopo colazione.",
+     "englishReference": "I can meet her after breakfast.",
+     "arabicTranslation": "I can meet her after breakfast.",
+     "pronunciation": "Posso incontrarla dopo colazione.",
+     "phraseIds": [
+      "P_A2_IT_D01_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D01_07",
+     "speakerId": "vincent",
+     "targetText": "Sembra un buon piano.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "Sembra un buon piano.",
+     "phraseIds": [
+      "P_A2_IT_D01_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_IT_D01_08",
+     "speakerId": "laith",
+     "targetText": "Grazie. Arrivederci.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Grazie. Arrivederci.",
+     "phraseIds": [
+      "P_A2_IT_D01_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D01_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_IT_D01_C01",
+      "P_A2_IT_D01_C02",
+      "P_A2_IT_D01_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_IT_D01_C01",
+      "P_A2_IT_D01_C02",
+      "P_A2_IT_D01_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_IT_D01_I01",
+      "P_A2_IT_D01_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D01_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: مقابلة جار أو زميل بعد نشاط جماعي.",
+   "requiredPhraseIds": [
+    "P_A2_IT_D01_C01",
+    "P_A2_IT_D01_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D01_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Il mercato sta cambiando rapidamente in questa stagione.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "Il mercato sta cambiando rapidamente in questa stagione."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "SÌ. Le persone fanno più domande sulle vecchie strade.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "SÌ. Le persone fanno più domande sulle vecchie strade."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D01_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: وجه مألوف.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: وجه مألوف."
+   },
+   "successWorldConsequence": "MARKET_NETWORK:+1; MARTHA_INTRODUCTION:UNLOCKED",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_IT_D01_S01",
+   "text": "Buongiorno, Laith. Ti ho visto al Garden Day.",
+   "englishReference": "Good morning, Laith. I saw you at the garden day.",
+   "arabicTranslation": "صباح الخير يا ليث. I saw you at the garden day.",
+   "pronunciation": "Buongiorno, Laith. Ti ho visto al Garden Day.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مقابلة جار أو زميل بعد نشاط جماعي."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_IT_D01_C01",
+   "text": "Buongiorno. Lì ho incontrato molte persone.",
+   "englishReference": "Good morning. I met many people there.",
+   "arabicTranslation": "صباح الخير. I met many people there.",
+   "pronunciation": "Buongiorno. Lì ho incontrato molte persone.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مقابلة جار أو زميل بعد نشاط جماعي."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D01_I01",
+   "text": "Vuoi conoscere meglio il borgo?",
+   "englishReference": "Do you want to know the village better?",
+   "arabicTranslation": "Do you want to know the village better?",
+   "pronunciation": "Vuoi conoscere meglio il borgo?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مقابلة جار أو زميل بعد نشاط جماعي."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_IT_D01_C02",
+   "text": "SÌ. Voglio conoscere meglio i miei vicini.",
+   "englishReference": "Yes. I want to know my neighbors better.",
+   "arabicTranslation": "Yes. I want to know my neighbors better.",
+   "pronunciation": "SÌ. Voglio conoscere meglio i miei vicini.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مقابلة جار أو زميل بعد نشاط جماعي."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D01_I02",
+   "text": "Martha ha bisogno di aiuto al mercato oggi.",
+   "englishReference": "Martha needs help at the market today.",
+   "arabicTranslation": "Martha needs help at the market today.",
+   "pronunciation": "Martha ha bisogno di aiuto al mercato oggi.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مقابلة جار أو زميل بعد نشاط جماعي."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_IT_D01_C03",
+   "text": "Posso incontrarla dopo colazione.",
+   "englishReference": "I can meet her after breakfast.",
+   "arabicTranslation": "I can meet her after breakfast.",
+   "pronunciation": "Posso incontrarla dopo colazione.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مقابلة جار أو زميل بعد نشاط جماعي."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D01_S02",
+   "text": "Sembra un buon piano.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "Sembra un buon piano.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مقابلة جار أو زميل بعد نشاط جماعي."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_IT_D01_S03",
+   "text": "Grazie. Arrivederci.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Grazie. Arrivederci.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مقابلة جار أو زميل بعد نشاط جماعي."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_IT_D01_C01",
+     "P_A2_IT_D01_C02",
+     "P_A2_IT_D01_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_IT_D01_I01",
+     "P_A2_IT_D01_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_IT_D01_C01",
+    "P_A2_IT_D01_C02",
+    "P_A2_IT_D01_C03",
+    "P_A2_IT_D01_I01",
+    "P_A2_IT_D01_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_STORY_CHAPTER:COMPLETE"
+  ],
+  "onSuccess": [
+   "MARKET_NETWORK:+1; MARTHA_INTRODUCTION:UNLOCKED",
+   "A2_D02:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_01",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_it_d30",
+  "nextLessonId": "story_a2_it_d02",
+  "nextLessonHookArabic": "مارثا تسأل ليث عن عادة قديمة في طفولته.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 1: وجه مألوف."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

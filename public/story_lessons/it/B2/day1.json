@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_it_d01",
+  "languageCode": "it",
+  "languageNameArabic": "الإيطالية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 1,
+  "lessonTitle": "Una proposta di cooperazione",
+  "englishTitle": "A Proposal for Cooperation",
+  "arabicTitle": "عرض تعاون",
+  "canonicalBeatIds": [
+   "BEAT_B2_D01"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "عرض اقتراح ومقارنة فوائده.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: عرض تعاون."
+ },
+ "story": {
+  "storyContextArabic": "تطلب قرية مجاورة التعاون في طريق التجارة.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: عرض تعاون.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "visitor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: عرض تعاون."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D01_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D01_01",
+     "narrationArabic": "تطلب قرية مجاورة التعاون في طريق التجارة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D01_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "عرض اقتراح ومقارنة فوائده.",
+   "lines": [
+    {
+     "lineId": "L_B2_IT_D01_01",
+     "speakerId": "visitor",
+     "targetText": "Prima di decidere, in che modo la proposta di cooperazione influisce su entrambe le parti?",
+     "englishReference": "Before we decide, how does the cooperation proposal affect both sides?",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "Prima di decidere, in che modo la proposta di cooperazione influisce su entrambe le parti?",
+     "phraseIds": [
+      "P_B2_IT_D01_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_IT_D01_02",
+     "speakerId": "laith",
+     "targetText": "Penso che i nostri villaggi possano trarne vantaggio insieme.",
+     "englishReference": "I think our villages can benefit together.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "Penso che i nostri villaggi possano trarne vantaggio insieme.",
+     "phraseIds": [
+      "P_B2_IT_D01_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D01_03",
+     "speakerId": "visitor",
+     "targetText": "Qual è l'obiezione più forte?",
+     "englishReference": "What is the strongest objection?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "Qual è l'obiezione più forte?",
+     "phraseIds": [
+      "P_B2_IT_D01_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D01_04",
+     "speakerId": "laith",
+     "targetText": "Anche se alcune persone temono di perdere il controllo, possiamo migliorare il piano.",
+     "englishReference": "Although some people fear losing control, we can improve the plan.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "Anche se alcune persone temono di perdere il controllo, possiamo migliorare il piano.",
+     "phraseIds": [
+      "P_B2_IT_D01_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D01_05",
+     "speakerId": "visitor",
+     "targetText": "Cosa sei disposto ad offrire?",
+     "englishReference": "What are you willing to offer?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "Cosa sei disposto ad offrire?",
+     "phraseIds": [
+      "P_B2_IT_D01_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D01_06",
+     "speakerId": "laith",
+     "targetText": "Se siamo d’accordo, possiamo condividere chiaramente le responsabilità.",
+     "englishReference": "If we agree, we can share responsibilities clearly.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "Se siamo d’accordo, possiamo condividere chiaramente le responsabilità.",
+     "phraseIds": [
+      "P_B2_IT_D01_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D01_07",
+     "speakerId": "visitor",
+     "targetText": "Sembra equilibrato.",
+     "englishReference": "That sounds balanced.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "Sembra equilibrato.",
+     "phraseIds": [
+      "P_B2_IT_D01_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_IT_D01_08",
+     "speakerId": "laith",
+     "targetText": "Grazie. Registriamo l'accordo.",
+     "englishReference": "Thank you. Let us record the agreement.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "Grazie. Registriamo l'accordo.",
+     "phraseIds": [
+      "P_B2_IT_D01_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D01_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_IT_D01_C01",
+      "P_B2_IT_D01_C02",
+      "P_B2_IT_D01_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_IT_D01_C01",
+      "P_B2_IT_D01_C02",
+      "P_B2_IT_D01_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_IT_D01_I01",
+      "P_B2_IT_D01_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D01_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_IT_D01_C01",
+    "P_B2_IT_D01_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D01_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "L’alleanza sta cambiando la regione.",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة.",
+     "pronunciation": "L’alleanza sta cambiando la regione."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Alcuni dettagli per ora dovrebbero rimanere privati.",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن.",
+     "pronunciation": "Alcuni dettagli per ora dovrebbero rimanere privati."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D01_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: عرض تعاون.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "ALLIANCE_TALKS:OPEN",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_IT_D01_S01",
+   "text": "Prima di decidere, in che modo la proposta di cooperazione influisce su entrambe le parti?",
+   "englishReference": "Before we decide, how does the cooperation proposal affect both sides?",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "Prima di decidere, in che modo la proposta di cooperazione influisce su entrambe le parti?",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_IT_D01_C01",
+   "text": "Penso che i nostri villaggi possano trarne vantaggio insieme.",
+   "englishReference": "I think our villages can benefit together.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "Penso che i nostri villaggi possano trarne vantaggio insieme.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_IT_D01_I01",
+   "text": "Qual è l'obiezione più forte?",
+   "englishReference": "What is the strongest objection?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "Qual è l'obiezione più forte?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_IT_D01_C02",
+   "text": "Anche se alcune persone temono di perdere il controllo, possiamo migliorare il piano.",
+   "englishReference": "Although some people fear losing control, we can improve the plan.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "Anche se alcune persone temono di perdere il controllo, possiamo migliorare il piano.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_IT_D01_I02",
+   "text": "Cosa sei disposto ad offrire?",
+   "englishReference": "What are you willing to offer?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "Cosa sei disposto ad offrire?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_IT_D01_C03",
+   "text": "Se siamo d’accordo, possiamo condividere chiaramente le responsabilità.",
+   "englishReference": "If we agree, we can share responsibilities clearly.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "Se siamo d’accordo, possiamo condividere chiaramente le responsabilità.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_IT_D01_S02",
+   "text": "Sembra equilibrato.",
+   "englishReference": "That sounds balanced.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "Sembra equilibrato.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_IT_D01_S03",
+   "text": "Grazie. Registriamo l'accordo.",
+   "englishReference": "Thank you. Let us record the agreement.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "Grazie. Registriamo l'accordo.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_IT_D01_C01",
+     "P_B2_IT_D01_C02",
+     "P_B2_IT_D01_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_IT_D01_I01",
+     "P_B2_IT_D01_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_IT_D01_C01",
+    "P_B2_IT_D01_C02",
+    "P_B2_IT_D01_C03",
+    "P_B2_IT_D01_I01",
+    "P_B2_IT_D01_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B1_STORY_CHAPTER:COMPLETE"
+  ],
+  "onSuccess": [
+   "ALLIANCE_TALKS:OPEN",
+   "B2_D02:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_01",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b1_it_d30",
+  "nextLessonId": "story_b2_it_d02",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 1: عرض تعاون."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

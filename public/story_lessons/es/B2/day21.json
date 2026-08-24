@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_es_d21",
+  "languageCode": "es",
+  "languageNameArabic": "الإسبانية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 21,
+  "lessonTitle": "Una voz en la radio",
+  "englishTitle": "A Voice on the Radio",
+  "arabicTitle": "صوت في الراديو",
+  "canonicalBeatIds": [
+   "BEAT_B2_D21"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التقاط معلومة زائدة وتحليلها بحذر.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: صوت في الراديو."
+ },
+ "story": {
+  "storyContextArabic": "يسمع ليث في الراديو خبرًا عن القافلة قبل أن تصل رسميًا.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: صوت في الراديو.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "sara"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: صوت في الراديو."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D21_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D21_01",
+     "narrationArabic": "يسمع ليث في الراديو خبرًا عن القافلة قبل أن تصل رسميًا."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D21_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التقاط معلومة زائدة وتحليلها بحذر.",
+   "lines": [
+    {
+     "lineId": "L_B2_ES_D21_01",
+     "speakerId": "sara",
+     "targetText": "El equipo está preocupado por el informe de radio.",
+     "englishReference": "The team has concerns about the radio report.",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "El equipo está preocupado por el informe de radio.",
+     "phraseIds": [
+      "P_B2_ES_D21_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_ES_D21_02",
+     "speakerId": "laith",
+     "targetText": "Mi posición es que el informe sabía demasiado y demasiado pronto.",
+     "englishReference": "My position is that the report knew too much too early.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "Mi posición es que el informe sabía demasiado y demasiado pronto.",
+     "phraseIds": [
+      "P_B2_ES_D21_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ES_D21_03",
+     "speakerId": "sara",
+     "targetText": "¿Puedes explicar el riesgo?",
+     "englishReference": "Can you explain the risk?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "¿Puedes explicar el riesgo?",
+     "phraseIds": [
+      "P_B2_ES_D21_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ES_D21_04",
+     "speakerId": "laith",
+     "targetText": "El riesgo es que tal vez haya sido sólo una suposición.",
+     "englishReference": "The risk is that maybe it was only a guess.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "El riesgo es que tal vez haya sido sólo una suposición.",
+     "phraseIds": [
+      "P_B2_ES_D21_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ES_D21_05",
+     "speakerId": "sara",
+     "targetText": "¿Cómo podemos reducirlo?",
+     "englishReference": "How can we reduce it?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "¿Cómo podemos reducirlo?",
+     "phraseIds": [
+      "P_B2_ES_D21_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ES_D21_06",
+     "speakerId": "laith",
+     "targetText": "Podemos actuar si podemos comprobar quién compartió la información.",
+     "englishReference": "We can act if we can check who shared the information.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "Podemos actuar si podemos comprobar quién compartió la información.",
+     "phraseIds": [
+      "P_B2_ES_D21_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_ES_D21_07",
+     "speakerId": "sara",
+     "targetText": "Ésa es una condición útil.",
+     "englishReference": "That is a useful condition.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "Ésa es una condición útil.",
+     "phraseIds": [
+      "P_B2_ES_D21_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_ES_D21_08",
+     "speakerId": "laith",
+     "targetText": "Gracias. Lo compartiré con el equipo.",
+     "englishReference": "Thank you. I will share it with the team.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "Gracias. Lo compartiré con el equipo.",
+     "phraseIds": [
+      "P_B2_ES_D21_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D21_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_ES_D21_C01",
+      "P_B2_ES_D21_C02",
+      "P_B2_ES_D21_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_ES_D21_C01",
+      "P_B2_ES_D21_C02",
+      "P_B2_ES_D21_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_ES_D21_I01",
+      "P_B2_ES_D21_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D21_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_ES_D21_C01",
+    "P_B2_ES_D21_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D21_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "La alianza está cambiando la región.",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة.",
+     "pronunciation": "La alianza está cambiando la región."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Algunos detalles deberían permanecer privados por ahora.",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن.",
+     "pronunciation": "Algunos detalles deberían permanecer privados por ahora."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D21_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: صوت في الراديو.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "RADIO_CLUE:01",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_ES_D21_S01",
+   "text": "El equipo está preocupado por el informe de radio.",
+   "englishReference": "The team has concerns about the radio report.",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "El equipo está preocupado por el informe de radio.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_ES_D21_C01",
+   "text": "Mi posición es que el informe sabía demasiado y demasiado pronto.",
+   "englishReference": "My position is that the report knew too much too early.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "Mi posición es que el informe sabía demasiado y demasiado pronto.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_ES_D21_I01",
+   "text": "¿Puedes explicar el riesgo?",
+   "englishReference": "Can you explain the risk?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "¿Puedes explicar el riesgo?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_ES_D21_C02",
+   "text": "El riesgo es que tal vez haya sido sólo una suposición.",
+   "englishReference": "The risk is that maybe it was only a guess.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "El riesgo es que tal vez haya sido sólo una suposición.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_ES_D21_I02",
+   "text": "¿Cómo podemos reducirlo?",
+   "englishReference": "How can we reduce it?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "¿Cómo podemos reducirlo?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_ES_D21_C03",
+   "text": "Podemos actuar si podemos comprobar quién compartió la información.",
+   "englishReference": "We can act if we can check who shared the information.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "Podemos actuar si podemos comprobar quién compartió la información.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_ES_D21_S02",
+   "text": "Ésa es una condición útil.",
+   "englishReference": "That is a useful condition.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "Ésa es una condición útil.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_ES_D21_S03",
+   "text": "Gracias. Lo compartiré con el equipo.",
+   "englishReference": "Thank you. I will share it with the team.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "Gracias. Lo compartiré con el equipo.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_ES_D21_C01",
+     "P_B2_ES_D21_C02",
+     "P_B2_ES_D21_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_ES_D21_I01",
+     "P_B2_ES_D21_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_ES_D21_C01",
+    "P_B2_ES_D21_C02",
+    "P_B2_ES_D21_C03",
+    "P_B2_ES_D21_I01",
+    "P_B2_ES_D21_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B2_D20:COMPLETE"
+  ],
+  "onSuccess": [
+   "RADIO_CLUE:01",
+   "B2_D22:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_21",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b2_es_d20",
+  "nextLessonId": "story_b2_es_d22",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 21: صوت في الراديو."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

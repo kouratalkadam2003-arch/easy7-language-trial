@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_ja_d25",
+  "languageCode": "ja",
+  "languageNameArabic": "اليابانية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 25,
+  "lessonTitle": "疲れていて誇り高い",
+  "englishTitle": "Tired and Proud",
+  "arabicTitle": "متعب وفخور",
+  "canonicalBeatIds": [
+   "BEAT_A1_D25"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف التعب والحاجة إلى راحة.",
+  "realLifeTransferArabic": "التعبير عن الصحة والحدود في العمل.",
+  "successCapabilityArabic": "قل ما تشعر به واطلب فترة راحة مناسبة."
+ },
+ "story": {
+  "storyContextArabic": "يعمل ليث طويلًا في الحديقة ويكاد يرهق نفسه.",
+  "storyMissionArabic": "يتعلم أن الراحة قرار مسؤول لا علامة ضعف.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: متعب وفخور."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D25_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D25_01",
+     "narrationArabic": "يعمل ليث طويلًا في الحديقة ويكاد يرهق نفسه."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D25_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف التعب والحاجة إلى راحة.",
+   "lines": [
+    {
+     "lineId": "L_A1_JA_D25_01",
+     "speakerId": "elly",
+     "targetText": "こんにちは、レイス。疲れているようですね。",
+     "englishReference": "Hello, Laith. You look tired.",
+     "arabicTranslation": "مرحبًا يا ليث. تبدو متعبًا.",
+     "pronunciation": "konnichiha , raisu . tsukare teiruyoudesune .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D25_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_JA_D25_02",
+     "speakerId": "laith",
+     "targetText": "はい、とても疲れています。",
+     "englishReference": "Yes, I am very tired.",
+     "arabicTranslation": "نعم، أنا متعب جدًا.",
+     "pronunciation": "hai , totemo tsukare teimasu .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D25_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_JA_D25_03",
+     "speakerId": "elly",
+     "targetText": "やめる必要がありますか？",
+     "englishReference": "Do you need to stop?",
+     "arabicTranslation": "هل تحتاج إلى التوقف؟",
+     "pronunciation": "yameru hitsuyou gaarimasuka ？",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D25_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_JA_D25_04",
+     "speakerId": "laith",
+     "targetText": "はい、少し休息が必要です。",
+     "englishReference": "Yes, I need a short rest.",
+     "arabicTranslation": "نعم، أحتاج إلى راحة قصيرة.",
+     "pronunciation": "hai , sukoshi kyuusoku ga hitsuyou desu .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D25_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_JA_D25_05",
+     "speakerId": "elly",
+     "targetText": "今日はよく頑張りましたね。",
+     "englishReference": "You worked hard today.",
+     "arabicTranslation": "لقد عملت بجد اليوم.",
+     "pronunciation": "konnichiha yoku ganbari mashitane .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D25_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_JA_D25_06",
+     "speakerId": "laith",
+     "targetText": "疲れていますが、誇りに思います。",
+     "englishReference": "I am tired, but I am proud.",
+     "arabicTranslation": "أنا متعب، لكنني فخور.",
+     "pronunciation": "tsukare teimasuga , hokori ni omoi masu .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D25_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_JA_D25_07",
+     "speakerId": "elly",
+     "targetText": "今は休んでください。庭は待ってくれます。",
+     "englishReference": "Rest now. The garden can wait.",
+     "arabicTranslation": "استرح الآن. الحديقة تستطيع الانتظار.",
+     "pronunciation": "ima ha yasun dekudasai . niwa ha matsu tekuremasu .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D25_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_JA_D25_08",
+     "speakerId": "laith",
+     "targetText": "ありがとう。休んだらまた会いましょう。",
+     "englishReference": "Thank you. See you after my rest.",
+     "arabicTranslation": "شكرًا. أراكم بعد راحتي.",
+     "pronunciation": "arigatou . yasun daramata ai mashou .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D25_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D25_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_JA_D25_C01",
+      "P_A1_JA_D25_C02",
+      "P_A1_JA_D25_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_JA_D25_C01",
+      "P_A1_JA_D25_C02",
+      "P_A1_JA_D25_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_JA_D25_I01",
+      "P_A1_JA_D25_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D25_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: التعبير عن الصحة والحدود في العمل.",
+   "requiredPhraseIds": [
+    "P_A1_JA_D25_C01",
+    "P_A1_JA_D25_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D25_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "今日はレイスが手伝ってくれたと聞いた。",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "konnichiha raisu ga tetsudatsu tekuretato kii ta ."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "村は彼のことを知り始めています。",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "mura ha kano kotowo shiri hajime teimasu ."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D25_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: متعب وفخور.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "قل ما تشعر به واطلب فترة راحة مناسبة."
+   },
+   "successWorldConsequence": "A1_DAY_25:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_JA_D25_S01",
+   "text": "こんにちは、レイス。疲れているようですね。",
+   "englishReference": "Hello, Laith. You look tired.",
+   "arabicTranslation": "مرحبًا يا ليث. تبدو متعبًا.",
+   "pronunciation": "konnichiha , raisu . tsukare teiruyoudesune .",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_JA_D25_I01",
+   "text": "はい、とても疲れています。",
+   "englishReference": "Yes, I am very tired.",
+   "arabicTranslation": "نعم، أنا متعب جدًا.",
+   "pronunciation": "hai , totemo tsukare teimasu .",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_JA_D25_C01",
+   "text": "やめる必要がありますか？",
+   "englishReference": "Do you need to stop?",
+   "arabicTranslation": "هل تحتاج إلى التوقف؟",
+   "pronunciation": "yameru hitsuyou gaarimasuka ？",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_JA_D25_S02",
+   "text": "はい、少し休息が必要です。",
+   "englishReference": "Yes, I need a short rest.",
+   "arabicTranslation": "نعم، أحتاج إلى راحة قصيرة.",
+   "pronunciation": "hai , sukoshi kyuusoku ga hitsuyou desu .",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_JA_D25_C02",
+   "text": "今日はよく頑張りましたね。",
+   "englishReference": "You worked hard today.",
+   "arabicTranslation": "لقد عملت بجد اليوم.",
+   "pronunciation": "konnichiha yoku ganbari mashitane .",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_JA_D25_C03",
+   "text": "疲れていますが、誇りに思います。",
+   "englishReference": "I am tired, but I am proud.",
+   "arabicTranslation": "أنا متعب، لكنني فخور.",
+   "pronunciation": "tsukare teimasuga , hokori ni omoi masu .",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_JA_D25_S03",
+   "text": "今は休んでください。庭は待ってくれます。",
+   "englishReference": "Rest now. The garden can wait.",
+   "arabicTranslation": "استرح الآن. الحديقة تستطيع الانتظار.",
+   "pronunciation": "ima ha yasun dekudasai . niwa ha matsu tekuremasu .",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_JA_D25_I02",
+   "text": "ありがとう。休んだらまた会いましょう。",
+   "englishReference": "Thank you. See you after my rest.",
+   "arabicTranslation": "شكرًا. أراكم بعد راحتي.",
+   "pronunciation": "arigatou . yasun daramata ai mashou .",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_JA_D25_C01",
+     "P_A1_JA_D25_C02",
+     "P_A1_JA_D25_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_JA_D25_C01",
+     "P_A1_JA_D25_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_JA_D25_C01",
+    "P_A1_JA_D25_C02",
+    "P_A1_JA_D25_C03",
+    "P_A1_JA_D25_I01",
+    "P_A1_JA_D25_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D24:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_25:COMPLETE",
+   "A1_D26:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_25",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_ja_d24",
+  "nextLessonId": "story_a1_ja_d26",
+  "nextLessonHookArabic": "غدًا: طلب المساعدة.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 25: متعب وفخور."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

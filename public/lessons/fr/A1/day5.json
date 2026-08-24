@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 5,
+ "story": {
+  "originalText": "Yassin: Salut, Omar. Je suis de retour.\nOmar: Salut, Yassin. Content que tu sois de retour.\nYassin: Je vais au magasin maintenant.\nOmar: D'accord. À bientôt.\nYassin: Au revoir, Omar.\nOmar: Au revoir. Prends soin de toi.\nYassin: Je suis revenu du magasin.\nOmar: Rebonjour. As-tu tout trouvé ?\nYassin: Oui, merci d'avoir attendu.\nOmar: Pas de problème. Bonsoir.",
+  "translatedText": "Yassin: مرحباً يا عمر. لقد عدت.\nOmar: مرحباً يا ياسين. أهلاً بعودتك.\nYassin: سأذهب إلى المتجر الآن.\nOmar: حسناً. أراك قريباً.\nYassin: وداعاً يا عمر.\nOmar: وداعاً. اعتنِ بنفسك.\nYassin: عدت من المتجر.\nOmar: مرحباً من جديد. هل وجدت كل شيء؟\nYassin: نعم، شكراً لانتظارك.\nOmar: لا مشكلة. مساء الخير.",
+  "nativeScriptText": "Yassin: Salut, Omar. Je suis de retour.\nOmar: Salut, Yassin. Content que tu sois de retour.\nYassin: Je vais au magasin maintenant.\nOmar: D'accord. À bientôt.\nYassin: Au revoir, Omar.\nOmar: Au revoir. Prends soin de toi.\nYassin: Je suis revenu du magasin.\nOmar: Rebonjour. As-tu tout trouvé ?\nYassin: Oui, merci d'avoir attendu.\nOmar: Pas de problème. Bonsoir.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 5: مرحباً / وداعاً",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Salut, Omar. Je suis de retour.",
+    "translation": "مرحباً يا عمر. لقد عدت.",
+    "pronunciation": "Salut, Omar. Je suis de retour."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Salut, Yassin. Content que tu sois de retour.",
+    "translation": "مرحباً يا ياسين. أهلاً بعودتك.",
+    "pronunciation": "Salut, Yassin. Content que tu sois de retour."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Je vais au magasin maintenant.",
+    "translation": "سأذهب إلى المتجر الآن.",
+    "pronunciation": "Je vais au magasin maintenant."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "D'accord. À bientôt.",
+    "translation": "حسناً. أراك قريباً.",
+    "pronunciation": "D'accord. À bientôt."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Au revoir, Omar.",
+    "translation": "وداعاً يا عمر.",
+    "pronunciation": "Au revoir, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Au revoir. Prends soin de toi.",
+    "translation": "وداعاً. اعتنِ بنفسك.",
+    "pronunciation": "Au revoir. Prends soin de toi."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Je suis revenu du magasin.",
+    "translation": "عدت من المتجر.",
+    "pronunciation": "Je suis revenu du magasin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Rebonjour. As-tu tout trouvé ?",
+    "translation": "مرحباً من جديد. هل وجدت كل شيء؟",
+    "pronunciation": "Rebonjour. As-tu tout trouvé ?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Oui, merci d'avoir attendu.",
+    "translation": "نعم، شكراً لانتظارك.",
+    "pronunciation": "Oui, merci d'avoir attendu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Pas de problème. Bonsoir.",
+    "translation": "لا مشكلة. مساء الخير.",
+    "pronunciation": "Pas de problème. Bonsoir."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d5",
+   "title": "مرحباً / وداعاً",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 5,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s1_d4"
+  ],
+  "createdAt": 1786696446398
+ }
+}

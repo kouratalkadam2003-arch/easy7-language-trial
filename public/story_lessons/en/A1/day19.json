@@ -1,0 +1,469 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_en_d19",
+  "languageCode": "en",
+  "languageNameArabic": "الإنجليزية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 19,
+  "lessonTitle": "The Planning Corner",
+  "englishTitle": "The Planning Corner",
+  "arabicTitle": "زاوية التنظيم",
+  "canonicalBeatIds": [
+   "BEAT_A1_D19"
+  ],
+  "canonVersion": "A1_CANON_V1"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف مكان العمل وإعطاء تعليمات مكانية.",
+  "realLifeTransferArabic": "تنظيم غرفة أو مكتب أو أدوات فريق.",
+  "successCapabilityArabic": "ضع ثلاثة أشياء في أماكنها وأعط تعليماتك بصوتك."
+ },
+ "story": {
+  "storyContextArabic": "تحول الطاولة القديمة إلى زاوية للخطط والأدوات.",
+  "storyMissionArabic": "يتعلم ليث ترتيب العمل بلغة بسيطة.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: زاوية التنظيم."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D19_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D19_01",
+     "narrationArabic": "تحول الطاولة القديمة إلى زاوية للخطط والأدوات."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D19_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف مكان العمل وإعطاء تعليمات مكانية.",
+   "lines": [
+    {
+     "lineId": "L_A1_EN_D19_01",
+     "speakerId": "elly",
+     "targetText": "Good morning, Laith. This table is useful.",
+     "englishReference": "Good morning, Laith. This table is useful.",
+     "arabicTranslation": "صباح الخير يا ليث. هذه الطاولة مفيدة.",
+     "pronunciation": "Good morning, Laith. This table is useful.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D19_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_EN_D19_02",
+     "speakerId": "laith",
+     "targetText": "Yes. It can be our planning corner.",
+     "englishReference": "Yes. It can be our planning corner.",
+     "arabicTranslation": "نعم. يمكن أن تكون زاوية تخطيطنا.",
+     "pronunciation": "Yes. It can be our planning corner.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D19_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_EN_D19_03",
+     "speakerId": "elly",
+     "targetText": "Where should the map go?",
+     "englishReference": "Where should the map go?",
+     "arabicTranslation": "أين يجب أن توضع الخريطة؟",
+     "pronunciation": "Where should the map go?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D19_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_EN_D19_04",
+     "speakerId": "laith",
+     "targetText": "Put the map on the table.",
+     "englishReference": "Put the map on the table.",
+     "arabicTranslation": "ضع الخريطة على الطاولة.",
+     "pronunciation": "Put the map on the table.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D19_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_EN_D19_05",
+     "speakerId": "elly",
+     "targetText": "And the tools?",
+     "englishReference": "And the tools?",
+     "arabicTranslation": "وماذا عن الأدوات؟",
+     "pronunciation": "And the tools?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D19_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_EN_D19_06",
+     "speakerId": "laith",
+     "targetText": "Put the tools in the box.",
+     "englishReference": "Put the tools in the box.",
+     "arabicTranslation": "ضع الأدوات في الصندوق.",
+     "pronunciation": "Put the tools in the box.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D19_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_EN_D19_07",
+     "speakerId": "elly",
+     "targetText": "The seeds are near the window.",
+     "englishReference": "The seeds are near the window.",
+     "arabicTranslation": "البذور قرب النافذة.",
+     "pronunciation": "The seeds are near the window.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D19_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_EN_D19_08",
+     "speakerId": "laith",
+     "targetText": "Everything is ready. See you outside.",
+     "englishReference": "Everything is ready. See you outside.",
+     "arabicTranslation": "كل شيء جاهز. أراك في الخارج.",
+     "pronunciation": "Everything is ready. See you outside.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D19_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D19_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_EN_D19_C01",
+      "P_A1_EN_D19_C02",
+      "P_A1_EN_D19_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_EN_D19_C01",
+      "P_A1_EN_D19_C02",
+      "P_A1_EN_D19_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_EN_D19_I01",
+      "P_A1_EN_D19_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D19_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: تنظيم غرفة أو مكتب أو أدوات فريق.",
+   "requiredPhraseIds": [
+    "P_A1_EN_D19_C01",
+    "P_A1_EN_D19_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D19_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "I heard Laith helped today.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "The village is starting to know him.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D19_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: زاوية التنظيم.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "ضع ثلاثة أشياء في أماكنها وأعط تعليماتك بصوتك."
+   },
+   "successWorldConsequence": "A1_DAY_19:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_EN_D19_S01",
+   "text": "Good morning, Laith. This table is useful.",
+   "englishReference": "Good morning, Laith. This table is useful.",
+   "arabicTranslation": "صباح الخير يا ليث. هذه الطاولة مفيدة.",
+   "pronunciation": "Good morning, Laith. This table is useful.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D19_LEARNING",
+   "transferContexts": [
+    "تنظيم غرفة أو مكتب أو أدوات فريق."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_EN_D19_I01",
+   "text": "Yes. It can be our planning corner.",
+   "englishReference": "Yes. It can be our planning corner.",
+   "arabicTranslation": "نعم. يمكن أن تكون زاوية تخطيطنا.",
+   "pronunciation": "Yes. It can be our planning corner.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D19_LEARNING",
+   "transferContexts": [
+    "تنظيم غرفة أو مكتب أو أدوات فريق."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_EN_D19_C01",
+   "text": "Where should the map go?",
+   "englishReference": "Where should the map go?",
+   "arabicTranslation": "أين يجب أن توضع الخريطة؟",
+   "pronunciation": "Where should the map go?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D19_LEARNING",
+   "transferContexts": [
+    "تنظيم غرفة أو مكتب أو أدوات فريق."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_EN_D19_S02",
+   "text": "Put the map on the table.",
+   "englishReference": "Put the map on the table.",
+   "arabicTranslation": "ضع الخريطة على الطاولة.",
+   "pronunciation": "Put the map on the table.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D19_LEARNING",
+   "transferContexts": [
+    "تنظيم غرفة أو مكتب أو أدوات فريق."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_EN_D19_C02",
+   "text": "And the tools?",
+   "englishReference": "And the tools?",
+   "arabicTranslation": "وماذا عن الأدوات؟",
+   "pronunciation": "And the tools?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D19_LEARNING",
+   "transferContexts": [
+    "تنظيم غرفة أو مكتب أو أدوات فريق."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_EN_D19_C03",
+   "text": "Put the tools in the box.",
+   "englishReference": "Put the tools in the box.",
+   "arabicTranslation": "ضع الأدوات في الصندوق.",
+   "pronunciation": "Put the tools in the box.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D19_LEARNING",
+   "transferContexts": [
+    "تنظيم غرفة أو مكتب أو أدوات فريق."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_EN_D19_S03",
+   "text": "The seeds are near the window.",
+   "englishReference": "The seeds are near the window.",
+   "arabicTranslation": "البذور قرب النافذة.",
+   "pronunciation": "The seeds are near the window.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D19_LEARNING",
+   "transferContexts": [
+    "تنظيم غرفة أو مكتب أو أدوات فريق."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_EN_D19_I02",
+   "text": "Everything is ready. See you outside.",
+   "englishReference": "Everything is ready. See you outside.",
+   "arabicTranslation": "كل شيء جاهز. أراك في الخارج.",
+   "pronunciation": "Everything is ready. See you outside.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D19_LEARNING",
+   "transferContexts": [
+    "تنظيم غرفة أو مكتب أو أدوات فريق."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_EN_D19_C01",
+     "P_A1_EN_D19_C02",
+     "P_A1_EN_D19_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_EN_D19_C01",
+     "P_A1_EN_D19_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_EN_D19_C01",
+    "P_A1_EN_D19_C02",
+    "P_A1_EN_D19_C03",
+    "P_A1_EN_D19_I01",
+    "P_A1_EN_D19_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D18:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_19:COMPLETE",
+   "A1_D20:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_19",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_en_d18",
+  "nextLessonId": "story_a1_en_d20",
+  "nextLessonHookArabic": "غدًا: يوم منظم.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 19: زاوية التنظيم."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 19,
+ "story": {
+  "originalText": "Yassin: Bonjour, Omar. Est-ce le bureau ?\nOmar: Oui, c'est le bureau de l'institut.\nYassin: Le bureau est grand.\nOmar: Le professeur s'assoit à ce bureau.\nYassin: Puis-je mettre mon livre ici ?\nOmar: Oui, mets-le sur le bureau.\nYassin: Le bureau est calme.\nOmar: Nous venons ici après le cours.\nYassin: Quel jour est notre prochain cours ?\nOmar: Laisse-moi te montrer les jours.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل هذا هو المكتب؟\nOmar: نعم، هذا مكتب المعهد.\nYassin: المكتب كبير.\nOmar: المعلم يجلس عند ذلك المكتب.\nYassin: هل يمكنني وضع كتابي هنا؟\nOmar: نعم، ضعه على المكتب.\nYassin: المكتب هادئ.\nOmar: نأتي إلى هنا بعد الدرس.\nYassin: في أي يوم يكون درسنا القادم؟\nOmar: دعني أريك الأيام.",
+  "nativeScriptText": "Yassin: Bonjour, Omar. Est-ce le bureau ?\nOmar: Oui, c'est le bureau de l'institut.\nYassin: Le bureau est grand.\nOmar: Le professeur s'assoit à ce bureau.\nYassin: Puis-je mettre mon livre ici ?\nOmar: Oui, mets-le sur le bureau.\nYassin: Le bureau est calme.\nOmar: Nous venons ici après le cours.\nYassin: Quel jour est notre prochain cours ?\nOmar: Laisse-moi te montrer les jours.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 19: مكتب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour, Omar. Est-ce le bureau ?",
+    "translation": "مرحباً يا عمر. هل هذا هو المكتب؟",
+    "pronunciation": "Bonjour, Omar. Est-ce le bureau ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, c'est le bureau de l'institut.",
+    "translation": "نعم، هذا مكتب المعهد.",
+    "pronunciation": "Oui, c'est le bureau de l'institut."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Le bureau est grand.",
+    "translation": "المكتب كبير.",
+    "pronunciation": "Le bureau est grand."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Le professeur s'assoit à ce bureau.",
+    "translation": "المعلم يجلس عند ذلك المكتب.",
+    "pronunciation": "Le professeur s'assoit à ce bureau."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Puis-je mettre mon livre ici ?",
+    "translation": "هل يمكنني وضع كتابي هنا؟",
+    "pronunciation": "Puis-je mettre mon livre ici ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, mets-le sur le bureau.",
+    "translation": "نعم، ضعه على المكتب.",
+    "pronunciation": "Oui, mets-le sur le bureau."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Le bureau est calme.",
+    "translation": "المكتب هادئ.",
+    "pronunciation": "Le bureau est calme."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Nous venons ici après le cours.",
+    "translation": "نأتي إلى هنا بعد الدرس.",
+    "pronunciation": "Nous venons ici après le cours."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Quel jour est notre prochain cours ?",
+    "translation": "في أي يوم يكون درسنا القادم؟",
+    "pronunciation": "Quel jour est notre prochain cours ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Laisse-moi te montrer les jours.",
+    "translation": "دعني أريك الأيام.",
+    "pronunciation": "Laisse-moi te montrer les jours."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d19",
+   "title": "مكتب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 19,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s3_d18"
+  ],
+  "createdAt": 1786696446398
+ }
+}

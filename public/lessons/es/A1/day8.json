@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 8,
+ "story": {
+  "originalText": "Yassin: Bienvenido a nuestra casa, Omar.\nOmar: Gracias. Nuestra casa es agradable.\nYassin: La casa es pequeña pero limpia.\nOmar: Sí, tiene una cocina y dos habitaciones.\nYassin: La cocina está cerca de la puerta.\nOmar: El baño está al lado de la cocina.\nYassin: Me gusta esta casa.\nOmar: A mí también. Se siente tranquila.\nYassin: Vamos a ver nuestra habitación ahora.\nOmar: Sí, ven conmigo.",
+  "translatedText": "Yassin: أهلاً بك في بيتنا يا عمر.\nOmar: شكراً. بيتنا جميل.\nYassin: البيت صغير لكنه نظيف.\nOmar: نعم، فيه مطبخ وغرفتان.\nYassin: المطبخ قرب الباب.\nOmar: الحمام بجانب المطبخ.\nYassin: أنا أحب هذا البيت.\nOmar: وأنا أيضاً. أشعر بالهدوء هنا.\nYassin: لنرَ غرفتنا الآن.\nOmar: نعم، تعال معي.",
+  "nativeScriptText": "Yassin: Bienvenido a nuestra casa, Omar.\nOmar: Gracias. Nuestra casa es agradable.\nYassin: La casa es pequeña pero limpia.\nOmar: Sí, tiene una cocina y dos habitaciones.\nYassin: La cocina está cerca de la puerta.\nOmar: El baño está al lado de la cocina.\nYassin: Me gusta esta casa.\nOmar: A mí también. Se siente tranquila.\nYassin: Vamos a ver nuestra habitación ahora.\nOmar: Sí, ven conmigo.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 8: بيتي",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bienvenido a nuestra casa, Omar.",
+    "translation": "أهلاً بك في بيتنا يا عمر.",
+    "pronunciation": "Bienvenido a nuestra casa, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Gracias. Nuestra casa es agradable.",
+    "translation": "شكراً. بيتنا جميل.",
+    "pronunciation": "Gracias. Nuestra casa es agradable."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "La casa es pequeña pero limpia.",
+    "translation": "البيت صغير لكنه نظيف.",
+    "pronunciation": "La casa es pequeña pero limpia."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, tiene una cocina y dos habitaciones.",
+    "translation": "نعم، فيه مطبخ وغرفتان.",
+    "pronunciation": "Sí, tiene una cocina y dos habitaciones."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "La cocina está cerca de la puerta.",
+    "translation": "المطبخ قرب الباب.",
+    "pronunciation": "La cocina está cerca de la puerta."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "El baño está al lado de la cocina.",
+    "translation": "الحمام بجانب المطبخ.",
+    "pronunciation": "El baño está al lado de la cocina."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Me gusta esta casa.",
+    "translation": "أنا أحب هذا البيت.",
+    "pronunciation": "Me gusta esta casa."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "A mí también. Se siente tranquila.",
+    "translation": "وأنا أيضاً. أشعر بالهدوء هنا.",
+    "pronunciation": "A mí también. Se siente tranquila."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Vamos a ver nuestra habitación ahora.",
+    "translation": "لنرَ غرفتنا الآن.",
+    "pronunciation": "Vamos a ver nuestra habitación ahora."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, ven conmigo.",
+    "translation": "نعم، تعال معي.",
+    "pronunciation": "Sí, ven conmigo."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d8",
+   "title": "بيتي",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 8,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s1_d7"
+  ],
+  "createdAt": 1786696446398
+ }
+}

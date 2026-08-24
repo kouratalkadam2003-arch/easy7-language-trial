@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_fr_d01",
+  "languageCode": "fr",
+  "languageNameArabic": "الفرنسية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 1,
+  "lessonTitle": "Un nouveau nom",
+  "englishTitle": "A New Name",
+  "arabicTitle": "اسم جديد",
+  "canonicalBeatIds": [
+   "BEAT_A1_D01"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التعريف بالنفس، السؤال عن الاسم، وطلب مساعدة بسيطة.",
+  "realLifeTransferArabic": "لقاء شخص جديد أو طلب عون في مكان غير مألوف.",
+  "successCapabilityArabic": "قل اسمك واطلب المساعدة من دون اختيار جاهز."
+ },
+ "story": {
+  "storyContextArabic": "يستيقظ ليث على الشاطئ منهكًا، وتصل إيلي إليه بحذر.",
+  "storyMissionArabic": "يكسب ثقة إيلي بقول اسمه وطلب المساعدة.",
+  "setting": "shore",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: اسم جديد."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D01_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D01_01",
+     "narrationArabic": "يستيقظ ليث على الشاطئ منهكًا، وتصل إيلي إليه بحذر."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D01_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التعريف بالنفس، السؤال عن الاسم، وطلب مساعدة بسيطة.",
+   "lines": [
+    {
+     "lineId": "L_A1_FR_D01_01",
+     "speakerId": "elly",
+     "targetText": "Bonjour. Pouvez-vous m'entendre?",
+     "englishReference": "Hello. Can you hear me?",
+     "arabicTranslation": "مرحبًا. هل تسمعني؟",
+     "pronunciation": "Bonjour. Pouvez-vous m'entendre?",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D01_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D01_02",
+     "speakerId": "laith",
+     "targetText": "De l'eau, s'il vous plaît.",
+     "englishReference": "Water, please.",
+     "arabicTranslation": "ماء، من فضلك.",
+     "pronunciation": "De l'eau, s'il vous plaît.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D01_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D01_03",
+     "speakerId": "elly",
+     "targetText": "Te voilà. Je m'appelle Elly.",
+     "englishReference": "Here you are. My name is Elly.",
+     "arabicTranslation": "تفضل. اسمي إيلي.",
+     "pronunciation": "Te voilà. Je m'appelle Elly.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D01_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D01_04",
+     "speakerId": "laith",
+     "targetText": "Merci.",
+     "englishReference": "Thank you.",
+     "arabicTranslation": "شكرًا لك.",
+     "pronunciation": "Merci.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D01_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D01_05",
+     "speakerId": "elly",
+     "targetText": "Quel est ton nom?",
+     "englishReference": "What is your name?",
+     "arabicTranslation": "ما اسمك؟",
+     "pronunciation": "Quel est ton nom?",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D01_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D01_06",
+     "speakerId": "laith",
+     "targetText": "Je m'appelle Laith.",
+     "englishReference": "My name is Laith.",
+     "arabicTranslation": "اسمي ليث.",
+     "pronunciation": "Je m'appelle Laith.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D01_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D01_07",
+     "speakerId": "elly",
+     "targetText": "Vous avez l'air fatigué.",
+     "englishReference": "You look tired.",
+     "arabicTranslation": "تبدو متعبًا.",
+     "pronunciation": "Vous avez l'air fatigué.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D01_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D01_08",
+     "speakerId": "laith",
+     "targetText": "Je suis fatigué. Pouvez-vous m'aider, s'il vous plaît ?",
+     "englishReference": "I am tired. Can you help me, please?",
+     "arabicTranslation": "أنا متعب. هل يمكنك مساعدتي، من فضلك؟",
+     "pronunciation": "Je suis fatigué. Pouvez-vous m'aider, s'il vous plaît ?",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D01_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D01_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_FR_D01_C01",
+      "P_A1_FR_D01_C02",
+      "P_A1_FR_D01_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_FR_D01_C01",
+      "P_A1_FR_D01_C02",
+      "P_A1_FR_D01_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_FR_D01_I01",
+      "P_A1_FR_D01_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D01_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: لقاء شخص جديد أو طلب عون في مكان غير مألوف.",
+   "requiredPhraseIds": [
+    "P_A1_FR_D01_C01",
+    "P_A1_FR_D01_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D01_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "J'ai entendu dire que Laith avait aidé aujourd'hui.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "J'ai entendu dire que Laith avait aidé aujourd'hui."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Le village commence à le connaître.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "Le village commence à le connaître."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D01_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: اسم جديد.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "قل اسمك واطلب المساعدة من دون اختيار جاهز."
+   },
+   "successWorldConsequence": "ELLY_TRUST_LEVEL:+1; LOCATION_CABIN:UNLOCKED",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_FR_D01_S01",
+   "text": "Bonjour. Pouvez-vous m'entendre?",
+   "englishReference": "Hello. Can you hear me?",
+   "arabicTranslation": "مرحبًا. هل تسمعني؟",
+   "pronunciation": "Bonjour. Pouvez-vous m'entendre?",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D01_LEARNING",
+   "transferContexts": [
+    "لقاء شخص جديد أو طلب عون في مكان غير مألوف."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D01_I01",
+   "text": "De l'eau, s'il vous plaît.",
+   "englishReference": "Water, please.",
+   "arabicTranslation": "ماء، من فضلك.",
+   "pronunciation": "De l'eau, s'il vous plaît.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D01_LEARNING",
+   "transferContexts": [
+    "لقاء شخص جديد أو طلب عون في مكان غير مألوف."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_FR_D01_C01",
+   "text": "Te voilà. Je m'appelle Elly.",
+   "englishReference": "Here you are. My name is Elly.",
+   "arabicTranslation": "تفضل. اسمي إيلي.",
+   "pronunciation": "Te voilà. Je m'appelle Elly.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D01_LEARNING",
+   "transferContexts": [
+    "لقاء شخص جديد أو طلب عون في مكان غير مألوف."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D01_S02",
+   "text": "Merci.",
+   "englishReference": "Thank you.",
+   "arabicTranslation": "شكرًا لك.",
+   "pronunciation": "Merci.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D01_LEARNING",
+   "transferContexts": [
+    "لقاء شخص جديد أو طلب عون في مكان غير مألوف."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D01_C02",
+   "text": "Quel est ton nom?",
+   "englishReference": "What is your name?",
+   "arabicTranslation": "ما اسمك؟",
+   "pronunciation": "Quel est ton nom?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D01_LEARNING",
+   "transferContexts": [
+    "لقاء شخص جديد أو طلب عون في مكان غير مألوف."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D01_C03",
+   "text": "Je m'appelle Laith.",
+   "englishReference": "My name is Laith.",
+   "arabicTranslation": "اسمي ليث.",
+   "pronunciation": "Je m'appelle Laith.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D01_LEARNING",
+   "transferContexts": [
+    "لقاء شخص جديد أو طلب عون في مكان غير مألوف."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D01_S03",
+   "text": "Vous avez l'air fatigué.",
+   "englishReference": "You look tired.",
+   "arabicTranslation": "تبدو متعبًا.",
+   "pronunciation": "Vous avez l'air fatigué.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D01_LEARNING",
+   "transferContexts": [
+    "لقاء شخص جديد أو طلب عون في مكان غير مألوف."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D01_I02",
+   "text": "Je suis fatigué. Pouvez-vous m'aider, s'il vous plaît ?",
+   "englishReference": "I am tired. Can you help me, please?",
+   "arabicTranslation": "أنا متعب. هل يمكنك مساعدتي، من فضلك؟",
+   "pronunciation": "Je suis fatigué. Pouvez-vous m'aider, s'il vous plaît ?",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D01_LEARNING",
+   "transferContexts": [
+    "لقاء شخص جديد أو طلب عون في مكان غير مألوف."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure",
+    "gesture"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_FR_D01_C01",
+     "P_A1_FR_D01_C02",
+     "P_A1_FR_D01_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_FR_D01_C01",
+     "P_A1_FR_D01_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_FR_D01_C01",
+    "P_A1_FR_D01_C02",
+    "P_A1_FR_D01_C03",
+    "P_A1_FR_D01_I01",
+    "P_A1_FR_D01_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "STORY_PROLOGUE_COMPLETE"
+  ],
+  "onSuccess": [
+   "ELLY_TRUST_LEVEL:+1; LOCATION_CABIN:UNLOCKED",
+   "A1_D02:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_01",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_prologue",
+  "nextLessonId": "story_a1_fr_d02",
+  "nextLessonHookArabic": "غدًا: من مكان بعيد.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 1: اسم جديد."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

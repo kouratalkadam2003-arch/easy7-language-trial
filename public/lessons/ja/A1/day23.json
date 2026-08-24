@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 23,
+ "story": {
+  "originalText": "Yassin: Konnichiwa. Kore wa ikura desu ka?\nOmar: Sono ryōri wa jū doru desu.\nYassin: Mizu wa ikura desu ka?\nOmar: Mizu wa ichi doru desu.\nYassin: Sūpu wa ikura desu ka?\nOmar: Sūpu wa go doru desu.\nYassin: Nedan wa yoi desu.\nOmar: Hai, ima chūmon dekimasu.\nYassin: Shokuji no ato de, seikyū-sho ga hitsuyō desu.\nOmar: Watashi ga tanomimasu.",
+  "translatedText": "Yassin: مرحباً. كم ثمن هذه الوجبة؟\nOmar: الوجبة بعشرة دولارات.\nYassin: كم ثمن الماء؟\nOmar: الماء بدولار واحد.\nYassin: كم ثمن الحساء؟\nOmar: الحساء بخمسة دولارات.\nYassin: الأسعار جيدة.\nOmar: نعم، يمكننا الطلب الآن.\nYassin: بعد الطعام، نحتاج إلى الفاتورة.\nOmar: سأطلبها.",
+  "nativeScriptText": "Yassin: こんにちは。これはいくらですか？\nOmar: その料理は十ドルです。\nYassin: 水はいくらですか？\nOmar: 水は一ドルです。\nYassin: スープはいくらですか？\nOmar: スープは五ドルです。\nYassin: 値段は良いです。\nOmar: はい、今注文できます。\nYassin: 食事の後で、請求書が必要です。\nOmar: 私が頼みます。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 23: كم؟",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "こんにちは。これはいくらですか？",
+    "translation": "مرحباً. كم ثمن هذه الوجبة؟",
+    "pronunciation": "Konnichiwa. Kore wa ikura desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "その料理は十ドルです。",
+    "translation": "الوجبة بعشرة دولارات.",
+    "pronunciation": "Sono ryōri wa jū doru desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "水はいくらですか？",
+    "translation": "كم ثمن الماء؟",
+    "pronunciation": "Mizu wa ikura desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "水は一ドルです。",
+    "translation": "الماء بدولار واحد.",
+    "pronunciation": "Mizu wa ichi doru desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "スープはいくらですか？",
+    "translation": "كم ثمن الحساء؟",
+    "pronunciation": "Sūpu wa ikura desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "スープは五ドルです。",
+    "translation": "الحساء بخمسة دولارات.",
+    "pronunciation": "Sūpu wa go doru desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "値段は良いです。",
+    "translation": "الأسعار جيدة.",
+    "pronunciation": "Nedan wa yoi desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、今注文できます。",
+    "translation": "نعم، يمكننا الطلب الآن.",
+    "pronunciation": "Hai, ima chūmon dekimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "食事の後で、請求書が必要です。",
+    "translation": "بعد الطعام، نحتاج إلى الفاتورة.",
+    "pronunciation": "Shokuji no ato de, seikyū-sho ga hitsuyō desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私が頼みます。",
+    "translation": "سأطلبها.",
+    "pronunciation": "Watashi ga tanomimasu."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d23",
+   "title": "كم؟",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 23,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s4_d22"
+  ],
+  "createdAt": 1786696446398
+ }
+}

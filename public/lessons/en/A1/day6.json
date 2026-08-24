@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 6,
+ "story": {
+  "originalText": "Yassin: Good evening, Yassin. How are you?\nOmar: I am fine, thank you. And you?\nYassin: I am very well, praise be to God.\nOmar: Are you tired after class?\nYassin: A little tired, but happy.\nOmar: I am happy too.\nYassin: The first week is going well.\nOmar: Yes, I learn something every day.\nYassin: Tomorrow we will review together.\nOmar: Great. Good night, Omar.",
+  "translatedText": "Yassin: مساء الخير يا ياسين. كيف حالك؟\nOmar: أنا بخير، شكراً. وأنت؟\nYassin: أنا بخير جداً، الحمد لله.\nOmar: هل أنت متعب بعد الدرس؟\nYassin: متعب قليلاً، لكن سعيد.\nOmar: أنا سعيد أيضاً.\nYassin: الأسبوع الأول يسير بشكل جيد.\nOmar: نعم، أتعلم شيئاً كل يوم.\nYassin: غداً سنراجع معاً.\nOmar: رائع. تصبح على خير يا عمر.",
+  "nativeScriptText": "Yassin: Good evening, Yassin. How are you?\nOmar: I am fine, thank you. And you?\nYassin: I am very well, praise be to God.\nOmar: Are you tired after class?\nYassin: A little tired, but happy.\nOmar: I am happy too.\nYassin: The first week is going well.\nOmar: Yes, I learn something every day.\nYassin: Tomorrow we will review together.\nOmar: Great. Good night, Omar.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 6: كيف حالك؟",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Good evening, Yassin. How are you?",
+    "translation": "مساء الخير يا ياسين. كيف حالك؟",
+    "pronunciation": "Good evening, Yassin. How are you?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I am fine, thank you. And you?",
+    "translation": "أنا بخير، شكراً. وأنت؟",
+    "pronunciation": "I am fine, thank you. And you?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I am very well, praise be to God.",
+    "translation": "أنا بخير جداً، الحمد لله.",
+    "pronunciation": "I am very well, praise be to God."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Are you tired after class?",
+    "translation": "هل أنت متعب بعد الدرس؟",
+    "pronunciation": "Are you tired after class?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "A little tired, but happy.",
+    "translation": "متعب قليلاً، لكن سعيد.",
+    "pronunciation": "A little tired, but happy."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I am happy too.",
+    "translation": "أنا سعيد أيضاً.",
+    "pronunciation": "I am happy too."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "The first week is going well.",
+    "translation": "الأسبوع الأول يسير بشكل جيد.",
+    "pronunciation": "The first week is going well."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, I learn something every day.",
+    "translation": "نعم، أتعلم شيئاً كل يوم.",
+    "pronunciation": "Yes, I learn something every day."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Tomorrow we will review together.",
+    "translation": "غداً سنراجع معاً.",
+    "pronunciation": "Tomorrow we will review together."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Great. Good night, Omar.",
+    "translation": "رائع. تصبح على خير يا عمر.",
+    "pronunciation": "Great. Good night, Omar."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d6",
+   "title": "كيف حالك؟",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 6,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s1_d5"
+  ],
+  "createdAt": 1786696446398
+ }
+}

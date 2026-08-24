@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 16,
+ "story": {
+  "originalText": "Yassin: Zǎoshang hǎo, Yassin. Nǐ shì xuéshēng ma?\nOmar: Shì de, wǒ shì xuéshēng.\nYassin: Nǐ xué shénme?\nOmar: Wǒ zài xuéyuàn xué Yīngyǔ.\nYassin: Nǐ shì xīn xuéshēng ma?\nOmar: Shì de, wǒ shì xīn lái de, dàn wǒ zhǔnbèi hǎo le.\nYassin: Hǎo xuéshēng měitiān dōu xuéxí.\nOmar: Wǒ měitiān wǎnshàng hé nǐ yìqǐ xuéxí.\nYassin: Wǒmen de lǎoshī yě hěn hǎo.\nOmar: Wǒ xiǎng jiàn lǎoshī.",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هل أنت طالب؟\nOmar: نعم، أنا طالب.\nYassin: ماذا تدرس؟\nOmar: أدرس الإنجليزية في المعهد.\nYassin: هل أنت طالب جديد؟\nOmar: نعم، أنا جديد، لكنني مستعد.\nYassin: الطالب الجيد يدرس كل يوم.\nOmar: أدرس معك كل مساء.\nYassin: معلمنا جيد أيضاً.\nOmar: أريد أن أقابل المعلم.",
+  "nativeScriptText": "Yassin: 早上好，Yassin。你是学生吗？\nOmar: 是的，我是学生。\nYassin: 你学什么？\nOmar: 我在学院学英语。\nYassin: 你是新学生吗？\nOmar: 是的，我是新来的，但我准备好了。\nYassin: 好学生每天都学习。\nOmar: 我每天晚上和你一起学习。\nYassin: 我们的老师也很好。\nOmar: 我想见老师。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 16: طالب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "早上好，Yassin。你是学生吗？",
+    "translation": "صباح الخير يا ياسين. هل أنت طالب؟",
+    "pronunciation": "Zǎoshang hǎo, Yassin. Nǐ shì xuéshēng ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，我是学生。",
+    "translation": "نعم، أنا طالب.",
+    "pronunciation": "Shì de, wǒ shì xuéshēng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你学什么？",
+    "translation": "ماذا تدرس؟",
+    "pronunciation": "Nǐ xué shénme?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我在学院学英语。",
+    "translation": "أدرس الإنجليزية في المعهد.",
+    "pronunciation": "Wǒ zài xuéyuàn xué Yīngyǔ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你是新学生吗？",
+    "translation": "هل أنت طالب جديد؟",
+    "pronunciation": "Nǐ shì xīn xuéshēng ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，我是新来的，但我准备好了。",
+    "translation": "نعم، أنا جديد، لكنني مستعد.",
+    "pronunciation": "Shì de, wǒ shì xīn lái de, dàn wǒ zhǔnbèi hǎo le."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "好学生每天都学习。",
+    "translation": "الطالب الجيد يدرس كل يوم.",
+    "pronunciation": "Hǎo xuéshēng měitiān dōu xuéxí."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我每天晚上和你一起学习。",
+    "translation": "أدرس معك كل مساء.",
+    "pronunciation": "Wǒ měitiān wǎnshàng hé nǐ yìqǐ xuéxí."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我们的老师也很好。",
+    "translation": "معلمنا جيد أيضاً.",
+    "pronunciation": "Wǒmen de lǎoshī yě hěn hǎo."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我想见老师。",
+    "translation": "أريد أن أقابل المعلم.",
+    "pronunciation": "Wǒ xiǎng jiàn lǎoshī."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d16",
+   "title": "طالب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 16,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s3_d15"
+  ],
+  "createdAt": 1786696446398
+ }
+}

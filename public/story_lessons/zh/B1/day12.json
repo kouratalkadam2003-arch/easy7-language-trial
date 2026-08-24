@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b1_zh_d12",
+  "languageCode": "zh",
+  "languageNameArabic": "الصينية",
+  "cefrLevel": "B1",
+  "chapterId": "chapter_03_responsibility",
+  "dayNumber": 12,
+  "lessonTitle": "明确的计划",
+  "englishTitle": "A Clear Plan",
+  "arabicTitle": "خطة واضحة",
+  "canonicalBeatIds": [
+   "BEAT_B1_D12"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "توزيع مهام وتأكيد فهم الخطة.",
+  "realLifeTransferArabic": "التعبير عن رأي مدعوم بسبب واقتراح خطوة عملية.",
+  "successCapabilityArabic": "أدر نقاشًا قصيرًا عن خطة واضحة."
+ },
+ "story": {
+  "storyContextArabic": "يقسم ليث العمل بين الجيران.",
+  "storyMissionArabic": "يتعلم ليث القيادة عبر موضوع: خطة واضحة.",
+  "setting": "village_council",
+  "charactersPresent": [
+   "laith",
+   "team"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: خطة واضحة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B1_D12_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B1_D12_01",
+     "narrationArabic": "يقسم ليث العمل بين الجيران."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D12_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "توزيع مهام وتأكيد فهم الخطة.",
+   "lines": [
+    {
+     "lineId": "L_B1_ZH_D12_01",
+     "speakerId": "team",
+     "targetText": "我们需要谈谈修复任务。",
+     "englishReference": "We need to talk about the repair tasks.",
+     "arabicTranslation": "نحتاج إلى الحديث عن the repair tasks.",
+     "pronunciation": "wǒ men xū yào tán tán xiū fù rèn wù.",
+     "phraseIds": [
+      "P_B1_ZH_D12_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_ZH_D12_02",
+     "speakerId": "laith",
+     "targetText": "在我看来，每个人都需要一项明确的任务。",
+     "englishReference": "In my opinion, each person needs one clear task.",
+     "arabicTranslation": "في رأيي، each person needs one clear task.",
+     "pronunciation": "zài wǒ kàn lái, měi gè rén dōu xū yào yī xiàng míng què de rèn wù.",
+     "phraseIds": [
+      "P_B1_ZH_D12_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ZH_D12_03",
+     "speakerId": "team",
+     "targetText": "你为什么这么认为？",
+     "englishReference": "Why do you think that?",
+     "arabicTranslation": "لماذا تعتقد ذلك؟",
+     "pronunciation": "nǐ wèi shén me zhè me rèn wéi.",
+     "phraseIds": [
+      "P_B1_ZH_D12_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ZH_D12_04",
+     "speakerId": "laith",
+     "targetText": "因为明确的角色可以防止混乱。",
+     "englishReference": "Because clear roles prevent confusion.",
+     "arabicTranslation": "لأن clear roles prevent confusion.",
+     "pronunciation": "yīn wèi míng què de jué sè kě yǐ fáng zhǐ hùn luàn.",
+     "phraseIds": [
+      "P_B1_ZH_D12_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ZH_D12_05",
+     "speakerId": "team",
+     "targetText": "我们首先应该做什么？",
+     "englishReference": "What should we do first?",
+     "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+     "pronunciation": "wǒ men shǒu xiān yīng gāi zuò shén me.",
+     "phraseIds": [
+      "P_B1_ZH_D12_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ZH_D12_06",
+     "speakerId": "laith",
+     "targetText": "我建议我们中午检查一下进度。",
+     "englishReference": "I suggest that we should check progress at noon.",
+     "arabicTranslation": "أقترح أن we should check progress at noon.",
+     "pronunciation": "wǒ jiàn yì wǒ men zhōng wǔ jiǎn chá yī xià jìn dù.",
+     "phraseIds": [
+      "P_B1_ZH_D12_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_ZH_D12_07",
+     "speakerId": "team",
+     "targetText": "这似乎很合理。",
+     "englishReference": "That seems reasonable.",
+     "arabicTranslation": "يبدو ذلك معقولًا.",
+     "pronunciation": "zhè sì hū hěn hé lǐ.",
+     "phraseIds": [
+      "P_B1_ZH_D12_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_ZH_D12_08",
+     "speakerId": "laith",
+     "targetText": "谢谢。我会向团队解释。",
+     "englishReference": "Thank you. I will explain it to the team.",
+     "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+     "pronunciation": "xiè xiè. wǒ huì xiàng tuán duì jiě shì.",
+     "phraseIds": [
+      "P_B1_ZH_D12_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D12_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "argument_rebuild",
+     "phraseIds": [
+      "P_B1_ZH_D12_C01",
+      "P_B1_ZH_D12_C02",
+      "P_B1_ZH_D12_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B1_ZH_D12_C01",
+      "P_B1_ZH_D12_C02",
+      "P_B1_ZH_D12_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B1_ZH_D12_I01",
+      "P_B1_ZH_D12_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D12_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استعمل رأيًا وسببًا واقتراحًا في موقف عمل أو دراسة.",
+   "requiredPhraseIds": [
+    "P_B1_ZH_D12_C01",
+    "P_B1_ZH_D12_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D12_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "村民会议提出了有用的问题。",
+     "englishReference": "The village meeting raised useful questions.",
+     "arabicTranslation": "اجتماع القرية أثار أسئلة مفيدة.",
+     "pronunciation": "cūn mín huì yì tí chū le yǒu yòng de wèn tí."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "有些问题最好留到以后再说。",
+     "englishReference": "Some questions are better left for later.",
+     "arabicTranslation": "بعض الأسئلة من الأفضل تركها لوقت لاحق.",
+     "pronunciation": "yǒu xiē wèn tí zuì hǎo liú dào yǐ hòu zài shuō."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B1_D12_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "يحتاج الفريق إلى قرار حول: خطة واضحة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "state_opinion",
+     "give_reason",
+     "make_proposal"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير رأيًا مدعومًا داخل نقاش.",
+    "afterArabic": "يستطيع المتعلم الآن إبداء رأي وسبب واقتراح."
+   },
+   "successWorldConsequence": "TEAM_ROLES:CLEAR",
+   "retryPolicy": "يقدّم تلميح للسبب أو للاقتراح ثم تعاد المهمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B1_ZH_D12_S01",
+   "text": "我们需要谈谈修复任务。",
+   "englishReference": "We need to talk about the repair tasks.",
+   "arabicTranslation": "نحتاج إلى الحديث عن the repair tasks.",
+   "pronunciation": "wǒ men xū yào tán tán xiū fù rèn wù.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_ZH_D12_C01",
+   "text": "在我看来，每个人都需要一项明确的任务。",
+   "englishReference": "In my opinion, each person needs one clear task.",
+   "arabicTranslation": "في رأيي، each person needs one clear task.",
+   "pronunciation": "zài wǒ kàn lái, měi gè rén dōu xū yào yī xiàng míng què de rèn wù.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_ZH_D12_I01",
+   "text": "你为什么这么认为？",
+   "englishReference": "Why do you think that?",
+   "arabicTranslation": "لماذا تعتقد ذلك؟",
+   "pronunciation": "nǐ wèi shén me zhè me rèn wéi.",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_ZH_D12_C02",
+   "text": "因为明确的角色可以防止混乱。",
+   "englishReference": "Because clear roles prevent confusion.",
+   "arabicTranslation": "لأن clear roles prevent confusion.",
+   "pronunciation": "yīn wèi míng què de jué sè kě yǐ fáng zhǐ hùn luàn.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_ZH_D12_I02",
+   "text": "我们首先应该做什么？",
+   "englishReference": "What should we do first?",
+   "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+   "pronunciation": "wǒ men shǒu xiān yīng gāi zuò shén me.",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_ZH_D12_C03",
+   "text": "我建议我们中午检查一下进度。",
+   "englishReference": "I suggest that we should check progress at noon.",
+   "arabicTranslation": "أقترح أن we should check progress at noon.",
+   "pronunciation": "wǒ jiàn yì wǒ men zhōng wǔ jiǎn chá yī xià jìn dù.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_ZH_D12_S02",
+   "text": "这似乎很合理。",
+   "englishReference": "That seems reasonable.",
+   "arabicTranslation": "يبدو ذلك معقولًا.",
+   "pronunciation": "zhè sì hū hěn hé lǐ.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_ZH_D12_S03",
+   "text": "谢谢。我会向团队解释。",
+   "englishReference": "Thank you. I will explain it to the team.",
+   "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+   "pronunciation": "xiè xiè. wǒ huì xiàng tuán duì jiě shì.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "speaker_intent"
+   ],
+   "supportFadePlan": "يعتمد B1 على الحجج لا على الإشارات."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B1_ZH_D12_C01",
+     "P_B1_ZH_D12_C02",
+     "P_B1_ZH_D12_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B1_ZH_D12_I01",
+     "P_B1_ZH_D12_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B1_ZH_D12_C01",
+    "P_B1_ZH_D12_C02",
+    "P_B1_ZH_D12_C03",
+    "P_B1_ZH_D12_I01",
+    "P_B1_ZH_D12_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تطلب شخصية من ليث إعادة شرح قرار سابق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B1_D11:COMPLETE"
+  ],
+  "onSuccess": [
+   "TEAM_ROLES:CLEAR",
+   "B1_D13:UNLOCKED"
+  ],
+  "milestone": "b1_milestone_12",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b1_zh_d11",
+  "nextLessonId": "story_b1_zh_d13",
+  "nextLessonHookArabic": "يتولد تحدٍّ جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B1 12: خطة واضحة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

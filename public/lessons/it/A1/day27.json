@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 27,
+ "story": {
+  "originalText": "Yassin: Ciao, Yassin. Puoi aiutarmi?\nOmar: Sì, certo. Di cosa hai bisogno?\nYassin: Ho bisogno delle mie medicine e di un po' d'acqua.\nOmar: Ecco le tue medicine e l'acqua.\nYassin: Grazie. Sei molto gentile.\nOmar: Prego, amico mio.\nYassin: Puoi chiamare l'insegnante per me?\nOmar: Sì, posso chiamarlo ora.\nYassin: Domani starò meglio, se Dio vuole.\nOmar: Se Dio vuole. Domani ripassiamo.",
+  "translatedText": "Yassin: مرحباً يا ياسين. هل يمكنك مساعدتي؟\nOmar: نعم، بالطبع. ماذا تحتاج؟\nYassin: أحتاج دوائي وبعض الماء.\nOmar: هذا دواؤك وماؤك.\nYassin: شكراً. أنت لطيف جداً.\nOmar: عفواً يا صديقي.\nYassin: هل يمكنك الاتصال بالمعلم من أجلي؟\nOmar: نعم، يمكنني الاتصال به الآن.\nYassin: غداً سأشعر بتحسن، إن شاء الله.\nOmar: إن شاء الله. سنراجع غداً.",
+  "nativeScriptText": "Yassin: Ciao, Yassin. Puoi aiutarmi?\nOmar: Sì, certo. Di cosa hai bisogno?\nYassin: Ho bisogno delle mie medicine e di un po' d'acqua.\nOmar: Ecco le tue medicine e l'acqua.\nYassin: Grazie. Sei molto gentile.\nOmar: Prego, amico mio.\nYassin: Puoi chiamare l'insegnante per me?\nOmar: Sì, posso chiamarlo ora.\nYassin: Domani starò meglio, se Dio vuole.\nOmar: Se Dio vuole. Domani ripassiamo.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 27: مساعدة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ciao, Yassin. Puoi aiutarmi?",
+    "translation": "مرحباً يا ياسين. هل يمكنك مساعدتي؟",
+    "pronunciation": "Ciao, Yassin. Puoi aiutarmi?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, certo. Di cosa hai bisogno?",
+    "translation": "نعم، بالطبع. ماذا تحتاج؟",
+    "pronunciation": "Sì, certo. Di cosa hai bisogno?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ho bisogno delle mie medicine e di un po' d'acqua.",
+    "translation": "أحتاج دوائي وبعض الماء.",
+    "pronunciation": "Ho bisogno delle mie medicine e di un po' d'acqua."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ecco le tue medicine e l'acqua.",
+    "translation": "هذا دواؤك وماؤك.",
+    "pronunciation": "Ecco le tue medicine e l'acqua."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Grazie. Sei molto gentile.",
+    "translation": "شكراً. أنت لطيف جداً.",
+    "pronunciation": "Grazie. Sei molto gentile."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Prego, amico mio.",
+    "translation": "عفواً يا صديقي.",
+    "pronunciation": "Prego, amico mio."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Puoi chiamare l'insegnante per me?",
+    "translation": "هل يمكنك الاتصال بالمعلم من أجلي؟",
+    "pronunciation": "Puoi chiamare l'insegnante per me?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, posso chiamarlo ora.",
+    "translation": "نعم، يمكنني الاتصال به الآن.",
+    "pronunciation": "Sì, posso chiamarlo ora."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Domani starò meglio, se Dio vuole.",
+    "translation": "غداً سأشعر بتحسن، إن شاء الله.",
+    "pronunciation": "Domani starò meglio, se Dio vuole."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Se Dio vuole. Domani ripassiamo.",
+    "translation": "إن شاء الله. سنراجع غداً.",
+    "pronunciation": "Se Dio vuole. Domani ripassiamo."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d27",
+   "title": "مساعدة",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 27,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s4_d26"
+  ],
+  "createdAt": 1786696446398
+ }
+}

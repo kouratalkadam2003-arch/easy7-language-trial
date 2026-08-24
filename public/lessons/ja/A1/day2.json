@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 2,
+ "story": {
+  "originalText": "Yassin: Ohayō, Yassin.\nOmar: Ohayō, Omar.\nYassin: Doko no kuni kara kimashita ka?\nOmar: Watashi wa Arujeria kara kimashita.\nYassin: Arujeria wa utsukushii kuni desu.\nOmar: Arigatō. Anata wa doko kara desu ka?\nYassin: Watashi wa Morokko kara kimashita.\nOmar: Watashitachi wa Kita Afurika kara kimashita.\nYassin: Hai, soshite ima watashitachi wa koko ni issho ni imasu.\nOmar: Mata ato de aimashō, Omar.",
+  "translatedText": "Yassin: صباح الخير يا ياسين.\nOmar: صباح الخير يا عمر.\nYassin: من أين أنت؟\nOmar: أنا من الجزائر.\nYassin: الجزائر بلد جميل.\nOmar: شكراً. من أين أنت؟\nYassin: أنا من المغرب.\nOmar: نحن من شمال أفريقيا.\nYassin: نعم، والآن نحن هنا معاً.\nOmar: أراك لاحقاً يا عمر.",
+  "nativeScriptText": "Yassin: おはよう、Yassin。\nOmar: おはよう、Omar。\nYassin: どこの国から来ましたか？\nOmar: 私はアルジェリアから来ました。\nYassin: アルジェリアは美しい国です。\nOmar: ありがとう。あなたはどこからですか？\nYassin: 私はモロッコから来ました。\nOmar: 私たちは北アフリカから来ました。\nYassin: はい、そして今私たちはここに一緒にいます。\nOmar: また後で会いましょう、Omar。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 2: من أين",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "おはよう、Yassin。",
+    "translation": "صباح الخير يا ياسين.",
+    "pronunciation": "Ohayō, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "おはよう、Omar。",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Ohayō, Omar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "どこの国から来ましたか？",
+    "translation": "من أين أنت؟",
+    "pronunciation": "Doko no kuni kara kimashita ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私はアルジェリアから来ました。",
+    "translation": "أنا من الجزائر.",
+    "pronunciation": "Watashi wa Arujeria kara kimashita."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "アルジェリアは美しい国です。",
+    "translation": "الجزائر بلد جميل.",
+    "pronunciation": "Arujeria wa utsukushii kuni desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "ありがとう。あなたはどこからですか？",
+    "translation": "شكراً. من أين أنت؟",
+    "pronunciation": "Arigatō. Anata wa doko kara desu ka?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私はモロッコから来ました。",
+    "translation": "أنا من المغرب.",
+    "pronunciation": "Watashi wa Morokko kara kimashita."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私たちは北アフリカから来ました。",
+    "translation": "نحن من شمال أفريقيا.",
+    "pronunciation": "Watashitachi wa Kita Afurika kara kimashita."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "はい、そして今私たちはここに一緒にいます。",
+    "translation": "نعم، والآن نحن هنا معاً.",
+    "pronunciation": "Hai, soshite ima watashitachi wa koko ni issho ni imasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "また後で会いましょう、Omar。",
+    "translation": "أراك لاحقاً يا عمر.",
+    "pronunciation": "Mata ato de aimashō, Omar."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d2",
+   "title": "من أين",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 2,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s1_d1"
+  ],
+  "createdAt": 1786696446398
+ }
+}

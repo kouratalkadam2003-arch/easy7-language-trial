@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 26,
+ "story": {
+  "originalText": "Yassin: Bonjour, Omar. Es-tu prêt pour le médecin ?\nOmar: Oui, je suis prêt.\nYassin: Le médecin est dans cette clinique.\nOmar: Bonjour, docteur. Je me sens malade.\nYassin: Il a mal à la tête.\nOmar: Le médecin dit que j'ai besoin de repos.\nYassin: As-tu besoin de médicaments ?\nOmar: Oui, le médecin me donne des médicaments.\nYassin: Je t'aiderai à la maison.\nOmar: Merci pour ton aide.",
+  "translatedText": "Yassin: صباح الخير يا عمر. هل أنت مستعد للطبيب؟\nOmar: نعم، أنا مستعد.\nYassin: الطبيب في هذه العيادة.\nOmar: مرحباً يا دكتور. أشعر بالمرض.\nYassin: لديه صداع.\nOmar: الطبيب يقول إنني أحتاج إلى الراحة.\nYassin: هل تحتاج إلى دواء؟\nOmar: نعم، الطبيب يعطيني دواء.\nYassin: سأساعدك في البيت.\nOmar: شكراً لمساعدتك.",
+  "nativeScriptText": "Yassin: Bonjour, Omar. Es-tu prêt pour le médecin ?\nOmar: Oui, je suis prêt.\nYassin: Le médecin est dans cette clinique.\nOmar: Bonjour, docteur. Je me sens malade.\nYassin: Il a mal à la tête.\nOmar: Le médecin dit que j'ai besoin de repos.\nYassin: As-tu besoin de médicaments ?\nOmar: Oui, le médecin me donne des médicaments.\nYassin: Je t'aiderai à la maison.\nOmar: Merci pour ton aide.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 26: دكتور",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour, Omar. Es-tu prêt pour le médecin ?",
+    "translation": "صباح الخير يا عمر. هل أنت مستعد للطبيب؟",
+    "pronunciation": "Bonjour, Omar. Es-tu prêt pour le médecin ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, je suis prêt.",
+    "translation": "نعم، أنا مستعد.",
+    "pronunciation": "Oui, je suis prêt."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Le médecin est dans cette clinique.",
+    "translation": "الطبيب في هذه العيادة.",
+    "pronunciation": "Le médecin est dans cette clinique."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bonjour, docteur. Je me sens malade.",
+    "translation": "مرحباً يا دكتور. أشعر بالمرض.",
+    "pronunciation": "Bonjour, docteur. Je me sens malade."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Il a mal à la tête.",
+    "translation": "لديه صداع.",
+    "pronunciation": "Il a mal à la tête."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Le médecin dit que j'ai besoin de repos.",
+    "translation": "الطبيب يقول إنني أحتاج إلى الراحة.",
+    "pronunciation": "Le médecin dit que j'ai besoin de repos."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "As-tu besoin de médicaments ?",
+    "translation": "هل تحتاج إلى دواء؟",
+    "pronunciation": "As-tu besoin de médicaments ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, le médecin me donne des médicaments.",
+    "translation": "نعم، الطبيب يعطيني دواء.",
+    "pronunciation": "Oui, le médecin me donne des médicaments."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Je t'aiderai à la maison.",
+    "translation": "سأساعدك في البيت.",
+    "pronunciation": "Je t'aiderai à la maison."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Merci pour ton aide.",
+    "translation": "شكراً لمساعدتك.",
+    "pronunciation": "Merci pour ton aide."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d26",
+   "title": "دكتور",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 26,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s4_d25"
+  ],
+  "createdAt": 1786696446398
+ }
+}

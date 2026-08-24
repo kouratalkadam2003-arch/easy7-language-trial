@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 19,
+ "story": {
+  "originalText": "Yassin: Hallo, Omar. Ist das das Büro?\nOmar: Ja, das ist das Büro des Instituts.\nYassin: Der Schreibtisch ist groß.\nOmar: Der Lehrer sitzt an diesem Schreibtisch.\nYassin: Kann ich mein Buch hierhin legen?\nOmar: Ja, leg es auf den Schreibtisch.\nYassin: Das Büro ist ruhig.\nOmar: Wir kommen nach dem Unterricht hierher.\nYassin: An welchem Tag ist unser nächster Unterricht?\nOmar: Lass mich dir die Tage zeigen.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل هذا هو المكتب؟\nOmar: نعم، هذا مكتب المعهد.\nYassin: المكتب كبير.\nOmar: المعلم يجلس عند ذلك المكتب.\nYassin: هل يمكنني وضع كتابي هنا؟\nOmar: نعم، ضعه على المكتب.\nYassin: المكتب هادئ.\nOmar: نأتي إلى هنا بعد الدرس.\nYassin: في أي يوم يكون درسنا القادم؟\nOmar: دعني أريك الأيام.",
+  "nativeScriptText": "Yassin: Hallo, Omar. Ist das das Büro?\nOmar: Ja, das ist das Büro des Instituts.\nYassin: Der Schreibtisch ist groß.\nOmar: Der Lehrer sitzt an diesem Schreibtisch.\nYassin: Kann ich mein Buch hierhin legen?\nOmar: Ja, leg es auf den Schreibtisch.\nYassin: Das Büro ist ruhig.\nOmar: Wir kommen nach dem Unterricht hierher.\nYassin: An welchem Tag ist unser nächster Unterricht?\nOmar: Lass mich dir die Tage zeigen.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 19: مكتب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hallo, Omar. Ist das das Büro?",
+    "translation": "مرحباً يا عمر. هل هذا هو المكتب؟",
+    "pronunciation": "Hallo, Omar. Ist das das Büro?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, das ist das Büro des Instituts.",
+    "translation": "نعم، هذا مكتب المعهد.",
+    "pronunciation": "Ja, das ist das Büro des Instituts."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Der Schreibtisch ist groß.",
+    "translation": "المكتب كبير.",
+    "pronunciation": "Der Schreibtisch ist groß."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Der Lehrer sitzt an diesem Schreibtisch.",
+    "translation": "المعلم يجلس عند ذلك المكتب.",
+    "pronunciation": "Der Lehrer sitzt an diesem Schreibtisch."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Kann ich mein Buch hierhin legen?",
+    "translation": "هل يمكنني وضع كتابي هنا؟",
+    "pronunciation": "Kann ich mein Buch hierhin legen?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, leg es auf den Schreibtisch.",
+    "translation": "نعم، ضعه على المكتب.",
+    "pronunciation": "Ja, leg es auf den Schreibtisch."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Das Büro ist ruhig.",
+    "translation": "المكتب هادئ.",
+    "pronunciation": "Das Büro ist ruhig."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Wir kommen nach dem Unterricht hierher.",
+    "translation": "نأتي إلى هنا بعد الدرس.",
+    "pronunciation": "Wir kommen nach dem Unterricht hierher."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "An welchem Tag ist unser nächster Unterricht?",
+    "translation": "في أي يوم يكون درسنا القادم؟",
+    "pronunciation": "An welchem Tag ist unser nächster Unterricht?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Lass mich dir die Tage zeigen.",
+    "translation": "دعني أريك الأيام.",
+    "pronunciation": "Lass mich dir die Tage zeigen."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d19",
+   "title": "مكتب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 19,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s3_d18"
+  ],
+  "createdAt": 1786696446398
+ }
+}

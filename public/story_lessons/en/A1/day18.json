@@ -1,0 +1,469 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_en_d18",
+  "languageCode": "en",
+  "languageNameArabic": "الإنجليزية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 18,
+  "lessonTitle": "A Plan for the Garden",
+  "englishTitle": "A Plan for the Garden",
+  "arabicTitle": "خطة للمزرعة",
+  "canonicalBeatIds": [
+   "BEAT_A1_D18"
+  ],
+  "canonVersion": "A1_CANON_V1"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "قول خطة بسيطة: أولًا ثم بعد ذلك وغدًا.",
+  "realLifeTransferArabic": "تنظيم نشاط أو هدف شخصي.",
+  "successCapabilityArabic": "اشرح ما ستفعله اليوم وغدًا في ثلاث خطوات."
+ },
+ "story": {
+  "storyContextArabic": "بعد إصلاح السقيفة، يرسم ليث وإيلي مساحة صغيرة للزراعة قرب الكوخ.",
+  "storyMissionArabic": "يشارك في تحويل الفكرة إلى خطة قابلة للتنفيذ.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: خطة للمزرعة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D18_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D18_01",
+     "narrationArabic": "بعد إصلاح السقيفة، يرسم ليث وإيلي مساحة صغيرة للزراعة قرب الكوخ."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D18_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "قول خطة بسيطة: أولًا ثم بعد ذلك وغدًا.",
+   "lines": [
+    {
+     "lineId": "L_A1_EN_D18_01",
+     "speakerId": "elly",
+     "targetText": "Hello, Elly. The shed is ready.",
+     "englishReference": "Hello, Elly. The shed is ready.",
+     "arabicTranslation": "مرحبًا يا إيلي. السقيفة جاهزة.",
+     "pronunciation": "Hello, Elly. The shed is ready.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D18_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_EN_D18_02",
+     "speakerId": "laith",
+     "targetText": "Yes, you did good work.",
+     "englishReference": "Yes, you did good work.",
+     "arabicTranslation": "نعم، لقد أنجزت عملًا جيدًا.",
+     "pronunciation": "Yes, you did good work.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D18_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_EN_D18_03",
+     "speakerId": "elly",
+     "targetText": "Now I want to make a small garden.",
+     "englishReference": "Now I want to make a small garden.",
+     "arabicTranslation": "الآن أريد أن أصنع حديقة صغيرة.",
+     "pronunciation": "Now I want to make a small garden.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D18_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_EN_D18_04",
+     "speakerId": "laith",
+     "targetText": "What is your plan?",
+     "englishReference": "What is your plan?",
+     "arabicTranslation": "ما خطتك؟",
+     "pronunciation": "What is your plan?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D18_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_EN_D18_05",
+     "speakerId": "elly",
+     "targetText": "First, we clean the ground.",
+     "englishReference": "First, we clean the ground.",
+     "arabicTranslation": "أولًا ننظف الأرض.",
+     "pronunciation": "First, we clean the ground.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D18_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_EN_D18_06",
+     "speakerId": "laith",
+     "targetText": "Then we plant seeds.",
+     "englishReference": "Then we plant seeds.",
+     "arabicTranslation": "ثم نزرع البذور.",
+     "pronunciation": "Then we plant seeds.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D18_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_EN_D18_07",
+     "speakerId": "elly",
+     "targetText": "Tomorrow, we bring water and wood.",
+     "englishReference": "Tomorrow, we bring water and wood.",
+     "arabicTranslation": "غدًا نحضر الماء والخشب.",
+     "pronunciation": "Tomorrow, we bring water and wood.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D18_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_EN_D18_08",
+     "speakerId": "laith",
+     "targetText": "Good plan. Goodbye, new garden.",
+     "englishReference": "Good plan. Goodbye, new garden.",
+     "arabicTranslation": "خطة جيدة. وداعًا أيتها الحديقة الجديدة.",
+     "pronunciation": "Good plan. Goodbye, new garden.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D18_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D18_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_EN_D18_C01",
+      "P_A1_EN_D18_C02",
+      "P_A1_EN_D18_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_EN_D18_C01",
+      "P_A1_EN_D18_C02",
+      "P_A1_EN_D18_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_EN_D18_I01",
+      "P_A1_EN_D18_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D18_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: تنظيم نشاط أو هدف شخصي.",
+   "requiredPhraseIds": [
+    "P_A1_EN_D18_C01",
+    "P_A1_EN_D18_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D18_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "I heard Laith helped today.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "The village is starting to know him.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D18_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: خطة للمزرعة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "اشرح ما ستفعله اليوم وغدًا في ثلاث خطوات."
+   },
+   "successWorldConsequence": "A1_DAY_18:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_EN_D18_S01",
+   "text": "Hello, Elly. The shed is ready.",
+   "englishReference": "Hello, Elly. The shed is ready.",
+   "arabicTranslation": "مرحبًا يا إيلي. السقيفة جاهزة.",
+   "pronunciation": "Hello, Elly. The shed is ready.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D18_LEARNING",
+   "transferContexts": [
+    "تنظيم نشاط أو هدف شخصي."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_EN_D18_I01",
+   "text": "Yes, you did good work.",
+   "englishReference": "Yes, you did good work.",
+   "arabicTranslation": "نعم، لقد أنجزت عملًا جيدًا.",
+   "pronunciation": "Yes, you did good work.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D18_LEARNING",
+   "transferContexts": [
+    "تنظيم نشاط أو هدف شخصي."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_EN_D18_C01",
+   "text": "Now I want to make a small garden.",
+   "englishReference": "Now I want to make a small garden.",
+   "arabicTranslation": "الآن أريد أن أصنع حديقة صغيرة.",
+   "pronunciation": "Now I want to make a small garden.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D18_LEARNING",
+   "transferContexts": [
+    "تنظيم نشاط أو هدف شخصي."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_EN_D18_S02",
+   "text": "What is your plan?",
+   "englishReference": "What is your plan?",
+   "arabicTranslation": "ما خطتك؟",
+   "pronunciation": "What is your plan?",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D18_LEARNING",
+   "transferContexts": [
+    "تنظيم نشاط أو هدف شخصي."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_EN_D18_C02",
+   "text": "First, we clean the ground.",
+   "englishReference": "First, we clean the ground.",
+   "arabicTranslation": "أولًا ننظف الأرض.",
+   "pronunciation": "First, we clean the ground.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D18_LEARNING",
+   "transferContexts": [
+    "تنظيم نشاط أو هدف شخصي."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_EN_D18_C03",
+   "text": "Then we plant seeds.",
+   "englishReference": "Then we plant seeds.",
+   "arabicTranslation": "ثم نزرع البذور.",
+   "pronunciation": "Then we plant seeds.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D18_LEARNING",
+   "transferContexts": [
+    "تنظيم نشاط أو هدف شخصي."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_EN_D18_S03",
+   "text": "Tomorrow, we bring water and wood.",
+   "englishReference": "Tomorrow, we bring water and wood.",
+   "arabicTranslation": "غدًا نحضر الماء والخشب.",
+   "pronunciation": "Tomorrow, we bring water and wood.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D18_LEARNING",
+   "transferContexts": [
+    "تنظيم نشاط أو هدف شخصي."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_EN_D18_I02",
+   "text": "Good plan. Goodbye, new garden.",
+   "englishReference": "Good plan. Goodbye, new garden.",
+   "arabicTranslation": "خطة جيدة. وداعًا أيتها الحديقة الجديدة.",
+   "pronunciation": "Good plan. Goodbye, new garden.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D18_LEARNING",
+   "transferContexts": [
+    "تنظيم نشاط أو هدف شخصي."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_EN_D18_C01",
+     "P_A1_EN_D18_C02",
+     "P_A1_EN_D18_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_EN_D18_C01",
+     "P_A1_EN_D18_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_EN_D18_C01",
+    "P_A1_EN_D18_C02",
+    "P_A1_EN_D18_C03",
+    "P_A1_EN_D18_I01",
+    "P_A1_EN_D18_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D17:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_18:COMPLETE",
+   "A1_D19:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_18",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_en_d17",
+  "nextLessonId": "story_a1_en_d19",
+  "nextLessonHookArabic": "غدًا: زاوية التنظيم.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 18: خطة للمزرعة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

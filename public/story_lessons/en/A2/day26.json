@@ -1,0 +1,431 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_en_d26",
+  "languageCode": "en",
+  "languageNameArabic": "الإنجليزية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 26,
+  "lessonTitle": "A Neighbor Needs Help",
+  "englishTitle": "A Neighbor Needs Help",
+  "arabicTitle": "جار يحتاج عونًا",
+  "canonicalBeatIds": [
+   "BEAT_A2_D26"
+  ],
+  "canonVersion": "STORY_CANON_V1_1"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف جار وعرض مساعدة متفق عليها.",
+  "realLifeTransferArabic": "بناء علاقة مع جار.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: جار يحتاج عونًا دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "بعد العودة، يجد ليث جارًا جديدًا يحتاج نقل صندوق ثقيل إلى بيته.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: جار يحتاج عونًا.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "neighbor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: جار يحتاج عونًا."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D26_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D26_01",
+     "narrationArabic": "بعد العودة، يجد ليث جارًا جديدًا يحتاج نقل صندوق ثقيل إلى بيته."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D26_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف جار وعرض مساعدة متفق عليها.",
+   "lines": [
+    {
+     "lineId": "L_A2_EN_D26_01",
+     "speakerId": "neighbor",
+     "targetText": "Good morning, Laith. Hello, I live next to the old shed.",
+     "englishReference": "Good morning, Laith. Hello, I live next to the old shed.",
+     "arabicTranslation": "صباح الخير يا ليث. Hello, I live next to the old shed.",
+     "pronunciation": "Good morning, Laith. Hello, I live next to the old shed.",
+     "phraseIds": [
+      "P_A2_EN_D26_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_EN_D26_02",
+     "speakerId": "laith",
+     "targetText": "Good morning. Nice to meet you. Do you need help?",
+     "englishReference": "Good morning. Nice to meet you. Do you need help?",
+     "arabicTranslation": "صباح الخير. Nice to meet you. Do you need help?",
+     "pronunciation": "Good morning. Nice to meet you. Do you need help?",
+     "phraseIds": [
+      "P_A2_EN_D26_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_EN_D26_03",
+     "speakerId": "neighbor",
+     "targetText": "Yes, this box is too heavy for me.",
+     "englishReference": "Yes, this box is too heavy for me.",
+     "arabicTranslation": "Yes, this box is too heavy for me.",
+     "pronunciation": "Yes, this box is too heavy for me.",
+     "phraseIds": [
+      "P_A2_EN_D26_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_EN_D26_04",
+     "speakerId": "laith",
+     "targetText": "I can carry it with you.",
+     "englishReference": "I can carry it with you.",
+     "arabicTranslation": "I can carry it with you.",
+     "pronunciation": "I can carry it with you.",
+     "phraseIds": [
+      "P_A2_EN_D26_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_EN_D26_05",
+     "speakerId": "neighbor",
+     "targetText": "Thank you. Are you new here too?",
+     "englishReference": "Thank you. Are you new here too?",
+     "arabicTranslation": "Thank you. Are you new here too?",
+     "pronunciation": "Thank you. Are you new here too?",
+     "phraseIds": [
+      "P_A2_EN_D26_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_EN_D26_06",
+     "speakerId": "laith",
+     "targetText": "No, but I am still learning about the village.",
+     "englishReference": "No, but I am still learning about the village.",
+     "arabicTranslation": "No, but I am still learning about the village.",
+     "pronunciation": "No, but I am still learning about the village.",
+     "phraseIds": [
+      "P_A2_EN_D26_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_EN_D26_07",
+     "speakerId": "neighbor",
+     "targetText": "That sounds like a good plan.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "That sounds like a good plan.",
+     "phraseIds": [
+      "P_A2_EN_D26_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_EN_D26_08",
+     "speakerId": "laith",
+     "targetText": "Thank you. See you later.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Thank you. See you later.",
+     "phraseIds": [
+      "P_A2_EN_D26_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D26_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_EN_D26_C01",
+      "P_A2_EN_D26_C02",
+      "P_A2_EN_D26_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_EN_D26_C01",
+      "P_A2_EN_D26_C02",
+      "P_A2_EN_D26_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_EN_D26_I01",
+      "P_A2_EN_D26_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D26_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: بناء علاقة مع جار.",
+   "requiredPhraseIds": [
+    "P_A2_EN_D26_C01",
+    "P_A2_EN_D26_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D26_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "The market is changing quickly this season.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Yes. People are asking more questions about old roads.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D26_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: جار يحتاج عونًا.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: جار يحتاج عونًا."
+   },
+   "successWorldConsequence": "NEIGHBOR_TRUST:+1",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_EN_D26_S01",
+   "text": "Good morning, Laith. Hello, I live next to the old shed.",
+   "englishReference": "Good morning, Laith. Hello, I live next to the old shed.",
+   "arabicTranslation": "صباح الخير يا ليث. Hello, I live next to the old shed.",
+   "pronunciation": "Good morning, Laith. Hello, I live next to the old shed.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "بناء علاقة مع جار."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_EN_D26_C01",
+   "text": "Good morning. Nice to meet you. Do you need help?",
+   "englishReference": "Good morning. Nice to meet you. Do you need help?",
+   "arabicTranslation": "صباح الخير. Nice to meet you. Do you need help?",
+   "pronunciation": "Good morning. Nice to meet you. Do you need help?",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "بناء علاقة مع جار."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_EN_D26_I01",
+   "text": "Yes, this box is too heavy for me.",
+   "englishReference": "Yes, this box is too heavy for me.",
+   "arabicTranslation": "Yes, this box is too heavy for me.",
+   "pronunciation": "Yes, this box is too heavy for me.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "بناء علاقة مع جار."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_EN_D26_C02",
+   "text": "I can carry it with you.",
+   "englishReference": "I can carry it with you.",
+   "arabicTranslation": "I can carry it with you.",
+   "pronunciation": "I can carry it with you.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "بناء علاقة مع جار."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_EN_D26_I02",
+   "text": "Thank you. Are you new here too?",
+   "englishReference": "Thank you. Are you new here too?",
+   "arabicTranslation": "Thank you. Are you new here too?",
+   "pronunciation": "Thank you. Are you new here too?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "بناء علاقة مع جار."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_EN_D26_C03",
+   "text": "No, but I am still learning about the village.",
+   "englishReference": "No, but I am still learning about the village.",
+   "arabicTranslation": "No, but I am still learning about the village.",
+   "pronunciation": "No, but I am still learning about the village.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "بناء علاقة مع جار."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_EN_D26_S02",
+   "text": "That sounds like a good plan.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "That sounds like a good plan.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "بناء علاقة مع جار."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_EN_D26_S03",
+   "text": "Thank you. See you later.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Thank you. See you later.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "بناء علاقة مع جار."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_EN_D26_C01",
+     "P_A2_EN_D26_C02",
+     "P_A2_EN_D26_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_EN_D26_I01",
+     "P_A2_EN_D26_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_EN_D26_C01",
+    "P_A2_EN_D26_C02",
+    "P_A2_EN_D26_C03",
+    "P_A2_EN_D26_I01",
+    "P_A2_EN_D26_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D25:COMPLETE"
+  ],
+  "onSuccess": [
+   "NEIGHBOR_TRUST:+1",
+   "A2_D27:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_26",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_en_d25",
+  "nextLessonId": "story_a2_en_d27",
+  "nextLessonHookArabic": "ينتهي اليوم بتحضير سوق أكبر.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 26: جار يحتاج عونًا."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

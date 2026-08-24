@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 20,
+ "story": {
+  "originalText": "Yassin: Jīntiān shì xīngqí yī.\nOmar: Wǒmen de kè zài xīngqí yī ma?\nYassin: Shì de, wǒmen de kè zài xīngqí yī hé xīngqí sān.\nOmar: Míngtiān shì xīngqí jǐ?\nYassin: Míngtiān shì xīngqí èr.\nOmar: Wǒ xīngqí èr gōngzuò.\nYassin: Wǒ xīngqí èr wǎnshàng xuéxí.\nOmar: Měi yì tiān dōu shì xuéxí de xīn jīhuì.\nYassin: Zhè shì zhēn de. Míngtiān wǒmen fùxí.\nOmar: Zàijiàn, míngtiān jiàn.",
+  "translatedText": "Yassin: اليوم هو الاثنين.\nOmar: هل درسنا يوم الاثنين؟\nYassin: نعم، درسنا يوم الاثنين والأربعاء.\nOmar: ما يوم غد؟\nYassin: غداً هو الثلاثاء.\nOmar: أنا أعمل يوم الثلاثاء.\nYassin: أنا أدرس مساء الثلاثاء.\nOmar: كل يوم فرصة جديدة للتعلم.\nYassin: هذا صحيح. غداً نراجع.\nOmar: وداعاً إلى الغد.",
+  "nativeScriptText": "Yassin: 今天是星期一。\nOmar: 我们的课在星期一吗？\nYassin: 是的，我们的课在星期一和星期三。\nOmar: 明天是星期几？\nYassin: 明天是星期二。\nOmar: 我星期二工作。\nYassin: 我星期二晚上学习。\nOmar: 每一天都是学习的新机会。\nYassin: 这是真的。明天我们复习。\nOmar: 再见，明天见。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 20: يوم",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "今天是星期一。",
+    "translation": "اليوم هو الاثنين.",
+    "pronunciation": "Jīntiān shì xīngqí yī."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我们的课在星期一吗？",
+    "translation": "هل درسنا يوم الاثنين؟",
+    "pronunciation": "Wǒmen de kè zài xīngqí yī ma?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "是的，我们的课在星期一和星期三。",
+    "translation": "نعم، درسنا يوم الاثنين والأربعاء.",
+    "pronunciation": "Shì de, wǒmen de kè zài xīngqí yī hé xīngqí sān."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "明天是星期几？",
+    "translation": "ما يوم غد؟",
+    "pronunciation": "Míngtiān shì xīngqí jǐ?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "明天是星期二。",
+    "translation": "غداً هو الثلاثاء.",
+    "pronunciation": "Míngtiān shì xīngqí èr."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我星期二工作。",
+    "translation": "أنا أعمل يوم الثلاثاء.",
+    "pronunciation": "Wǒ xīngqí èr gōngzuò."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我星期二晚上学习。",
+    "translation": "أنا أدرس مساء الثلاثاء.",
+    "pronunciation": "Wǒ xīngqí èr wǎnshàng xuéxí."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "每一天都是学习的新机会。",
+    "translation": "كل يوم فرصة جديدة للتعلم.",
+    "pronunciation": "Měi yì tiān dōu shì xuéxí de xīn jīhuì."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "这是真的。明天我们复习。",
+    "translation": "هذا صحيح. غداً نراجع.",
+    "pronunciation": "Zhè shì zhēn de. Míngtiān wǒmen fùxí."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "再见，明天见。",
+    "translation": "وداعاً إلى الغد.",
+    "pronunciation": "Zàijiàn, míngtiān jiàn."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d20",
+   "title": "يوم",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 20,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s3_d19"
+  ],
+  "createdAt": 1786696446398
+ }
+}

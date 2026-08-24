@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 29,
+ "story": {
+  "originalText": "Yassin: Bonjour, Yassin. Qu'est-ce que tu aimes ?\nOmar: J'aime l'anglais et les livres.\nYassin: J'aime le café et le football.\nOmar: Aimes-tu notre maison ?\nYassin: Oui, j'aime beaucoup notre maison.\nOmar: Je n'aime pas la nourriture froide.\nYassin: Je n'aime pas être en retard.\nOmar: J'aime étudier avec toi.\nYassin: Moi aussi, j'aime apprendre avec toi.\nOmar: Demain est notre examen A1. Au revoir.",
+  "translatedText": "Yassin: مرحباً يا ياسين. ماذا تحب؟\nOmar: أحب الإنجليزية والكتب.\nYassin: أحب القهوة وكرة القدم.\nOmar: هل تحب بيتنا؟\nYassin: نعم، أحب بيتنا كثيراً.\nOmar: لا أحب الطعام البارد.\nYassin: لا أحب التأخر.\nOmar: أحب الدراسة معك.\nYassin: وأنا أحب التعلم معك أيضاً.\nOmar: غداً امتحان A1. وداعاً.",
+  "nativeScriptText": "Yassin: Bonjour, Yassin. Qu'est-ce que tu aimes ?\nOmar: J'aime l'anglais et les livres.\nYassin: J'aime le café et le football.\nOmar: Aimes-tu notre maison ?\nYassin: Oui, j'aime beaucoup notre maison.\nOmar: Je n'aime pas la nourriture froide.\nYassin: Je n'aime pas être en retard.\nOmar: J'aime étudier avec toi.\nYassin: Moi aussi, j'aime apprendre avec toi.\nOmar: Demain est notre examen A1. Au revoir.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 29: أحب / أكره",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour, Yassin. Qu'est-ce que tu aimes ?",
+    "translation": "مرحباً يا ياسين. ماذا تحب؟",
+    "pronunciation": "Bonjour, Yassin. Qu'est-ce que tu aimes ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "J'aime l'anglais et les livres.",
+    "translation": "أحب الإنجليزية والكتب.",
+    "pronunciation": "J'aime l'anglais et les livres."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "J'aime le café et le football.",
+    "translation": "أحب القهوة وكرة القدم.",
+    "pronunciation": "J'aime le café et le football."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Aimes-tu notre maison ?",
+    "translation": "هل تحب بيتنا؟",
+    "pronunciation": "Aimes-tu notre maison ?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Oui, j'aime beaucoup notre maison.",
+    "translation": "نعم، أحب بيتنا كثيراً.",
+    "pronunciation": "Oui, j'aime beaucoup notre maison."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je n'aime pas la nourriture froide.",
+    "translation": "لا أحب الطعام البارد.",
+    "pronunciation": "Je n'aime pas la nourriture froide."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Je n'aime pas être en retard.",
+    "translation": "لا أحب التأخر.",
+    "pronunciation": "Je n'aime pas être en retard."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "J'aime étudier avec toi.",
+    "translation": "أحب الدراسة معك.",
+    "pronunciation": "J'aime étudier avec toi."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Moi aussi, j'aime apprendre avec toi.",
+    "translation": "وأنا أحب التعلم معك أيضاً.",
+    "pronunciation": "Moi aussi, j'aime apprendre avec toi."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Demain est notre examen A1. Au revoir.",
+    "translation": "غداً امتحان A1. وداعاً.",
+    "pronunciation": "Demain est notre examen A1. Au revoir."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d29",
+   "title": "أحب / أكره",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 29,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s4_d28"
+  ],
+  "createdAt": 1786696446398
+ }
+}

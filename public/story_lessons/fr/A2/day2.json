@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_fr_d02",
+  "languageCode": "fr",
+  "languageNameArabic": "الفرنسية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 2,
+  "lessonTitle": "Du pain et un souvenir",
+  "englishTitle": "Bread and a Memory",
+  "arabicTitle": "خبز وذكرى",
+  "canonicalBeatIds": [
+   "BEAT_A2_D02"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف عادة أو ذكرى قصيرة من الطفولة.",
+  "realLifeTransferArabic": "التحدث عن عادة طفولة مع صديق أو زميل.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: خبز وذكرى دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "أثناء ترتيب الخبز، تسأل مارثا ليث عمّا كان يحب فعله صغيرًا.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: خبز وذكرى.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "martha"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: خبز وذكرى."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D02_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D02_01",
+     "narrationArabic": "أثناء ترتيب الخبز، تسأل مارثا ليث عمّا كان يحب فعله صغيرًا."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D02_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف عادة أو ذكرى قصيرة من الطفولة.",
+   "lines": [
+    {
+     "lineId": "L_A2_FR_D02_01",
+     "speakerId": "martha",
+     "targetText": "Bonjour, Laith. Avez-vous aidé dans une cuisine lorsque vous étiez enfant ?",
+     "englishReference": "Good morning, Laith. Did you help in a kitchen when you were a child?",
+     "arabicTranslation": "صباح الخير يا ليث. Did you help in a kitchen when you were a child?",
+     "pronunciation": "Bonjour, Laith. Avez-vous aidé dans une cuisine lorsque vous étiez enfant ?",
+     "phraseIds": [
+      "P_A2_FR_D02_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_FR_D02_02",
+     "speakerId": "laith",
+     "targetText": "Bonjour. Non, mais je regardais ma mère faire du pain.",
+     "englishReference": "Good morning. No, but I used to watch my mother bake bread.",
+     "arabicTranslation": "صباح الخير. No, but I used to watch my mother bake bread.",
+     "pronunciation": "Bonjour. Non, mais je regardais ma mère faire du pain.",
+     "phraseIds": [
+      "P_A2_FR_D02_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_FR_D02_03",
+     "speakerId": "martha",
+     "targetText": "Vous souvenez-vous encore de cette odeur ?",
+     "englishReference": "Do you still remember that smell?",
+     "arabicTranslation": "Do you still remember that smell?",
+     "pronunciation": "Vous souvenez-vous encore de cette odeur ?",
+     "phraseIds": [
+      "P_A2_FR_D02_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_FR_D02_04",
+     "speakerId": "laith",
+     "targetText": "Oui. Cela me rappelle la maison.",
+     "englishReference": "Yes. It reminds me of home.",
+     "arabicTranslation": "Yes. It reminds me of home.",
+     "pronunciation": "Oui. Cela me rappelle la maison.",
+     "phraseIds": [
+      "P_A2_FR_D02_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_FR_D02_05",
+     "speakerId": "martha",
+     "targetText": "Pouvez-vous mettre ces pains sur l'étagère ?",
+     "englishReference": "Can you put these loaves on the shelf?",
+     "arabicTranslation": "Can you put these loaves on the shelf?",
+     "pronunciation": "Pouvez-vous mettre ces pains sur l'étagère ?",
+     "phraseIds": [
+      "P_A2_FR_D02_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_FR_D02_06",
+     "speakerId": "laith",
+     "targetText": "Bien sûr. Je peux le faire maintenant.",
+     "englishReference": "Of course. I can do that now.",
+     "arabicTranslation": "Of course. I can do that now.",
+     "pronunciation": "Bien sûr. Je peux le faire maintenant.",
+     "phraseIds": [
+      "P_A2_FR_D02_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_FR_D02_07",
+     "speakerId": "martha",
+     "targetText": "Cela semble être un bon plan.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "Cela semble être un bon plan.",
+     "phraseIds": [
+      "P_A2_FR_D02_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_FR_D02_08",
+     "speakerId": "laith",
+     "targetText": "Merci. À plus tard.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Merci. À plus tard.",
+     "phraseIds": [
+      "P_A2_FR_D02_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D02_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_FR_D02_C01",
+      "P_A2_FR_D02_C02",
+      "P_A2_FR_D02_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_FR_D02_C01",
+      "P_A2_FR_D02_C02",
+      "P_A2_FR_D02_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_FR_D02_I01",
+      "P_A2_FR_D02_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D02_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: التحدث عن عادة طفولة مع صديق أو زميل.",
+   "requiredPhraseIds": [
+    "P_A2_FR_D02_C01",
+    "P_A2_FR_D02_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D02_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Le marché évolue rapidement cette saison.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "Le marché évolue rapidement cette saison."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Oui. Les gens posent davantage de questions sur les anciennes routes.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "Oui. Les gens posent davantage de questions sur les anciennes routes."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D02_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: خبز وذكرى.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: خبز وذكرى."
+   },
+   "successWorldConsequence": "MARTHA_TRUST:+1",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_FR_D02_S01",
+   "text": "Bonjour, Laith. Avez-vous aidé dans une cuisine lorsque vous étiez enfant ?",
+   "englishReference": "Good morning, Laith. Did you help in a kitchen when you were a child?",
+   "arabicTranslation": "صباح الخير يا ليث. Did you help in a kitchen when you were a child?",
+   "pronunciation": "Bonjour, Laith. Avez-vous aidé dans une cuisine lorsque vous étiez enfant ?",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_FR_D02_C01",
+   "text": "Bonjour. Non, mais je regardais ma mère faire du pain.",
+   "englishReference": "Good morning. No, but I used to watch my mother bake bread.",
+   "arabicTranslation": "صباح الخير. No, but I used to watch my mother bake bread.",
+   "pronunciation": "Bonjour. Non, mais je regardais ma mère faire du pain.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_FR_D02_I01",
+   "text": "Vous souvenez-vous encore de cette odeur ?",
+   "englishReference": "Do you still remember that smell?",
+   "arabicTranslation": "Do you still remember that smell?",
+   "pronunciation": "Vous souvenez-vous encore de cette odeur ?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_FR_D02_C02",
+   "text": "Oui. Cela me rappelle la maison.",
+   "englishReference": "Yes. It reminds me of home.",
+   "arabicTranslation": "Yes. It reminds me of home.",
+   "pronunciation": "Oui. Cela me rappelle la maison.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_FR_D02_I02",
+   "text": "Pouvez-vous mettre ces pains sur l'étagère ?",
+   "englishReference": "Can you put these loaves on the shelf?",
+   "arabicTranslation": "Can you put these loaves on the shelf?",
+   "pronunciation": "Pouvez-vous mettre ces pains sur l'étagère ?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_FR_D02_C03",
+   "text": "Bien sûr. Je peux le faire maintenant.",
+   "englishReference": "Of course. I can do that now.",
+   "arabicTranslation": "Of course. I can do that now.",
+   "pronunciation": "Bien sûr. Je peux le faire maintenant.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_FR_D02_S02",
+   "text": "Cela semble être un bon plan.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "Cela semble être un bon plan.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_FR_D02_S03",
+   "text": "Merci. À plus tard.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Merci. À plus tard.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التحدث عن عادة طفولة مع صديق أو زميل."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_FR_D02_C01",
+     "P_A2_FR_D02_C02",
+     "P_A2_FR_D02_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_FR_D02_I01",
+     "P_A2_FR_D02_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_FR_D02_C01",
+    "P_A2_FR_D02_C02",
+    "P_A2_FR_D02_C03",
+    "P_A2_FR_D02_I01",
+    "P_A2_FR_D02_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D01:COMPLETE"
+  ],
+  "onSuccess": [
+   "MARTHA_TRUST:+1",
+   "A2_D03:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_02",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_fr_d01",
+  "nextLessonId": "story_a2_fr_d03",
+  "nextLessonHookArabic": "الجو يتغير قبل وصول زبائن السوق.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 2: خبز وذكرى."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

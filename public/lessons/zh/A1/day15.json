@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 15,
+ "story": {
+  "originalText": "Yassin: Nǐ hǎo, Omar. Nǐ yǒu gōngzuò ma?\nOmar: Yǒu de, wǒ yǒu yí fèn jiānzhí gōngzuò.\nYassin: Nǐ zài nǎlǐ gōngzuò?\nOmar: Wǒ zài yì jiā xiǎo diàn gōngzuò.\nYassin: Nǐ xǐhuān nǐ de gōngzuò ma?\nOmar: Shì de, rénmen hěn yǒuhǎo.\nYassin: Wǒ xīwàng yǒu yì tiān néng zhǎodào gōngzuò.\nOmar: Shǒuxiān, nǐ shì xuéshēng.\nYassin: Shì de, wǒ měitiān zǎoshang xuéxí.\nOmar: Hǎohāo xuéxí. Míngtiān jiàn.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل لديك عمل؟\nOmar: نعم، لدي عمل بدوام جزئي.\nYassin: أين تعمل؟\nOmar: أعمل في متجر صغير.\nYassin: هل تحب عملك؟\nOmar: نعم، الناس لطفاء.\nYassin: أريد عملاً يوماً ما.\nOmar: أولاً، أنت طالب.\nYassin: نعم، أدرس كل صباح.\nOmar: ادرس جيداً. أراك غداً.",
+  "nativeScriptText": "Yassin: 你好，Omar。你有工作吗？\nOmar: 有的，我有一份兼职工作。\nYassin: 你在哪里工作？\nOmar: 我在一家小店工作。\nYassin: 你喜欢你的工作吗？\nOmar: 是的，人们很友好。\nYassin: 我希望有一天能找到工作。\nOmar: 首先，你是学生。\nYassin: 是的，我每天早上学习。\nOmar: 好好学习。明天见。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 15: عمل",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你好，Omar。你有工作吗？",
+    "translation": "مرحباً يا عمر. هل لديك عمل؟",
+    "pronunciation": "Nǐ hǎo, Omar. Nǐ yǒu gōngzuò ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "有的，我有一份兼职工作。",
+    "translation": "نعم، لدي عمل بدوام جزئي.",
+    "pronunciation": "Yǒu de, wǒ yǒu yí fèn jiānzhí gōngzuò."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你在哪里工作？",
+    "translation": "أين تعمل؟",
+    "pronunciation": "Nǐ zài nǎlǐ gōngzuò?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我在一家小店工作。",
+    "translation": "أعمل في متجر صغير.",
+    "pronunciation": "Wǒ zài yì jiā xiǎo diàn gōngzuò."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你喜欢你的工作吗？",
+    "translation": "هل تحب عملك؟",
+    "pronunciation": "Nǐ xǐhuān nǐ de gōngzuò ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，人们很友好。",
+    "translation": "نعم، الناس لطفاء.",
+    "pronunciation": "Shì de, rénmen hěn yǒuhǎo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我希望有一天能找到工作。",
+    "translation": "أريد عملاً يوماً ما.",
+    "pronunciation": "Wǒ xīwàng yǒu yì tiān néng zhǎodào gōngzuò."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "首先，你是学生。",
+    "translation": "أولاً، أنت طالب.",
+    "pronunciation": "Shǒuxiān, nǐ shì xuéshēng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "是的，我每天早上学习。",
+    "translation": "نعم، أدرس كل صباح.",
+    "pronunciation": "Shì de, wǒ měitiān zǎoshang xuéxí."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "好好学习。明天见。",
+    "translation": "ادرس جيداً. أراك غداً.",
+    "pronunciation": "Hǎohāo xuéxí. Míngtiān jiàn."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d15",
+   "title": "عمل",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 15,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s2_d14"
+  ],
+  "createdAt": 1786696446398
+ }
+}

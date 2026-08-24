@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 26,
+ "story": {
+  "originalText": "Yassin: Zǎoshang hǎo, Omar. Nǐ zhǔnbèi hǎo qù kàn yīshēng le ma?\nOmar: Shì de, wǒ zhǔnbèi hǎo le.\nYassin: Yīshēng zài zhè jiā zhěnsuǒ.\nOmar: Nǐ hǎo, yīshēng. Wǒ gǎnjué bú shūfu.\nYassin: Tā tóuténg.\nOmar: Yīshēng shuō wǒ xūyào xiūxi.\nYassin: Nǐ xūyào yào ma?\nOmar: Shì de, yīshēng gěi le wǒ yào.\nYassin: Wǒ huì zài jiālǐ bāng nǐ.\nOmar: Xièxie nǐ de bāngzhù.",
+  "translatedText": "Yassin: صباح الخير يا عمر. هل أنت مستعد للطبيب؟\nOmar: نعم، أنا مستعد.\nYassin: الطبيب في هذه العيادة.\nOmar: مرحباً يا دكتور. أشعر بالمرض.\nYassin: لديه صداع.\nOmar: الطبيب يقول إنني أحتاج إلى الراحة.\nYassin: هل تحتاج إلى دواء؟\nOmar: نعم، الطبيب يعطيني دواء.\nYassin: سأساعدك في البيت.\nOmar: شكراً لمساعدتك.",
+  "nativeScriptText": "Yassin: 早上好，Omar。你准备好去看医生了吗？\nOmar: 是的，我准备好了。\nYassin: 医生在这家诊所。\nOmar: 你好，医生。我感觉不舒服。\nYassin: 他头疼。\nOmar: 医生说我需要休息。\nYassin: 你需要药吗？\nOmar: 是的，医生给了我药。\nYassin: 我会在家里帮你。\nOmar: 谢谢你的帮助。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 26: دكتور",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "早上好，Omar。你准备好去看医生了吗？",
+    "translation": "صباح الخير يا عمر. هل أنت مستعد للطبيب؟",
+    "pronunciation": "Zǎoshang hǎo, Omar. Nǐ zhǔnbèi hǎo qù kàn yīshēng le ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，我准备好了。",
+    "translation": "نعم، أنا مستعد.",
+    "pronunciation": "Shì de, wǒ zhǔnbèi hǎo le."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "医生在这家诊所。",
+    "translation": "الطبيب في هذه العيادة.",
+    "pronunciation": "Yīshēng zài zhè jiā zhěnsuǒ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "你好，医生。我感觉不舒服。",
+    "translation": "مرحباً يا دكتور. أشعر بالمرض.",
+    "pronunciation": "Nǐ hǎo, yīshēng. Wǒ gǎnjué bú shūfu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "他头疼。",
+    "translation": "لديه صداع.",
+    "pronunciation": "Tā tóuténg."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "医生说我需要休息。",
+    "translation": "الطبيب يقول إنني أحتاج إلى الراحة.",
+    "pronunciation": "Yīshēng shuō wǒ xūyào xiūxi."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你需要药吗？",
+    "translation": "هل تحتاج إلى دواء؟",
+    "pronunciation": "Nǐ xūyào yào ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，医生给了我药。",
+    "translation": "نعم، الطبيب يعطيني دواء.",
+    "pronunciation": "Shì de, yīshēng gěi le wǒ yào."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我会在家里帮你。",
+    "translation": "سأساعدك في البيت.",
+    "pronunciation": "Wǒ huì zài jiālǐ bāng nǐ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "谢谢你的帮助。",
+    "translation": "شكراً لمساعدتك.",
+    "pronunciation": "Xièxie nǐ de bāngzhù."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d26",
+   "title": "دكتور",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 26,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s4_d25"
+  ],
+  "createdAt": 1786696446398
+ }
+}

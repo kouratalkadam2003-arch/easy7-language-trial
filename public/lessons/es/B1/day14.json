@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "B1",
+ "dayNumber": 14,
+ "story": {
+  "originalText": "Yassin: Buenos días, Omar.\nOmar: Buenos días, Yassin. Me alegra que podamos continuar nuestra conversación.\nYassin: En mi opinión, el tema «Repaso de las lecciones 8 a 13» importa en nuestras decisiones diarias.\nOmar: Estoy de acuerdo, porque nuestras elecciones afectan a más personas de lo que imaginamos.\nYassin: Pienso que el tema «Repaso de las lecciones 8 a 13» puede moldear tanto la confianza como las oportunidades.\nOmar: Es una razón práctica y fácil de entender.\nYassin: ¿Puedes dar un ejemplo concreto?\nOmar: Sí, un ejemplo concreto puede hacer más clara esta idea.\nYassin: Gracias por explicar tu opinión con tanta calma.\nOmar: Hasta luego. Mañana hablaremos sobre el tema «Generación».",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: في رأيي، موضوع مراجعة شاملة (8-13) مهم في قراراتنا اليومية.\nOmar: أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.\nYassin: وسببي هو أن موضوع مراجعة شاملة (8-13) يمكن أن يشكل الثقة والفرص معًا.\nOmar: هذا سبب عملي، ومن السهل فهمه.\nYassin: هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟\nOmar: نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.\nYassin: شكرًا لأنك شرحت رأيك بهدوء.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Generation.",
+  "nativeScriptText": "Yassin: Buenos días, Omar.\nOmar: Buenos días, Yassin. Me alegra que podamos continuar nuestra conversación.\nYassin: En mi opinión, el tema «Repaso de las lecciones 8 a 13» importa en nuestras decisiones diarias.\nOmar: Estoy de acuerdo, porque nuestras elecciones afectan a más personas de lo que imaginamos.\nYassin: Pienso que el tema «Repaso de las lecciones 8 a 13» puede moldear tanto la confianza como las oportunidades.\nOmar: Es una razón práctica y fácil de entender.\nYassin: ¿Puedes dar un ejemplo concreto?\nOmar: Sí, un ejemplo concreto puede hacer más clara esta idea.\nYassin: Gracias por explicar tu opinión con tanta calma.\nOmar: Hasta luego. Mañana hablaremos sobre el tema «Generación».",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 14: مراجعة شاملة (8-13)",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buenos días, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Buenos días, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Buenos días, Yassin. Me alegra que podamos continuar nuestra conversación.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Buenos días, Yassin. Me alegra que podamos continuar nuestra conversación."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "En mi opinión, el tema «Repaso de las lecciones 8 a 13» importa en nuestras decisiones diarias.",
+    "translation": "في رأيي، موضوع مراجعة شاملة (8-13) مهم في قراراتنا اليومية.",
+    "pronunciation": "En mi opinión, el tema «Repaso de las lecciones 8 a 13» importa en nuestras decisiones diarias."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Estoy de acuerdo, porque nuestras elecciones afectan a más personas de lo que imaginamos.",
+    "translation": "أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.",
+    "pronunciation": "Estoy de acuerdo, porque nuestras elecciones afectan a más personas de lo que imaginamos."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Pienso que el tema «Repaso de las lecciones 8 a 13» puede moldear tanto la confianza como las oportunidades.",
+    "translation": "وسببي هو أن موضوع مراجعة شاملة (8-13) يمكن أن يشكل الثقة والفرص معًا.",
+    "pronunciation": "Pienso que el tema «Repaso de las lecciones 8 a 13» puede moldear tanto la confianza como las oportunidades."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Es una razón práctica y fácil de entender.",
+    "translation": "هذا سبب عملي، ومن السهل فهمه.",
+    "pronunciation": "Es una razón práctica y fácil de entender."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Puedes dar un ejemplo concreto?",
+    "translation": "هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟",
+    "pronunciation": "¿Puedes dar un ejemplo concreto?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, un ejemplo concreto puede hacer más clara esta idea.",
+    "translation": "نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.",
+    "pronunciation": "Sí, un ejemplo concreto puede hacer más clara esta idea."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Gracias por explicar tu opinión con tanta calma.",
+    "translation": "شكرًا لأنك شرحت رأيك بهدوء.",
+    "pronunciation": "Gracias por explicar tu opinión con tanta calma."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hasta luego. Mañana hablaremos sobre el tema «Generación».",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Generation.",
+    "pronunciation": "Hasta luego. Mañana hablaremos sobre el tema «Generación»."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d14",
+   "title": "مراجعة شاملة (8-13)",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 14,
+  "level": "B1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s2_d13"
+  ],
+  "createdAt": 1786705141011
+ }
+}

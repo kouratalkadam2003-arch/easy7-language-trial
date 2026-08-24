@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "B1",
+ "dayNumber": 11,
+ "story": {
+  "originalText": "Yassin: Good morning, Omar.\nOmar: Good morning, Yassin, and I am glad we can continue our discussion.\nYassin: In my view, I resigned matters in our daily decisions.\nOmar: I agree because our choices affect more people than we expect.\nYassin: My reason is that I resigned can shape both trust and opportunity.\nOmar: That is a practical reason, and it is easy to understand.\nYassin: Can you give an example from real life?\nOmar: Yes, one real example can make the idea clearer.\nYassin: Thank you for explaining your opinion so calmly.\nOmar: Goodbye for now, and tomorrow we will discuss Responsibility.",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: في رأيي، موضوع استقلت مهم في قراراتنا اليومية.\nOmar: أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.\nYassin: وسببي هو أن موضوع استقلت يمكن أن يشكل الثقة والفرص معًا.\nOmar: هذا سبب عملي، ومن السهل فهمه.\nYassin: هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟\nOmar: نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.\nYassin: شكرًا لأنك شرحت رأيك بهدوء.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن مسؤولية.",
+  "nativeScriptText": "Yassin: Good morning, Omar.\nOmar: Good morning, Yassin, and I am glad we can continue our discussion.\nYassin: In my view, I resigned matters in our daily decisions.\nOmar: I agree because our choices affect more people than we expect.\nYassin: My reason is that I resigned can shape both trust and opportunity.\nOmar: That is a practical reason, and it is easy to understand.\nYassin: Can you give an example from real life?\nOmar: Yes, one real example can make the idea clearer.\nYassin: Thank you for explaining your opinion so calmly.\nOmar: Goodbye for now, and tomorrow we will discuss Responsibility.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 11: استقلت",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Good morning, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Good morning, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Good morning, Yassin, and I am glad we can continue our discussion.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Good morning, Yassin, and I am glad we can continue our discussion."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "In my view, I resigned matters in our daily decisions.",
+    "translation": "في رأيي، موضوع استقلت مهم في قراراتنا اليومية.",
+    "pronunciation": "In my view, I resigned matters in our daily decisions."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I agree because our choices affect more people than we expect.",
+    "translation": "أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.",
+    "pronunciation": "I agree because our choices affect more people than we expect."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "My reason is that I resigned can shape both trust and opportunity.",
+    "translation": "وسببي هو أن موضوع استقلت يمكن أن يشكل الثقة والفرص معًا.",
+    "pronunciation": "My reason is that I resigned can shape both trust and opportunity."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "That is a practical reason, and it is easy to understand.",
+    "translation": "هذا سبب عملي، ومن السهل فهمه.",
+    "pronunciation": "That is a practical reason, and it is easy to understand."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Can you give an example from real life?",
+    "translation": "هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟",
+    "pronunciation": "Can you give an example from real life?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, one real example can make the idea clearer.",
+    "translation": "نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.",
+    "pronunciation": "Yes, one real example can make the idea clearer."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Thank you for explaining your opinion so calmly.",
+    "translation": "شكرًا لأنك شرحت رأيك بهدوء.",
+    "pronunciation": "Thank you for explaining your opinion so calmly."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Goodbye for now, and tomorrow we will discuss Responsibility.",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن مسؤولية.",
+    "pronunciation": "Goodbye for now, and tomorrow we will discuss Responsibility."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d11",
+   "title": "استقلت",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 11,
+  "level": "B1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s2_d10"
+  ],
+  "createdAt": 1786705141011
+ }
+}

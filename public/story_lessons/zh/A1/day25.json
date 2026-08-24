@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_zh_d25",
+  "languageCode": "zh",
+  "languageNameArabic": "الصينية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 25,
+  "lessonTitle": "疲惫又骄傲",
+  "englishTitle": "Tired and Proud",
+  "arabicTitle": "متعب وفخور",
+  "canonicalBeatIds": [
+   "BEAT_A1_D25"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف التعب والحاجة إلى راحة.",
+  "realLifeTransferArabic": "التعبير عن الصحة والحدود في العمل.",
+  "successCapabilityArabic": "قل ما تشعر به واطلب فترة راحة مناسبة."
+ },
+ "story": {
+  "storyContextArabic": "يعمل ليث طويلًا في الحديقة ويكاد يرهق نفسه.",
+  "storyMissionArabic": "يتعلم أن الراحة قرار مسؤول لا علامة ضعف.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: متعب وفخور."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D25_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D25_01",
+     "narrationArabic": "يعمل ليث طويلًا في الحديقة ويكاد يرهق نفسه."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D25_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف التعب والحاجة إلى راحة.",
+   "lines": [
+    {
+     "lineId": "L_A1_ZH_D25_01",
+     "speakerId": "elly",
+     "targetText": "你好，莱斯。你看起来很累。",
+     "englishReference": "Hello, Laith. You look tired.",
+     "arabicTranslation": "مرحبًا يا ليث. تبدو متعبًا.",
+     "pronunciation": "nǐ hǎo, lái sī. nǐ kàn qǐ lái hěn lèi.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D25_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ZH_D25_02",
+     "speakerId": "laith",
+     "targetText": "是的，我很累。",
+     "englishReference": "Yes, I am very tired.",
+     "arabicTranslation": "نعم، أنا متعب جدًا.",
+     "pronunciation": "shì de, wǒ hěn lèi.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D25_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D25_03",
+     "speakerId": "elly",
+     "targetText": "你需要停下来吗？",
+     "englishReference": "Do you need to stop?",
+     "arabicTranslation": "هل تحتاج إلى التوقف؟",
+     "pronunciation": "nǐ xū yào tíng xià lái ma.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D25_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D25_04",
+     "speakerId": "laith",
+     "targetText": "是的，我需要短暂的休息。",
+     "englishReference": "Yes, I need a short rest.",
+     "arabicTranslation": "نعم، أحتاج إلى راحة قصيرة.",
+     "pronunciation": "shì de, wǒ xū yào duǎn zàn de xiū xī.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D25_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ZH_D25_05",
+     "speakerId": "elly",
+     "targetText": "你今天辛苦了。",
+     "englishReference": "You worked hard today.",
+     "arabicTranslation": "لقد عملت بجد اليوم.",
+     "pronunciation": "nǐ jīn tiān xīn kǔ le.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D25_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D25_06",
+     "speakerId": "laith",
+     "targetText": "我很累，但我很自豪。",
+     "englishReference": "I am tired, but I am proud.",
+     "arabicTranslation": "أنا متعب، لكنني فخور.",
+     "pronunciation": "wǒ hěn lèi, dàn wǒ hěn zì háo.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D25_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D25_07",
+     "speakerId": "elly",
+     "targetText": "现在休息吧。花园可以等。",
+     "englishReference": "Rest now. The garden can wait.",
+     "arabicTranslation": "استرح الآن. الحديقة تستطيع الانتظار.",
+     "pronunciation": "xiàn zài xiū xī ba. huā yuán kě yǐ děng.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D25_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ZH_D25_08",
+     "speakerId": "laith",
+     "targetText": "谢谢。休息后见。",
+     "englishReference": "Thank you. See you after my rest.",
+     "arabicTranslation": "شكرًا. أراكم بعد راحتي.",
+     "pronunciation": "xiè xiè. xiū xī hòu jiàn.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D25_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D25_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_ZH_D25_C01",
+      "P_A1_ZH_D25_C02",
+      "P_A1_ZH_D25_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_ZH_D25_C01",
+      "P_A1_ZH_D25_C02",
+      "P_A1_ZH_D25_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_ZH_D25_I01",
+      "P_A1_ZH_D25_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D25_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: التعبير عن الصحة والحدود في العمل.",
+   "requiredPhraseIds": [
+    "P_A1_ZH_D25_C01",
+    "P_A1_ZH_D25_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D25_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "我听说莱斯今天帮忙了。",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "wǒ tīng shuō lái sī jīn tiān bāng máng le."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "村里的人开始认识他了。",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "cūn lǐ de rén kāi shǐ rèn shí tā le."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D25_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: متعب وفخور.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "قل ما تشعر به واطلب فترة راحة مناسبة."
+   },
+   "successWorldConsequence": "A1_DAY_25:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_ZH_D25_S01",
+   "text": "你好，莱斯。你看起来很累。",
+   "englishReference": "Hello, Laith. You look tired.",
+   "arabicTranslation": "مرحبًا يا ليث. تبدو متعبًا.",
+   "pronunciation": "nǐ hǎo, lái sī. nǐ kàn qǐ lái hěn lèi.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ZH_D25_I01",
+   "text": "是的，我很累。",
+   "englishReference": "Yes, I am very tired.",
+   "arabicTranslation": "نعم، أنا متعب جدًا.",
+   "pronunciation": "shì de, wǒ hěn lèi.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_ZH_D25_C01",
+   "text": "你需要停下来吗？",
+   "englishReference": "Do you need to stop?",
+   "arabicTranslation": "هل تحتاج إلى التوقف؟",
+   "pronunciation": "nǐ xū yào tíng xià lái ma.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ZH_D25_S02",
+   "text": "是的，我需要短暂的休息。",
+   "englishReference": "Yes, I need a short rest.",
+   "arabicTranslation": "نعم، أحتاج إلى راحة قصيرة.",
+   "pronunciation": "shì de, wǒ xū yào duǎn zàn de xiū xī.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ZH_D25_C02",
+   "text": "你今天辛苦了。",
+   "englishReference": "You worked hard today.",
+   "arabicTranslation": "لقد عملت بجد اليوم.",
+   "pronunciation": "nǐ jīn tiān xīn kǔ le.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ZH_D25_C03",
+   "text": "我很累，但我很自豪。",
+   "englishReference": "I am tired, but I am proud.",
+   "arabicTranslation": "أنا متعب، لكنني فخور.",
+   "pronunciation": "wǒ hěn lèi, dàn wǒ hěn zì háo.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ZH_D25_S03",
+   "text": "现在休息吧。花园可以等。",
+   "englishReference": "Rest now. The garden can wait.",
+   "arabicTranslation": "استرح الآن. الحديقة تستطيع الانتظار.",
+   "pronunciation": "xiàn zài xiū xī ba. huā yuán kě yǐ děng.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ZH_D25_I02",
+   "text": "谢谢。休息后见。",
+   "englishReference": "Thank you. See you after my rest.",
+   "arabicTranslation": "شكرًا. أراكم بعد راحتي.",
+   "pronunciation": "xiè xiè. xiū xī hòu jiàn.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D25_LEARNING",
+   "transferContexts": [
+    "التعبير عن الصحة والحدود في العمل."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_ZH_D25_C01",
+     "P_A1_ZH_D25_C02",
+     "P_A1_ZH_D25_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_ZH_D25_C01",
+     "P_A1_ZH_D25_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_ZH_D25_C01",
+    "P_A1_ZH_D25_C02",
+    "P_A1_ZH_D25_C03",
+    "P_A1_ZH_D25_I01",
+    "P_A1_ZH_D25_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D24:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_25:COMPLETE",
+   "A1_D26:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_25",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_zh_d24",
+  "nextLessonId": "story_a1_zh_d26",
+  "nextLessonHookArabic": "غدًا: طلب المساعدة.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 25: متعب وفخور."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

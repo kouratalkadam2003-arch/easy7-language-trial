@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 28,
+ "story": {
+  "originalText": "Yassin: ¿Tienes hambre?\nOmar: Sí, tengo hambre.\nYassin: ¿Cuánto cuesta la comida?\nOmar: La comida cuesta diez dólares.\nYassin: ¿Me puede traer la cuenta, por favor?\nOmar: Sí, aquí está la cuenta.\nYassin: ¿Estás enfermo ahora?\nOmar: No, me siento mejor después del médico.\nYassin: ¿Puedo ayudarte en algo?\nOmar: No, gracias. Estoy bien ahora.",
+  "translatedText": "Yassin: هل أنت جائع؟\nOmar: نعم، أنا جائع.\nYassin: كم ثمن الوجبة؟\nOmar: الوجبة بعشرة دولارات.\nYassin: هل يمكنني الحصول على الفاتورة، من فضلك؟\nOmar: نعم، هذه هي الفاتورة.\nYassin: هل أنت مريض الآن؟\nOmar: لا، أشعر بتحسن بعد زيارة الطبيب.\nYassin: هل يمكنني مساعدتك في شيء؟\nOmar: لا، شكراً. أنا بخير الآن.",
+  "nativeScriptText": "Yassin: ¿Tienes hambre?\nOmar: Sí, tengo hambre.\nYassin: ¿Cuánto cuesta la comida?\nOmar: La comida cuesta diez dólares.\nYassin: ¿Me puede traer la cuenta, por favor?\nOmar: Sí, aquí está la cuenta.\nYassin: ¿Estás enfermo ahora?\nOmar: No, me siento mejor después del médico.\nYassin: ¿Puedo ayudarte en algo?\nOmar: No, gracias. Estoy bien ahora.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 28: مراجعة شاملة (22-27)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Tienes hambre?",
+    "translation": "هل أنت جائع؟",
+    "pronunciation": "¿Tienes hambre?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, tengo hambre.",
+    "translation": "نعم، أنا جائع.",
+    "pronunciation": "Sí, tengo hambre."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Cuánto cuesta la comida?",
+    "translation": "كم ثمن الوجبة؟",
+    "pronunciation": "¿Cuánto cuesta la comida?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "La comida cuesta diez dólares.",
+    "translation": "الوجبة بعشرة دولارات.",
+    "pronunciation": "La comida cuesta diez dólares."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Me puede traer la cuenta, por favor?",
+    "translation": "هل يمكنني الحصول على الفاتورة، من فضلك؟",
+    "pronunciation": "¿Me puede traer la cuenta, por favor?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, aquí está la cuenta.",
+    "translation": "نعم، هذه هي الفاتورة.",
+    "pronunciation": "Sí, aquí está la cuenta."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Estás enfermo ahora?",
+    "translation": "هل أنت مريض الآن؟",
+    "pronunciation": "¿Estás enfermo ahora?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, me siento mejor después del médico.",
+    "translation": "لا، أشعر بتحسن بعد زيارة الطبيب.",
+    "pronunciation": "No, me siento mejor después del médico."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Puedo ayudarte en algo?",
+    "translation": "هل يمكنني مساعدتك في شيء؟",
+    "pronunciation": "¿Puedo ayudarte en algo?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, gracias. Estoy bien ahora.",
+    "translation": "لا، شكراً. أنا بخير الآن.",
+    "pronunciation": "No, gracias. Estoy bien ahora."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d28",
+   "title": "مراجعة شاملة (22-27)",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 28,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s4_d27"
+  ],
+  "createdAt": 1786696446398
+ }
+}

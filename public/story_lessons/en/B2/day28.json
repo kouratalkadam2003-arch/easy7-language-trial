@@ -1,0 +1,447 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_en_d28",
+  "languageCode": "en",
+  "languageNameArabic": "الإنجليزية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 28,
+  "lessonTitle": "The Alliance Decision",
+  "englishTitle": "The Alliance Decision",
+  "arabicTitle": "قرار التحالف",
+  "canonicalBeatIds": [
+   "BEAT_B2_D28"
+  ],
+  "canonVersion": "STORY_CANON_V1_1"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "تقييم قرار بين السرعة والحذر.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: قرار التحالف."
+ },
+ "story": {
+  "storyContextArabic": "يتعين على الفريق الاختيار بين إعلان الشك أو الاستمرار بالمراقبة.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: قرار التحالف.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: قرار التحالف."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D28_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D28_01",
+     "narrationArabic": "يتعين على الفريق الاختيار بين إعلان الشك أو الاستمرار بالمراقبة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D28_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "تقييم قرار بين السرعة والحذر.",
+   "lines": [
+    {
+     "lineId": "L_B2_EN_D28_01",
+     "speakerId": "gaston",
+     "targetText": "Before we decide, how does the next investigation step affect both sides?",
+     "englishReference": "Before we decide, how does the next investigation step affect both sides?",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "Before we decide, how does the next investigation step affect both sides?",
+     "phraseIds": [
+      "P_B2_EN_D28_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_EN_D28_02",
+     "speakerId": "laith",
+     "targetText": "I think waiting for evidence is wiser.",
+     "englishReference": "I think waiting for evidence is wiser.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "I think waiting for evidence is wiser.",
+     "phraseIds": [
+      "P_B2_EN_D28_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D28_03",
+     "speakerId": "gaston",
+     "targetText": "What is the strongest objection?",
+     "englishReference": "What is the strongest objection?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "What is the strongest objection?",
+     "phraseIds": [
+      "P_B2_EN_D28_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D28_04",
+     "speakerId": "laith",
+     "targetText": "Although people want quick answers, we can improve the plan.",
+     "englishReference": "Although people want quick answers, we can improve the plan.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "Although people want quick answers, we can improve the plan.",
+     "phraseIds": [
+      "P_B2_EN_D28_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D28_05",
+     "speakerId": "gaston",
+     "targetText": "What are you willing to offer?",
+     "englishReference": "What are you willing to offer?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "What are you willing to offer?",
+     "phraseIds": [
+      "P_B2_EN_D28_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D28_06",
+     "speakerId": "laith",
+     "targetText": "If we agree, we can set a clear limit for waiting.",
+     "englishReference": "If we agree, we can set a clear limit for waiting.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "If we agree, we can set a clear limit for waiting.",
+     "phraseIds": [
+      "P_B2_EN_D28_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D28_07",
+     "speakerId": "gaston",
+     "targetText": "That sounds balanced.",
+     "englishReference": "That sounds balanced.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "That sounds balanced.",
+     "phraseIds": [
+      "P_B2_EN_D28_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_EN_D28_08",
+     "speakerId": "laith",
+     "targetText": "Thank you. Let us record the agreement.",
+     "englishReference": "Thank you. Let us record the agreement.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "Thank you. Let us record the agreement.",
+     "phraseIds": [
+      "P_B2_EN_D28_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D28_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_EN_D28_C01",
+      "P_B2_EN_D28_C02",
+      "P_B2_EN_D28_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_EN_D28_C01",
+      "P_B2_EN_D28_C02",
+      "P_B2_EN_D28_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_EN_D28_I01",
+      "P_B2_EN_D28_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D28_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_EN_D28_C01",
+    "P_B2_EN_D28_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D28_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "The alliance is changing the region.",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Some details should remain private for now.",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D28_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: قرار التحالف.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "DECISION:CAREFUL",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_EN_D28_S01",
+   "text": "Before we decide, how does the next investigation step affect both sides?",
+   "englishReference": "Before we decide, how does the next investigation step affect both sides?",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "Before we decide, how does the next investigation step affect both sides?",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_EN_D28_C01",
+   "text": "I think waiting for evidence is wiser.",
+   "englishReference": "I think waiting for evidence is wiser.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "I think waiting for evidence is wiser.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_EN_D28_I01",
+   "text": "What is the strongest objection?",
+   "englishReference": "What is the strongest objection?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "What is the strongest objection?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_EN_D28_C02",
+   "text": "Although people want quick answers, we can improve the plan.",
+   "englishReference": "Although people want quick answers, we can improve the plan.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "Although people want quick answers, we can improve the plan.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_EN_D28_I02",
+   "text": "What are you willing to offer?",
+   "englishReference": "What are you willing to offer?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "What are you willing to offer?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_EN_D28_C03",
+   "text": "If we agree, we can set a clear limit for waiting.",
+   "englishReference": "If we agree, we can set a clear limit for waiting.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "If we agree, we can set a clear limit for waiting.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_EN_D28_S02",
+   "text": "That sounds balanced.",
+   "englishReference": "That sounds balanced.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "That sounds balanced.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_EN_D28_S03",
+   "text": "Thank you. Let us record the agreement.",
+   "englishReference": "Thank you. Let us record the agreement.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "Thank you. Let us record the agreement.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_EN_D28_C01",
+     "P_B2_EN_D28_C02",
+     "P_B2_EN_D28_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_EN_D28_I01",
+     "P_B2_EN_D28_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_EN_D28_C01",
+    "P_B2_EN_D28_C02",
+    "P_B2_EN_D28_C03",
+    "P_B2_EN_D28_I01",
+    "P_B2_EN_D28_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B2_D27:COMPLETE"
+  ],
+  "onSuccess": [
+   "DECISION:CAREFUL",
+   "B2_D29:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_28",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b2_en_d27",
+  "nextLessonId": "story_b2_en_d29",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 28: قرار التحالف."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

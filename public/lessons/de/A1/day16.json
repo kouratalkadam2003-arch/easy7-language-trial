@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 16,
+ "story": {
+  "originalText": "Yassin: Guten Morgen, Yassin. Bist du Student?\nOmar: Ja, ich bin Student.\nYassin: Was lernst du?\nOmar: Ich lerne Englisch im Institut.\nYassin: Bist du ein neuer Student?\nOmar: Ja, ich bin neu, aber ich bin bereit.\nYassin: Ein guter Student lernt jeden Tag.\nOmar: Ich lerne jeden Abend mit dir.\nYassin: Unser Lehrer ist auch gut.\nOmar: Ich möchte den Lehrer treffen.",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هل أنت طالب؟\nOmar: نعم، أنا طالب.\nYassin: ماذا تدرس؟\nOmar: أدرس الإنجليزية في المعهد.\nYassin: هل أنت طالب جديد؟\nOmar: نعم، أنا جديد، لكنني مستعد.\nYassin: الطالب الجيد يدرس كل يوم.\nOmar: أدرس معك كل مساء.\nYassin: معلمنا جيد أيضاً.\nOmar: أريد أن أقابل المعلم.",
+  "nativeScriptText": "Yassin: Guten Morgen, Yassin. Bist du Student?\nOmar: Ja, ich bin Student.\nYassin: Was lernst du?\nOmar: Ich lerne Englisch im Institut.\nYassin: Bist du ein neuer Student?\nOmar: Ja, ich bin neu, aber ich bin bereit.\nYassin: Ein guter Student lernt jeden Tag.\nOmar: Ich lerne jeden Abend mit dir.\nYassin: Unser Lehrer ist auch gut.\nOmar: Ich möchte den Lehrer treffen.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 16: طالب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Guten Morgen, Yassin. Bist du Student?",
+    "translation": "صباح الخير يا ياسين. هل أنت طالب؟",
+    "pronunciation": "Guten Morgen, Yassin. Bist du Student?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, ich bin Student.",
+    "translation": "نعم، أنا طالب.",
+    "pronunciation": "Ja, ich bin Student."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Was lernst du?",
+    "translation": "ماذا تدرس؟",
+    "pronunciation": "Was lernst du?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich lerne Englisch im Institut.",
+    "translation": "أدرس الإنجليزية في المعهد.",
+    "pronunciation": "Ich lerne Englisch im Institut."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bist du ein neuer Student?",
+    "translation": "هل أنت طالب جديد؟",
+    "pronunciation": "Bist du ein neuer Student?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, ich bin neu, aber ich bin bereit.",
+    "translation": "نعم، أنا جديد، لكنني مستعد.",
+    "pronunciation": "Ja, ich bin neu, aber ich bin bereit."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ein guter Student lernt jeden Tag.",
+    "translation": "الطالب الجيد يدرس كل يوم.",
+    "pronunciation": "Ein guter Student lernt jeden Tag."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich lerne jeden Abend mit dir.",
+    "translation": "أدرس معك كل مساء.",
+    "pronunciation": "Ich lerne jeden Abend mit dir."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Unser Lehrer ist auch gut.",
+    "translation": "معلمنا جيد أيضاً.",
+    "pronunciation": "Unser Lehrer ist auch gut."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich möchte den Lehrer treffen.",
+    "translation": "أريد أن أقابل المعلم.",
+    "pronunciation": "Ich möchte den Lehrer treffen."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d16",
+   "title": "طالب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 16,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s3_d15"
+  ],
+  "createdAt": 1786696446398
+ }
+}

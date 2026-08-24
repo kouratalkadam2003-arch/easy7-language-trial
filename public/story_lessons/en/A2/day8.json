@@ -1,0 +1,431 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_en_d08",
+  "languageCode": "en",
+  "languageNameArabic": "الإنجليزية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 8,
+  "lessonTitle": "My New Routine",
+  "englishTitle": "My New Routine",
+  "arabicTitle": "روتيني الجديد",
+  "canonicalBeatIds": [
+   "BEAT_A2_D08"
+  ],
+  "canonVersion": "STORY_CANON_V1_1"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف روتين يومي متسلسل.",
+  "realLifeTransferArabic": "شرح يومك المعتاد.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: روتيني الجديد دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "تساعد إيلي ليث على وضع روتين متوازن بين المزرعة والسوق والراحة.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: روتيني الجديد.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: روتيني الجديد."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D08_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D08_01",
+     "narrationArabic": "تساعد إيلي ليث على وضع روتين متوازن بين المزرعة والسوق والراحة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D08_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف روتين يومي متسلسل.",
+   "lines": [
+    {
+     "lineId": "L_A2_EN_D08_01",
+     "speakerId": "elly",
+     "targetText": "Good morning, Laith. What do you usually do in the morning?",
+     "englishReference": "Good morning, Laith. What do you usually do in the morning?",
+     "arabicTranslation": "صباح الخير يا ليث. What do you usually do in the morning?",
+     "pronunciation": "Good morning, Laith. What do you usually do in the morning?",
+     "phraseIds": [
+      "P_A2_EN_D08_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_EN_D08_02",
+     "speakerId": "laith",
+     "targetText": "Good morning. I usually water the garden first.",
+     "englishReference": "Good morning. I usually water the garden first.",
+     "arabicTranslation": "صباح الخير. I usually water the garden first.",
+     "pronunciation": "Good morning. I usually water the garden first.",
+     "phraseIds": [
+      "P_A2_EN_D08_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_EN_D08_03",
+     "speakerId": "elly",
+     "targetText": "And what do you do after that?",
+     "englishReference": "And what do you do after that?",
+     "arabicTranslation": "And what do you do after that?",
+     "pronunciation": "And what do you do after that?",
+     "phraseIds": [
+      "P_A2_EN_D08_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_EN_D08_04",
+     "speakerId": "laith",
+     "targetText": "Then I help at the market.",
+     "englishReference": "Then I help at the market.",
+     "arabicTranslation": "Then I help at the market.",
+     "pronunciation": "Then I help at the market.",
+     "phraseIds": [
+      "P_A2_EN_D08_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_EN_D08_05",
+     "speakerId": "elly",
+     "targetText": "Do you rest in the evening?",
+     "englishReference": "Do you rest in the evening?",
+     "arabicTranslation": "Do you rest in the evening?",
+     "pronunciation": "Do you rest in the evening?",
+     "phraseIds": [
+      "P_A2_EN_D08_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_EN_D08_06",
+     "speakerId": "laith",
+     "targetText": "Yes, I read or talk with friends.",
+     "englishReference": "Yes, I read or talk with friends.",
+     "arabicTranslation": "Yes, I read or talk with friends.",
+     "pronunciation": "Yes, I read or talk with friends.",
+     "phraseIds": [
+      "P_A2_EN_D08_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_EN_D08_07",
+     "speakerId": "elly",
+     "targetText": "That sounds like a good plan.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "That sounds like a good plan.",
+     "phraseIds": [
+      "P_A2_EN_D08_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_EN_D08_08",
+     "speakerId": "laith",
+     "targetText": "Thank you. See you later.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Thank you. See you later.",
+     "phraseIds": [
+      "P_A2_EN_D08_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D08_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_EN_D08_C01",
+      "P_A2_EN_D08_C02",
+      "P_A2_EN_D08_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_EN_D08_C01",
+      "P_A2_EN_D08_C02",
+      "P_A2_EN_D08_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_EN_D08_I01",
+      "P_A2_EN_D08_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D08_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: شرح يومك المعتاد.",
+   "requiredPhraseIds": [
+    "P_A2_EN_D08_C01",
+    "P_A2_EN_D08_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D08_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "The market is changing quickly this season.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Yes. People are asking more questions about old roads.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D08_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: روتيني الجديد.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: روتيني الجديد."
+   },
+   "successWorldConsequence": "ROUTINE_BOARD:UNLOCKED",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_EN_D08_S01",
+   "text": "Good morning, Laith. What do you usually do in the morning?",
+   "englishReference": "Good morning, Laith. What do you usually do in the morning?",
+   "arabicTranslation": "صباح الخير يا ليث. What do you usually do in the morning?",
+   "pronunciation": "Good morning, Laith. What do you usually do in the morning?",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "شرح يومك المعتاد."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_EN_D08_C01",
+   "text": "Good morning. I usually water the garden first.",
+   "englishReference": "Good morning. I usually water the garden first.",
+   "arabicTranslation": "صباح الخير. I usually water the garden first.",
+   "pronunciation": "Good morning. I usually water the garden first.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "شرح يومك المعتاد."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_EN_D08_I01",
+   "text": "And what do you do after that?",
+   "englishReference": "And what do you do after that?",
+   "arabicTranslation": "And what do you do after that?",
+   "pronunciation": "And what do you do after that?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "شرح يومك المعتاد."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_EN_D08_C02",
+   "text": "Then I help at the market.",
+   "englishReference": "Then I help at the market.",
+   "arabicTranslation": "Then I help at the market.",
+   "pronunciation": "Then I help at the market.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "شرح يومك المعتاد."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_EN_D08_I02",
+   "text": "Do you rest in the evening?",
+   "englishReference": "Do you rest in the evening?",
+   "arabicTranslation": "Do you rest in the evening?",
+   "pronunciation": "Do you rest in the evening?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "شرح يومك المعتاد."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_EN_D08_C03",
+   "text": "Yes, I read or talk with friends.",
+   "englishReference": "Yes, I read or talk with friends.",
+   "arabicTranslation": "Yes, I read or talk with friends.",
+   "pronunciation": "Yes, I read or talk with friends.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "شرح يومك المعتاد."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_EN_D08_S02",
+   "text": "That sounds like a good plan.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "That sounds like a good plan.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "شرح يومك المعتاد."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_EN_D08_S03",
+   "text": "Thank you. See you later.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Thank you. See you later.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "شرح يومك المعتاد."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_EN_D08_C01",
+     "P_A2_EN_D08_C02",
+     "P_A2_EN_D08_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_EN_D08_I01",
+     "P_A2_EN_D08_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_EN_D08_C01",
+    "P_A2_EN_D08_C02",
+    "P_A2_EN_D08_C03",
+    "P_A2_EN_D08_I01",
+    "P_A2_EN_D08_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D07:COMPLETE"
+  ],
+  "onSuccess": [
+   "ROUTINE_BOARD:UNLOCKED",
+   "A2_D09:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_08",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_en_d07",
+  "nextLessonId": "story_a2_en_d09",
+  "nextLessonHookArabic": "صباح الغد يبدأ قبل الشروق.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 8: روتيني الجديد."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

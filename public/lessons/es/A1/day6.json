@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 6,
+ "story": {
+  "originalText": "Yassin: Buenas tardes, Yassin. ¿Cómo estás?\nOmar: Estoy bien, gracias. ¿Y tú?\nYassin: Estoy muy bien, gracias a Dios.\nOmar: ¿Estás cansado después de la clase?\nYassin: Un poco cansado, pero feliz.\nOmar: Yo también estoy feliz.\nYassin: La primera semana va bien.\nOmar: Sí, aprendo algo cada día.\nYassin: Mañana repasaremos juntos.\nOmar: Genial. Buenas noches, Omar.",
+  "translatedText": "Yassin: مساء الخير يا ياسين. كيف حالك؟\nOmar: أنا بخير، شكراً. وأنت؟\nYassin: أنا بخير جداً، الحمد لله.\nOmar: هل أنت متعب بعد الدرس؟\nYassin: متعب قليلاً، لكن سعيد.\nOmar: أنا سعيد أيضاً.\nYassin: الأسبوع الأول يسير بشكل جيد.\nOmar: نعم، أتعلم شيئاً كل يوم.\nYassin: غداً سنراجع معاً.\nOmar: رائع. تصبح على خير يا عمر.",
+  "nativeScriptText": "Yassin: Buenas tardes, Yassin. ¿Cómo estás?\nOmar: Estoy bien, gracias. ¿Y tú?\nYassin: Estoy muy bien, gracias a Dios.\nOmar: ¿Estás cansado después de la clase?\nYassin: Un poco cansado, pero feliz.\nOmar: Yo también estoy feliz.\nYassin: La primera semana va bien.\nOmar: Sí, aprendo algo cada día.\nYassin: Mañana repasaremos juntos.\nOmar: Genial. Buenas noches, Omar.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 6: كيف حالك؟",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buenas tardes, Yassin. ¿Cómo estás?",
+    "translation": "مساء الخير يا ياسين. كيف حالك؟",
+    "pronunciation": "Buenas tardes, Yassin. ¿Cómo estás?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Estoy bien, gracias. ¿Y tú?",
+    "translation": "أنا بخير، شكراً. وأنت؟",
+    "pronunciation": "Estoy bien, gracias. ¿Y tú?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Estoy muy bien, gracias a Dios.",
+    "translation": "أنا بخير جداً، الحمد لله.",
+    "pronunciation": "Estoy muy bien, gracias a Dios."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "¿Estás cansado después de la clase?",
+    "translation": "هل أنت متعب بعد الدرس؟",
+    "pronunciation": "¿Estás cansado después de la clase?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Un poco cansado, pero feliz.",
+    "translation": "متعب قليلاً، لكن سعيد.",
+    "pronunciation": "Un poco cansado, pero feliz."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yo también estoy feliz.",
+    "translation": "أنا سعيد أيضاً.",
+    "pronunciation": "Yo también estoy feliz."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "La primera semana va bien.",
+    "translation": "الأسبوع الأول يسير بشكل جيد.",
+    "pronunciation": "La primera semana va bien."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, aprendo algo cada día.",
+    "translation": "نعم، أتعلم شيئاً كل يوم.",
+    "pronunciation": "Sí, aprendo algo cada día."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Mañana repasaremos juntos.",
+    "translation": "غداً سنراجع معاً.",
+    "pronunciation": "Mañana repasaremos juntos."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Genial. Buenas noches, Omar.",
+    "translation": "رائع. تصبح على خير يا عمر.",
+    "pronunciation": "Genial. Buenas noches, Omar."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d6",
+   "title": "كيف حالك؟",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 6,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s1_d5"
+  ],
+  "createdAt": 1786696446398
+ }
+}

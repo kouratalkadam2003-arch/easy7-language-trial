@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_it_d28",
+  "languageCode": "it",
+  "languageNameArabic": "الإيطالية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 28,
+  "lessonTitle": "Ciò che abbiamo costruito insieme",
+  "englishTitle": "What We Built Together",
+  "arabicTitle": "ما بنيناه معًا",
+  "canonicalBeatIds": [
+   "BEAT_A1_D28"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "تلخيص إنجاز بسيط باستخدام الماضي القريب.",
+  "realLifeTransferArabic": "الحديث عن ما أنجزته مع فريق.",
+  "successCapabilityArabic": "قل ثلاثة أشياء أنجزتموها معًا."
+ },
+ "story": {
+  "storyContextArabic": "ترتب السقيفة وتظهر أولى الشتلات الصغيرة.",
+  "storyMissionArabic": "يراجع ليث ما تغيّر بفضل التعاون.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: ما بنيناه معًا."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D28_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D28_01",
+     "narrationArabic": "ترتب السقيفة وتظهر أولى الشتلات الصغيرة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D28_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "تلخيص إنجاز بسيط باستخدام الماضي القريب.",
+   "lines": [
+    {
+     "lineId": "L_A1_IT_D28_01",
+     "speakerId": "team",
+     "targetText": "Buongiorno a tutti. Guarda il giardino.",
+     "englishReference": "Good morning, everyone. Look at the garden.",
+     "arabicTranslation": "صباح الخير يا جميعًا. انظروا إلى الحديقة.",
+     "pronunciation": "Buongiorno a tutti. Guarda il giardino.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D28_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_IT_D28_02",
+     "speakerId": "laith",
+     "targetText": "Sembra molto bello, Laith.",
+     "englishReference": "It looks very good, Laith.",
+     "arabicTranslation": "إنها تبدو جيدة جدًا يا ليث.",
+     "pronunciation": "Sembra molto bello, Laith.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D28_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_IT_D28_03",
+     "speakerId": "team",
+     "targetText": "Abbiamo pulito il terreno.",
+     "englishReference": "We cleaned the ground.",
+     "arabicTranslation": "لقد نظفنا الأرض.",
+     "pronunciation": "Abbiamo pulito il terreno.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D28_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_IT_D28_04",
+     "speakerId": "laith",
+     "targetText": "Abbiamo sistemato anche il capannone.",
+     "englishReference": "We fixed the shed too.",
+     "arabicTranslation": "وأصلحنا السقيفة أيضًا.",
+     "pronunciation": "Abbiamo sistemato anche il capannone.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D28_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_IT_D28_05",
+     "speakerId": "team",
+     "targetText": "E abbiamo piantato i primi semi.",
+     "englishReference": "And we planted the first seeds.",
+     "arabicTranslation": "وزرعنا البذور الأولى.",
+     "pronunciation": "E abbiamo piantato i primi semi.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D28_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_IT_D28_06",
+     "speakerId": "laith",
+     "targetText": "Sì, l'abbiamo fatto insieme.",
+     "englishReference": "Yes, we did it together.",
+     "arabicTranslation": "نعم، فعلنا ذلك معًا.",
+     "pronunciation": "Sì, l'abbiamo fatto insieme.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D28_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_IT_D28_07",
+     "speakerId": "team",
+     "targetText": "Sono orgoglioso del nostro lavoro.",
+     "englishReference": "I am proud of our work.",
+     "arabicTranslation": "أنا فخور بعملنا.",
+     "pronunciation": "Sono orgoglioso del nostro lavoro.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D28_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_IT_D28_08",
+     "speakerId": "laith",
+     "targetText": "Anche io. Addio, piccolo giardino.",
+     "englishReference": "Me too. Goodbye, little garden.",
+     "arabicTranslation": "وأنا أيضًا. وداعًا أيتها الحديقة الصغيرة.",
+     "pronunciation": "Anche io. Addio, piccolo giardino.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D28_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D28_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_IT_D28_C01",
+      "P_A1_IT_D28_C02",
+      "P_A1_IT_D28_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_IT_D28_C01",
+      "P_A1_IT_D28_C02",
+      "P_A1_IT_D28_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_IT_D28_I01",
+      "P_A1_IT_D28_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D28_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: الحديث عن ما أنجزته مع فريق.",
+   "requiredPhraseIds": [
+    "P_A1_IT_D28_C01",
+    "P_A1_IT_D28_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D28_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Ho sentito che Laith mi ha aiutato oggi.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "Ho sentito che Laith mi ha aiutato oggi."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Il villaggio comincia a conoscerlo.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "Il villaggio comincia a conoscerlo."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D28_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: ما بنيناه معًا.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "قل ثلاثة أشياء أنجزتموها معًا."
+   },
+   "successWorldConsequence": "SMALL_GARDEN:ESTABLISHED",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_IT_D28_S01",
+   "text": "Buongiorno a tutti. Guarda il giardino.",
+   "englishReference": "Good morning, everyone. Look at the garden.",
+   "arabicTranslation": "صباح الخير يا جميعًا. انظروا إلى الحديقة.",
+   "pronunciation": "Buongiorno a tutti. Guarda il giardino.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D28_LEARNING",
+   "transferContexts": [
+    "الحديث عن ما أنجزته مع فريق."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_IT_D28_I01",
+   "text": "Sembra molto bello, Laith.",
+   "englishReference": "It looks very good, Laith.",
+   "arabicTranslation": "إنها تبدو جيدة جدًا يا ليث.",
+   "pronunciation": "Sembra molto bello, Laith.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D28_LEARNING",
+   "transferContexts": [
+    "الحديث عن ما أنجزته مع فريق."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_IT_D28_C01",
+   "text": "Abbiamo pulito il terreno.",
+   "englishReference": "We cleaned the ground.",
+   "arabicTranslation": "لقد نظفنا الأرض.",
+   "pronunciation": "Abbiamo pulito il terreno.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D28_LEARNING",
+   "transferContexts": [
+    "الحديث عن ما أنجزته مع فريق."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_IT_D28_S02",
+   "text": "Abbiamo sistemato anche il capannone.",
+   "englishReference": "We fixed the shed too.",
+   "arabicTranslation": "وأصلحنا السقيفة أيضًا.",
+   "pronunciation": "Abbiamo sistemato anche il capannone.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D28_LEARNING",
+   "transferContexts": [
+    "الحديث عن ما أنجزته مع فريق."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_IT_D28_C02",
+   "text": "E abbiamo piantato i primi semi.",
+   "englishReference": "And we planted the first seeds.",
+   "arabicTranslation": "وزرعنا البذور الأولى.",
+   "pronunciation": "E abbiamo piantato i primi semi.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D28_LEARNING",
+   "transferContexts": [
+    "الحديث عن ما أنجزته مع فريق."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_IT_D28_C03",
+   "text": "Sì, l'abbiamo fatto insieme.",
+   "englishReference": "Yes, we did it together.",
+   "arabicTranslation": "نعم، فعلنا ذلك معًا.",
+   "pronunciation": "Sì, l'abbiamo fatto insieme.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D28_LEARNING",
+   "transferContexts": [
+    "الحديث عن ما أنجزته مع فريق."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_IT_D28_S03",
+   "text": "Sono orgoglioso del nostro lavoro.",
+   "englishReference": "I am proud of our work.",
+   "arabicTranslation": "أنا فخور بعملنا.",
+   "pronunciation": "Sono orgoglioso del nostro lavoro.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D28_LEARNING",
+   "transferContexts": [
+    "الحديث عن ما أنجزته مع فريق."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_IT_D28_I02",
+   "text": "Anche io. Addio, piccolo giardino.",
+   "englishReference": "Me too. Goodbye, little garden.",
+   "arabicTranslation": "وأنا أيضًا. وداعًا أيتها الحديقة الصغيرة.",
+   "pronunciation": "Anche io. Addio, piccolo giardino.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D28_LEARNING",
+   "transferContexts": [
+    "الحديث عن ما أنجزته مع فريق."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_IT_D28_C01",
+     "P_A1_IT_D28_C02",
+     "P_A1_IT_D28_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_IT_D28_C01",
+     "P_A1_IT_D28_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_IT_D28_C01",
+    "P_A1_IT_D28_C02",
+    "P_A1_IT_D28_C03",
+    "P_A1_IT_D28_I01",
+    "P_A1_IT_D28_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D27:COMPLETE"
+  ],
+  "onSuccess": [
+   "SMALL_GARDEN:ESTABLISHED",
+   "A1_D29:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_28",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_it_d27",
+  "nextLessonId": "story_a1_it_d29",
+  "nextLessonHookArabic": "غدًا: هذا المكان مهم لي.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 28: ما بنيناه معًا."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

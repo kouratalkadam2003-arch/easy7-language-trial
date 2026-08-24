@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 13,
+ "story": {
+  "originalText": "Yassin: Zǎoshang hǎo, Omar. Wǒ kě le.\nOmar: Wǒmen qù xiǎo kāfēiguǎn ba.\nYassin: Qǐng gěi wǒ yì píng shuǐ.\nOmar: Qǐng gěi wǒ yì bēi kāfēi.\nYassin: Nǐ měitiān dōu hē kāfēi ma?\nOmar: Bù, zhǐ zài zǎoshang.\nYassin: Jīntiān hē shuǐ duì wǒ hǎo.\nOmar: Zhè shì nǐ de shuǐ.\nYassin: Xièxie. Shuǐ hěn lěng.\nOmar: Míngtiān wǒmen fùxí jiā de cíhuì.",
+  "translatedText": "Yassin: صباح الخير يا عمر. أنا عطشان.\nOmar: لنذهب إلى المقهى الصغير.\nYassin: أريد زجاجة ماء، من فضلك.\nOmar: أريد قهوة، من فضلك.\nYassin: هل تشرب القهوة كل يوم؟\nOmar: لا، فقط في الصباح.\nYassin: الماء جيد لي اليوم.\nOmar: هذا ماؤك.\nYassin: شكراً. الماء بارد.\nOmar: غداً سنراجع كلمات البيت.",
+  "nativeScriptText": "Yassin: 早上好，Omar。我渴了。\nOmar: 我们去小咖啡馆吧。\nYassin: 请给我一瓶水。\nOmar: 请给我一杯咖啡。\nYassin: 你每天都喝咖啡吗？\nOmar: 不，只在早上。\nYassin: 今天喝水对我最好。\nOmar: 这是你的水。\nYassin: 谢谢。水很冷。\nOmar: 明天我们复习家的词汇。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 13: ماء / قهوة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "早上好，Omar。我渴了。",
+    "translation": "صباح الخير يا عمر. أنا عطشان.",
+    "pronunciation": "Zǎoshang hǎo, Omar. Wǒ kě le."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我们去小咖啡馆吧。",
+    "translation": "لنذهب إلى المقهى الصغير.",
+    "pronunciation": "Wǒmen qù xiǎo kāfēiguǎn ba."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "请给我一瓶水。",
+    "translation": "أريد زجاجة ماء، من فضلك.",
+    "pronunciation": "Qǐng gěi wǒ yì píng shuǐ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "请给我一杯咖啡。",
+    "translation": "أريد قهوة، من فضلك.",
+    "pronunciation": "Qǐng gěi wǒ yì bēi kāfēi."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你每天都喝咖啡吗？",
+    "translation": "هل تشرب القهوة كل يوم؟",
+    "pronunciation": "Nǐ měitiān dōu hē kāfēi ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "不，只在早上。",
+    "translation": "لا، فقط في الصباح.",
+    "pronunciation": "Bù, zhǐ zài zǎoshang."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "今天喝水对我最好。",
+    "translation": "الماء جيد لي اليوم.",
+    "pronunciation": "Jīntiān hē shuǐ duì wǒ hǎo."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "这是你的水。",
+    "translation": "هذا ماؤك.",
+    "pronunciation": "Zhè shì nǐ de shuǐ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "谢谢。水很冷。",
+    "translation": "شكراً. الماء بارد.",
+    "pronunciation": "Xièxie. Shuǐ hěn lěng."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "明天我们复习家的词汇。",
+    "translation": "غداً سنراجع كلمات البيت.",
+    "pronunciation": "Míngtiān wǒmen fùxí jiā de cíhuì."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d13",
+   "title": "ماء / قهوة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 13,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s2_d12"
+  ],
+  "createdAt": 1786696446398
+ }
+}

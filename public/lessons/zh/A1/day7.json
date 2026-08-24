@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 7,
+ "story": {
+  "originalText": "Yassin: Nǐ hǎo. Nǐ jiào shénme míngzi?\nOmar: Wǒ jiào Yassin.\nYassin: Nǐ cóng nǎlǐ lái?\nOmar: Wǒ láizì Ā'ěrjílìyà.\nYassin: Nǐ duōdà le?\nOmar: Wǒ èrshí suì.\nYassin: Nǐ jīntiān zěnmeyàng?\nOmar: Wǒ hěn hǎo, xièxie.\nYassin: Zuò dé hǎo. Zàijiàn, wǒ de péngyǒu.\nOmar: Zàijiàn. Huí jiā jiàn.",
+  "translatedText": "Yassin: مرحباً. ما اسمك؟\nOmar: اسمي ياسين.\nYassin: من أين أنت؟\nOmar: أنا من الجزائر.\nYassin: كم عمرك؟\nOmar: عمري عشرون سنة.\nYassin: كيف حالك اليوم؟\nOmar: أنا بخير، شكراً.\nYassin: أحسنت. وداعاً يا صديقي.\nOmar: وداعاً. أراك في البيت.",
+  "nativeScriptText": "Yassin: 你好。你叫什么名字？\nOmar: 我叫 Yassin。\nYassin: 你从哪里来？\nOmar: 我来自阿尔及利亚。\nYassin: 你多大了？\nOmar: 我二十岁。\nYassin: 你今天怎么样？\nOmar: 我很好，谢谢。\nYassin: 做得好。再见，我的朋友。\nOmar: 再见。回家见。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 7: مراجعة شاملة (1-6)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你好。你叫什么名字？",
+    "translation": "مرحباً. ما اسمك؟",
+    "pronunciation": "Nǐ hǎo. Nǐ jiào shénme míngzi?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我叫 Yassin。",
+    "translation": "اسمي ياسين.",
+    "pronunciation": "Wǒ jiào Yassin."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你从哪里来？",
+    "translation": "من أين أنت؟",
+    "pronunciation": "Nǐ cóng nǎlǐ lái?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我来自阿尔及利亚。",
+    "translation": "أنا من الجزائر.",
+    "pronunciation": "Wǒ láizì Ā'ěrjílìyà."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你多大了？",
+    "translation": "كم عمرك؟",
+    "pronunciation": "Nǐ duōdà le?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我二十岁。",
+    "translation": "عمري عشرون سنة.",
+    "pronunciation": "Wǒ èrshí suì."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你今天怎么样？",
+    "translation": "كيف حالك اليوم؟",
+    "pronunciation": "Nǐ jīntiān zěnmeyàng?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我很好，谢谢。",
+    "translation": "أنا بخير، شكراً.",
+    "pronunciation": "Wǒ hěn hǎo, xièxie."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "做得好。再见，我的朋友。",
+    "translation": "أحسنت. وداعاً يا صديقي.",
+    "pronunciation": "Zuò dé hǎo. Zàijiàn, wǒ de péngyǒu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "再见。回家见。",
+    "translation": "وداعاً. أراك في البيت.",
+    "pronunciation": "Zàijiàn. Huí jiā jiàn."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d7",
+   "title": "مراجعة شاملة (1-6)",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 7,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s1_d6"
+  ],
+  "createdAt": 1786696446398
+ }
+}

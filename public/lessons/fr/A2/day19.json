@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A2",
+ "dayNumber": 19,
+ "story": {
+  "originalText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: Hier, j’ai réfléchi au thème « J'ai réussi. » et j’ai appris quelque chose d’utile.\nOmar: Je comprends. Aujourd’hui, nous pouvons en parler clairement.\nYassin: Mon expérience du thème « J'ai réussi. » a changé mon programme de demain.\nOmar: Cela est sensé, car de petits changements peuvent nous aider chaque jour.\nYassin: Veux-tu partager un exemple ?\nOmar: Oui, je peux partager un exemple honnête de cette semaine.\nYassin: Merci. Je me souviendrai de ton idée.\nOmar: Au revoir pour le moment. Demain, nous parlerons du thème « J'ai échoué. ».",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: فكرت أمس في موضوع نجحت، وتعلمت شيئًا مفيدًا.\nOmar: أفهم ذلك، ويمكننا اليوم أن نتحدث عنه بوضوح.\nYassin: غيرت تجربتي مع موضوع نجحت خطتي للغد.\nOmar: هذا منطقي لأن التغييرات الصغيرة يمكن أن تساعدنا كل يوم.\nYassin: هل تريد أن تشارك مثالًا واحدًا؟\nOmar: نعم، أستطيع أن أشارك مثالًا صادقًا من هذا الأسبوع.\nYassin: شكرًا لك، وسأتذكر فكرتك.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن I failed.",
+  "nativeScriptText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: Hier, j’ai réfléchi au thème « J'ai réussi. » et j’ai appris quelque chose d’utile.\nOmar: Je comprends. Aujourd’hui, nous pouvons en parler clairement.\nYassin: Mon expérience du thème « J'ai réussi. » a changé mon programme de demain.\nOmar: Cela est sensé, car de petits changements peuvent nous aider chaque jour.\nYassin: Veux-tu partager un exemple ?\nOmar: Oui, je peux partager un exemple honnête de cette semaine.\nYassin: Merci. Je me souviendrai de ton idée.\nOmar: Au revoir pour le moment. Demain, nous parlerons du thème « J'ai échoué. ».",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 19: نجحت",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Bonjour, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hier, j’ai réfléchi au thème « J'ai réussi. » et j’ai appris quelque chose d’utile.",
+    "translation": "فكرت أمس في موضوع نجحت، وتعلمت شيئًا مفيدًا.",
+    "pronunciation": "Hier, j’ai réfléchi au thème « J'ai réussi. » et j’ai appris quelque chose d’utile."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je comprends. Aujourd’hui, nous pouvons en parler clairement.",
+    "translation": "أفهم ذلك، ويمكننا اليوم أن نتحدث عنه بوضوح.",
+    "pronunciation": "Je comprends. Aujourd’hui, nous pouvons en parler clairement."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Mon expérience du thème « J'ai réussi. » a changé mon programme de demain.",
+    "translation": "غيرت تجربتي مع موضوع نجحت خطتي للغد.",
+    "pronunciation": "Mon expérience du thème « J'ai réussi. » a changé mon programme de demain."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Cela est sensé, car de petits changements peuvent nous aider chaque jour.",
+    "translation": "هذا منطقي لأن التغييرات الصغيرة يمكن أن تساعدنا كل يوم.",
+    "pronunciation": "Cela est sensé, car de petits changements peuvent nous aider chaque jour."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Veux-tu partager un exemple ?",
+    "translation": "هل تريد أن تشارك مثالًا واحدًا؟",
+    "pronunciation": "Veux-tu partager un exemple ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, je peux partager un exemple honnête de cette semaine.",
+    "translation": "نعم، أستطيع أن أشارك مثالًا صادقًا من هذا الأسبوع.",
+    "pronunciation": "Oui, je peux partager un exemple honnête de cette semaine."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Merci. Je me souviendrai de ton idée.",
+    "translation": "شكرًا لك، وسأتذكر فكرتك.",
+    "pronunciation": "Merci. Je me souviendrai de ton idée."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Au revoir pour le moment. Demain, nous parlerons du thème « J'ai échoué. ».",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن I failed.",
+    "pronunciation": "Au revoir pour le moment. Demain, nous parlerons du thème « J'ai échoué. »."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d19",
+   "title": "نجحت",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 19,
+  "level": "A2",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s3_d18"
+  ],
+  "createdAt": 1786705141011
+ }
+}

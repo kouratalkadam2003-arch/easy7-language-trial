@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_ja_d25",
+  "languageCode": "ja",
+  "languageNameArabic": "اليابانية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 25,
+  "lessonTitle": "古い地図",
+  "englishTitle": "An Old Map",
+  "arabicTitle": "خريطة قديمة",
+  "canonicalBeatIds": [
+   "BEAT_A2_D25"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "طلب خريطة وفهم اتجاهات ووصف طريق.",
+  "realLifeTransferArabic": "استخدام خريطة أثناء السفر.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: خريطة قديمة دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "يعرض غاستون خريطة قديمة للطريق التجاري، ويلحظ ليث علامة مألوفة عليها.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: خريطة قديمة.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: خريطة قديمة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D25_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D25_01",
+     "narrationArabic": "يعرض غاستون خريطة قديمة للطريق التجاري، ويلحظ ليث علامة مألوفة عليها."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D25_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "طلب خريطة وفهم اتجاهات ووصف طريق.",
+   "lines": [
+    {
+     "lineId": "L_A2_JA_D25_01",
+     "speakerId": "gaston",
+     "targetText": "おはようございます、ライスさん。この地図の読み方を知っていますか?",
+     "englishReference": "Good morning, Laith. Do you know how to read this map?",
+     "arabicTranslation": "صباح الخير يا ليث. Do you know how to read this map?",
+     "pronunciation": "ohayougozaimasu , raisu san . kono chizu no yomikata wo shitte imasuka ?",
+     "phraseIds": [
+      "P_A2_JA_D25_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_JA_D25_02",
+     "speakerId": "laith",
+     "targetText": "おはよう。少し。橋を見せてもらえますか？",
+     "englishReference": "Good morning. A little. Can you show me the bridge?",
+     "arabicTranslation": "صباح الخير. A little. Can you show me the bridge?",
+     "pronunciation": "ohayou . sukoshi . hashi wo mise temoraemasuka ？",
+     "phraseIds": [
+      "P_A2_JA_D25_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D25_03",
+     "speakerId": "gaston",
+     "targetText": "橋はここ、広場の北にあります。",
+     "englishReference": "The bridge is here, north of the square.",
+     "arabicTranslation": "The bridge is here, north of the square.",
+     "pronunciation": "hashi hakoko , hiroba no kita niarimasu .",
+     "phraseIds": [
+      "P_A2_JA_D25_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D25_04",
+     "speakerId": "laith",
+     "targetText": "そして旧道は東へ向かいます。",
+     "englishReference": "Then the old road goes east.",
+     "arabicTranslation": "Then the old road goes east.",
+     "pronunciation": "soshite kyuudou ha higashi he mukai masu .",
+     "phraseIds": [
+      "P_A2_JA_D25_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D25_05",
+     "speakerId": "gaston",
+     "targetText": "なぜそのシンボルを見ているのですか？",
+     "englishReference": "Why are you looking at that symbol?",
+     "arabicTranslation": "Why are you looking at that symbol?",
+     "pronunciation": "nazesono shinboru wo mite irunodesuka ？",
+     "phraseIds": [
+      "P_A2_JA_D25_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D25_06",
+     "speakerId": "laith",
+     "targetText": "見覚えがあるように見えますが、理由はわかりません。",
+     "englishReference": "It looks familiar, but I do not know why.",
+     "arabicTranslation": "It looks familiar, but I do not know why.",
+     "pronunciation": "mioboe gaaruyouni mie masuga , riyuu hawakarimasen .",
+     "phraseIds": [
+      "P_A2_JA_D25_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D25_07",
+     "speakerId": "gaston",
+     "targetText": "それは良い計画のように思えます。",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "soreha yoi keikaku noyouni omoe masu .",
+     "phraseIds": [
+      "P_A2_JA_D25_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_JA_D25_08",
+     "speakerId": "laith",
+     "targetText": "ありがとう。また後で。",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "arigatou . mata atode .",
+     "phraseIds": [
+      "P_A2_JA_D25_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D25_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_JA_D25_C01",
+      "P_A2_JA_D25_C02",
+      "P_A2_JA_D25_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_JA_D25_C01",
+      "P_A2_JA_D25_C02",
+      "P_A2_JA_D25_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_JA_D25_I01",
+      "P_A2_JA_D25_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D25_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: استخدام خريطة أثناء السفر.",
+   "requiredPhraseIds": [
+    "P_A2_JA_D25_C01",
+    "P_A2_JA_D25_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D25_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "今シーズンの市場は急速に変化しています。",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "ima shiizun no shijou ha kyuusoku ni henkashi teimasu ."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "はい。旧道についての質問が増えています。",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "hai . kyuudou nitsuiteno shitsumon ga fue teimasu ."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D25_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: خريطة قديمة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: خريطة قديمة."
+   },
+   "successWorldConsequence": "OLD_MAP:CLUE_01",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_JA_D25_S01",
+   "text": "おはようございます、ライスさん。この地図の読み方を知っていますか?",
+   "englishReference": "Good morning, Laith. Do you know how to read this map?",
+   "arabicTranslation": "صباح الخير يا ليث. Do you know how to read this map?",
+   "pronunciation": "ohayougozaimasu , raisu san . kono chizu no yomikata wo shitte imasuka ?",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "استخدام خريطة أثناء السفر."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_JA_D25_C01",
+   "text": "おはよう。少し。橋を見せてもらえますか？",
+   "englishReference": "Good morning. A little. Can you show me the bridge?",
+   "arabicTranslation": "صباح الخير. A little. Can you show me the bridge?",
+   "pronunciation": "ohayou . sukoshi . hashi wo mise temoraemasuka ？",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "استخدام خريطة أثناء السفر."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D25_I01",
+   "text": "橋はここ、広場の北にあります。",
+   "englishReference": "The bridge is here, north of the square.",
+   "arabicTranslation": "The bridge is here, north of the square.",
+   "pronunciation": "hashi hakoko , hiroba no kita niarimasu .",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "استخدام خريطة أثناء السفر."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_JA_D25_C02",
+   "text": "そして旧道は東へ向かいます。",
+   "englishReference": "Then the old road goes east.",
+   "arabicTranslation": "Then the old road goes east.",
+   "pronunciation": "soshite kyuudou ha higashi he mukai masu .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "استخدام خريطة أثناء السفر."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D25_I02",
+   "text": "なぜそのシンボルを見ているのですか？",
+   "englishReference": "Why are you looking at that symbol?",
+   "arabicTranslation": "Why are you looking at that symbol?",
+   "pronunciation": "nazesono shinboru wo mite irunodesuka ？",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "استخدام خريطة أثناء السفر."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_JA_D25_C03",
+   "text": "見覚えがあるように見えますが、理由はわかりません。",
+   "englishReference": "It looks familiar, but I do not know why.",
+   "arabicTranslation": "It looks familiar, but I do not know why.",
+   "pronunciation": "mioboe gaaruyouni mie masuga , riyuu hawakarimasen .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "استخدام خريطة أثناء السفر."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D25_S02",
+   "text": "それは良い計画のように思えます。",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "soreha yoi keikaku noyouni omoe masu .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "استخدام خريطة أثناء السفر."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_JA_D25_S03",
+   "text": "ありがとう。また後で。",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "arigatou . mata atode .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "استخدام خريطة أثناء السفر."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_JA_D25_C01",
+     "P_A2_JA_D25_C02",
+     "P_A2_JA_D25_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_JA_D25_I01",
+     "P_A2_JA_D25_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_JA_D25_C01",
+    "P_A2_JA_D25_C02",
+    "P_A2_JA_D25_C03",
+    "P_A2_JA_D25_I01",
+    "P_A2_JA_D25_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D24:COMPLETE"
+  ],
+  "onSuccess": [
+   "OLD_MAP:CLUE_01",
+   "A2_D26:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_25",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_ja_d24",
+  "nextLessonId": "story_a2_ja_d26",
+  "nextLessonHookArabic": "عند العودة، يلتقي ليث بجارة تحتاج مساعدة.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 25: خريطة قديمة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

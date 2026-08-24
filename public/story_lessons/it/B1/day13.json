@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b1_it_d13",
+  "languageCode": "it",
+  "languageNameArabic": "الإيطالية",
+  "cefrLevel": "B1",
+  "chapterId": "chapter_03_responsibility",
+  "dayNumber": 13,
+  "lessonTitle": "Feedback utile",
+  "englishTitle": "Useful Feedback",
+  "arabicTitle": "ملاحظة مفيدة",
+  "canonicalBeatIds": [
+   "BEAT_B1_D13"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "طلب ملاحظات والرد عليها بهدوء.",
+  "realLifeTransferArabic": "التعبير عن رأي مدعوم بسبب واقتراح خطوة عملية.",
+  "successCapabilityArabic": "أدر نقاشًا قصيرًا عن ملاحظة مفيدة."
+ },
+ "story": {
+  "storyContextArabic": "تقترح نور تعديلًا على ترتيب العمل.",
+  "storyMissionArabic": "يتعلم ليث القيادة عبر موضوع: ملاحظة مفيدة.",
+  "setting": "village_council",
+  "charactersPresent": [
+   "laith",
+   "noor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: ملاحظة مفيدة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B1_D13_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B1_D13_01",
+     "narrationArabic": "تقترح نور تعديلًا على ترتيب العمل."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D13_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "طلب ملاحظات والرد عليها بهدوء.",
+   "lines": [
+    {
+     "lineId": "L_B1_IT_D13_01",
+     "speakerId": "noor",
+     "targetText": "Dobbiamo parlare dell'ordine delle attività.",
+     "englishReference": "We need to talk about the task order.",
+     "arabicTranslation": "نحتاج إلى الحديث عن the task order.",
+     "pronunciation": "Dobbiamo parlare dell'ordine delle attività.",
+     "phraseIds": [
+      "P_B1_IT_D13_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_IT_D13_02",
+     "speakerId": "laith",
+     "targetText": "Secondo me la tua idea potrebbe migliorare il piano.",
+     "englishReference": "In my opinion, your idea could improve the plan.",
+     "arabicTranslation": "في رأيي، your idea could improve the plan.",
+     "pronunciation": "Secondo me la tua idea potrebbe migliorare il piano.",
+     "phraseIds": [
+      "P_B1_IT_D13_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_IT_D13_03",
+     "speakerId": "noor",
+     "targetText": "Perché lo pensi?",
+     "englishReference": "Why do you think that?",
+     "arabicTranslation": "لماذا تعتقد ذلك؟",
+     "pronunciation": "Perché lo pensi?",
+     "phraseIds": [
+      "P_B1_IT_D13_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_IT_D13_04",
+     "speakerId": "laith",
+     "targetText": "Perché hai notato un vero ritardo.",
+     "englishReference": "Because you noticed a real delay.",
+     "arabicTranslation": "لأن you noticed a real delay.",
+     "pronunciation": "Perché hai notato un vero ritardo.",
+     "phraseIds": [
+      "P_B1_IT_D13_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_IT_D13_05",
+     "speakerId": "noor",
+     "targetText": "Cosa dovremmo fare prima?",
+     "englishReference": "What should we do first?",
+     "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+     "pronunciation": "Cosa dovremmo fare prima?",
+     "phraseIds": [
+      "P_B1_IT_D13_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_IT_D13_06",
+     "speakerId": "laith",
+     "targetText": "Suggerisco di cambiare l'ordine oggi.",
+     "englishReference": "I suggest that we should change the order today.",
+     "arabicTranslation": "أقترح أن we should change the order today.",
+     "pronunciation": "Suggerisco di cambiare l'ordine oggi.",
+     "phraseIds": [
+      "P_B1_IT_D13_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_IT_D13_07",
+     "speakerId": "noor",
+     "targetText": "Sembra ragionevole.",
+     "englishReference": "That seems reasonable.",
+     "arabicTranslation": "يبدو ذلك معقولًا.",
+     "pronunciation": "Sembra ragionevole.",
+     "phraseIds": [
+      "P_B1_IT_D13_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_IT_D13_08",
+     "speakerId": "laith",
+     "targetText": "Grazie. Lo spiegherò alla squadra.",
+     "englishReference": "Thank you. I will explain it to the team.",
+     "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+     "pronunciation": "Grazie. Lo spiegherò alla squadra.",
+     "phraseIds": [
+      "P_B1_IT_D13_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D13_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "argument_rebuild",
+     "phraseIds": [
+      "P_B1_IT_D13_C01",
+      "P_B1_IT_D13_C02",
+      "P_B1_IT_D13_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B1_IT_D13_C01",
+      "P_B1_IT_D13_C02",
+      "P_B1_IT_D13_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B1_IT_D13_I01",
+      "P_B1_IT_D13_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D13_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استعمل رأيًا وسببًا واقتراحًا في موقف عمل أو دراسة.",
+   "requiredPhraseIds": [
+    "P_B1_IT_D13_C01",
+    "P_B1_IT_D13_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D13_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "L'incontro del villaggio ha sollevato domande utili.",
+     "englishReference": "The village meeting raised useful questions.",
+     "arabicTranslation": "اجتماع القرية أثار أسئلة مفيدة.",
+     "pronunciation": "L'incontro del villaggio ha sollevato domande utili."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Alcune domande è meglio lasciarle per dopo.",
+     "englishReference": "Some questions are better left for later.",
+     "arabicTranslation": "بعض الأسئلة من الأفضل تركها لوقت لاحق.",
+     "pronunciation": "Alcune domande è meglio lasciarle per dopo."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B1_D13_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "يحتاج الفريق إلى قرار حول: ملاحظة مفيدة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "state_opinion",
+     "give_reason",
+     "make_proposal"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير رأيًا مدعومًا داخل نقاش.",
+    "afterArabic": "يستطيع المتعلم الآن إبداء رأي وسبب واقتراح."
+   },
+   "successWorldConsequence": "FEEDBACK_ACCEPTED",
+   "retryPolicy": "يقدّم تلميح للسبب أو للاقتراح ثم تعاد المهمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B1_IT_D13_S01",
+   "text": "Dobbiamo parlare dell'ordine delle attività.",
+   "englishReference": "We need to talk about the task order.",
+   "arabicTranslation": "نحتاج إلى الحديث عن the task order.",
+   "pronunciation": "Dobbiamo parlare dell'ordine delle attività.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_IT_D13_C01",
+   "text": "Secondo me la tua idea potrebbe migliorare il piano.",
+   "englishReference": "In my opinion, your idea could improve the plan.",
+   "arabicTranslation": "في رأيي، your idea could improve the plan.",
+   "pronunciation": "Secondo me la tua idea potrebbe migliorare il piano.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_IT_D13_I01",
+   "text": "Perché lo pensi?",
+   "englishReference": "Why do you think that?",
+   "arabicTranslation": "لماذا تعتقد ذلك؟",
+   "pronunciation": "Perché lo pensi?",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_IT_D13_C02",
+   "text": "Perché hai notato un vero ritardo.",
+   "englishReference": "Because you noticed a real delay.",
+   "arabicTranslation": "لأن you noticed a real delay.",
+   "pronunciation": "Perché hai notato un vero ritardo.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_IT_D13_I02",
+   "text": "Cosa dovremmo fare prima?",
+   "englishReference": "What should we do first?",
+   "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+   "pronunciation": "Cosa dovremmo fare prima?",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_IT_D13_C03",
+   "text": "Suggerisco di cambiare l'ordine oggi.",
+   "englishReference": "I suggest that we should change the order today.",
+   "arabicTranslation": "أقترح أن we should change the order today.",
+   "pronunciation": "Suggerisco di cambiare l'ordine oggi.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_IT_D13_S02",
+   "text": "Sembra ragionevole.",
+   "englishReference": "That seems reasonable.",
+   "arabicTranslation": "يبدو ذلك معقولًا.",
+   "pronunciation": "Sembra ragionevole.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_IT_D13_S03",
+   "text": "Grazie. Lo spiegherò alla squadra.",
+   "englishReference": "Thank you. I will explain it to the team.",
+   "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+   "pronunciation": "Grazie. Lo spiegherò alla squadra.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "speaker_intent"
+   ],
+   "supportFadePlan": "يعتمد B1 على الحجج لا على الإشارات."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B1_IT_D13_C01",
+     "P_B1_IT_D13_C02",
+     "P_B1_IT_D13_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B1_IT_D13_I01",
+     "P_B1_IT_D13_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B1_IT_D13_C01",
+    "P_B1_IT_D13_C02",
+    "P_B1_IT_D13_C03",
+    "P_B1_IT_D13_I01",
+    "P_B1_IT_D13_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تطلب شخصية من ليث إعادة شرح قرار سابق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B1_D12:COMPLETE"
+  ],
+  "onSuccess": [
+   "FEEDBACK_ACCEPTED",
+   "B1_D14:UNLOCKED"
+  ],
+  "milestone": "b1_milestone_13",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b1_it_d12",
+  "nextLessonId": "story_b1_it_d14",
+  "nextLessonHookArabic": "يتولد تحدٍّ جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B1 13: ملاحظة مفيدة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

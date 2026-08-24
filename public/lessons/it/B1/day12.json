@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "B1",
+ "dayNumber": 12,
+ "story": {
+  "originalText": "Yassin: Buongiorno, Omar.\nOmar: Buongiorno, Yassin. Sono felice che possiamo continuare la nostra conversazione.\nYassin: A mio avviso, il tema «Responsabilità» conta nelle nostre decisioni quotidiane.\nOmar: Sono d’accordo, perché le nostre scelte riguardano più persone di quanto immaginiamo.\nYassin: Penso che il tema «Responsabilità» possa plasmare sia la fiducia sia le opportunità.\nOmar: È una ragione pratica e facile da capire.\nYassin: Puoi fare un esempio concreto?\nOmar: Sì, un esempio concreto può rendere più chiara questa idea.\nYassin: Grazie per aver spiegato la tua opinione con tanta calma.\nOmar: Arrivederci per ora. Domani parleremo del tema «Soluzione».",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: في رأيي، موضوع مسؤولية مهم في قراراتنا اليومية.\nOmar: أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.\nYassin: وسببي هو أن موضوع مسؤولية يمكن أن يشكل الثقة والفرص معًا.\nOmar: هذا سبب عملي، ومن السهل فهمه.\nYassin: هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟\nOmar: نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.\nYassin: شكرًا لأنك شرحت رأيك بهدوء.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Solution.",
+  "nativeScriptText": "Yassin: Buongiorno, Omar.\nOmar: Buongiorno, Yassin. Sono felice che possiamo continuare la nostra conversazione.\nYassin: A mio avviso, il tema «Responsabilità» conta nelle nostre decisioni quotidiane.\nOmar: Sono d’accordo, perché le nostre scelte riguardano più persone di quanto immaginiamo.\nYassin: Penso che il tema «Responsabilità» possa plasmare sia la fiducia sia le opportunità.\nOmar: È una ragione pratica e facile da capire.\nYassin: Puoi fare un esempio concreto?\nOmar: Sì, un esempio concreto può rendere più chiara questa idea.\nYassin: Grazie per aver spiegato la tua opinione con tanta calma.\nOmar: Arrivederci per ora. Domani parleremo del tema «Soluzione».",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 12: مسؤولية",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buongiorno, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Buongiorno, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Buongiorno, Yassin. Sono felice che possiamo continuare la nostra conversazione.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Buongiorno, Yassin. Sono felice che possiamo continuare la nostra conversazione."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "A mio avviso, il tema «Responsabilità» conta nelle nostre decisioni quotidiane.",
+    "translation": "في رأيي، موضوع مسؤولية مهم في قراراتنا اليومية.",
+    "pronunciation": "A mio avviso, il tema «Responsabilità» conta nelle nostre decisioni quotidiane."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sono d’accordo, perché le nostre scelte riguardano più persone di quanto immaginiamo.",
+    "translation": "أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.",
+    "pronunciation": "Sono d’accordo, perché le nostre scelte riguardano più persone di quanto immaginiamo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Penso che il tema «Responsabilità» possa plasmare sia la fiducia sia le opportunità.",
+    "translation": "وسببي هو أن موضوع مسؤولية يمكن أن يشكل الثقة والفرص معًا.",
+    "pronunciation": "Penso che il tema «Responsabilità» possa plasmare sia la fiducia sia le opportunità."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "È una ragione pratica e facile da capire.",
+    "translation": "هذا سبب عملي، ومن السهل فهمه.",
+    "pronunciation": "È una ragione pratica e facile da capire."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Puoi fare un esempio concreto?",
+    "translation": "هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟",
+    "pronunciation": "Puoi fare un esempio concreto?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, un esempio concreto può rendere più chiara questa idea.",
+    "translation": "نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.",
+    "pronunciation": "Sì, un esempio concreto può rendere più chiara questa idea."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Grazie per aver spiegato la tua opinione con tanta calma.",
+    "translation": "شكرًا لأنك شرحت رأيك بهدوء.",
+    "pronunciation": "Grazie per aver spiegato la tua opinione con tanta calma."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Arrivederci per ora. Domani parleremo del tema «Soluzione».",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Solution.",
+    "pronunciation": "Arrivederci per ora. Domani parleremo del tema «Soluzione»."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d12",
+   "title": "مسؤولية",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 12,
+  "level": "B1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s2_d11"
+  ],
+  "createdAt": 1786705141011
+ }
+}

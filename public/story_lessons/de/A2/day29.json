@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_de_d29",
+  "languageCode": "de",
+  "languageNameArabic": "الألمانية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 29,
+  "lessonTitle": "Eine unvollendete Nachricht",
+  "englishTitle": "An Unfinished Message",
+  "arabicTitle": "رسالة غير مكتملة",
+  "canonicalBeatIds": [
+   "BEAT_A2_D29"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التعبير عن عدم اليقين وطلب رأي بسيط.",
+  "realLifeTransferArabic": "مناقشة خبر غامض مع شخص موثوق.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: رسالة غير مكتملة دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "تصل إلى غاستون رسالة قديمة تحمل رمزًا مألوفًا وليست مكتملة.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: رسالة غير مكتملة.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: رسالة غير مكتملة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D29_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D29_01",
+     "narrationArabic": "تصل إلى غاستون رسالة قديمة تحمل رمزًا مألوفًا وليست مكتملة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D29_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التعبير عن عدم اليقين وطلب رأي بسيط.",
+   "lines": [
+    {
+     "lineId": "L_A2_DE_D29_01",
+     "speakerId": "gaston",
+     "targetText": "Guten Morgen, Laith. Diese Nachricht hat das gleiche Symbol, das Sie gesehen haben.",
+     "englishReference": "Good morning, Laith. This message has the same symbol you saw.",
+     "arabicTranslation": "صباح الخير يا ليث. This message has the same symbol you saw.",
+     "pronunciation": "Guten Morgen, Laith. Diese Nachricht hat das gleiche Symbol, das Sie gesehen haben.",
+     "phraseIds": [
+      "P_A2_DE_D29_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_DE_D29_02",
+     "speakerId": "laith",
+     "targetText": "Guten Morgen. Ich bin mir nicht sicher, was es bedeutet.",
+     "englishReference": "Good morning. I am not sure what it means.",
+     "arabicTranslation": "صباح الخير. I am not sure what it means.",
+     "pronunciation": "Guten Morgen. Ich bin mir nicht sicher, was es bedeutet.",
+     "phraseIds": [
+      "P_A2_DE_D29_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_DE_D29_03",
+     "speakerId": "gaston",
+     "targetText": "Möchtest du Vincent danach fragen?",
+     "englishReference": "Do you want to ask Vincent about it?",
+     "arabicTranslation": "Do you want to ask Vincent about it?",
+     "pronunciation": "Möchtest du Vincent danach fragen?",
+     "phraseIds": [
+      "P_A2_DE_D29_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_DE_D29_04",
+     "speakerId": "laith",
+     "targetText": "Vielleicht, aber ich muss zuerst nachdenken.",
+     "englishReference": "Maybe, but I need to think first.",
+     "arabicTranslation": "Maybe, but I need to think first.",
+     "pronunciation": "Vielleicht, aber ich muss zuerst nachdenken.",
+     "phraseIds": [
+      "P_A2_DE_D29_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_DE_D29_05",
+     "speakerId": "gaston",
+     "targetText": "Sie können Menschen fragen, denen Sie vertrauen.",
+     "englishReference": "You can ask people you trust.",
+     "arabicTranslation": "You can ask people you trust.",
+     "pronunciation": "Sie können Menschen fragen, denen Sie vertrauen.",
+     "phraseIds": [
+      "P_A2_DE_D29_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_DE_D29_06",
+     "speakerId": "laith",
+     "targetText": "Ja, ich werde sorgfältig nachfragen.",
+     "englishReference": "Yes, I will ask carefully.",
+     "arabicTranslation": "Yes, I will ask carefully.",
+     "pronunciation": "Ja, ich werde sorgfältig nachfragen.",
+     "phraseIds": [
+      "P_A2_DE_D29_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_DE_D29_07",
+     "speakerId": "gaston",
+     "targetText": "Das klingt nach einem guten Plan.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "Das klingt nach einem guten Plan.",
+     "phraseIds": [
+      "P_A2_DE_D29_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_DE_D29_08",
+     "speakerId": "laith",
+     "targetText": "Danke schön. Bis später.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Danke schön. Bis später.",
+     "phraseIds": [
+      "P_A2_DE_D29_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D29_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_DE_D29_C01",
+      "P_A2_DE_D29_C02",
+      "P_A2_DE_D29_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_DE_D29_C01",
+      "P_A2_DE_D29_C02",
+      "P_A2_DE_D29_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_DE_D29_I01",
+      "P_A2_DE_D29_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D29_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: مناقشة خبر غامض مع شخص موثوق.",
+   "requiredPhraseIds": [
+    "P_A2_DE_D29_C01",
+    "P_A2_DE_D29_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D29_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Der Markt verändert sich in dieser Saison schnell.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "Der Markt verändert sich in dieser Saison schnell."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Ja. Die Leute stellen immer mehr Fragen zu alten Straßen.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "Ja. Die Leute stellen immer mehr Fragen zu alten Straßen."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D29_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: رسالة غير مكتملة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: رسالة غير مكتملة."
+   },
+   "successWorldConsequence": "MESSAGE_CLUE:RECEIVED",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_DE_D29_S01",
+   "text": "Guten Morgen, Laith. Diese Nachricht hat das gleiche Symbol, das Sie gesehen haben.",
+   "englishReference": "Good morning, Laith. This message has the same symbol you saw.",
+   "arabicTranslation": "صباح الخير يا ليث. This message has the same symbol you saw.",
+   "pronunciation": "Guten Morgen, Laith. Diese Nachricht hat das gleiche Symbol, das Sie gesehen haben.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة خبر غامض مع شخص موثوق."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_DE_D29_C01",
+   "text": "Guten Morgen. Ich bin mir nicht sicher, was es bedeutet.",
+   "englishReference": "Good morning. I am not sure what it means.",
+   "arabicTranslation": "صباح الخير. I am not sure what it means.",
+   "pronunciation": "Guten Morgen. Ich bin mir nicht sicher, was es bedeutet.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة خبر غامض مع شخص موثوق."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_DE_D29_I01",
+   "text": "Möchtest du Vincent danach fragen?",
+   "englishReference": "Do you want to ask Vincent about it?",
+   "arabicTranslation": "Do you want to ask Vincent about it?",
+   "pronunciation": "Möchtest du Vincent danach fragen?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة خبر غامض مع شخص موثوق."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_DE_D29_C02",
+   "text": "Vielleicht, aber ich muss zuerst nachdenken.",
+   "englishReference": "Maybe, but I need to think first.",
+   "arabicTranslation": "Maybe, but I need to think first.",
+   "pronunciation": "Vielleicht, aber ich muss zuerst nachdenken.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة خبر غامض مع شخص موثوق."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_DE_D29_I02",
+   "text": "Sie können Menschen fragen, denen Sie vertrauen.",
+   "englishReference": "You can ask people you trust.",
+   "arabicTranslation": "You can ask people you trust.",
+   "pronunciation": "Sie können Menschen fragen, denen Sie vertrauen.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة خبر غامض مع شخص موثوق."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_DE_D29_C03",
+   "text": "Ja, ich werde sorgfältig nachfragen.",
+   "englishReference": "Yes, I will ask carefully.",
+   "arabicTranslation": "Yes, I will ask carefully.",
+   "pronunciation": "Ja, ich werde sorgfältig nachfragen.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة خبر غامض مع شخص موثوق."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_DE_D29_S02",
+   "text": "Das klingt nach einem guten Plan.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "Das klingt nach einem guten Plan.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة خبر غامض مع شخص موثوق."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_DE_D29_S03",
+   "text": "Danke schön. Bis später.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Danke schön. Bis später.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة خبر غامض مع شخص موثوق."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_DE_D29_C01",
+     "P_A2_DE_D29_C02",
+     "P_A2_DE_D29_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_DE_D29_I01",
+     "P_A2_DE_D29_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_DE_D29_C01",
+    "P_A2_DE_D29_C02",
+    "P_A2_DE_D29_C03",
+    "P_A2_DE_D29_I01",
+    "P_A2_DE_D29_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D28:COMPLETE"
+  ],
+  "onSuccess": [
+   "MESSAGE_CLUE:RECEIVED",
+   "A2_D30:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_29",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_de_d28",
+  "nextLessonId": "story_a2_de_d30",
+  "nextLessonHookArabic": "في الغد ينظم ليث يومًا كاملًا قبل اتخاذ أي قرار.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 29: رسالة غير مكتملة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

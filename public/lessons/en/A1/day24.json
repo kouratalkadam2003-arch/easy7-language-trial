@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 24,
+ "story": {
+  "originalText": "Yassin: Excuse me, can I have the bill, please?\nOmar: The bill is on the table.\nYassin: How much is the bill?\nOmar: The bill is sixteen dollars.\nYassin: I have ten dollars.\nOmar: I have six dollars.\nYassin: We can pay together.\nOmar: Thank you, my friend.\nYassin: You are welcome. Are you okay?\nOmar: I feel a little sick.",
+  "translatedText": "Yassin: عفواً، هل يمكنني الحصول على الفاتورة، من فضلك؟\nOmar: الفاتورة على الطاولة.\nYassin: كم قيمة الفاتورة؟\nOmar: الفاتورة ستة عشر دولاراً.\nYassin: لدي عشرة دولارات.\nOmar: لدي ستة دولارات.\nYassin: يمكننا أن ندفع معاً.\nOmar: شكراً يا صديقي.\nYassin: عفواً. هل أنت بخير؟\nOmar: أشعر بالمرض قليلاً.",
+  "nativeScriptText": "Yassin: Excuse me, can I have the bill, please?\nOmar: The bill is on the table.\nYassin: How much is the bill?\nOmar: The bill is sixteen dollars.\nYassin: I have ten dollars.\nOmar: I have six dollars.\nYassin: We can pay together.\nOmar: Thank you, my friend.\nYassin: You are welcome. Are you okay?\nOmar: I feel a little sick.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 24: فاتورة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Excuse me, can I have the bill, please?",
+    "translation": "عفواً، هل يمكنني الحصول على الفاتورة، من فضلك؟",
+    "pronunciation": "Excuse me, can I have the bill, please?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The bill is on the table.",
+    "translation": "الفاتورة على الطاولة.",
+    "pronunciation": "The bill is on the table."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "How much is the bill?",
+    "translation": "كم قيمة الفاتورة؟",
+    "pronunciation": "How much is the bill?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The bill is sixteen dollars.",
+    "translation": "الفاتورة ستة عشر دولاراً.",
+    "pronunciation": "The bill is sixteen dollars."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I have ten dollars.",
+    "translation": "لدي عشرة دولارات.",
+    "pronunciation": "I have ten dollars."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I have six dollars.",
+    "translation": "لدي ستة دولارات.",
+    "pronunciation": "I have six dollars."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "We can pay together.",
+    "translation": "يمكننا أن ندفع معاً.",
+    "pronunciation": "We can pay together."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Thank you, my friend.",
+    "translation": "شكراً يا صديقي.",
+    "pronunciation": "Thank you, my friend."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "You are welcome. Are you okay?",
+    "translation": "عفواً. هل أنت بخير؟",
+    "pronunciation": "You are welcome. Are you okay?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I feel a little sick.",
+    "translation": "أشعر بالمرض قليلاً.",
+    "pronunciation": "I feel a little sick."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d24",
+   "title": "فاتورة",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 24,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s4_d23"
+  ],
+  "createdAt": 1786696446398
+ }
+}

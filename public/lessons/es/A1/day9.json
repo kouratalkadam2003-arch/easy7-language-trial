@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 9,
+ "story": {
+  "originalText": "Yassin: Esta es nuestra habitación, Yassin.\nOmar: La habitación es luminosa.\nYassin: Tu cama está a la izquierda.\nOmar: Y tu cama está a la derecha.\nYassin: Hay una mesa junto a la ventana.\nOmar: Puedo poner mi bolsa en la mesa.\nYassin: Por favor, guarda tu ropa en el armario.\nOmar: Está bien, la habitación se ve bien ahora.\nYassin: Tengo hambre después de limpiar.\nOmar: Hagamos algo de comida.",
+  "translatedText": "Yassin: هذه غرفتنا يا ياسين.\nOmar: الغرفة مضيئة.\nYassin: سريرك على اليسار.\nOmar: وسريرك على اليمين.\nYassin: هناك طاولة قرب النافذة.\nOmar: يمكنني وضع حقيبتي على الطاولة.\nYassin: من فضلك ضع ملابسك في الخزانة.\nOmar: حسناً، تبدو الغرفة جيدة الآن.\nYassin: أنا جائع بعد التنظيف.\nOmar: لنصنع بعض الطعام.",
+  "nativeScriptText": "Yassin: Esta es nuestra habitación, Yassin.\nOmar: La habitación es luminosa.\nYassin: Tu cama está a la izquierda.\nOmar: Y tu cama está a la derecha.\nYassin: Hay una mesa junto a la ventana.\nOmar: Puedo poner mi bolsa en la mesa.\nYassin: Por favor, guarda tu ropa en el armario.\nOmar: Está bien, la habitación se ve bien ahora.\nYassin: Tengo hambre después de limpiar.\nOmar: Hagamos algo de comida.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 9: غرفة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Esta es nuestra habitación, Yassin.",
+    "translation": "هذه غرفتنا يا ياسين.",
+    "pronunciation": "Esta es nuestra habitación, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "La habitación es luminosa.",
+    "translation": "الغرفة مضيئة.",
+    "pronunciation": "La habitación es luminosa."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Tu cama está a la izquierda.",
+    "translation": "سريرك على اليسار.",
+    "pronunciation": "Tu cama está a la izquierda."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Y tu cama está a la derecha.",
+    "translation": "وسريرك على اليمين.",
+    "pronunciation": "Y tu cama está a la derecha."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hay una mesa junto a la ventana.",
+    "translation": "هناك طاولة قرب النافذة.",
+    "pronunciation": "Hay una mesa junto a la ventana."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Puedo poner mi bolsa en la mesa.",
+    "translation": "يمكنني وضع حقيبتي على الطاولة.",
+    "pronunciation": "Puedo poner mi bolsa en la mesa."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Por favor, guarda tu ropa en el armario.",
+    "translation": "من فضلك ضع ملابسك في الخزانة.",
+    "pronunciation": "Por favor, guarda tu ropa en el armario."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Está bien, la habitación se ve bien ahora.",
+    "translation": "حسناً، تبدو الغرفة جيدة الآن.",
+    "pronunciation": "Está bien, la habitación se ve bien ahora."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Tengo hambre después de limpiar.",
+    "translation": "أنا جائع بعد التنظيف.",
+    "pronunciation": "Tengo hambre después de limpiar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hagamos algo de comida.",
+    "translation": "لنصنع بعض الطعام.",
+    "pronunciation": "Hagamos algo de comida."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d9",
+   "title": "غرفة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 9,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s2_d8"
+  ],
+  "createdAt": 1786696446398
+ }
+}

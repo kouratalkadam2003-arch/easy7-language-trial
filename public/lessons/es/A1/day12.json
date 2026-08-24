@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 12,
+ "story": {
+  "originalText": "Yassin: ¿Quieres azúcar en tu té?\nOmar: No, no quiero azúcar.\nYassin: ¿Quieres leche?\nOmar: No, no quiero leche hoy.\nYassin: ¿Quieres más pan?\nOmar: No, gracias. No quiero más pan.\nYassin: Está bien. Puedes elegir.\nOmar: Gracias. Quiero agua en su lugar.\nYassin: Necesitamos agua para la comida.\nOmar: Vamos a conseguir agua mañana.",
+  "translatedText": "Yassin: هل تريد السكر في شايك؟\nOmar: لا، لا أريد السكر.\nYassin: هل تريد الحليب؟\nOmar: لا، لا أريد الحليب اليوم.\nYassin: هل تريد مزيداً من الخبز؟\nOmar: لا، شكراً. لا أريد مزيداً من الخبز.\nYassin: لا بأس. يمكنك الاختيار.\nOmar: شكراً. أريد الماء بدلاً من ذلك.\nYassin: نحتاج إلى الماء للوجبة.\nOmar: لنحضر الماء غداً.",
+  "nativeScriptText": "Yassin: ¿Quieres azúcar en tu té?\nOmar: No, no quiero azúcar.\nYassin: ¿Quieres leche?\nOmar: No, no quiero leche hoy.\nYassin: ¿Quieres más pan?\nOmar: No, gracias. No quiero más pan.\nYassin: Está bien. Puedes elegir.\nOmar: Gracias. Quiero agua en su lugar.\nYassin: Necesitamos agua para la comida.\nOmar: Vamos a conseguir agua mañana.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 12: لا أريد",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Quieres azúcar en tu té?",
+    "translation": "هل تريد السكر في شايك؟",
+    "pronunciation": "¿Quieres azúcar en tu té?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, no quiero azúcar.",
+    "translation": "لا، لا أريد السكر.",
+    "pronunciation": "No, no quiero azúcar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Quieres leche?",
+    "translation": "هل تريد الحليب؟",
+    "pronunciation": "¿Quieres leche?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, no quiero leche hoy.",
+    "translation": "لا، لا أريد الحليب اليوم.",
+    "pronunciation": "No, no quiero leche hoy."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Quieres más pan?",
+    "translation": "هل تريد مزيداً من الخبز؟",
+    "pronunciation": "¿Quieres más pan?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, gracias. No quiero más pan.",
+    "translation": "لا، شكراً. لا أريد مزيداً من الخبز.",
+    "pronunciation": "No, gracias. No quiero más pan."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Está bien. Puedes elegir.",
+    "translation": "لا بأس. يمكنك الاختيار.",
+    "pronunciation": "Está bien. Puedes elegir."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Gracias. Quiero agua en su lugar.",
+    "translation": "شكراً. أريد الماء بدلاً من ذلك.",
+    "pronunciation": "Gracias. Quiero agua en su lugar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Necesitamos agua para la comida.",
+    "translation": "نحتاج إلى الماء للوجبة.",
+    "pronunciation": "Necesitamos agua para la comida."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Vamos a conseguir agua mañana.",
+    "translation": "لنحضر الماء غداً.",
+    "pronunciation": "Vamos a conseguir agua mañana."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d12",
+   "title": "لا أريد",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 12,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s2_d11"
+  ],
+  "createdAt": 1786696446398
+ }
+}

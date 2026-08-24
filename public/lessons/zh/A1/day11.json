@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 11,
+ "story": {
+  "originalText": "Yassin: Omar, qǐng gěi wǒ yí gè pánzi.\nOmar: Gěi, zhè shì nǐ de pánzi.\nYassin: Xièxie. Wǒ yě yào yí gè sháozi.\nOmar: Sháozi zài zhège chōuti lǐ.\nYassin: Wǒ xiǎng zuò jīdàn.\nOmar: Wǒ xiǎng pào chá.\nYassin: Qǐng gěi wǒ yìdiǎn yán.\nOmar: Gěi nǐ.\nYassin: Wǒ xiànzài xiǎng chīfàn.\nOmar: Qǐng děng yíhuìr.",
+  "translatedText": "Yassin: عمر، أريد طبقاً، من فضلك.\nOmar: هذا طبق لك.\nYassin: شكراً. أريد ملعقة أيضاً.\nOmar: الملاعق في هذا الدرج.\nYassin: أريد أن أطبخ البيض.\nOmar: أريد أن أصنع الشاي.\nYassin: أريد بعض الملح، من فضلك.\nOmar: تفضل.\nYassin: أريد أن آكل الآن.\nOmar: انتظر دقيقة واحدة، من فضلك.",
+  "nativeScriptText": "Yassin: Omar，请给我一个盘子。\nOmar: 给，这是你的盘子。\nYassin: 谢谢。我也要一个勺子。\nOmar: 勺子在这个抽屉里。\nYassin: 我想做鸡蛋。\nOmar: 我想泡茶。\nYassin: 请给我一点盐。\nOmar: 给你。\nYassin: 我现在想吃饭。\nOmar: 请等一会儿。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 11: أريد",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar，请给我一个盘子。",
+    "translation": "عمر، أريد طبقاً، من فضلك.",
+    "pronunciation": "Omar, qǐng gěi wǒ yí gè pánzi."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "给，这是你的盘子。",
+    "translation": "هذا طبق لك.",
+    "pronunciation": "Gěi, zhè shì nǐ de pánzi."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "谢谢。我也要一个勺子。",
+    "translation": "شكراً. أريد ملعقة أيضاً.",
+    "pronunciation": "Xièxie. Wǒ yě yào yí gè sháozi."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "勺子在这个抽屉里。",
+    "translation": "الملاعق في هذا الدرج.",
+    "pronunciation": "Sháozi zài zhège chōuti lǐ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我想做鸡蛋。",
+    "translation": "أريد أن أطبخ البيض.",
+    "pronunciation": "Wǒ xiǎng zuò jīdàn."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我想泡茶。",
+    "translation": "أريد أن أصنع الشاي.",
+    "pronunciation": "Wǒ xiǎng pào chá."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "请给我一点盐。",
+    "translation": "أريد بعض الملح، من فضلك.",
+    "pronunciation": "Qǐng gěi wǒ yìdiǎn yán."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "给你。",
+    "translation": "تفضل.",
+    "pronunciation": "Gěi nǐ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我现在想吃饭。",
+    "translation": "أريد أن آكل الآن.",
+    "pronunciation": "Wǒ xiànzài xiǎng chīfàn."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "请等一会儿。",
+    "translation": "انتظر دقيقة واحدة، من فضلك.",
+    "pronunciation": "Qǐng děng yíhuìr."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d11",
+   "title": "أريد",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 11,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s2_d10"
+  ],
+  "createdAt": 1786696446398
+ }
+}

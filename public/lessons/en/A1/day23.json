@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 23,
+ "story": {
+  "originalText": "Yassin: Hello. How much is this meal?\nOmar: The meal is ten dollars.\nYassin: How much is the water?\nOmar: The water is one dollar.\nYassin: How much is the soup?\nOmar: The soup is five dollars.\nYassin: The prices are good.\nOmar: Yes, we can order now.\nYassin: After the food, we need the bill.\nOmar: I will ask for it.",
+  "translatedText": "Yassin: مرحباً. كم ثمن هذه الوجبة؟\nOmar: الوجبة بعشرة دولارات.\nYassin: كم ثمن الماء؟\nOmar: الماء بدولار واحد.\nYassin: كم ثمن الحساء؟\nOmar: الحساء بخمسة دولارات.\nYassin: الأسعار جيدة.\nOmar: نعم، يمكننا الطلب الآن.\nYassin: بعد الطعام، نحتاج إلى الفاتورة.\nOmar: سأطلبها.",
+  "nativeScriptText": "Yassin: Hello. How much is this meal?\nOmar: The meal is ten dollars.\nYassin: How much is the water?\nOmar: The water is one dollar.\nYassin: How much is the soup?\nOmar: The soup is five dollars.\nYassin: The prices are good.\nOmar: Yes, we can order now.\nYassin: After the food, we need the bill.\nOmar: I will ask for it.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 23: كم؟",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hello. How much is this meal?",
+    "translation": "مرحباً. كم ثمن هذه الوجبة؟",
+    "pronunciation": "Hello. How much is this meal?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The meal is ten dollars.",
+    "translation": "الوجبة بعشرة دولارات.",
+    "pronunciation": "The meal is ten dollars."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "How much is the water?",
+    "translation": "كم ثمن الماء؟",
+    "pronunciation": "How much is the water?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The water is one dollar.",
+    "translation": "الماء بدولار واحد.",
+    "pronunciation": "The water is one dollar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "How much is the soup?",
+    "translation": "كم ثمن الحساء؟",
+    "pronunciation": "How much is the soup?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The soup is five dollars.",
+    "translation": "الحساء بخمسة دولارات.",
+    "pronunciation": "The soup is five dollars."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "The prices are good.",
+    "translation": "الأسعار جيدة.",
+    "pronunciation": "The prices are good."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, we can order now.",
+    "translation": "نعم، يمكننا الطلب الآن.",
+    "pronunciation": "Yes, we can order now."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "After the food, we need the bill.",
+    "translation": "بعد الطعام، نحتاج إلى الفاتورة.",
+    "pronunciation": "After the food, we need the bill."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I will ask for it.",
+    "translation": "سأطلبها.",
+    "pronunciation": "I will ask for it."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d23",
+   "title": "كم؟",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 23,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s4_d22"
+  ],
+  "createdAt": 1786696446398
+ }
+}

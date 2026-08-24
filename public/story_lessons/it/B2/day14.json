@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_it_d14",
+  "languageCode": "it",
+  "languageNameArabic": "الإيطالية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 14,
+  "lessonTitle": "Delegare con fiducia",
+  "englishTitle": "Delegating with Trust",
+  "arabicTitle": "تفويض الثقة",
+  "canonicalBeatIds": [
+   "BEAT_B2_D14"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "تفويض مهمة مع معيار متابعة.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: تفويض الثقة."
+ },
+ "story": {
+  "storyContextArabic": "يسند ليث إلى نور مسؤولية جزء من السوق.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: تفويض الثقة.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "noor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: تفويض الثقة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D14_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D14_01",
+     "narrationArabic": "يسند ليث إلى نور مسؤولية جزء من السوق."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D14_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "تفويض مهمة مع معيار متابعة.",
+   "lines": [
+    {
+     "lineId": "L_B2_IT_D14_01",
+     "speakerId": "noor",
+     "targetText": "Dobbiamo rivedere la responsabilità del mercato.",
+     "englishReference": "We need to review the market responsibility.",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "Dobbiamo rivedere la responsabilità del mercato.",
+     "phraseIds": [
+      "P_B2_IT_D14_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_IT_D14_02",
+     "speakerId": "laith",
+     "targetText": "Rispetto all'altra opzione, confido che tu guidi questa parte.",
+     "englishReference": "Compared with the other option, I trust you to lead this part.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "Rispetto all'altra opzione, confido che tu guidi questa parte.",
+     "phraseIds": [
+      "P_B2_IT_D14_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D14_03",
+     "speakerId": "noor",
+     "targetText": "Perché è importante?",
+     "englishReference": "Why is that important?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "Perché è importante?",
+     "phraseIds": [
+      "P_B2_IT_D14_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D14_04",
+     "speakerId": "laith",
+     "targetText": "Perché potresti aver bisogno di supporto.",
+     "englishReference": "Because you may need support.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "Perché potresti aver bisogno di supporto.",
+     "phraseIds": [
+      "P_B2_IT_D14_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D14_05",
+     "speakerId": "noor",
+     "targetText": "Cosa dovrebbe succedere dopo?",
+     "englishReference": "What should happen next?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "Cosa dovrebbe succedere dopo?",
+     "phraseIds": [
+      "P_B2_IT_D14_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D14_06",
+     "speakerId": "laith",
+     "targetText": "Propongo di incontrarci a fine giornata.",
+     "englishReference": "I suggest that we can meet at the end of the day.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "Propongo di incontrarci a fine giornata.",
+     "phraseIds": [
+      "P_B2_IT_D14_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_IT_D14_07",
+     "speakerId": "noor",
+     "targetText": "Capisco la tua posizione.",
+     "englishReference": "I understand your position.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "Capisco la tua posizione.",
+     "phraseIds": [
+      "P_B2_IT_D14_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_IT_D14_08",
+     "speakerId": "laith",
+     "targetText": "Bene. Possiamo continuare con cautela.",
+     "englishReference": "Good. We can continue carefully.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "Bene. Possiamo continuare con cautela.",
+     "phraseIds": [
+      "P_B2_IT_D14_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D14_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_IT_D14_C01",
+      "P_B2_IT_D14_C02",
+      "P_B2_IT_D14_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_IT_D14_C01",
+      "P_B2_IT_D14_C02",
+      "P_B2_IT_D14_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_IT_D14_I01",
+      "P_B2_IT_D14_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D14_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_IT_D14_C01",
+    "P_B2_IT_D14_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D14_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "L’alleanza sta cambiando la regione.",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة.",
+     "pronunciation": "L’alleanza sta cambiando la regione."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Alcuni dettagli per ora dovrebbero rimanere privati.",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن.",
+     "pronunciation": "Alcuni dettagli per ora dovrebbero rimanere privati."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D14_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: تفويض الثقة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "DELEGATION:SUCCESS",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_IT_D14_S01",
+   "text": "Dobbiamo rivedere la responsabilità del mercato.",
+   "englishReference": "We need to review the market responsibility.",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "Dobbiamo rivedere la responsabilità del mercato.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_IT_D14_C01",
+   "text": "Rispetto all'altra opzione, confido che tu guidi questa parte.",
+   "englishReference": "Compared with the other option, I trust you to lead this part.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "Rispetto all'altra opzione, confido che tu guidi questa parte.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_IT_D14_I01",
+   "text": "Perché è importante?",
+   "englishReference": "Why is that important?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "Perché è importante?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_IT_D14_C02",
+   "text": "Perché potresti aver bisogno di supporto.",
+   "englishReference": "Because you may need support.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "Perché potresti aver bisogno di supporto.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_IT_D14_I02",
+   "text": "Cosa dovrebbe succedere dopo?",
+   "englishReference": "What should happen next?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "Cosa dovrebbe succedere dopo?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_IT_D14_C03",
+   "text": "Propongo di incontrarci a fine giornata.",
+   "englishReference": "I suggest that we can meet at the end of the day.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "Propongo di incontrarci a fine giornata.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_IT_D14_S02",
+   "text": "Capisco la tua posizione.",
+   "englishReference": "I understand your position.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "Capisco la tua posizione.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_IT_D14_S03",
+   "text": "Bene. Possiamo continuare con cautela.",
+   "englishReference": "Good. We can continue carefully.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "Bene. Possiamo continuare con cautela.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_IT_D14_C01",
+     "P_B2_IT_D14_C02",
+     "P_B2_IT_D14_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_IT_D14_I01",
+     "P_B2_IT_D14_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_IT_D14_C01",
+    "P_B2_IT_D14_C02",
+    "P_B2_IT_D14_C03",
+    "P_B2_IT_D14_I01",
+    "P_B2_IT_D14_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B2_D13:COMPLETE"
+  ],
+  "onSuccess": [
+   "DELEGATION:SUCCESS",
+   "B2_D15:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_14",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b2_it_d13",
+  "nextLessonId": "story_b2_it_d15",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 14: تفويض الثقة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

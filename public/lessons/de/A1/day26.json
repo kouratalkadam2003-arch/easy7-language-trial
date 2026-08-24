@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 26,
+ "story": {
+  "originalText": "Yassin: Guten Morgen, Omar. Bist du bereit zum Arzt?\nOmar: Ja, ich bin bereit.\nYassin: Der Arzt ist in dieser Klinik.\nOmar: Hallo, Doktor. Ich fühle mich krank.\nYassin: Er hat Kopfschmerzen.\nOmar: Der Arzt sagt, ich muss mich ausruhen.\nYassin: Brauchst du Medizin?\nOmar: Ja, der Arzt gibt mir Medizin.\nYassin: Ich werde dir zu Hause helfen.\nOmar: Danke für deine Hilfe.",
+  "translatedText": "Yassin: صباح الخير يا عمر. هل أنت مستعد للطبيب؟\nOmar: نعم، أنا مستعد.\nYassin: الطبيب في هذه العيادة.\nOmar: مرحباً يا دكتور. أشعر بالمرض.\nYassin: لديه صداع.\nOmar: الطبيب يقول إنني أحتاج إلى الراحة.\nYassin: هل تحتاج إلى دواء؟\nOmar: نعم، الطبيب يعطيني دواء.\nYassin: سأساعدك في البيت.\nOmar: شكراً لمساعدتك.",
+  "nativeScriptText": "Yassin: Guten Morgen, Omar. Bist du bereit zum Arzt?\nOmar: Ja, ich bin bereit.\nYassin: Der Arzt ist in dieser Klinik.\nOmar: Hallo, Doktor. Ich fühle mich krank.\nYassin: Er hat Kopfschmerzen.\nOmar: Der Arzt sagt, ich muss mich ausruhen.\nYassin: Brauchst du Medizin?\nOmar: Ja, der Arzt gibt mir Medizin.\nYassin: Ich werde dir zu Hause helfen.\nOmar: Danke für deine Hilfe.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 26: دكتور",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Guten Morgen, Omar. Bist du bereit zum Arzt?",
+    "translation": "صباح الخير يا عمر. هل أنت مستعد للطبيب؟",
+    "pronunciation": "Guten Morgen, Omar. Bist du bereit zum Arzt?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, ich bin bereit.",
+    "translation": "نعم، أنا مستعد.",
+    "pronunciation": "Ja, ich bin bereit."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Der Arzt ist in dieser Klinik.",
+    "translation": "الطبيب في هذه العيادة.",
+    "pronunciation": "Der Arzt ist in dieser Klinik."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hallo, Doktor. Ich fühle mich krank.",
+    "translation": "مرحباً يا دكتور. أشعر بالمرض.",
+    "pronunciation": "Hallo, Doktor. Ich fühle mich krank."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Er hat Kopfschmerzen.",
+    "translation": "لديه صداع.",
+    "pronunciation": "Er hat Kopfschmerzen."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Der Arzt sagt, ich muss mich ausruhen.",
+    "translation": "الطبيب يقول إنني أحتاج إلى الراحة.",
+    "pronunciation": "Der Arzt sagt, ich muss mich ausruhen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Brauchst du Medizin?",
+    "translation": "هل تحتاج إلى دواء؟",
+    "pronunciation": "Brauchst du Medizin?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, der Arzt gibt mir Medizin.",
+    "translation": "نعم، الطبيب يعطيني دواء.",
+    "pronunciation": "Ja, der Arzt gibt mir Medizin."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich werde dir zu Hause helfen.",
+    "translation": "سأساعدك في البيت.",
+    "pronunciation": "Ich werde dir zu Hause helfen."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Danke für deine Hilfe.",
+    "translation": "شكراً لمساعدتك.",
+    "pronunciation": "Danke für deine Hilfe."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d26",
+   "title": "دكتور",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 26,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s4_d25"
+  ],
+  "createdAt": 1786696446398
+ }
+}

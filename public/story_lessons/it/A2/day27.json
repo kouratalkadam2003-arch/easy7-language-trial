@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_it_d27",
+  "languageCode": "it",
+  "languageNameArabic": "الإيطالية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 27,
+  "lessonTitle": "Un mercato più grande",
+  "englishTitle": "A Bigger Market",
+  "arabicTitle": "سوق أكبر",
+  "canonicalBeatIds": [
+   "BEAT_A2_D27"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "الحديث عن شراء وبيع ووصف منتجات.",
+  "realLifeTransferArabic": "التعامل في سوق محلي.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: سوق أكبر دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "تنظم القرية سوقًا أكبر بعد نجاح المشروع، ويشرح ليث للزوار مصدر المنتجات.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: سوق أكبر.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "visitor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: سوق أكبر."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D27_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D27_01",
+     "narrationArabic": "تنظم القرية سوقًا أكبر بعد نجاح المشروع، ويشرح ليث للزوار مصدر المنتجات."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D27_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "الحديث عن شراء وبيع ووصف منتجات.",
+   "lines": [
+    {
+     "lineId": "L_A2_IT_D27_01",
+     "speakerId": "visitor",
+     "targetText": "Buongiorno, Laith. Da dove vengono queste verdure?",
+     "englishReference": "Good morning, Laith. Where do these vegetables come from?",
+     "arabicTranslation": "صباح الخير يا ليث. Where do these vegetables come from?",
+     "pronunciation": "Buongiorno, Laith. Da dove vengono queste verdure?",
+     "phraseIds": [
+      "P_A2_IT_D27_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_IT_D27_02",
+     "speakerId": "laith",
+     "targetText": "Buongiorno. Provengono dal giardino del nostro villaggio.",
+     "englishReference": "Good morning. They come from our village garden.",
+     "arabicTranslation": "صباح الخير. They come from our village garden.",
+     "pronunciation": "Buongiorno. Provengono dal giardino del nostro villaggio.",
+     "phraseIds": [
+      "P_A2_IT_D27_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D27_03",
+     "speakerId": "visitor",
+     "targetText": "Posso acquistare due cestini?",
+     "englishReference": "Can I buy two baskets?",
+     "arabicTranslation": "Can I buy two baskets?",
+     "pronunciation": "Posso acquistare due cestini?",
+     "phraseIds": [
+      "P_A2_IT_D27_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D27_04",
+     "speakerId": "laith",
+     "targetText": "Sì, naturalmente. Sono freschi oggi.",
+     "englishReference": "Yes, of course. They are fresh today.",
+     "arabicTranslation": "Yes, of course. They are fresh today.",
+     "pronunciation": "Sì, naturalmente. Sono freschi oggi.",
+     "phraseIds": [
+      "P_A2_IT_D27_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D27_05",
+     "speakerId": "visitor",
+     "targetText": "Quanto costano?",
+     "englishReference": "How much are they?",
+     "arabicTranslation": "How much are they?",
+     "pronunciation": "Quanto costano?",
+     "phraseIds": [
+      "P_A2_IT_D27_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D27_06",
+     "speakerId": "laith",
+     "targetText": "Sono quattro monete ciascuno.",
+     "englishReference": "They are four coins each.",
+     "arabicTranslation": "They are four coins each.",
+     "pronunciation": "Sono quattro monete ciascuno.",
+     "phraseIds": [
+      "P_A2_IT_D27_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D27_07",
+     "speakerId": "visitor",
+     "targetText": "Sembra un buon piano.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "Sembra un buon piano.",
+     "phraseIds": [
+      "P_A2_IT_D27_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_IT_D27_08",
+     "speakerId": "laith",
+     "targetText": "Grazie. Arrivederci.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Grazie. Arrivederci.",
+     "phraseIds": [
+      "P_A2_IT_D27_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D27_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_IT_D27_C01",
+      "P_A2_IT_D27_C02",
+      "P_A2_IT_D27_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_IT_D27_C01",
+      "P_A2_IT_D27_C02",
+      "P_A2_IT_D27_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_IT_D27_I01",
+      "P_A2_IT_D27_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D27_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: التعامل في سوق محلي.",
+   "requiredPhraseIds": [
+    "P_A2_IT_D27_C01",
+    "P_A2_IT_D27_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D27_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Il mercato sta cambiando rapidamente in questa stagione.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "Il mercato sta cambiando rapidamente in questa stagione."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "SÌ. Le persone fanno più domande sulle vecchie strade.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "SÌ. Le persone fanno più domande sulle vecchie strade."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D27_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: سوق أكبر.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: سوق أكبر."
+   },
+   "successWorldConsequence": "BIG_MARKET:SUCCESS",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_IT_D27_S01",
+   "text": "Buongiorno, Laith. Da dove vengono queste verdure?",
+   "englishReference": "Good morning, Laith. Where do these vegetables come from?",
+   "arabicTranslation": "صباح الخير يا ليث. Where do these vegetables come from?",
+   "pronunciation": "Buongiorno, Laith. Da dove vengono queste verdure?",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل في سوق محلي."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_IT_D27_C01",
+   "text": "Buongiorno. Provengono dal giardino del nostro villaggio.",
+   "englishReference": "Good morning. They come from our village garden.",
+   "arabicTranslation": "صباح الخير. They come from our village garden.",
+   "pronunciation": "Buongiorno. Provengono dal giardino del nostro villaggio.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل في سوق محلي."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D27_I01",
+   "text": "Posso acquistare due cestini?",
+   "englishReference": "Can I buy two baskets?",
+   "arabicTranslation": "Can I buy two baskets?",
+   "pronunciation": "Posso acquistare due cestini?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل في سوق محلي."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_IT_D27_C02",
+   "text": "Sì, naturalmente. Sono freschi oggi.",
+   "englishReference": "Yes, of course. They are fresh today.",
+   "arabicTranslation": "Yes, of course. They are fresh today.",
+   "pronunciation": "Sì, naturalmente. Sono freschi oggi.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل في سوق محلي."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D27_I02",
+   "text": "Quanto costano?",
+   "englishReference": "How much are they?",
+   "arabicTranslation": "How much are they?",
+   "pronunciation": "Quanto costano?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل في سوق محلي."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_IT_D27_C03",
+   "text": "Sono quattro monete ciascuno.",
+   "englishReference": "They are four coins each.",
+   "arabicTranslation": "They are four coins each.",
+   "pronunciation": "Sono quattro monete ciascuno.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل في سوق محلي."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D27_S02",
+   "text": "Sembra un buon piano.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "Sembra un buon piano.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل في سوق محلي."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_IT_D27_S03",
+   "text": "Grazie. Arrivederci.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Grazie. Arrivederci.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعامل في سوق محلي."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_IT_D27_C01",
+     "P_A2_IT_D27_C02",
+     "P_A2_IT_D27_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_IT_D27_I01",
+     "P_A2_IT_D27_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_IT_D27_C01",
+    "P_A2_IT_D27_C02",
+    "P_A2_IT_D27_C03",
+    "P_A2_IT_D27_I01",
+    "P_A2_IT_D27_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D26:COMPLETE"
+  ],
+  "onSuccess": [
+   "BIG_MARKET:SUCCESS",
+   "A2_D28:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_27",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_it_d26",
+  "nextLessonId": "story_a2_it_d28",
+  "nextLessonHookArabic": "يسمع ليث زائرًا يذكر اسم منطقة مرتبطة بماضيه.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 27: سوق أكبر."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

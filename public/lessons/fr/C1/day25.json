@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "C1",
+ "dayNumber": 25,
+ "story": {
+  "originalText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: Lorsque nous discutons du thème « Capitalisme », nous devons distinguer les faits des hypothèses.\nOmar: Je suis d’accord, car une analyse attentive révèle les limites des réponses simples.\nYassin: Mon interprétation est que le thème « Capitalisme » dépend du contexte, du langage et du pouvoir.\nOmar: Cette interprétation est convaincante, bien qu’une autre perspective puisse la contester.\nYassin: Comment expliquer notre raisonnement sans ignorer les conséquences humaines ?\nOmar: Nous pouvons présenter clairement nos preuves et reconnaître ce qui reste incertain.\nYassin: Merci, car cela rend notre analyse plus responsable.\nOmar: Au revoir pour le moment. Demain, nous parlerons du thème « Marché boursier ».",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: عندما نناقش موضوع رأسمالية، ينبغي أن نميز بين الحقائق والافتراضات.\nOmar: أوافق، لأن التحليل الدقيق يكشف حدود الإجابات البسيطة.\nYassin: تفسيري هو أن موضوع رأسمالية يعتمد على السياق واللغة والقوة.\nOmar: هذا التفسير مقنع، مع أن منظورًا آخر قد يتحداه.\nYassin: كيف يمكننا أن نشرح استدلالنا من دون تجاهل النتائج الإنسانية؟\nOmar: يمكننا أن نعرض أدلتنا بوضوح وأن نقر بما يبقى غير مؤكد.\nYassin: شكرًا، لأن ذلك يجعل تحليلنا أكثر مسؤولية.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Stock market.",
+  "nativeScriptText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: Lorsque nous discutons du thème « Capitalisme », nous devons distinguer les faits des hypothèses.\nOmar: Je suis d’accord, car une analyse attentive révèle les limites des réponses simples.\nYassin: Mon interprétation est que le thème « Capitalisme » dépend du contexte, du langage et du pouvoir.\nOmar: Cette interprétation est convaincante, bien qu’une autre perspective puisse la contester.\nYassin: Comment expliquer notre raisonnement sans ignorer les conséquences humaines ?\nOmar: Nous pouvons présenter clairement nos preuves et reconnaître ce qui reste incertain.\nYassin: Merci, car cela rend notre analyse plus responsable.\nOmar: Au revoir pour le moment. Demain, nous parlerons du thème « Marché boursier ».",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 25: رأسمالية",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Bonjour, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Lorsque nous discutons du thème « Capitalisme », nous devons distinguer les faits des hypothèses.",
+    "translation": "عندما نناقش موضوع رأسمالية، ينبغي أن نميز بين الحقائق والافتراضات.",
+    "pronunciation": "Lorsque nous discutons du thème « Capitalisme », nous devons distinguer les faits des hypothèses."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je suis d’accord, car une analyse attentive révèle les limites des réponses simples.",
+    "translation": "أوافق، لأن التحليل الدقيق يكشف حدود الإجابات البسيطة.",
+    "pronunciation": "Je suis d’accord, car une analyse attentive révèle les limites des réponses simples."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Mon interprétation est que le thème « Capitalisme » dépend du contexte, du langage et du pouvoir.",
+    "translation": "تفسيري هو أن موضوع رأسمالية يعتمد على السياق واللغة والقوة.",
+    "pronunciation": "Mon interprétation est que le thème « Capitalisme » dépend du contexte, du langage et du pouvoir."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Cette interprétation est convaincante, bien qu’une autre perspective puisse la contester.",
+    "translation": "هذا التفسير مقنع، مع أن منظورًا آخر قد يتحداه.",
+    "pronunciation": "Cette interprétation est convaincante, bien qu’une autre perspective puisse la contester."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Comment expliquer notre raisonnement sans ignorer les conséquences humaines ?",
+    "translation": "كيف يمكننا أن نشرح استدلالنا من دون تجاهل النتائج الإنسانية؟",
+    "pronunciation": "Comment expliquer notre raisonnement sans ignorer les conséquences humaines ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Nous pouvons présenter clairement nos preuves et reconnaître ce qui reste incertain.",
+    "translation": "يمكننا أن نعرض أدلتنا بوضوح وأن نقر بما يبقى غير مؤكد.",
+    "pronunciation": "Nous pouvons présenter clairement nos preuves et reconnaître ce qui reste incertain."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Merci, car cela rend notre analyse plus responsable.",
+    "translation": "شكرًا، لأن ذلك يجعل تحليلنا أكثر مسؤولية.",
+    "pronunciation": "Merci, car cela rend notre analyse plus responsable."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Au revoir pour le moment. Demain, nous parlerons du thème « Marché boursier ».",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Stock market.",
+    "pronunciation": "Au revoir pour le moment. Demain, nous parlerons du thème « Marché boursier »."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d25",
+   "title": "رأسمالية",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 25,
+  "level": "C1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s4_d24"
+  ],
+  "createdAt": 1786705141011
+ }
+}

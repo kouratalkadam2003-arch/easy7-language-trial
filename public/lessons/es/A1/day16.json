@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 16,
+ "story": {
+  "originalText": "Yassin: Buenos días, Yassin. ¿Eres estudiante?\nOmar: Sí, soy estudiante.\nYassin: ¿Qué estudias?\nOmar: Estudio inglés en el instituto.\nYassin: ¿Eres un estudiante nuevo?\nOmar: Sí, soy nuevo, pero estoy listo.\nYassin: Un buen estudiante estudia todos los días.\nOmar: Estudio contigo cada tarde.\nYassin: Nuestro profesor es bueno también.\nOmar: Quiero conocer al profesor.",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هل أنت طالب؟\nOmar: نعم، أنا طالب.\nYassin: ماذا تدرس؟\nOmar: أدرس الإنجليزية في المعهد.\nYassin: هل أنت طالب جديد؟\nOmar: نعم، أنا جديد، لكنني مستعد.\nYassin: الطالب الجيد يدرس كل يوم.\nOmar: أدرس معك كل مساء.\nYassin: معلمنا جيد أيضاً.\nOmar: أريد أن أقابل المعلم.",
+  "nativeScriptText": "Yassin: Buenos días, Yassin. ¿Eres estudiante?\nOmar: Sí, soy estudiante.\nYassin: ¿Qué estudias?\nOmar: Estudio inglés en el instituto.\nYassin: ¿Eres un estudiante nuevo?\nOmar: Sí, soy nuevo, pero estoy listo.\nYassin: Un buen estudiante estudia todos los días.\nOmar: Estudio contigo cada tarde.\nYassin: Nuestro profesor es bueno también.\nOmar: Quiero conocer al profesor.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 16: طالب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buenos días, Yassin. ¿Eres estudiante?",
+    "translation": "صباح الخير يا ياسين. هل أنت طالب؟",
+    "pronunciation": "Buenos días, Yassin. ¿Eres estudiante?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, soy estudiante.",
+    "translation": "نعم، أنا طالب.",
+    "pronunciation": "Sí, soy estudiante."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Qué estudias?",
+    "translation": "ماذا تدرس؟",
+    "pronunciation": "¿Qué estudias?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Estudio inglés en el instituto.",
+    "translation": "أدرس الإنجليزية في المعهد.",
+    "pronunciation": "Estudio inglés en el instituto."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Eres un estudiante nuevo?",
+    "translation": "هل أنت طالب جديد؟",
+    "pronunciation": "¿Eres un estudiante nuevo?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, soy nuevo, pero estoy listo.",
+    "translation": "نعم، أنا جديد، لكنني مستعد.",
+    "pronunciation": "Sí, soy nuevo, pero estoy listo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Un buen estudiante estudia todos los días.",
+    "translation": "الطالب الجيد يدرس كل يوم.",
+    "pronunciation": "Un buen estudiante estudia todos los días."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Estudio contigo cada tarde.",
+    "translation": "أدرس معك كل مساء.",
+    "pronunciation": "Estudio contigo cada tarde."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Nuestro profesor es bueno también.",
+    "translation": "معلمنا جيد أيضاً.",
+    "pronunciation": "Nuestro profesor es bueno también."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Quiero conocer al profesor.",
+    "translation": "أريد أن أقابل المعلم.",
+    "pronunciation": "Quiero conocer al profesor."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d16",
+   "title": "طالب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 16,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s3_d15"
+  ],
+  "createdAt": 1786696446398
+ }
+}

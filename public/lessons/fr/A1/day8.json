@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 8,
+ "story": {
+  "originalText": "Yassin: Bienvenue chez nous, Omar.\nOmar: Merci. Notre maison est jolie.\nYassin: La maison est petite mais propre.\nOmar: Oui, elle a une cuisine et deux chambres.\nYassin: La cuisine est près de la porte.\nOmar: La salle de bain est à côté de la cuisine.\nYassin: J'aime cette maison.\nOmar: Moi aussi. C'est calme.\nYassin: Allons voir notre chambre maintenant.\nOmar: Oui, viens avec moi.",
+  "translatedText": "Yassin: أهلاً بك في بيتنا يا عمر.\nOmar: شكراً. بيتنا جميل.\nYassin: البيت صغير لكنه نظيف.\nOmar: نعم، فيه مطبخ وغرفتان.\nYassin: المطبخ قرب الباب.\nOmar: الحمام بجانب المطبخ.\nYassin: أنا أحب هذا البيت.\nOmar: وأنا أيضاً. إنه هادئ.\nYassin: لنرَ غرفتنا الآن.\nOmar: نعم، تعال معي.",
+  "nativeScriptText": "Yassin: Bienvenue chez nous, Omar.\nOmar: Merci. Notre maison est jolie.\nYassin: La maison est petite mais propre.\nOmar: Oui, elle a une cuisine et deux chambres.\nYassin: La cuisine est près de la porte.\nOmar: La salle de bain est à côté de la cuisine.\nYassin: J'aime cette maison.\nOmar: Moi aussi. C'est calme.\nYassin: Allons voir notre chambre maintenant.\nOmar: Oui, viens avec moi.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 8: بيتي",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bienvenue chez nous, Omar.",
+    "translation": "أهلاً بك في بيتنا يا عمر.",
+    "pronunciation": "Bienvenue chez nous, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Merci. Notre maison est jolie.",
+    "translation": "شكراً. بيتنا جميل.",
+    "pronunciation": "Merci. Notre maison est jolie."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "La maison est petite mais propre.",
+    "translation": "البيت صغير لكنه نظيف.",
+    "pronunciation": "La maison est petite mais propre."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, elle a une cuisine et deux chambres.",
+    "translation": "نعم، فيه مطبخ وغرفتان.",
+    "pronunciation": "Oui, elle a une cuisine et deux chambres."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "La cuisine est près de la porte.",
+    "translation": "المطبخ قرب الباب.",
+    "pronunciation": "La cuisine est près de la porte."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "La salle de bain est à côté de la cuisine.",
+    "translation": "الحمام بجانب المطبخ.",
+    "pronunciation": "La salle de bain est à côté de la cuisine."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "J'aime cette maison.",
+    "translation": "أنا أحب هذا البيت.",
+    "pronunciation": "J'aime cette maison."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Moi aussi. C'est calme.",
+    "translation": "وأنا أيضاً. إنه هادئ.",
+    "pronunciation": "Moi aussi. C'est calme."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Allons voir notre chambre maintenant.",
+    "translation": "لنرَ غرفتنا الآن.",
+    "pronunciation": "Allons voir notre chambre maintenant."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, viens avec moi.",
+    "translation": "نعم، تعال معي.",
+    "pronunciation": "Oui, viens avec moi."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d8",
+   "title": "بيتي",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 8,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s1_d7"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 30,
+ "story": {
+  "originalText": "Yassin: Guten Morgen, Omar. Bist du bereit für den Test?\nOmar: Ja, ich bin bereit, wenn Gott will.\nYassin: Wie heißt du?\nOmar: Ich heiße Omar und komme aus Algerien.\nYassin: Wie geht es dir und wo ist dein Buch?\nOmar: Mir geht es gut. Mein Buch liegt auf dem Schreibtisch.\nYassin: Was möchtest du essen?\nOmar: Ich möchte Reis und Wasser, bitte.\nYassin: Ausgezeichnet. Du hast A1 bestanden. Gut gemacht!\nOmar: Danke, Yassin. Auf Wiedersehen, A1. Hallo, A2!",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هل أنت مستعد للامتحان؟\nOmar: نعم، أنا مستعد، إن شاء الله.\nYassin: ما اسمك؟\nOmar: اسمي ياسين، وأنا من الجزائر.\nYassin: كيف حالك، وأين كتابك؟\nOmar: أنا بخير. كتابي على المكتب.\nYassin: ماذا تريد أن تأكل؟\nOmar: أريد الأرز والماء، من فضلك.\nYassin: ممتاز. لقد نجحت في A1. أحسنت!\nOmar: شكراً يا عمر. وداعاً A1. مرحباً A2!",
+  "nativeScriptText": "Yassin: Guten Morgen, Omar. Bist du bereit für den Test?\nOmar: Ja, ich bin bereit, wenn Gott will.\nYassin: Wie heißt du?\nOmar: Ich heiße Omar und komme aus Algerien.\nYassin: Wie geht es dir und wo ist dein Buch?\nOmar: Mir geht es gut. Mein Buch liegt auf dem Schreibtisch.\nYassin: Was möchtest du essen?\nOmar: Ich möchte Reis und Wasser, bitte.\nYassin: Ausgezeichnet. Du hast A1 bestanden. Gut gemacht!\nOmar: Danke, Yassin. Auf Wiedersehen, A1. Hallo, A2!",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 30: امتحان المستوى A1",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Guten Morgen, Omar. Bist du bereit für den Test?",
+    "translation": "صباح الخير يا ياسين. هل أنت مستعد للامتحان؟",
+    "pronunciation": "Guten Morgen, Omar. Bist du bereit für den Test?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, ich bin bereit, wenn Gott will.",
+    "translation": "نعم، أنا مستعد، إن شاء الله.",
+    "pronunciation": "Ja, ich bin bereit, wenn Gott will."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wie heißt du?",
+    "translation": "ما اسمك؟",
+    "pronunciation": "Wie heißt du?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich heiße Omar und komme aus Algerien.",
+    "translation": "اسمي ياسين، وأنا من الجزائر.",
+    "pronunciation": "Ich heiße Omar und komme aus Algerien."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wie geht es dir und wo ist dein Buch?",
+    "translation": "كيف حالك، وأين كتابك؟",
+    "pronunciation": "Wie geht es dir und wo ist dein Buch?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Mir geht es gut. Mein Buch liegt auf dem Schreibtisch.",
+    "translation": "أنا بخير. كتابي على المكتب.",
+    "pronunciation": "Mir geht es gut. Mein Buch liegt auf dem Schreibtisch."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Was möchtest du essen?",
+    "translation": "ماذا تريد أن تأكل؟",
+    "pronunciation": "Was möchtest du essen?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich möchte Reis und Wasser, bitte.",
+    "translation": "أريد الأرز والماء، من فضلك.",
+    "pronunciation": "Ich möchte Reis und Wasser, bitte."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ausgezeichnet. Du hast A1 bestanden. Gut gemacht!",
+    "translation": "ممتاز. لقد نجحت في A1. أحسنت!",
+    "pronunciation": "Ausgezeichnet. Du hast A1 bestanden. Gut gemacht!"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Danke, Yassin. Auf Wiedersehen, A1. Hallo, A2!",
+    "translation": "شكراً يا عمر. وداعاً A1. مرحباً A2!",
+    "pronunciation": "Danke, Yassin. Auf Wiedersehen, A1. Hallo, A2!"
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d30",
+   "title": "امتحان المستوى A1",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 30,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s5_d29"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,475 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_fr_d17",
+  "languageCode": "fr",
+  "languageNameArabic": "الفرنسية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 17,
+  "lessonTitle": "Les conseils de Vincent",
+  "englishTitle": "Vincent’s Advice",
+  "arabicTitle": "نصيحة فينسنت",
+  "canonicalBeatIds": [
+   "BEAT_A1_D17"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "طلب نصيحة وفهم اقتراح بسيط.",
+  "realLifeTransferArabic": "طلب توجيه من شخص أكثر خبرة.",
+  "successCapabilityArabic": "اطلب نصيحة واختر إجراءً واحدًا بناءً عليها."
+ },
+ "story": {
+  "storyContextArabic": "يمر فينسنت بالسقيفة ويرى أن السقف يحتاج فكرة أفضل.",
+  "storyMissionArabic": "يتعلم ليث سؤال المستشار بدل أن يدّعي المعرفة.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias",
+   "vincent"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: نصيحة فينسنت."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D17_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D17_01",
+     "narrationArabic": "يمر فينسنت بالسقيفة ويرى أن السقف يحتاج فكرة أفضل."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D17_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "طلب نصيحة وفهم اقتراح بسيط.",
+   "lines": [
+    {
+     "lineId": "L_A1_FR_D17_01",
+     "speakerId": "vincent",
+     "targetText": "Bonjour, Vincent.",
+     "englishReference": "Good morning, Vincent.",
+     "arabicTranslation": "صباح الخير يا فينسنت.",
+     "pronunciation": "Bonjour, Vincent.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D17_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D17_02",
+     "speakerId": "laith",
+     "targetText": "Bonjour, Laith. Que construisez-vous ?",
+     "englishReference": "Good morning, Laith. What are you building?",
+     "arabicTranslation": "صباح الخير يا ليث. ماذا تبني؟",
+     "pronunciation": "Bonjour, Laith. Que construisez-vous ?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D17_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D17_03",
+     "speakerId": "vincent",
+     "targetText": "Nous réparons ce hangar.",
+     "englishReference": "We are fixing this shed.",
+     "arabicTranslation": "نحن نصلح هذه السقيفة.",
+     "pronunciation": "Nous réparons ce hangar.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D17_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D17_04",
+     "speakerId": "laith",
+     "targetText": "C'est un projet utile.",
+     "englishReference": "It is a useful project.",
+     "arabicTranslation": "إنه مشروع مفيد.",
+     "pronunciation": "C'est un projet utile.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D17_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D17_05",
+     "speakerId": "vincent",
+     "targetText": "Que pensez-vous du toit ?",
+     "englishReference": "What do you think about the roof?",
+     "arabicTranslation": "ما رأيك في السقف؟",
+     "pronunciation": "Que pensez-vous du toit ?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D17_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D17_06",
+     "speakerId": "laith",
+     "targetText": "Utilisez du bois sec. C'est plus fort.",
+     "englishReference": "Use dry wood. It is stronger.",
+     "arabicTranslation": "استخدم خشبًا جافًا. إنه أقوى.",
+     "pronunciation": "Utilisez du bois sec. C'est plus fort.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D17_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D17_07",
+     "speakerId": "vincent",
+     "targetText": "Merci pour vos conseils.",
+     "englishReference": "Thank you for your advice.",
+     "arabicTranslation": "شكرًا على نصيحتك.",
+     "pronunciation": "Merci pour vos conseils.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D17_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D17_08",
+     "speakerId": "laith",
+     "targetText": "Je vous en prie. Au revoir, jeune constructeur.",
+     "englishReference": "You are welcome. Goodbye, young builder.",
+     "arabicTranslation": "على الرحب والسعة. وداعًا أيها البنّاء الصغير.",
+     "pronunciation": "Je vous en prie. Au revoir, jeune constructeur.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D17_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D17_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_FR_D17_C01",
+      "P_A1_FR_D17_C02",
+      "P_A1_FR_D17_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_FR_D17_C01",
+      "P_A1_FR_D17_C02",
+      "P_A1_FR_D17_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_FR_D17_I01",
+      "P_A1_FR_D17_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D17_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: طلب توجيه من شخص أكثر خبرة.",
+   "requiredPhraseIds": [
+    "P_A1_FR_D17_C01",
+    "P_A1_FR_D17_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D17_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "J'ai entendu dire que Laith avait aidé aujourd'hui.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "J'ai entendu dire que Laith avait aidé aujourd'hui."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Le village commence à le connaître.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "Le village commence à le connaître."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D17_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: نصيحة فينسنت.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "اطلب نصيحة واختر إجراءً واحدًا بناءً عليها."
+   },
+   "successWorldConsequence": "A1_DAY_17:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_FR_D17_S01",
+   "text": "Bonjour, Vincent.",
+   "englishReference": "Good morning, Vincent.",
+   "arabicTranslation": "صباح الخير يا فينسنت.",
+   "pronunciation": "Bonjour, Vincent.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D17_LEARNING",
+   "transferContexts": [
+    "طلب توجيه من شخص أكثر خبرة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D17_I01",
+   "text": "Bonjour, Laith. Que construisez-vous ?",
+   "englishReference": "Good morning, Laith. What are you building?",
+   "arabicTranslation": "صباح الخير يا ليث. ماذا تبني؟",
+   "pronunciation": "Bonjour, Laith. Que construisez-vous ?",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D17_LEARNING",
+   "transferContexts": [
+    "طلب توجيه من شخص أكثر خبرة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_FR_D17_C01",
+   "text": "Nous réparons ce hangar.",
+   "englishReference": "We are fixing this shed.",
+   "arabicTranslation": "نحن نصلح هذه السقيفة.",
+   "pronunciation": "Nous réparons ce hangar.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D17_LEARNING",
+   "transferContexts": [
+    "طلب توجيه من شخص أكثر خبرة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D17_S02",
+   "text": "C'est un projet utile.",
+   "englishReference": "It is a useful project.",
+   "arabicTranslation": "إنه مشروع مفيد.",
+   "pronunciation": "C'est un projet utile.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D17_LEARNING",
+   "transferContexts": [
+    "طلب توجيه من شخص أكثر خبرة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D17_C02",
+   "text": "Que pensez-vous du toit ?",
+   "englishReference": "What do you think about the roof?",
+   "arabicTranslation": "ما رأيك في السقف؟",
+   "pronunciation": "Que pensez-vous du toit ?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D17_LEARNING",
+   "transferContexts": [
+    "طلب توجيه من شخص أكثر خبرة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D17_C03",
+   "text": "Utilisez du bois sec. C'est plus fort.",
+   "englishReference": "Use dry wood. It is stronger.",
+   "arabicTranslation": "استخدم خشبًا جافًا. إنه أقوى.",
+   "pronunciation": "Utilisez du bois sec. C'est plus fort.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D17_LEARNING",
+   "transferContexts": [
+    "طلب توجيه من شخص أكثر خبرة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D17_S03",
+   "text": "Merci pour vos conseils.",
+   "englishReference": "Thank you for your advice.",
+   "arabicTranslation": "شكرًا على نصيحتك.",
+   "pronunciation": "Merci pour vos conseils.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D17_LEARNING",
+   "transferContexts": [
+    "طلب توجيه من شخص أكثر خبرة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D17_I02",
+   "text": "Je vous en prie. Au revoir, jeune constructeur.",
+   "englishReference": "You are welcome. Goodbye, young builder.",
+   "arabicTranslation": "على الرحب والسعة. وداعًا أيها البنّاء الصغير.",
+   "pronunciation": "Je vous en prie. Au revoir, jeune constructeur.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D17_LEARNING",
+   "transferContexts": [
+    "طلب توجيه من شخص أكثر خبرة."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_FR_D17_C01",
+     "P_A1_FR_D17_C02",
+     "P_A1_FR_D17_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_FR_D17_C01",
+     "P_A1_FR_D17_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_FR_D17_C01",
+    "P_A1_FR_D17_C02",
+    "P_A1_FR_D17_C03",
+    "P_A1_FR_D17_I01",
+    "P_A1_FR_D17_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D16:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_17:COMPLETE",
+   "A1_D18:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_17",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_fr_d16",
+  "nextLessonId": "story_a1_fr_d18",
+  "nextLessonHookArabic": "غدًا: خطة للمزرعة.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 17: نصيحة فينسنت."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

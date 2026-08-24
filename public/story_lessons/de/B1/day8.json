@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b1_de_d08",
+  "languageCode": "de",
+  "languageNameArabic": "الألمانية",
+  "cefrLevel": "B1",
+  "chapterId": "chapter_03_responsibility",
+  "dayNumber": 8,
+  "lessonTitle": "Wenn sich das Wetter ändert",
+  "englishTitle": "If the Weather Changes",
+  "arabicTitle": "إذا تغير الطقس",
+  "canonicalBeatIds": [
+   "BEAT_B1_D08"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "استخدام شرط بسيط وخطة بديلة.",
+  "realLifeTransferArabic": "التعبير عن رأي مدعوم بسبب واقتراح خطوة عملية.",
+  "successCapabilityArabic": "أدر نقاشًا قصيرًا عن إذا تغير الطقس."
+ },
+ "story": {
+  "storyContextArabic": "تهدد موجة حر خطة الماء الجديدة.",
+  "storyMissionArabic": "يتعلم ليث القيادة عبر موضوع: إذا تغير الطقس.",
+  "setting": "village_council",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: إذا تغير الطقس."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B1_D08_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B1_D08_01",
+     "narrationArabic": "تهدد موجة حر خطة الماء الجديدة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D08_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "استخدام شرط بسيط وخطة بديلة.",
+   "lines": [
+    {
+     "lineId": "L_B1_DE_D08_01",
+     "speakerId": "elly",
+     "targetText": "Wir müssen über das Hitzerisiko reden.",
+     "englishReference": "We need to talk about the heat risk.",
+     "arabicTranslation": "نحتاج إلى الحديث عن the heat risk.",
+     "pronunciation": "Wir müssen über das Hitzerisiko reden.",
+     "phraseIds": [
+      "P_B1_DE_D08_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_DE_D08_02",
+     "speakerId": "laith",
+     "targetText": "Meiner Meinung nach brauchen wir einen Backup-Plan.",
+     "englishReference": "In my opinion, we need a backup plan.",
+     "arabicTranslation": "في رأيي، we need a backup plan.",
+     "pronunciation": "Meiner Meinung nach brauchen wir einen Backup-Plan.",
+     "phraseIds": [
+      "P_B1_DE_D08_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_DE_D08_03",
+     "speakerId": "elly",
+     "targetText": "Warum denkst du das?",
+     "englishReference": "Why do you think that?",
+     "arabicTranslation": "لماذا تعتقد ذلك؟",
+     "pronunciation": "Warum denkst du das?",
+     "phraseIds": [
+      "P_B1_DE_D08_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_DE_D08_04",
+     "speakerId": "laith",
+     "targetText": "Denn das Wetter kann sich schnell ändern.",
+     "englishReference": "Because the weather may change quickly.",
+     "arabicTranslation": "لأن the weather may change quickly.",
+     "pronunciation": "Denn das Wetter kann sich schnell ändern.",
+     "phraseIds": [
+      "P_B1_DE_D08_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_DE_D08_05",
+     "speakerId": "elly",
+     "targetText": "Was sollen wir zuerst tun?",
+     "englishReference": "What should we do first?",
+     "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+     "pronunciation": "Was sollen wir zuerst tun?",
+     "phraseIds": [
+      "P_B1_DE_D08_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_DE_D08_06",
+     "speakerId": "laith",
+     "targetText": "Ich schlage vor, dass wir Wasser für die heißesten Stunden aufsparen.",
+     "englishReference": "I suggest that we should save water for the hottest hours.",
+     "arabicTranslation": "أقترح أن we should save water for the hottest hours.",
+     "pronunciation": "Ich schlage vor, dass wir Wasser für die heißesten Stunden aufsparen.",
+     "phraseIds": [
+      "P_B1_DE_D08_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_DE_D08_07",
+     "speakerId": "elly",
+     "targetText": "Das erscheint vernünftig.",
+     "englishReference": "That seems reasonable.",
+     "arabicTranslation": "يبدو ذلك معقولًا.",
+     "pronunciation": "Das erscheint vernünftig.",
+     "phraseIds": [
+      "P_B1_DE_D08_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_DE_D08_08",
+     "speakerId": "laith",
+     "targetText": "Danke schön. Ich werde es dem Team erklären.",
+     "englishReference": "Thank you. I will explain it to the team.",
+     "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+     "pronunciation": "Danke schön. Ich werde es dem Team erklären.",
+     "phraseIds": [
+      "P_B1_DE_D08_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D08_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "argument_rebuild",
+     "phraseIds": [
+      "P_B1_DE_D08_C01",
+      "P_B1_DE_D08_C02",
+      "P_B1_DE_D08_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B1_DE_D08_C01",
+      "P_B1_DE_D08_C02",
+      "P_B1_DE_D08_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B1_DE_D08_I01",
+      "P_B1_DE_D08_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D08_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استعمل رأيًا وسببًا واقتراحًا في موقف عمل أو دراسة.",
+   "requiredPhraseIds": [
+    "P_B1_DE_D08_C01",
+    "P_B1_DE_D08_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D08_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Das Dorftreffen warf nützliche Fragen auf.",
+     "englishReference": "The village meeting raised useful questions.",
+     "arabicTranslation": "اجتماع القرية أثار أسئلة مفيدة.",
+     "pronunciation": "Das Dorftreffen warf nützliche Fragen auf."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Manche Fragen sollte man besser für später aufheben.",
+     "englishReference": "Some questions are better left for later.",
+     "arabicTranslation": "بعض الأسئلة من الأفضل تركها لوقت لاحق.",
+     "pronunciation": "Manche Fragen sollte man besser für später aufheben."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B1_D08_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "يحتاج الفريق إلى قرار حول: إذا تغير الطقس.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "state_opinion",
+     "give_reason",
+     "make_proposal"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير رأيًا مدعومًا داخل نقاش.",
+    "afterArabic": "يستطيع المتعلم الآن إبداء رأي وسبب واقتراح."
+   },
+   "successWorldConsequence": "HEAT_PLAN:READY",
+   "retryPolicy": "يقدّم تلميح للسبب أو للاقتراح ثم تعاد المهمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B1_DE_D08_S01",
+   "text": "Wir müssen über das Hitzerisiko reden.",
+   "englishReference": "We need to talk about the heat risk.",
+   "arabicTranslation": "نحتاج إلى الحديث عن the heat risk.",
+   "pronunciation": "Wir müssen über das Hitzerisiko reden.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_DE_D08_C01",
+   "text": "Meiner Meinung nach brauchen wir einen Backup-Plan.",
+   "englishReference": "In my opinion, we need a backup plan.",
+   "arabicTranslation": "في رأيي، we need a backup plan.",
+   "pronunciation": "Meiner Meinung nach brauchen wir einen Backup-Plan.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_DE_D08_I01",
+   "text": "Warum denkst du das?",
+   "englishReference": "Why do you think that?",
+   "arabicTranslation": "لماذا تعتقد ذلك؟",
+   "pronunciation": "Warum denkst du das?",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_DE_D08_C02",
+   "text": "Denn das Wetter kann sich schnell ändern.",
+   "englishReference": "Because the weather may change quickly.",
+   "arabicTranslation": "لأن the weather may change quickly.",
+   "pronunciation": "Denn das Wetter kann sich schnell ändern.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_DE_D08_I02",
+   "text": "Was sollen wir zuerst tun?",
+   "englishReference": "What should we do first?",
+   "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+   "pronunciation": "Was sollen wir zuerst tun?",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_DE_D08_C03",
+   "text": "Ich schlage vor, dass wir Wasser für die heißesten Stunden aufsparen.",
+   "englishReference": "I suggest that we should save water for the hottest hours.",
+   "arabicTranslation": "أقترح أن we should save water for the hottest hours.",
+   "pronunciation": "Ich schlage vor, dass wir Wasser für die heißesten Stunden aufsparen.",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_DE_D08_S02",
+   "text": "Das erscheint vernünftig.",
+   "englishReference": "That seems reasonable.",
+   "arabicTranslation": "يبدو ذلك معقولًا.",
+   "pronunciation": "Das erscheint vernünftig.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_DE_D08_S03",
+   "text": "Danke schön. Ich werde es dem Team erklären.",
+   "englishReference": "Thank you. I will explain it to the team.",
+   "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+   "pronunciation": "Danke schön. Ich werde es dem Team erklären.",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "speaker_intent"
+   ],
+   "supportFadePlan": "يعتمد B1 على الحجج لا على الإشارات."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B1_DE_D08_C01",
+     "P_B1_DE_D08_C02",
+     "P_B1_DE_D08_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B1_DE_D08_I01",
+     "P_B1_DE_D08_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B1_DE_D08_C01",
+    "P_B1_DE_D08_C02",
+    "P_B1_DE_D08_C03",
+    "P_B1_DE_D08_I01",
+    "P_B1_DE_D08_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تطلب شخصية من ليث إعادة شرح قرار سابق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B1_D07:COMPLETE"
+  ],
+  "onSuccess": [
+   "HEAT_PLAN:READY",
+   "B1_D09:UNLOCKED"
+  ],
+  "milestone": "b1_milestone_08",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b1_de_d07",
+  "nextLessonId": "story_b1_de_d09",
+  "nextLessonHookArabic": "يتولد تحدٍّ جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B1 8: إذا تغير الطقس."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

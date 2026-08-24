@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 17,
+ "story": {
+  "originalText": "Yassin: Hello, Omar. Is Mr. Ali our teacher?\nOmar: Yes, Mr. Ali is our teacher.\nYassin: He speaks slowly and clearly.\nOmar: Yes, he helps every student.\nYassin: I want to ask the teacher a question.\nOmar: You can ask after class.\nYassin: Does the teacher have a book?\nOmar: Yes, he has a new book for us.\nYassin: I need that book.\nOmar: We can get it tomorrow.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل الأستاذ علي هو معلمنا؟\nOmar: نعم، الأستاذ علي هو معلمنا.\nYassin: هو يتكلم ببطء ووضوح.\nOmar: نعم، هو يساعد كل طالب.\nYassin: أريد أن أسأل المعلم سؤالاً.\nOmar: يمكنك أن تسأل بعد الدرس.\nYassin: هل لدى المعلم كتاب؟\nOmar: نعم، لديه كتاب جديد لنا.\nYassin: أحتاج ذلك الكتاب.\nOmar: يمكننا الحصول عليه غداً.",
+  "nativeScriptText": "Yassin: Hello, Omar. Is Mr. Ali our teacher?\nOmar: Yes, Mr. Ali is our teacher.\nYassin: He speaks slowly and clearly.\nOmar: Yes, he helps every student.\nYassin: I want to ask the teacher a question.\nOmar: You can ask after class.\nYassin: Does the teacher have a book?\nOmar: Yes, he has a new book for us.\nYassin: I need that book.\nOmar: We can get it tomorrow.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 17: أستاذ",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hello, Omar. Is Mr. Ali our teacher?",
+    "translation": "مرحباً يا عمر. هل الأستاذ علي هو معلمنا؟",
+    "pronunciation": "Hello, Omar. Is Mr. Ali our teacher?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, Mr. Ali is our teacher.",
+    "translation": "نعم، الأستاذ علي هو معلمنا.",
+    "pronunciation": "Yes, Mr. Ali is our teacher."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "He speaks slowly and clearly.",
+    "translation": "هو يتكلم ببطء ووضوح.",
+    "pronunciation": "He speaks slowly and clearly."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, he helps every student.",
+    "translation": "نعم، هو يساعد كل طالب.",
+    "pronunciation": "Yes, he helps every student."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I want to ask the teacher a question.",
+    "translation": "أريد أن أسأل المعلم سؤالاً.",
+    "pronunciation": "I want to ask the teacher a question."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "You can ask after class.",
+    "translation": "يمكنك أن تسأل بعد الدرس.",
+    "pronunciation": "You can ask after class."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Does the teacher have a book?",
+    "translation": "هل لدى المعلم كتاب؟",
+    "pronunciation": "Does the teacher have a book?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, he has a new book for us.",
+    "translation": "نعم، لديه كتاب جديد لنا.",
+    "pronunciation": "Yes, he has a new book for us."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I need that book.",
+    "translation": "أحتاج ذلك الكتاب.",
+    "pronunciation": "I need that book."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "We can get it tomorrow.",
+    "translation": "يمكننا الحصول عليه غداً.",
+    "pronunciation": "We can get it tomorrow."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d17",
+   "title": "أستاذ",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 17,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s3_d16"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 25,
+ "story": {
+  "originalText": "Yassin: Omar, guai ga warui desu ka?\nOmar: Hai, kyō wa kibun ga warui desu.\nYassin: Dō shimashita ka?\nOmar: Atama ga itai desu.\nYassin: Mizu wa hitsuyō desu ka?\nOmar: Hai, onegaishimasu. Mizu ga hitsuyō desu.\nYassin: Yasumu hitsuyō ga arimasu.\nOmar: Isha ga hitsuyō kamoshiremasen.\nYassin: Watashitachi no ie no chikaku ni isha ga imasu.\nOmar: Ashita issho ni kite kudasai.",
+  "translatedText": "Yassin: عمر، هل أنت مريض؟\nOmar: نعم، أشعر بالمرض اليوم.\nYassin: ما المشكلة؟\nOmar: لدي صداع.\nYassin: هل تحتاج إلى ماء؟\nOmar: نعم، من فضلك. أحتاج إلى ماء.\nYassin: تحتاج إلى الراحة.\nOmar: أعتقد أنني أحتاج إلى طبيب.\nYassin: يوجد طبيب قرب بيتنا.\nOmar: من فضلك تعال معي غداً.",
+  "nativeScriptText": "Yassin: Omar、具合が悪いですか？\nOmar: はい、今日は気分が悪いです。\nYassin: どうしましたか？\nOmar: 頭が痛いです。\nYassin: 水は必要ですか？\nOmar: はい、お願いします。水が必要です。\nYassin: 休む必要があります。\nOmar: 医者が必要かもしれません。\nYassin: 私たちの家の近くに医者がいます。\nOmar: 明日一緒に来てください。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 25: مريض",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar、具合が悪いですか？",
+    "translation": "عمر، هل أنت مريض؟",
+    "pronunciation": "Omar, guai ga warui desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、今日は気分が悪いです。",
+    "translation": "نعم، أشعر بالمرض اليوم.",
+    "pronunciation": "Hai, kyō wa kibun ga warui desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "どうしましたか？",
+    "translation": "ما المشكلة؟",
+    "pronunciation": "Dō shimashita ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "頭が痛いです。",
+    "translation": "لدي صداع.",
+    "pronunciation": "Atama ga itai desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "水は必要ですか？",
+    "translation": "هل تحتاج إلى ماء؟",
+    "pronunciation": "Mizu wa hitsuyō desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、お願いします。水が必要です。",
+    "translation": "نعم، من فضلك. أحتاج إلى ماء.",
+    "pronunciation": "Hai, onegaishimasu. Mizu ga hitsuyō desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "休む必要があります。",
+    "translation": "تحتاج إلى الراحة.",
+    "pronunciation": "Yasumu hitsuyō ga arimasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "医者が必要かもしれません。",
+    "translation": "أعتقد أنني أحتاج إلى طبيب.",
+    "pronunciation": "Isha ga hitsuyō kamoshiremasen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私たちの家の近くに医者がいます。",
+    "translation": "يوجد طبيب قرب بيتنا.",
+    "pronunciation": "Watashitachi no ie no chikaku ni isha ga imasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "明日一緒に来てください。",
+    "translation": "من فضلك تعال معي غداً.",
+    "pronunciation": "Ashita issho ni kite kudasai."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d25",
+   "title": "مريض",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 25,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s4_d24"
+  ],
+  "createdAt": 1786696446398
+ }
+}

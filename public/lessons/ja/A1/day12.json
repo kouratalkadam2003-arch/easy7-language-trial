@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 12,
+ "story": {
+  "originalText": "Yassin: Ocha ni satō o iremasu ka?\nOmar: Iie, satō wa irimasen.\nYassin: Miruku wa iremasu ka?\nOmar: Iie, kyō wa miruku wa irimasen.\nYassin: Pan o motto hoshii desu ka?\nOmar: Iie, arigatō. Motto wa irimasen.\nYassin: Sore de ii desu. Anata wa erabemasu.\nOmar: Arigatō. Kawari ni mizu ga hoshii desu.\nYassin: Shokuji ni mizu ga hitsuyō desu.\nOmar: Ashita mizu o yōi shimashō.",
+  "translatedText": "Yassin: هل تريد السكر في شايك؟\nOmar: لا، لا أريد السكر.\nYassin: هل تريد الحليب؟\nOmar: لا، لا أريد الحليب اليوم.\nYassin: هل تريد مزيداً من الخبز؟\nOmar: لا، شكراً. لا أريد مزيداً من الخبز.\nYassin: لا بأس. يمكنك الاختيار.\nOmar: شكراً. أريد الماء بدلاً من ذلك.\nYassin: نحتاج إلى الماء للوجبة.\nOmar: لنحضر الماء غداً.",
+  "nativeScriptText": "Yassin: お茶に砂糖を入れますか？\nOmar: いいえ、砂糖はいりません。\nYassin: ミルクは入れますか？\nOmar: いいえ、今日はミルクはいりません。\nYassin: パンをもっと欲しいですか？\nOmar: いいえ、ありがとう。もっとは要りません。\nYassin: それでいいです。あなたは選べます。\nOmar: ありがとう。代わりに水が欲しいです。\nYassin: 食事に水が必要です。\nOmar: 明日水を用意しましょう。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 12: لا أريد",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "お茶に砂糖を入れますか？",
+    "translation": "هل تريد السكر في شايك؟",
+    "pronunciation": "Ocha ni satō o iremasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "いいえ、砂糖はいりません。",
+    "translation": "لا، لا أريد السكر.",
+    "pronunciation": "Iie, satō wa irimasen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "ミルクは入れますか？",
+    "translation": "هل تريد الحليب؟",
+    "pronunciation": "Miruku wa iremasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "いいえ、今日はミルクはいりません。",
+    "translation": "لا، لا أريد الحليب اليوم.",
+    "pronunciation": "Iie, kyō wa miruku wa irimasen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "パンをもっと欲しいですか？",
+    "translation": "هل تريد مزيداً من الخبز؟",
+    "pronunciation": "Pan o motto hoshii desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "いいえ、ありがとう。もっとは要りません。",
+    "translation": "لا، شكراً. لا أريد مزيداً من الخبز.",
+    "pronunciation": "Iie, arigatō. Motto wa irimasen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "それでいいです。あなたは選べます。",
+    "translation": "لا بأس. يمكنك الاختيار.",
+    "pronunciation": "Sore de ii desu. Anata wa erabemasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "ありがとう。代わりに水が欲しいです。",
+    "translation": "شكراً. أريد الماء بدلاً من ذلك.",
+    "pronunciation": "Arigatō. Kawari ni mizu ga hoshii desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "食事に水が必要です。",
+    "translation": "نحتاج إلى الماء للوجبة.",
+    "pronunciation": "Shokuji ni mizu ga hitsuyō desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "明日水を用意しましょう。",
+    "translation": "لنحضر الماء غداً.",
+    "pronunciation": "Ashita mizu o yōi shimashō."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d12",
+   "title": "لا أريد",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 12,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s2_d11"
+  ],
+  "createdAt": 1786696446398
+ }
+}

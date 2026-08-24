@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_it_d16",
+  "languageCode": "it",
+  "languageNameArabic": "الإيطالية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 16,
+  "lessonTitle": "Il progetto del mercato",
+  "englishTitle": "The Market Project",
+  "arabicTitle": "مشروع السوق",
+  "canonicalBeatIds": [
+   "BEAT_A2_D16"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف مشروع وخطوة تالية وموعد نهائي بسيط.",
+  "realLifeTransferArabic": "الحديث عن مشروع عمل.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: مشروع السوق دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "يقترح ليث لوحة لمنتجات القرية كي يعرف الزوار مصدر الطعام.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: مشروع السوق.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: مشروع السوق."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D16_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D16_01",
+     "narrationArabic": "يقترح ليث لوحة لمنتجات القرية كي يعرف الزوار مصدر الطعام."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D16_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف مشروع وخطوة تالية وموعد نهائي بسيط.",
+   "lines": [
+    {
+     "lineId": "L_A2_IT_D16_01",
+     "speakerId": "elly",
+     "targetText": "Buongiorno, Laith. Qual è la tua idea di progetto?",
+     "englishReference": "Good morning, Laith. What is your project idea?",
+     "arabicTranslation": "صباح الخير يا ليث. What is your project idea?",
+     "pronunciation": "Buongiorno, Laith. Qual è la tua idea di progetto?",
+     "phraseIds": [
+      "P_A2_IT_D16_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_IT_D16_02",
+     "speakerId": "laith",
+     "targetText": "Buongiorno. Voglio realizzare un'insegna per i nostri prodotti.",
+     "englishReference": "Good morning. I want to make a sign for our products.",
+     "arabicTranslation": "صباح الخير. I want to make a sign for our products.",
+     "pronunciation": "Buongiorno. Voglio realizzare un'insegna per i nostri prodotti.",
+     "phraseIds": [
+      "P_A2_IT_D16_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D16_03",
+     "speakerId": "elly",
+     "targetText": "Quando possiamo finirlo?",
+     "englishReference": "When can we finish it?",
+     "arabicTranslation": "When can we finish it?",
+     "pronunciation": "Quando possiamo finirlo?",
+     "phraseIds": [
+      "P_A2_IT_D16_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D16_04",
+     "speakerId": "laith",
+     "targetText": "Possiamo finirlo entro venerdì.",
+     "englishReference": "We can finish it by Friday.",
+     "arabicTranslation": "We can finish it by Friday.",
+     "pronunciation": "Possiamo finirlo entro venerdì.",
+     "phraseIds": [
+      "P_A2_IT_D16_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D16_05",
+     "speakerId": "elly",
+     "targetText": "Chi ti aiuterà con la legna?",
+     "englishReference": "Who will help you with the wood?",
+     "arabicTranslation": "Who will help you with the wood?",
+     "pronunciation": "Chi ti aiuterà con la legna?",
+     "phraseIds": [
+      "P_A2_IT_D16_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D16_06",
+     "speakerId": "laith",
+     "targetText": "Gaston ha detto che può aiutarmi.",
+     "englishReference": "Gaston said he can help me.",
+     "arabicTranslation": "Gaston said he can help me.",
+     "pronunciation": "Gaston ha detto che può aiutarmi.",
+     "phraseIds": [
+      "P_A2_IT_D16_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D16_07",
+     "speakerId": "elly",
+     "targetText": "Sembra un buon piano.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "Sembra un buon piano.",
+     "phraseIds": [
+      "P_A2_IT_D16_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_IT_D16_08",
+     "speakerId": "laith",
+     "targetText": "Grazie. Arrivederci.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Grazie. Arrivederci.",
+     "phraseIds": [
+      "P_A2_IT_D16_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D16_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_IT_D16_C01",
+      "P_A2_IT_D16_C02",
+      "P_A2_IT_D16_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_IT_D16_C01",
+      "P_A2_IT_D16_C02",
+      "P_A2_IT_D16_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_IT_D16_I01",
+      "P_A2_IT_D16_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D16_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: الحديث عن مشروع عمل.",
+   "requiredPhraseIds": [
+    "P_A2_IT_D16_C01",
+    "P_A2_IT_D16_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D16_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Il mercato sta cambiando rapidamente in questa stagione.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "Il mercato sta cambiando rapidamente in questa stagione."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "SÌ. Le persone fanno più domande sulle vecchie strade.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "SÌ. Le persone fanno più domande sulle vecchie strade."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D16_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: مشروع السوق.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: مشروع السوق."
+   },
+   "successWorldConsequence": "MARKET_SIGN:STARTED",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_IT_D16_S01",
+   "text": "Buongiorno, Laith. Qual è la tua idea di progetto?",
+   "englishReference": "Good morning, Laith. What is your project idea?",
+   "arabicTranslation": "صباح الخير يا ليث. What is your project idea?",
+   "pronunciation": "Buongiorno, Laith. Qual è la tua idea di progetto?",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن مشروع عمل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_IT_D16_C01",
+   "text": "Buongiorno. Voglio realizzare un'insegna per i nostri prodotti.",
+   "englishReference": "Good morning. I want to make a sign for our products.",
+   "arabicTranslation": "صباح الخير. I want to make a sign for our products.",
+   "pronunciation": "Buongiorno. Voglio realizzare un'insegna per i nostri prodotti.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن مشروع عمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D16_I01",
+   "text": "Quando possiamo finirlo?",
+   "englishReference": "When can we finish it?",
+   "arabicTranslation": "When can we finish it?",
+   "pronunciation": "Quando possiamo finirlo?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن مشروع عمل."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_IT_D16_C02",
+   "text": "Possiamo finirlo entro venerdì.",
+   "englishReference": "We can finish it by Friday.",
+   "arabicTranslation": "We can finish it by Friday.",
+   "pronunciation": "Possiamo finirlo entro venerdì.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن مشروع عمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D16_I02",
+   "text": "Chi ti aiuterà con la legna?",
+   "englishReference": "Who will help you with the wood?",
+   "arabicTranslation": "Who will help you with the wood?",
+   "pronunciation": "Chi ti aiuterà con la legna?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن مشروع عمل."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_IT_D16_C03",
+   "text": "Gaston ha detto che può aiutarmi.",
+   "englishReference": "Gaston said he can help me.",
+   "arabicTranslation": "Gaston said he can help me.",
+   "pronunciation": "Gaston ha detto che può aiutarmi.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن مشروع عمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D16_S02",
+   "text": "Sembra un buon piano.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "Sembra un buon piano.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن مشروع عمل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_IT_D16_S03",
+   "text": "Grazie. Arrivederci.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Grazie. Arrivederci.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن مشروع عمل."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_IT_D16_C01",
+     "P_A2_IT_D16_C02",
+     "P_A2_IT_D16_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_IT_D16_I01",
+     "P_A2_IT_D16_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_IT_D16_C01",
+    "P_A2_IT_D16_C02",
+    "P_A2_IT_D16_C03",
+    "P_A2_IT_D16_I01",
+    "P_A2_IT_D16_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D15:COMPLETE"
+  ],
+  "onSuccess": [
+   "MARKET_SIGN:STARTED",
+   "A2_D17:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_16",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_it_d15",
+  "nextLessonId": "story_a2_it_d17",
+  "nextLessonHookArabic": "يحتاج المشروع إلى لقاء محدد مع غاستون.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 16: مشروع السوق."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

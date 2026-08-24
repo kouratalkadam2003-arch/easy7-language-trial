@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 10,
+ "story": {
+  "originalText": "Yassin: Nǐ hǎo, Omar. Wǒmen yǒu shénme chī de?\nOmar: Wǒmen yǒu miànbāo, mǐfàn, jīdàn hé shuǐguǒ.\nYassin: Wǒ xǐhuān jīdàn hé miànbāo.\nOmar: Wǒ xǐhuān mǐfàn hé jīròu.\nYassin: Wǒmen jīntiān yǒu jīròu ma?\nOmar: Méiyǒu, wǒmen méiyǒu jīròu.\nYassin: Nà wǒmen jiù zuò jīdàn ba.\nOmar: Hǎo zhǔyì. Zhège cài hěn jiǎndān.\nYassin: Wǒ xiǎng yào miànbāo pèi jīdàn.\nOmar: Wǒ xiànzài qù ná.",
+  "translatedText": "Yassin: مرحباً يا عمر. ما الطعام الذي لدينا؟\nOmar: لدينا خبز وأرز وبيض وفاكهة.\nYassin: أنا أحب البيض والخبز.\nOmar: أنا أحب الأرز والدجاج.\nYassin: هل لدينا دجاج اليوم؟\nOmar: لا، ليس لدينا دجاج.\nYassin: إذن لنطبخ البيض.\nOmar: فكرة جيدة. الطعام سهل.\nYassin: أريد خبزاً مع البيض.\nOmar: سأحضره الآن.",
+  "nativeScriptText": "Yassin: 你好，Omar。我们有什么吃的？\nOmar: 我们有面包、米饭、鸡蛋和水果。\nYassin: 我喜欢鸡蛋和面包。\nOmar: 我喜欢米饭和鸡肉。\nYassin: 我们今天有鸡肉吗？\nOmar: 没有，我们没有鸡肉。\nYassin: 那我们就做鸡蛋吧。\nOmar: 好主意。这个菜很简单。\nYassin: 我想要面包配鸡蛋。\nOmar: 我现在去拿。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 10: طعام",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你好，Omar。我们有什么吃的？",
+    "translation": "مرحباً يا عمر. ما الطعام الذي لدينا؟",
+    "pronunciation": "Nǐ hǎo, Omar. Wǒmen yǒu shénme chī de?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我们有面包、米饭、鸡蛋和水果。",
+    "translation": "لدينا خبز وأرز وبيض وفاكهة.",
+    "pronunciation": "Wǒmen yǒu miànbāo, mǐfàn, jīdàn hé shuǐguǒ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我喜欢鸡蛋和面包。",
+    "translation": "أنا أحب البيض والخبز.",
+    "pronunciation": "Wǒ xǐhuān jīdàn hé miànbāo."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我喜欢米饭和鸡肉。",
+    "translation": "أنا أحب الأرز والدجاج.",
+    "pronunciation": "Wǒ xǐhuān mǐfàn hé jīròu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我们今天有鸡肉吗？",
+    "translation": "هل لدينا دجاج اليوم؟",
+    "pronunciation": "Wǒmen jīntiān yǒu jīròu ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "没有，我们没有鸡肉。",
+    "translation": "لا، ليس لدينا دجاج.",
+    "pronunciation": "Méiyǒu, wǒmen méiyǒu jīròu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "那我们就做鸡蛋吧。",
+    "translation": "إذن لنطبخ البيض.",
+    "pronunciation": "Nà wǒmen jiù zuò jīdàn ba."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "好主意。这个菜很简单。",
+    "translation": "فكرة جيدة. الطعام سهل.",
+    "pronunciation": "Hǎo zhǔyì. Zhège cài hěn jiǎndān."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我想要面包配鸡蛋。",
+    "translation": "أريد خبزاً مع البيض.",
+    "pronunciation": "Wǒ xiǎng yào miànbāo pèi jīdàn."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我现在去拿。",
+    "translation": "سأحضره الآن.",
+    "pronunciation": "Wǒ xiànzài qù ná."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d10",
+   "title": "طعام",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 10,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s2_d9"
+  ],
+  "createdAt": 1786696446398
+ }
+}

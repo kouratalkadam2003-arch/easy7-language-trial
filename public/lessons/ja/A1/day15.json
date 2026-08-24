@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 15,
+ "story": {
+  "originalText": "Yassin: Konnichiwa, Omar. Shigoto wa arimasu ka?\nOmar: Hai, watashi wa pāto no shigoto ga arimasu.\nYassin: Doko de hataraite imasu ka?\nOmar: Chīsana mise de hataraite imasu.\nYassin: Shigoto wa suki desu ka?\nOmar: Hai, hitobito wa shinsetsu desu.\nYassin: Itsuka watashi mo shigoto ga hoshii desu.\nOmar: Mazu, anata wa gakusei desu.\nYassin: Hai, maiasa benkyō shite imasu.\nOmar: Yoku benkyō shite kudasai. Dewa mata ashita.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل لديك عمل؟\nOmar: نعم، لدي عمل بدوام جزئي.\nYassin: أين تعمل؟\nOmar: أعمل في متجر صغير.\nYassin: هل تحب عملك؟\nOmar: نعم، الناس لطفاء.\nYassin: أريد عملاً يوماً ما.\nOmar: أولاً، أنت طالب.\nYassin: نعم، أدرس كل صباح.\nOmar: ادرس جيداً. أراك غداً.",
+  "nativeScriptText": "Yassin: こんにちは、Omar。仕事はありますか？\nOmar: はい、私はパートの仕事があります。\nYassin: どこで働いていますか？\nOmar: 小さな店で働いています。\nYassin: 仕事は好きですか？\nOmar: はい、人々は親切です。\nYassin: いつか私も仕事が欲しいです。\nOmar: まず、あなたは学生です。\nYassin: はい、毎朝勉強しています。\nOmar: よく勉強してください。ではまた明日。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 15: عمل",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "こんにちは、Omar。仕事はありますか？",
+    "translation": "مرحباً يا عمر. هل لديك عمل؟",
+    "pronunciation": "Konnichiwa, Omar. Shigoto wa arimasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、私はパートの仕事があります。",
+    "translation": "نعم، لدي عمل بدوام جزئي.",
+    "pronunciation": "Hai, watashi wa pāto no shigoto ga arimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "どこで働いていますか？",
+    "translation": "أين تعمل؟",
+    "pronunciation": "Doko de hataraite imasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "小さな店で働いています。",
+    "translation": "أعمل في متجر صغير.",
+    "pronunciation": "Chīsana mise de hataraite imasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "仕事は好きですか？",
+    "translation": "هل تحب عملك؟",
+    "pronunciation": "Shigoto wa suki desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、人々は親切です。",
+    "translation": "نعم، الناس لطفاء.",
+    "pronunciation": "Hai, hitobito wa shinsetsu desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "いつか私も仕事が欲しいです。",
+    "translation": "أريد عملاً يوماً ما.",
+    "pronunciation": "Itsuka watashi mo shigoto ga hoshii desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "まず、あなたは学生です。",
+    "translation": "أولاً، أنت طالب.",
+    "pronunciation": "Mazu, anata wa gakusei desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "はい、毎朝勉強しています。",
+    "translation": "نعم، أدرس كل صباح.",
+    "pronunciation": "Hai, maiasa benkyō shite imasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "よく勉強してください。ではまた明日。",
+    "translation": "ادرس جيداً. أراك غداً.",
+    "pronunciation": "Yoku benkyō shite kudasai. Dewa mata ashita."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d15",
+   "title": "عمل",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 15,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s2_d14"
+  ],
+  "createdAt": 1786696446398
+ }
+}

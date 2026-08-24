@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "B1",
+ "dayNumber": 20,
+ "story": {
+  "originalText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: À mon avis, le thème « Résolution des conflits » est important dans nos décisions quotidiennes.\nOmar: Je suis d’accord, car nos choix touchent plus de personnes que nous ne l’imaginons.\nYassin: Je pense que le thème « Résolution des conflits » peut façonner à la fois la confiance et les possibilités.\nOmar: C’est une raison pratique et facile à comprendre.\nYassin: Peux-tu donner un exemple concret ?\nOmar: Oui, un exemple concret peut rendre cette idée plus claire.\nYassin: Merci d’avoir expliqué ton opinion avec tant de calme.\nOmar: Au revoir pour le moment. Demain, nous parlerons du thème « Révision des leçons 15 à 20 ».",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: في رأيي، موضوع حل النزاع مهم في قراراتنا اليومية.\nOmar: أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.\nYassin: وسببي هو أن موضوع حل النزاع يمكن أن يشكل الثقة والفرص معًا.\nOmar: هذا سبب عملي، ومن السهل فهمه.\nYassin: هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟\nOmar: نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.\nYassin: شكرًا لأنك شرحت رأيك بهدوء.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Review 15-20.",
+  "nativeScriptText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: À mon avis, le thème « Résolution des conflits » est important dans nos décisions quotidiennes.\nOmar: Je suis d’accord, car nos choix touchent plus de personnes que nous ne l’imaginons.\nYassin: Je pense que le thème « Résolution des conflits » peut façonner à la fois la confiance et les possibilités.\nOmar: C’est une raison pratique et facile à comprendre.\nYassin: Peux-tu donner un exemple concret ?\nOmar: Oui, un exemple concret peut rendre cette idée plus claire.\nYassin: Merci d’avoir expliqué ton opinion avec tant de calme.\nOmar: Au revoir pour le moment. Demain, nous parlerons du thème « Révision des leçons 15 à 20 ».",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 20: حل النزاع",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Bonjour, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "À mon avis, le thème « Résolution des conflits » est important dans nos décisions quotidiennes.",
+    "translation": "في رأيي، موضوع حل النزاع مهم في قراراتنا اليومية.",
+    "pronunciation": "À mon avis, le thème « Résolution des conflits » est important dans nos décisions quotidiennes."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je suis d’accord, car nos choix touchent plus de personnes que nous ne l’imaginons.",
+    "translation": "أوافق لأن اختياراتنا تؤثر في أشخاص أكثر مما نتوقع.",
+    "pronunciation": "Je suis d’accord, car nos choix touchent plus de personnes que nous ne l’imaginons."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Je pense que le thème « Résolution des conflits » peut façonner à la fois la confiance et les possibilités.",
+    "translation": "وسببي هو أن موضوع حل النزاع يمكن أن يشكل الثقة والفرص معًا.",
+    "pronunciation": "Je pense que le thème « Résolution des conflits » peut façonner à la fois la confiance et les possibilités."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "C’est une raison pratique et facile à comprendre.",
+    "translation": "هذا سبب عملي، ومن السهل فهمه.",
+    "pronunciation": "C’est une raison pratique et facile à comprendre."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Peux-tu donner un exemple concret ?",
+    "translation": "هل تستطيع أن تعطي مثالًا من الحياة الواقعية؟",
+    "pronunciation": "Peux-tu donner un exemple concret ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, un exemple concret peut rendre cette idée plus claire.",
+    "translation": "نعم، يمكن لمثال واقعي واحد أن يجعل الفكرة أوضح.",
+    "pronunciation": "Oui, un exemple concret peut rendre cette idée plus claire."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Merci d’avoir expliqué ton opinion avec tant de calme.",
+    "translation": "شكرًا لأنك شرحت رأيك بهدوء.",
+    "pronunciation": "Merci d’avoir expliqué ton opinion avec tant de calme."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Au revoir pour le moment. Demain, nous parlerons du thème « Révision des leçons 15 à 20 ».",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Review 15-20.",
+    "pronunciation": "Au revoir pour le moment. Demain, nous parlerons du thème « Révision des leçons 15 à 20 »."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d20",
+   "title": "حل النزاع",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 20,
+  "level": "B1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s3_d19"
+  ],
+  "createdAt": 1786705141011
+ }
+}

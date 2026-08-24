@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 13,
+ "story": {
+  "originalText": "Yassin: Bonjour, Omar. J'ai soif.\nOmar: Allons au petit café.\nYassin: Je voudrais une bouteille d'eau, s'il te plaît.\nOmar: Je voudrais un café, s'il te plaît.\nYassin: Tu bois du café tous les jours ?\nOmar: Non, seulement le matin.\nYassin: L'eau me convient aujourd'hui.\nOmar: Voici ton eau.\nYassin: Merci. L'eau est froide.\nOmar: Demain nous réviserons les mots de la maison.",
+  "translatedText": "Yassin: صباح الخير يا عمر. أنا عطشان.\nOmar: لنذهب إلى المقهى الصغير.\nYassin: أريد زجاجة ماء، من فضلك.\nOmar: أريد قهوة، من فضلك.\nYassin: هل تشرب القهوة كل يوم؟\nOmar: لا، فقط في الصباح.\nYassin: الماء جيد لي اليوم.\nOmar: هذا ماؤك.\nYassin: شكراً. الماء بارد.\nOmar: غداً سنراجع كلمات البيت.",
+  "nativeScriptText": "Yassin: Bonjour, Omar. J'ai soif.\nOmar: Allons au petit café.\nYassin: Je voudrais une bouteille d'eau, s'il te plaît.\nOmar: Je voudrais un café, s'il te plaît.\nYassin: Tu bois du café tous les jours ?\nOmar: Non, seulement le matin.\nYassin: L'eau me convient aujourd'hui.\nOmar: Voici ton eau.\nYassin: Merci. L'eau est froide.\nOmar: Demain nous réviserons les mots de la maison.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 13: ماء / قهوة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour, Omar. J'ai soif.",
+    "translation": "صباح الخير يا عمر. أنا عطشان.",
+    "pronunciation": "Bonjour, Omar. J'ai soif."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Allons au petit café.",
+    "translation": "لنذهب إلى المقهى الصغير.",
+    "pronunciation": "Allons au petit café."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Je voudrais une bouteille d'eau, s'il te plaît.",
+    "translation": "أريد زجاجة ماء، من فضلك.",
+    "pronunciation": "Je voudrais une bouteille d'eau, s'il te plaît."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je voudrais un café, s'il te plaît.",
+    "translation": "أريد قهوة، من فضلك.",
+    "pronunciation": "Je voudrais un café, s'il te plaît."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Tu bois du café tous les jours ?",
+    "translation": "هل تشرب القهوة كل يوم؟",
+    "pronunciation": "Tu bois du café tous les jours ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Non, seulement le matin.",
+    "translation": "لا، فقط في الصباح.",
+    "pronunciation": "Non, seulement le matin."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "L'eau me convient aujourd'hui.",
+    "translation": "الماء جيد لي اليوم.",
+    "pronunciation": "L'eau me convient aujourd'hui."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Voici ton eau.",
+    "translation": "هذا ماؤك.",
+    "pronunciation": "Voici ton eau."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Merci. L'eau est froide.",
+    "translation": "شكراً. الماء بارد.",
+    "pronunciation": "Merci. L'eau est froide."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Demain nous réviserons les mots de la maison.",
+    "translation": "غداً سنراجع كلمات البيت.",
+    "pronunciation": "Demain nous réviserons les mots de la maison."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d13",
+   "title": "ماء / قهوة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 13,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s2_d12"
+  ],
+  "createdAt": 1786696446398
+ }
+}

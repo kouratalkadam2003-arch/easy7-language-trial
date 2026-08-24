@@ -1,0 +1,34 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Production build
+dist
+build
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Netlify CLI local state (contains a machine-specific absolute publish path)
+.netlify/
+
+# Claude Code local settings (contains secret tokens — must NOT be pushed to GitHub)
+.claude/
+build.log
+HOW-TO-RUN.md
+
+.vercel
+.codex/
+.kilo/
+*.bat

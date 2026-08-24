@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A2",
+ "dayNumber": 22,
+ "story": {
+  "originalText": "Yassin: Buongiorno, Omar.\nOmar: Buongiorno, Yassin. Sono felice che possiamo continuare la nostra conversazione.\nYassin: Ieri ho riflettuto sul tema «Ho viaggiato» e ho imparato qualcosa di utile.\nOmar: Capisco. Oggi possiamo parlarne con chiarezza.\nYassin: La mia esperienza con il tema «Ho viaggiato» ha cambiato il mio piano per domani.\nOmar: È sensato, perché piccoli cambiamenti possono aiutarci ogni giorno.\nYassin: Vuoi condividere un esempio?\nOmar: Sì, posso condividere un esempio sincero di questa settimana.\nYassin: Grazie. Ricorderò la tua idea.\nOmar: Arrivederci per ora. Domani parleremo del tema «Hotel».",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: فكرت أمس في موضوع سافرت، وتعلمت شيئًا مفيدًا.\nOmar: أفهم ذلك، ويمكننا اليوم أن نتحدث عنه بوضوح.\nYassin: غيرت تجربتي مع موضوع سافرت خطتي للغد.\nOmar: هذا منطقي لأن التغييرات الصغيرة يمكن أن تساعدنا كل يوم.\nYassin: هل تريد أن تشارك مثالًا واحدًا؟\nOmar: نعم، أستطيع أن أشارك مثالًا صادقًا من هذا الأسبوع.\nYassin: شكرًا لك، وسأتذكر فكرتك.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Hotel.",
+  "nativeScriptText": "Yassin: Buongiorno, Omar.\nOmar: Buongiorno, Yassin. Sono felice che possiamo continuare la nostra conversazione.\nYassin: Ieri ho riflettuto sul tema «Ho viaggiato» e ho imparato qualcosa di utile.\nOmar: Capisco. Oggi possiamo parlarne con chiarezza.\nYassin: La mia esperienza con il tema «Ho viaggiato» ha cambiato il mio piano per domani.\nOmar: È sensato, perché piccoli cambiamenti possono aiutarci ogni giorno.\nYassin: Vuoi condividere un esempio?\nOmar: Sì, posso condividere un esempio sincero di questa settimana.\nYassin: Grazie. Ricorderò la tua idea.\nOmar: Arrivederci per ora. Domani parleremo del tema «Hotel».",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 22: سافرت",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buongiorno, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Buongiorno, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Buongiorno, Yassin. Sono felice che possiamo continuare la nostra conversazione.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Buongiorno, Yassin. Sono felice che possiamo continuare la nostra conversazione."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ieri ho riflettuto sul tema «Ho viaggiato» e ho imparato qualcosa di utile.",
+    "translation": "فكرت أمس في موضوع سافرت، وتعلمت شيئًا مفيدًا.",
+    "pronunciation": "Ieri ho riflettuto sul tema «Ho viaggiato» e ho imparato qualcosa di utile."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Capisco. Oggi possiamo parlarne con chiarezza.",
+    "translation": "أفهم ذلك، ويمكننا اليوم أن نتحدث عنه بوضوح.",
+    "pronunciation": "Capisco. Oggi possiamo parlarne con chiarezza."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "La mia esperienza con il tema «Ho viaggiato» ha cambiato il mio piano per domani.",
+    "translation": "غيرت تجربتي مع موضوع سافرت خطتي للغد.",
+    "pronunciation": "La mia esperienza con il tema «Ho viaggiato» ha cambiato il mio piano per domani."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "È sensato, perché piccoli cambiamenti possono aiutarci ogni giorno.",
+    "translation": "هذا منطقي لأن التغييرات الصغيرة يمكن أن تساعدنا كل يوم.",
+    "pronunciation": "È sensato, perché piccoli cambiamenti possono aiutarci ogni giorno."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Vuoi condividere un esempio?",
+    "translation": "هل تريد أن تشارك مثالًا واحدًا؟",
+    "pronunciation": "Vuoi condividere un esempio?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, posso condividere un esempio sincero di questa settimana.",
+    "translation": "نعم، أستطيع أن أشارك مثالًا صادقًا من هذا الأسبوع.",
+    "pronunciation": "Sì, posso condividere un esempio sincero di questa settimana."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Grazie. Ricorderò la tua idea.",
+    "translation": "شكرًا لك، وسأتذكر فكرتك.",
+    "pronunciation": "Grazie. Ricorderò la tua idea."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Arrivederci per ora. Domani parleremo del tema «Hotel».",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Hotel.",
+    "pronunciation": "Arrivederci per ora. Domani parleremo del tema «Hotel»."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d22",
+   "title": "سافرت",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 22,
+  "level": "A2",
+  "languageCode": "it",
+  "previousTopics": [
+   "s3_d21"
+  ],
+  "createdAt": 1786705141011
+ }
+}

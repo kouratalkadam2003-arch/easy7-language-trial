@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 21,
+ "story": {
+  "originalText": "Yassin: Are you a student or a teacher?\nOmar: I am a student.\nYassin: Where does the teacher work?\nOmar: The teacher works at the institute.\nYassin: Where is your book?\nOmar: My book is on the desk.\nYassin: What day is our class on?\nOmar: The class is on Wednesday.\nYassin: Excellent. You are ready for work and school.\nOmar: Thank you. I am hungry now.",
+  "translatedText": "Yassin: هل أنت طالب أم معلم؟\nOmar: أنا طالب.\nYassin: أين يعمل المعلم؟\nOmar: المعلم يعمل في المعهد.\nYassin: أين كتابك؟\nOmar: كتابي على المكتب.\nYassin: في أي يوم يكون درسنا؟\nOmar: الدرس يوم الأربعاء.\nYassin: ممتاز. أنت مستعد للعمل والمدرسة.\nOmar: شكراً. أنا جائع الآن.",
+  "nativeScriptText": "Yassin: Are you a student or a teacher?\nOmar: I am a student.\nYassin: Where does the teacher work?\nOmar: The teacher works at the institute.\nYassin: Where is your book?\nOmar: My book is on the desk.\nYassin: What day is our class on?\nOmar: The class is on Wednesday.\nYassin: Excellent. You are ready for work and school.\nOmar: Thank you. I am hungry now.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 21: مراجعة شاملة (15-20)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Are you a student or a teacher?",
+    "translation": "هل أنت طالب أم معلم؟",
+    "pronunciation": "Are you a student or a teacher?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I am a student.",
+    "translation": "أنا طالب.",
+    "pronunciation": "I am a student."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Where does the teacher work?",
+    "translation": "أين يعمل المعلم؟",
+    "pronunciation": "Where does the teacher work?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The teacher works at the institute.",
+    "translation": "المعلم يعمل في المعهد.",
+    "pronunciation": "The teacher works at the institute."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Where is your book?",
+    "translation": "أين كتابك؟",
+    "pronunciation": "Where is your book?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "My book is on the desk.",
+    "translation": "كتابي على المكتب.",
+    "pronunciation": "My book is on the desk."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "What day is our class on?",
+    "translation": "في أي يوم يكون درسنا؟",
+    "pronunciation": "What day is our class on?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The class is on Wednesday.",
+    "translation": "الدرس يوم الأربعاء.",
+    "pronunciation": "The class is on Wednesday."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Excellent. You are ready for work and school.",
+    "translation": "ممتاز. أنت مستعد للعمل والمدرسة.",
+    "pronunciation": "Excellent. You are ready for work and school."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Thank you. I am hungry now.",
+    "translation": "شكراً. أنا جائع الآن.",
+    "pronunciation": "Thank you. I am hungry now."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d21",
+   "title": "مراجعة شاملة (15-20)",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 21,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s3_d20"
+  ],
+  "createdAt": 1786696446398
+ }
+}

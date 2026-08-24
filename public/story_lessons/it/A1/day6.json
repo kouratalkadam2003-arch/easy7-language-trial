@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_it_d06",
+  "languageCode": "it",
+  "languageNameArabic": "الإيطالية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 6,
+  "lessonTitle": "Come ti senti oggi?",
+  "englishTitle": "How Do You Feel Today?",
+  "arabicTitle": "كيف تشعر اليوم؟",
+  "canonicalBeatIds": [
+   "BEAT_A1_D06"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "السؤال عن الحال والرد بتنوع بسيط.",
+  "realLifeTransferArabic": "إجراء حديث اجتماعي قصير مع صديق أو جار.",
+  "successCapabilityArabic": "اسأل شخصًا عن حاله ثم أعط جوابك واطرح سؤالًا عائدًا."
+ },
+ "story": {
+  "storyContextArabic": "يتجول ليث قليلًا وحده في ساحة القرية ويلتقي إلياس مرة أخرى.",
+  "storyMissionArabic": "يثبت أنه يستطيع التفاعل من دون أن تتحدث إيلي نيابة عنه.",
+  "setting": "cabin_and_village",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: كيف تشعر اليوم؟."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D06_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D06_01",
+     "narrationArabic": "يتجول ليث قليلًا وحده في ساحة القرية ويلتقي إلياس مرة أخرى."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D06_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "السؤال عن الحال والرد بتنوع بسيط.",
+   "lines": [
+    {
+     "lineId": "L_A1_IT_D06_01",
+     "speakerId": "elias",
+     "targetText": "Ciao, Lait. Come stai oggi?",
+     "englishReference": "Hello, Laith. How are you today?",
+     "arabicTranslation": "مرحبًا يا ليث. كيف حالك اليوم؟",
+     "pronunciation": "Ciao, Lait. Come stai oggi?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D06_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_IT_D06_02",
+     "speakerId": "laith",
+     "targetText": "Oggi sto meglio, grazie.",
+     "englishReference": "I am better today, thank you.",
+     "arabicTranslation": "أنا أفضل اليوم، شكرًا لك.",
+     "pronunciation": "Oggi sto meglio, grazie.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D06_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_IT_D06_03",
+     "speakerId": "elias",
+     "targetText": "È buono. Siete stanchi?",
+     "englishReference": "That is good. Are you tired?",
+     "arabicTranslation": "هذا جيد. هل أنت متعب؟",
+     "pronunciation": "È buono. Siete stanchi?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D06_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_IT_D06_04",
+     "speakerId": "laith",
+     "targetText": "Un po' stanco, ma felice.",
+     "englishReference": "A little tired, but happy.",
+     "arabicTranslation": "متعب قليلًا، لكنني سعيد.",
+     "pronunciation": "Un po' stanco, ma felice.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D06_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_IT_D06_05",
+     "speakerId": "elias",
+     "targetText": "Sono felice di sentirlo.",
+     "englishReference": "I am glad to hear that.",
+     "arabicTranslation": "يسعدني سماع ذلك.",
+     "pronunciation": "Sono felice di sentirlo.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D06_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_IT_D06_06",
+     "speakerId": "laith",
+     "targetText": "E tu come stai, Elia?",
+     "englishReference": "And how are you, Elias?",
+     "arabicTranslation": "وكيف حالك أنت يا إلياس؟",
+     "pronunciation": "E tu come stai, Elia?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D06_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_IT_D06_07",
+     "speakerId": "elias",
+     "targetText": "Io sto bene, grazie.",
+     "englishReference": "I am fine, thank you.",
+     "arabicTranslation": "أنا بخير، شكرًا لك.",
+     "pronunciation": "Io sto bene, grazie.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D06_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_IT_D06_08",
+     "speakerId": "laith",
+     "targetText": "Addio, Elia. Ci vediamo domani.",
+     "englishReference": "Goodbye, Elias. See you tomorrow.",
+     "arabicTranslation": "وداعًا يا إلياس. أراك غدًا.",
+     "pronunciation": "Addio, Elia. Ci vediamo domani.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_IT_D06_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D06_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_IT_D06_C01",
+      "P_A1_IT_D06_C02",
+      "P_A1_IT_D06_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_IT_D06_C01",
+      "P_A1_IT_D06_C02",
+      "P_A1_IT_D06_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_IT_D06_I01",
+      "P_A1_IT_D06_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D06_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: إجراء حديث اجتماعي قصير مع صديق أو جار.",
+   "requiredPhraseIds": [
+    "P_A1_IT_D06_C01",
+    "P_A1_IT_D06_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D06_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Ho sentito che Laith mi ha aiutato oggi.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "Ho sentito che Laith mi ha aiutato oggi."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Il villaggio comincia a conoscerlo.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "Il villaggio comincia a conoscerlo."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D06_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: كيف تشعر اليوم؟.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "اسأل شخصًا عن حاله ثم أعط جوابك واطرح سؤالًا عائدًا."
+   },
+   "successWorldConsequence": "A1_DAY_06:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_IT_D06_S01",
+   "text": "Ciao, Lait. Come stai oggi?",
+   "englishReference": "Hello, Laith. How are you today?",
+   "arabicTranslation": "مرحبًا يا ليث. كيف حالك اليوم؟",
+   "pronunciation": "Ciao, Lait. Come stai oggi?",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D06_LEARNING",
+   "transferContexts": [
+    "إجراء حديث اجتماعي قصير مع صديق أو جار."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_IT_D06_I01",
+   "text": "Oggi sto meglio, grazie.",
+   "englishReference": "I am better today, thank you.",
+   "arabicTranslation": "أنا أفضل اليوم، شكرًا لك.",
+   "pronunciation": "Oggi sto meglio, grazie.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D06_LEARNING",
+   "transferContexts": [
+    "إجراء حديث اجتماعي قصير مع صديق أو جار."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_IT_D06_C01",
+   "text": "È buono. Siete stanchi?",
+   "englishReference": "That is good. Are you tired?",
+   "arabicTranslation": "هذا جيد. هل أنت متعب؟",
+   "pronunciation": "È buono. Siete stanchi?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D06_LEARNING",
+   "transferContexts": [
+    "إجراء حديث اجتماعي قصير مع صديق أو جار."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_IT_D06_S02",
+   "text": "Un po' stanco, ma felice.",
+   "englishReference": "A little tired, but happy.",
+   "arabicTranslation": "متعب قليلًا، لكنني سعيد.",
+   "pronunciation": "Un po' stanco, ma felice.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D06_LEARNING",
+   "transferContexts": [
+    "إجراء حديث اجتماعي قصير مع صديق أو جار."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_IT_D06_C02",
+   "text": "Sono felice di sentirlo.",
+   "englishReference": "I am glad to hear that.",
+   "arabicTranslation": "يسعدني سماع ذلك.",
+   "pronunciation": "Sono felice di sentirlo.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D06_LEARNING",
+   "transferContexts": [
+    "إجراء حديث اجتماعي قصير مع صديق أو جار."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_IT_D06_C03",
+   "text": "E tu come stai, Elia?",
+   "englishReference": "And how are you, Elias?",
+   "arabicTranslation": "وكيف حالك أنت يا إلياس؟",
+   "pronunciation": "E tu come stai, Elia?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D06_LEARNING",
+   "transferContexts": [
+    "إجراء حديث اجتماعي قصير مع صديق أو جار."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_IT_D06_S03",
+   "text": "Io sto bene, grazie.",
+   "englishReference": "I am fine, thank you.",
+   "arabicTranslation": "أنا بخير، شكرًا لك.",
+   "pronunciation": "Io sto bene, grazie.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D06_LEARNING",
+   "transferContexts": [
+    "إجراء حديث اجتماعي قصير مع صديق أو جار."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_IT_D06_I02",
+   "text": "Addio, Elia. Ci vediamo domani.",
+   "englishReference": "Goodbye, Elias. See you tomorrow.",
+   "arabicTranslation": "وداعًا يا إلياس. أراك غدًا.",
+   "pronunciation": "Addio, Elia. Ci vediamo domani.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D06_LEARNING",
+   "transferContexts": [
+    "إجراء حديث اجتماعي قصير مع صديق أو جار."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_IT_D06_C01",
+     "P_A1_IT_D06_C02",
+     "P_A1_IT_D06_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_IT_D06_C01",
+     "P_A1_IT_D06_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_IT_D06_C01",
+    "P_A1_IT_D06_C02",
+    "P_A1_IT_D06_C03",
+    "P_A1_IT_D06_I01",
+    "P_A1_IT_D06_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D05:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_06:COMPLETE",
+   "A1_D07:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_06",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_it_d05",
+  "nextLessonId": "story_a1_it_d07",
+  "nextLessonHookArabic": "غدًا: أول أسبوع.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 6: كيف تشعر اليوم؟."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

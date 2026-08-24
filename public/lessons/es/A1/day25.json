@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 25,
+ "story": {
+  "originalText": "Yassin: Omar, ¿estás enfermo?\nOmar: Sí, me siento enfermo hoy.\nYassin: ¿Qué te pasa?\nOmar: Tengo dolor de cabeza.\nYassin: ¿Necesitas agua?\nOmar: Sí, por favor. Necesito agua.\nYassin: Necesitas descansar.\nOmar: Creo que necesito un médico.\nYassin: Hay un médico cerca de nuestra casa.\nOmar: Por favor, ven conmigo mañana.",
+  "translatedText": "Yassin: عمر، هل أنت مريض؟\nOmar: نعم، أشعر بالمرض اليوم.\nYassin: ما المشكلة؟\nOmar: لدي صداع.\nYassin: هل تحتاج إلى ماء؟\nOmar: نعم، من فضلك. أحتاج إلى ماء.\nYassin: تحتاج إلى الراحة.\nOmar: أعتقد أنني أحتاج إلى طبيب.\nYassin: يوجد طبيب قرب بيتنا.\nOmar: من فضلك تعال معي غداً.",
+  "nativeScriptText": "Yassin: Omar, ¿estás enfermo?\nOmar: Sí, me siento enfermo hoy.\nYassin: ¿Qué te pasa?\nOmar: Tengo dolor de cabeza.\nYassin: ¿Necesitas agua?\nOmar: Sí, por favor. Necesito agua.\nYassin: Necesitas descansar.\nOmar: Creo que necesito un médico.\nYassin: Hay un médico cerca de nuestra casa.\nOmar: Por favor, ven conmigo mañana.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 25: مريض",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar, ¿estás enfermo?",
+    "translation": "عمر، هل أنت مريض؟",
+    "pronunciation": "Omar, ¿estás enfermo?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, me siento enfermo hoy.",
+    "translation": "نعم، أشعر بالمرض اليوم.",
+    "pronunciation": "Sí, me siento enfermo hoy."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Qué te pasa?",
+    "translation": "ما المشكلة؟",
+    "pronunciation": "¿Qué te pasa?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Tengo dolor de cabeza.",
+    "translation": "لدي صداع.",
+    "pronunciation": "Tengo dolor de cabeza."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Necesitas agua?",
+    "translation": "هل تحتاج إلى ماء؟",
+    "pronunciation": "¿Necesitas agua?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, por favor. Necesito agua.",
+    "translation": "نعم، من فضلك. أحتاج إلى ماء.",
+    "pronunciation": "Sí, por favor. Necesito agua."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Necesitas descansar.",
+    "translation": "تحتاج إلى الراحة.",
+    "pronunciation": "Necesitas descansar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Creo que necesito un médico.",
+    "translation": "أعتقد أنني أحتاج إلى طبيب.",
+    "pronunciation": "Creo que necesito un médico."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hay un médico cerca de nuestra casa.",
+    "translation": "يوجد طبيب قرب بيتنا.",
+    "pronunciation": "Hay un médico cerca de nuestra casa."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Por favor, ven conmigo mañana.",
+    "translation": "من فضلك تعال معي غداً.",
+    "pronunciation": "Por favor, ven conmigo mañana."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d25",
+   "title": "مريض",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 25,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s4_d24"
+  ],
+  "createdAt": 1786696446398
+ }
+}

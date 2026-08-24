@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "C1",
+ "dayNumber": 6,
+ "story": {
+  "originalText": "Yassin: zǎo shàng hǎo, ào mǎ ěr.\nOmar: zǎo shàng hǎo, yà xīn. hěn gāo xìng wǒ men néng jì xù tǎo lùn.\nYassin: dāng wǒ men tǎo lùn tǐ yù hé wài jiāo zhè ge zhǔ tí shí, yīng dāng qū fēn shì shí hé jiǎ shè.\nOmar: wǒ tóng yì, yīn wèi xì zhì de fēn xī jiē shì le jiǎn dān dá àn de jú xiàn.\nYassin: wǒ de jiě shì shì, tǐ yù hé wài jiāo zhè ge zhǔ tí qǔ jué yú yǔ jìng yǔ yán hé quán lì.\nOmar: zhè zhǒng jiě shì hěn yǒu shuō fú lì, jǐn guǎn lìng yī zhǒng guān diǎn kě néng huì zhì yí tā.\nYassin: wǒ men zěn yàng cái néng jiě shì zì jǐ de tuī lǐ ér bù hū shì duì rén de yǐng xiǎng.\nOmar: wǒ men kě yǐ qīng chǔ dì chén shù zhèng jù, bìng chéng rèn réng rán bù què dìng de dì fāng.\nYassin: xiè xiè, yīn wèi zhè shǐ wǒ men de fēn xī gèng fù zé rèn.\nOmar: zàn shí zài jiàn. míng tiān wǒ men jiāng tǎo lùn dì yī zhì dì liù kè fù xí zhè ge zhǔ tí.",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: عندما نناقش موضوع رياضة ودبلوماسية، ينبغي أن نميز بين الحقائق والافتراضات.\nOmar: أوافق، لأن التحليل الدقيق يكشف حدود الإجابات البسيطة.\nYassin: تفسيري هو أن موضوع رياضة ودبلوماسية يعتمد على السياق واللغة والقوة.\nOmar: هذا التفسير مقنع، مع أن منظورًا آخر قد يتحداه.\nYassin: كيف يمكننا أن نشرح استدلالنا من دون تجاهل النتائج الإنسانية؟\nOmar: يمكننا أن نعرض أدلتنا بوضوح وأن نقر بما يبقى غير مؤكد.\nYassin: شكرًا، لأن ذلك يجعل تحليلنا أكثر مسؤولية.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Review 1-6.",
+  "nativeScriptText": "Yassin: 早上好，奥马尔。\nOmar: 早上好，亚辛。很高兴我们能继续讨论。\nYassin: 当我们讨论“体育和外交”这个主题时，应当区分事实和假设。\nOmar: 我同意，因为细致的分析揭示了简单答案的局限。\nYassin: 我的解释是，“体育和外交”这个主题取决于语境、语言和权力。\nOmar: 这种解释很有说服力，尽管另一种观点可能会质疑它。\nYassin: 我们怎样才能解释自己的推理而不忽视对人的影响？\nOmar: 我们可以清楚地陈述证据，并承认仍然不确定的地方。\nYassin: 谢谢，因为这使我们的分析更负责任。\nOmar: 暂时再见。明天我们将讨论“第一至第六课复习”这个主题。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 6: رياضة ودبلوماسية",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "早上好，奥马尔。",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "zǎo shàng hǎo, ào mǎ ěr."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "早上好，亚辛。很高兴我们能继续讨论。",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "zǎo shàng hǎo, yà xīn. hěn gāo xìng wǒ men néng jì xù tǎo lùn."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "当我们讨论“体育和外交”这个主题时，应当区分事实和假设。",
+    "translation": "عندما نناقش موضوع رياضة ودبلوماسية، ينبغي أن نميز بين الحقائق والافتراضات.",
+    "pronunciation": "dāng wǒ men tǎo lùn tǐ yù hé wài jiāo zhè ge zhǔ tí shí, yīng dāng qū fēn shì shí hé jiǎ shè."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我同意，因为细致的分析揭示了简单答案的局限。",
+    "translation": "أوافق، لأن التحليل الدقيق يكشف حدود الإجابات البسيطة.",
+    "pronunciation": "wǒ tóng yì, yīn wèi xì zhì de fēn xī jiē shì le jiǎn dān dá àn de jú xiàn."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我的解释是，“体育和外交”这个主题取决于语境、语言和权力。",
+    "translation": "تفسيري هو أن موضوع رياضة ودبلوماسية يعتمد على السياق واللغة والقوة.",
+    "pronunciation": "wǒ de jiě shì shì, tǐ yù hé wài jiāo zhè ge zhǔ tí qǔ jué yú yǔ jìng yǔ yán hé quán lì."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "这种解释很有说服力，尽管另一种观点可能会质疑它。",
+    "translation": "هذا التفسير مقنع، مع أن منظورًا آخر قد يتحداه.",
+    "pronunciation": "zhè zhǒng jiě shì hěn yǒu shuō fú lì, jǐn guǎn lìng yī zhǒng guān diǎn kě néng huì zhì yí tā."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我们怎样才能解释自己的推理而不忽视对人的影响？",
+    "translation": "كيف يمكننا أن نشرح استدلالنا من دون تجاهل النتائج الإنسانية؟",
+    "pronunciation": "wǒ men zěn yàng cái néng jiě shì zì jǐ de tuī lǐ ér bù hū shì duì rén de yǐng xiǎng."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我们可以清楚地陈述证据，并承认仍然不确定的地方。",
+    "translation": "يمكننا أن نعرض أدلتنا بوضوح وأن نقر بما يبقى غير مؤكد.",
+    "pronunciation": "wǒ men kě yǐ qīng chǔ dì chén shù zhèng jù, bìng chéng rèn réng rán bù què dìng de dì fāng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "谢谢，因为这使我们的分析更负责任。",
+    "translation": "شكرًا، لأن ذلك يجعل تحليلنا أكثر مسؤولية.",
+    "pronunciation": "xiè xiè, yīn wèi zhè shǐ wǒ men de fēn xī gèng fù zé rèn."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "暂时再见。明天我们将讨论“第一至第六课复习”这个主题。",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Review 1-6.",
+    "pronunciation": "zàn shí zài jiàn. míng tiān wǒ men jiāng tǎo lùn dì yī zhì dì liù kè fù xí zhè ge zhǔ tí."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d6",
+   "title": "رياضة ودبلوماسية",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 6,
+  "level": "C1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s1_d5"
+  ],
+  "createdAt": 1786705141011
+ }
+}

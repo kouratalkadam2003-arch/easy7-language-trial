@@ -1,0 +1,119 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 1,
+ "story": {
+  "originalText": "Yassin: Nǐ hǎo, wǒ jiào Yassin.\nOmar: Nǐ hǎo, Yassin. Wǒ jiào Omar.\nYassin: Hěn gāoxìng jiàn dào nǐ, Omar.\nOmar: Wǒ yě hěn gāoxìng jiàn dào nǐ.\nYassin: Zhè shì wǒmen de xīn fángjiān ma?\nOmar: Shì de, zhè shì wǒmen de fángjiān.\nYassin: Wǒ gāng lái zhèlǐ.\nOmar: Huānyíng lái dào zhège jiā, Yassin.\nYassin: Xièxie nǐ, Omar.\nOmar: Míngtiān jiàn, wǒ de péngyǒu.",
+  "translatedText": "Yassin: مرحباً، اسمي ياسين.\nOmar: مرحباً يا ياسين. اسمي عمر.\nYassin: سعيد بلقائك يا عمر.\nOmar: سعيد بلقائك أيضاً.\nYassin: هل هذه غرفتنا الجديدة؟\nOmar: نعم، هذه غرفتنا.\nYassin: أنا جديد هنا.\nOmar: أهلاً بك في البيت يا ياسين.\nYassin: شكراً يا عمر.\nOmar: أراك غداً يا صديقي.",
+  "nativeScriptText": "Yassin: 你好，我叫 Yassin。\nOmar: 你好，Yassin。我叫 Omar。\nYassin: 很高兴见到你，Omar。\nOmar: 我也很高兴见到你。\nYassin: 这是我们的新房间吗？\nOmar: 是的，这是我们的房间。\nYassin: 我刚来这里。\nOmar: 欢迎来到这个家，Yassin。\nYassin: 谢谢你，Omar。\nOmar: 明天见，我的朋友。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 1: اسمي",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你好，我叫 Yassin。",
+    "translation": "مرحباً، اسمي ياسين.",
+    "pronunciation": "Nǐ hǎo, wǒ jiào Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "你好，Yassin。我叫 Omar。",
+    "translation": "مرحباً يا ياسين. اسمي عمر.",
+    "pronunciation": "Nǐ hǎo, Yassin. Wǒ jiào Omar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "很高兴见到你，Omar。",
+    "translation": "سعيد بلقائك يا عمر.",
+    "pronunciation": "Hěn gāoxìng jiàn dào nǐ, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我也很高兴见到你。",
+    "translation": "سعيد بلقائك أيضاً.",
+    "pronunciation": "Wǒ yě hěn gāoxìng jiàn dào nǐ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "这是我们的新房间吗？",
+    "translation": "هل هذه غرفتنا الجديدة؟",
+    "pronunciation": "Zhè shì wǒmen de xīn fángjiān ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，这是我们的房间。",
+    "translation": "نعم، هذه غرفتنا.",
+    "pronunciation": "Shì de, zhè shì wǒmen de fángjiān."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我刚来这里。",
+    "translation": "أنا جديد هنا.",
+    "pronunciation": "Wǒ gāng lái zhèlǐ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "欢迎来到这个家，Yassin。",
+    "translation": "أهلاً بك في البيت يا ياسين.",
+    "pronunciation": "Huānyíng lái dào zhège jiā, Yassin."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "谢谢你，Omar。",
+    "translation": "شكراً يا عمر.",
+    "pronunciation": "Xièxie nǐ, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "明天见，我的朋友。",
+    "translation": "أراك غداً يا صديقي.",
+    "pronunciation": "Míngtiān jiàn, wǒ de péngyǒu."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d1",
+   "title": "اسمي",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 1,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [],
+  "createdAt": 1786696446398
+ }
+}

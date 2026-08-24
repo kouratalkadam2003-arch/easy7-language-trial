@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 28,
+ "story": {
+  "originalText": "Yassin: Hai fame?\nOmar: Sì, ho fame.\nYassin: Quanto costa il pasto?\nOmar: Il pasto costa dieci dollari.\nYassin: Posso avere il conto, per favore?\nOmar: Sì, ecco il conto.\nYassin: Sei malato adesso?\nOmar: No, mi sento meglio dopo il dottore.\nYassin: Posso aiutarti in qualcosa?\nOmar: No, grazie. Ora sto bene.",
+  "translatedText": "Yassin: هل أنت جائع؟\nOmar: نعم، أنا جائع.\nYassin: كم ثمن الوجبة؟\nOmar: الوجبة بعشرة دولارات.\nYassin: هل يمكنني الحصول على الفاتورة، من فضلك؟\nOmar: نعم، هذه هي الفاتورة.\nYassin: هل أنت مريض الآن؟\nOmar: لا، أشعر بتحسن بعد زيارة الطبيب.\nYassin: هل يمكنني مساعدتك في شيء؟\nOmar: لا، شكراً. أنا بخير الآن.",
+  "nativeScriptText": "Yassin: Hai fame?\nOmar: Sì, ho fame.\nYassin: Quanto costa il pasto?\nOmar: Il pasto costa dieci dollari.\nYassin: Posso avere il conto, per favore?\nOmar: Sì, ecco il conto.\nYassin: Sei malato adesso?\nOmar: No, mi sento meglio dopo il dottore.\nYassin: Posso aiutarti in qualcosa?\nOmar: No, grazie. Ora sto bene.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 28: مراجعة شاملة (22-27)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hai fame?",
+    "translation": "هل أنت جائع؟",
+    "pronunciation": "Hai fame?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, ho fame.",
+    "translation": "نعم، أنا جائع.",
+    "pronunciation": "Sì, ho fame."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Quanto costa il pasto?",
+    "translation": "كم ثمن الوجبة؟",
+    "pronunciation": "Quanto costa il pasto?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Il pasto costa dieci dollari.",
+    "translation": "الوجبة بعشرة دولارات.",
+    "pronunciation": "Il pasto costa dieci dollari."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Posso avere il conto, per favore?",
+    "translation": "هل يمكنني الحصول على الفاتورة، من فضلك؟",
+    "pronunciation": "Posso avere il conto, per favore?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, ecco il conto.",
+    "translation": "نعم، هذه هي الفاتورة.",
+    "pronunciation": "Sì, ecco il conto."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Sei malato adesso?",
+    "translation": "هل أنت مريض الآن؟",
+    "pronunciation": "Sei malato adesso?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, mi sento meglio dopo il dottore.",
+    "translation": "لا، أشعر بتحسن بعد زيارة الطبيب.",
+    "pronunciation": "No, mi sento meglio dopo il dottore."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Posso aiutarti in qualcosa?",
+    "translation": "هل يمكنني مساعدتك في شيء؟",
+    "pronunciation": "Posso aiutarti in qualcosa?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No, grazie. Ora sto bene.",
+    "translation": "لا، شكراً. أنا بخير الآن.",
+    "pronunciation": "No, grazie. Ora sto bene."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d28",
+   "title": "مراجعة شاملة (22-27)",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 28,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s4_d27"
+  ],
+  "createdAt": 1786696446398
+ }
+}

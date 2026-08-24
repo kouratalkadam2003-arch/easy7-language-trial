@@ -1,0 +1,119 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 1,
+ "story": {
+  "originalText": "Yassin: Hola, me llamo Yassin.\nOmar: Hola, Yassin. Me llamo Omar.\nYassin: Mucho gusto, Omar.\nOmar: Igualmente, mucho gusto.\nYassin: ¿Es esta nuestra habitación nueva?\nOmar: Sí, esta es nuestra habitación.\nYassin: Soy nuevo aquí.\nOmar: Bienvenido a la casa, Yassin.\nYassin: Gracias, Omar.\nOmar: Hasta mañana, mi amigo.",
+  "translatedText": "Yassin: مرحباً، اسمي ياسين.\nOmar: مرحباً يا ياسين. اسمي عمر.\nYassin: سعيد بلقائك يا عمر.\nOmar: سعيد بلقائك أيضاً.\nYassin: هل هذه غرفتنا الجديدة؟\nOmar: نعم، هذه غرفتنا.\nYassin: أنا جديد هنا.\nOmar: أهلاً بك في البيت يا ياسين.\nYassin: شكراً يا عمر.\nOmar: أراك غداً يا صديقي.",
+  "nativeScriptText": "Yassin: Hola, me llamo Yassin.\nOmar: Hola, Yassin. Me llamo Omar.\nYassin: Mucho gusto, Omar.\nOmar: Igualmente, mucho gusto.\nYassin: ¿Es esta nuestra habitación nueva?\nOmar: Sí, esta es nuestra habitación.\nYassin: Soy nuevo aquí.\nOmar: Bienvenido a la casa, Yassin.\nYassin: Gracias, Omar.\nOmar: Hasta mañana, mi amigo.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 1: اسمي",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hola, me llamo Yassin.",
+    "translation": "مرحباً، اسمي ياسين.",
+    "pronunciation": "Hola, me llamo Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hola, Yassin. Me llamo Omar.",
+    "translation": "مرحباً يا ياسين. اسمي عمر.",
+    "pronunciation": "Hola, Yassin. Me llamo Omar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Mucho gusto, Omar.",
+    "translation": "سعيد بلقائك يا عمر.",
+    "pronunciation": "Mucho gusto, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Igualmente, mucho gusto.",
+    "translation": "سعيد بلقائك أيضاً.",
+    "pronunciation": "Igualmente, mucho gusto."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Es esta nuestra habitación nueva?",
+    "translation": "هل هذه غرفتنا الجديدة؟",
+    "pronunciation": "¿Es esta nuestra habitación nueva?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, esta es nuestra habitación.",
+    "translation": "نعم، هذه غرفتنا.",
+    "pronunciation": "Sí, esta es nuestra habitación."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Soy nuevo aquí.",
+    "translation": "أنا جديد هنا.",
+    "pronunciation": "Soy nuevo aquí."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bienvenido a la casa, Yassin.",
+    "translation": "أهلاً بك في البيت يا ياسين.",
+    "pronunciation": "Bienvenido a la casa, Yassin."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Gracias, Omar.",
+    "translation": "شكراً يا عمر.",
+    "pronunciation": "Gracias, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hasta mañana, mi amigo.",
+    "translation": "أراك غداً يا صديقي.",
+    "pronunciation": "Hasta mañana, mi amigo."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d1",
+   "title": "اسمي",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 1,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [],
+  "createdAt": 1786696446398
+ }
+}

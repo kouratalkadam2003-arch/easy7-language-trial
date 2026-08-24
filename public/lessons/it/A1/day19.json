@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 19,
+ "story": {
+  "originalText": "Yassin: Ciao, Omar. Questo è l'ufficio?\nOmar: Sì, questo è l'ufficio dell'istituto.\nYassin: La scrivania è grande.\nOmar: L'insegnante si siede a quella scrivania.\nYassin: Posso mettere il mio libro qui?\nOmar: Sì, mettilo sulla scrivania.\nYassin: L'ufficio è tranquillo.\nOmar: Veniamo qui dopo la lezione.\nYassin: In che giorno è la nostra prossima lezione?\nOmar: Lascia che ti mostri i giorni.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل هذا هو المكتب؟\nOmar: نعم، هذا مكتب المعهد.\nYassin: المكتب كبير.\nOmar: المعلم يجلس عند ذلك المكتب.\nYassin: هل يمكنني وضع كتابي هنا؟\nOmar: نعم، ضعه على المكتب.\nYassin: المكتب هادئ.\nOmar: نأتي إلى هنا بعد الدرس.\nYassin: في أي يوم يكون درسنا القادم؟\nOmar: دعني أريك الأيام.",
+  "nativeScriptText": "Yassin: Ciao, Omar. Questo è l'ufficio?\nOmar: Sì, questo è l'ufficio dell'istituto.\nYassin: La scrivania è grande.\nOmar: L'insegnante si siede a quella scrivania.\nYassin: Posso mettere il mio libro qui?\nOmar: Sì, mettilo sulla scrivania.\nYassin: L'ufficio è tranquillo.\nOmar: Veniamo qui dopo la lezione.\nYassin: In che giorno è la nostra prossima lezione?\nOmar: Lascia che ti mostri i giorni.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 19: مكتب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ciao, Omar. Questo è l'ufficio?",
+    "translation": "مرحباً يا عمر. هل هذا هو المكتب؟",
+    "pronunciation": "Ciao, Omar. Questo è l'ufficio?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, questo è l'ufficio dell'istituto.",
+    "translation": "نعم، هذا مكتب المعهد.",
+    "pronunciation": "Sì, questo è l'ufficio dell'istituto."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "La scrivania è grande.",
+    "translation": "المكتب كبير.",
+    "pronunciation": "La scrivania è grande."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "L'insegnante si siede a quella scrivania.",
+    "translation": "المعلم يجلس عند ذلك المكتب.",
+    "pronunciation": "L'insegnante si siede a quella scrivania."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Posso mettere il mio libro qui?",
+    "translation": "هل يمكنني وضع كتابي هنا؟",
+    "pronunciation": "Posso mettere il mio libro qui?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, mettilo sulla scrivania.",
+    "translation": "نعم، ضعه على المكتب.",
+    "pronunciation": "Sì, mettilo sulla scrivania."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "L'ufficio è tranquillo.",
+    "translation": "المكتب هادئ.",
+    "pronunciation": "L'ufficio è tranquillo."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Veniamo qui dopo la lezione.",
+    "translation": "نأتي إلى هنا بعد الدرس.",
+    "pronunciation": "Veniamo qui dopo la lezione."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "In che giorno è la nostra prossima lezione?",
+    "translation": "في أي يوم يكون درسنا القادم؟",
+    "pronunciation": "In che giorno è la nostra prossima lezione?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Lascia che ti mostri i giorni.",
+    "translation": "دعني أريك الأيام.",
+    "pronunciation": "Lascia che ti mostri i giorni."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d19",
+   "title": "مكتب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 19,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s3_d18"
+  ],
+  "createdAt": 1786696446398
+ }
+}

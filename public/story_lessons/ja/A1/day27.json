@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_ja_d27",
+  "languageCode": "ja",
+  "languageNameArabic": "اليابانية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 27,
+  "lessonTitle": "責任の共有",
+  "englishTitle": "A Shared Responsibility",
+  "arabicTitle": "أول مسؤولية مشتركة",
+  "canonicalBeatIds": [
+   "BEAT_A1_D27"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "الترحيب بمساعد وشرح مهمة قصيرة.",
+  "realLifeTransferArabic": "تقديم تعليمات لمتعاون جديد.",
+  "successCapabilityArabic": "قدّم نفسك، رحّب بمساعد جديد، واشرح مهمة واحدة."
+ },
+ "story": {
+  "storyContextArabic": "تنضم نور، جارة من القرية، إلى يوم الغرس.",
+  "storyMissionArabic": "يتعلم ليث أن يكون واضحًا ولطيفًا مع من يساعده.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: أول مسؤولية مشتركة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D27_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D27_01",
+     "narrationArabic": "تنضم نور، جارة من القرية، إلى يوم الغرس."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D27_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "الترحيب بمساعد وشرح مهمة قصيرة.",
+   "lines": [
+    {
+     "lineId": "L_A1_JA_D27_01",
+     "speakerId": "noor",
+     "targetText": "こんにちは。私の名前はヌールです。",
+     "englishReference": "Hello. My name is Noor.",
+     "arabicTranslation": "مرحبًا. اسمي نور.",
+     "pronunciation": "konnichiha . watashi no namae ha nuuru desu .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D27_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_JA_D27_02",
+     "speakerId": "laith",
+     "targetText": "こんにちは、ヌールさん。私の名前はレイスです。",
+     "englishReference": "Hello, Noor. My name is Laith.",
+     "arabicTranslation": "مرحبًا يا نور. اسمي ليث.",
+     "pronunciation": "konnichiha , nuuru san . watashi no namae ha raisu desu .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D27_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_JA_D27_03",
+     "speakerId": "noor",
+     "targetText": "はじめまして。どうすれば助けられますか?",
+     "englishReference": "Nice to meet you. How can I help?",
+     "arabicTranslation": "سعيدة بلقائك. كيف يمكنني المساعدة؟",
+     "pronunciation": "hajimemashite . dousureba tasuke raremasuka ?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D27_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_JA_D27_04",
+     "speakerId": "laith",
+     "targetText": "これらの種を地面に植えてください。",
+     "englishReference": "Please put these seeds in the ground.",
+     "arabicTranslation": "من فضلك ضعي هذه البذور في الأرض.",
+     "pronunciation": "korerano tane wo jimen ni ue tekudasai .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D27_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_JA_D27_05",
+     "speakerId": "noor",
+     "targetText": "それぞれの場所に種子は何個ありますか?",
+     "englishReference": "How many seeds in each place?",
+     "arabicTranslation": "كم بذرة في كل مكان؟",
+     "pronunciation": "sorezoreno basho ni shushi ha nanko arimasuka ?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D27_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_JA_D27_06",
+     "speakerId": "laith",
+     "targetText": "種は２つあれば十分です。",
+     "englishReference": "Two seeds are enough.",
+     "arabicTranslation": "بذرتان تكفيان.",
+     "pronunciation": "tane ha 2 tsuareba juubun desu .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D27_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_JA_D27_07",
+     "speakerId": "noor",
+     "targetText": "よし。それはできます。",
+     "englishReference": "All right. I can do that.",
+     "arabicTranslation": "حسنًا. أستطيع فعل ذلك.",
+     "pronunciation": "yoshi . sorehadekimasu .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D27_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_JA_D27_08",
+     "speakerId": "laith",
+     "targetText": "ありがとう、ヌール。また明日ね。",
+     "englishReference": "Thank you, Noor. See you tomorrow.",
+     "arabicTranslation": "شكرًا يا نور. أراك غدًا.",
+     "pronunciation": "arigatou , nuuru . mata ashita ne .",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_JA_D27_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D27_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_JA_D27_C01",
+      "P_A1_JA_D27_C02",
+      "P_A1_JA_D27_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_JA_D27_C01",
+      "P_A1_JA_D27_C02",
+      "P_A1_JA_D27_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_JA_D27_I01",
+      "P_A1_JA_D27_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D27_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: تقديم تعليمات لمتعاون جديد.",
+   "requiredPhraseIds": [
+    "P_A1_JA_D27_C01",
+    "P_A1_JA_D27_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D27_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "今日はレイスが手伝ってくれたと聞いた。",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "konnichiha raisu ga tetsudatsu tekuretato kii ta ."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "村は彼のことを知り始めています。",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "mura ha kano kotowo shiri hajime teimasu ."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D27_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: أول مسؤولية مشتركة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "قدّم نفسك، رحّب بمساعد جديد، واشرح مهمة واحدة."
+   },
+   "successWorldConsequence": "A1_DAY_27:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_JA_D27_S01",
+   "text": "こんにちは。私の名前はヌールです。",
+   "englishReference": "Hello. My name is Noor.",
+   "arabicTranslation": "مرحبًا. اسمي نور.",
+   "pronunciation": "konnichiha . watashi no namae ha nuuru desu .",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D27_LEARNING",
+   "transferContexts": [
+    "تقديم تعليمات لمتعاون جديد."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_JA_D27_I01",
+   "text": "こんにちは、ヌールさん。私の名前はレイスです。",
+   "englishReference": "Hello, Noor. My name is Laith.",
+   "arabicTranslation": "مرحبًا يا نور. اسمي ليث.",
+   "pronunciation": "konnichiha , nuuru san . watashi no namae ha raisu desu .",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D27_LEARNING",
+   "transferContexts": [
+    "تقديم تعليمات لمتعاون جديد."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_JA_D27_C01",
+   "text": "はじめまして。どうすれば助けられますか?",
+   "englishReference": "Nice to meet you. How can I help?",
+   "arabicTranslation": "سعيدة بلقائك. كيف يمكنني المساعدة؟",
+   "pronunciation": "hajimemashite . dousureba tasuke raremasuka ?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D27_LEARNING",
+   "transferContexts": [
+    "تقديم تعليمات لمتعاون جديد."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_JA_D27_S02",
+   "text": "これらの種を地面に植えてください。",
+   "englishReference": "Please put these seeds in the ground.",
+   "arabicTranslation": "من فضلك ضعي هذه البذور في الأرض.",
+   "pronunciation": "korerano tane wo jimen ni ue tekudasai .",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D27_LEARNING",
+   "transferContexts": [
+    "تقديم تعليمات لمتعاون جديد."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_JA_D27_C02",
+   "text": "それぞれの場所に種子は何個ありますか?",
+   "englishReference": "How many seeds in each place?",
+   "arabicTranslation": "كم بذرة في كل مكان؟",
+   "pronunciation": "sorezoreno basho ni shushi ha nanko arimasuka ?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D27_LEARNING",
+   "transferContexts": [
+    "تقديم تعليمات لمتعاون جديد."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_JA_D27_C03",
+   "text": "種は２つあれば十分です。",
+   "englishReference": "Two seeds are enough.",
+   "arabicTranslation": "بذرتان تكفيان.",
+   "pronunciation": "tane ha 2 tsuareba juubun desu .",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D27_LEARNING",
+   "transferContexts": [
+    "تقديم تعليمات لمتعاون جديد."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_JA_D27_S03",
+   "text": "よし。それはできます。",
+   "englishReference": "All right. I can do that.",
+   "arabicTranslation": "حسنًا. أستطيع فعل ذلك.",
+   "pronunciation": "yoshi . sorehadekimasu .",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D27_LEARNING",
+   "transferContexts": [
+    "تقديم تعليمات لمتعاون جديد."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_JA_D27_I02",
+   "text": "ありがとう、ヌール。また明日ね。",
+   "englishReference": "Thank you, Noor. See you tomorrow.",
+   "arabicTranslation": "شكرًا يا نور. أراك غدًا.",
+   "pronunciation": "arigatou , nuuru . mata ashita ne .",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D27_LEARNING",
+   "transferContexts": [
+    "تقديم تعليمات لمتعاون جديد."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_JA_D27_C01",
+     "P_A1_JA_D27_C02",
+     "P_A1_JA_D27_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_JA_D27_C01",
+     "P_A1_JA_D27_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_JA_D27_C01",
+    "P_A1_JA_D27_C02",
+    "P_A1_JA_D27_C03",
+    "P_A1_JA_D27_I01",
+    "P_A1_JA_D27_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D26:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_27:COMPLETE",
+   "A1_D28:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_27",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_ja_d26",
+  "nextLessonId": "story_a1_ja_d28",
+  "nextLessonHookArabic": "غدًا: ما بنيناه معًا.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 27: أول مسؤولية مشتركة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

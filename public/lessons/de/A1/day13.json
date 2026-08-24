@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 13,
+ "story": {
+  "originalText": "Yassin: Guten Morgen, Omar. Ich habe Durst.\nOmar: Lass uns ins kleine Café gehen.\nYassin: Ich möchte eine Flasche Wasser, bitte.\nOmar: Ich möchte einen Kaffee, bitte.\nYassin: Trinkst du jeden Tag Kaffee?\nOmar: Nein, nur morgens.\nYassin: Wasser ist heute gut für mich.\nOmar: Hier ist dein Wasser.\nYassin: Danke. Das Wasser ist kalt.\nOmar: Morgen wiederholen wir die Wörter zum Thema Zuhause.",
+  "translatedText": "Yassin: صباح الخير يا عمر. أنا عطشان.\nOmar: لنذهب إلى المقهى الصغير.\nYassin: أريد زجاجة ماء، من فضلك.\nOmar: أريد قهوة، من فضلك.\nYassin: هل تشرب القهوة كل يوم؟\nOmar: لا، فقط في الصباح.\nYassin: الماء جيد لي اليوم.\nOmar: هذا ماؤك.\nYassin: شكراً. الماء بارد.\nOmar: غداً سنراجع كلمات البيت.",
+  "nativeScriptText": "Yassin: Guten Morgen, Omar. Ich habe Durst.\nOmar: Lass uns ins kleine Café gehen.\nYassin: Ich möchte eine Flasche Wasser, bitte.\nOmar: Ich möchte einen Kaffee, bitte.\nYassin: Trinkst du jeden Tag Kaffee?\nOmar: Nein, nur morgens.\nYassin: Wasser ist heute gut für mich.\nOmar: Hier ist dein Wasser.\nYassin: Danke. Das Wasser ist kalt.\nOmar: Morgen wiederholen wir die Wörter zum Thema Zuhause.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 13: ماء / قهوة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Guten Morgen, Omar. Ich habe Durst.",
+    "translation": "صباح الخير يا عمر. أنا عطشان.",
+    "pronunciation": "Guten Morgen, Omar. Ich habe Durst."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Lass uns ins kleine Café gehen.",
+    "translation": "لنذهب إلى المقهى الصغير.",
+    "pronunciation": "Lass uns ins kleine Café gehen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich möchte eine Flasche Wasser, bitte.",
+    "translation": "أريد زجاجة ماء، من فضلك.",
+    "pronunciation": "Ich möchte eine Flasche Wasser, bitte."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich möchte einen Kaffee, bitte.",
+    "translation": "أريد قهوة، من فضلك.",
+    "pronunciation": "Ich möchte einen Kaffee, bitte."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Trinkst du jeden Tag Kaffee?",
+    "translation": "هل تشرب القهوة كل يوم؟",
+    "pronunciation": "Trinkst du jeden Tag Kaffee?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Nein, nur morgens.",
+    "translation": "لا، فقط في الصباح.",
+    "pronunciation": "Nein, nur morgens."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wasser ist heute gut für mich.",
+    "translation": "الماء جيد لي اليوم.",
+    "pronunciation": "Wasser ist heute gut für mich."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hier ist dein Wasser.",
+    "translation": "هذا ماؤك.",
+    "pronunciation": "Hier ist dein Wasser."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Danke. Das Wasser ist kalt.",
+    "translation": "شكراً. الماء بارد.",
+    "pronunciation": "Danke. Das Wasser ist kalt."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Morgen wiederholen wir die Wörter zum Thema Zuhause.",
+    "translation": "غداً سنراجع كلمات البيت.",
+    "pronunciation": "Morgen wiederholen wir die Wörter zum Thema Zuhause."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d13",
+   "title": "ماء / قهوة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 13,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s2_d12"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_zh_d15",
+  "languageCode": "zh",
+  "languageNameArabic": "الصينية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 15,
+  "lessonTitle": "一位新同事",
+  "englishTitle": "A New Colleague",
+  "arabicTitle": "زميل جديد",
+  "canonicalBeatIds": [
+   "BEAT_A2_D15"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التعريف بزميل ووصف دور في فريق.",
+  "realLifeTransferArabic": "الحديث عن زميل في العمل.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: زميل جديد دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "تنضم نور إلى تنظيم الأكشاك، ويحتاج ليث إلى شرح كيف يعمل الفريق.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: زميل جديد.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "noor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: زميل جديد."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D15_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D15_01",
+     "narrationArabic": "تنضم نور إلى تنظيم الأكشاك، ويحتاج ليث إلى شرح كيف يعمل الفريق."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D15_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التعريف بزميل ووصف دور في فريق.",
+   "lines": [
+    {
+     "lineId": "L_A2_ZH_D15_01",
+     "speakerId": "noor",
+     "targetText": "早上好，莱斯。我是市场团队的新手。",
+     "englishReference": "Good morning, Laith. I am new to the market team.",
+     "arabicTranslation": "صباح الخير يا ليث. I am new to the market team.",
+     "pronunciation": "zǎo shàng hǎo, lái sī. wǒ shì shì chǎng tuán duì de xīn shǒu.",
+     "phraseIds": [
+      "P_A2_ZH_D15_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ZH_D15_02",
+     "speakerId": "laith",
+     "targetText": "早上好。欢迎。我们每天早上都一起工作。",
+     "englishReference": "Good morning. Welcome. We work together every morning.",
+     "arabicTranslation": "صباح الخير. Welcome. We work together every morning.",
+     "pronunciation": "zǎo shàng hǎo. huān yíng. wǒ men měi tiān zǎo shàng dōu yì qǐ gōng zuò.",
+     "phraseIds": [
+      "P_A2_ZH_D15_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D15_03",
+     "speakerId": "noor",
+     "targetText": "我今天的工作是什么？",
+     "englishReference": "What is my job today?",
+     "arabicTranslation": "What is my job today?",
+     "pronunciation": "wǒ jīn tiān de gōng zuò shì shén me.",
+     "phraseIds": [
+      "P_A2_ZH_D15_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D15_04",
+     "speakerId": "laith",
+     "targetText": "您可以按颜色排列蔬菜。",
+     "englishReference": "You can arrange the vegetables by color.",
+     "arabicTranslation": "You can arrange the vegetables by color.",
+     "pronunciation": "nín kě yǐ àn yán sè pái liè shū cài.",
+     "phraseIds": [
+      "P_A2_ZH_D15_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D15_05",
+     "speakerId": "noor",
+     "targetText": "谁检查价格？",
+     "englishReference": "Who checks the prices?",
+     "arabicTranslation": "Who checks the prices?",
+     "pronunciation": "shuí jiǎn chá jià gé.",
+     "phraseIds": [
+      "P_A2_ZH_D15_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D15_06",
+     "speakerId": "laith",
+     "targetText": "文森特通常会检查它们。",
+     "englishReference": "Vincent usually checks them.",
+     "arabicTranslation": "Vincent usually checks them.",
+     "pronunciation": "wén sēn tè tōng cháng huì jiǎn chá tā men.",
+     "phraseIds": [
+      "P_A2_ZH_D15_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ZH_D15_07",
+     "speakerId": "noor",
+     "targetText": "这听起来是个好计划。",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "zhè tīng qǐ lái shì gè hǎo jì huà.",
+     "phraseIds": [
+      "P_A2_ZH_D15_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ZH_D15_08",
+     "speakerId": "laith",
+     "targetText": "谢谢。稍后见。",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "xiè xiè. shāo hòu jiàn.",
+     "phraseIds": [
+      "P_A2_ZH_D15_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D15_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_ZH_D15_C01",
+      "P_A2_ZH_D15_C02",
+      "P_A2_ZH_D15_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_ZH_D15_C01",
+      "P_A2_ZH_D15_C02",
+      "P_A2_ZH_D15_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_ZH_D15_I01",
+      "P_A2_ZH_D15_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D15_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: الحديث عن زميل في العمل.",
+   "requiredPhraseIds": [
+    "P_A2_ZH_D15_C01",
+    "P_A2_ZH_D15_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D15_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "本季市场变化很快。",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "běn jì shì chǎng biàn huà hěn kuài."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "是的。人们对古老道路提出了更多问题。",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "shì de. rén men duì gǔ lǎo dào lù tí chū le gèng duō wèn tí."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D15_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: زميل جديد.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: زميل جديد."
+   },
+   "successWorldConsequence": "TEAM_MEMBER_NOOR:UNLOCKED",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_ZH_D15_S01",
+   "text": "早上好，莱斯。我是市场团队的新手。",
+   "englishReference": "Good morning, Laith. I am new to the market team.",
+   "arabicTranslation": "صباح الخير يا ليث. I am new to the market team.",
+   "pronunciation": "zǎo shàng hǎo, lái sī. wǒ shì shì chǎng tuán duì de xīn shǒu.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن زميل في العمل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ZH_D15_C01",
+   "text": "早上好。欢迎。我们每天早上都一起工作。",
+   "englishReference": "Good morning. Welcome. We work together every morning.",
+   "arabicTranslation": "صباح الخير. Welcome. We work together every morning.",
+   "pronunciation": "zǎo shàng hǎo. huān yíng. wǒ men měi tiān zǎo shàng dōu yì qǐ gōng zuò.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن زميل في العمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ZH_D15_I01",
+   "text": "我今天的工作是什么？",
+   "englishReference": "What is my job today?",
+   "arabicTranslation": "What is my job today?",
+   "pronunciation": "wǒ jīn tiān de gōng zuò shì shén me.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن زميل في العمل."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ZH_D15_C02",
+   "text": "您可以按颜色排列蔬菜。",
+   "englishReference": "You can arrange the vegetables by color.",
+   "arabicTranslation": "You can arrange the vegetables by color.",
+   "pronunciation": "nín kě yǐ àn yán sè pái liè shū cài.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن زميل في العمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ZH_D15_I02",
+   "text": "谁检查价格？",
+   "englishReference": "Who checks the prices?",
+   "arabicTranslation": "Who checks the prices?",
+   "pronunciation": "shuí jiǎn chá jià gé.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن زميل في العمل."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ZH_D15_C03",
+   "text": "文森特通常会检查它们。",
+   "englishReference": "Vincent usually checks them.",
+   "arabicTranslation": "Vincent usually checks them.",
+   "pronunciation": "wén sēn tè tōng cháng huì jiǎn chá tā men.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن زميل في العمل."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ZH_D15_S02",
+   "text": "这听起来是个好计划。",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "zhè tīng qǐ lái shì gè hǎo jì huà.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن زميل في العمل."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ZH_D15_S03",
+   "text": "谢谢。稍后见。",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "xiè xiè. shāo hòu jiàn.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن زميل في العمل."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_ZH_D15_C01",
+     "P_A2_ZH_D15_C02",
+     "P_A2_ZH_D15_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_ZH_D15_I01",
+     "P_A2_ZH_D15_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_ZH_D15_C01",
+    "P_A2_ZH_D15_C02",
+    "P_A2_ZH_D15_C03",
+    "P_A2_ZH_D15_I01",
+    "P_A2_ZH_D15_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D14:COMPLETE"
+  ],
+  "onSuccess": [
+   "TEAM_MEMBER_NOOR:UNLOCKED",
+   "A2_D16:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_15",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_zh_d14",
+  "nextLessonId": "story_a2_zh_d16",
+  "nextLessonHookArabic": "يبدأ الفريق مشروعًا أكثر طموحًا.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 15: زميل جديد."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

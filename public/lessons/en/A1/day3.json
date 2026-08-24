@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 3,
+ "story": {
+  "originalText": "Yassin: Hello again, Omar.\nOmar: Hello, Yassin. How old are you?\nYassin: I am twenty years old.\nOmar: I am twenty-one years old.\nYassin: We are almost the same age.\nOmar: Yes, we can study together.\nYassin: That is a good idea.\nOmar: The class starts tomorrow.\nYassin: I am happy and ready.\nOmar: Good night, Yassin.",
+  "translatedText": "Yassin: مرحباً من جديد يا عمر.\nOmar: مرحباً يا ياسين. كم عمرك؟\nYassin: عمري عشرون سنة.\nOmar: عمري واحد وعشرون سنة.\nYassin: نحن في العمر نفسه تقريباً.\nOmar: نعم، يمكننا الدراسة معاً.\nYassin: هذه فكرة جيدة.\nOmar: يبدأ الدرس غداً.\nYassin: أنا سعيد ومستعد.\nOmar: تصبح على خير يا ياسين.",
+  "nativeScriptText": "Yassin: Hello again, Omar.\nOmar: Hello, Yassin. How old are you?\nYassin: I am twenty years old.\nOmar: I am twenty-one years old.\nYassin: We are almost the same age.\nOmar: Yes, we can study together.\nYassin: That is a good idea.\nOmar: The class starts tomorrow.\nYassin: I am happy and ready.\nOmar: Good night, Yassin.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 3: عمري",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hello again, Omar.",
+    "translation": "مرحباً من جديد يا عمر.",
+    "pronunciation": "Hello again, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hello, Yassin. How old are you?",
+    "translation": "مرحباً يا ياسين. كم عمرك؟",
+    "pronunciation": "Hello, Yassin. How old are you?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I am twenty years old.",
+    "translation": "عمري عشرون سنة.",
+    "pronunciation": "I am twenty years old."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I am twenty-one years old.",
+    "translation": "عمري واحد وعشرون سنة.",
+    "pronunciation": "I am twenty-one years old."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "We are almost the same age.",
+    "translation": "نحن في العمر نفسه تقريباً.",
+    "pronunciation": "We are almost the same age."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, we can study together.",
+    "translation": "نعم، يمكننا الدراسة معاً.",
+    "pronunciation": "Yes, we can study together."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "That is a good idea.",
+    "translation": "هذه فكرة جيدة.",
+    "pronunciation": "That is a good idea."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The class starts tomorrow.",
+    "translation": "يبدأ الدرس غداً.",
+    "pronunciation": "The class starts tomorrow."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I am happy and ready.",
+    "translation": "أنا سعيد ومستعد.",
+    "pronunciation": "I am happy and ready."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Good night, Yassin.",
+    "translation": "تصبح على خير يا ياسين.",
+    "pronunciation": "Good night, Yassin."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d3",
+   "title": "عمري",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 3,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s1_d2"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 29,
+ "story": {
+  "originalText": "Yassin: Nǐ hǎo, Yassin. Nǐ xǐhuān shénme?\nOmar: Wǒ xǐhuān Yīngyǔ hé shū.\nYassin: Wǒ xǐhuān kāfēi hé zúqiú.\nOmar: Nǐ xǐhuān wǒmen de jiā ma?\nYassin: Shì de, wǒ fēicháng xǐhuān wǒmen de jiā.\nOmar: Wǒ bù xǐhuān lěng de shíwù.\nYassin: Wǒ bù xǐhuān chídào.\nOmar: Wǒ xǐhuān hé nǐ yìqǐ xuéxí.\nYassin: Wǒ yě xǐhuān hé nǐ yìqǐ xuéxí.\nOmar: Míngtiān shì wǒmen de A yī kǎoshì. Zàijiàn.",
+  "translatedText": "Yassin: مرحباً يا ياسين. ماذا تحب؟\nOmar: أحب الإنجليزية والكتب.\nYassin: أحب القهوة وكرة القدم.\nOmar: هل تحب بيتنا؟\nYassin: نعم، أحب بيتنا كثيراً.\nOmar: لا أحب الطعام البارد.\nYassin: لا أحب التأخر.\nOmar: أحب الدراسة معك.\nYassin: وأنا أحب التعلم معك أيضاً.\nOmar: غداً امتحان A1. وداعاً.",
+  "nativeScriptText": "Yassin: 你好，Yassin。你喜欢什么？\nOmar: 我喜欢英语和书。\nYassin: 我喜欢咖啡和足球。\nOmar: 你喜欢我们的家吗？\nYassin: 是的，我非常喜欢我们的家。\nOmar: 我不喜欢冷的食物。\nYassin: 我不喜欢迟到。\nOmar: 我喜欢和你一起学习。\nYassin: 我也喜欢和你一起学习。\nOmar: 明天是我们的 A1 考试。再见。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 29: أحب / أكره",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你好，Yassin。你喜欢什么？",
+    "translation": "مرحباً يا ياسين. ماذا تحب؟",
+    "pronunciation": "Nǐ hǎo, Yassin. Nǐ xǐhuān shénme?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我喜欢英语和书。",
+    "translation": "أحب الإنجليزية والكتب.",
+    "pronunciation": "Wǒ xǐhuān Yīngyǔ hé shū."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我喜欢咖啡和足球。",
+    "translation": "أحب القهوة وكرة القدم.",
+    "pronunciation": "Wǒ xǐhuān kāfēi hé zúqiú."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "你喜欢我们的家吗？",
+    "translation": "هل تحب بيتنا؟",
+    "pronunciation": "Nǐ xǐhuān wǒmen de jiā ma?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "是的，我非常喜欢我们的家。",
+    "translation": "نعم، أحب بيتنا كثيراً.",
+    "pronunciation": "Shì de, wǒ fēicháng xǐhuān wǒmen de jiā."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我不喜欢冷的食物。",
+    "translation": "لا أحب الطعام البارد.",
+    "pronunciation": "Wǒ bù xǐhuān lěng de shíwù."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我不喜欢迟到。",
+    "translation": "لا أحب التأخر.",
+    "pronunciation": "Wǒ bù xǐhuān chídào."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我喜欢和你一起学习。",
+    "translation": "أحب الدراسة معك.",
+    "pronunciation": "Wǒ xǐhuān hé nǐ yìqǐ xuéxí."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我也喜欢和你一起学习。",
+    "translation": "وأنا أحب التعلم معك أيضاً.",
+    "pronunciation": "Wǒ yě xǐhuān hé nǐ yìqǐ xuéxí."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "明天是我们的 A1 考试。再见。",
+    "translation": "غداً امتحان A1. وداعاً.",
+    "pronunciation": "Míngtiān shì wǒmen de A yī kǎoshì. Zàijiàn."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d29",
+   "title": "أحب / أكره",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 29,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s4_d28"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "C2",
+ "dayNumber": 10,
+ "story": {
+  "originalText": "Yassin: zǎo shàng hǎo, ào mǎ ěr.\nOmar: zǎo shàng hǎo, yà xīn. hěn gāo xìng wǒ men néng jì xù tǎo lùn.\nYassin: zhà yī kàn, hóng guān lǐng dǎo zhè ge zhǔ tí sì hū yāo qǐng yí gè jiǎn dān de dá àn.\nOmar: rán ér, dāng wǒ men bǐ jiào xiāng hù jìng zhēng de jiǎ shè shí, tā gēng shēn céng de hán yì huì biàn dé gèng qīng chǔ.\nYassin: wǒ rèn wéi, hóng guān lǐng dǎo zhè ge zhǔ tí yāo qiú gài niàn shàng de jīng què xìng hé dào dé zé rèn.\nOmar: zhè ge lùn diǎn hěn yǒu lì, dàn tā de yǒu xiào xìng qǔ jué yú wǒ men rú hé dìng yì hé xīn shù yǔ.\nYassin: wǒ men néng yòng yí gè jù tǐ dàn fù zá de àn lì lái jiǎn yàn zhè ge lùn diǎn ma.\nOmar: néng, zhè ge àn lì kě néng huì jiē shì yī zhǒng méi yǒu dān yī yuán zé néng gòu jiě jué de zhāng lì.\nYassin: xiè xiè, yīn wèi zhè cì jiāo liú shǐ wǒ men de sī kǎo gèng jiā mǐn ruì.\nOmar: zàn shí zài jiàn. míng tiān wǒ men jiāng tǎo lùn zhī shí chuàng xīn zhè ge zhǔ tí.",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: للوهلة الأولى، يبدو أن موضوع قيادة كلية يدعو إلى إجابة بسيطة.\nOmar: لكن آثاره الأعمق تتضح عندما نقارن بين الافتراضات المتنافسة.\nYassin: وأرى أن موضوع قيادة كلية يتطلب دقة مفاهيمية ومسؤولية أخلاقية.\nOmar: هذه الحجة قوية، لكن صحتها تعتمد على كيفية تعريفنا للمصطلحات المركزية.\nYassin: هل يمكننا اختبار الحجة في حالة واقعية لكنها معقدة؟\nOmar: نعم، وقد تكشف الحالة توترًا لا يحله مبدأ واحد.\nYassin: شكرًا، لأن هذا التبادل يصقل تفكيرنا.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Knowledge innovation.",
+  "nativeScriptText": "Yassin: 早上好，奥马尔。\nOmar: 早上好，亚辛。很高兴我们能继续讨论。\nYassin: 乍一看，“宏观领导”这个主题似乎邀请一个简单的答案。\nOmar: 然而，当我们比较相互竞争的假设时，它更深层的含义会变得更清楚。\nYassin: 我认为，“宏观领导”这个主题要求概念上的精确性和道德责任。\nOmar: 这个论点很有力，但它的有效性取决于我们如何定义核心术语。\nYassin: 我们能用一个具体但复杂的案例来检验这个论点吗？\nOmar: 能，这个案例可能会揭示一种没有单一原则能够解决的张力。\nYassin: 谢谢，因为这次交流使我们的思考更加敏锐。\nOmar: 暂时再见。明天我们将讨论“知识创新”这个主题。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 10: قيادة كلية",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "早上好，奥马尔。",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "zǎo shàng hǎo, ào mǎ ěr."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "早上好，亚辛。很高兴我们能继续讨论。",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "zǎo shàng hǎo, yà xīn. hěn gāo xìng wǒ men néng jì xù tǎo lùn."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "乍一看，“宏观领导”这个主题似乎邀请一个简单的答案。",
+    "translation": "للوهلة الأولى، يبدو أن موضوع قيادة كلية يدعو إلى إجابة بسيطة.",
+    "pronunciation": "zhà yī kàn, hóng guān lǐng dǎo zhè ge zhǔ tí sì hū yāo qǐng yí gè jiǎn dān de dá àn."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "然而，当我们比较相互竞争的假设时，它更深层的含义会变得更清楚。",
+    "translation": "لكن آثاره الأعمق تتضح عندما نقارن بين الافتراضات المتنافسة.",
+    "pronunciation": "rán ér, dāng wǒ men bǐ jiào xiāng hù jìng zhēng de jiǎ shè shí, tā gēng shēn céng de hán yì huì biàn dé gèng qīng chǔ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我认为，“宏观领导”这个主题要求概念上的精确性和道德责任。",
+    "translation": "وأرى أن موضوع قيادة كلية يتطلب دقة مفاهيمية ومسؤولية أخلاقية.",
+    "pronunciation": "wǒ rèn wéi, hóng guān lǐng dǎo zhè ge zhǔ tí yāo qiú gài niàn shàng de jīng què xìng hé dào dé zé rèn."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "这个论点很有力，但它的有效性取决于我们如何定义核心术语。",
+    "translation": "هذه الحجة قوية، لكن صحتها تعتمد على كيفية تعريفنا للمصطلحات المركزية.",
+    "pronunciation": "zhè ge lùn diǎn hěn yǒu lì, dàn tā de yǒu xiào xìng qǔ jué yú wǒ men rú hé dìng yì hé xīn shù yǔ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我们能用一个具体但复杂的案例来检验这个论点吗？",
+    "translation": "هل يمكننا اختبار الحجة في حالة واقعية لكنها معقدة؟",
+    "pronunciation": "wǒ men néng yòng yí gè jù tǐ dàn fù zá de àn lì lái jiǎn yàn zhè ge lùn diǎn ma."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "能，这个案例可能会揭示一种没有单一原则能够解决的张力。",
+    "translation": "نعم، وقد تكشف الحالة توترًا لا يحله مبدأ واحد.",
+    "pronunciation": "néng, zhè ge àn lì kě néng huì jiē shì yī zhǒng méi yǒu dān yī yuán zé néng gòu jiě jué de zhāng lì."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "谢谢，因为这次交流使我们的思考更加敏锐。",
+    "translation": "شكرًا، لأن هذا التبادل يصقل تفكيرنا.",
+    "pronunciation": "xiè xiè, yīn wèi zhè cì jiāo liú shǐ wǒ men de sī kǎo gèng jiā mǐn ruì."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "暂时再见。明天我们将讨论“知识创新”这个主题。",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Knowledge innovation.",
+    "pronunciation": "zàn shí zài jiàn. míng tiān wǒ men jiāng tǎo lùn zhī shí chuàng xīn zhè ge zhǔ tí."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d10",
+   "title": "قيادة كلية",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 10,
+  "level": "C2",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s2_d9"
+  ],
+  "createdAt": 1786705141011
+ }
+}

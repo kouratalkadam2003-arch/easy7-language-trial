@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 12,
+ "story": {
+  "originalText": "Yassin: Nǐ yào zài chá lǐ fàng táng ma?\nOmar: Bù, wǒ bù yào táng.\nYassin: Nǐ yào niúnǎi ma?\nOmar: Bù, wǒ jīntiān bù yào niúnǎi.\nYassin: Nǐ xiǎng yào gèng duō miànbāo ma?\nOmar: Bù yòng le, xièxie. Wǒ bù xiǎng yào gèng duō miànbāo.\nYassin: Méi guānxi. Nǐ kěyǐ zìjǐ xuǎn.\nOmar: Xièxie. Wǒ xiǎng yào shuǐ.\nYassin: Wǒmen chīfàn xūyào shuǐ.\nOmar: Wǒmen míngtiān qù mǎi shuǐ ba.",
+  "translatedText": "Yassin: هل تريد السكر في شايك؟\nOmar: لا، لا أريد السكر.\nYassin: هل تريد الحليب؟\nOmar: لا، لا أريد الحليب اليوم.\nYassin: هل تريد مزيداً من الخبز؟\nOmar: لا، شكراً. لا أريد مزيداً من الخبز.\nYassin: لا بأس. يمكنك الاختيار.\nOmar: شكراً. أريد الماء بدلاً من ذلك.\nYassin: نحتاج إلى الماء للوجبة.\nOmar: لنحضر الماء غداً.",
+  "nativeScriptText": "Yassin: 你要在茶里放糖吗？\nOmar: 不，我不要糖。\nYassin: 你要牛奶吗？\nOmar: 不，我今天不要牛奶。\nYassin: 你想要更多面包吗？\nOmar: 不用了，谢谢。我不想要更多面包。\nYassin: 没关系。你可以自己选。\nOmar: 谢谢。我想要水。\nYassin: 我们吃饭需要水。\nOmar: 我们明天去买水吧。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 12: لا أريد",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你要在茶里放糖吗？",
+    "translation": "هل تريد السكر في شايك؟",
+    "pronunciation": "Nǐ yào zài chá lǐ fàng táng ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "不，我不要糖。",
+    "translation": "لا، لا أريد السكر.",
+    "pronunciation": "Bù, wǒ bù yào táng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你要牛奶吗？",
+    "translation": "هل تريد الحليب؟",
+    "pronunciation": "Nǐ yào niúnǎi ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "不，我今天不要牛奶。",
+    "translation": "لا، لا أريد الحليب اليوم.",
+    "pronunciation": "Bù, wǒ jīntiān bù yào niúnǎi."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你想要更多面包吗？",
+    "translation": "هل تريد مزيداً من الخبز؟",
+    "pronunciation": "Nǐ xiǎng yào gèng duō miànbāo ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "不用了，谢谢。我不想要更多面包。",
+    "translation": "لا، شكراً. لا أريد مزيداً من الخبز.",
+    "pronunciation": "Bù yòng le, xièxie. Wǒ bù xiǎng yào gèng duō miànbāo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "没关系。你可以自己选。",
+    "translation": "لا بأس. يمكنك الاختيار.",
+    "pronunciation": "Méi guānxi. Nǐ kěyǐ zìjǐ xuǎn."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "谢谢。我想要水。",
+    "translation": "شكراً. أريد الماء بدلاً من ذلك.",
+    "pronunciation": "Xièxie. Wǒ xiǎng yào shuǐ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我们吃饭需要水。",
+    "translation": "نحتاج إلى الماء للوجبة.",
+    "pronunciation": "Wǒmen chīfàn xūyào shuǐ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我们明天去买水吧。",
+    "translation": "لنحضر الماء غداً.",
+    "pronunciation": "Wǒmen míngtiān qù mǎi shuǐ ba."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d12",
+   "title": "لا أريد",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 12,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s2_d11"
+  ],
+  "createdAt": 1786696446398
+ }
+}

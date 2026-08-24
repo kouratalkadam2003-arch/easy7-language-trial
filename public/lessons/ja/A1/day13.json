@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 13,
+ "story": {
+  "originalText": "Yassin: Ohayō, Omar. Nodo ga kawakimashita.\nOmar: Chīsana kissaten ni ikimashō.\nYassin: Mizu no botoru o kudasai.\nOmar: Kōhī o kudasai.\nYassin: Mainichi kōhī o nomimasu ka?\nOmar: Iie, asa dake desu.\nYassin: Kyō wa mizu ga ii desu.\nOmar: Dōzo, anata no mizu desu.\nYassin: Arigatō. Mizu wa tsumetai desu.\nOmar: Ashita wa ie no kotoba o fukushū shimashō.",
+  "translatedText": "Yassin: صباح الخير يا عمر. أنا عطشان.\nOmar: لنذهب إلى المقهى الصغير.\nYassin: أريد زجاجة ماء، من فضلك.\nOmar: أريد قهوة، من فضلك.\nYassin: هل تشرب القهوة كل يوم؟\nOmar: لا، فقط في الصباح.\nYassin: الماء جيد لي اليوم.\nOmar: هذا ماؤك.\nYassin: شكراً. الماء بارد.\nOmar: غداً سنراجع كلمات البيت.",
+  "nativeScriptText": "Yassin: おはよう、Omar。喉が渇きました。\nOmar: 小さな喫茶店に行きましょう。\nYassin: 水のボトルをください。\nOmar: コーヒーをください。\nYassin: 毎日コーヒーを飲みますか？\nOmar: いいえ、朝だけです。\nYassin: 今日は水がいいです。\nOmar: どうぞ、あなたの水です。\nYassin: ありがとう。水は冷たいです。\nOmar: 明日は家の言葉を復習しましょう。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 13: ماء / قهوة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "おはよう、Omar。喉が渇きました。",
+    "translation": "صباح الخير يا عمر. أنا عطشان.",
+    "pronunciation": "Ohayō, Omar. Nodo ga kawakimashita."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "小さな喫茶店に行きましょう。",
+    "translation": "لنذهب إلى المقهى الصغير.",
+    "pronunciation": "Chīsana kissaten ni ikimashō."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "水のボトルをください。",
+    "translation": "أريد زجاجة ماء، من فضلك.",
+    "pronunciation": "Mizu no botoru o kudasai."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "コーヒーをください。",
+    "translation": "أريد قهوة، من فضلك.",
+    "pronunciation": "Kōhī o kudasai."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "毎日コーヒーを飲みますか？",
+    "translation": "هل تشرب القهوة كل يوم؟",
+    "pronunciation": "Mainichi kōhī o nomimasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "いいえ、朝だけです。",
+    "translation": "لا، فقط في الصباح.",
+    "pronunciation": "Iie, asa dake desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "今日は水がいいです。",
+    "translation": "الماء جيد لي اليوم.",
+    "pronunciation": "Kyō wa mizu ga ii desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "どうぞ、あなたの水です。",
+    "translation": "هذا ماؤك.",
+    "pronunciation": "Dōzo, anata no mizu desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "ありがとう。水は冷たいです。",
+    "translation": "شكراً. الماء بارد.",
+    "pronunciation": "Arigatō. Mizu wa tsumetai desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "明日は家の言葉を復習しましょう。",
+    "translation": "غداً سنراجع كلمات البيت.",
+    "pronunciation": "Ashita wa ie no kotoba o fukushū shimashō."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d13",
+   "title": "ماء / قهوة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 13,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s2_d12"
+  ],
+  "createdAt": 1786696446398
+ }
+}

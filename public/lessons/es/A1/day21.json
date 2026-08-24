@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 21,
+ "story": {
+  "originalText": "Yassin: ¿Eres estudiante o profesor?\nOmar: Soy estudiante.\nYassin: ¿Dónde trabaja el profesor?\nOmar: El profesor trabaja en el instituto.\nYassin: ¿Dónde está tu libro?\nOmar: Mi libro está en el escritorio.\nYassin: ¿En qué día es nuestra clase?\nOmar: La clase es el miércoles.\nYassin: Excelente. Estás listo para el trabajo y la escuela.\nOmar: Gracias. Tengo hambre ahora.",
+  "translatedText": "Yassin: هل أنت طالب أم معلم؟\nOmar: أنا طالب.\nYassin: أين يعمل المعلم؟\nOmar: المعلم يعمل في المعهد.\nYassin: أين كتابك؟\nOmar: كتابي على المكتب.\nYassin: في أي يوم يكون درسنا؟\nOmar: الدرس يوم الأربعاء.\nYassin: ممتاز. أنت مستعد للعمل والمدرسة.\nOmar: شكراً. أنا جائع الآن.",
+  "nativeScriptText": "Yassin: ¿Eres estudiante o profesor?\nOmar: Soy estudiante.\nYassin: ¿Dónde trabaja el profesor?\nOmar: El profesor trabaja en el instituto.\nYassin: ¿Dónde está tu libro?\nOmar: Mi libro está en el escritorio.\nYassin: ¿En qué día es nuestra clase?\nOmar: La clase es el miércoles.\nYassin: Excelente. Estás listo para el trabajo y la escuela.\nOmar: Gracias. Tengo hambre ahora.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 21: مراجعة شاملة (15-20)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Eres estudiante o profesor?",
+    "translation": "هل أنت طالب أم معلم؟",
+    "pronunciation": "¿Eres estudiante o profesor?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Soy estudiante.",
+    "translation": "أنا طالب.",
+    "pronunciation": "Soy estudiante."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Dónde trabaja el profesor?",
+    "translation": "أين يعمل المعلم؟",
+    "pronunciation": "¿Dónde trabaja el profesor?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "El profesor trabaja en el instituto.",
+    "translation": "المعلم يعمل في المعهد.",
+    "pronunciation": "El profesor trabaja en el instituto."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Dónde está tu libro?",
+    "translation": "أين كتابك؟",
+    "pronunciation": "¿Dónde está tu libro?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Mi libro está en el escritorio.",
+    "translation": "كتابي على المكتب.",
+    "pronunciation": "Mi libro está en el escritorio."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿En qué día es nuestra clase?",
+    "translation": "في أي يوم يكون درسنا؟",
+    "pronunciation": "¿En qué día es nuestra clase?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "La clase es el miércoles.",
+    "translation": "الدرس يوم الأربعاء.",
+    "pronunciation": "La clase es el miércoles."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Excelente. Estás listo para el trabajo y la escuela.",
+    "translation": "ممتاز. أنت مستعد للعمل والمدرسة.",
+    "pronunciation": "Excelente. Estás listo para el trabajo y la escuela."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Gracias. Tengo hambre ahora.",
+    "translation": "شكراً. أنا جائع الآن.",
+    "pronunciation": "Gracias. Tengo hambre ahora."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d21",
+   "title": "مراجعة شاملة (15-20)",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 21,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s3_d20"
+  ],
+  "createdAt": 1786696446398
+ }
+}

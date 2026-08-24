@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 27,
+ "story": {
+  "originalText": "Yassin: Konnichiwa, Yassin. Tetsudatte kuremasu ka?\nOmar: Hai, mochiron. Nani ga hitsuyō desu ka?\nYassin: Kusuri to sukoshi mizu ga hitsuyō desu.\nOmar: Kochira ga kusuri to mizu desu.\nYassin: Arigatō. Totemo shinsetsu desu.\nOmar: Dōitashimashite, tomodachi.\nYassin: Sensei ni denwa shite kuremasu ka?\nOmar: Hai, ima denwa shimasu.\nYassin: Ashita yoku naru to ii desu, insharrā.\nOmar: Insharrā. Ashita fukushū shimashō.",
+  "translatedText": "Yassin: مرحباً يا ياسين. هل يمكنك مساعدتي؟\nOmar: نعم، بالطبع. ماذا تحتاج؟\nYassin: أحتاج دوائي وبعض الماء.\nOmar: هذا دواؤك وماؤك.\nYassin: شكراً. أنت لطيف جداً.\nOmar: عفواً يا صديقي.\nYassin: هل يمكنك الاتصال بالمعلم من أجلي؟\nOmar: نعم، يمكنني الاتصال به الآن.\nYassin: أتمنى أن تشعر بتحسن غداً، إن شاء الله.\nOmar: إن شاء الله. سنراجع غداً.",
+  "nativeScriptText": "Yassin: こんにちは、Yassin。手伝ってくれますか？\nOmar: はい、もちろん。何が必要ですか？\nYassin: 薬と少し水が必要です。\nOmar: こちらが薬と水です。\nYassin: ありがとう。とても親切です。\nOmar: どういたしまして、友だち。\nYassin: 先生に電話してくれますか？\nOmar: はい、今電話します。\nYassin: 明日よくなるといいです、インシャッラー。\nOmar: インシャッラー。明日復習しましょう。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 27: مساعدة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "こんにちは、Yassin。手伝ってくれますか？",
+    "translation": "مرحباً يا ياسين. هل يمكنك مساعدتي؟",
+    "pronunciation": "Konnichiwa, Yassin. Tetsudatte kuremasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、もちろん。何が必要ですか？",
+    "translation": "نعم، بالطبع. ماذا تحتاج؟",
+    "pronunciation": "Hai, mochiron. Nani ga hitsuyō desu ka?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "薬と少し水が必要です。",
+    "translation": "أحتاج دوائي وبعض الماء.",
+    "pronunciation": "Kusuri to sukoshi mizu ga hitsuyō desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "こちらが薬と水です。",
+    "translation": "هذا دواؤك وماؤك.",
+    "pronunciation": "Kochira ga kusuri to mizu desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "ありがとう。とても親切です。",
+    "translation": "شكراً. أنت لطيف جداً.",
+    "pronunciation": "Arigatō. Totemo shinsetsu desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "どういたしまして、友だち。",
+    "translation": "عفواً يا صديقي.",
+    "pronunciation": "Dōitashimashite, tomodachi."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "先生に電話してくれますか？",
+    "translation": "هل يمكنك الاتصال بالمعلم من أجلي؟",
+    "pronunciation": "Sensei ni denwa shite kuremasu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、今電話します。",
+    "translation": "نعم، يمكنني الاتصال به الآن.",
+    "pronunciation": "Hai, ima denwa shimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "明日よくなるといいです、インシャッラー。",
+    "translation": "أتمنى أن تشعر بتحسن غداً، إن شاء الله.",
+    "pronunciation": "Ashita yoku naru to ii desu, insharrā."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "インシャッラー。明日復習しましょう。",
+    "translation": "إن شاء الله. سنراجع غداً.",
+    "pronunciation": "Insharrā. Ashita fukushū shimashō."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d27",
+   "title": "مساعدة",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 27,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s4_d26"
+  ],
+  "createdAt": 1786696446398
+ }
+}

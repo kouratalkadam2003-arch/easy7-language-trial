@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "B2",
+ "dayNumber": 10,
+ "story": {
+  "originalText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: Je pense que le thème « Leadership » doit être considéré sous plus d’une perspective.\nOmar: Je suis d’accord, bien que l’argument le plus solide dépende des preuves.\nYassin: À mon sens, le thème « Leadership » exige à la fois responsabilité et objectifs clairs.\nOmar: C’est un point juste, mais nous devons aussi considérer les risques possibles.\nYassin: Peux-tu donner un exemple qui appuie ta position ?\nOmar: Oui, un exemple honnête montre pourquoi une approche équilibrée est préférable.\nYassin: Ta réponse rend cette discussion plus utile.\nOmar: Au revoir pour le moment. Demain, nous parlerons du thème « Corruption ».",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: أرى أن موضوع قيادة ينبغي النظر إليه من أكثر من منظور.\nOmar: أوافق، مع أن أقوى حجة تعتمد على الأدلة.\nYassin: موقفي هو أن موضوع قيادة يتطلب المسؤولية والأهداف الواضحة معًا.\nOmar: هذه نقطة منصفة، لكن ينبغي أن نأخذ المخاطر المحتملة في الحسبان أيضًا.\nYassin: هل تستطيع أن تقدم مثالًا يدعم موقفك؟\nOmar: نعم، يبين مثال صادق لماذا يكون النهج المتوازن أفضل.\nYassin: ردك يجعل النقاش أكثر فائدة.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Corruption.",
+  "nativeScriptText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: Je pense que le thème « Leadership » doit être considéré sous plus d’une perspective.\nOmar: Je suis d’accord, bien que l’argument le plus solide dépende des preuves.\nYassin: À mon sens, le thème « Leadership » exige à la fois responsabilité et objectifs clairs.\nOmar: C’est un point juste, mais nous devons aussi considérer les risques possibles.\nYassin: Peux-tu donner un exemple qui appuie ta position ?\nOmar: Oui, un exemple honnête montre pourquoi une approche équilibrée est préférable.\nYassin: Ta réponse rend cette discussion plus utile.\nOmar: Au revoir pour le moment. Demain, nous parlerons du thème « Corruption ».",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 10: قيادة",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Bonjour, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Je pense que le thème « Leadership » doit être considéré sous plus d’une perspective.",
+    "translation": "أرى أن موضوع قيادة ينبغي النظر إليه من أكثر من منظور.",
+    "pronunciation": "Je pense que le thème « Leadership » doit être considéré sous plus d’une perspective."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je suis d’accord, bien que l’argument le plus solide dépende des preuves.",
+    "translation": "أوافق، مع أن أقوى حجة تعتمد على الأدلة.",
+    "pronunciation": "Je suis d’accord, bien que l’argument le plus solide dépende des preuves."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "À mon sens, le thème « Leadership » exige à la fois responsabilité et objectifs clairs.",
+    "translation": "موقفي هو أن موضوع قيادة يتطلب المسؤولية والأهداف الواضحة معًا.",
+    "pronunciation": "À mon sens, le thème « Leadership » exige à la fois responsabilité et objectifs clairs."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "C’est un point juste, mais nous devons aussi considérer les risques possibles.",
+    "translation": "هذه نقطة منصفة، لكن ينبغي أن نأخذ المخاطر المحتملة في الحسبان أيضًا.",
+    "pronunciation": "C’est un point juste, mais nous devons aussi considérer les risques possibles."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Peux-tu donner un exemple qui appuie ta position ?",
+    "translation": "هل تستطيع أن تقدم مثالًا يدعم موقفك؟",
+    "pronunciation": "Peux-tu donner un exemple qui appuie ta position ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, un exemple honnête montre pourquoi une approche équilibrée est préférable.",
+    "translation": "نعم، يبين مثال صادق لماذا يكون النهج المتوازن أفضل.",
+    "pronunciation": "Oui, un exemple honnête montre pourquoi une approche équilibrée est préférable."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ta réponse rend cette discussion plus utile.",
+    "translation": "ردك يجعل النقاش أكثر فائدة.",
+    "pronunciation": "Ta réponse rend cette discussion plus utile."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Au revoir pour le moment. Demain, nous parlerons du thème « Corruption ».",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Corruption.",
+    "pronunciation": "Au revoir pour le moment. Demain, nous parlerons du thème « Corruption »."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d10",
+   "title": "قيادة",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 10,
+  "level": "B2",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s2_d9"
+  ],
+  "createdAt": 1786705141011
+ }
+}

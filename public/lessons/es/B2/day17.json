@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "B2",
+ "dayNumber": 17,
+ "story": {
+  "originalText": "Yassin: Buenos días, Omar.\nOmar: Buenos días, Yassin. Me alegra que podamos continuar nuestra conversación.\nYassin: Creo que el tema «Salud mental» debe considerarse desde más de una perspectiva.\nOmar: Estoy de acuerdo, aunque el argumento más sólido depende de las pruebas.\nYassin: Mi postura es que el tema «Salud mental» exige responsabilidad y objetivos claros.\nOmar: Es un punto justo, pero también debemos considerar los posibles riesgos.\nYassin: ¿Puedes dar un ejemplo que respalde tu postura?\nOmar: Sí, un ejemplo sincero muestra por qué es mejor un enfoque equilibrado.\nYassin: Tu respuesta hace que esta conversación sea más útil.\nOmar: Hasta luego. Mañana hablaremos sobre el tema «Genética».",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: أرى أن موضوع صحة نفسية ينبغي النظر إليه من أكثر من منظور.\nOmar: أوافق، مع أن أقوى حجة تعتمد على الأدلة.\nYassin: موقفي هو أن موضوع صحة نفسية يتطلب المسؤولية والأهداف الواضحة معًا.\nOmar: هذه نقطة منصفة، لكن ينبغي أن نأخذ المخاطر المحتملة في الحسبان أيضًا.\nYassin: هل تستطيع أن تقدم مثالًا يدعم موقفك؟\nOmar: نعم، يبين مثال صادق لماذا يكون النهج المتوازن أفضل.\nYassin: ردك يجعل النقاش أكثر فائدة.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Genetics.",
+  "nativeScriptText": "Yassin: Buenos días, Omar.\nOmar: Buenos días, Yassin. Me alegra que podamos continuar nuestra conversación.\nYassin: Creo que el tema «Salud mental» debe considerarse desde más de una perspectiva.\nOmar: Estoy de acuerdo, aunque el argumento más sólido depende de las pruebas.\nYassin: Mi postura es que el tema «Salud mental» exige responsabilidad y objetivos claros.\nOmar: Es un punto justo, pero también debemos considerar los posibles riesgos.\nYassin: ¿Puedes dar un ejemplo que respalde tu postura?\nOmar: Sí, un ejemplo sincero muestra por qué es mejor un enfoque equilibrado.\nYassin: Tu respuesta hace que esta conversación sea más útil.\nOmar: Hasta luego. Mañana hablaremos sobre el tema «Genética».",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 17: صحة نفسية",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buenos días, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Buenos días, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Buenos días, Yassin. Me alegra que podamos continuar nuestra conversación.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Buenos días, Yassin. Me alegra que podamos continuar nuestra conversación."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Creo que el tema «Salud mental» debe considerarse desde más de una perspectiva.",
+    "translation": "أرى أن موضوع صحة نفسية ينبغي النظر إليه من أكثر من منظور.",
+    "pronunciation": "Creo que el tema «Salud mental» debe considerarse desde más de una perspectiva."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Estoy de acuerdo, aunque el argumento más sólido depende de las pruebas.",
+    "translation": "أوافق، مع أن أقوى حجة تعتمد على الأدلة.",
+    "pronunciation": "Estoy de acuerdo, aunque el argumento más sólido depende de las pruebas."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Mi postura es que el tema «Salud mental» exige responsabilidad y objetivos claros.",
+    "translation": "موقفي هو أن موضوع صحة نفسية يتطلب المسؤولية والأهداف الواضحة معًا.",
+    "pronunciation": "Mi postura es que el tema «Salud mental» exige responsabilidad y objetivos claros."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Es un punto justo, pero también debemos considerar los posibles riesgos.",
+    "translation": "هذه نقطة منصفة، لكن ينبغي أن نأخذ المخاطر المحتملة في الحسبان أيضًا.",
+    "pronunciation": "Es un punto justo, pero también debemos considerar los posibles riesgos."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "¿Puedes dar un ejemplo que respalde tu postura?",
+    "translation": "هل تستطيع أن تقدم مثالًا يدعم موقفك؟",
+    "pronunciation": "¿Puedes dar un ejemplo que respalde tu postura?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sí, un ejemplo sincero muestra por qué es mejor un enfoque equilibrado.",
+    "translation": "نعم، يبين مثال صادق لماذا يكون النهج المتوازن أفضل.",
+    "pronunciation": "Sí, un ejemplo sincero muestra por qué es mejor un enfoque equilibrado."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Tu respuesta hace que esta conversación sea más útil.",
+    "translation": "ردك يجعل النقاش أكثر فائدة.",
+    "pronunciation": "Tu respuesta hace que esta conversación sea más útil."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hasta luego. Mañana hablaremos sobre el tema «Genética».",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Genetics.",
+    "pronunciation": "Hasta luego. Mañana hablaremos sobre el tema «Genética»."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d17",
+   "title": "صحة نفسية",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 17,
+  "level": "B2",
+  "languageCode": "es",
+  "previousTopics": [
+   "s3_d16"
+  ],
+  "createdAt": 1786705141011
+ }
+}

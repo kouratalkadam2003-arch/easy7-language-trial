@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 16,
+ "story": {
+  "originalText": "Yassin: Bonjour, Yassin. Es-tu étudiant ?\nOmar: Oui, je suis étudiant.\nYassin: Qu'est-ce que tu étudies ?\nOmar: J'étudie l'anglais à l'institut.\nYassin: Es-tu un nouvel étudiant ?\nOmar: Oui, je suis nouveau, mais je suis prêt.\nYassin: Un bon étudiant étudie tous les jours.\nOmar: J'étudie avec toi chaque soir.\nYassin: Notre professeur est bon aussi.\nOmar: Je veux rencontrer le professeur.",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هل أنت طالب؟\nOmar: نعم، أنا طالب.\nYassin: ماذا تدرس؟\nOmar: أدرس الإنجليزية في المعهد.\nYassin: هل أنت طالب جديد؟\nOmar: نعم، أنا جديد، لكنني مستعد.\nYassin: الطالب الجيد يدرس كل يوم.\nOmar: أدرس معك كل مساء.\nYassin: معلمنا جيد أيضاً.\nOmar: أريد أن أقابل المعلم.",
+  "nativeScriptText": "Yassin: Bonjour, Yassin. Es-tu étudiant ?\nOmar: Oui, je suis étudiant.\nYassin: Qu'est-ce que tu étudies ?\nOmar: J'étudie l'anglais à l'institut.\nYassin: Es-tu un nouvel étudiant ?\nOmar: Oui, je suis nouveau, mais je suis prêt.\nYassin: Un bon étudiant étudie tous les jours.\nOmar: J'étudie avec toi chaque soir.\nYassin: Notre professeur est bon aussi.\nOmar: Je veux rencontrer le professeur.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 16: طالب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour, Yassin. Es-tu étudiant ?",
+    "translation": "صباح الخير يا ياسين. هل أنت طالب؟",
+    "pronunciation": "Bonjour, Yassin. Es-tu étudiant ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, je suis étudiant.",
+    "translation": "نعم، أنا طالب.",
+    "pronunciation": "Oui, je suis étudiant."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Qu'est-ce que tu étudies ?",
+    "translation": "ماذا تدرس؟",
+    "pronunciation": "Qu'est-ce que tu étudies ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "J'étudie l'anglais à l'institut.",
+    "translation": "أدرس الإنجليزية في المعهد.",
+    "pronunciation": "J'étudie l'anglais à l'institut."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Es-tu un nouvel étudiant ?",
+    "translation": "هل أنت طالب جديد؟",
+    "pronunciation": "Es-tu un nouvel étudiant ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, je suis nouveau, mais je suis prêt.",
+    "translation": "نعم، أنا جديد، لكنني مستعد.",
+    "pronunciation": "Oui, je suis nouveau, mais je suis prêt."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Un bon étudiant étudie tous les jours.",
+    "translation": "الطالب الجيد يدرس كل يوم.",
+    "pronunciation": "Un bon étudiant étudie tous les jours."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "J'étudie avec toi chaque soir.",
+    "translation": "أدرس معك كل مساء.",
+    "pronunciation": "J'étudie avec toi chaque soir."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Notre professeur est bon aussi.",
+    "translation": "معلمنا جيد أيضاً.",
+    "pronunciation": "Notre professeur est bon aussi."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je veux rencontrer le professeur.",
+    "translation": "أريد أن أقابل المعلم.",
+    "pronunciation": "Je veux rencontrer le professeur."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d16",
+   "title": "طالب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 16,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s3_d15"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_ja_d11",
+  "languageCode": "ja",
+  "languageNameArabic": "اليابانية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 11,
+  "lessonTitle": "長い一日",
+  "englishTitle": "A Long Day",
+  "arabicTitle": "يوم طويل",
+  "canonicalBeatIds": [
+   "BEAT_A2_D11"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف التعب وطلب راحة مناسبة.",
+  "realLifeTransferArabic": "التعبير عن الحاجة إلى استراحة.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: يوم طويل دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "بعد يوم شاق بين الحديقة والسوق، يلاحظ غاستون أن ليث مرهق.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: يوم طويل.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: يوم طويل."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D11_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D11_01",
+     "narrationArabic": "بعد يوم شاق بين الحديقة والسوق، يلاحظ غاستون أن ليث مرهق."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D11_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف التعب وطلب راحة مناسبة.",
+   "lines": [
+    {
+     "lineId": "L_A2_JA_D11_01",
+     "speakerId": "gaston",
+     "targetText": "おはようございます、ライスさん。今日は疲れているようですね。",
+     "englishReference": "Good morning, Laith. You look tired today.",
+     "arabicTranslation": "صباح الخير يا ليث. You look tired today.",
+     "pronunciation": "ohayougozaimasu , raisu san . konnichiha tsukare teiruyoudesune .",
+     "phraseIds": [
+      "P_A2_JA_D11_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_JA_D11_02",
+     "speakerId": "laith",
+     "targetText": "おはよう。はい、朝から仕事してます。",
+     "englishReference": "Good morning. Yes, I have been working since morning.",
+     "arabicTranslation": "صباح الخير. Yes, I have been working since morning.",
+     "pronunciation": "ohayou . hai , asa kara shigoto shitemasu .",
+     "phraseIds": [
+      "P_A2_JA_D11_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D11_03",
+     "speakerId": "gaston",
+     "targetText": "休憩が必要ですか?",
+     "englishReference": "Do you need a break?",
+     "arabicTranslation": "Do you need a break?",
+     "pronunciation": "kyuukei ga hitsuyou desuka ?",
+     "phraseIds": [
+      "P_A2_JA_D11_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D11_04",
+     "speakerId": "laith",
+     "targetText": "少し休む必要があると思います。",
+     "englishReference": "I think I need a short rest.",
+     "arabicTranslation": "I think I need a short rest.",
+     "pronunciation": "sukoshi yasumu hitsuyou gaaruto omoi masu .",
+     "phraseIds": [
+      "P_A2_JA_D11_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D11_05",
+     "speakerId": "gaston",
+     "targetText": "カフェは今静かです。しばらくここに座ってください。",
+     "englishReference": "The café is quiet now. Sit here for a while.",
+     "arabicTranslation": "The café is quiet now. Sit here for a while.",
+     "pronunciation": "kafe ha ima shizuka desu . shibarakukokoni suwatsu tekudasai .",
+     "phraseIds": [
+      "P_A2_JA_D11_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D11_06",
+     "speakerId": "laith",
+     "targetText": "ありがとう。続ける前に休憩します。",
+     "englishReference": "Thank you. I will rest before I continue.",
+     "arabicTranslation": "Thank you. I will rest before I continue.",
+     "pronunciation": "arigatou . tsuzuke ru mae ni kyuukei shimasu .",
+     "phraseIds": [
+      "P_A2_JA_D11_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_JA_D11_07",
+     "speakerId": "gaston",
+     "targetText": "それは良い計画のように思えます。",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "soreha yoi keikaku noyouni omoe masu .",
+     "phraseIds": [
+      "P_A2_JA_D11_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_JA_D11_08",
+     "speakerId": "laith",
+     "targetText": "ありがとう。また後で。",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "arigatou . mata atode .",
+     "phraseIds": [
+      "P_A2_JA_D11_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D11_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_JA_D11_C01",
+      "P_A2_JA_D11_C02",
+      "P_A2_JA_D11_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_JA_D11_C01",
+      "P_A2_JA_D11_C02",
+      "P_A2_JA_D11_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_JA_D11_I01",
+      "P_A2_JA_D11_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D11_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: التعبير عن الحاجة إلى استراحة.",
+   "requiredPhraseIds": [
+    "P_A2_JA_D11_C01",
+    "P_A2_JA_D11_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D11_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "今シーズンの市場は急速に変化しています。",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "ima shiizun no shijou ha kyuusoku ni henkashi teimasu ."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "はい。旧道についての質問が増えています。",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "hai . kyuudou nitsuiteno shitsumon ga fue teimasu ."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D11_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: يوم طويل.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: يوم طويل."
+   },
+   "successWorldConsequence": "ENERGY_BALANCE:+1",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_JA_D11_S01",
+   "text": "おはようございます、ライスさん。今日は疲れているようですね。",
+   "englishReference": "Good morning, Laith. You look tired today.",
+   "arabicTranslation": "صباح الخير يا ليث. You look tired today.",
+   "pronunciation": "ohayougozaimasu , raisu san . konnichiha tsukare teiruyoudesune .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعبير عن الحاجة إلى استراحة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_JA_D11_C01",
+   "text": "おはよう。はい、朝から仕事してます。",
+   "englishReference": "Good morning. Yes, I have been working since morning.",
+   "arabicTranslation": "صباح الخير. Yes, I have been working since morning.",
+   "pronunciation": "ohayou . hai , asa kara shigoto shitemasu .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعبير عن الحاجة إلى استراحة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D11_I01",
+   "text": "休憩が必要ですか?",
+   "englishReference": "Do you need a break?",
+   "arabicTranslation": "Do you need a break?",
+   "pronunciation": "kyuukei ga hitsuyou desuka ?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعبير عن الحاجة إلى استراحة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_JA_D11_C02",
+   "text": "少し休む必要があると思います。",
+   "englishReference": "I think I need a short rest.",
+   "arabicTranslation": "I think I need a short rest.",
+   "pronunciation": "sukoshi yasumu hitsuyou gaaruto omoi masu .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعبير عن الحاجة إلى استراحة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D11_I02",
+   "text": "カフェは今静かです。しばらくここに座ってください。",
+   "englishReference": "The café is quiet now. Sit here for a while.",
+   "arabicTranslation": "The café is quiet now. Sit here for a while.",
+   "pronunciation": "kafe ha ima shizuka desu . shibarakukokoni suwatsu tekudasai .",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعبير عن الحاجة إلى استراحة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_JA_D11_C03",
+   "text": "ありがとう。続ける前に休憩します。",
+   "englishReference": "Thank you. I will rest before I continue.",
+   "arabicTranslation": "Thank you. I will rest before I continue.",
+   "pronunciation": "arigatou . tsuzuke ru mae ni kyuukei shimasu .",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعبير عن الحاجة إلى استراحة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_JA_D11_S02",
+   "text": "それは良い計画のように思えます。",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "soreha yoi keikaku noyouni omoe masu .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعبير عن الحاجة إلى استراحة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_JA_D11_S03",
+   "text": "ありがとう。また後で。",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "arigatou . mata atode .",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "التعبير عن الحاجة إلى استراحة."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_JA_D11_C01",
+     "P_A2_JA_D11_C02",
+     "P_A2_JA_D11_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_JA_D11_I01",
+     "P_A2_JA_D11_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_JA_D11_C01",
+    "P_A2_JA_D11_C02",
+    "P_A2_JA_D11_C03",
+    "P_A2_JA_D11_I01",
+    "P_A2_JA_D11_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D10:COMPLETE"
+  ],
+  "onSuccess": [
+   "ENERGY_BALANCE:+1",
+   "A2_D12:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_11",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_ja_d10",
+  "nextLessonId": "story_a2_ja_d12",
+  "nextLessonHookArabic": "في اليوم التالي يتعلم ليث أن الراحة جزء من الخطة.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 11: يوم طويل."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

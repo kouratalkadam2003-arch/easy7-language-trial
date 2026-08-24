@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 21,
+ "story": {
+  "originalText": "Yassin: Nǐ shì xuéshēng háishì lǎoshī?\nOmar: Wǒ shì xuéshēng.\nYassin: Lǎoshī zài nǎlǐ gōngzuò?\nOmar: Lǎoshī zài xuéyuàn gōngzuò.\nYassin: Nǐ de shū zài nǎlǐ?\nOmar: Wǒ de shū zài zhuōzi shàng.\nYassin: Wǒmen de kè shì xīngqí jǐ?\nOmar: Kè zài xīngqí sān.\nYassin: Tài hǎo le. Nǐ wèi gōngzuò hé xuéxiào zhǔnbèi hǎo le.\nOmar: Xièxie. Wǒ xiànzài è le.",
+  "translatedText": "Yassin: هل أنت طالب أم معلم؟\nOmar: أنا طالب.\nYassin: أين يعمل المعلم؟\nOmar: المعلم يعمل في المعهد.\nYassin: أين كتابك؟\nOmar: كتابي على المكتب.\nYassin: في أي يوم يكون درسنا؟\nOmar: الدرس يوم الأربعاء.\nYassin: ممتاز. أنت مستعد للعمل والمدرسة.\nOmar: شكراً. أنا جائع الآن.",
+  "nativeScriptText": "Yassin: 你是学生还是老师？\nOmar: 我是学生。\nYassin: 老师在哪里工作？\nOmar: 老师在学院工作。\nYassin: 你的书在哪里？\nOmar: 我的书在桌子上。\nYassin: 我们的课是星期几？\nOmar: 课在星期三。\nYassin: 太好了。你为工作和学校准备好了。\nOmar: 谢谢。我现在饿了。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 21: مراجعة شاملة (15-20)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你是学生还是老师？",
+    "translation": "هل أنت طالب أم معلم؟",
+    "pronunciation": "Nǐ shì xuéshēng háishì lǎoshī?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我是学生。",
+    "translation": "أنا طالب.",
+    "pronunciation": "Wǒ shì xuéshēng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "老师在哪里工作？",
+    "translation": "أين يعمل المعلم؟",
+    "pronunciation": "Lǎoshī zài nǎlǐ gōngzuò?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "老师在学院工作。",
+    "translation": "المعلم يعمل في المعهد.",
+    "pronunciation": "Lǎoshī zài xuéyuàn gōngzuò."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你的书在哪里？",
+    "translation": "أين كتابك؟",
+    "pronunciation": "Nǐ de shū zài nǎlǐ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我的书在桌子上。",
+    "translation": "كتابي على المكتب.",
+    "pronunciation": "Wǒ de shū zài zhuōzi shàng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我们的课是星期几？",
+    "translation": "في أي يوم يكون درسنا؟",
+    "pronunciation": "Wǒmen de kè shì xīngqí jǐ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "课在星期三。",
+    "translation": "الدرس يوم الأربعاء.",
+    "pronunciation": "Kè zài xīngqí sān."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "太好了。你为工作和学校准备好了。",
+    "translation": "ممتاز. أنت مستعد للعمل والمدرسة.",
+    "pronunciation": "Tài hǎo le. Nǐ wèi gōngzuò hé xuéxiào zhǔnbèi hǎo le."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "谢谢。我现在饿了。",
+    "translation": "شكراً. أنا جائع الآن.",
+    "pronunciation": "Xièxie. Wǒ xiànzài è le."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d21",
+   "title": "مراجعة شاملة (15-20)",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 21,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s3_d20"
+  ],
+  "createdAt": 1786696446398
+ }
+}

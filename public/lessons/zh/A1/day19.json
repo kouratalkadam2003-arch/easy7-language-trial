@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 19,
+ "story": {
+  "originalText": "Yassin: Nǐ hǎo, Omar. Zhè shì bàngōngshì ma?\nOmar: Shì de, zhè shì xuéyuàn bàngōngshì.\nYassin: Zhè ge bàngōngzhuō hěn dà.\nOmar: Lǎoshī zuò zài nà zhāng zhuōzi hòumiàn.\nYassin: Wǒ kěyǐ bǎ shū fàng zài zhèlǐ ma?\nOmar: Kěyǐ, fàng zài zhuōzi shàng ba.\nYassin: Bàngōngshì hěn ānjìng.\nOmar: Wǒmen xiàkè hòu lái zhèlǐ.\nYassin: Wǒmen de xiàcì kè shì xīngqí jǐ?\nOmar: Wǒ lái gěi nǐ kàn zhèxiē tiān.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل هذا هو المكتب؟\nOmar: نعم، هذا مكتب المعهد.\nYassin: المكتب كبير.\nOmar: المعلم يجلس خلف تلك الطاولة.\nYassin: هل يمكنني وضع كتابي هنا؟\nOmar: نعم، ضعه على المكتب.\nYassin: المكتب هادئ.\nOmar: نأتي إلى هنا بعد الدرس.\nYassin: في أي يوم يكون درسنا القادم؟\nOmar: دعني أريك الأيام.",
+  "nativeScriptText": "Yassin: 你好，Omar。这是办公室吗？\nOmar: 是的，这是学院办公室。\nYassin: 这个办公桌很大。\nOmar: 老师坐在那张桌子后面。\nYassin: 我可以把书放在这里吗？\nOmar: 可以，放在桌子上吧。\nYassin: 办公室很安静。\nOmar: 我们下课后来这里。\nYassin: 我们的下次课是星期几？\nOmar: 我来给你看这些天。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 19: مكتب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你好，Omar。这是办公室吗？",
+    "translation": "مرحباً يا عمر. هل هذا هو المكتب؟",
+    "pronunciation": "Nǐ hǎo, Omar. Zhè shì bàngōngshì ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，这是学院办公室。",
+    "translation": "نعم، هذا مكتب المعهد.",
+    "pronunciation": "Shì de, zhè shì xuéyuàn bàngōngshì."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "这个办公桌很大。",
+    "translation": "المكتب كبير.",
+    "pronunciation": "Zhè ge bàngōngzhuō hěn dà."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "老师坐在那张桌子后面。",
+    "translation": "المعلم يجلس خلف تلك الطاولة.",
+    "pronunciation": "Lǎoshī zuò zài nà zhāng zhuōzi hòumiàn."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我可以把书放在这里吗？",
+    "translation": "هل يمكنني وضع كتابي هنا؟",
+    "pronunciation": "Wǒ kěyǐ bǎ shū fàng zài zhèlǐ ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "可以，放在桌子上吧。",
+    "translation": "نعم، ضعه على المكتب.",
+    "pronunciation": "Kěyǐ, fàng zài zhuōzi shàng ba."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "办公室很安静。",
+    "translation": "المكتب هادئ.",
+    "pronunciation": "Bàngōngshì hěn ānjìng."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我们下课后来这里。",
+    "translation": "نأتي إلى هنا بعد الدرس.",
+    "pronunciation": "Wǒmen xiàkè hòu lái zhèlǐ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我们的下次课是星期几？",
+    "translation": "في أي يوم يكون درسنا القادم؟",
+    "pronunciation": "Wǒmen de xiàcì kè shì xīngqí jǐ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我来给你看这些天。",
+    "translation": "دعني أريك الأيام.",
+    "pronunciation": "Wǒ lái gěi nǐ kàn zhèxiē tiān."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d19",
+   "title": "مكتب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 19,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s3_d18"
+  ],
+  "createdAt": 1786696446398
+ }
+}

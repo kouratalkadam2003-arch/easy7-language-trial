@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 2,
+ "story": {
+  "originalText": "Yassin: Buongiorno, Yassin.\nOmar: Buongiorno, Omar.\nYassin: Di dove sei?\nOmar: Vengo dall'Algeria.\nYassin: L'Algeria è un paese bello.\nOmar: Grazie. Di dove sei?\nYassin: Vengo dal Marocco.\nOmar: Noi veniamo dal Nord Africa.\nYassin: Sì, e ora siamo qui insieme.\nOmar: Ci vediamo dopo, Omar.",
+  "translatedText": "Yassin: صباح الخير يا ياسين.\nOmar: صباح الخير يا عمر.\nYassin: من أين أنت؟\nOmar: أنا من الجزائر.\nYassin: الجزائر بلد جميل.\nOmar: شكراً. من أين أنت؟\nYassin: أنا من المغرب.\nOmar: نحن من شمال أفريقيا.\nYassin: نعم، والآن نحن هنا معاً.\nOmar: أراك لاحقاً يا عمر.",
+  "nativeScriptText": "Yassin: Buongiorno, Yassin.\nOmar: Buongiorno, Omar.\nYassin: Di dove sei?\nOmar: Vengo dall'Algeria.\nYassin: L'Algeria è un paese bello.\nOmar: Grazie. Di dove sei?\nYassin: Vengo dal Marocco.\nOmar: Noi veniamo dal Nord Africa.\nYassin: Sì, e ora siamo qui insieme.\nOmar: Ci vediamo dopo, Omar.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 2: من أين",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buongiorno, Yassin.",
+    "translation": "صباح الخير يا ياسين.",
+    "pronunciation": "Buongiorno, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Buongiorno, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Buongiorno, Omar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Di dove sei?",
+    "translation": "من أين أنت؟",
+    "pronunciation": "Di dove sei?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Vengo dall'Algeria.",
+    "translation": "أنا من الجزائر.",
+    "pronunciation": "Vengo dall'Algeria."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "L'Algeria è un paese bello.",
+    "translation": "الجزائر بلد جميل.",
+    "pronunciation": "L'Algeria è un paese bello."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Grazie. Di dove sei?",
+    "translation": "شكراً. من أين أنت؟",
+    "pronunciation": "Grazie. Di dove sei?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Vengo dal Marocco.",
+    "translation": "أنا من المغرب.",
+    "pronunciation": "Vengo dal Marocco."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Noi veniamo dal Nord Africa.",
+    "translation": "نحن من شمال أفريقيا.",
+    "pronunciation": "Noi veniamo dal Nord Africa."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Sì, e ora siamo qui insieme.",
+    "translation": "نعم، والآن نحن هنا معاً.",
+    "pronunciation": "Sì, e ora siamo qui insieme."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ci vediamo dopo, Omar.",
+    "translation": "أراك لاحقاً يا عمر.",
+    "pronunciation": "Ci vediamo dopo, Omar."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d2",
+   "title": "من أين",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 2,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s1_d1"
+  ],
+  "createdAt": 1786696446398
+ }
+}

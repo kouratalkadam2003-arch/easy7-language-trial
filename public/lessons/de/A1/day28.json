@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 28,
+ "story": {
+  "originalText": "Yassin: Bist du hungrig?\nOmar: Ja, ich bin hungrig.\nYassin: Wie viel kostet die Mahlzeit?\nOmar: Die Mahlzeit kostet zehn Dollar.\nYassin: Kann ich bitte die Rechnung haben?\nOmar: Ja, hier ist die Rechnung.\nYassin: Bist du jetzt krank?\nOmar: Nein, mir geht es besser nach dem Arztbesuch.\nYassin: Kann ich dir mit irgendetwas helfen?\nOmar: Nein, danke. Mir geht es jetzt gut.",
+  "translatedText": "Yassin: هل أنت جائع؟\nOmar: نعم، أنا جائع.\nYassin: كم ثمن الوجبة؟\nOmar: الوجبة بعشرة دولارات.\nYassin: هل يمكنني الحصول على الفاتورة، من فضلك؟\nOmar: نعم، هذه هي الفاتورة.\nYassin: هل أنت مريض الآن؟\nOmar: لا، أشعر بتحسن بعد زيارة الطبيب.\nYassin: هل يمكنني مساعدتك في شيء؟\nOmar: لا، شكراً. أنا بخير الآن.",
+  "nativeScriptText": "Yassin: Bist du hungrig?\nOmar: Ja, ich bin hungrig.\nYassin: Wie viel kostet die Mahlzeit?\nOmar: Die Mahlzeit kostet zehn Dollar.\nYassin: Kann ich bitte die Rechnung haben?\nOmar: Ja, hier ist die Rechnung.\nYassin: Bist du jetzt krank?\nOmar: Nein, mir geht es besser nach dem Arztbesuch.\nYassin: Kann ich dir mit irgendetwas helfen?\nOmar: Nein, danke. Mir geht es jetzt gut.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 28: مراجعة شاملة (22-27)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bist du hungrig?",
+    "translation": "هل أنت جائع؟",
+    "pronunciation": "Bist du hungrig?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, ich bin hungrig.",
+    "translation": "نعم، أنا جائع.",
+    "pronunciation": "Ja, ich bin hungrig."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wie viel kostet die Mahlzeit?",
+    "translation": "كم ثمن الوجبة؟",
+    "pronunciation": "Wie viel kostet die Mahlzeit?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Die Mahlzeit kostet zehn Dollar.",
+    "translation": "الوجبة بعشرة دولارات.",
+    "pronunciation": "Die Mahlzeit kostet zehn Dollar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Kann ich bitte die Rechnung haben?",
+    "translation": "هل يمكنني الحصول على الفاتورة، من فضلك؟",
+    "pronunciation": "Kann ich bitte die Rechnung haben?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, hier ist die Rechnung.",
+    "translation": "نعم، هذه هي الفاتورة.",
+    "pronunciation": "Ja, hier ist die Rechnung."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bist du jetzt krank?",
+    "translation": "هل أنت مريض الآن؟",
+    "pronunciation": "Bist du jetzt krank?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Nein, mir geht es besser nach dem Arztbesuch.",
+    "translation": "لا، أشعر بتحسن بعد زيارة الطبيب.",
+    "pronunciation": "Nein, mir geht es besser nach dem Arztbesuch."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Kann ich dir mit irgendetwas helfen?",
+    "translation": "هل يمكنني مساعدتك في شيء؟",
+    "pronunciation": "Kann ich dir mit irgendetwas helfen?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Nein, danke. Mir geht es jetzt gut.",
+    "translation": "لا، شكراً. أنا بخير الآن.",
+    "pronunciation": "Nein, danke. Mir geht es jetzt gut."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d28",
+   "title": "مراجعة شاملة (22-27)",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 28,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s4_d27"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 7,
+ "story": {
+  "originalText": "Yassin: Hallo. Wie heißt du?\nOmar: Ich heiße Yassin.\nYassin: Woher kommst du?\nOmar: Ich komme aus Algerien.\nYassin: Wie alt bist du?\nOmar: Ich bin zwanzig Jahre alt.\nYassin: Wie geht es dir heute?\nOmar: Mir geht es gut, danke.\nYassin: Gut gemacht. Auf Wiedersehen, mein Freund.\nOmar: Auf Wiedersehen. Wir sehen uns zu Hause.",
+  "translatedText": "Yassin: مرحباً. ما اسمك؟\nOmar: اسمي ياسين.\nYassin: من أين أنت؟\nOmar: أنا من الجزائر.\nYassin: كم عمرك؟\nOmar: عمري عشرون سنة.\nYassin: كيف حالك اليوم؟\nOmar: أنا بخير، شكراً.\nYassin: أحسنت. وداعاً يا صديقي.\nOmar: وداعاً. أراك في البيت.",
+  "nativeScriptText": "Yassin: Hallo. Wie heißt du?\nOmar: Ich heiße Yassin.\nYassin: Woher kommst du?\nOmar: Ich komme aus Algerien.\nYassin: Wie alt bist du?\nOmar: Ich bin zwanzig Jahre alt.\nYassin: Wie geht es dir heute?\nOmar: Mir geht es gut, danke.\nYassin: Gut gemacht. Auf Wiedersehen, mein Freund.\nOmar: Auf Wiedersehen. Wir sehen uns zu Hause.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 7: مراجعة شاملة (1-6)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hallo. Wie heißt du?",
+    "translation": "مرحباً. ما اسمك؟",
+    "pronunciation": "Hallo. Wie heißt du?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich heiße Yassin.",
+    "translation": "اسمي ياسين.",
+    "pronunciation": "Ich heiße Yassin."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Woher kommst du?",
+    "translation": "من أين أنت؟",
+    "pronunciation": "Woher kommst du?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich komme aus Algerien.",
+    "translation": "أنا من الجزائر.",
+    "pronunciation": "Ich komme aus Algerien."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wie alt bist du?",
+    "translation": "كم عمرك؟",
+    "pronunciation": "Wie alt bist du?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich bin zwanzig Jahre alt.",
+    "translation": "عمري عشرون سنة.",
+    "pronunciation": "Ich bin zwanzig Jahre alt."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wie geht es dir heute?",
+    "translation": "كيف حالك اليوم؟",
+    "pronunciation": "Wie geht es dir heute?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Mir geht es gut, danke.",
+    "translation": "أنا بخير، شكراً.",
+    "pronunciation": "Mir geht es gut, danke."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Gut gemacht. Auf Wiedersehen, mein Freund.",
+    "translation": "أحسنت. وداعاً يا صديقي.",
+    "pronunciation": "Gut gemacht. Auf Wiedersehen, mein Freund."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Auf Wiedersehen. Wir sehen uns zu Hause.",
+    "translation": "وداعاً. أراك في البيت.",
+    "pronunciation": "Auf Wiedersehen. Wir sehen uns zu Hause."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d7",
+   "title": "مراجعة شاملة (1-6)",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 7,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s1_d6"
+  ],
+  "createdAt": 1786696446398
+ }
+}

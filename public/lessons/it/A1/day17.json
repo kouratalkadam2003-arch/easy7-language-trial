@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 17,
+ "story": {
+  "originalText": "Yassin: Ciao, Omar. Il signor Ali è il nostro insegnante?\nOmar: Sì, il signor Ali è il nostro insegnante.\nYassin: Lui parla lentamente e chiaramente.\nOmar: Sì, aiuta ogni studente.\nYassin: Voglio fare una domanda all'insegnante.\nOmar: Puoi chiedere dopo la lezione.\nYassin: L'insegnante ha un libro?\nOmar: Sì, ha un libro nuovo per noi.\nYassin: Ho bisogno di quel libro.\nOmar: Possiamo prenderlo domani.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل الأستاذ علي هو معلمنا؟\nOmar: نعم، الأستاذ علي هو معلمنا.\nYassin: هو يتكلم ببطء ووضوح.\nOmar: نعم، هو يساعد كل طالب.\nYassin: أريد أن أسأل المعلم سؤالاً.\nOmar: يمكنك أن تسأل بعد الدرس.\nYassin: هل لدى المعلم كتاب؟\nOmar: نعم، لديه كتاب جديد لنا.\nYassin: أحتاج ذلك الكتاب.\nOmar: يمكننا الحصول عليه غداً.",
+  "nativeScriptText": "Yassin: Ciao, Omar. Il signor Ali è il nostro insegnante?\nOmar: Sì, il signor Ali è il nostro insegnante.\nYassin: Lui parla lentamente e chiaramente.\nOmar: Sì, aiuta ogni studente.\nYassin: Voglio fare una domanda all'insegnante.\nOmar: Puoi chiedere dopo la lezione.\nYassin: L'insegnante ha un libro?\nOmar: Sì, ha un libro nuovo per noi.\nYassin: Ho bisogno di quel libro.\nOmar: Possiamo prenderlo domani.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 17: أستاذ",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ciao, Omar. Il signor Ali è il nostro insegnante?",
+    "translation": "مرحباً يا عمر. هل الأستاذ علي هو معلمنا؟",
+    "pronunciation": "Ciao, Omar. Il signor Ali è il nostro insegnante?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, il signor Ali è il nostro insegnante.",
+    "translation": "نعم، الأستاذ علي هو معلمنا.",
+    "pronunciation": "Sì, il signor Ali è il nostro insegnante."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Lui parla lentamente e chiaramente.",
+    "translation": "هو يتكلم ببطء ووضوح.",
+    "pronunciation": "Lui parla lentamente e chiaramente."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, aiuta ogni studente.",
+    "translation": "نعم، هو يساعد كل طالب.",
+    "pronunciation": "Sì, aiuta ogni studente."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Voglio fare una domanda all'insegnante.",
+    "translation": "أريد أن أسأل المعلم سؤالاً.",
+    "pronunciation": "Voglio fare una domanda all'insegnante."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Puoi chiedere dopo la lezione.",
+    "translation": "يمكنك أن تسأل بعد الدرس.",
+    "pronunciation": "Puoi chiedere dopo la lezione."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "L'insegnante ha un libro?",
+    "translation": "هل لدى المعلم كتاب؟",
+    "pronunciation": "L'insegnante ha un libro?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Sì, ha un libro nuovo per noi.",
+    "translation": "نعم، لديه كتاب جديد لنا.",
+    "pronunciation": "Sì, ha un libro nuovo per noi."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ho bisogno di quel libro.",
+    "translation": "أحتاج ذلك الكتاب.",
+    "pronunciation": "Ho bisogno di quel libro."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Possiamo prenderlo domani.",
+    "translation": "يمكننا الحصول عليه غداً.",
+    "pronunciation": "Possiamo prenderlo domani."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d17",
+   "title": "أستاذ",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 17,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s3_d16"
+  ],
+  "createdAt": 1786696446398
+ }
+}

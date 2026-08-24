@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_es_d07",
+  "languageCode": "es",
+  "languageNameArabic": "الإسبانية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 7,
+  "lessonTitle": "La primera semana",
+  "englishTitle": "The First Week",
+  "arabicTitle": "أول أسبوع",
+  "canonicalBeatIds": [
+   "BEAT_A1_D07"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "دمج التعارف والتحية والحال والوداع.",
+  "realLifeTransferArabic": "إدارة لقاء اجتماعي قصير من البداية إلى النهاية.",
+  "successCapabilityArabic": "قدّم نفسك، اسأل عن الحال، ثم أنهِ اللقاء بأدب مع شخصين."
+ },
+ "story": {
+  "storyContextArabic": "في السوق الصغير يلتقي ليث بثلاثة أشخاص عرفهم خلال الأسبوع.",
+  "storyMissionArabic": "يعرض ما تعلمه في أسبوعه الأول داخل القرية.",
+  "setting": "cabin_and_village",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: أول أسبوع."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D07_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D07_01",
+     "narrationArabic": "في السوق الصغير يلتقي ليث بثلاثة أشخاص عرفهم خلال الأسبوع."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D07_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "دمج التعارف والتحية والحال والوداع.",
+   "lines": [
+    {
+     "lineId": "L_A1_ES_D07_01",
+     "speakerId": "villagers",
+     "targetText": "Buenos días a todos.",
+     "englishReference": "Good morning, everyone.",
+     "arabicTranslation": "صباح الخير يا جميعًا.",
+     "pronunciation": "Buenos días a todos.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D07_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ES_D07_02",
+     "speakerId": "laith",
+     "targetText": "Buenos días, Laith. ¿Cómo estás?",
+     "englishReference": "Good morning, Laith. How are you?",
+     "arabicTranslation": "صباح الخير يا ليث. كيف حالك؟",
+     "pronunciation": "Buenos días, Laith. ¿Cómo estás?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D07_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ES_D07_03",
+     "speakerId": "villagers",
+     "targetText": "Estoy bien gracias. Mi nombre es Laith.",
+     "englishReference": "I am fine, thank you. My name is Laith.",
+     "arabicTranslation": "أنا بخير، شكرًا. اسمي ليث.",
+     "pronunciation": "Estoy bien gracias. Mi nombre es Laith.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D07_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ES_D07_04",
+     "speakerId": "laith",
+     "targetText": "Sabemos tu nombre ahora. Eres bienvenido aquí.",
+     "englishReference": "We know your name now. You are welcome here.",
+     "arabicTranslation": "نحن نعرف اسمك الآن. أنت مرحب بك هنا.",
+     "pronunciation": "Sabemos tu nombre ahora. Eres bienvenido aquí.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D07_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ES_D07_05",
+     "speakerId": "villagers",
+     "targetText": "Encantado de conocerlos a todos.",
+     "englishReference": "Nice to meet you all.",
+     "arabicTranslation": "سعيد بلقائكم جميعًا.",
+     "pronunciation": "Encantado de conocerlos a todos.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D07_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ES_D07_06",
+     "speakerId": "laith",
+     "targetText": "¿Quieres visitar el mercado?",
+     "englishReference": "Would you like to visit the market?",
+     "arabicTranslation": "هل تريد أن تزور السوق؟",
+     "pronunciation": "¿Quieres visitar el mercado?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D07_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ES_D07_07",
+     "speakerId": "villagers",
+     "targetText": "Sí, por favor. Estoy listo.",
+     "englishReference": "Yes, please. I am ready.",
+     "arabicTranslation": "نعم، من فضلك. أنا مستعد.",
+     "pronunciation": "Sí, por favor. Estoy listo.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D07_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ES_D07_08",
+     "speakerId": "laith",
+     "targetText": "Maravilloso. Adiós por ahora y ven con nosotros.",
+     "englishReference": "Wonderful. Goodbye for now, and come with us.",
+     "arabicTranslation": "رائع. إلى اللقاء الآن، وتعال معنا.",
+     "pronunciation": "Maravilloso. Adiós por ahora y ven con nosotros.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ES_D07_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D07_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_ES_D07_C01",
+      "P_A1_ES_D07_C02",
+      "P_A1_ES_D07_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_ES_D07_C01",
+      "P_A1_ES_D07_C02",
+      "P_A1_ES_D07_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_ES_D07_I01",
+      "P_A1_ES_D07_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D07_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: إدارة لقاء اجتماعي قصير من البداية إلى النهاية.",
+   "requiredPhraseIds": [
+    "P_A1_ES_D07_C01",
+    "P_A1_ES_D07_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D07_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Escuché que Laith ayudó hoy.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "Escuché que Laith ayudó hoy."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "El pueblo empieza a conocerlo.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "El pueblo empieza a conocerlo."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D07_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: أول أسبوع.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "قدّم نفسك، اسأل عن الحال، ثم أنهِ اللقاء بأدب مع شخصين."
+   },
+   "successWorldConsequence": "VILLAGE_WELCOME:+1; MARKET_VISIT:UNLOCKED",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_ES_D07_S01",
+   "text": "Buenos días a todos.",
+   "englishReference": "Good morning, everyone.",
+   "arabicTranslation": "صباح الخير يا جميعًا.",
+   "pronunciation": "Buenos días a todos.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D07_LEARNING",
+   "transferContexts": [
+    "إدارة لقاء اجتماعي قصير من البداية إلى النهاية."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ES_D07_I01",
+   "text": "Buenos días, Laith. ¿Cómo estás?",
+   "englishReference": "Good morning, Laith. How are you?",
+   "arabicTranslation": "صباح الخير يا ليث. كيف حالك؟",
+   "pronunciation": "Buenos días, Laith. ¿Cómo estás?",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D07_LEARNING",
+   "transferContexts": [
+    "إدارة لقاء اجتماعي قصير من البداية إلى النهاية."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_ES_D07_C01",
+   "text": "Estoy bien gracias. Mi nombre es Laith.",
+   "englishReference": "I am fine, thank you. My name is Laith.",
+   "arabicTranslation": "أنا بخير، شكرًا. اسمي ليث.",
+   "pronunciation": "Estoy bien gracias. Mi nombre es Laith.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D07_LEARNING",
+   "transferContexts": [
+    "إدارة لقاء اجتماعي قصير من البداية إلى النهاية."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ES_D07_S02",
+   "text": "Sabemos tu nombre ahora. Eres bienvenido aquí.",
+   "englishReference": "We know your name now. You are welcome here.",
+   "arabicTranslation": "نحن نعرف اسمك الآن. أنت مرحب بك هنا.",
+   "pronunciation": "Sabemos tu nombre ahora. Eres bienvenido aquí.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D07_LEARNING",
+   "transferContexts": [
+    "إدارة لقاء اجتماعي قصير من البداية إلى النهاية."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ES_D07_C02",
+   "text": "Encantado de conocerlos a todos.",
+   "englishReference": "Nice to meet you all.",
+   "arabicTranslation": "سعيد بلقائكم جميعًا.",
+   "pronunciation": "Encantado de conocerlos a todos.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D07_LEARNING",
+   "transferContexts": [
+    "إدارة لقاء اجتماعي قصير من البداية إلى النهاية."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ES_D07_C03",
+   "text": "¿Quieres visitar el mercado?",
+   "englishReference": "Would you like to visit the market?",
+   "arabicTranslation": "هل تريد أن تزور السوق؟",
+   "pronunciation": "¿Quieres visitar el mercado?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D07_LEARNING",
+   "transferContexts": [
+    "إدارة لقاء اجتماعي قصير من البداية إلى النهاية."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ES_D07_S03",
+   "text": "Sí, por favor. Estoy listo.",
+   "englishReference": "Yes, please. I am ready.",
+   "arabicTranslation": "نعم، من فضلك. أنا مستعد.",
+   "pronunciation": "Sí, por favor. Estoy listo.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D07_LEARNING",
+   "transferContexts": [
+    "إدارة لقاء اجتماعي قصير من البداية إلى النهاية."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ES_D07_I02",
+   "text": "Maravilloso. Adiós por ahora y ven con nosotros.",
+   "englishReference": "Wonderful. Goodbye for now, and come with us.",
+   "arabicTranslation": "رائع. إلى اللقاء الآن، وتعال معنا.",
+   "pronunciation": "Maravilloso. Adiós por ahora y ven con nosotros.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D07_LEARNING",
+   "transferContexts": [
+    "إدارة لقاء اجتماعي قصير من البداية إلى النهاية."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_ES_D07_C01",
+     "P_A1_ES_D07_C02",
+     "P_A1_ES_D07_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_ES_D07_C01",
+     "P_A1_ES_D07_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_ES_D07_C01",
+    "P_A1_ES_D07_C02",
+    "P_A1_ES_D07_C03",
+    "P_A1_ES_D07_I01",
+    "P_A1_ES_D07_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D06:COMPLETE"
+  ],
+  "onSuccess": [
+   "VILLAGE_WELCOME:+1; MARKET_VISIT:UNLOCKED",
+   "A1_D08:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_07",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_es_d06",
+  "nextLessonId": "story_a1_es_d08",
+  "nextLessonHookArabic": "غدًا: بيتي الجديد.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 7: أول أسبوع."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

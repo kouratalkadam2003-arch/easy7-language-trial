@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 29,
+ "story": {
+  "originalText": "Yassin: Hola, Yassin. ¿Qué te gusta?\nOmar: Me gusta el inglés y los libros.\nYassin: Me gusta el café y el fútbol.\nOmar: ¿Te gusta nuestra casa?\nYassin: Sí, me gusta mucho nuestra casa.\nOmar: No me gusta la comida fría.\nYassin: No me gusta llegar tarde.\nOmar: Me gusta estudiar contigo.\nYassin: También me gusta aprender contigo.\nOmar: Mañana es nuestro examen A1. Adiós.",
+  "translatedText": "Yassin: مرحباً يا ياسين. ماذا تحب؟\nOmar: أحب الإنجليزية والكتب.\nYassin: أحب القهوة وكرة القدم.\nOmar: هل تحب بيتنا؟\nYassin: نعم، أحب بيتنا كثيراً.\nOmar: لا أحب الطعام البارد.\nYassin: لا أحب التأخر.\nOmar: أحب الدراسة معك.\nYassin: وأنا أحب التعلم معك أيضاً.\nOmar: غداً امتحان A1. وداعاً.",
+  "nativeScriptText": "Yassin: Hola, Yassin. ¿Qué te gusta?\nOmar: Me gusta el inglés y los libros.\nYassin: Me gusta el café y el fútbol.\nOmar: ¿Te gusta nuestra casa?\nYassin: Sí, me gusta mucho nuestra casa.\nOmar: No me gusta la comida fría.\nYassin: No me gusta llegar tarde.\nOmar: Me gusta estudiar contigo.\nYassin: También me gusta aprender contigo.\nOmar: Mañana es nuestro examen A1. Adiós.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 29: أحب / أكره",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hola, Yassin. ¿Qué te gusta?",
+    "translation": "مرحباً يا ياسين. ماذا تحب؟",
+    "pronunciation": "Hola, Yassin. ¿Qué te gusta?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Me gusta el inglés y los libros.",
+    "translation": "أحب الإنجليزية والكتب.",
+    "pronunciation": "Me gusta el inglés y los libros."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Me gusta el café y el fútbol.",
+    "translation": "أحب القهوة وكرة القدم.",
+    "pronunciation": "Me gusta el café y el fútbol."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "¿Te gusta nuestra casa?",
+    "translation": "هل تحب بيتنا؟",
+    "pronunciation": "¿Te gusta nuestra casa?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Sí, me gusta mucho nuestra casa.",
+    "translation": "نعم، أحب بيتنا كثيراً.",
+    "pronunciation": "Sí, me gusta mucho nuestra casa."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "No me gusta la comida fría.",
+    "translation": "لا أحب الطعام البارد.",
+    "pronunciation": "No me gusta la comida fría."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "No me gusta llegar tarde.",
+    "translation": "لا أحب التأخر.",
+    "pronunciation": "No me gusta llegar tarde."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Me gusta estudiar contigo.",
+    "translation": "أحب الدراسة معك.",
+    "pronunciation": "Me gusta estudiar contigo."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "También me gusta aprender contigo.",
+    "translation": "وأنا أحب التعلم معك أيضاً.",
+    "pronunciation": "También me gusta aprender contigo."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Mañana es nuestro examen A1. Adiós.",
+    "translation": "غداً امتحان A1. وداعاً.",
+    "pronunciation": "Mañana es nuestro examen A1. Adiós."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d29",
+   "title": "أحب / أكره",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 29,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s4_d28"
+  ],
+  "createdAt": 1786696446398
+ }
+}

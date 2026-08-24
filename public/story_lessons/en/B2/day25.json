@@ -1,0 +1,447 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_en_d25",
+  "languageCode": "en",
+  "languageNameArabic": "الإنجليزية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 25,
+  "lessonTitle": "A Careful Investigation",
+  "englishTitle": "A Careful Investigation",
+  "arabicTitle": "تحقيق هادئ",
+  "canonicalBeatIds": [
+   "BEAT_B2_D25"
+  ],
+  "canonVersion": "STORY_CANON_V1_1"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف خطة تحقيق أخلاقية.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: تحقيق هادئ."
+ },
+ "story": {
+  "storyContextArabic": "يقرر ليث جمع الحقائق دون اتهام خالد أو سارة.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: تحقيق هادئ.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: تحقيق هادئ."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D25_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D25_01",
+     "narrationArabic": "يقرر ليث جمع الحقائق دون اتهام خالد أو سارة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D25_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف خطة تحقيق أخلاقية.",
+   "lines": [
+    {
+     "lineId": "L_B2_EN_D25_01",
+     "speakerId": "elly",
+     "targetText": "Before we decide, how does the careful investigation affect both sides?",
+     "englishReference": "Before we decide, how does the careful investigation affect both sides?",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "Before we decide, how does the careful investigation affect both sides?",
+     "phraseIds": [
+      "P_B2_EN_D25_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_EN_D25_02",
+     "speakerId": "laith",
+     "targetText": "I think we need facts before we accuse anyone.",
+     "englishReference": "I think we need facts before we accuse anyone.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "I think we need facts before we accuse anyone.",
+     "phraseIds": [
+      "P_B2_EN_D25_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D25_03",
+     "speakerId": "elly",
+     "targetText": "What is the strongest objection?",
+     "englishReference": "What is the strongest objection?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "What is the strongest objection?",
+     "phraseIds": [
+      "P_B2_EN_D25_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D25_04",
+     "speakerId": "laith",
+     "targetText": "Although suspicion can damage trust, we can improve the plan.",
+     "englishReference": "Although suspicion can damage trust, we can improve the plan.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "Although suspicion can damage trust, we can improve the plan.",
+     "phraseIds": [
+      "P_B2_EN_D25_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D25_05",
+     "speakerId": "elly",
+     "targetText": "What are you willing to offer?",
+     "englishReference": "What are you willing to offer?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "What are you willing to offer?",
+     "phraseIds": [
+      "P_B2_EN_D25_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D25_06",
+     "speakerId": "laith",
+     "targetText": "If we agree, we can keep our questions respectful.",
+     "englishReference": "If we agree, we can keep our questions respectful.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "If we agree, we can keep our questions respectful.",
+     "phraseIds": [
+      "P_B2_EN_D25_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D25_07",
+     "speakerId": "elly",
+     "targetText": "That sounds balanced.",
+     "englishReference": "That sounds balanced.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "That sounds balanced.",
+     "phraseIds": [
+      "P_B2_EN_D25_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_EN_D25_08",
+     "speakerId": "laith",
+     "targetText": "Thank you. Let us record the agreement.",
+     "englishReference": "Thank you. Let us record the agreement.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "Thank you. Let us record the agreement.",
+     "phraseIds": [
+      "P_B2_EN_D25_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D25_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_EN_D25_C01",
+      "P_B2_EN_D25_C02",
+      "P_B2_EN_D25_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_EN_D25_C01",
+      "P_B2_EN_D25_C02",
+      "P_B2_EN_D25_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_EN_D25_I01",
+      "P_B2_EN_D25_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D25_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_EN_D25_C01",
+    "P_B2_EN_D25_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D25_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "The alliance is changing the region.",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Some details should remain private for now.",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D25_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: تحقيق هادئ.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "INVESTIGATION:ETHICAL",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_EN_D25_S01",
+   "text": "Before we decide, how does the careful investigation affect both sides?",
+   "englishReference": "Before we decide, how does the careful investigation affect both sides?",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "Before we decide, how does the careful investigation affect both sides?",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_EN_D25_C01",
+   "text": "I think we need facts before we accuse anyone.",
+   "englishReference": "I think we need facts before we accuse anyone.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "I think we need facts before we accuse anyone.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_EN_D25_I01",
+   "text": "What is the strongest objection?",
+   "englishReference": "What is the strongest objection?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "What is the strongest objection?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_EN_D25_C02",
+   "text": "Although suspicion can damage trust, we can improve the plan.",
+   "englishReference": "Although suspicion can damage trust, we can improve the plan.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "Although suspicion can damage trust, we can improve the plan.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_EN_D25_I02",
+   "text": "What are you willing to offer?",
+   "englishReference": "What are you willing to offer?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "What are you willing to offer?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_EN_D25_C03",
+   "text": "If we agree, we can keep our questions respectful.",
+   "englishReference": "If we agree, we can keep our questions respectful.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "If we agree, we can keep our questions respectful.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_EN_D25_S02",
+   "text": "That sounds balanced.",
+   "englishReference": "That sounds balanced.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "That sounds balanced.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_EN_D25_S03",
+   "text": "Thank you. Let us record the agreement.",
+   "englishReference": "Thank you. Let us record the agreement.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "Thank you. Let us record the agreement.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_EN_D25_C01",
+     "P_B2_EN_D25_C02",
+     "P_B2_EN_D25_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_EN_D25_I01",
+     "P_B2_EN_D25_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_EN_D25_C01",
+    "P_B2_EN_D25_C02",
+    "P_B2_EN_D25_C03",
+    "P_B2_EN_D25_I01",
+    "P_B2_EN_D25_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B2_D24:COMPLETE"
+  ],
+  "onSuccess": [
+   "INVESTIGATION:ETHICAL",
+   "B2_D26:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_25",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b2_en_d24",
+  "nextLessonId": "story_b2_en_d26",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 25: تحقيق هادئ."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

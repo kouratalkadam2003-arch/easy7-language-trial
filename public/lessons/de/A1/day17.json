@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 17,
+ "story": {
+  "originalText": "Yassin: Hallo, Omar. Ist Herr Ali unser Lehrer?\nOmar: Ja, Herr Ali ist unser Lehrer.\nYassin: Er spricht langsam und deutlich.\nOmar: Ja, er hilft jedem Schüler.\nYassin: Ich möchte den Lehrer etwas fragen.\nOmar: Du kannst nach dem Unterricht fragen.\nYassin: Hat der Lehrer ein Buch?\nOmar: Ja, er hat ein neues Buch für uns.\nYassin: Ich brauche dieses Buch.\nOmar: Wir können es morgen bekommen.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل الأستاذ علي هو معلمنا؟\nOmar: نعم، الأستاذ علي هو معلمنا.\nYassin: هو يتكلم ببطء ووضوح.\nOmar: نعم، هو يساعد كل طالب.\nYassin: أريد أن أسأل المعلم سؤالاً.\nOmar: يمكنك أن تسأل بعد الدرس.\nYassin: هل لدى المعلم كتاب؟\nOmar: نعم، لديه كتاب جديد لنا.\nYassin: أحتاج ذلك الكتاب.\nOmar: يمكننا الحصول عليه غداً.",
+  "nativeScriptText": "Yassin: Hallo, Omar. Ist Herr Ali unser Lehrer?\nOmar: Ja, Herr Ali ist unser Lehrer.\nYassin: Er spricht langsam und deutlich.\nOmar: Ja, er hilft jedem Schüler.\nYassin: Ich möchte den Lehrer etwas fragen.\nOmar: Du kannst nach dem Unterricht fragen.\nYassin: Hat der Lehrer ein Buch?\nOmar: Ja, er hat ein neues Buch für uns.\nYassin: Ich brauche dieses Buch.\nOmar: Wir können es morgen bekommen.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 17: أستاذ",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hallo, Omar. Ist Herr Ali unser Lehrer?",
+    "translation": "مرحباً يا عمر. هل الأستاذ علي هو معلمنا؟",
+    "pronunciation": "Hallo, Omar. Ist Herr Ali unser Lehrer?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, Herr Ali ist unser Lehrer.",
+    "translation": "نعم، الأستاذ علي هو معلمنا.",
+    "pronunciation": "Ja, Herr Ali ist unser Lehrer."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Er spricht langsam und deutlich.",
+    "translation": "هو يتكلم ببطء ووضوح.",
+    "pronunciation": "Er spricht langsam und deutlich."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, er hilft jedem Schüler.",
+    "translation": "نعم، هو يساعد كل طالب.",
+    "pronunciation": "Ja, er hilft jedem Schüler."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich möchte den Lehrer etwas fragen.",
+    "translation": "أريد أن أسأل المعلم سؤالاً.",
+    "pronunciation": "Ich möchte den Lehrer etwas fragen."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Du kannst nach dem Unterricht fragen.",
+    "translation": "يمكنك أن تسأل بعد الدرس.",
+    "pronunciation": "Du kannst nach dem Unterricht fragen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hat der Lehrer ein Buch?",
+    "translation": "هل لدى المعلم كتاب؟",
+    "pronunciation": "Hat der Lehrer ein Buch?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, er hat ein neues Buch für uns.",
+    "translation": "نعم، لديه كتاب جديد لنا.",
+    "pronunciation": "Ja, er hat ein neues Buch für uns."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich brauche dieses Buch.",
+    "translation": "أحتاج ذلك الكتاب.",
+    "pronunciation": "Ich brauche dieses Buch."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Wir können es morgen bekommen.",
+    "translation": "يمكننا الحصول عليه غداً.",
+    "pronunciation": "Wir können es morgen bekommen."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d17",
+   "title": "أستاذ",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 17,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s3_d16"
+  ],
+  "createdAt": 1786696446398
+ }
+}

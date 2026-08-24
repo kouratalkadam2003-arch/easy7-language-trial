@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_es_d24",
+  "languageCode": "es",
+  "languageNameArabic": "الإسبانية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 24,
+  "lessonTitle": "Perdido en el camino",
+  "englishTitle": "Lost on the Road",
+  "arabicTitle": "طريق ضائع",
+  "canonicalBeatIds": [
+   "BEAT_A2_D24"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "قول إنك ضائع وطلب اتجاهات.",
+  "realLifeTransferArabic": "طلب مساعدة في مدينة جديدة.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: طريق ضائع دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "يبتعد ليث قليلًا عن غاستون ويجد نفسه عند طرق متشابهة.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: طريق ضائع.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "shopkeeper"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: طريق ضائع."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D24_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D24_01",
+     "narrationArabic": "يبتعد ليث قليلًا عن غاستون ويجد نفسه عند طرق متشابهة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D24_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "قول إنك ضائع وطلب اتجاهات.",
+   "lines": [
+    {
+     "lineId": "L_A2_ES_D24_01",
+     "speakerId": "shopkeeper",
+     "targetText": "Buenos días, Laith. Disculpe, ¿está buscando algo?",
+     "englishReference": "Good morning, Laith. Excuse me, are you looking for something?",
+     "arabicTranslation": "صباح الخير يا ليث. Excuse me, are you looking for something?",
+     "pronunciation": "Buenos días, Laith. Disculpe, ¿está buscando algo?",
+     "phraseIds": [
+      "P_A2_ES_D24_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ES_D24_02",
+     "speakerId": "laith",
+     "targetText": "Buen día. Sí, creo que estoy perdido.",
+     "englishReference": "Good morning. Yes, I think I am lost.",
+     "arabicTranslation": "صباح الخير. Yes, I think I am lost.",
+     "pronunciation": "Buen día. Sí, creo que estoy perdido.",
+     "phraseIds": [
+      "P_A2_ES_D24_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D24_03",
+     "speakerId": "shopkeeper",
+     "targetText": "¿A dónde quieres ir?",
+     "englishReference": "Where do you want to go?",
+     "arabicTranslation": "Where do you want to go?",
+     "pronunciation": "¿A dónde quieres ir?",
+     "phraseIds": [
+      "P_A2_ES_D24_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D24_04",
+     "speakerId": "laith",
+     "targetText": "Necesito encontrar la antigua plaza del mercado.",
+     "englishReference": "I need to find the old market square.",
+     "arabicTranslation": "I need to find the old market square.",
+     "pronunciation": "Necesito encontrar la antigua plaza del mercado.",
+     "phraseIds": [
+      "P_A2_ES_D24_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D24_05",
+     "speakerId": "shopkeeper",
+     "targetText": "Está cerca del puente. Gira a la izquierda en la fuente.",
+     "englishReference": "It is near the bridge. Turn left at the fountain.",
+     "arabicTranslation": "It is near the bridge. Turn left at the fountain.",
+     "pronunciation": "Está cerca del puente. Gira a la izquierda en la fuente.",
+     "phraseIds": [
+      "P_A2_ES_D24_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D24_06",
+     "speakerId": "laith",
+     "targetText": "Gracias. Puedo encontrarlo ahora.",
+     "englishReference": "Thank you. I can find it now.",
+     "arabicTranslation": "Thank you. I can find it now.",
+     "pronunciation": "Gracias. Puedo encontrarlo ahora.",
+     "phraseIds": [
+      "P_A2_ES_D24_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D24_07",
+     "speakerId": "shopkeeper",
+     "targetText": "Suena como un buen plan.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "Suena como un buen plan.",
+     "phraseIds": [
+      "P_A2_ES_D24_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ES_D24_08",
+     "speakerId": "laith",
+     "targetText": "Gracias. Hasta luego.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Gracias. Hasta luego.",
+     "phraseIds": [
+      "P_A2_ES_D24_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D24_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_ES_D24_C01",
+      "P_A2_ES_D24_C02",
+      "P_A2_ES_D24_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_ES_D24_C01",
+      "P_A2_ES_D24_C02",
+      "P_A2_ES_D24_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_ES_D24_I01",
+      "P_A2_ES_D24_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D24_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: طلب مساعدة في مدينة جديدة.",
+   "requiredPhraseIds": [
+    "P_A2_ES_D24_C01",
+    "P_A2_ES_D24_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D24_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "El mercado está cambiando rápidamente esta temporada.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "El mercado está cambiando rápidamente esta temporada."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Sí. La gente hace más preguntas sobre las carreteras antiguas.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "Sí. La gente hace más preguntas sobre las carreteras antiguas."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D24_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: طريق ضائع.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: طريق ضائع."
+   },
+   "successWorldConsequence": "OLD_SQUARE:FOUND",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_ES_D24_S01",
+   "text": "Buenos días, Laith. Disculpe, ¿está buscando algo?",
+   "englishReference": "Good morning, Laith. Excuse me, are you looking for something?",
+   "arabicTranslation": "صباح الخير يا ليث. Excuse me, are you looking for something?",
+   "pronunciation": "Buenos días, Laith. Disculpe, ¿está buscando algo?",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "طلب مساعدة في مدينة جديدة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ES_D24_C01",
+   "text": "Buen día. Sí, creo que estoy perdido.",
+   "englishReference": "Good morning. Yes, I think I am lost.",
+   "arabicTranslation": "صباح الخير. Yes, I think I am lost.",
+   "pronunciation": "Buen día. Sí, creo que estoy perdido.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "طلب مساعدة في مدينة جديدة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ES_D24_I01",
+   "text": "¿A dónde quieres ir?",
+   "englishReference": "Where do you want to go?",
+   "arabicTranslation": "Where do you want to go?",
+   "pronunciation": "¿A dónde quieres ir?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "طلب مساعدة في مدينة جديدة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ES_D24_C02",
+   "text": "Necesito encontrar la antigua plaza del mercado.",
+   "englishReference": "I need to find the old market square.",
+   "arabicTranslation": "I need to find the old market square.",
+   "pronunciation": "Necesito encontrar la antigua plaza del mercado.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "طلب مساعدة في مدينة جديدة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ES_D24_I02",
+   "text": "Está cerca del puente. Gira a la izquierda en la fuente.",
+   "englishReference": "It is near the bridge. Turn left at the fountain.",
+   "arabicTranslation": "It is near the bridge. Turn left at the fountain.",
+   "pronunciation": "Está cerca del puente. Gira a la izquierda en la fuente.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "طلب مساعدة في مدينة جديدة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ES_D24_C03",
+   "text": "Gracias. Puedo encontrarlo ahora.",
+   "englishReference": "Thank you. I can find it now.",
+   "arabicTranslation": "Thank you. I can find it now.",
+   "pronunciation": "Gracias. Puedo encontrarlo ahora.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "طلب مساعدة في مدينة جديدة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ES_D24_S02",
+   "text": "Suena como un buen plan.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "Suena como un buen plan.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "طلب مساعدة في مدينة جديدة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ES_D24_S03",
+   "text": "Gracias. Hasta luego.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Gracias. Hasta luego.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "طلب مساعدة في مدينة جديدة."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_ES_D24_C01",
+     "P_A2_ES_D24_C02",
+     "P_A2_ES_D24_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_ES_D24_I01",
+     "P_A2_ES_D24_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_ES_D24_C01",
+    "P_A2_ES_D24_C02",
+    "P_A2_ES_D24_C03",
+    "P_A2_ES_D24_I01",
+    "P_A2_ES_D24_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D23:COMPLETE"
+  ],
+  "onSuccess": [
+   "OLD_SQUARE:FOUND",
+   "A2_D25:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_24",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_es_d23",
+  "nextLessonId": "story_a2_es_d25",
+  "nextLessonHookArabic": "تظهر على جدار قديم علامة تشبه رمزًا من ذاكرة ليث.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 24: طريق ضائع."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

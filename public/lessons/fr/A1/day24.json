@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "A1",
+ "dayNumber": 24,
+ "story": {
+  "originalText": "Yassin: Excusez-moi, puis-je avoir l'addition, s'il vous plaît ?\nOmar: L'addition est sur la table.\nYassin: Combien coûte l'addition ?\nOmar: L'addition est de seize dollars.\nYassin: J'ai dix dollars.\nOmar: J'ai six dollars.\nYassin: Nous pouvons payer ensemble.\nOmar: Merci, mon ami.\nYassin: De rien. Ça va ?\nOmar: Je me sens un peu malade.",
+  "translatedText": "Yassin: عفواً، هل يمكنني الحصول على الفاتورة، من فضلك؟\nOmar: الفاتورة على الطاولة.\nYassin: كم قيمة الفاتورة؟\nOmar: الفاتورة ستة عشر دولاراً.\nYassin: لدي عشرة دولارات.\nOmar: لدي ستة دولارات.\nYassin: يمكننا أن ندفع معاً.\nOmar: شكراً يا صديقي.\nYassin: عفواً. هل أنت بخير؟\nOmar: أشعر بالمرض قليلاً.",
+  "nativeScriptText": "Yassin: Excusez-moi, puis-je avoir l'addition, s'il vous plaît ?\nOmar: L'addition est sur la table.\nYassin: Combien coûte l'addition ?\nOmar: L'addition est de seize dollars.\nYassin: J'ai dix dollars.\nOmar: J'ai six dollars.\nYassin: Nous pouvons payer ensemble.\nOmar: Merci, mon ami.\nYassin: De rien. Ça va ?\nOmar: Je me sens un peu malade.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 24: فاتورة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Excusez-moi, puis-je avoir l'addition, s'il vous plaît ?",
+    "translation": "عفواً، هل يمكنني الحصول على الفاتورة، من فضلك؟",
+    "pronunciation": "Excusez-moi, puis-je avoir l'addition, s'il vous plaît ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "L'addition est sur la table.",
+    "translation": "الفاتورة على الطاولة.",
+    "pronunciation": "L'addition est sur la table."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Combien coûte l'addition ?",
+    "translation": "كم قيمة الفاتورة؟",
+    "pronunciation": "Combien coûte l'addition ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "L'addition est de seize dollars.",
+    "translation": "الفاتورة ستة عشر دولاراً.",
+    "pronunciation": "L'addition est de seize dollars."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "J'ai dix dollars.",
+    "translation": "لدي عشرة دولارات.",
+    "pronunciation": "J'ai dix dollars."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "J'ai six dollars.",
+    "translation": "لدي ستة دولارات.",
+    "pronunciation": "J'ai six dollars."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Nous pouvons payer ensemble.",
+    "translation": "يمكننا أن ندفع معاً.",
+    "pronunciation": "Nous pouvons payer ensemble."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Merci, mon ami.",
+    "translation": "شكراً يا صديقي.",
+    "pronunciation": "Merci, mon ami."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "De rien. Ça va ?",
+    "translation": "عفواً. هل أنت بخير؟",
+    "pronunciation": "De rien. Ça va ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Je me sens un peu malade.",
+    "translation": "أشعر بالمرض قليلاً.",
+    "pronunciation": "Je me sens un peu malade."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d24",
+   "title": "فاتورة",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 24,
+  "level": "A1",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s4_d23"
+  ],
+  "createdAt": 1786696446398
+ }
+}

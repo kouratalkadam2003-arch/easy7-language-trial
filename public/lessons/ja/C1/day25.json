@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "C1",
+ "dayNumber": 25,
+ "story": {
+  "originalText": "Yassin: ohayou , omaru .\nOmar: ohayou , yashin . hanashiai wo tsuzuke rareteureshiidesu .\nYassin: ( shihonshugi ) toiu teema wo hanasu toki , jijitsu to katei wo kubetsu subekidesu .\nOmar: sansei desu . chuuibukai bunseki ha , tanjunna kotae no genkai wo akiraka nishimasu .\nYassin: watashi no kaishaku deha , ( shihonshugi ) toiu teema ha bunmyaku , gengo , kenryoku ni sayuu saremasu .\nOmar: sono kaishaku ha settokuryoku gaarimasuga , betsuno shiten hasoreni igi wo tonae rukamoshiremasen .\nYassin: ningenteki na kekka wo mushise zuni , dousureba watashitachi no kangaekata wo setsumei dekimasuka .\nOmar: konkyo wo meikaku ni shimeshi , futashika na ten wo mitome rukotogadekimasu .\nYassin: arigatou . sonookagede watashitachi no bunseki hayori sekinin arumononinarimasu .\nOmar: deha , mata . ashita ha ( kabushikishijou ) toiu teema nitsuite hanashi mashou .",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: عندما نناقش موضوع رأسمالية، ينبغي أن نميز بين الحقائق والافتراضات.\nOmar: أوافق، لأن التحليل الدقيق يكشف حدود الإجابات البسيطة.\nYassin: تفسيري هو أن موضوع رأسمالية يعتمد على السياق واللغة والقوة.\nOmar: هذا التفسير مقنع، مع أن منظورًا آخر قد يتحداه.\nYassin: كيف يمكننا أن نشرح استدلالنا من دون تجاهل النتائج الإنسانية؟\nOmar: يمكننا أن نعرض أدلتنا بوضوح وأن نقر بما يبقى غير مؤكد.\nYassin: شكرًا، لأن ذلك يجعل تحليلنا أكثر مسؤولية.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Stock market.",
+  "nativeScriptText": "Yassin: おはよう、オマル。\nOmar: おはよう、ヤシン。話し合いを続けられてうれしいです。\nYassin: 「資本主義」というテーマを話すとき、事実と仮定を区別すべきです。\nOmar: 賛成です。注意深い分析は、単純な答えの限界を明らかにします。\nYassin: 私の解釈では、「資本主義」というテーマは文脈、言語、権力に左右されます。\nOmar: その解釈は説得力がありますが、別の視点はそれに異議を唱えるかもしれません。\nYassin: 人間的な結果を無視せずに、どうすれば私たちの考え方を説明できますか。\nOmar: 根拠を明確に示し、不確かな点を認めることができます。\nYassin: ありがとう。そのおかげで私たちの分析はより責任あるものになります。\nOmar: では、また。明日は「株式市場」というテーマについて話しましょう。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 25: رأسمالية",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "おはよう、オマル。",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "ohayou , omaru ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "おはよう、ヤシン。話し合いを続けられてうれしいです。",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "ohayou , yashin . hanashiai wo tsuzuke rareteureshiidesu ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "「資本主義」というテーマを話すとき、事実と仮定を区別すべきです。",
+    "translation": "عندما نناقش موضوع رأسمالية، ينبغي أن نميز بين الحقائق والافتراضات.",
+    "pronunciation": "( shihonshugi ) toiu teema wo hanasu toki , jijitsu to katei wo kubetsu subekidesu ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "賛成です。注意深い分析は、単純な答えの限界を明らかにします。",
+    "translation": "أوافق، لأن التحليل الدقيق يكشف حدود الإجابات البسيطة.",
+    "pronunciation": "sansei desu . chuuibukai bunseki ha , tanjunna kotae no genkai wo akiraka nishimasu ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私の解釈では、「資本主義」というテーマは文脈、言語、権力に左右されます。",
+    "translation": "تفسيري هو أن موضوع رأسمالية يعتمد على السياق واللغة والقوة.",
+    "pronunciation": "watashi no kaishaku deha , ( shihonshugi ) toiu teema ha bunmyaku , gengo , kenryoku ni sayuu saremasu ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "その解釈は説得力がありますが、別の視点はそれに異議を唱えるかもしれません。",
+    "translation": "هذا التفسير مقنع، مع أن منظورًا آخر قد يتحداه.",
+    "pronunciation": "sono kaishaku ha settokuryoku gaarimasuga , betsuno shiten hasoreni igi wo tonae rukamoshiremasen ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "人間的な結果を無視せずに、どうすれば私たちの考え方を説明できますか。",
+    "translation": "كيف يمكننا أن نشرح استدلالنا من دون تجاهل النتائج الإنسانية؟",
+    "pronunciation": "ningenteki na kekka wo mushise zuni , dousureba watashitachi no kangaekata wo setsumei dekimasuka ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "根拠を明確に示し、不確かな点を認めることができます。",
+    "translation": "يمكننا أن نعرض أدلتنا بوضوح وأن نقر بما يبقى غير مؤكد.",
+    "pronunciation": "konkyo wo meikaku ni shimeshi , futashika na ten wo mitome rukotogadekimasu ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "ありがとう。そのおかげで私たちの分析はより責任あるものになります。",
+    "translation": "شكرًا، لأن ذلك يجعل تحليلنا أكثر مسؤولية.",
+    "pronunciation": "arigatou . sonookagede watashitachi no bunseki hayori sekinin arumononinarimasu ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "では、また。明日は「株式市場」というテーマについて話しましょう。",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Stock market.",
+    "pronunciation": "deha , mata . ashita ha ( kabushikishijou ) toiu teema nitsuite hanashi mashou ."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d25",
+   "title": "رأسمالية",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 25,
+  "level": "C1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s4_d24"
+  ],
+  "createdAt": 1786705141011
+ }
+}

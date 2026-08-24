@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 23,
+ "story": {
+  "originalText": "Yassin: Nǐ hǎo. Zhè dùn fàn duōshǎo qián?\nOmar: Zhè dùn fàn shí měiyuán.\nYassin: Shuǐ duōshǎo qián?\nOmar: Shuǐ yī měiyuán.\nYassin: Tāng duōshǎo qián?\nOmar: Tāng wǔ měiyuán.\nYassin: Jiàgé búcuò.\nOmar: Shì de, wǒmen xiànzài kěyǐ diǎn cài.\nYassin: Chī wán fàn hòu, wǒmen xūyào jiézhàng.\nOmar: Wǒ lái yào zhàngdān.",
+  "translatedText": "Yassin: مرحباً. كم ثمن هذه الوجبة؟\nOmar: الوجبة بعشرة دولارات.\nYassin: كم ثمن الماء؟\nOmar: الماء بدولار واحد.\nYassin: كم ثمن الحساء؟\nOmar: الحساء بخمسة دولارات.\nYassin: الأسعار جيدة.\nOmar: نعم، يمكننا الطلب الآن.\nYassin: بعد الطعام، نحتاج إلى الفاتورة.\nOmar: سأطلبها.",
+  "nativeScriptText": "Yassin: 你好。这顿饭多少钱？\nOmar: 这顿饭十美元。\nYassin: 水多少钱？\nOmar: 水一美元。\nYassin: 汤多少钱？\nOmar: 汤五美元。\nYassin: 价格不错。\nOmar: 是的，我们现在可以点菜。\nYassin: 吃完饭后，我们需要结账。\nOmar: 我来要账单。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 23: كم؟",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你好。这顿饭多少钱？",
+    "translation": "مرحباً. كم ثمن هذه الوجبة؟",
+    "pronunciation": "Nǐ hǎo. Zhè dùn fàn duōshǎo qián?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "这顿饭十美元。",
+    "translation": "الوجبة بعشرة دولارات.",
+    "pronunciation": "Zhè dùn fàn shí měiyuán."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "水多少钱？",
+    "translation": "كم ثمن الماء؟",
+    "pronunciation": "Shuǐ duōshǎo qián?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "水一美元。",
+    "translation": "الماء بدولار واحد.",
+    "pronunciation": "Shuǐ yī měiyuán."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "汤多少钱？",
+    "translation": "كم ثمن الحساء؟",
+    "pronunciation": "Tāng duōshǎo qián?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "汤五美元。",
+    "translation": "الحساء بخمسة دولارات.",
+    "pronunciation": "Tāng wǔ měiyuán."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "价格不错。",
+    "translation": "الأسعار جيدة.",
+    "pronunciation": "Jiàgé búcuò."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，我们现在可以点菜。",
+    "translation": "نعم، يمكننا الطلب الآن.",
+    "pronunciation": "Shì de, wǒmen xiànzài kěyǐ diǎn cài."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "吃完饭后，我们需要结账。",
+    "translation": "بعد الطعام، نحتاج إلى الفاتورة.",
+    "pronunciation": "Chī wán fàn hòu, wǒmen xūyào jiézhàng."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我来要账单。",
+    "translation": "سأطلبها.",
+    "pronunciation": "Wǒ lái yào zhàngdān."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d23",
+   "title": "كم؟",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 23,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s4_d22"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 26,
+ "story": {
+  "originalText": "Yassin: Ohayō, Omar. Isha no junbi wa dekimashita ka?\nOmar: Hai, junbi dekimashita.\nYassin: Isha wa kono shinryōjo ni imasu.\nOmar: Konnichiwa, sensei. Guai ga warui desu.\nYassin: Kare wa atama ga itai desu.\nOmar: Isha wa kyūyō ga hitsuyō da to iimashita.\nYassin: Kusuri wa hitsuyō desu ka?\nOmar: Hai, isha wa kusuri o kuremashita.\nYassin: Ie de tetsudaimasu.\nOmar: Tasukete kurete arigatō.",
+  "translatedText": "Yassin: صباح الخير يا عمر. هل أنت مستعد للطبيب؟\nOmar: نعم، أنا مستعد.\nYassin: الطبيب في هذه العيادة.\nOmar: مرحباً يا دكتور. أشعر بالمرض.\nYassin: لديه صداع.\nOmar: الطبيب يقول إنني أحتاج إلى الراحة.\nYassin: هل تحتاج إلى دواء؟\nOmar: نعم، الطبيب يعطيني دواء.\nYassin: سأساعدك في البيت.\nOmar: شكراً لمساعدتك.",
+  "nativeScriptText": "Yassin: おはよう、Omar。医者の準備はできましたか？\nOmar: はい、準備できました。\nYassin: 医者はこの診療所にいます。\nOmar: こんにちは、先生。具合が悪いです。\nYassin: 彼は頭が痛いです。\nOmar: 医者は休養が必要だと言いました。\nYassin: 薬は必要ですか？\nOmar: はい、医者は薬をくれました。\nYassin: 家で手伝います。\nOmar: 助けてくれてありがとう。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 26: دكتور",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "おはよう、Omar。医者の準備はできましたか？",
+    "translation": "صباح الخير يا عمر. هل أنت مستعد للطبيب؟",
+    "pronunciation": "Ohayō, Omar. Isha no junbi wa dekimashita ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、準備できました。",
+    "translation": "نعم، أنا مستعد.",
+    "pronunciation": "Hai, junbi dekimashita."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "医者はこの診療所にいます。",
+    "translation": "الطبيب في هذه العيادة.",
+    "pronunciation": "Isha wa kono shinryōjo ni imasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "こんにちは、先生。具合が悪いです。",
+    "translation": "مرحباً يا دكتور. أشعر بالمرض.",
+    "pronunciation": "Konnichiwa, sensei. Guai ga warui desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "彼は頭が痛いです。",
+    "translation": "لديه صداع.",
+    "pronunciation": "Kare wa atama ga itai desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "医者は休養が必要だと言いました。",
+    "translation": "الطبيب يقول إنني أحتاج إلى الراحة.",
+    "pronunciation": "Isha wa kyūyō ga hitsuyō da to iimashita."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "薬は必要ですか？",
+    "translation": "هل تحتاج إلى دواء؟",
+    "pronunciation": "Kusuri wa hitsuyō desu ka?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "はい、医者は薬をくれました。",
+    "translation": "نعم، الطبيب يعطيني دواء.",
+    "pronunciation": "Hai, isha wa kusuri o kuremashita."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "家で手伝います。",
+    "translation": "سأساعدك في البيت.",
+    "pronunciation": "Ie de tetsudaimasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "助けてくれてありがとう。",
+    "translation": "شكراً لمساعدتك.",
+    "pronunciation": "Tasukete kurete arigatō."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d26",
+   "title": "دكتور",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 26,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s4_d25"
+  ],
+  "createdAt": 1786696446398
+ }
+}

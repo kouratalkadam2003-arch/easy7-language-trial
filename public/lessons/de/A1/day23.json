@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 23,
+ "story": {
+  "originalText": "Yassin: Hallo. Wie viel kostet diese Mahlzeit?\nOmar: Die Mahlzeit kostet zehn Dollar.\nYassin: Wie viel kostet das Wasser?\nOmar: Das Wasser kostet einen Dollar.\nYassin: Wie viel kostet die Suppe?\nOmar: Die Suppe kostet fünf Dollar.\nYassin: Die Preise sind gut.\nOmar: Ja, wir können jetzt bestellen.\nYassin: Nach dem Essen brauchen wir die Rechnung.\nOmar: Ich werde danach fragen.",
+  "translatedText": "Yassin: مرحباً. كم ثمن هذه الوجبة؟\nOmar: الوجبة بعشرة دولارات.\nYassin: كم ثمن الماء؟\nOmar: الماء بدولار واحد.\nYassin: كم ثمن الحساء؟\nOmar: الحساء بخمسة دولارات.\nYassin: الأسعار جيدة.\nOmar: نعم، يمكننا الطلب الآن.\nYassin: بعد الطعام، نحتاج إلى الفاتورة.\nOmar: سأطلبها.",
+  "nativeScriptText": "Yassin: Hallo. Wie viel kostet diese Mahlzeit?\nOmar: Die Mahlzeit kostet zehn Dollar.\nYassin: Wie viel kostet das Wasser?\nOmar: Das Wasser kostet einen Dollar.\nYassin: Wie viel kostet die Suppe?\nOmar: Die Suppe kostet fünf Dollar.\nYassin: Die Preise sind gut.\nOmar: Ja, wir können jetzt bestellen.\nYassin: Nach dem Essen brauchen wir die Rechnung.\nOmar: Ich werde danach fragen.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 23: كم؟",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hallo. Wie viel kostet diese Mahlzeit?",
+    "translation": "مرحباً. كم ثمن هذه الوجبة؟",
+    "pronunciation": "Hallo. Wie viel kostet diese Mahlzeit?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Die Mahlzeit kostet zehn Dollar.",
+    "translation": "الوجبة بعشرة دولارات.",
+    "pronunciation": "Die Mahlzeit kostet zehn Dollar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wie viel kostet das Wasser?",
+    "translation": "كم ثمن الماء؟",
+    "pronunciation": "Wie viel kostet das Wasser?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Das Wasser kostet einen Dollar.",
+    "translation": "الماء بدولار واحد.",
+    "pronunciation": "Das Wasser kostet einen Dollar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Wie viel kostet die Suppe?",
+    "translation": "كم ثمن الحساء؟",
+    "pronunciation": "Wie viel kostet die Suppe?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Die Suppe kostet fünf Dollar.",
+    "translation": "الحساء بخمسة دولارات.",
+    "pronunciation": "Die Suppe kostet fünf Dollar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Die Preise sind gut.",
+    "translation": "الأسعار جيدة.",
+    "pronunciation": "Die Preise sind gut."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ja, wir können jetzt bestellen.",
+    "translation": "نعم، يمكننا الطلب الآن.",
+    "pronunciation": "Ja, wir können jetzt bestellen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Nach dem Essen brauchen wir die Rechnung.",
+    "translation": "بعد الطعام، نحتاج إلى الفاتورة.",
+    "pronunciation": "Nach dem Essen brauchen wir die Rechnung."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich werde danach fragen.",
+    "translation": "سأطلبها.",
+    "pronunciation": "Ich werde danach fragen."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d23",
+   "title": "كم؟",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 23,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s4_d22"
+  ],
+  "createdAt": 1786696446398
+ }
+}

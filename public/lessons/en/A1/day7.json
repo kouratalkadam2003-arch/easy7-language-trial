@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 7,
+ "story": {
+  "originalText": "Yassin: Hello. What is your name?\nOmar: My name is Yassin.\nYassin: Where are you from?\nOmar: I am from Algeria.\nYassin: How old are you?\nOmar: I am twenty years old.\nYassin: How are you today?\nOmar: I am fine, thank you.\nYassin: Well done. Goodbye, my friend.\nOmar: Goodbye. See you at home.",
+  "translatedText": "Yassin: مرحباً. ما اسمك؟\nOmar: اسمي ياسين.\nYassin: من أين أنت؟\nOmar: أنا من الجزائر.\nYassin: كم عمرك؟\nOmar: عمري عشرون سنة.\nYassin: كيف حالك اليوم؟\nOmar: أنا بخير، شكراً.\nYassin: أحسنت. وداعاً يا صديقي.\nOmar: وداعاً. أراك في البيت.",
+  "nativeScriptText": "Yassin: Hello. What is your name?\nOmar: My name is Yassin.\nYassin: Where are you from?\nOmar: I am from Algeria.\nYassin: How old are you?\nOmar: I am twenty years old.\nYassin: How are you today?\nOmar: I am fine, thank you.\nYassin: Well done. Goodbye, my friend.\nOmar: Goodbye. See you at home.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 7: مراجعة شاملة (1-6)",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hello. What is your name?",
+    "translation": "مرحباً. ما اسمك؟",
+    "pronunciation": "Hello. What is your name?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "My name is Yassin.",
+    "translation": "اسمي ياسين.",
+    "pronunciation": "My name is Yassin."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Where are you from?",
+    "translation": "من أين أنت؟",
+    "pronunciation": "Where are you from?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I am from Algeria.",
+    "translation": "أنا من الجزائر.",
+    "pronunciation": "I am from Algeria."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "How old are you?",
+    "translation": "كم عمرك؟",
+    "pronunciation": "How old are you?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I am twenty years old.",
+    "translation": "عمري عشرون سنة.",
+    "pronunciation": "I am twenty years old."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "How are you today?",
+    "translation": "كيف حالك اليوم؟",
+    "pronunciation": "How are you today?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I am fine, thank you.",
+    "translation": "أنا بخير، شكراً.",
+    "pronunciation": "I am fine, thank you."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Well done. Goodbye, my friend.",
+    "translation": "أحسنت. وداعاً يا صديقي.",
+    "pronunciation": "Well done. Goodbye, my friend."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Goodbye. See you at home.",
+    "translation": "وداعاً. أراك في البيت.",
+    "pronunciation": "Goodbye. See you at home."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d7",
+   "title": "مراجعة شاملة (1-6)",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 7,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s1_d6"
+  ],
+  "createdAt": 1786696446398
+ }
+}

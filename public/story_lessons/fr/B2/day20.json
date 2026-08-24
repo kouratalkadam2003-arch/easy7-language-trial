@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_fr_d20",
+  "languageCode": "fr",
+  "languageNameArabic": "الفرنسية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 20,
+  "lessonTitle": "La mission de coopération",
+  "englishTitle": "The Cooperation Mission",
+  "arabicTitle": "مهمة التعاون",
+  "canonicalBeatIds": [
+   "BEAT_B2_D20"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "دمج قيادة فريق وتفاوض وعرض.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: مهمة التعاون."
+ },
+ "story": {
+  "storyContextArabic": "تنجح القافلة الأولى لكن يلاحظ ليث تفصيلًا غريبًا في سجل الرسائل.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: مهمة التعاون.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "team"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: مهمة التعاون."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D20_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D20_01",
+     "narrationArabic": "تنجح القافلة الأولى لكن يلاحظ ليث تفصيلًا غريبًا في سجل الرسائل."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D20_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "دمج قيادة فريق وتفاوض وعرض.",
+   "lines": [
+    {
+     "lineId": "L_B2_FR_D20_01",
+     "speakerId": "team",
+     "targetText": "Il faut revoir la mission de coopération.",
+     "englishReference": "We need to review the cooperation mission.",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "Il faut revoir la mission de coopération.",
+     "phraseIds": [
+      "P_B2_FR_D20_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_FR_D20_02",
+     "speakerId": "laith",
+     "targetText": "Par rapport à l’autre option, nous pouvons continuer de manière responsable.",
+     "englishReference": "Compared with the other option, we can continue responsibly.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "Par rapport à l’autre option, nous pouvons continuer de manière responsable.",
+     "phraseIds": [
+      "P_B2_FR_D20_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_FR_D20_03",
+     "speakerId": "team",
+     "targetText": "Pourquoi est-ce important ?",
+     "englishReference": "Why is that important?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "Pourquoi est-ce important ?",
+     "phraseIds": [
+      "P_B2_FR_D20_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_FR_D20_04",
+     "speakerId": "laith",
+     "targetText": "Parce que le résultat est encourageant.",
+     "englishReference": "Because the result is encouraging.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "Parce que le résultat est encourageant.",
+     "phraseIds": [
+      "P_B2_FR_D20_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_FR_D20_05",
+     "speakerId": "team",
+     "targetText": "Que devrait-il se passer ensuite ?",
+     "englishReference": "What should happen next?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "Que devrait-il se passer ensuite ?",
+     "phraseIds": [
+      "P_B2_FR_D20_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_FR_D20_06",
+     "speakerId": "laith",
+     "targetText": "Je suggère que nous puissions enquêter sur le dossier tranquillement.",
+     "englishReference": "I suggest that we can investigate the record quietly.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "Je suggère que nous puissions enquêter sur le dossier tranquillement.",
+     "phraseIds": [
+      "P_B2_FR_D20_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_FR_D20_07",
+     "speakerId": "team",
+     "targetText": "Je comprends votre position.",
+     "englishReference": "I understand your position.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "Je comprends votre position.",
+     "phraseIds": [
+      "P_B2_FR_D20_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_FR_D20_08",
+     "speakerId": "laith",
+     "targetText": "Bien. Nous pouvons continuer prudemment.",
+     "englishReference": "Good. We can continue carefully.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "Bien. Nous pouvons continuer prudemment.",
+     "phraseIds": [
+      "P_B2_FR_D20_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D20_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_FR_D20_C01",
+      "P_B2_FR_D20_C02",
+      "P_B2_FR_D20_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_FR_D20_C01",
+      "P_B2_FR_D20_C02",
+      "P_B2_FR_D20_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_FR_D20_I01",
+      "P_B2_FR_D20_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D20_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_FR_D20_C01",
+    "P_B2_FR_D20_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D20_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "L’alliance change la région.",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة.",
+     "pronunciation": "L’alliance change la région."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Certains détails devraient rester privés pour le moment.",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن.",
+     "pronunciation": "Certains détails devraient rester privés pour le moment."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D20_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: مهمة التعاون.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "B2_WEEK_3:COMPLETE",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_FR_D20_S01",
+   "text": "Il faut revoir la mission de coopération.",
+   "englishReference": "We need to review the cooperation mission.",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "Il faut revoir la mission de coopération.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_FR_D20_C01",
+   "text": "Par rapport à l’autre option, nous pouvons continuer de manière responsable.",
+   "englishReference": "Compared with the other option, we can continue responsibly.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "Par rapport à l’autre option, nous pouvons continuer de manière responsable.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_FR_D20_I01",
+   "text": "Pourquoi est-ce important ?",
+   "englishReference": "Why is that important?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "Pourquoi est-ce important ?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_FR_D20_C02",
+   "text": "Parce que le résultat est encourageant.",
+   "englishReference": "Because the result is encouraging.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "Parce que le résultat est encourageant.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_FR_D20_I02",
+   "text": "Que devrait-il se passer ensuite ?",
+   "englishReference": "What should happen next?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "Que devrait-il se passer ensuite ?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_FR_D20_C03",
+   "text": "Je suggère que nous puissions enquêter sur le dossier tranquillement.",
+   "englishReference": "I suggest that we can investigate the record quietly.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "Je suggère que nous puissions enquêter sur le dossier tranquillement.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_FR_D20_S02",
+   "text": "Je comprends votre position.",
+   "englishReference": "I understand your position.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "Je comprends votre position.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_FR_D20_S03",
+   "text": "Bien. Nous pouvons continuer prudemment.",
+   "englishReference": "Good. We can continue carefully.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "Bien. Nous pouvons continuer prudemment.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_FR_D20_C01",
+     "P_B2_FR_D20_C02",
+     "P_B2_FR_D20_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_FR_D20_I01",
+     "P_B2_FR_D20_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_FR_D20_C01",
+    "P_B2_FR_D20_C02",
+    "P_B2_FR_D20_C03",
+    "P_B2_FR_D20_I01",
+    "P_B2_FR_D20_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B2_D19:COMPLETE"
+  ],
+  "onSuccess": [
+   "B2_WEEK_3:COMPLETE",
+   "B2_D21:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_20",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b2_fr_d19",
+  "nextLessonId": "story_b2_fr_d21",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 20: مهمة التعاون."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

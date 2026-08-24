@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_it_d21",
+  "languageCode": "it",
+  "languageNameArabic": "الإيطالية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 21,
+  "lessonTitle": "Una squadra migliore",
+  "englishTitle": "A Better Team",
+  "arabicTitle": "فريق أفضل",
+  "canonicalBeatIds": [
+   "BEAT_A2_D21"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "دمج المشروع والموعد والضغط والاعتذار.",
+  "realLifeTransferArabic": "مناقشة تعلم فريق من تجربة.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: فريق أفضل دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "يعقد ليث اجتماعًا قصيرًا كي يمنع تكرار خطأ الأسعار.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: فريق أفضل.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: فريق أفضل."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D21_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D21_01",
+     "narrationArabic": "يعقد ليث اجتماعًا قصيرًا كي يمنع تكرار خطأ الأسعار."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D21_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "دمج المشروع والموعد والضغط والاعتذار.",
+   "lines": [
+    {
+     "lineId": "L_A2_IT_D21_01",
+     "speakerId": "elly",
+     "targetText": "Buongiorno, Laith. Cosa abbiamo imparato dall’errore?",
+     "englishReference": "Good morning, Laith. What did we learn from the mistake?",
+     "arabicTranslation": "صباح الخير يا ليث. What did we learn from the mistake?",
+     "pronunciation": "Buongiorno, Laith. Cosa abbiamo imparato dall’errore?",
+     "phraseIds": [
+      "P_A2_IT_D21_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_IT_D21_02",
+     "speakerId": "laith",
+     "targetText": "Buongiorno. Abbiamo imparato a controllare insieme l'elenco.",
+     "englishReference": "Good morning. We learned to check the list together.",
+     "arabicTranslation": "صباح الخير. We learned to check the list together.",
+     "pronunciation": "Buongiorno. Abbiamo imparato a controllare insieme l'elenco.",
+     "phraseIds": [
+      "P_A2_IT_D21_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D21_03",
+     "speakerId": "elly",
+     "targetText": "Chi lo controlla prima dell’apertura del mercato?",
+     "englishReference": "Who checks it before the market opens?",
+     "arabicTranslation": "Who checks it before the market opens?",
+     "pronunciation": "Chi lo controlla prima dell’apertura del mercato?",
+     "phraseIds": [
+      "P_A2_IT_D21_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D21_04",
+     "speakerId": "laith",
+     "targetText": "Noor e io lo controlleremo ogni mattina.",
+     "englishReference": "Noor and I will check it every morning.",
+     "arabicTranslation": "Noor and I will check it every morning.",
+     "pronunciation": "Noor e io lo controlleremo ogni mattina.",
+     "phraseIds": [
+      "P_A2_IT_D21_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D21_05",
+     "speakerId": "elly",
+     "targetText": "Sono tutti contenti di quel piano?",
+     "englishReference": "Is everyone happy with that plan?",
+     "arabicTranslation": "Is everyone happy with that plan?",
+     "pronunciation": "Sono tutti contenti di quel piano?",
+     "phraseIds": [
+      "P_A2_IT_D21_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D21_06",
+     "speakerId": "laith",
+     "targetText": "Sì, è giusto e chiaro.",
+     "englishReference": "Yes, it is fair and clear.",
+     "arabicTranslation": "Yes, it is fair and clear.",
+     "pronunciation": "Sì, è giusto e chiaro.",
+     "phraseIds": [
+      "P_A2_IT_D21_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D21_07",
+     "speakerId": "elly",
+     "targetText": "Sembra un buon piano.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "Sembra un buon piano.",
+     "phraseIds": [
+      "P_A2_IT_D21_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_IT_D21_08",
+     "speakerId": "laith",
+     "targetText": "Grazie. Arrivederci.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Grazie. Arrivederci.",
+     "phraseIds": [
+      "P_A2_IT_D21_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D21_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_IT_D21_C01",
+      "P_A2_IT_D21_C02",
+      "P_A2_IT_D21_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_IT_D21_C01",
+      "P_A2_IT_D21_C02",
+      "P_A2_IT_D21_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_IT_D21_I01",
+      "P_A2_IT_D21_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D21_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: مناقشة تعلم فريق من تجربة.",
+   "requiredPhraseIds": [
+    "P_A2_IT_D21_C01",
+    "P_A2_IT_D21_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D21_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Il mercato sta cambiando rapidamente in questa stagione.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "Il mercato sta cambiando rapidamente in questa stagione."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "SÌ. Le persone fanno più domande sulle vecchie strade.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "SÌ. Le persone fanno più domande sulle vecchie strade."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D21_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: فريق أفضل.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: فريق أفضل."
+   },
+   "successWorldConsequence": "A2_WEEK_3:COMPLETE",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_IT_D21_S01",
+   "text": "Buongiorno, Laith. Cosa abbiamo imparato dall’errore?",
+   "englishReference": "Good morning, Laith. What did we learn from the mistake?",
+   "arabicTranslation": "صباح الخير يا ليث. What did we learn from the mistake?",
+   "pronunciation": "Buongiorno, Laith. Cosa abbiamo imparato dall’errore?",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة تعلم فريق من تجربة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_IT_D21_C01",
+   "text": "Buongiorno. Abbiamo imparato a controllare insieme l'elenco.",
+   "englishReference": "Good morning. We learned to check the list together.",
+   "arabicTranslation": "صباح الخير. We learned to check the list together.",
+   "pronunciation": "Buongiorno. Abbiamo imparato a controllare insieme l'elenco.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة تعلم فريق من تجربة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D21_I01",
+   "text": "Chi lo controlla prima dell’apertura del mercato?",
+   "englishReference": "Who checks it before the market opens?",
+   "arabicTranslation": "Who checks it before the market opens?",
+   "pronunciation": "Chi lo controlla prima dell’apertura del mercato?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة تعلم فريق من تجربة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_IT_D21_C02",
+   "text": "Noor e io lo controlleremo ogni mattina.",
+   "englishReference": "Noor and I will check it every morning.",
+   "arabicTranslation": "Noor and I will check it every morning.",
+   "pronunciation": "Noor e io lo controlleremo ogni mattina.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة تعلم فريق من تجربة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D21_I02",
+   "text": "Sono tutti contenti di quel piano?",
+   "englishReference": "Is everyone happy with that plan?",
+   "arabicTranslation": "Is everyone happy with that plan?",
+   "pronunciation": "Sono tutti contenti di quel piano?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة تعلم فريق من تجربة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_IT_D21_C03",
+   "text": "Sì, è giusto e chiaro.",
+   "englishReference": "Yes, it is fair and clear.",
+   "arabicTranslation": "Yes, it is fair and clear.",
+   "pronunciation": "Sì, è giusto e chiaro.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة تعلم فريق من تجربة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D21_S02",
+   "text": "Sembra un buon piano.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "Sembra un buon piano.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة تعلم فريق من تجربة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_IT_D21_S03",
+   "text": "Grazie. Arrivederci.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Grazie. Arrivederci.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "مناقشة تعلم فريق من تجربة."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_IT_D21_C01",
+     "P_A2_IT_D21_C02",
+     "P_A2_IT_D21_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_IT_D21_I01",
+     "P_A2_IT_D21_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_IT_D21_C01",
+    "P_A2_IT_D21_C02",
+    "P_A2_IT_D21_C03",
+    "P_A2_IT_D21_I01",
+    "P_A2_IT_D21_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D20:COMPLETE"
+  ],
+  "onSuccess": [
+   "A2_WEEK_3:COMPLETE",
+   "A2_D22:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_21",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_it_d20",
+  "nextLessonId": "story_a2_it_d22",
+  "nextLessonHookArabic": "غاستون يقترح سفرًا قصيرًا لبيع منتجات إضافية.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 21: فريق أفضل."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

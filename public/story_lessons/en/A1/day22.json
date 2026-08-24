@@ -1,0 +1,469 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_en_d22",
+  "languageCode": "en",
+  "languageNameArabic": "الإنجليزية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 22,
+  "lessonTitle": "Ready to Work",
+  "englishTitle": "Ready to Work",
+  "arabicTitle": "مستعد للعمل",
+  "canonicalBeatIds": [
+   "BEAT_A1_D22"
+  ],
+  "canonVersion": "A1_CANON_V1"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التعبير عن الدافعية والشعور.",
+  "realLifeTransferArabic": "الحديث عن هدف شخصي أو عمل تحبه.",
+  "successCapabilityArabic": "قل كيف تشعر اليوم وما الذي تريد تحقيقه."
+ },
+ "story": {
+  "storyContextArabic": "يرى ليث الأرض جاهزة ويشعر أنه جزء حقيقي من المكان.",
+  "storyMissionArabic": "يقول ما يشعر به ولماذا يريد الاستمرار.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: مستعد للعمل."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D22_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D22_01",
+     "narrationArabic": "يرى ليث الأرض جاهزة ويشعر أنه جزء حقيقي من المكان."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D22_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التعبير عن الدافعية والشعور.",
+   "lines": [
+    {
+     "lineId": "L_A1_EN_D22_01",
+     "speakerId": "elly",
+     "targetText": "Hello, Laith. You look happy today.",
+     "englishReference": "Hello, Laith. You look happy today.",
+     "arabicTranslation": "مرحبًا يا ليث. تبدو سعيدًا اليوم.",
+     "pronunciation": "Hello, Laith. You look happy today.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D22_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_EN_D22_02",
+     "speakerId": "laith",
+     "targetText": "Yes, I am ready to work.",
+     "englishReference": "Yes, I am ready to work.",
+     "arabicTranslation": "نعم، أنا مستعد للعمل.",
+     "pronunciation": "Yes, I am ready to work.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D22_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_EN_D22_03",
+     "speakerId": "elly",
+     "targetText": "Why are you so ready?",
+     "englishReference": "Why are you so ready?",
+     "arabicTranslation": "لماذا أنت مستعد جدًا؟",
+     "pronunciation": "Why are you so ready?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D22_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_EN_D22_04",
+     "speakerId": "laith",
+     "targetText": "Because this garden is important to me.",
+     "englishReference": "Because this garden is important to me.",
+     "arabicTranslation": "لأن هذه الحديقة مهمة بالنسبة لي.",
+     "pronunciation": "Because this garden is important to me.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D22_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_EN_D22_05",
+     "speakerId": "elly",
+     "targetText": "What do you want to do today?",
+     "englishReference": "What do you want to do today?",
+     "arabicTranslation": "ماذا تريد أن تفعل اليوم؟",
+     "pronunciation": "What do you want to do today?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D22_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_EN_D22_06",
+     "speakerId": "laith",
+     "targetText": "I want to plant the first seeds.",
+     "englishReference": "I want to plant the first seeds.",
+     "arabicTranslation": "أريد أن أزرع البذور الأولى.",
+     "pronunciation": "I want to plant the first seeds.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D22_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_EN_D22_07",
+     "speakerId": "elly",
+     "targetText": "Then let us do it together.",
+     "englishReference": "Then let us do it together.",
+     "arabicTranslation": "إذًا لنفعل ذلك معًا.",
+     "pronunciation": "Then let us do it together.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D22_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_EN_D22_08",
+     "speakerId": "laith",
+     "targetText": "Thank you. Goodbye, old ground.",
+     "englishReference": "Thank you. Goodbye, old ground.",
+     "arabicTranslation": "شكرًا. وداعًا أيتها الأرض القديمة.",
+     "pronunciation": "Thank you. Goodbye, old ground.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_EN_D22_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D22_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_EN_D22_C01",
+      "P_A1_EN_D22_C02",
+      "P_A1_EN_D22_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_EN_D22_C01",
+      "P_A1_EN_D22_C02",
+      "P_A1_EN_D22_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_EN_D22_I01",
+      "P_A1_EN_D22_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D22_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: الحديث عن هدف شخصي أو عمل تحبه.",
+   "requiredPhraseIds": [
+    "P_A1_EN_D22_C01",
+    "P_A1_EN_D22_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D22_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "I heard Laith helped today.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "The village is starting to know him.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D22_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: مستعد للعمل.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "قل كيف تشعر اليوم وما الذي تريد تحقيقه."
+   },
+   "successWorldConsequence": "A1_DAY_22:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_EN_D22_S01",
+   "text": "Hello, Laith. You look happy today.",
+   "englishReference": "Hello, Laith. You look happy today.",
+   "arabicTranslation": "مرحبًا يا ليث. تبدو سعيدًا اليوم.",
+   "pronunciation": "Hello, Laith. You look happy today.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D22_LEARNING",
+   "transferContexts": [
+    "الحديث عن هدف شخصي أو عمل تحبه."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_EN_D22_I01",
+   "text": "Yes, I am ready to work.",
+   "englishReference": "Yes, I am ready to work.",
+   "arabicTranslation": "نعم، أنا مستعد للعمل.",
+   "pronunciation": "Yes, I am ready to work.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D22_LEARNING",
+   "transferContexts": [
+    "الحديث عن هدف شخصي أو عمل تحبه."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_EN_D22_C01",
+   "text": "Why are you so ready?",
+   "englishReference": "Why are you so ready?",
+   "arabicTranslation": "لماذا أنت مستعد جدًا؟",
+   "pronunciation": "Why are you so ready?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D22_LEARNING",
+   "transferContexts": [
+    "الحديث عن هدف شخصي أو عمل تحبه."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_EN_D22_S02",
+   "text": "Because this garden is important to me.",
+   "englishReference": "Because this garden is important to me.",
+   "arabicTranslation": "لأن هذه الحديقة مهمة بالنسبة لي.",
+   "pronunciation": "Because this garden is important to me.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D22_LEARNING",
+   "transferContexts": [
+    "الحديث عن هدف شخصي أو عمل تحبه."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_EN_D22_C02",
+   "text": "What do you want to do today?",
+   "englishReference": "What do you want to do today?",
+   "arabicTranslation": "ماذا تريد أن تفعل اليوم؟",
+   "pronunciation": "What do you want to do today?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D22_LEARNING",
+   "transferContexts": [
+    "الحديث عن هدف شخصي أو عمل تحبه."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_EN_D22_C03",
+   "text": "I want to plant the first seeds.",
+   "englishReference": "I want to plant the first seeds.",
+   "arabicTranslation": "أريد أن أزرع البذور الأولى.",
+   "pronunciation": "I want to plant the first seeds.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D22_LEARNING",
+   "transferContexts": [
+    "الحديث عن هدف شخصي أو عمل تحبه."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_EN_D22_S03",
+   "text": "Then let us do it together.",
+   "englishReference": "Then let us do it together.",
+   "arabicTranslation": "إذًا لنفعل ذلك معًا.",
+   "pronunciation": "Then let us do it together.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D22_LEARNING",
+   "transferContexts": [
+    "الحديث عن هدف شخصي أو عمل تحبه."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_EN_D22_I02",
+   "text": "Thank you. Goodbye, old ground.",
+   "englishReference": "Thank you. Goodbye, old ground.",
+   "arabicTranslation": "شكرًا. وداعًا أيتها الأرض القديمة.",
+   "pronunciation": "Thank you. Goodbye, old ground.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D22_LEARNING",
+   "transferContexts": [
+    "الحديث عن هدف شخصي أو عمل تحبه."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_EN_D22_C01",
+     "P_A1_EN_D22_C02",
+     "P_A1_EN_D22_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_EN_D22_C01",
+     "P_A1_EN_D22_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_EN_D22_C01",
+    "P_A1_EN_D22_C02",
+    "P_A1_EN_D22_C03",
+    "P_A1_EN_D22_I01",
+    "P_A1_EN_D22_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D21:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_22:COMPLETE",
+   "A1_D23:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_22",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_en_d21",
+  "nextLessonId": "story_a1_en_d23",
+  "nextLessonHookArabic": "غدًا: كم نحتاج؟.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 22: مستعد للعمل."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

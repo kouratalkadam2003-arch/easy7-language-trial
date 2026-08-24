@@ -1,0 +1,121 @@
+{
+ "targetLang": "es",
+ "level": "A1",
+ "dayNumber": 20,
+ "story": {
+  "originalText": "Yassin: Hoy es lunes.\nOmar: ¿Nuestra clase es el lunes?\nYassin: Sí, nuestra clase es el lunes y el miércoles.\nOmar: ¿Qué día es mañana?\nYassin: Mañana es martes.\nOmar: Trabajo el martes.\nYassin: Estudio el martes por la tarde.\nOmar: Cada día es una nueva oportunidad para aprender.\nYassin: Eso es cierto. Mañana repasamos.\nOmar: Adiós hasta mañana.",
+  "translatedText": "Yassin: اليوم هو الاثنين.\nOmar: هل درسنا يوم الاثنين؟\nYassin: نعم، درسنا يوم الاثنين والأربعاء.\nOmar: ما هو يوم غد؟\nYassin: غداً هو الثلاثاء.\nOmar: أنا أعمل يوم الثلاثاء.\nYassin: أنا أدرس مساء الثلاثاء.\nOmar: كل يوم فرصة جديدة للتعلم.\nYassin: هذا صحيح. غداً نراجع.\nOmar: وداعاً إلى الغد.",
+  "nativeScriptText": "Yassin: Hoy es lunes.\nOmar: ¿Nuestra clase es el lunes?\nYassin: Sí, nuestra clase es el lunes y el miércoles.\nOmar: ¿Qué día es mañana?\nYassin: Mañana es martes.\nOmar: Trabajo el martes.\nYassin: Estudio el martes por la tarde.\nOmar: Cada día es una nueva oportunidad para aprender.\nYassin: Eso es cierto. Mañana repasamos.\nOmar: Adiós hasta mañana.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 20: يوم",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hoy es lunes.",
+    "translation": "اليوم هو الاثنين.",
+    "pronunciation": "Hoy es lunes."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "¿Nuestra clase es el lunes?",
+    "translation": "هل درسنا يوم الاثنين؟",
+    "pronunciation": "¿Nuestra clase es el lunes?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Sí, nuestra clase es el lunes y el miércoles.",
+    "translation": "نعم، درسنا يوم الاثنين والأربعاء.",
+    "pronunciation": "Sí, nuestra clase es el lunes y el miércoles."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "¿Qué día es mañana?",
+    "translation": "ما هو يوم غد؟",
+    "pronunciation": "¿Qué día es mañana?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Mañana es martes.",
+    "translation": "غداً هو الثلاثاء.",
+    "pronunciation": "Mañana es martes."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Trabajo el martes.",
+    "translation": "أنا أعمل يوم الثلاثاء.",
+    "pronunciation": "Trabajo el martes."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Estudio el martes por la tarde.",
+    "translation": "أنا أدرس مساء الثلاثاء.",
+    "pronunciation": "Estudio el martes por la tarde."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Cada día es una nueva oportunidad para aprender.",
+    "translation": "كل يوم فرصة جديدة للتعلم.",
+    "pronunciation": "Cada día es una nueva oportunidad para aprender."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Eso es cierto. Mañana repasamos.",
+    "translation": "هذا صحيح. غداً نراجع.",
+    "pronunciation": "Eso es cierto. Mañana repasamos."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Adiós hasta mañana.",
+    "translation": "وداعاً إلى الغد.",
+    "pronunciation": "Adiós hasta mañana."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d20",
+   "title": "يوم",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 20,
+  "level": "A1",
+  "languageCode": "es",
+  "previousTopics": [
+   "s3_d19"
+  ],
+  "createdAt": 1786696446398
+ }
+}

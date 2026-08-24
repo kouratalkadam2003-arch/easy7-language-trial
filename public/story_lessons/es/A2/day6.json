@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_es_d06",
+  "languageCode": "es",
+  "languageNameArabic": "الإسبانية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 6,
+  "lessonTitle": "Un juego de equipo",
+  "englishTitle": "A Team Game",
+  "arabicTitle": "لعبة الفريق",
+  "canonicalBeatIds": [
+   "BEAT_A2_D06"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التحدث عن رياضة وتقديم دعوة وموافقة.",
+  "realLifeTransferArabic": "الانضمام إلى نشاط رياضي بسيط.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: لعبة الفريق دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "بعد التنظيف، ينضم ليث إلى لعبة ودية في الساحة.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: لعبة الفريق.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "gaston"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: لعبة الفريق."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D06_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D06_01",
+     "narrationArabic": "بعد التنظيف، ينضم ليث إلى لعبة ودية في الساحة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D06_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التحدث عن رياضة وتقديم دعوة وموافقة.",
+   "lines": [
+    {
+     "lineId": "L_A2_ES_D06_01",
+     "speakerId": "gaston",
+     "targetText": "Buenos días, Laith. ¿Practicas algún deporte, Laith?",
+     "englishReference": "Good morning, Laith. Do you play any sports, Laith?",
+     "arabicTranslation": "صباح الخير يا ليث. Do you play any sports, Laith?",
+     "pronunciation": "Buenos días, Laith. ¿Practicas algún deporte, Laith?",
+     "phraseIds": [
+      "P_A2_ES_D06_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ES_D06_02",
+     "speakerId": "laith",
+     "targetText": "Buen día. Solía ​​jugar un poco al fútbol.",
+     "englishReference": "Good morning. I used to play a little football.",
+     "arabicTranslation": "صباح الخير. I used to play a little football.",
+     "pronunciation": "Buen día. Solía ​​jugar un poco al fútbol.",
+     "phraseIds": [
+      "P_A2_ES_D06_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D06_03",
+     "speakerId": "gaston",
+     "targetText": "¿Te gustaría jugar con nosotros?",
+     "englishReference": "Would you like to play with us?",
+     "arabicTranslation": "Would you like to play with us?",
+     "pronunciation": "¿Te gustaría jugar con nosotros?",
+     "phraseIds": [
+      "P_A2_ES_D06_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D06_04",
+     "speakerId": "laith",
+     "targetText": "Sí, pero no soy muy rápido.",
+     "englishReference": "Yes, but I am not very fast.",
+     "arabicTranslation": "Yes, but I am not very fast.",
+     "pronunciation": "Sí, pero no soy muy rápido.",
+     "phraseIds": [
+      "P_A2_ES_D06_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D06_05",
+     "speakerId": "gaston",
+     "targetText": "Eso está bien. Estamos jugando por diversión.",
+     "englishReference": "That is fine. We are playing for fun.",
+     "arabicTranslation": "That is fine. We are playing for fun.",
+     "pronunciation": "Eso está bien. Estamos jugando por diversión.",
+     "phraseIds": [
+      "P_A2_ES_D06_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D06_06",
+     "speakerId": "laith",
+     "targetText": "Entonces me uniré a tu equipo.",
+     "englishReference": "Then I will join your team.",
+     "arabicTranslation": "Then I will join your team.",
+     "pronunciation": "Entonces me uniré a tu equipo.",
+     "phraseIds": [
+      "P_A2_ES_D06_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_ES_D06_07",
+     "speakerId": "gaston",
+     "targetText": "Suena como un buen plan.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "Suena como un buen plan.",
+     "phraseIds": [
+      "P_A2_ES_D06_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_ES_D06_08",
+     "speakerId": "laith",
+     "targetText": "Gracias. Hasta luego.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Gracias. Hasta luego.",
+     "phraseIds": [
+      "P_A2_ES_D06_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D06_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_ES_D06_C01",
+      "P_A2_ES_D06_C02",
+      "P_A2_ES_D06_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_ES_D06_C01",
+      "P_A2_ES_D06_C02",
+      "P_A2_ES_D06_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_ES_D06_I01",
+      "P_A2_ES_D06_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D06_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: الانضمام إلى نشاط رياضي بسيط.",
+   "requiredPhraseIds": [
+    "P_A2_ES_D06_C01",
+    "P_A2_ES_D06_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D06_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "El mercado está cambiando rápidamente esta temporada.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "El mercado está cambiando rápidamente esta temporada."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Sí. La gente hace más preguntas sobre las carreteras antiguas.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "Sí. La gente hace más preguntas sobre las carreteras antiguas."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D06_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: لعبة الفريق.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: لعبة الفريق."
+   },
+   "successWorldConsequence": "VILLAGE_FRIENDSHIP:+1",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_ES_D06_S01",
+   "text": "Buenos días, Laith. ¿Practicas algún deporte, Laith?",
+   "englishReference": "Good morning, Laith. Do you play any sports, Laith?",
+   "arabicTranslation": "صباح الخير يا ليث. Do you play any sports, Laith?",
+   "pronunciation": "Buenos días, Laith. ¿Practicas algún deporte, Laith?",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الانضمام إلى نشاط رياضي بسيط."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ES_D06_C01",
+   "text": "Buen día. Solía ​​jugar un poco al fútbol.",
+   "englishReference": "Good morning. I used to play a little football.",
+   "arabicTranslation": "صباح الخير. I used to play a little football.",
+   "pronunciation": "Buen día. Solía ​​jugar un poco al fútbol.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الانضمام إلى نشاط رياضي بسيط."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ES_D06_I01",
+   "text": "¿Te gustaría jugar con nosotros?",
+   "englishReference": "Would you like to play with us?",
+   "arabicTranslation": "Would you like to play with us?",
+   "pronunciation": "¿Te gustaría jugar con nosotros?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الانضمام إلى نشاط رياضي بسيط."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ES_D06_C02",
+   "text": "Sí, pero no soy muy rápido.",
+   "englishReference": "Yes, but I am not very fast.",
+   "arabicTranslation": "Yes, but I am not very fast.",
+   "pronunciation": "Sí, pero no soy muy rápido.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الانضمام إلى نشاط رياضي بسيط."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ES_D06_I02",
+   "text": "Eso está bien. Estamos jugando por diversión.",
+   "englishReference": "That is fine. We are playing for fun.",
+   "arabicTranslation": "That is fine. We are playing for fun.",
+   "pronunciation": "Eso está bien. Estamos jugando por diversión.",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الانضمام إلى نشاط رياضي بسيط."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_ES_D06_C03",
+   "text": "Entonces me uniré a tu equipo.",
+   "englishReference": "Then I will join your team.",
+   "arabicTranslation": "Then I will join your team.",
+   "pronunciation": "Entonces me uniré a tu equipo.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الانضمام إلى نشاط رياضي بسيط."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_ES_D06_S02",
+   "text": "Suena como un buen plan.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "Suena como un buen plan.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الانضمام إلى نشاط رياضي بسيط."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_ES_D06_S03",
+   "text": "Gracias. Hasta luego.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Gracias. Hasta luego.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الانضمام إلى نشاط رياضي بسيط."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_ES_D06_C01",
+     "P_A2_ES_D06_C02",
+     "P_A2_ES_D06_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_ES_D06_I01",
+     "P_A2_ES_D06_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_ES_D06_C01",
+    "P_A2_ES_D06_C02",
+    "P_A2_ES_D06_C03",
+    "P_A2_ES_D06_I01",
+    "P_A2_ES_D06_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D05:COMPLETE"
+  ],
+  "onSuccess": [
+   "VILLAGE_FRIENDSHIP:+1",
+   "A2_D07:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_06",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_es_d05",
+  "nextLessonId": "story_a2_es_d07",
+  "nextLessonHookArabic": "في نهاية اليوم، تخطط إيلي لروتين عمل أكثر استقرارًا.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 6: لعبة الفريق."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 11,
+ "story": {
+  "originalText": "Yassin: Omar, I want a plate, please.\nOmar: Here is a plate for you.\nYassin: Thank you. I want a spoon too.\nOmar: The spoons are in this drawer.\nYassin: I want to cook the eggs.\nOmar: I want to make tea.\nYassin: I want some salt, please.\nOmar: Here you are.\nYassin: I want to eat now.\nOmar: Wait one minute, please.",
+  "translatedText": "Yassin: عمر، أريد طبقاً، من فضلك.\nOmar: هذا طبق لك.\nYassin: شكراً. أريد ملعقة أيضاً.\nOmar: الملاعق في هذا الدرج.\nYassin: أريد أن أطبخ البيض.\nOmar: أريد أن أصنع الشاي.\nYassin: أريد بعض الملح، من فضلك.\nOmar: تفضل.\nYassin: أريد أن آكل الآن.\nOmar: انتظر دقيقة واحدة، من فضلك.",
+  "nativeScriptText": "Yassin: Omar, I want a plate, please.\nOmar: Here is a plate for you.\nYassin: Thank you. I want a spoon too.\nOmar: The spoons are in this drawer.\nYassin: I want to cook the eggs.\nOmar: I want to make tea.\nYassin: I want some salt, please.\nOmar: Here you are.\nYassin: I want to eat now.\nOmar: Wait one minute, please.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 11: أريد",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar, I want a plate, please.",
+    "translation": "عمر، أريد طبقاً، من فضلك.",
+    "pronunciation": "Omar, I want a plate, please."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Here is a plate for you.",
+    "translation": "هذا طبق لك.",
+    "pronunciation": "Here is a plate for you."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Thank you. I want a spoon too.",
+    "translation": "شكراً. أريد ملعقة أيضاً.",
+    "pronunciation": "Thank you. I want a spoon too."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The spoons are in this drawer.",
+    "translation": "الملاعق في هذا الدرج.",
+    "pronunciation": "The spoons are in this drawer."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I want to cook the eggs.",
+    "translation": "أريد أن أطبخ البيض.",
+    "pronunciation": "I want to cook the eggs."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I want to make tea.",
+    "translation": "أريد أن أصنع الشاي.",
+    "pronunciation": "I want to make tea."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I want some salt, please.",
+    "translation": "أريد بعض الملح، من فضلك.",
+    "pronunciation": "I want some salt, please."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Here you are.",
+    "translation": "تفضل.",
+    "pronunciation": "Here you are."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I want to eat now.",
+    "translation": "أريد أن آكل الآن.",
+    "pronunciation": "I want to eat now."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Wait one minute, please.",
+    "translation": "انتظر دقيقة واحدة، من فضلك.",
+    "pronunciation": "Wait one minute, please."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s2_d11",
+   "title": "أريد",
+   "levelKey": "Station2"
+  },
+  "dayNumber": 11,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s2_d10"
+  ],
+  "createdAt": 1786696446398
+ }
+}

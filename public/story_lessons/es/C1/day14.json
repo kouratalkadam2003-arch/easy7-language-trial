@@ -1,0 +1,446 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_c1_es_d14",
+  "languageCode": "es",
+  "languageNameArabic": "الإسبانية",
+  "cefrLevel": "C1",
+  "chapterId": "chapter_05_truth",
+  "dayNumber": 14,
+  "lessonTitle": "La misión del discurso",
+  "englishTitle": "The Discourse Mission",
+  "arabicTitle": "مهمة الخطاب",
+  "canonicalBeatIds": [
+   "BEAT_C1_D14"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "عرض تحليل متزن أمام جمهور.",
+  "realLifeTransferArabic": "تحليل مصادر وحجج أو تفاوض وقرار متقدم.",
+  "successCapabilityArabic": "أدِّ مهمة متقدمة حول: مهمة الخطاب."
+ },
+ "story": {
+  "storyContextArabic": "يشرح ليث لماذا لا تكفي رسالة واحدة للحكم.",
+  "storyMissionArabic": "يتقدم ليث عبر: مهمة الخطاب.",
+  "setting": "council_and_region",
+  "charactersPresent": [
+   "laith",
+   "visitor"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "نتيجة مناسبة لمستوى القصة."
+   ],
+   "forbiddenReveals": []
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: مهمة الخطاب."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_C1_D14_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_C1_D14_01",
+     "narrationArabic": "يشرح ليث لماذا لا تكفي رسالة واحدة للحكم."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C1_D14_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "عرض تحليل متزن أمام جمهور.",
+   "lines": [
+    {
+     "lineId": "L_C1_ES_D14_01",
+     "speakerId": "visitor",
+     "targetText": "Necesitamos examinar cuidadosamente el análisis público.",
+     "englishReference": "We need to examine the public analysis carefully.",
+     "arabicTranslation": "يجب أن نحلل الموضوع بدقة.",
+     "pronunciation": "Necesitamos examinar cuidadosamente el análisis público.",
+     "phraseIds": [
+      "P_C1_ES_D14_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_C1_ES_D14_02",
+     "speakerId": "laith",
+     "targetText": "Mi interpretación es más compleja de lo que parece a primera vista.",
+     "englishReference": "My interpretation is more complex than it first appears.",
+     "arabicTranslation": "تفسيري أكثر تعقيدًا مما يبدو.",
+     "pronunciation": "Mi interpretación es más compleja de lo que parece a primera vista.",
+     "phraseIds": [
+      "P_C1_ES_D14_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C1_ES_D14_03",
+     "speakerId": "visitor",
+     "targetText": "¿Qué evidencia respalda esa opinión?",
+     "englishReference": "What evidence supports that view?",
+     "arabicTranslation": "ما الدليل على ذلك؟",
+     "pronunciation": "¿Qué evidencia respalda esa opinión?",
+     "phraseIds": [
+      "P_C1_ES_D14_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C1_ES_D14_04",
+     "speakerId": "laith",
+     "targetText": "La evidencia es útil, pero tiene límites.",
+     "englishReference": "The evidence is useful, but it has limits.",
+     "arabicTranslation": "الدليل مفيد لكنه محدود.",
+     "pronunciation": "La evidencia es útil, pero tiene límites.",
+     "phraseIds": [
+      "P_C1_ES_D14_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C1_ES_D14_05",
+     "speakerId": "visitor",
+     "targetText": "¿Cómo debemos responder a la objeción más fuerte?",
+     "englishReference": "How should we respond to the strongest objection?",
+     "arabicTranslation": "كيف نرد على الاعتراض الأقوى؟",
+     "pronunciation": "¿Cómo debemos responder a la objeción más fuerte?",
+     "phraseIds": [
+      "P_C1_ES_D14_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C1_ES_D14_06",
+     "speakerId": "laith",
+     "targetText": "Deberíamos exponer nuestro razonamiento con claridad y admitir la incertidumbre.",
+     "englishReference": "We should state our reasoning clearly and admit uncertainty.",
+     "arabicTranslation": "ينبغي أن نعرض استدلالنا بوضوح ونعترف بما لا نعرفه.",
+     "pronunciation": "Deberíamos exponer nuestro razonamiento con claridad y admitir la incertidumbre.",
+     "phraseIds": [
+      "P_C1_ES_D14_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_C1_ES_D14_07",
+     "speakerId": "visitor",
+     "targetText": "Ésa es una posición de responsabilidad.",
+     "englishReference": "That is a responsible position.",
+     "arabicTranslation": "هذا موقف مسؤول.",
+     "pronunciation": "Ésa es una posición de responsabilidad.",
+     "phraseIds": [
+      "P_C1_ES_D14_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_C1_ES_D14_08",
+     "speakerId": "laith",
+     "targetText": "Gracias. Sigamos con cuidado.",
+     "englishReference": "Thank you. Let us continue with care.",
+     "arabicTranslation": "شكرًا، لنتابع بحذر.",
+     "pronunciation": "Gracias. Sigamos con cuidado.",
+     "phraseIds": [
+      "P_C1_ES_D14_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C1_D14_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "argument_rebuild",
+     "phraseIds": [
+      "P_C1_ES_D14_C01",
+      "P_C1_ES_D14_C02",
+      "P_C1_ES_D14_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_C1_ES_D14_C01",
+      "P_C1_ES_D14_C02",
+      "P_C1_ES_D14_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_C1_ES_D14_I01",
+      "P_C1_ES_D14_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_C1_D14_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى نقاش مهني أو أكاديمي أو رسمي.",
+   "requiredPhraseIds": [
+    "P_C1_ES_D14_C01",
+    "P_C1_ES_D14_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_C1_D14_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "La región está escuchando atentamente las últimas noticias.",
+     "englishReference": "The region is listening closely to the latest news.",
+     "arabicTranslation": "المنطقة تتابع الأخبار الأخيرة باهتمام.",
+     "pronunciation": "La región está escuchando atentamente las últimas noticias."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "No todos los mensajes significan lo que parecen significar.",
+     "englishReference": "Not every message means what it seems to mean.",
+     "arabicTranslation": "ليست كل رسالة تعني ما تبدو عليه.",
+     "pronunciation": "No todos los mensajes significan lo que parecen significar."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_C1_D14_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "يحتاج المجلس إلى قرار حول: مهمة الخطاب.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "analyze",
+     "respond_to_objection",
+     "propose_responsibly"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير حجة متقدمة متزنة.",
+    "afterArabic": "يستطيع الآن تحليل موقف وبناء رد مسؤول."
+   },
+   "successWorldConsequence": "C1_DAY_14:COMPLETE",
+   "retryPolicy": "يعاد التحدي بعد تلميح لنوع الدليل أو الشرط."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_C1_ES_D14_S01",
+   "text": "Necesitamos examinar cuidadosamente el análisis público.",
+   "englishReference": "We need to examine the public analysis carefully.",
+   "arabicTranslation": "يجب أن نحلل الموضوع بدقة.",
+   "pronunciation": "Necesitamos examinar cuidadosamente el análisis público.",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_C1_ES_D14_C01",
+   "text": "Mi interpretación es más compleja de lo que parece a primera vista.",
+   "englishReference": "My interpretation is more complex than it first appears.",
+   "arabicTranslation": "تفسيري أكثر تعقيدًا مما يبدو.",
+   "pronunciation": "Mi interpretación es más compleja de lo que parece a primera vista.",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C1_ES_D14_I01",
+   "text": "¿Qué evidencia respalda esa opinión?",
+   "englishReference": "What evidence supports that view?",
+   "arabicTranslation": "ما الدليل على ذلك؟",
+   "pronunciation": "¿Qué evidencia respalda esa opinión?",
+   "classification": "important",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_C1_ES_D14_C02",
+   "text": "La evidencia es útil, pero tiene límites.",
+   "englishReference": "The evidence is useful, but it has limits.",
+   "arabicTranslation": "الدليل مفيد لكنه محدود.",
+   "pronunciation": "La evidencia es útil, pero tiene límites.",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C1_ES_D14_I02",
+   "text": "¿Cómo debemos responder a la objeción más fuerte?",
+   "englishReference": "How should we respond to the strongest objection?",
+   "arabicTranslation": "كيف نرد على الاعتراض الأقوى؟",
+   "pronunciation": "¿Cómo debemos responder a la objeción más fuerte?",
+   "classification": "important",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_C1_ES_D14_C03",
+   "text": "Deberíamos exponer nuestro razonamiento con claridad y admitir la incertidumbre.",
+   "englishReference": "We should state our reasoning clearly and admit uncertainty.",
+   "arabicTranslation": "ينبغي أن نعرض استدلالنا بوضوح ونعترف بما لا نعرفه.",
+   "pronunciation": "Deberíamos exponer nuestro razonamiento con claridad y admitir la incertidumbre.",
+   "classification": "core",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_C1_ES_D14_S02",
+   "text": "Ésa es una posición de responsabilidad.",
+   "englishReference": "That is a responsible position.",
+   "arabicTranslation": "هذا موقف مسؤول.",
+   "pronunciation": "Ésa es una posición de responsabilidad.",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_C1_ES_D14_S03",
+   "text": "Gracias. Sigamos con cuidado.",
+   "englishReference": "Thank you. Let us continue with care.",
+   "arabicTranslation": "شكرًا، لنتابع بحذر.",
+   "pronunciation": "Gracias. Sigamos con cuidado.",
+   "classification": "secondary",
+   "communicativeFunction": "advanced_argument",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "نقاش عام"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "argument_structure"
+   ],
+   "supportFadePlan": "يعتمد المستوى على الاستدلال والنبرة."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_C1_ES_D14_C01",
+     "P_C1_ES_D14_C02",
+     "P_C1_ES_D14_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_C1_ES_D14_I01",
+     "P_C1_ES_D14_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_C1_ES_D14_C01",
+    "P_C1_ES_D14_C02",
+    "P_C1_ES_D14_C03",
+    "P_C1_ES_D14_I01",
+    "P_C1_ES_D14_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تعود الحجة داخل مجلس أو رسالة لاحقة."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "C1_D13:COMPLETE"
+  ],
+  "onSuccess": [
+   "C1_DAY_14:COMPLETE",
+   "C1_D15:UNLOCKED"
+  ],
+  "milestone": "c1_milestone_14",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_c1_es_d13",
+  "nextLessonId": "story_c1_es_d15",
+  "nextLessonHookArabic": "نتيجة اليوم تفتح الخطوة التالية في القصة.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم C1 14: مهمة الخطاب."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

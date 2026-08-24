@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 26,
+ "story": {
+  "originalText": "Yassin: Good morning, Omar. Are you ready for the doctor?\nOmar: Yes, I am ready.\nYassin: The doctor is in this clinic.\nOmar: Hello, doctor. I feel sick.\nYassin: He has a headache.\nOmar: The doctor says I need rest.\nYassin: Do you need medicine?\nOmar: Yes, the doctor gives me medicine.\nYassin: I will help you at home.\nOmar: Thank you for your help.",
+  "translatedText": "Yassin: صباح الخير يا عمر. هل أنت مستعد للطبيب؟\nOmar: نعم، أنا مستعد.\nYassin: الطبيب في هذه العيادة.\nOmar: مرحباً يا دكتور. أشعر بالمرض.\nYassin: لديه صداع.\nOmar: الطبيب يقول إنني أحتاج إلى الراحة.\nYassin: هل تحتاج إلى دواء؟\nOmar: نعم، الطبيب يعطيني دواء.\nYassin: سأساعدك في البيت.\nOmar: شكراً لمساعدتك.",
+  "nativeScriptText": "Yassin: Good morning, Omar. Are you ready for the doctor?\nOmar: Yes, I am ready.\nYassin: The doctor is in this clinic.\nOmar: Hello, doctor. I feel sick.\nYassin: He has a headache.\nOmar: The doctor says I need rest.\nYassin: Do you need medicine?\nOmar: Yes, the doctor gives me medicine.\nYassin: I will help you at home.\nOmar: Thank you for your help.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 26: دكتور",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Good morning, Omar. Are you ready for the doctor?",
+    "translation": "صباح الخير يا عمر. هل أنت مستعد للطبيب؟",
+    "pronunciation": "Good morning, Omar. Are you ready for the doctor?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, I am ready.",
+    "translation": "نعم، أنا مستعد.",
+    "pronunciation": "Yes, I am ready."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "The doctor is in this clinic.",
+    "translation": "الطبيب في هذه العيادة.",
+    "pronunciation": "The doctor is in this clinic."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hello, doctor. I feel sick.",
+    "translation": "مرحباً يا دكتور. أشعر بالمرض.",
+    "pronunciation": "Hello, doctor. I feel sick."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "He has a headache.",
+    "translation": "لديه صداع.",
+    "pronunciation": "He has a headache."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The doctor says I need rest.",
+    "translation": "الطبيب يقول إنني أحتاج إلى الراحة.",
+    "pronunciation": "The doctor says I need rest."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Do you need medicine?",
+    "translation": "هل تحتاج إلى دواء؟",
+    "pronunciation": "Do you need medicine?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, the doctor gives me medicine.",
+    "translation": "نعم، الطبيب يعطيني دواء.",
+    "pronunciation": "Yes, the doctor gives me medicine."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I will help you at home.",
+    "translation": "سأساعدك في البيت.",
+    "pronunciation": "I will help you at home."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Thank you for your help.",
+    "translation": "شكراً لمساعدتك.",
+    "pronunciation": "Thank you for your help."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d26",
+   "title": "دكتور",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 26,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s4_d25"
+  ],
+  "createdAt": 1786696446398
+ }
+}

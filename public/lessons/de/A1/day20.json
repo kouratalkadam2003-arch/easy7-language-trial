@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 20,
+ "story": {
+  "originalText": "Yassin: Heute ist Montag.\nOmar: Ist unser Unterricht am Montag?\nYassin: Ja, unser Unterricht ist am Montag und Mittwoch.\nOmar: Welcher Tag ist morgen?\nYassin: Morgen ist Dienstag.\nOmar: Ich arbeite am Dienstag.\nYassin: Ich lerne am Dienstagabend.\nOmar: Jeder Tag ist eine neue Chance zu lernen.\nYassin: Das ist wahr. Morgen wiederholen wir.\nOmar: Auf Wiedersehen bis morgen.",
+  "translatedText": "Yassin: اليوم هو الاثنين.\nOmar: هل درسنا يوم الاثنين؟\nYassin: نعم، درسنا يوم الاثنين والأربعاء.\nOmar: ما يوم غد؟\nYassin: غداً هو الثلاثاء.\nOmar: أنا أعمل يوم الثلاثاء.\nYassin: أنا أدرس مساء الثلاثاء.\nOmar: كل يوم فرصة جديدة للتعلم.\nYassin: هذا صحيح. غداً نراجع.\nOmar: وداعاً إلى الغد.",
+  "nativeScriptText": "Yassin: Heute ist Montag.\nOmar: Ist unser Unterricht am Montag?\nYassin: Ja, unser Unterricht ist am Montag und Mittwoch.\nOmar: Welcher Tag ist morgen?\nYassin: Morgen ist Dienstag.\nOmar: Ich arbeite am Dienstag.\nYassin: Ich lerne am Dienstagabend.\nOmar: Jeder Tag ist eine neue Chance zu lernen.\nYassin: Das ist wahr. Morgen wiederholen wir.\nOmar: Auf Wiedersehen bis morgen.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 20: يوم",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Heute ist Montag.",
+    "translation": "اليوم هو الاثنين.",
+    "pronunciation": "Heute ist Montag."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ist unser Unterricht am Montag?",
+    "translation": "هل درسنا يوم الاثنين؟",
+    "pronunciation": "Ist unser Unterricht am Montag?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ja, unser Unterricht ist am Montag und Mittwoch.",
+    "translation": "نعم، درسنا يوم الاثنين والأربعاء.",
+    "pronunciation": "Ja, unser Unterricht ist am Montag und Mittwoch."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Welcher Tag ist morgen?",
+    "translation": "ما يوم غد؟",
+    "pronunciation": "Welcher Tag ist morgen?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Morgen ist Dienstag.",
+    "translation": "غداً هو الثلاثاء.",
+    "pronunciation": "Morgen ist Dienstag."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Ich arbeite am Dienstag.",
+    "translation": "أنا أعمل يوم الثلاثاء.",
+    "pronunciation": "Ich arbeite am Dienstag."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich lerne am Dienstagabend.",
+    "translation": "أنا أدرس مساء الثلاثاء.",
+    "pronunciation": "Ich lerne am Dienstagabend."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Jeder Tag ist eine neue Chance zu lernen.",
+    "translation": "كل يوم فرصة جديدة للتعلم.",
+    "pronunciation": "Jeder Tag ist eine neue Chance zu lernen."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Das ist wahr. Morgen wiederholen wir.",
+    "translation": "هذا صحيح. غداً نراجع.",
+    "pronunciation": "Das ist wahr. Morgen wiederholen wir."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Auf Wiedersehen bis morgen.",
+    "translation": "وداعاً إلى الغد.",
+    "pronunciation": "Auf Wiedersehen bis morgen."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d20",
+   "title": "يوم",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 20,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s3_d19"
+  ],
+  "createdAt": 1786696446398
+ }
+}

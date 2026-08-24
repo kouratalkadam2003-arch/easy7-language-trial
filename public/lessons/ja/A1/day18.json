@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 18,
+ "story": {
+  "originalText": "Yassin: Ohayō, Yassin. Kore ga hon desu.\nOmar: Arigatō. Kore wa Eigo no hon desu ka?\nYassin: Hai, kore wa watashitachi no atarashii Eigo no hon desu.\nOmar: Kono hon wa totemo yaku ni tachimasu.\nYassin: Hon no jū pēji o hiraite kudasai.\nOmar: Kono pēji ni kaiwa ga arimasu.\nYassin: Saisho no bun o yonde kudasai.\nOmar: Ima yomemasu.\nYassin: Hon o tsukue no ue ni oite kudasai.\nOmar: Wakarimashita, tsukue wa doko desu ka?",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هذا هو الكتاب.\nOmar: شكراً. هل هذا كتاب اللغة الإنجليزية؟\nYassin: نعم، هذا كتاب الإنجليزية الجديد.\nOmar: الكتاب مفيد جداً.\nYassin: افتح الكتاب في الصفحة العاشرة.\nOmar: أرى حواراً في هذه الصفحة.\nYassin: اقرأ الجملة الأولى، من فضلك.\nOmar: يمكنني قراءتها الآن.\nYassin: ضع الكتاب على المكتب.\nOmar: حسناً، أين المكتب؟",
+  "nativeScriptText": "Yassin: おはよう、Yassin。これが本です。\nOmar: ありがとう。これは英語の本ですか？\nYassin: はい、これは私たちの新しい英語の本です。\nOmar: この本はとても役に立ちます。\nYassin: 本の十ページを開いてください。\nOmar: このページに会話があります。\nYassin: 最初の文を読んでください。\nOmar: 今読めます。\nYassin: 本を机の上に置いてください。\nOmar: わかりました、机はどこですか？",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 18: كتاب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "おはよう、Yassin。これが本です。",
+    "translation": "صباح الخير يا ياسين. هذا هو الكتاب.",
+    "pronunciation": "Ohayō, Yassin. Kore ga hon desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "ありがとう。これは英語の本ですか？",
+    "translation": "شكراً. هل هذا كتاب اللغة الإنجليزية؟",
+    "pronunciation": "Arigatō. Kore wa Eigo no hon desu ka?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "はい、これは私たちの新しい英語の本です。",
+    "translation": "نعم، هذا كتاب الإنجليزية الجديد.",
+    "pronunciation": "Hai, kore wa watashitachi no atarashii Eigo no hon desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "この本はとても役に立ちます。",
+    "translation": "الكتاب مفيد جداً.",
+    "pronunciation": "Kono hon wa totemo yaku ni tachimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "本の十ページを開いてください。",
+    "translation": "افتح الكتاب في الصفحة العاشرة.",
+    "pronunciation": "Hon no jū pēji o hiraite kudasai."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "このページに会話があります。",
+    "translation": "أرى حواراً في هذه الصفحة.",
+    "pronunciation": "Kono pēji ni kaiwa ga arimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "最初の文を読んでください。",
+    "translation": "اقرأ الجملة الأولى، من فضلك.",
+    "pronunciation": "Saisho no bun o yonde kudasai."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "今読めます。",
+    "translation": "يمكنني قراءتها الآن.",
+    "pronunciation": "Ima yomemasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "本を机の上に置いてください。",
+    "translation": "ضع الكتاب على المكتب.",
+    "pronunciation": "Hon o tsukue no ue ni oite kudasai."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "わかりました、机はどこですか？",
+    "translation": "حسناً، أين المكتب؟",
+    "pronunciation": "Wakarimashita, tsukue wa doko desu ka?"
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d18",
+   "title": "كتاب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 18,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s3_d17"
+  ],
+  "createdAt": 1786696446398
+ }
+}

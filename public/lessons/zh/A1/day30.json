@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 30,
+ "story": {
+  "originalText": "Yassin: zǎo shàng hǎo, ào mǎ ěr. nǐ zhǔn bèi hǎo kǎo shì le ma.\nOmar: Shì de, wǒ zhǔnbèi hǎo le, rúguǒ shàngdì yuànyì.\nYassin: Nǐ jiào shénme míngzi?\nOmar: wǒ jiào ào mǎ ěr, lái zì ā ěr jí lì yà.\nYassin: Nǐ zěnmeyàng, nǐ de shū zài nǎlǐ?\nOmar: Wǒ hěn hǎo. Wǒ de shū zài zhuōzi shàng.\nYassin: Nǐ xiǎng chī shénme?\nOmar: Qǐng gěi wǒ mǐfàn hé shuǐ.\nYassin: Tài bàng le. Nǐ tōngguò le A yī kǎoshì. Gàn dé hǎo!\nOmar: xiè xiè nǐ, yà xīn. zài jiàn, A. nǐ hǎo, A.",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هل أنت مستعد للامتحان؟\nOmar: نعم، أنا مستعد، إن شاء الله.\nYassin: ما اسمك؟\nOmar: اسمي ياسين، وأنا من الجزائر.\nYassin: كيف حالك، وأين كتابك؟\nOmar: أنا بخير. كتابي على المكتب.\nYassin: ماذا تريد أن تأكل؟\nOmar: أريد الأرز والماء، من فضلك.\nYassin: ممتاز. لقد نجحت في A1. أحسنت!\nOmar: شكراً يا عمر. وداعاً A1. مرحباً A2!",
+  "nativeScriptText": "Yassin: 早上好，奥马尔。你准备好考试了吗？\nOmar: 是的，我准备好了，如果上帝愿意。\nYassin: 你叫什么名字？\nOmar: 我叫奥马尔，来自阿尔及利亚。\nYassin: 你怎么样，你的书在哪里？\nOmar: 我很好。我的书在桌子上。\nYassin: 你想吃什么？\nOmar: 请给我米饭和水。\nYassin: 太棒了。你通过了 A1 考试。干得好！\nOmar: 谢谢你，亚辛。再见，A1。你好，A2！",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 30: امتحان المستوى A1",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "早上好，奥马尔。你准备好考试了吗？",
+    "translation": "صباح الخير يا ياسين. هل أنت مستعد للامتحان؟",
+    "pronunciation": "zǎo shàng hǎo, ào mǎ ěr. nǐ zhǔn bèi hǎo kǎo shì le ma."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，我准备好了，如果上帝愿意。",
+    "translation": "نعم، أنا مستعد، إن شاء الله.",
+    "pronunciation": "Shì de, wǒ zhǔnbèi hǎo le, rúguǒ shàngdì yuànyì."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你叫什么名字？",
+    "translation": "ما اسمك؟",
+    "pronunciation": "Nǐ jiào shénme míngzi?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我叫奥马尔，来自阿尔及利亚。",
+    "translation": "اسمي ياسين، وأنا من الجزائر.",
+    "pronunciation": "wǒ jiào ào mǎ ěr, lái zì ā ěr jí lì yà."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你怎么样，你的书在哪里？",
+    "translation": "كيف حالك، وأين كتابك؟",
+    "pronunciation": "Nǐ zěnmeyàng, nǐ de shū zài nǎlǐ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我很好。我的书在桌子上。",
+    "translation": "أنا بخير. كتابي على المكتب.",
+    "pronunciation": "Wǒ hěn hǎo. Wǒ de shū zài zhuōzi shàng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你想吃什么？",
+    "translation": "ماذا تريد أن تأكل؟",
+    "pronunciation": "Nǐ xiǎng chī shénme?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "请给我米饭和水。",
+    "translation": "أريد الأرز والماء، من فضلك.",
+    "pronunciation": "Qǐng gěi wǒ mǐfàn hé shuǐ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "太棒了。你通过了 A1 考试。干得好！",
+    "translation": "ممتاز. لقد نجحت في A1. أحسنت!",
+    "pronunciation": "Tài bàng le. Nǐ tōngguò le A yī kǎoshì. Gàn dé hǎo!"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "谢谢你，亚辛。再见，A1。你好，A2！",
+    "translation": "شكراً يا عمر. وداعاً A1. مرحباً A2!",
+    "pronunciation": "xiè xiè nǐ, yà xīn. zài jiàn, A. nǐ hǎo, A."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d30",
+   "title": "امتحان المستوى A1",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 30,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s5_d29"
+  ],
+  "createdAt": 1786696446398
+ }
+}

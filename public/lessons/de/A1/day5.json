@@ -1,0 +1,121 @@
+{
+ "targetLang": "de",
+ "level": "A1",
+ "dayNumber": 5,
+ "story": {
+  "originalText": "Yassin: Hallo, Omar. Ich bin zurück.\nOmar: Hallo, Yassin. Willkommen zurück.\nYassin: Ich gehe jetzt zum Laden.\nOmar: Okay. Bis bald.\nYassin: Auf Wiedersehen, Omar.\nOmar: Auf Wiedersehen. Pass auf dich auf.\nYassin: Ich bin vom Laden zurück.\nOmar: Hallo noch mal. Hast du alles gefunden?\nYassin: Ja, danke fürs Warten.\nOmar: Kein Problem. Guten Abend.",
+  "translatedText": "Yassin: مرحباً يا عمر. لقد عدت.\nOmar: مرحباً يا ياسين. أهلاً بعودتك.\nYassin: سأذهب إلى المتجر الآن.\nOmar: حسناً. أراك قريباً.\nYassin: وداعاً يا عمر.\nOmar: وداعاً. اعتنِ بنفسك.\nYassin: عدت من المتجر.\nOmar: مرحباً من جديد. هل وجدت كل شيء؟\nYassin: نعم، شكراً لانتظارك.\nOmar: لا مشكلة. مساء الخير.",
+  "nativeScriptText": "Yassin: Hallo, Omar. Ich bin zurück.\nOmar: Hallo, Yassin. Willkommen zurück.\nYassin: Ich gehe jetzt zum Laden.\nOmar: Okay. Bis bald.\nYassin: Auf Wiedersehen, Omar.\nOmar: Auf Wiedersehen. Pass auf dich auf.\nYassin: Ich bin vom Laden zurück.\nOmar: Hallo noch mal. Hast du alles gefunden?\nYassin: Ja, danke fürs Warten.\nOmar: Kein Problem. Guten Abend.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 5: مرحباً / وداعاً",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hallo, Omar. Ich bin zurück.",
+    "translation": "مرحباً يا عمر. لقد عدت.",
+    "pronunciation": "Hallo, Omar. Ich bin zurück."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hallo, Yassin. Willkommen zurück.",
+    "translation": "مرحباً يا ياسين. أهلاً بعودتك.",
+    "pronunciation": "Hallo, Yassin. Willkommen zurück."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich gehe jetzt zum Laden.",
+    "translation": "سأذهب إلى المتجر الآن.",
+    "pronunciation": "Ich gehe jetzt zum Laden."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Okay. Bis bald.",
+    "translation": "حسناً. أراك قريباً.",
+    "pronunciation": "Okay. Bis bald."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Auf Wiedersehen, Omar.",
+    "translation": "وداعاً يا عمر.",
+    "pronunciation": "Auf Wiedersehen, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Auf Wiedersehen. Pass auf dich auf.",
+    "translation": "وداعاً. اعتنِ بنفسك.",
+    "pronunciation": "Auf Wiedersehen. Pass auf dich auf."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ich bin vom Laden zurück.",
+    "translation": "عدت من المتجر.",
+    "pronunciation": "Ich bin vom Laden zurück."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Hallo noch mal. Hast du alles gefunden?",
+    "translation": "مرحباً من جديد. هل وجدت كل شيء؟",
+    "pronunciation": "Hallo noch mal. Hast du alles gefunden?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Ja, danke fürs Warten.",
+    "translation": "نعم، شكراً لانتظارك.",
+    "pronunciation": "Ja, danke fürs Warten."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Kein Problem. Guten Abend.",
+    "translation": "لا مشكلة. مساء الخير.",
+    "pronunciation": "Kein Problem. Guten Abend."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d5",
+   "title": "مرحباً / وداعاً",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 5,
+  "level": "A1",
+  "languageCode": "de",
+  "previousTopics": [
+   "s1_d4"
+  ],
+  "createdAt": 1786696446398
+ }
+}

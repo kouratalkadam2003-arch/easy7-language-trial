@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_fr_d23",
+  "languageCode": "fr",
+  "languageNameArabic": "الفرنسية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 23,
+  "lessonTitle": "De combien avons-nous besoin ?",
+  "englishTitle": "How Much Do We Need?",
+  "arabicTitle": "كم نحتاج؟",
+  "canonicalBeatIds": [
+   "BEAT_A1_D23"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "السؤال عن الكمية والعدد.",
+  "realLifeTransferArabic": "التسوق أو الطبخ أو تجهيز مشروع بسيط.",
+  "successCapabilityArabic": "اسأل عن كمية ثلاثة أشياء واكتب أو قل القائمة."
+ },
+ "story": {
+  "storyContextArabic": "قبل الذهاب إلى السوق، تعد المجموعة ما تحتاجه الحديقة.",
+  "storyMissionArabic": "يتعلم ليث صنع قائمة مفهومة بدل التخمين.",
+  "setting": "garden_area",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: كم نحتاج؟."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D23_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D23_01",
+     "narrationArabic": "قبل الذهاب إلى السوق، تعد المجموعة ما تحتاجه الحديقة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D23_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "السؤال عن الكمية والعدد.",
+   "lines": [
+    {
+     "lineId": "L_A1_FR_D23_01",
+     "speakerId": "elly",
+     "targetText": "Bonjour, Elly. De quoi avons-nous besoin ?",
+     "englishReference": "Good morning, Elly. What do we need?",
+     "arabicTranslation": "صباح الخير يا إيلي. ماذا نحتاج؟",
+     "pronunciation": "Bonjour, Elly. De quoi avons-nous besoin ?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D23_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D23_02",
+     "speakerId": "laith",
+     "targetText": "Nous avons besoin de graines, d’eau et de bois.",
+     "englishReference": "We need seeds, water, and wood.",
+     "arabicTranslation": "نحتاج إلى بذور وماء وخشب.",
+     "pronunciation": "Nous avons besoin de graines, d’eau et de bois.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D23_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D23_03",
+     "speakerId": "elly",
+     "targetText": "De combien de sacs de graines avons-nous besoin ?",
+     "englishReference": "How many seed bags do we need?",
+     "arabicTranslation": "كم كيس بذور نحتاج؟",
+     "pronunciation": "De combien de sacs de graines avons-nous besoin ?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D23_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D23_04",
+     "speakerId": "laith",
+     "targetText": "Il nous faut trois sacs.",
+     "englishReference": "We need three bags.",
+     "arabicTranslation": "نحتاج إلى ثلاثة أكياس.",
+     "pronunciation": "Il nous faut trois sacs.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D23_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D23_05",
+     "speakerId": "elly",
+     "targetText": "De quelle quantité d’eau avons-nous besoin ?",
+     "englishReference": "How much water do we need?",
+     "arabicTranslation": "كم ماء نحتاج؟",
+     "pronunciation": "De quelle quantité d’eau avons-nous besoin ?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D23_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D23_06",
+     "speakerId": "laith",
+     "targetText": "Nous avons besoin de deux grosses bouteilles.",
+     "englishReference": "We need two big bottles.",
+     "arabicTranslation": "نحتاج إلى زجاجتين كبيرتين.",
+     "pronunciation": "Nous avons besoin de deux grosses bouteilles.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D23_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D23_07",
+     "speakerId": "elly",
+     "targetText": "Et combien de bois ?",
+     "englishReference": "And how much wood?",
+     "arabicTranslation": "وماذا عن الخشب؟",
+     "pronunciation": "Et combien de bois ?",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D23_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D23_08",
+     "speakerId": "laith",
+     "targetText": "Cinq pièces suffisent. Au revoir, liste.",
+     "englishReference": "Five pieces are enough. Goodbye, list.",
+     "arabicTranslation": "خمس قطع تكفي. وداعًا أيتها القائمة.",
+     "pronunciation": "Cinq pièces suffisent. Au revoir, liste.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_FR_D23_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D23_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_FR_D23_C01",
+      "P_A1_FR_D23_C02",
+      "P_A1_FR_D23_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_FR_D23_C01",
+      "P_A1_FR_D23_C02",
+      "P_A1_FR_D23_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_FR_D23_I01",
+      "P_A1_FR_D23_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D23_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: التسوق أو الطبخ أو تجهيز مشروع بسيط.",
+   "requiredPhraseIds": [
+    "P_A1_FR_D23_C01",
+    "P_A1_FR_D23_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D23_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "J'ai entendu dire que Laith avait aidé aujourd'hui.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "J'ai entendu dire que Laith avait aidé aujourd'hui."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Le village commence à le connaître.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "Le village commence à le connaître."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D23_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: كم نحتاج؟.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "اسأل عن كمية ثلاثة أشياء واكتب أو قل القائمة."
+   },
+   "successWorldConsequence": "A1_DAY_23:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_FR_D23_S01",
+   "text": "Bonjour, Elly. De quoi avons-nous besoin ?",
+   "englishReference": "Good morning, Elly. What do we need?",
+   "arabicTranslation": "صباح الخير يا إيلي. ماذا نحتاج؟",
+   "pronunciation": "Bonjour, Elly. De quoi avons-nous besoin ?",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D23_LEARNING",
+   "transferContexts": [
+    "التسوق أو الطبخ أو تجهيز مشروع بسيط."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D23_I01",
+   "text": "Nous avons besoin de graines, d’eau et de bois.",
+   "englishReference": "We need seeds, water, and wood.",
+   "arabicTranslation": "نحتاج إلى بذور وماء وخشب.",
+   "pronunciation": "Nous avons besoin de graines, d’eau et de bois.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D23_LEARNING",
+   "transferContexts": [
+    "التسوق أو الطبخ أو تجهيز مشروع بسيط."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_FR_D23_C01",
+   "text": "De combien de sacs de graines avons-nous besoin ?",
+   "englishReference": "How many seed bags do we need?",
+   "arabicTranslation": "كم كيس بذور نحتاج؟",
+   "pronunciation": "De combien de sacs de graines avons-nous besoin ?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D23_LEARNING",
+   "transferContexts": [
+    "التسوق أو الطبخ أو تجهيز مشروع بسيط."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D23_S02",
+   "text": "Il nous faut trois sacs.",
+   "englishReference": "We need three bags.",
+   "arabicTranslation": "نحتاج إلى ثلاثة أكياس.",
+   "pronunciation": "Il nous faut trois sacs.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D23_LEARNING",
+   "transferContexts": [
+    "التسوق أو الطبخ أو تجهيز مشروع بسيط."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D23_C02",
+   "text": "De quelle quantité d’eau avons-nous besoin ?",
+   "englishReference": "How much water do we need?",
+   "arabicTranslation": "كم ماء نحتاج؟",
+   "pronunciation": "De quelle quantité d’eau avons-nous besoin ?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D23_LEARNING",
+   "transferContexts": [
+    "التسوق أو الطبخ أو تجهيز مشروع بسيط."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D23_C03",
+   "text": "Nous avons besoin de deux grosses bouteilles.",
+   "englishReference": "We need two big bottles.",
+   "arabicTranslation": "نحتاج إلى زجاجتين كبيرتين.",
+   "pronunciation": "Nous avons besoin de deux grosses bouteilles.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D23_LEARNING",
+   "transferContexts": [
+    "التسوق أو الطبخ أو تجهيز مشروع بسيط."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D23_S03",
+   "text": "Et combien de bois ?",
+   "englishReference": "And how much wood?",
+   "arabicTranslation": "وماذا عن الخشب؟",
+   "pronunciation": "Et combien de bois ?",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D23_LEARNING",
+   "transferContexts": [
+    "التسوق أو الطبخ أو تجهيز مشروع بسيط."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D23_I02",
+   "text": "Cinq pièces suffisent. Au revoir, liste.",
+   "englishReference": "Five pieces are enough. Goodbye, list.",
+   "arabicTranslation": "خمس قطع تكفي. وداعًا أيتها القائمة.",
+   "pronunciation": "Cinq pièces suffisent. Au revoir, liste.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D23_LEARNING",
+   "transferContexts": [
+    "التسوق أو الطبخ أو تجهيز مشروع بسيط."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_FR_D23_C01",
+     "P_A1_FR_D23_C02",
+     "P_A1_FR_D23_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_FR_D23_C01",
+     "P_A1_FR_D23_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_FR_D23_C01",
+    "P_A1_FR_D23_C02",
+    "P_A1_FR_D23_C03",
+    "P_A1_FR_D23_I01",
+    "P_A1_FR_D23_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D22:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_23:COMPLETE",
+   "A1_D24:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_23",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_fr_d22",
+  "nextLessonId": "story_a1_fr_d24",
+  "nextLessonHookArabic": "غدًا: حساب بسيط.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 23: كم نحتاج؟."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

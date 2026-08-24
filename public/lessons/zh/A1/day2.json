@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 2,
+ "story": {
+  "originalText": "Yassin: Zǎoshang hǎo, Yassin.\nOmar: Zǎoshang hǎo, Omar.\nYassin: Nǐ láizì nǎlǐ?\nOmar: Wǒ láizì Ā'ěrjílìyà.\nYassin: Ā'ěrjílìyà shì yí gè měilì de guójiā.\nOmar: Xièxie. Nǐ cóng nǎlǐ lái?\nYassin: Wǒ láizì Móluògē.\nOmar: Wǒmen láizì Běifēi.\nYassin: Shì de, xiànzài wǒmen zài zhèlǐ yìqǐ.\nOmar: Dāihuìr jiàn, Omar.",
+  "translatedText": "Yassin: صباح الخير يا ياسين.\nOmar: صباح الخير يا عمر.\nYassin: من أين أنت؟\nOmar: أنا من الجزائر.\nYassin: الجزائر بلد جميل.\nOmar: شكراً. من أين أنت؟\nYassin: أنا من المغرب.\nOmar: نحن من شمال أفريقيا.\nYassin: نعم، والآن نحن هنا معاً.\nOmar: أراك لاحقاً يا عمر.",
+  "nativeScriptText": "Yassin: 早上好，Yassin。\nOmar: 早上好，Omar。\nYassin: 你来自哪里？\nOmar: 我来自阿尔及利亚。\nYassin: 阿尔及利亚是一个美丽的国家。\nOmar: 谢谢。你从哪里来？\nYassin: 我来自摩洛哥。\nOmar: 我们来自北非。\nYassin: 是的，现在我们在这里一起。\nOmar: 待会儿见，Omar。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 2: من أين",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "早上好，Yassin。",
+    "translation": "صباح الخير يا ياسين.",
+    "pronunciation": "Zǎoshang hǎo, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "早上好，Omar。",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Zǎoshang hǎo, Omar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你来自哪里？",
+    "translation": "من أين أنت؟",
+    "pronunciation": "Nǐ láizì nǎlǐ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我来自阿尔及利亚。",
+    "translation": "أنا من الجزائر.",
+    "pronunciation": "Wǒ láizì Ā'ěrjílìyà."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "阿尔及利亚是一个美丽的国家。",
+    "translation": "الجزائر بلد جميل.",
+    "pronunciation": "Ā'ěrjílìyà shì yí gè měilì de guójiā."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "谢谢。你从哪里来？",
+    "translation": "شكراً. من أين أنت؟",
+    "pronunciation": "Xièxie. Nǐ cóng nǎlǐ lái?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我来自摩洛哥。",
+    "translation": "أنا من المغرب.",
+    "pronunciation": "Wǒ láizì Móluògē."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我们来自北非。",
+    "translation": "نحن من شمال أفريقيا.",
+    "pronunciation": "Wǒmen láizì Běifēi."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "是的，现在我们在这里一起。",
+    "translation": "نعم، والآن نحن هنا معاً.",
+    "pronunciation": "Shì de, xiànzài wǒmen zài zhèlǐ yìqǐ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "待会儿见，Omar。",
+    "translation": "أراك لاحقاً يا عمر.",
+    "pronunciation": "Dāihuìr jiàn, Omar."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d2",
+   "title": "من أين",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 2,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s1_d1"
+  ],
+  "createdAt": 1786696446398
+ }
+}

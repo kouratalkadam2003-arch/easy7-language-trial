@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_zh_d08",
+  "languageCode": "zh",
+  "languageNameArabic": "الصينية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 8,
+  "lessonTitle": "我的新家",
+  "englishTitle": "My New Home",
+  "arabicTitle": "بيتي الجديد",
+  "canonicalBeatIds": [
+   "BEAT_A1_D08"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "وصف بيت بسيط وما يوجد فيه.",
+  "realLifeTransferArabic": "الحديث عن المسكن أو غرفة الإقامة.",
+  "successCapabilityArabic": "صف ركنك في الكوخ بثلاث جمل قصيرة."
+ },
+ "story": {
+  "storyContextArabic": "تخصص إيلي لليث ركنًا صغيرًا في الكوخ.",
+  "storyMissionArabic": "يتعلم وصف مكانه الجديد باحترام.",
+  "setting": "cabin_and_village",
+  "charactersPresent": [
+   "laith",
+   "elly",
+   "elias"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: بيتي الجديد."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D08_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D08_01",
+     "narrationArabic": "تخصص إيلي لليث ركنًا صغيرًا في الكوخ."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D08_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "وصف بيت بسيط وما يوجد فيه.",
+   "lines": [
+    {
+     "lineId": "L_A1_ZH_D08_01",
+     "speakerId": "elly",
+     "targetText": "你好，莱斯。这是你的角落。",
+     "englishReference": "Hello, Laith. This is your corner.",
+     "arabicTranslation": "مرحبًا يا ليث. هذه زاويتك.",
+     "pronunciation": "nǐ hǎo, lái sī. zhè shì nǐ de jiǎo luò.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D08_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ZH_D08_02",
+     "speakerId": "laith",
+     "targetText": "谢谢你，艾莉。它又小又漂亮。",
+     "englishReference": "Thank you, Elly. It is small and nice.",
+     "arabicTranslation": "شكرًا يا إيلي. إنها صغيرة ولطيفة.",
+     "pronunciation": "xiè xiè nǐ, ài lì. tā yòu xiǎo yòu piào liàng.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D08_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D08_03",
+     "speakerId": "elly",
+     "targetText": "有一张床和一张小桌子。",
+     "englishReference": "There is a bed and a small table.",
+     "arabicTranslation": "هناك سرير وطاولة صغيرة.",
+     "pronunciation": "yǒu yī zhāng chuáng hé yī zhāng xiǎo zhuō zi.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D08_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D08_04",
+     "speakerId": "laith",
+     "targetText": "是的，还有一盏灯。",
+     "englishReference": "Yes, and there is a lamp.",
+     "arabicTranslation": "نعم، وهناك مصباح.",
+     "pronunciation": "shì de, hái yǒu yī zhǎn dēng.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D08_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ZH_D08_05",
+     "speakerId": "elly",
+     "targetText": "这是我的包吗？",
+     "englishReference": "Is this my bag?",
+     "arabicTranslation": "هل هذه حقيبتي؟",
+     "pronunciation": "zhè shì wǒ de bāo ma.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D08_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D08_06",
+     "speakerId": "laith",
+     "targetText": "是的，你的包在桌子下面。",
+     "englishReference": "Yes, your bag is under the table.",
+     "arabicTranslation": "نعم، حقيبتك تحت الطاولة.",
+     "pronunciation": "shì de, nǐ de bāo zài zhuō zi xià miàn.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D08_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D08_07",
+     "speakerId": "elly",
+     "targetText": "我喜欢我的新家。",
+     "englishReference": "I like my new home.",
+     "arabicTranslation": "أنا أحب بيتي الجديد.",
+     "pronunciation": "wǒ xǐ huān wǒ de xīn jiā.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D08_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ZH_D08_08",
+     "speakerId": "laith",
+     "targetText": "我很高兴。晚安，莱斯。",
+     "englishReference": "I am happy. Good night, Laith.",
+     "arabicTranslation": "أنا سعيدة. تصبح على خير يا ليث.",
+     "pronunciation": "wǒ hěn gāo xìng. wǎn ān, lái sī.",
+     "gesture": {
+      "kind": "none",
+      "instructionalRole": "none"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D08_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D08_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_ZH_D08_C01",
+      "P_A1_ZH_D08_C02",
+      "P_A1_ZH_D08_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_ZH_D08_C01",
+      "P_A1_ZH_D08_C02",
+      "P_A1_ZH_D08_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_ZH_D08_I01",
+      "P_A1_ZH_D08_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D08_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: الحديث عن المسكن أو غرفة الإقامة.",
+   "requiredPhraseIds": [
+    "P_A1_ZH_D08_C01",
+    "P_A1_ZH_D08_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D08_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "我听说莱斯今天帮忙了。",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "wǒ tīng shuō lái sī jīn tiān bāng máng le."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "村里的人开始认识他了。",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "cūn lǐ de rén kāi shǐ rèn shí tā le."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D08_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: بيتي الجديد.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "صف ركنك في الكوخ بثلاث جمل قصيرة."
+   },
+   "successWorldConsequence": "A1_DAY_08:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_ZH_D08_S01",
+   "text": "你好，莱斯。这是你的角落。",
+   "englishReference": "Hello, Laith. This is your corner.",
+   "arabicTranslation": "مرحبًا يا ليث. هذه زاويتك.",
+   "pronunciation": "nǐ hǎo, lái sī. zhè shì nǐ de jiǎo luò.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D08_LEARNING",
+   "transferContexts": [
+    "الحديث عن المسكن أو غرفة الإقامة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ZH_D08_I01",
+   "text": "谢谢你，艾莉。它又小又漂亮。",
+   "englishReference": "Thank you, Elly. It is small and nice.",
+   "arabicTranslation": "شكرًا يا إيلي. إنها صغيرة ولطيفة.",
+   "pronunciation": "xiè xiè nǐ, ài lì. tā yòu xiǎo yòu piào liàng.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D08_LEARNING",
+   "transferContexts": [
+    "الحديث عن المسكن أو غرفة الإقامة."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_ZH_D08_C01",
+   "text": "有一张床和一张小桌子。",
+   "englishReference": "There is a bed and a small table.",
+   "arabicTranslation": "هناك سرير وطاولة صغيرة.",
+   "pronunciation": "yǒu yī zhāng chuáng hé yī zhāng xiǎo zhuō zi.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D08_LEARNING",
+   "transferContexts": [
+    "الحديث عن المسكن أو غرفة الإقامة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ZH_D08_S02",
+   "text": "是的，还有一盏灯。",
+   "englishReference": "Yes, and there is a lamp.",
+   "arabicTranslation": "نعم، وهناك مصباح.",
+   "pronunciation": "shì de, hái yǒu yī zhǎn dēng.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D08_LEARNING",
+   "transferContexts": [
+    "الحديث عن المسكن أو غرفة الإقامة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ZH_D08_C02",
+   "text": "这是我的包吗？",
+   "englishReference": "Is this my bag?",
+   "arabicTranslation": "هل هذه حقيبتي؟",
+   "pronunciation": "zhè shì wǒ de bāo ma.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D08_LEARNING",
+   "transferContexts": [
+    "الحديث عن المسكن أو غرفة الإقامة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ZH_D08_C03",
+   "text": "是的，你的包在桌子下面。",
+   "englishReference": "Yes, your bag is under the table.",
+   "arabicTranslation": "نعم، حقيبتك تحت الطاولة.",
+   "pronunciation": "shì de, nǐ de bāo zài zhuō zi xià miàn.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D08_LEARNING",
+   "transferContexts": [
+    "الحديث عن المسكن أو غرفة الإقامة."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ZH_D08_S03",
+   "text": "我喜欢我的新家。",
+   "englishReference": "I like my new home.",
+   "arabicTranslation": "أنا أحب بيتي الجديد.",
+   "pronunciation": "wǒ xǐ huān wǒ de xīn jiā.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D08_LEARNING",
+   "transferContexts": [
+    "الحديث عن المسكن أو غرفة الإقامة."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ZH_D08_I02",
+   "text": "我很高兴。晚安，莱斯。",
+   "englishReference": "I am happy. Good night, Laith.",
+   "arabicTranslation": "أنا سعيدة. تصبح على خير يا ليث.",
+   "pronunciation": "wǒ hěn gāo xìng. wǎn ān, lái sī.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D08_LEARNING",
+   "transferContexts": [
+    "الحديث عن المسكن أو غرفة الإقامة."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_ZH_D08_C01",
+     "P_A1_ZH_D08_C02",
+     "P_A1_ZH_D08_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_ZH_D08_C01",
+     "P_A1_ZH_D08_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_ZH_D08_C01",
+    "P_A1_ZH_D08_C02",
+    "P_A1_ZH_D08_C03",
+    "P_A1_ZH_D08_I01",
+    "P_A1_ZH_D08_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D07:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_08:COMPLETE",
+   "A1_D09:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_08",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_zh_d07",
+  "nextLessonId": "story_a1_zh_d09",
+  "nextLessonHookArabic": "غدًا: أشياء حولي.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 8: بيتي الجديد."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_zh_d03",
+  "languageCode": "zh",
+  "languageNameArabic": "الصينية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 3,
+  "lessonTitle": "简单的细节",
+  "englishTitle": "Simple Details",
+  "arabicTitle": "تفاصيل بسيطة",
+  "canonicalBeatIds": [
+   "BEAT_A1_D03"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "قول العمر والحالة والتعب والشكر.",
+  "realLifeTransferArabic": "تقديم معلومات شخصية بسيطة في بيت أو عيادة أو لقاء جديد.",
+  "successCapabilityArabic": "أجب عن سؤالين متتاليين عن عمرك وحالتك."
+ },
+ "story": {
+  "storyContextArabic": "تصل إيلي بليث إلى الكوخ وتحتاج إلى معرفة ما إذا كان يستطيع الراحة بأمان.",
+  "storyMissionArabic": "يشارك تفاصيل بسيطة تكفي لبناء الثقة.",
+  "setting": "cabin_and_village",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: تفاصيل بسيطة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D03_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D03_01",
+     "narrationArabic": "تصل إيلي بليث إلى الكوخ وتحتاج إلى معرفة ما إذا كان يستطيع الراحة بأمان."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D03_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "قول العمر والحالة والتعب والشكر.",
+   "lines": [
+    {
+     "lineId": "L_A1_ZH_D03_01",
+     "speakerId": "elly",
+     "targetText": "你好，莱斯。欢迎来到我家。",
+     "englishReference": "Hello, Laith. Welcome to my home.",
+     "arabicTranslation": "مرحبًا يا ليث. أهلًا بك في بيتي.",
+     "pronunciation": "nǐ hǎo, lái sī. huān yíng lái dào wǒ jiā.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "reduced_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D03_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ZH_D03_02",
+     "speakerId": "laith",
+     "targetText": "谢谢。你的家是善良而温暖的。",
+     "englishReference": "Thank you. Your home is kind and warm.",
+     "arabicTranslation": "شكرًا لك. بيتك لطيف ودافئ.",
+     "pronunciation": "xiè xiè. nǐ de jiā shì shàn liáng ér wēn nuǎn de.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "reduced_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D03_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D03_03",
+     "speakerId": "elly",
+     "targetText": "你今年多大？",
+     "englishReference": "How old are you?",
+     "arabicTranslation": "كم عمرك؟",
+     "pronunciation": "nǐ jīn nián duō dà.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "reduced_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D03_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D03_04",
+     "speakerId": "laith",
+     "targetText": "我今年二十二岁。",
+     "englishReference": "I am twenty-two years old.",
+     "arabicTranslation": "عمري اثنان وعشرون عامًا.",
+     "pronunciation": "wǒ jīn nián èr shí èr suì.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "reduced_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D03_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ZH_D03_05",
+     "speakerId": "elly",
+     "targetText": "你还好吗？",
+     "englishReference": "Are you okay?",
+     "arabicTranslation": "هل أنت بخير؟",
+     "pronunciation": "nǐ hái hǎo ma.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "reduced_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D03_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D03_06",
+     "speakerId": "laith",
+     "targetText": "我很累，但我还好。",
+     "englishReference": "I am tired, but I am okay.",
+     "arabicTranslation": "أنا متعب، لكنني بخير.",
+     "pronunciation": "wǒ hěn lèi, dàn wǒ hái hǎo.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "reduced_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D03_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_ZH_D03_07",
+     "speakerId": "elly",
+     "targetText": "你现在需要休息。",
+     "englishReference": "You need to rest now.",
+     "arabicTranslation": "تحتاج إلى الراحة الآن.",
+     "pronunciation": "nǐ xiàn zài xū yào xiū xī.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "reduced_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D03_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_ZH_D03_08",
+     "speakerId": "laith",
+     "targetText": "谢谢你，艾莉。暂时再见了。",
+     "englishReference": "Thank you, Elly. Goodbye for now.",
+     "arabicTranslation": "شكرًا يا إيلي. إلى اللقاء الآن.",
+     "pronunciation": "xiè xiè nǐ, ài lì. zàn shí zài jiàn le.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "reduced_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_ZH_D03_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D03_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_ZH_D03_C01",
+      "P_A1_ZH_D03_C02",
+      "P_A1_ZH_D03_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_ZH_D03_C01",
+      "P_A1_ZH_D03_C02",
+      "P_A1_ZH_D03_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_ZH_D03_I01",
+      "P_A1_ZH_D03_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D03_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: تقديم معلومات شخصية بسيطة في بيت أو عيادة أو لقاء جديد.",
+   "requiredPhraseIds": [
+    "P_A1_ZH_D03_C01",
+    "P_A1_ZH_D03_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D03_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "我听说莱斯今天帮忙了。",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "wǒ tīng shuō lái sī jīn tiān bāng máng le."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "村里的人开始认识他了。",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "cūn lǐ de rén kāi shǐ rèn shí tā le."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D03_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: تفاصيل بسيطة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "أجب عن سؤالين متتاليين عن عمرك وحالتك."
+   },
+   "successWorldConsequence": "A1_DAY_03:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_ZH_D03_S01",
+   "text": "你好，莱斯。欢迎来到我家。",
+   "englishReference": "Hello, Laith. Welcome to my home.",
+   "arabicTranslation": "مرحبًا يا ليث. أهلًا بك في بيتي.",
+   "pronunciation": "nǐ hǎo, lái sī. huān yíng lái dào wǒ jiā.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D03_LEARNING",
+   "transferContexts": [
+    "تقديم معلومات شخصية بسيطة في بيت أو عيادة أو لقاء جديد."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ZH_D03_I01",
+   "text": "谢谢。你的家是善良而温暖的。",
+   "englishReference": "Thank you. Your home is kind and warm.",
+   "arabicTranslation": "شكرًا لك. بيتك لطيف ودافئ.",
+   "pronunciation": "xiè xiè. nǐ de jiā shì shàn liáng ér wēn nuǎn de.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D03_LEARNING",
+   "transferContexts": [
+    "تقديم معلومات شخصية بسيطة في بيت أو عيادة أو لقاء جديد."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_ZH_D03_C01",
+   "text": "你今年多大？",
+   "englishReference": "How old are you?",
+   "arabicTranslation": "كم عمرك؟",
+   "pronunciation": "nǐ jīn nián duō dà.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D03_LEARNING",
+   "transferContexts": [
+    "تقديم معلومات شخصية بسيطة في بيت أو عيادة أو لقاء جديد."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ZH_D03_S02",
+   "text": "我今年二十二岁。",
+   "englishReference": "I am twenty-two years old.",
+   "arabicTranslation": "عمري اثنان وعشرون عامًا.",
+   "pronunciation": "wǒ jīn nián èr shí èr suì.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D03_LEARNING",
+   "transferContexts": [
+    "تقديم معلومات شخصية بسيطة في بيت أو عيادة أو لقاء جديد."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ZH_D03_C02",
+   "text": "你还好吗？",
+   "englishReference": "Are you okay?",
+   "arabicTranslation": "هل أنت بخير؟",
+   "pronunciation": "nǐ hái hǎo ma.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D03_LEARNING",
+   "transferContexts": [
+    "تقديم معلومات شخصية بسيطة في بيت أو عيادة أو لقاء جديد."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ZH_D03_C03",
+   "text": "我很累，但我还好。",
+   "englishReference": "I am tired, but I am okay.",
+   "arabicTranslation": "أنا متعب، لكنني بخير.",
+   "pronunciation": "wǒ hěn lèi, dàn wǒ hái hǎo.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D03_LEARNING",
+   "transferContexts": [
+    "تقديم معلومات شخصية بسيطة في بيت أو عيادة أو لقاء جديد."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_ZH_D03_S03",
+   "text": "你现在需要休息。",
+   "englishReference": "You need to rest now.",
+   "arabicTranslation": "تحتاج إلى الراحة الآن.",
+   "pronunciation": "nǐ xiàn zài xū yào xiū xī.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D03_LEARNING",
+   "transferContexts": [
+    "تقديم معلومات شخصية بسيطة في بيت أو عيادة أو لقاء جديد."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_ZH_D03_I02",
+   "text": "谢谢你，艾莉。暂时再见了。",
+   "englishReference": "Thank you, Elly. Goodbye for now.",
+   "arabicTranslation": "شكرًا يا إيلي. إلى اللقاء الآن.",
+   "pronunciation": "xiè xiè nǐ, ài lì. zàn shí zài jiàn le.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D03_LEARNING",
+   "transferContexts": [
+    "تقديم معلومات شخصية بسيطة في بيت أو عيادة أو لقاء جديد."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure",
+    "gesture"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_ZH_D03_C01",
+     "P_A1_ZH_D03_C02",
+     "P_A1_ZH_D03_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_ZH_D03_C01",
+     "P_A1_ZH_D03_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_ZH_D03_C01",
+    "P_A1_ZH_D03_C02",
+    "P_A1_ZH_D03_C03",
+    "P_A1_ZH_D03_I01",
+    "P_A1_ZH_D03_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D02:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_03:COMPLETE",
+   "A1_D04:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_03",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_zh_d02",
+  "nextLessonId": "story_a1_zh_d04",
+  "nextLessonHookArabic": "غدًا: التحية الأولى.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 3: تفاصيل بسيطة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

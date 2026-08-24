@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A2",
+ "dayNumber": 28,
+ "story": {
+  "originalText": "Yassin: Good morning, Omar.\nOmar: Good morning, Yassin, and I am glad we can continue our discussion.\nYassin: Yesterday I thought about Review 22-27, and I learned something useful.\nOmar: I understand, and today we can speak about it clearly.\nYassin: My experience with Review 22-27 changed my plan for tomorrow.\nOmar: That is sensible because small changes can help us every day.\nYassin: Would you like to share one example?\nOmar: Yes, I can share an honest example from this week.\nYassin: Thank you, and I will remember your idea.\nOmar: Goodbye for now, and tomorrow we will discuss My opinion.",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: فكرت أمس في موضوع مراجعة شاملة (22-27)، وتعلمت شيئًا مفيدًا.\nOmar: أفهم ذلك، ويمكننا اليوم أن نتحدث عنه بوضوح.\nYassin: غيرت تجربتي مع موضوع مراجعة شاملة (22-27) خطتي للغد.\nOmar: هذا منطقي لأن التغييرات الصغيرة يمكن أن تساعدنا كل يوم.\nYassin: هل تريد أن تشارك مثالًا واحدًا؟\nOmar: نعم، أستطيع أن أشارك مثالًا صادقًا من هذا الأسبوع.\nYassin: شكرًا لك، وسأتذكر فكرتك.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن رأيي.",
+  "nativeScriptText": "Yassin: Good morning, Omar.\nOmar: Good morning, Yassin, and I am glad we can continue our discussion.\nYassin: Yesterday I thought about Review 22-27, and I learned something useful.\nOmar: I understand, and today we can speak about it clearly.\nYassin: My experience with Review 22-27 changed my plan for tomorrow.\nOmar: That is sensible because small changes can help us every day.\nYassin: Would you like to share one example?\nOmar: Yes, I can share an honest example from this week.\nYassin: Thank you, and I will remember your idea.\nOmar: Goodbye for now, and tomorrow we will discuss My opinion.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 28: مراجعة شاملة (22-27)",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Good morning, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Good morning, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Good morning, Yassin, and I am glad we can continue our discussion.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Good morning, Yassin, and I am glad we can continue our discussion."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Yesterday I thought about Review 22-27, and I learned something useful.",
+    "translation": "فكرت أمس في موضوع مراجعة شاملة (22-27)، وتعلمت شيئًا مفيدًا.",
+    "pronunciation": "Yesterday I thought about Review 22-27, and I learned something useful."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I understand, and today we can speak about it clearly.",
+    "translation": "أفهم ذلك، ويمكننا اليوم أن نتحدث عنه بوضوح.",
+    "pronunciation": "I understand, and today we can speak about it clearly."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "My experience with Review 22-27 changed my plan for tomorrow.",
+    "translation": "غيرت تجربتي مع موضوع مراجعة شاملة (22-27) خطتي للغد.",
+    "pronunciation": "My experience with Review 22-27 changed my plan for tomorrow."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "That is sensible because small changes can help us every day.",
+    "translation": "هذا منطقي لأن التغييرات الصغيرة يمكن أن تساعدنا كل يوم.",
+    "pronunciation": "That is sensible because small changes can help us every day."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Would you like to share one example?",
+    "translation": "هل تريد أن تشارك مثالًا واحدًا؟",
+    "pronunciation": "Would you like to share one example?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, I can share an honest example from this week.",
+    "translation": "نعم، أستطيع أن أشارك مثالًا صادقًا من هذا الأسبوع.",
+    "pronunciation": "Yes, I can share an honest example from this week."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Thank you, and I will remember your idea.",
+    "translation": "شكرًا لك، وسأتذكر فكرتك.",
+    "pronunciation": "Thank you, and I will remember your idea."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Goodbye for now, and tomorrow we will discuss My opinion.",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن رأيي.",
+    "pronunciation": "Goodbye for now, and tomorrow we will discuss My opinion."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d28",
+   "title": "مراجعة شاملة (22-27)",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 28,
+  "level": "A2",
+  "languageCode": "en",
+  "previousTopics": [
+   "s4_d27"
+  ],
+  "createdAt": 1786705141011
+ }
+}

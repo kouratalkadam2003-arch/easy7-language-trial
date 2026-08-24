@@ -1,0 +1,450 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b1_ja_d14",
+  "languageCode": "ja",
+  "languageNameArabic": "اليابانية",
+  "cefrLevel": "B1",
+  "chapterId": "chapter_03_responsibility",
+  "dayNumber": 14,
+  "lessonTitle": "私たちが学んだこと",
+  "englishTitle": "What We Learned",
+  "arabicTitle": "ما تعلمناه",
+  "canonicalBeatIds": [
+   "BEAT_B1_D14"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "تلخيص تجربة ونتيجة.",
+  "realLifeTransferArabic": "التعبير عن رأي مدعوم بسبب واقتراح خطوة عملية.",
+  "successCapabilityArabic": "أدر نقاشًا قصيرًا عن ما تعلمناه."
+ },
+ "story": {
+  "storyContextArabic": "تنتهي تجربة الماء الأولى بنتيجة أفضل من المتوقع.",
+  "storyMissionArabic": "يتعلم ليث القيادة عبر موضوع: ما تعلمناه.",
+  "setting": "village_council",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: ما تعلمناه."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B1_D14_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B1_D14_01",
+     "narrationArabic": "تنتهي تجربة الماء الأولى بنتيجة أفضل من المتوقع."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D14_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "تلخيص تجربة ونتيجة.",
+   "lines": [
+    {
+     "lineId": "L_B1_JA_D14_01",
+     "speakerId": "elly",
+     "targetText": "水質検査について話さなければなりません。",
+     "englishReference": "We need to talk about the water test.",
+     "arabicTranslation": "نحتاج إلى الحديث عن the water test.",
+     "pronunciation": "suishitsu kensa nitsuite hanasa nakerebanarimasen .",
+     "phraseIds": [
+      "P_B1_JA_D14_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_JA_D14_02",
+     "speakerId": "laith",
+     "targetText": "私の意見では、このテストは私たちに重要なことを教えてくれました。",
+     "englishReference": "In my opinion, the test taught us something important.",
+     "arabicTranslation": "في رأيي، the test taught us something important.",
+     "pronunciation": "watashi no iken deha , kono tesuto ha watashitachi ni juuyouna kotowo oshie tekuremashita .",
+     "phraseIds": [
+      "P_B1_JA_D14_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_JA_D14_03",
+     "speakerId": "elly",
+     "targetText": "なぜそう思いますか?",
+     "englishReference": "Why do you think that?",
+     "arabicTranslation": "لماذا تعتقد ذلك؟",
+     "pronunciation": "nazesou omoi masuka ?",
+     "phraseIds": [
+      "P_B1_JA_D14_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_JA_D14_04",
+     "speakerId": "laith",
+     "targetText": "必要に応じて計画を変更したからです。",
+     "englishReference": "Because we changed the plan when needed.",
+     "arabicTranslation": "لأن we changed the plan when needed.",
+     "pronunciation": "hitsuyou ni ouji te keikaku wo henkou shitakaradesu .",
+     "phraseIds": [
+      "P_B1_JA_D14_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_JA_D14_05",
+     "speakerId": "elly",
+     "targetText": "まず何をすべきでしょうか？",
+     "englishReference": "What should we do first?",
+     "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+     "pronunciation": "mazu naniwo subekideshouka ？",
+     "phraseIds": [
+      "P_B1_JA_D14_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_JA_D14_06",
+     "speakerId": "laith",
+     "targetText": "私たちはそれを改善し続けるべきだと提案します。",
+     "englishReference": "I suggest that we should keep improving it.",
+     "arabicTranslation": "أقترح أن we should keep improving it.",
+     "pronunciation": "watashitachi hasorewo kaizen shi tsuzuke rubekidato teian shimasu .",
+     "phraseIds": [
+      "P_B1_JA_D14_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B1_JA_D14_07",
+     "speakerId": "elly",
+     "targetText": "それは合理的だと思われます。",
+     "englishReference": "That seems reasonable.",
+     "arabicTranslation": "يبدو ذلك معقولًا.",
+     "pronunciation": "soreha gouriteki dato omowa remasu .",
+     "phraseIds": [
+      "P_B1_JA_D14_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B1_JA_D14_08",
+     "speakerId": "laith",
+     "targetText": "ありがとう。チームに説明してみます。",
+     "englishReference": "Thank you. I will explain it to the team.",
+     "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+     "pronunciation": "arigatou . chiimu ni setsumeishi temimasu .",
+     "phraseIds": [
+      "P_B1_JA_D14_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D14_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "argument_rebuild",
+     "phraseIds": [
+      "P_B1_JA_D14_C01",
+      "P_B1_JA_D14_C02",
+      "P_B1_JA_D14_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B1_JA_D14_C01",
+      "P_B1_JA_D14_C02",
+      "P_B1_JA_D14_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B1_JA_D14_I01",
+      "P_B1_JA_D14_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D14_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استعمل رأيًا وسببًا واقتراحًا في موقف عمل أو دراسة.",
+   "requiredPhraseIds": [
+    "P_B1_JA_D14_C01",
+    "P_B1_JA_D14_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B1_D14_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "村の集会では有益な質問が提起されました。",
+     "englishReference": "The village meeting raised useful questions.",
+     "arabicTranslation": "اجتماع القرية أثار أسئلة مفيدة.",
+     "pronunciation": "mura no shuukai deha yuueki na shitsumon ga teiki saremashita ."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "いくつかの質問は後回しにしたほうがよいでしょう。",
+     "englishReference": "Some questions are better left for later.",
+     "arabicTranslation": "بعض الأسئلة من الأفضل تركها لوقت لاحق.",
+     "pronunciation": "ikutsukano shitsumon ha atomawashi nishitahougayoideshou ."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B1_D14_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "يحتاج الفريق إلى قرار حول: ما تعلمناه.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "state_opinion",
+     "give_reason",
+     "make_proposal"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير رأيًا مدعومًا داخل نقاش.",
+    "afterArabic": "يستطيع المتعلم الآن إبداء رأي وسبب واقتراح."
+   },
+   "successWorldConsequence": "B1_WEEK_2:COMPLETE",
+   "retryPolicy": "يقدّم تلميح للسبب أو للاقتراح ثم تعاد المهمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B1_JA_D14_S01",
+   "text": "水質検査について話さなければなりません。",
+   "englishReference": "We need to talk about the water test.",
+   "arabicTranslation": "نحتاج إلى الحديث عن the water test.",
+   "pronunciation": "suishitsu kensa nitsuite hanasa nakerebanarimasen .",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_JA_D14_C01",
+   "text": "私の意見では、このテストは私たちに重要なことを教えてくれました。",
+   "englishReference": "In my opinion, the test taught us something important.",
+   "arabicTranslation": "في رأيي، the test taught us something important.",
+   "pronunciation": "watashi no iken deha , kono tesuto ha watashitachi ni juuyouna kotowo oshie tekuremashita .",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_JA_D14_I01",
+   "text": "なぜそう思いますか?",
+   "englishReference": "Why do you think that?",
+   "arabicTranslation": "لماذا تعتقد ذلك؟",
+   "pronunciation": "nazesou omoi masuka ?",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_JA_D14_C02",
+   "text": "必要に応じて計画を変更したからです。",
+   "englishReference": "Because we changed the plan when needed.",
+   "arabicTranslation": "لأن we changed the plan when needed.",
+   "pronunciation": "hitsuyou ni ouji te keikaku wo henkou shitakaradesu .",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_JA_D14_I02",
+   "text": "まず何をすべきでしょうか？",
+   "englishReference": "What should we do first?",
+   "arabicTranslation": "ماذا ينبغي أن نفعل أولًا؟",
+   "pronunciation": "mazu naniwo subekideshouka ？",
+   "classification": "important",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B1_JA_D14_C03",
+   "text": "私たちはそれを改善し続けるべきだと提案します。",
+   "englishReference": "I suggest that we should keep improving it.",
+   "arabicTranslation": "أقترح أن we should keep improving it.",
+   "pronunciation": "watashitachi hasorewo kaizen shi tsuzuke rubekidato teian shimasu .",
+   "classification": "core",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B1_JA_D14_S02",
+   "text": "それは合理的だと思われます。",
+   "englishReference": "That seems reasonable.",
+   "arabicTranslation": "يبدو ذلك معقولًا.",
+   "pronunciation": "soreha gouriteki dato omowa remasu .",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B1_JA_D14_S03",
+   "text": "ありがとう。チームに説明してみます。",
+   "englishReference": "Thank you. I will explain it to the team.",
+   "arabicTranslation": "شكرًا. سأشرحه للفريق.",
+   "pronunciation": "arigatou . chiimu ni setsumeishi temimasu .",
+   "classification": "secondary",
+   "communicativeFunction": "opinion_reason_proposal",
+   "transferContexts": [
+    "عمل",
+    "دراسة",
+    "مجتمع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "speaker_intent"
+   ],
+   "supportFadePlan": "يعتمد B1 على الحجج لا على الإشارات."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B1_JA_D14_C01",
+     "P_B1_JA_D14_C02",
+     "P_B1_JA_D14_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B1_JA_D14_I01",
+     "P_B1_JA_D14_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B1_JA_D14_C01",
+    "P_B1_JA_D14_C02",
+    "P_B1_JA_D14_C03",
+    "P_B1_JA_D14_I01",
+    "P_B1_JA_D14_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تطلب شخصية من ليث إعادة شرح قرار سابق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B1_D13:COMPLETE"
+  ],
+  "onSuccess": [
+   "B1_WEEK_2:COMPLETE",
+   "B1_D15:UNLOCKED"
+  ],
+  "milestone": "b1_milestone_14",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b1_ja_d13",
+  "nextLessonId": "story_b1_ja_d15",
+  "nextLessonHookArabic": "يتولد تحدٍّ جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B1 14: ما تعلمناه."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 29,
+ "story": {
+  "originalText": "Yassin: Hello, Yassin. What do you like?\nOmar: I like English and books.\nYassin: I like coffee and football.\nOmar: Do you like our home?\nYassin: Yes, I like our home very much.\nOmar: I do not like cold food.\nYassin: I do not like being late.\nOmar: I like studying with you.\nYassin: I like learning with you too.\nOmar: Tomorrow is our A1 test. Goodbye.",
+  "translatedText": "Yassin: مرحباً يا ياسين. ماذا تحب؟\nOmar: أحب الإنجليزية والكتب.\nYassin: أحب القهوة وكرة القدم.\nOmar: هل تحب بيتنا؟\nYassin: نعم، أحب بيتنا كثيراً.\nOmar: لا أحب الطعام البارد.\nYassin: لا أحب التأخر.\nOmar: أحب الدراسة معك.\nYassin: وأنا أحب التعلم معك أيضاً.\nOmar: غداً امتحان A1. وداعاً.",
+  "nativeScriptText": "Yassin: Hello, Yassin. What do you like?\nOmar: I like English and books.\nYassin: I like coffee and football.\nOmar: Do you like our home?\nYassin: Yes, I like our home very much.\nOmar: I do not like cold food.\nYassin: I do not like being late.\nOmar: I like studying with you.\nYassin: I like learning with you too.\nOmar: Tomorrow is our A1 test. Goodbye.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 29: أحب / أكره",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hello, Yassin. What do you like?",
+    "translation": "مرحباً يا ياسين. ماذا تحب؟",
+    "pronunciation": "Hello, Yassin. What do you like?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I like English and books.",
+    "translation": "أحب الإنجليزية والكتب.",
+    "pronunciation": "I like English and books."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I like coffee and football.",
+    "translation": "أحب القهوة وكرة القدم.",
+    "pronunciation": "I like coffee and football."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Do you like our home?",
+    "translation": "هل تحب بيتنا؟",
+    "pronunciation": "Do you like our home?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Yes, I like our home very much.",
+    "translation": "نعم، أحب بيتنا كثيراً.",
+    "pronunciation": "Yes, I like our home very much."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I do not like cold food.",
+    "translation": "لا أحب الطعام البارد.",
+    "pronunciation": "I do not like cold food."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I do not like being late.",
+    "translation": "لا أحب التأخر.",
+    "pronunciation": "I do not like being late."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I like studying with you.",
+    "translation": "أحب الدراسة معك.",
+    "pronunciation": "I like studying with you."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "I like learning with you too.",
+    "translation": "وأنا أحب التعلم معك أيضاً.",
+    "pronunciation": "I like learning with you too."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Tomorrow is our A1 test. Goodbye.",
+    "translation": "غداً امتحان A1. وداعاً.",
+    "pronunciation": "Tomorrow is our A1 test. Goodbye."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s5_d29",
+   "title": "أحب / أكره",
+   "levelKey": "Station5"
+  },
+  "dayNumber": 29,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s4_d28"
+  ],
+  "createdAt": 1786696446398
+ }
+}

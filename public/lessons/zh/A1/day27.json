@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 27,
+ "story": {
+  "originalText": "Yassin: Nǐ hǎo, Yassin. Nǐ néng bāng wǒ ma?\nOmar: Kěyǐ, dāngrán. Nǐ xūyào shénme?\nYassin: Wǒ xūyào wǒ de yào hé yìxiē shuǐ.\nOmar: Zhè shì nǐ de yào hé shuǐ.\nYassin: Xièxie. Nǐ zhēn hǎo.\nOmar: Bù kèqì, wǒ de péngyǒu.\nYassin: Nǐ néng bāng wǒ dǎ diànhuà gěi lǎoshī ma?\nOmar: Kěyǐ, wǒ xiànzài gěi tā dǎ diànhuà.\nYassin: Míngtiān, rúguǒ shàngdì yuànyì, wǒ huì hǎo qǐlái.\nOmar: Rúguǒ shàngdì yuànyì, wǒmen míngtiān huì fùxí.",
+  "translatedText": "Yassin: مرحباً يا ياسين. هل يمكنك مساعدتي؟\nOmar: نعم، بالطبع. ماذا تحتاج؟\nYassin: أحتاج دوائي وبعض الماء.\nOmar: هذا دواؤك وماؤك.\nYassin: شكراً. أنت لطيف جداً.\nOmar: عفواً يا صديقي.\nYassin: هل يمكنك الاتصال بالمعلم من أجلي؟\nOmar: نعم، يمكنني الاتصال به الآن.\nYassin: غداً سأشعر بتحسن، إن شاء الله.\nOmar: إن شاء الله. سنراجع غداً.",
+  "nativeScriptText": "Yassin: 你好，Yassin。你能帮我吗？\nOmar: 可以，当然。你需要什么？\nYassin: 我需要我的药和一些水。\nOmar: 这是你的药和水。\nYassin: 谢谢。你真好。\nOmar: 不客气，我的朋友。\nYassin: 你能帮我打电话给老师吗？\nOmar: 可以，我现在给他打电话。\nYassin: 明天，如果上帝愿意，我会好起来。\nOmar: 如果上帝愿意，我们明天会复习。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 27: مساعدة",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你好，Yassin。你能帮我吗？",
+    "translation": "مرحباً يا ياسين. هل يمكنك مساعدتي؟",
+    "pronunciation": "Nǐ hǎo, Yassin. Nǐ néng bāng wǒ ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "可以，当然。你需要什么？",
+    "translation": "نعم، بالطبع. ماذا تحتاج؟",
+    "pronunciation": "Kěyǐ, dāngrán. Nǐ xūyào shénme?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我需要我的药和一些水。",
+    "translation": "أحتاج دوائي وبعض الماء.",
+    "pronunciation": "Wǒ xūyào wǒ de yào hé yìxiē shuǐ."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "这是你的药和水。",
+    "translation": "هذا دواؤك وماؤك.",
+    "pronunciation": "Zhè shì nǐ de yào hé shuǐ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "谢谢。你真好。",
+    "translation": "شكراً. أنت لطيف جداً.",
+    "pronunciation": "Xièxie. Nǐ zhēn hǎo."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "不客气，我的朋友。",
+    "translation": "عفواً يا صديقي.",
+    "pronunciation": "Bù kèqì, wǒ de péngyǒu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你能帮我打电话给老师吗？",
+    "translation": "هل يمكنك الاتصال بالمعلم من أجلي؟",
+    "pronunciation": "Nǐ néng bāng wǒ dǎ diànhuà gěi lǎoshī ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "可以，我现在给他打电话。",
+    "translation": "نعم، يمكنني الاتصال به الآن.",
+    "pronunciation": "Kěyǐ, wǒ xiànzài gěi tā dǎ diànhuà."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "明天，如果上帝愿意，我会好起来。",
+    "translation": "غداً سأشعر بتحسن، إن شاء الله.",
+    "pronunciation": "Míngtiān, rúguǒ shàngdì yuànyì, wǒ huì hǎo qǐlái."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "如果上帝愿意，我们明天会复习。",
+    "translation": "إن شاء الله. سنراجع غداً.",
+    "pronunciation": "Rúguǒ shàngdì yuànyì, wǒmen míngtiān huì fùxí."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d27",
+   "title": "مساعدة",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 27,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s4_d26"
+  ],
+  "createdAt": 1786696446398
+ }
+}

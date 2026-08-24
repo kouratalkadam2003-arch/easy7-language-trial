@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "C1",
+ "dayNumber": 26,
+ "story": {
+  "originalText": "Yassin: Good morning, Omar.\nOmar: Good morning, Yassin, and I am glad we can continue our discussion.\nYassin: When we discuss Stock market, we should distinguish facts from assumptions.\nOmar: I agree, because a careful analysis reveals the limits of simple answers.\nYassin: My interpretation is that Stock market depends on context, language, and power.\nOmar: That interpretation is convincing, although another perspective may challenge it.\nYassin: How can we explain our reasoning without ignoring human consequences?\nOmar: We can state our evidence clearly and admit what remains uncertain.\nYassin: Thank you, because that makes our analysis more responsible.\nOmar: Goodbye for now, and tomorrow we will discuss Intellectual property.",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: عندما نناقش موضوع بورصة، ينبغي أن نميز بين الحقائق والافتراضات.\nOmar: أوافق، لأن التحليل الدقيق يكشف حدود الإجابات البسيطة.\nYassin: تفسيري هو أن موضوع بورصة يعتمد على السياق واللغة والقوة.\nOmar: هذا التفسير مقنع، مع أن منظورًا آخر قد يتحداه.\nYassin: كيف يمكننا أن نشرح استدلالنا من دون تجاهل النتائج الإنسانية؟\nOmar: يمكننا أن نعرض أدلتنا بوضوح وأن نقر بما يبقى غير مؤكد.\nYassin: شكرًا، لأن ذلك يجعل تحليلنا أكثر مسؤولية.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن ملكية فكرية.",
+  "nativeScriptText": "Yassin: Good morning, Omar.\nOmar: Good morning, Yassin, and I am glad we can continue our discussion.\nYassin: When we discuss Stock market, we should distinguish facts from assumptions.\nOmar: I agree, because a careful analysis reveals the limits of simple answers.\nYassin: My interpretation is that Stock market depends on context, language, and power.\nOmar: That interpretation is convincing, although another perspective may challenge it.\nYassin: How can we explain our reasoning without ignoring human consequences?\nOmar: We can state our evidence clearly and admit what remains uncertain.\nYassin: Thank you, because that makes our analysis more responsible.\nOmar: Goodbye for now, and tomorrow we will discuss Intellectual property.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 26: بورصة",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Good morning, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Good morning, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Good morning, Yassin, and I am glad we can continue our discussion.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Good morning, Yassin, and I am glad we can continue our discussion."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "When we discuss Stock market, we should distinguish facts from assumptions.",
+    "translation": "عندما نناقش موضوع بورصة، ينبغي أن نميز بين الحقائق والافتراضات.",
+    "pronunciation": "When we discuss Stock market, we should distinguish facts from assumptions."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I agree, because a careful analysis reveals the limits of simple answers.",
+    "translation": "أوافق، لأن التحليل الدقيق يكشف حدود الإجابات البسيطة.",
+    "pronunciation": "I agree, because a careful analysis reveals the limits of simple answers."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "My interpretation is that Stock market depends on context, language, and power.",
+    "translation": "تفسيري هو أن موضوع بورصة يعتمد على السياق واللغة والقوة.",
+    "pronunciation": "My interpretation is that Stock market depends on context, language, and power."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "That interpretation is convincing, although another perspective may challenge it.",
+    "translation": "هذا التفسير مقنع، مع أن منظورًا آخر قد يتحداه.",
+    "pronunciation": "That interpretation is convincing, although another perspective may challenge it."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "How can we explain our reasoning without ignoring human consequences?",
+    "translation": "كيف يمكننا أن نشرح استدلالنا من دون تجاهل النتائج الإنسانية؟",
+    "pronunciation": "How can we explain our reasoning without ignoring human consequences?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "We can state our evidence clearly and admit what remains uncertain.",
+    "translation": "يمكننا أن نعرض أدلتنا بوضوح وأن نقر بما يبقى غير مؤكد.",
+    "pronunciation": "We can state our evidence clearly and admit what remains uncertain."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Thank you, because that makes our analysis more responsible.",
+    "translation": "شكرًا، لأن ذلك يجعل تحليلنا أكثر مسؤولية.",
+    "pronunciation": "Thank you, because that makes our analysis more responsible."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Goodbye for now, and tomorrow we will discuss Intellectual property.",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن ملكية فكرية.",
+    "pronunciation": "Goodbye for now, and tomorrow we will discuss Intellectual property."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d26",
+   "title": "بورصة",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 26,
+  "level": "C1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s4_d25"
+  ],
+  "createdAt": 1786705141011
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 18,
+ "story": {
+  "originalText": "Yassin: Zǎoshang hǎo, Yassin. Zhè shì shū.\nOmar: Xièxie. Zhè shì Yīngyǔ shū ma?\nYassin: Shì de, zhè shì wǒmen de xīn Yīngyǔ shū.\nOmar: Zhè běn shū hěn yǒuyòng.\nYassin: Bǎ shū fān dào dì shí yè.\nOmar: Wǒ zài zhè yī yè kàn dào yí gè duìhuà.\nYassin: Qǐng dú dì yī jù.\nOmar: Wǒ xiànzài kěyǐ dú le.\nYassin: Bǎ shū fàng zài kèzhuō shàng.\nOmar: Hǎo, kèzhuō zài nǎlǐ?",
+  "translatedText": "Yassin: صباح الخير يا ياسين. هذا هو الكتاب.\nOmar: شكراً. هل هذا كتاب الإنجليزية؟\nYassin: نعم، هذا كتاب الإنجليزية الجديد.\nOmar: الكتاب مفيد جداً.\nYassin: افتح الكتاب في الصفحة العاشرة.\nOmar: أرى حواراً في هذه الصفحة.\nYassin: اقرأ الجملة الأولى، من فضلك.\nOmar: يمكنني قراءتها الآن.\nYassin: ضع الكتاب على المكتب.\nOmar: حسناً، أين المكتب؟",
+  "nativeScriptText": "Yassin: 早上好，Yassin。这是书。\nOmar: 谢谢。这是英语书吗？\nYassin: 是的，这是我们的新英语书。\nOmar: 这本书很有用。\nYassin: 把书翻到第十页。\nOmar: 我在这一页看到一个对话。\nYassin: 请读第一句。\nOmar: 我现在可以读了。\nYassin: 把书放在课桌上。\nOmar: 好，课桌在哪里？",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 18: كتاب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "早上好，Yassin。这是书。",
+    "translation": "صباح الخير يا ياسين. هذا هو الكتاب.",
+    "pronunciation": "Zǎoshang hǎo, Yassin. Zhè shì shū."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "谢谢。这是英语书吗？",
+    "translation": "شكراً. هل هذا كتاب الإنجليزية؟",
+    "pronunciation": "Xièxie. Zhè shì Yīngyǔ shū ma?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "是的，这是我们的新英语书。",
+    "translation": "نعم، هذا كتاب الإنجليزية الجديد.",
+    "pronunciation": "Shì de, zhè shì wǒmen de xīn Yīngyǔ shū."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "这本书很有用。",
+    "translation": "الكتاب مفيد جداً.",
+    "pronunciation": "Zhè běn shū hěn yǒuyòng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "把书翻到第十页。",
+    "translation": "افتح الكتاب في الصفحة العاشرة.",
+    "pronunciation": "Bǎ shū fān dào dì shí yè."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我在这一页看到一个对话。",
+    "translation": "أرى حواراً في هذه الصفحة.",
+    "pronunciation": "Wǒ zài zhè yī yè kàn dào yí gè duìhuà."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "请读第一句。",
+    "translation": "اقرأ الجملة الأولى، من فضلك.",
+    "pronunciation": "Qǐng dú dì yī jù."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我现在可以读了。",
+    "translation": "يمكنني قراءتها الآن.",
+    "pronunciation": "Wǒ xiànzài kěyǐ dú le."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "把书放在课桌上。",
+    "translation": "ضع الكتاب على المكتب.",
+    "pronunciation": "Bǎ shū fàng zài kèzhuō shàng."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "好，课桌在哪里？",
+    "translation": "حسناً، أين المكتب؟",
+    "pronunciation": "Hǎo, kèzhuō zài nǎlǐ?"
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d18",
+   "title": "كتاب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 18,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s3_d17"
+  ],
+  "createdAt": 1786696446398
+ }
+}

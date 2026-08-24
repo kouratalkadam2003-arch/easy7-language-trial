@@ -1,0 +1,121 @@
+{
+ "targetLang": "it",
+ "level": "A1",
+ "dayNumber": 4,
+ "story": {
+  "originalText": "Yassin: Buongiorno, Yassin.\nOmar: Buongiorno, Omar.\nYassin: Benvenuto all'istituto.\nOmar: Grazie mille.\nYassin: Diciamo 'buon pomeriggio' dopo mezzogiorno.\nOmar: E 'buonasera' si usa la sera?\nYassin: Sì, è giusto.\nOmar: I saluti sono importanti.\nYassin: Mostrano rispetto e gentilezza.\nOmar: Grazie. Ci vediamo dopo la lezione.",
+  "translatedText": "Yassin: صباح الخير يا ياسين.\nOmar: صباح الخير يا عمر.\nYassin: أهلاً بك في المعهد.\nOmar: شكراً جزيلاً.\nYassin: نقول «مساء الخير» بعد الظهر.\nOmar: و«مساء الخير» تُقال في المساء؟\nYassin: نعم، هذا صحيح.\nOmar: التحيات مهمة.\nYassin: إنها تُظهر الاحترام واللطف.\nOmar: شكراً. أراك بعد الدرس.",
+  "nativeScriptText": "Yassin: Buongiorno, Yassin.\nOmar: Buongiorno, Omar.\nYassin: Benvenuto all'istituto.\nOmar: Grazie mille.\nYassin: Diciamo 'buon pomeriggio' dopo mezzogiorno.\nOmar: E 'buonasera' si usa la sera?\nYassin: Sì, è giusto.\nOmar: I saluti sono importanti.\nYassin: Mostrano rispetto e gentilezza.\nOmar: Grazie. Ci vediamo dopo la lezione.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 4: تحية",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Buongiorno, Yassin.",
+    "translation": "صباح الخير يا ياسين.",
+    "pronunciation": "Buongiorno, Yassin."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Buongiorno, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Buongiorno, Omar."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Benvenuto all'istituto.",
+    "translation": "أهلاً بك في المعهد.",
+    "pronunciation": "Benvenuto all'istituto."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Grazie mille.",
+    "translation": "شكراً جزيلاً.",
+    "pronunciation": "Grazie mille."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Diciamo 'buon pomeriggio' dopo mezzogiorno.",
+    "translation": "نقول «مساء الخير» بعد الظهر.",
+    "pronunciation": "Diciamo 'buon pomeriggio' dopo mezzogiorno."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "E 'buonasera' si usa la sera?",
+    "translation": "و«مساء الخير» تُقال في المساء؟",
+    "pronunciation": "E 'buonasera' si usa la sera?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Sì, è giusto.",
+    "translation": "نعم، هذا صحيح.",
+    "pronunciation": "Sì, è giusto."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "I saluti sono importanti.",
+    "translation": "التحيات مهمة.",
+    "pronunciation": "I saluti sono importanti."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Mostrano rispetto e gentilezza.",
+    "translation": "إنها تُظهر الاحترام واللطف.",
+    "pronunciation": "Mostrano rispetto e gentilezza."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Grazie. Ci vediamo dopo la lezione.",
+    "translation": "شكراً. أراك بعد الدرس.",
+    "pronunciation": "Grazie. Ci vediamo dopo la lezione."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s1_d4",
+   "title": "تحية",
+   "levelKey": "Station1"
+  },
+  "dayNumber": 4,
+  "level": "A1",
+  "languageCode": "it",
+  "previousTopics": [
+   "s1_d3"
+  ],
+  "createdAt": 1786696446398
+ }
+}

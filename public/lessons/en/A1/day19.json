@@ -1,0 +1,121 @@
+{
+ "targetLang": "en",
+ "level": "A1",
+ "dayNumber": 19,
+ "story": {
+  "originalText": "Yassin: Hello, Omar. Is this the office?\nOmar: Yes, this is the institute office.\nYassin: The desk is big.\nOmar: The teacher sits at that desk.\nYassin: Can I put my book here?\nOmar: Yes, put it on the desk.\nYassin: The office is quiet.\nOmar: We come here after class.\nYassin: What day is our next class on?\nOmar: Let me show you the days.",
+  "translatedText": "Yassin: مرحباً يا عمر. هل هذا هو المكتب؟\nOmar: نعم، هذا مكتب المعهد.\nYassin: المكتب كبير.\nOmar: المعلم يجلس عند ذلك المكتب.\nYassin: هل يمكنني وضع كتابي هنا؟\nOmar: نعم، ضعه على المكتب.\nYassin: المكتب هادئ.\nOmar: نأتي إلى هنا بعد الدرس.\nYassin: في أي يوم يكون درسنا القادم؟\nOmar: دعني أريك الأيام.",
+  "nativeScriptText": "Yassin: Hello, Omar. Is this the office?\nOmar: Yes, this is the institute office.\nYassin: The desk is big.\nOmar: The teacher sits at that desk.\nYassin: Can I put my book here?\nOmar: Yes, put it on the desk.\nYassin: The office is quiet.\nOmar: We come here after class.\nYassin: What day is our next class on?\nOmar: Let me show you the days.",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 19: مكتب",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Hello, Omar. Is this the office?",
+    "translation": "مرحباً يا عمر. هل هذا هو المكتب؟",
+    "pronunciation": "Hello, Omar. Is this the office?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, this is the institute office.",
+    "translation": "نعم، هذا مكتب المعهد.",
+    "pronunciation": "Yes, this is the institute office."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "The desk is big.",
+    "translation": "المكتب كبير.",
+    "pronunciation": "The desk is big."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "The teacher sits at that desk.",
+    "translation": "المعلم يجلس عند ذلك المكتب.",
+    "pronunciation": "The teacher sits at that desk."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Can I put my book here?",
+    "translation": "هل يمكنني وضع كتابي هنا؟",
+    "pronunciation": "Can I put my book here?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Yes, put it on the desk.",
+    "translation": "نعم، ضعه على المكتب.",
+    "pronunciation": "Yes, put it on the desk."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "The office is quiet.",
+    "translation": "المكتب هادئ.",
+    "pronunciation": "The office is quiet."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "We come here after class.",
+    "translation": "نأتي إلى هنا بعد الدرس.",
+    "pronunciation": "We come here after class."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "What day is our next class on?",
+    "translation": "في أي يوم يكون درسنا القادم؟",
+    "pronunciation": "What day is our next class on?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Let me show you the days.",
+    "translation": "دعني أريك الأيام.",
+    "pronunciation": "Let me show you the days."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d19",
+   "title": "مكتب",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 19,
+  "level": "A1",
+  "languageCode": "en",
+  "previousTopics": [
+   "s3_d18"
+  ],
+  "createdAt": 1786696446398
+ }
+}

@@ -1,0 +1,434 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a2_it_d12",
+  "languageCode": "it",
+  "languageNameArabic": "الإيطالية",
+  "cefrLevel": "A2",
+  "chapterId": "chapter_02_belonging",
+  "dayNumber": 12,
+  "lessonTitle": "Una pausa utile",
+  "englishTitle": "A Useful Break",
+  "arabicTitle": "راحة مفيدة",
+  "canonicalBeatIds": [
+   "BEAT_A2_D12"
+  ],
+  "canonVersion": "STORY_CANON_V1_1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "التحدث عن ما فعلته خلال الاستراحة وتأثيره.",
+  "realLifeTransferArabic": "الحديث عن التعافي بعد ضغط.",
+  "successCapabilityArabic": "أنجز مهمة اليوم: راحة مفيدة دون إجابة جاهزة."
+ },
+ "story": {
+  "storyContextArabic": "تسأل إيلي ليث إن كانت الاستراحة ساعدته على العودة للعمل بهدوء.",
+  "storyMissionArabic": "يتقدم ليث في قصة الاندماج عبر: راحة مفيدة.",
+  "setting": "village_and_market",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل صغير غير مفسر عند الحاجة."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "دور فينسنت الحقيقي",
+    "دور خالد الحقيقي"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: راحة مفيدة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A2_D12_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_A2_D12_01",
+     "narrationArabic": "تسأل إيلي ليث إن كانت الاستراحة ساعدته على العودة للعمل بهدوء."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D12_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "التحدث عن ما فعلته خلال الاستراحة وتأثيره.",
+   "lines": [
+    {
+     "lineId": "L_A2_IT_D12_01",
+     "speakerId": "elly",
+     "targetText": "Buongiorno, Laith. Hai riposato bene ieri?",
+     "englishReference": "Good morning, Laith. Did you rest well yesterday?",
+     "arabicTranslation": "صباح الخير يا ليث. Did you rest well yesterday?",
+     "pronunciation": "Buongiorno, Laith. Hai riposato bene ieri?",
+     "phraseIds": [
+      "P_A2_IT_D12_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_IT_D12_02",
+     "speakerId": "laith",
+     "targetText": "Buongiorno. Sì, mi sono preso una pausa e mi sono sentito meglio.",
+     "englishReference": "Good morning. Yes, I took a break and felt better.",
+     "arabicTranslation": "صباح الخير. Yes, I took a break and felt better.",
+     "pronunciation": "Buongiorno. Sì, mi sono preso una pausa e mi sono sentito meglio.",
+     "phraseIds": [
+      "P_A2_IT_D12_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D12_03",
+     "speakerId": "elly",
+     "targetText": "Cosa hai fatto durante la pausa?",
+     "englishReference": "What did you do during your break?",
+     "arabicTranslation": "What did you do during your break?",
+     "pronunciation": "Cosa hai fatto durante la pausa?",
+     "phraseIds": [
+      "P_A2_IT_D12_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D12_04",
+     "speakerId": "laith",
+     "targetText": "Ho camminato vicino al fiume e ho ascoltato gli uccelli.",
+     "englishReference": "I walked near the river and listened to the birds.",
+     "arabicTranslation": "I walked near the river and listened to the birds.",
+     "pronunciation": "Ho camminato vicino al fiume e ho ascoltato gli uccelli.",
+     "phraseIds": [
+      "P_A2_IT_D12_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D12_05",
+     "speakerId": "elly",
+     "targetText": "Sei pronto a lavorare di nuovo?",
+     "englishReference": "Are you ready to work again?",
+     "arabicTranslation": "Are you ready to work again?",
+     "pronunciation": "Sei pronto a lavorare di nuovo?",
+     "phraseIds": [
+      "P_A2_IT_D12_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D12_06",
+     "speakerId": "laith",
+     "targetText": "Sì, sono pronto adesso.",
+     "englishReference": "Yes, I am ready now.",
+     "arabicTranslation": "Yes, I am ready now.",
+     "pronunciation": "Sì, sono pronto adesso.",
+     "phraseIds": [
+      "P_A2_IT_D12_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A2_IT_D12_07",
+     "speakerId": "elly",
+     "targetText": "Sembra un buon piano.",
+     "englishReference": "That sounds like a good plan.",
+     "arabicTranslation": "تبدو هذه خطة جيدة.",
+     "pronunciation": "Sembra un buon piano.",
+     "phraseIds": [
+      "P_A2_IT_D12_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A2_IT_D12_08",
+     "speakerId": "laith",
+     "targetText": "Grazie. Arrivederci.",
+     "englishReference": "Thank you. See you later.",
+     "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+     "pronunciation": "Grazie. Arrivederci.",
+     "phraseIds": [
+      "P_A2_IT_D12_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D12_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_rebuild",
+     "phraseIds": [
+      "P_A2_IT_D12_C01",
+      "P_A2_IT_D12_C02",
+      "P_A2_IT_D12_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A2_IT_D12_C01",
+      "P_A2_IT_D12_C02",
+      "P_A2_IT_D12_C03"
+     ],
+     "hintFade": "audio_then_keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_A2_IT_D12_I01",
+      "P_A2_IT_D12_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D12_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل مهارة اليوم إلى حياتك: الحديث عن التعافي بعد ضغط.",
+   "requiredPhraseIds": [
+    "P_A2_IT_D12_C01",
+    "P_A2_IT_D12_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A2_D12_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "استماع جانبي طبيعي بلا كشف مبكر.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "Il mercato sta cambiando rapidamente in questa stagione.",
+     "englishReference": "The market is changing quickly this season.",
+     "arabicTranslation": "السوق يتغير بسرعة هذا الموسم.",
+     "pronunciation": "Il mercato sta cambiando rapidamente in questa stagione."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "SÌ. Le persone fanno più domande sulle vecchie strade.",
+     "englishReference": "Yes. People are asking more questions about old roads.",
+     "arabicTranslation": "نعم. الناس يسألون أكثر عن الطرق القديمة.",
+     "pronunciation": "SÌ. Le persone fanno più domande sulle vecchie strade."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A2_D12_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة حقيقية في سياق: راحة مفيدة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "a2_daily_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية الدرس، لا يملك المتعلم هذه القدرة داخل موقف حقيقي.",
+    "afterArabic": "في نهاية الدرس يستطيع إتمام مهمة: راحة مفيدة."
+   },
+   "successWorldConsequence": "REST_SKILL:LEARNED",
+   "retryPolicy": "يعطى المتعلم تلميحًا صغيرًا ثم يعيد المهمة دون عقوبة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A2_IT_D12_S01",
+   "text": "Buongiorno, Laith. Hai riposato bene ieri?",
+   "englishReference": "Good morning, Laith. Did you rest well yesterday?",
+   "arabicTranslation": "صباح الخير يا ليث. Did you rest well yesterday?",
+   "pronunciation": "Buongiorno, Laith. Hai riposato bene ieri?",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن التعافي بعد ضغط."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_IT_D12_C01",
+   "text": "Buongiorno. Sì, mi sono preso una pausa e mi sono sentito meglio.",
+   "englishReference": "Good morning. Yes, I took a break and felt better.",
+   "arabicTranslation": "صباح الخير. Yes, I took a break and felt better.",
+   "pronunciation": "Buongiorno. Sì, mi sono preso una pausa e mi sono sentito meglio.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن التعافي بعد ضغط."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D12_I01",
+   "text": "Cosa hai fatto durante la pausa?",
+   "englishReference": "What did you do during your break?",
+   "arabicTranslation": "What did you do during your break?",
+   "pronunciation": "Cosa hai fatto durante la pausa?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن التعافي بعد ضغط."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_IT_D12_C02",
+   "text": "Ho camminato vicino al fiume e ho ascoltato gli uccelli.",
+   "englishReference": "I walked near the river and listened to the birds.",
+   "arabicTranslation": "I walked near the river and listened to the birds.",
+   "pronunciation": "Ho camminato vicino al fiume e ho ascoltato gli uccelli.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن التعافي بعد ضغط."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D12_I02",
+   "text": "Sei pronto a lavorare di nuovo?",
+   "englishReference": "Are you ready to work again?",
+   "arabicTranslation": "Are you ready to work again?",
+   "pronunciation": "Sei pronto a lavorare di nuovo?",
+   "classification": "important",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن التعافي بعد ضغط."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A2_IT_D12_C03",
+   "text": "Sì, sono pronto adesso.",
+   "englishReference": "Yes, I am ready now.",
+   "arabicTranslation": "Yes, I am ready now.",
+   "pronunciation": "Sì, sono pronto adesso.",
+   "classification": "core",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن التعافي بعد ضغط."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A2_IT_D12_S02",
+   "text": "Sembra un buon piano.",
+   "englishReference": "That sounds like a good plan.",
+   "arabicTranslation": "تبدو هذه خطة جيدة.",
+   "pronunciation": "Sembra un buon piano.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن التعافي بعد ضغط."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A2_IT_D12_S03",
+   "text": "Grazie. Arrivederci.",
+   "englishReference": "Thank you. See you later.",
+   "arabicTranslation": "شكرًا لك. أراك لاحقًا.",
+   "pronunciation": "Grazie. Arrivederci.",
+   "classification": "secondary",
+   "communicativeFunction": "a2_daily_function",
+   "transferContexts": [
+    "الحديث عن التعافي بعد ضغط."
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "shared-history"
+   ],
+   "supportFadePlan": "لا تستخدم الإيماءات بعد A1."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A2_IT_D12_C01",
+     "P_A2_IT_D12_C02",
+     "P_A2_IT_D12_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A2_IT_D12_I01",
+     "P_A2_IT_D12_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A2_IT_D12_C01",
+    "P_A2_IT_D12_C02",
+    "P_A2_IT_D12_C03",
+    "P_A2_IT_D12_I01",
+    "P_A2_IT_D12_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر العبارات السابقة في طلب طبيعي من شخصية."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A2_D11:COMPLETE"
+  ],
+  "onSuccess": [
+   "REST_SKILL:LEARNED",
+   "A2_D13:UNLOCKED"
+  ],
+  "milestone": "a2_milestone_12",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a2_it_d11",
+  "nextLessonId": "story_a2_it_d13",
+  "nextLessonHookArabic": "مارثا تحتاج إلى اقتراح لوجبة صحية للعمال.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث A2 يوم 12: راحة مفيدة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}

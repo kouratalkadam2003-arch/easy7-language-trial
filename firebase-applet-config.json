@@ -1,0 +1,9 @@
+{
+  "apiKey": "AIzaSyDummyKeyForAppletConfigOnly",
+  "authDomain": "easy7-app.firebaseapp.com",
+  "projectId": "easy7-app",
+  "storageBucket": "easy7-app.appspot.com",
+  "messagingSenderId": "123456789",
+  "appId": "1:123456789:web:abcdef",
+  "firestoreDatabaseId": "(default)"
+}

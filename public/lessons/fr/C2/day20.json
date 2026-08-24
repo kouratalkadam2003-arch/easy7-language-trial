@@ -1,0 +1,121 @@
+{
+ "targetLang": "fr",
+ "level": "C2",
+ "dayNumber": 20,
+ "story": {
+  "originalText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: À première vue, le thème « Déontologie médicale » semble inviter une réponse simple.\nOmar: Pourtant, ses implications profondes deviennent plus claires lorsque nous comparons des hypothèses concurrentes.\nYassin: Je soutiens que le thème « Déontologie médicale » exige une précision conceptuelle et une responsabilité morale.\nOmar: Cet argument est solide, mais sa validité dépend de la manière dont nous définissons les termes centraux.\nYassin: Pouvons-nous éprouver cet argument face à un cas concret mais complexe ?\nOmar: Oui, et ce cas peut révéler une tension qu’aucun principe unique ne résout.\nYassin: Merci, car cet échange aiguise notre réflexion.\nOmar: Au revoir pour le moment. Demain, nous parlerons du thème « Révision des leçons 15 à 20 ».",
+  "translatedText": "Yassin: صباح الخير يا عمر.\nOmar: صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.\nYassin: للوهلة الأولى، يبدو أن موضوع أخلاقيات طبية يدعو إلى إجابة بسيطة.\nOmar: لكن آثاره الأعمق تتضح عندما نقارن بين الافتراضات المتنافسة.\nYassin: وأرى أن موضوع أخلاقيات طبية يتطلب دقة مفاهيمية ومسؤولية أخلاقية.\nOmar: هذه الحجة قوية، لكن صحتها تعتمد على كيفية تعريفنا للمصطلحات المركزية.\nYassin: هل يمكننا اختبار الحجة في حالة واقعية لكنها معقدة؟\nOmar: نعم، وقد تكشف الحالة توترًا لا يحله مبدأ واحد.\nYassin: شكرًا، لأن هذا التبادل يصقل تفكيرنا.\nOmar: إلى اللقاء الآن، وغدًا سنتحدث عن Review 15-20.",
+  "nativeScriptText": "Yassin: Bonjour, Omar.\nOmar: Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.\nYassin: À première vue, le thème « Déontologie médicale » semble inviter une réponse simple.\nOmar: Pourtant, ses implications profondes deviennent plus claires lorsque nous comparons des hypothèses concurrentes.\nYassin: Je soutiens que le thème « Déontologie médicale » exige une précision conceptuelle et une responsabilité morale.\nOmar: Cet argument est solide, mais sa validité dépend de la manière dont nous définissons les termes centraux.\nYassin: Pouvons-nous éprouver cet argument face à un cas concret mais complexe ?\nOmar: Oui, et ce cas peut révéler une tension qu’aucun principe unique ne résout.\nYassin: Merci, car cet échange aiguise notre réflexion.\nOmar: Au revoir pour le moment. Demain, nous parlerons du thème « Révision des leçons 15 à 20 ».",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 20: أخلاقيات طبية",
+   "tip": "اقرأ الحوار بصوت مرتفع، ثم أعد استعمال الفكرة في موقف واقعي."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Bonjour, Omar.",
+    "translation": "صباح الخير يا عمر.",
+    "pronunciation": "Bonjour, Omar."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion.",
+    "translation": "صباح الخير يا ياسين، وأنا سعيد لأننا نستطيع متابعة نقاشنا.",
+    "pronunciation": "Bonjour, Yassin. Je suis heureux que nous puissions poursuivre notre discussion."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "À première vue, le thème « Déontologie médicale » semble inviter une réponse simple.",
+    "translation": "للوهلة الأولى، يبدو أن موضوع أخلاقيات طبية يدعو إلى إجابة بسيطة.",
+    "pronunciation": "À première vue, le thème « Déontologie médicale » semble inviter une réponse simple."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Pourtant, ses implications profondes deviennent plus claires lorsque nous comparons des hypothèses concurrentes.",
+    "translation": "لكن آثاره الأعمق تتضح عندما نقارن بين الافتراضات المتنافسة.",
+    "pronunciation": "Pourtant, ses implications profondes deviennent plus claires lorsque nous comparons des hypothèses concurrentes."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Je soutiens que le thème « Déontologie médicale » exige une précision conceptuelle et une responsabilité morale.",
+    "translation": "وأرى أن موضوع أخلاقيات طبية يتطلب دقة مفاهيمية ومسؤولية أخلاقية.",
+    "pronunciation": "Je soutiens que le thème « Déontologie médicale » exige une précision conceptuelle et une responsabilité morale."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Cet argument est solide, mais sa validité dépend de la manière dont nous définissons les termes centraux.",
+    "translation": "هذه الحجة قوية، لكن صحتها تعتمد على كيفية تعريفنا للمصطلحات المركزية.",
+    "pronunciation": "Cet argument est solide, mais sa validité dépend de la manière dont nous définissons les termes centraux."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Pouvons-nous éprouver cet argument face à un cas concret mais complexe ?",
+    "translation": "هل يمكننا اختبار الحجة في حالة واقعية لكنها معقدة؟",
+    "pronunciation": "Pouvons-nous éprouver cet argument face à un cas concret mais complexe ?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Oui, et ce cas peut révéler une tension qu’aucun principe unique ne résout.",
+    "translation": "نعم، وقد تكشف الحالة توترًا لا يحله مبدأ واحد.",
+    "pronunciation": "Oui, et ce cas peut révéler une tension qu’aucun principe unique ne résout."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Merci, car cet échange aiguise notre réflexion.",
+    "translation": "شكرًا، لأن هذا التبادل يصقل تفكيرنا.",
+    "pronunciation": "Merci, car cet échange aiguise notre réflexion."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "Au revoir pour le moment. Demain, nous parlerons du thème « Révision des leçons 15 à 20 ».",
+    "translation": "إلى اللقاء الآن، وغدًا سنتحدث عن Review 15-20.",
+    "pronunciation": "Au revoir pour le moment. Demain, nous parlerons du thème « Révision des leçons 15 à 20 »."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d20",
+   "title": "أخلاقيات طبية",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 20,
+  "level": "C2",
+  "languageCode": "fr",
+  "previousTopics": [
+   "s3_d19"
+  ],
+  "createdAt": 1786705141011
+ }
+}

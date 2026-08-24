@@ -1,0 +1,121 @@
+{
+ "targetLang": "zh",
+ "level": "A1",
+ "dayNumber": 25,
+ "story": {
+  "originalText": "Yassin: Omar, nǐ shēngbìng le ma?\nOmar: Shì de, wǒ jīntiān gǎnjué bú shūfu.\nYassin: Zěnme le?\nOmar: Wǒ tóuténg.\nYassin: Nǐ xūyào shuǐ ma?\nOmar: Shì de, qǐng. Wǒ xūyào shuǐ.\nYassin: Nǐ xūyào xiūxi.\nOmar: Wǒ xiǎng wǒ xūyào kàn yīshēng.\nYassin: Wǒmen jiā fùjìn yǒu gè yīshēng.\nOmar: Qǐng míngtiān hé wǒ yìqǐ qù.",
+  "translatedText": "Yassin: عمر، هل أنت مريض؟\nOmar: نعم، أشعر بالمرض اليوم.\nYassin: ما المشكلة؟\nOmar: لدي صداع.\nYassin: هل تحتاج إلى ماء؟\nOmar: نعم، من فضلك. أحتاج إلى ماء.\nYassin: تحتاج إلى الراحة.\nOmar: أعتقد أنني أحتاج إلى طبيب.\nYassin: يوجد طبيب قرب بيتنا.\nOmar: من فضلك تعال معي غداً.",
+  "nativeScriptText": "Yassin: Omar，你生病了吗？\nOmar: 是的，我今天感觉不舒服。\nYassin: 怎么了？\nOmar: 我头疼。\nYassin: 你需要水吗？\nOmar: 是的，请。我需要水。\nYassin: 你需要休息。\nOmar: 我想我需要看医生。\nYassin: 我们家附近有个医生。\nOmar: 请明天和我一起去。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 25: مريض",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "Omar，你生病了吗？",
+    "translation": "عمر، هل أنت مريض؟",
+    "pronunciation": "Omar, nǐ shēngbìng le ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，我今天感觉不舒服。",
+    "translation": "نعم، أشعر بالمرض اليوم.",
+    "pronunciation": "Shì de, wǒ jīntiān gǎnjué bú shūfu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "怎么了？",
+    "translation": "ما المشكلة؟",
+    "pronunciation": "Zěnme le?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我头疼。",
+    "translation": "لدي صداع.",
+    "pronunciation": "Wǒ tóuténg."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你需要水吗？",
+    "translation": "هل تحتاج إلى ماء؟",
+    "pronunciation": "Nǐ xūyào shuǐ ma?"
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "是的，请。我需要水。",
+    "translation": "نعم، من فضلك. أحتاج إلى ماء.",
+    "pronunciation": "Shì de, qǐng. Wǒ xūyào shuǐ."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "你需要休息。",
+    "translation": "تحتاج إلى الراحة.",
+    "pronunciation": "Nǐ xūyào xiūxi."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "我想我需要看医生。",
+    "translation": "أعتقد أنني أحتاج إلى طبيب.",
+    "pronunciation": "Wǒ xiǎng wǒ xūyào kàn yīshēng."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "我们家附近有个医生。",
+    "translation": "يوجد طبيب قرب بيتنا.",
+    "pronunciation": "Wǒmen jiā fùjìn yǒu gè yīshēng."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "请明天和我一起去。",
+    "translation": "من فضلك تعال معي غداً.",
+    "pronunciation": "Qǐng míngtiān hé wǒ yìqǐ qù."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s4_d25",
+   "title": "مريض",
+   "levelKey": "Station4"
+  },
+  "dayNumber": 25,
+  "level": "A1",
+  "languageCode": "zh",
+  "previousTopics": [
+   "s4_d24"
+  ],
+  "createdAt": 1786696446398
+ }
+}

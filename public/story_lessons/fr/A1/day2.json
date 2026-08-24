@@ -1,0 +1,474 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_a1_fr_d02",
+  "languageCode": "fr",
+  "languageNameArabic": "الفرنسية",
+  "cefrLevel": "A1",
+  "chapterId": "chapter_01_arrival",
+  "dayNumber": 2,
+  "lessonTitle": "De loin",
+  "englishTitle": "From Far Away",
+  "arabicTitle": "من مكان بعيد",
+  "canonicalBeatIds": [
+   "BEAT_A1_D02"
+  ],
+  "canonVersion": "A1_CANON_V1",
+  "translationSource": "verified_public_translation_cache"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "القول من أين أتيت والسؤال عن المكان.",
+  "realLifeTransferArabic": "الإجابة عن سؤال الأصل أو طلب معرفة المكان الذي وصلت إليه.",
+  "successCapabilityArabic": "أجب عن سؤال: من أين أنت؟ ثم اسأل: أين أنا؟"
+ },
+ "story": {
+  "storyContextArabic": "في الطريق إلى الكوخ، تنظر إيلي إلى ملابس ليث الغريبة وتسأله عن موطنه.",
+  "storyMissionArabic": "يشرح ما يستطيع من دون كشف ما لا يعرفه أو لا يريد قوله.",
+  "setting": "cabin_and_village",
+  "charactersPresent": [
+   "laith",
+   "elly"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [],
+   "forbiddenReveals": [
+    "Asif motive",
+    "Vincent later arc",
+    "Khalid role"
+   ]
+  },
+  "narrativeOutcomeArabic": "ينجح ليث في خطوة جديدة من رحلته: من مكان بعيد."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_A1_D02_OPENING",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "purposeArabic": "تهيئة الحدث بلا زيادة العبء اللغوي على مبتدئ A1.",
+   "lines": [
+    {
+     "lineId": "N_A1_D02_01",
+     "narrationArabic": "في الطريق إلى الكوخ، تنظر إيلي إلى ملابس ليث الغريبة وتسأله عن موطنه."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D02_LEARNING",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "القول من أين أتيت والسؤال عن المكان.",
+   "lines": [
+    {
+     "lineId": "L_A1_FR_D02_01",
+     "speakerId": "elly",
+     "targetText": "Bonjour, Laith. Vous sentez-vous mieux ?",
+     "englishReference": "Good morning, Laith. Are you feeling better?",
+     "arabicTranslation": "صباح الخير يا ليث. هل تشعر بتحسن؟",
+     "pronunciation": "Bonjour, Laith. Vous sentez-vous mieux ?",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D02_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D02_02",
+     "speakerId": "laith",
+     "targetText": "Un peu mieux. Merci, Elly.",
+     "englishReference": "A little better. Thank you, Elly.",
+     "arabicTranslation": "أفضل قليلًا. شكرًا يا إيلي.",
+     "pronunciation": "Un peu mieux. Merci, Elly.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D02_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D02_03",
+     "speakerId": "elly",
+     "targetText": "D'où venez-vous?",
+     "englishReference": "Where are you from?",
+     "arabicTranslation": "من أين أنت؟",
+     "pronunciation": "D'où venez-vous?",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D02_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D02_04",
+     "speakerId": "laith",
+     "targetText": "Je viens d'un endroit lointain.",
+     "englishReference": "I am from a far place.",
+     "arabicTranslation": "أنا من مكان بعيد.",
+     "pronunciation": "Je viens d'un endroit lointain.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D02_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D02_05",
+     "speakerId": "elly",
+     "targetText": "Êtes-vous venu par la mer ?",
+     "englishReference": "Did you come by sea?",
+     "arabicTranslation": "هل جئت عبر البحر؟",
+     "pronunciation": "Êtes-vous venu par la mer ?",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D02_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D02_06",
+     "speakerId": "laith",
+     "targetText": "Oui. La mer m'a amené ici.",
+     "englishReference": "Yes. The sea brought me here.",
+     "arabicTranslation": "نعم. البحر أحضرني إلى هنا.",
+     "pronunciation": "Oui. La mer m'a amené ici.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D02_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_A1_FR_D02_07",
+     "speakerId": "elly",
+     "targetText": "Où suis-je maintenant ?",
+     "englishReference": "Where am I now?",
+     "arabicTranslation": "أين أنا الآن؟",
+     "pronunciation": "Où suis-je maintenant ?",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D02_S03"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_A1_FR_D02_08",
+     "speakerId": "laith",
+     "targetText": "Vous êtes en sécurité près de mon village. Allez, au revoir pour l'instant.",
+     "englishReference": "You are safe near my village. Come on, goodbye for now.",
+     "arabicTranslation": "أنت بأمان قرب قريتي. هيا، إلى اللقاء الآن.",
+     "pronunciation": "Vous êtes en sécurité près de mon village. Allez, au revoir pour l'instant.",
+     "gesture": {
+      "kind": "contextual_gesture",
+      "instructionalRole": "temporary_comprehension_scaffold"
+     },
+     "phraseIds": [
+      "P_A1_FR_D02_I02"
+     ],
+     "teachingExposure": "new"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D02_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "listen_and_point",
+     "phraseIds": [
+      "P_A1_FR_D02_C01",
+      "P_A1_FR_D02_C02",
+      "P_A1_FR_D02_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_A1_FR_D02_C01",
+      "P_A1_FR_D02_C02",
+      "P_A1_FR_D02_C03"
+     ],
+     "hintFade": "audio_then_first_word_then_no_text"
+    },
+    {
+     "activityType": "meaning_match",
+     "phraseIds": [
+      "P_A1_FR_D02_I01",
+      "P_A1_FR_D02_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D02_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "استخدم مهارة اليوم في موقف حياتي آخر: الإجابة عن سؤال الأصل أو طلب معرفة المكان الذي وصلت إليه.",
+   "requiredPhraseIds": [
+    "P_A1_FR_D02_C01",
+    "P_A1_FR_D02_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_A1_D02_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "purposeArabic": "إحساس طبيعي بأن القرية حية من دون كشف أسرار القصة.",
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "J'ai entendu dire que Laith avait aidé aujourd'hui.",
+     "arabicTranslation": "سمعت أن ليث ساعد اليوم.",
+     "englishReference": "I heard Laith helped today.",
+     "pronunciation": "J'ai entendu dire que Laith avait aidé aujourd'hui."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Le village commence à le connaître.",
+     "arabicTranslation": "القرية بدأت تتعرف إليه.",
+     "englishReference": "The village is starting to know him.",
+     "pronunciation": "Le village commence à le connaître."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_A1_D02_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "تظهر مهمة غير متوقعة داخل الحدث المرتبط بعنوان: من مكان بعيد.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "daily_a1_function",
+     "polite_response"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 2
+   },
+   "beforeAfter": {
+    "beforeArabic": "في بداية اليوم لم يكن المتعلم يملك هذه القدرة.",
+    "afterArabic": "أجب عن سؤال: من أين أنت؟ ثم اسأل: أين أنا؟"
+   },
+   "successWorldConsequence": "A1_DAY_02:COMPLETE",
+   "retryPolicy": "تلميح صغير واحد، ثم إعادة داعمة من دون عقوبة أو انسداد في القصة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_A1_FR_D02_S01",
+   "text": "Bonjour, Laith. Vous sentez-vous mieux ?",
+   "englishReference": "Good morning, Laith. Are you feeling better?",
+   "arabicTranslation": "صباح الخير يا ليث. هل تشعر بتحسن؟",
+   "pronunciation": "Bonjour, Laith. Vous sentez-vous mieux ?",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D02_LEARNING",
+   "transferContexts": [
+    "الإجابة عن سؤال الأصل أو طلب معرفة المكان الذي وصلت إليه."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D02_I01",
+   "text": "Un peu mieux. Merci, Elly.",
+   "englishReference": "A little better. Thank you, Elly.",
+   "arabicTranslation": "أفضل قليلًا. شكرًا يا إيلي.",
+   "pronunciation": "Un peu mieux. Merci, Elly.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D02_LEARNING",
+   "transferContexts": [
+    "الإجابة عن سؤال الأصل أو طلب معرفة المكان الذي وصلت إليه."
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_A1_FR_D02_C01",
+   "text": "D'où venez-vous?",
+   "englishReference": "Where are you from?",
+   "arabicTranslation": "من أين أنت؟",
+   "pronunciation": "D'où venez-vous?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D02_LEARNING",
+   "transferContexts": [
+    "الإجابة عن سؤال الأصل أو طلب معرفة المكان الذي وصلت إليه."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D02_S02",
+   "text": "Je viens d'un endroit lointain.",
+   "englishReference": "I am from a far place.",
+   "arabicTranslation": "أنا من مكان بعيد.",
+   "pronunciation": "Je viens d'un endroit lointain.",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D02_LEARNING",
+   "transferContexts": [
+    "الإجابة عن سؤال الأصل أو طلب معرفة المكان الذي وصلت إليه."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D02_C02",
+   "text": "Êtes-vous venu par la mer ?",
+   "englishReference": "Did you come by sea?",
+   "arabicTranslation": "هل جئت عبر البحر؟",
+   "pronunciation": "Êtes-vous venu par la mer ?",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D02_LEARNING",
+   "transferContexts": [
+    "الإجابة عن سؤال الأصل أو طلب معرفة المكان الذي وصلت إليه."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D02_C03",
+   "text": "Oui. La mer m'a amené ici.",
+   "englishReference": "Yes. The sea brought me here.",
+   "arabicTranslation": "نعم. البحر أحضرني إلى هنا.",
+   "pronunciation": "Oui. La mer m'a amené ici.",
+   "classification": "core",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D02_LEARNING",
+   "transferContexts": [
+    "الإجابة عن سؤال الأصل أو طلب معرفة المكان الذي وصلت إليه."
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_A1_FR_D02_S03",
+   "text": "Où suis-je maintenant ?",
+   "englishReference": "Where am I now?",
+   "arabicTranslation": "أين أنا الآن؟",
+   "pronunciation": "Où suis-je maintenant ?",
+   "classification": "secondary",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D02_LEARNING",
+   "transferContexts": [
+    "الإجابة عن سؤال الأصل أو طلب معرفة المكان الذي وصلت إليه."
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_A1_FR_D02_I02",
+   "text": "Vous êtes en sécurité près de mon village. Allez, au revoir pour l'instant.",
+   "englishReference": "You are safe near my village. Come on, goodbye for now.",
+   "arabicTranslation": "أنت بأمان قرب قريتي. هيا، إلى اللقاء الآن.",
+   "pronunciation": "Vous êtes en sécurité près de mon village. Allez, au revoir pour l'instant.",
+   "classification": "important",
+   "communicativeFunction": "day_specific_function",
+   "storyFirstUse": "SC_A1_D02_LEARNING",
+   "transferContexts": [
+    "الإجابة عن سؤال الأصل أو طلب معرفة المكان الذي وصلت إليه."
+   ],
+   "reviewPriority": 3
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "slow_first_exposure",
+    "gesture"
+   ],
+   "supportFadePlan": "تقل الإشارات بوضوح بعد اليوم الرابع."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_A1_FR_D02_C01",
+     "P_A1_FR_D02_C02",
+     "P_A1_FR_D02_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_A1_FR_D02_C01",
+     "P_A1_FR_D02_C02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_A1_FR_D02_C01",
+    "P_A1_FR_D02_C02",
+    "P_A1_FR_D02_C03",
+    "P_A1_FR_D02_I01",
+    "P_A1_FR_D02_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "تظهر عبارة سابقة طبيعيًا في الحدث التالي."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "A1_D01:COMPLETE"
+  ],
+  "onSuccess": [
+   "A1_DAY_02:COMPLETE",
+   "A1_D03:UNLOCKED"
+  ],
+  "milestone": "a1_milestone_02",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_a1_fr_d01",
+  "nextLessonId": "story_a1_fr_d03",
+  "nextLessonHookArabic": "غدًا: تفاصيل بسيطة.",
+  "carryForwardFacts": [
+   "أكمل ليث حدث اليوم 2: من مكان بعيد."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز التدقيق البنيوي والتعليمي والسردي الآلي؛ وتبقى مراجعة بشرية نهائية للنصوص المترجمة مطلوبة عند مرحلة اعتماد المنتج."
+ }
+}

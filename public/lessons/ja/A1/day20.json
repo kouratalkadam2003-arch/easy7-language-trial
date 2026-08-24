@@ -1,0 +1,121 @@
+{
+ "targetLang": "ja",
+ "level": "A1",
+ "dayNumber": 20,
+ "story": {
+  "originalText": "Yassin: Kyō wa getsuyōbi desu.\nOmar: Jugyō wa getsuyōbi desu ka?\nYassin: Hai, jugyō wa getsuyōbi to suiyōbi desu.\nOmar: Ashita wa nan yōbi desu ka?\nYassin: Ashita wa kayōbi desu.\nOmar: Watashi wa kayōbi ni hatarakimasu.\nYassin: Watashi wa kayōbi no yoru ni benkyō shimasu.\nOmar: Mainichi ga atarashii manabi no chansu desu.\nYassin: Sore wa hontō desu. Ashita wa fukushū shimasu.\nOmar: Ashita made sayōnara.",
+  "translatedText": "Yassin: اليوم هو الاثنين.\nOmar: هل درسنا يوم الاثنين؟\nYassin: نعم، درسنا يوم الاثنين والأربعاء.\nOmar: ما يوم غد؟\nYassin: غداً هو الثلاثاء.\nOmar: أنا أعمل يوم الثلاثاء.\nYassin: أنا أدرس مساء الثلاثاء.\nOmar: كل يوم فرصة جديدة للتعلم.\nYassin: هذا صحيح. غداً نراجع.\nOmar: وداعاً إلى الغد.",
+  "nativeScriptText": "Yassin: 今日は月曜日です。\nOmar: 授業は月曜日ですか？\nYassin: はい、授業は月曜日と水曜日です。\nOmar: 明日は何曜日ですか？\nYassin: 明日は火曜日です。\nOmar: 私は火曜日に働きます。\nYassin: 私は火曜日の夜に勉強します。\nOmar: 毎日が新しい学びのチャンスです。\nYassin: それは本当です。明日は復習します。\nOmar: 明日までさようなら。",
+  "wordList": [],
+  "basicVocabulary": [],
+  "grammarTip": {
+   "title": "اليوم 20: يوم",
+   "tip": "تعلّم الحوار بالتكرار العملي، ثم استخدم العبارات في موقف مشابه."
+  },
+  "additionalExpressions": []
+ },
+ "memory": {
+  "drills": []
+ },
+ "review": {
+  "flashcards": []
+ },
+ "textChat": {
+  "messages": [
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "今日は月曜日です。",
+    "translation": "اليوم هو الاثنين.",
+    "pronunciation": "Kyō wa getsuyōbi desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "授業は月曜日ですか？",
+    "translation": "هل درسنا يوم الاثنين؟",
+    "pronunciation": "Jugyō wa getsuyōbi desu ka?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "はい、授業は月曜日と水曜日です。",
+    "translation": "نعم، درسنا يوم الاثنين والأربعاء.",
+    "pronunciation": "Hai, jugyō wa getsuyōbi to suiyōbi desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "明日は何曜日ですか？",
+    "translation": "ما يوم غد؟",
+    "pronunciation": "Ashita wa nan yōbi desu ka?"
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "明日は火曜日です。",
+    "translation": "غداً هو الثلاثاء.",
+    "pronunciation": "Ashita wa kayōbi desu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "私は火曜日に働きます。",
+    "translation": "أنا أعمل يوم الثلاثاء.",
+    "pronunciation": "Watashi wa kayōbi ni hatarakimasu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "私は火曜日の夜に勉強します。",
+    "translation": "أنا أدرس مساء الثلاثاء.",
+    "pronunciation": "Watashi wa kayōbi no yoru ni benkyō shimasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "毎日が新しい学びのチャンスです。",
+    "translation": "كل يوم فرصة جديدة للتعلم.",
+    "pronunciation": "Mainichi ga atarashii manabi no chansu desu."
+   },
+   {
+    "speaker": "A",
+    "speakerName": "Yassin",
+    "gender": "male",
+    "text": "それは本当です。明日は復習します。",
+    "translation": "هذا صحيح. غداً نراجع.",
+    "pronunciation": "Sore wa hontō desu. Ashita wa fukushū shimasu."
+   },
+   {
+    "speaker": "B",
+    "speakerName": "Omar",
+    "gender": "male",
+    "text": "明日までさようなら。",
+    "translation": "وداعاً إلى الغد.",
+    "pronunciation": "Ashita made sayōnara."
+   }
+  ]
+ },
+ "metadata": {
+  "topic": {
+   "id": "s3_d20",
+   "title": "يوم",
+   "levelKey": "Station3"
+  },
+  "dayNumber": 20,
+  "level": "A1",
+  "languageCode": "ja",
+  "previousTopics": [
+   "s3_d19"
+  ],
+  "createdAt": 1786696446398
+ }
+}

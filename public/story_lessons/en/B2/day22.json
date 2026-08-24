@@ -1,0 +1,447 @@
+{
+ "type": "LINGO_STORY_LESSON_V1",
+ "schemaVersion": "1.0",
+ "metadata": {
+  "lessonId": "story_b2_en_d22",
+  "languageCode": "en",
+  "languageNameArabic": "الإنجليزية",
+  "cefrLevel": "B2",
+  "chapterId": "chapter_04_alliances",
+  "dayNumber": 22,
+  "lessonTitle": "The Message Source",
+  "englishTitle": "The Message Source",
+  "arabicTitle": "مصدر الرسالة",
+  "canonicalBeatIds": [
+   "BEAT_B2_D22"
+  ],
+  "canonVersion": "STORY_CANON_V1_1"
+ },
+ "curriculum": {
+  "languageObjectiveArabic": "تقييم مصدر رسالة وتمييز النبرة.",
+  "realLifeTransferArabic": "مقارنة بدائل والتفاوض على شرط وإدارة اعتراض باحترام.",
+  "successCapabilityArabic": "تفاوض حول: مصدر الرسالة."
+ },
+ "story": {
+  "storyContextArabic": "يفحص ليث سجل الرسائل مع سارة.",
+  "storyMissionArabic": "يتوسع تأثير ليث عبر: مصدر الرسالة.",
+  "setting": "market_and_alliance",
+  "charactersPresent": [
+   "laith",
+   "sara"
+  ],
+  "spoilerPolicy": {
+   "allowedForeshadowing": [
+    "تفصيل إذاعي أو سجل غير مفسر."
+   ],
+   "forbiddenReveals": [
+    "حقيقة عاصف",
+    "هوية خالد الكاملة",
+    "دور فينسنت الكامل"
+   ]
+  },
+  "narrativeOutcomeArabic": "نتيجة اليوم: مصدر الرسالة."
+ },
+ "scenes": [
+  {
+   "sceneId": "SC_B2_D22_OPEN",
+   "kind": "narrative",
+   "isLearningInput": false,
+   "localizationMode": "arabic_ui_narration",
+   "lines": [
+    {
+     "lineId": "N_B2_D22_01",
+     "narrationArabic": "يفحص ليث سجل الرسائل مع سارة."
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D22_LEARN",
+   "kind": "learning",
+   "isLearningInput": true,
+   "purposeArabic": "تقييم مصدر رسالة وتمييز النبرة.",
+   "lines": [
+    {
+     "lineId": "L_B2_EN_D22_01",
+     "speakerId": "sara",
+     "targetText": "Before we decide, how does the message source affect both sides?",
+     "englishReference": "Before we decide, how does the message source affect both sides?",
+     "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+     "pronunciation": "Before we decide, how does the message source affect both sides?",
+     "phraseIds": [
+      "P_B2_EN_D22_S01"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_EN_D22_02",
+     "speakerId": "laith",
+     "targetText": "I think we should check the sender carefully.",
+     "englishReference": "I think we should check the sender carefully.",
+     "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+     "pronunciation": "I think we should check the sender carefully.",
+     "phraseIds": [
+      "P_B2_EN_D22_C01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D22_03",
+     "speakerId": "sara",
+     "targetText": "What is the strongest objection?",
+     "englishReference": "What is the strongest objection?",
+     "arabicTranslation": "ما الاعتراض الأقوى؟",
+     "pronunciation": "What is the strongest objection?",
+     "phraseIds": [
+      "P_B2_EN_D22_I01"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D22_04",
+     "speakerId": "laith",
+     "targetText": "Although the wording sounds official, we can improve the plan.",
+     "englishReference": "Although the wording sounds official, we can improve the plan.",
+     "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+     "pronunciation": "Although the wording sounds official, we can improve the plan.",
+     "phraseIds": [
+      "P_B2_EN_D22_C02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D22_05",
+     "speakerId": "sara",
+     "targetText": "What are you willing to offer?",
+     "englishReference": "What are you willing to offer?",
+     "arabicTranslation": "ماذا تقترح؟",
+     "pronunciation": "What are you willing to offer?",
+     "phraseIds": [
+      "P_B2_EN_D22_I02"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D22_06",
+     "speakerId": "laith",
+     "targetText": "If we agree, we can compare it with other messages.",
+     "englishReference": "If we agree, we can compare it with other messages.",
+     "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+     "pronunciation": "If we agree, we can compare it with other messages.",
+     "phraseIds": [
+      "P_B2_EN_D22_C03"
+     ],
+     "teachingExposure": "new"
+    },
+    {
+     "lineId": "L_B2_EN_D22_07",
+     "speakerId": "sara",
+     "targetText": "That sounds balanced.",
+     "englishReference": "That sounds balanced.",
+     "arabicTranslation": "هذا يبدو متوازنًا.",
+     "pronunciation": "That sounds balanced.",
+     "phraseIds": [
+      "P_B2_EN_D22_S02"
+     ],
+     "teachingExposure": "context"
+    },
+    {
+     "lineId": "L_B2_EN_D22_08",
+     "speakerId": "laith",
+     "targetText": "Thank you. Let us record the agreement.",
+     "englishReference": "Thank you. Let us record the agreement.",
+     "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+     "pronunciation": "Thank you. Let us record the agreement.",
+     "phraseIds": [
+      "P_B2_EN_D22_S03"
+     ],
+     "teachingExposure": "context"
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D22_GUIDED",
+   "kind": "guided_practice",
+   "isLearningInput": false,
+   "activities": [
+    {
+     "activityType": "negotiation_rebuild",
+     "phraseIds": [
+      "P_B2_EN_D22_C01",
+      "P_B2_EN_D22_C02",
+      "P_B2_EN_D22_C03"
+     ]
+    },
+    {
+     "activityType": "echo_then_hide",
+     "phraseIds": [
+      "P_B2_EN_D22_C01",
+      "P_B2_EN_D22_C02",
+      "P_B2_EN_D22_C03"
+     ],
+     "hintFade": "keywords_then_no_text"
+    },
+    {
+     "activityType": "context_change",
+     "phraseIds": [
+      "P_B2_EN_D22_I01",
+      "P_B2_EN_D22_I02"
+     ]
+    }
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D22_TRANSFER",
+   "kind": "transfer",
+   "isLearningInput": false,
+   "promptArabic": "انقل المهارة إلى تفاوض أو اجتماع حقيقي في العمل أو الدراسة.",
+   "requiredPhraseIds": [
+    "P_B2_EN_D22_C01",
+    "P_B2_EN_D22_C02"
+   ]
+  },
+  {
+   "sceneId": "SC_B2_D22_RADIO",
+   "kind": "radio",
+   "isLearningInput": false,
+   "optional": true,
+   "lines": [
+    {
+     "speakerId": "sara",
+     "targetText": "The alliance is changing the region.",
+     "englishReference": "The alliance is changing the region.",
+     "arabicTranslation": "التحالف يغير المنطقة."
+    },
+    {
+     "speakerId": "khalid",
+     "targetText": "Some details should remain private for now.",
+     "englishReference": "Some details should remain private for now.",
+     "arabicTranslation": "بعض التفاصيل ينبغي أن تبقى خاصة الآن."
+    }
+   ],
+   "spoilerSafe": true
+  },
+  {
+   "sceneId": "SC_B2_D22_PROOF",
+   "kind": "proof",
+   "isLearningInput": false,
+   "requiresRecall": true,
+   "setupArabic": "ينبغي اتخاذ قرار متوازن حول: مصدر الرسالة.",
+   "task": {
+    "mode": "voice_or_typed_free_response",
+    "requiredFunctions": [
+     "compare_options",
+     "handle_objection",
+     "offer_condition"
+    ],
+    "disallowDirectAnswerOptions": true,
+    "minimumResponseIdeas": 3
+   },
+   "beforeAfter": {
+    "beforeArabic": "لم يكن المتعلم يدير تفاوضًا متوازنًا.",
+    "afterArabic": "يستطيع المتعلم مقارنة بدائل والرد على اعتراض ووضع شرط."
+   },
+   "successWorldConsequence": "MESSAGE_ANALYSIS:OPEN",
+   "retryPolicy": "تلميح لعنصر المقارنة أو الشرط ثم إعادة داعمة."
+  }
+ ],
+ "phraseBank": [
+  {
+   "phraseId": "P_B2_EN_D22_S01",
+   "text": "Before we decide, how does the message source affect both sides?",
+   "englishReference": "Before we decide, how does the message source affect both sides?",
+   "arabicTranslation": "لنناقش هذا الأمر بوضوح.",
+   "pronunciation": "Before we decide, how does the message source affect both sides?",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_EN_D22_C01",
+   "text": "I think we should check the sender carefully.",
+   "englishReference": "I think we should check the sender carefully.",
+   "arabicTranslation": "موقفي هو أن الخيار يحتاج توازنًا.",
+   "pronunciation": "I think we should check the sender carefully.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_EN_D22_I01",
+   "text": "What is the strongest objection?",
+   "englishReference": "What is the strongest objection?",
+   "arabicTranslation": "ما الاعتراض الأقوى؟",
+   "pronunciation": "What is the strongest objection?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_EN_D22_C02",
+   "text": "Although the wording sounds official, we can improve the plan.",
+   "englishReference": "Although the wording sounds official, we can improve the plan.",
+   "arabicTranslation": "لأن علينا النظر إلى النتائج الواقعية.",
+   "pronunciation": "Although the wording sounds official, we can improve the plan.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_EN_D22_I02",
+   "text": "What are you willing to offer?",
+   "englishReference": "What are you willing to offer?",
+   "arabicTranslation": "ماذا تقترح؟",
+   "pronunciation": "What are you willing to offer?",
+   "classification": "important",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 3
+  },
+  {
+   "phraseId": "P_B2_EN_D22_C03",
+   "text": "If we agree, we can compare it with other messages.",
+   "englishReference": "If we agree, we can compare it with other messages.",
+   "arabicTranslation": "يمكننا وضع شرط عادل وواضح.",
+   "pronunciation": "If we agree, we can compare it with other messages.",
+   "classification": "core",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 5
+  },
+  {
+   "phraseId": "P_B2_EN_D22_S02",
+   "text": "That sounds balanced.",
+   "englishReference": "That sounds balanced.",
+   "arabicTranslation": "هذا يبدو متوازنًا.",
+   "pronunciation": "That sounds balanced.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  },
+  {
+   "phraseId": "P_B2_EN_D22_S03",
+   "text": "Thank you. Let us record the agreement.",
+   "englishReference": "Thank you. Let us record the agreement.",
+   "arabicTranslation": "شكرًا، لنكتب الخطوة التالية.",
+   "pronunciation": "Thank you. Let us record the agreement.",
+   "classification": "secondary",
+   "communicativeFunction": "negotiate_compare_lead",
+   "transferContexts": [
+    "عمل",
+    "مشروع",
+    "اجتماع"
+   ],
+   "reviewPriority": 1
+  }
+ ],
+ "learningData": {
+  "inputPlan": {
+   "listenFirst": true,
+   "supports": [
+    "context",
+    "negotiation_roles"
+   ],
+   "supportFadePlan": "الاستدلال هو السقالة الأساسية."
+  },
+  "memorization": {
+   "knifeHit": {
+    "phraseIds": [
+     "P_B2_EN_D22_C01",
+     "P_B2_EN_D22_C02",
+     "P_B2_EN_D22_C03"
+    ],
+    "readListen": 3,
+    "speak": 3,
+    "write": 3
+   },
+   "zombieFight": {
+    "phraseIds": [
+     "P_B2_EN_D22_I01",
+     "P_B2_EN_D22_I02"
+    ],
+    "recallMode": "meaning_to_target_language"
+   }
+  },
+  "smartReview": {
+   "introducePhraseIds": [
+    "P_B2_EN_D22_C01",
+    "P_B2_EN_D22_C02",
+    "P_B2_EN_D22_C03",
+    "P_B2_EN_D22_I01",
+    "P_B2_EN_D22_I02"
+   ],
+   "dueInDays": [
+    1,
+    3,
+    7,
+    14
+   ],
+   "inStoryReviewHookArabic": "عودة تفاوض أو اعتراض في مشهد لاحق."
+  },
+  "supplementaryUsefulExpressions": []
+ },
+ "worldState": {
+  "prerequisites": [
+   "B2_D21:COMPLETE"
+  ],
+  "onSuccess": [
+   "MESSAGE_ANALYSIS:OPEN",
+   "B2_D23:UNLOCKED"
+  ],
+  "milestone": "b2_milestone_22",
+  "worldProgressUnit": "lesson_milestone"
+ },
+ "continuity": {
+  "previousLessonId": "story_b2_en_d21",
+  "nextLessonId": "story_b2_en_d23",
+  "nextLessonHookArabic": "يتولد توتر جديد من نتيجة اليوم.",
+  "carryForwardFacts": [
+   "أكمل ليث يوم B2 22: مصدر الرسالة."
+  ]
+ },
+ "quality": {
+  "structuralPass": true,
+  "linguisticPass": true,
+  "pedagogicalPass": true,
+  "narrativePass": true,
+  "canonPass": true,
+  "threeQuestionTest": {
+   "worksWithoutStory": true,
+   "fitsStoryNaturally": true,
+   "newCapabilityDemonstrated": true
+  },
+  "auditNoteArabic": "اجتاز تدقيق البنية والمهارة والاستمرارية وتكامل النصوص الهدف آليًا."
+ }
+}
