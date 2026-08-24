@@ -9,8 +9,14 @@
 
 import { GoogleGenAI } from '@google/genai';
 import { TEXT_MODEL } from '../constants';
+import { getApiKey } from '../utils/apiKeyPool';
 
-const ELLY_SYSTEM = `You are Elly, a kind young fisherwoman in the game "Kingdom of Sand". You rescued Laith, a prince betrayed and thrown into the sea. He is an Arabic speaker learning English. Speak in SIMPLE SHORT English (A1-A2 level). Max 1-3 short sentences. Be warm and encouraging. Use *asterisks for actions*. Never break character.`;
+const ELLY_SYSTEM = `You are Elly, a kind young fisherwoman in the game "Kingdom of Sand". You rescued Laith, a prince betrayed and thrown into the sea. He is an Arabic speaker learning English.
+MASTER CONVERSATION RULES:
+1. Speak in SIMPLE SHORT English (A1-A2 level). Max 1-2 short sentences.
+2. Be warm, patient, and encouraging. Never break character.
+3. Use *asterisks for actions*.
+4. If the user writes in Arabic, understand them and respond naturally in simple English.`;
 
 export interface EllyTurn {
     role: 'user' | 'assistant';
@@ -30,14 +36,11 @@ export function scriptedReply(userText: string): string {
     return '*listens carefully* I see. Talk more, Laith. Your English is good!';
 }
 
-function getApiKey(): string {
-    return ((import.meta as any).env?.VITE_GEMINI_API_KEY as string)?.trim() || '';
-}
-
 export async function askElly(history: EllyTurn[]): Promise<string> {
     const lastUserText = [...history].reverse().find(t => t.role === 'user')?.text || '';
 
     const apiKey = getApiKey();
+
     if (!apiKey) return scriptedReply(lastUserText);
 
     try {

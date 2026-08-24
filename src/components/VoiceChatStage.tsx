@@ -23,8 +23,11 @@ const UI_TEXTS_AR = {
 };
 
 import { getKeyForVoiceChat, markKeyExhausted } from '../utils/apiKeyPool';
+import { extractSessionLearningItems } from '../services/sessionExtractor';
+import { Sparkles, CheckCircle2 } from 'lucide-react';
 
 interface VoiceChatStageProps {
+
     nativeLanguage: Language;
     language: Language;
     topic: Topic;
@@ -104,6 +107,8 @@ const VoiceChatStage: React.FC<VoiceChatStageProps> = ({
     const [micOn, setMicOn] = useState<boolean>(true);
     const [playingMsgId, setPlayingMsgId] = useState<string | null>(null);
     const [userAudioLevel, setUserAudioLevel] = useState<number>(0);
+    const [extractionSummary, setExtractionSummary] = useState<{ summary: string; count: number } | null>(null);
+    const [isExtracting, setIsExtracting] = useState<boolean>(false);
 
     // Live session opened straight against the Gemini Live API. Previously this
     // was a WebSocket to our own /ws-voice relay, which static hosting can't run.
@@ -526,6 +531,35 @@ const VoiceChatStage: React.FC<VoiceChatStageProps> = ({
         }
     }, [storyContent, language, nativeLanguage, topic?.title, cleanup, voiceGender, level, playAudioChunk, texts.micDenied, texts.noApiSupport, texts.noKey, texts.error, texts.network]);
 
+    const endSession = useCallback(async () => {
+        cleanup();
+        setStatus('ended');
+        statusRef.current = 'ended';
+
+        if (transcript.length >= 2) {
+            setIsExtracting(true);
+            try {
+                const langName = language?.englishName || language?.name || 'English';
+                const natLangName = nativeLanguage?.englishName || 'Arabic';
+                const result = await extractSessionLearningItems(
+                    transcript.map(t => ({ speaker: t.speaker, text: t.text })),
+                    {
+                        targetLanguage: langName,
+                        nativeLanguage: natLangName,
+                        level,
+                    }
+                );
+                if (result && result.extractedCount > 0) {
+                    setExtractionSummary({ summary: result.summary, count: result.extractedCount });
+                }
+            } catch (e) {
+                console.warn('[VoiceChat] Extraction error:', e);
+            } finally {
+                setIsExtracting(false);
+            }
+        }
+    }, [cleanup, transcript, language, nativeLanguage, level]);
+
     useEffect(() => {
         return () => cleanup();
     }, [cleanup]);
@@ -597,6 +631,25 @@ const VoiceChatStage: React.FC<VoiceChatStageProps> = ({
                     <span>{statusText}</span>
                 </div>
 
+                {/* Extraction Summary / Loading Banner */}
+                {isExtracting && (
+                    <div className="mt-3 px-4 py-2 bg-blue-950/80 border border-blue-500/30 rounded-2xl text-center flex items-center gap-2 shadow-lg animate-pulse max-w-lg">
+                        <Sparkles className="w-4 h-4 text-blue-400 animate-spin" />
+                        <span className="text-xs text-blue-200 font-bold">جاري تحليل المحادثة واستخراج الكلمات الذكية للذاكرة...</span>
+                    </div>
+                )}
+                {extractionSummary && (
+                    <div className="mt-3 p-3 bg-emerald-950/90 border border-emerald-500/40 rounded-2xl text-center shadow-2xl animate-fade-in max-w-lg">
+                        <div className="flex items-center justify-center gap-1.5 text-emerald-300 font-black text-xs sm:text-sm mb-1">
+                            <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                            <span>{extractionSummary.summary}</span>
+                        </div>
+                        <span className="inline-block px-3 py-1 bg-emerald-500/20 text-emerald-300 text-[11px] font-extrabold rounded-full border border-emerald-500/30">
+                            ✨ تم حفظ {extractionSummary.count} مفردات جديدة في صندوق المراجعة التفاعلي
+                        </span>
+                    </div>
+                )}
+
                 {/* Live Transcript Box */}
                 {transcript.length > 0 && (
                     <div className="w-full max-w-lg mt-3 p-3 sm:p-4 bg-slate-900/90 backdrop-blur-2xl border border-slate-700/80 rounded-3xl max-h-36 sm:max-h-44 overflow-y-auto shadow-2xl">
@@ -648,7 +701,7 @@ const VoiceChatStage: React.FC<VoiceChatStageProps> = ({
                     </button>
 
                     <button
-                        onClick={() => { cleanup(); setStatus('ended'); statusRef.current = 'ended'; }}
+                        onClick={endSession}
                         disabled={status === 'idle' || status === 'ended' || status === 'error'}
                         className="w-12 h-12 sm:w-14 sm:h-14 bg-red-500 hover:bg-red-600 disabled:opacity-40 text-white rounded-full flex items-center justify-center shadow-lg transition-all active:scale-95"
                         title="إنهاء المكالمة">
@@ -661,3 +714,4 @@ const VoiceChatStage: React.FC<VoiceChatStageProps> = ({
 };
 
 export default VoiceChatStage;
+
