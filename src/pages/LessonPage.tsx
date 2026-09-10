@@ -2,32 +2,28 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { get, set } from 'idb-keyval';
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
-import { X, Heart, Headphones, BookOpen, Axe, Sword, MessageCircle, Radio, ChevronRight, RefreshCw } from 'lucide-react'
+import { X, Heart, Headphones, BookOpen, MessageCircle, Radio, Trophy, Mic, CheckCircle2, Sparkles, Brain, ChevronDown, ChevronUp, AlertCircle } from 'lucide-react'
 import { Button3D } from '@/components/ui/Button3D'
 import { useUserStore } from '@/store/userStore'
+import { useLessonTrackerStore, type MasterEvaluationResult } from '@/store/lessonTrackerStore'
 
 const STAGES = [
-  { id: 'listen', icon: Headphones, label: 'الاستماع', labelEn: 'Listen', color: '#10B981', emoji: '🎧' },
-  { id: 'read', icon: BookOpen, label: 'القراءة', labelEn: 'Read', color: '#8B5CF6', emoji: '📖' },
-  { id: 'chop', icon: Axe, label: 'الاحتطاب', labelEn: 'Chop', color: '#EAB308', emoji: '🪓' },
-  { id: 'fight', icon: Sword, label: 'القتال', labelEn: 'Fight', color: '#EF4444', emoji: '⚔️' },
-  { id: 'context', icon: RefreshCw, label: 'السياق', labelEn: 'Context', color: '#0EA5E9', emoji: '🔄' },
-  { id: 'chat', icon: MessageCircle, label: 'المحادثة', labelEn: 'Chat', color: '#F97316', emoji: '💬' },
-  { id: 'radio', icon: Radio, label: 'الراديو', labelEn: 'Radio', color: '#3B82F6', emoji: '📻' },
+  { id: 'chat', icon: Mic, label: 'المحادثة المباشرة', labelEn: 'Live Voice Chat', color: '#10B981', emoji: '🎙️' },
+  { id: 'games', icon: Trophy, label: 'ساحة التحديات', labelEn: 'Challenge Arena', color: '#F59E0B', emoji: '🏆' },
+  { id: 'read', icon: BookOpen, label: 'الاستماع والقراءة', labelEn: 'Listening & Reading', color: '#8B5CF6', emoji: '📖' },
+  { id: 'real_chat', icon: MessageCircle, label: 'محادثة الموقف الواقعي', labelEn: 'Real-Life Chat', color: '#EC4899', emoji: '💬' },
+  { id: 'radio', icon: Radio, label: 'راديو القرية', labelEn: 'Village Radio', color: '#3B82F6', emoji: '📻' },
 ]
 
-
-import { ListeningStage } from '@/components/lesson/ListeningStage'
-import { ReadingStage } from '@/components/lesson/ReadingStage'
-import { RadioWrapper } from '@/components/lesson/RadioWrapper'
 import { ChatWrapper } from '@/components/lesson/ChatWrapper'
-import { ContextChangeGame } from '@/components/lesson/ContextChangeGame'
-import KnifeHitGame from '@/screens/KnifeHitGame'
-import GoblinFightGame from '@/screens/ZombieFightGame'
-import AiChatInterface from '@/screens/AiChatInterface'
+import { GamesArenaHub } from '@/components/lesson/GamesArenaHub'
+import { ReadingStage } from '@/components/lesson/ReadingStage'
+import { RealRoleplayStage } from '@/components/lesson/RealRoleplayStage'
+import { RadioWrapper } from '@/components/lesson/RadioWrapper'
 
 import { useFarmStore } from '@/store/farmStore'
 import { useReviewStore } from '@/store/reviewStore'
+import { globalSpacedRepetition } from '@/kingdom/engine/spacedRepetition'
 
 export default function LessonPage() {
   const { id } = useParams()
@@ -36,12 +32,20 @@ export default function LessonPage() {
   const targetLanguage = useUserStore((s: any) => s.targetLanguage) || 'en'
   const { addResources, plantSeed } = useFarmStore()
   const addReviewCards = useReviewStore(state => state.addCards)
+  const { initLessonPhrases, generateMasterEvaluation, resetTracker } = useLessonTrackerStore()
   const isAr = uiLang === 'ar'
 
   const [currentStage, setCurrentStage] = useState(0)
   const [progress, setProgress] = useState(0)
   const [isCompletedModalOpen, setIsCompletedModalOpen] = useState(false)
   const [showIntro, setShowIntro] = useState(true)  // ← Welcome intro screen
+  const [readingAnalytics, setReadingAnalytics] = useState<{
+    mastered: string[];
+    needsReview: string[];
+    accuracyScore: number;
+  } | undefined>(undefined);
+  const [masterEvaluation, setMasterEvaluation] = useState<MasterEvaluationResult | null>(null);
+  const [showEvaluationDetails, setShowEvaluationDetails] = useState(false);
   
   const [lesson, setLesson] = useState<any>(null)
   const [isLoading, setIsLoading] = useState(true)
@@ -113,23 +117,36 @@ export default function LessonPage() {
       }
     };
 
+    // Reset tracker for new lesson
+    resetTracker();
+
     loadLessonData()
       .then(data => {
+        const dialogueLines = data.textChat?.messages?.map((msg: any) => ({
+          character: msg.speakerName || 'Speaker',
+          native: msg.text,
+          romaji: msg.pronunciation || msg.romaji || msg.text,
+          pronunciation: msg.pronunciation || msg.text,
+          translation: msg.translation,
+          tier: 'core'
+        })) || [];
+
         setLesson({
           day: data.dayNumber || dayNumber,
           lang: data.targetLang || langCode,
           cefr: data.level || level,
-          storyArc: 'standalone', // Normal mode (بدون قصة)
+          storyArc: 'standalone',
           title: data.metadata?.topic?.title || `الدرس ${dayNumber}`,
-          dialogue: data.textChat?.messages?.map((msg: any) => ({
-            character: msg.speakerName || 'Speaker',
-            native: msg.text,
-            romaji: msg.pronunciation || msg.romaji || msg.text,
-            pronunciation: msg.pronunciation || msg.text,
-            translation: msg.translation,
-            tier: 'core'
-          })) || []
+          dialogue: dialogueLines
         });
+
+        // Initialize cross-stage tracker with all lesson phrases and explicit language
+        initLessonPhrases(dialogueLines.map((l: any) => ({
+          native: l.native,
+          translation: l.translation,
+          pronunciation: l.pronunciation
+        })), data.targetLang || langCode);
+
         setIsLoading(false);
       })
       .catch(err => {
@@ -155,26 +172,29 @@ export default function LessonPage() {
       setProgress(((currentStage + 1) / STAGES.length) * 100)
     } else {
       // Lesson complete!
-      if (id) completeLesson(id)
+      if (id) completeLesson(id);
+      completeLesson(`d${dayNumber}`);
+      completeLesson(String(dayNumber));
       addResources(50, 20, 0)
+
+      // Sync progress to Kingdom village growth!
+      globalSpacedRepetition.syncWithEasy7Progress({
+        completedLessons: [...useUserStore.getState().completedLessons, `d${dayNumber}`],
+        cards: useReviewStore.getState().cards || [],
+        streak: useUserStore.getState().streak,
+      });
+
       if (lesson) {
         // Add phrases to Farm store
         lesson.dialogue.forEach((line: any, i: number) => {
           plantSeed({ id: `d${dayNumber}_${i}`, word: line.native, translation: line.translation })
         })
         
-        // Add phrases to Spaced Repetition Review store
-        const reviewCards = lesson.dialogue.map((line: any, i: number) => ({
-          id: `review_d${dayNumber}_${i}_${Date.now()}`,
-          native: line.native,
-          translation: line.translation,
-          pronunciation: line.pronunciation,
-          tier: line.tier || 'core',
-          addedAt: Date.now(),
-          intervalMinutes: 5,
-          nextReviewAt: Date.now() + 5 * 60 * 1000 // First review in 5 minutes
-        }))
-        addReviewCards(reviewCards)
+        // Generate AI Master Evaluation across ALL stages
+        // This automatically classifies phrases and adds SRS cards to ReviewStore
+        const evaluation = generateMasterEvaluation(lesson?.lang || targetLanguage);
+        console.log('[LessonTracker] Master Evaluation:', evaluation);
+        setMasterEvaluation(evaluation);
       }
       setIsCompletedModalOpen(true)
     }
@@ -276,10 +296,10 @@ export default function LessonPage() {
                   variant="primary"
                   size="lg"
                   fullWidth
-                  className="text-xl py-5 !bg-blue-500 hover:!bg-blue-600 !text-white !border-b-4 !border-blue-700 !shadow-lg !rounded-3xl cursor-pointer"
+                  className="text-xl py-5 !bg-emerald-500 hover:!bg-emerald-600 !text-white !border-b-4 !border-emerald-700 !shadow-lg !rounded-3xl cursor-pointer"
                   onClick={() => setShowIntro(false)}
                 >
-                  {isAr ? 'ابدأ الاستماع 🎧' : 'Start Listening 🎧'}
+                  {isAr ? 'ابدأ المحادثة المباشرة 🎙️' : 'Start Live Chat 🎙️'}
                 </Button3D>
               </motion.div>
             </motion.div>
@@ -299,20 +319,24 @@ export default function LessonPage() {
                 </h2>
               </div>
 
-              {stage.id === 'listen' && <ListeningStage lesson={lesson} onComplete={handleNext} />}
-              {stage.id === 'read' && <ReadingStage lesson={lesson} onComplete={handleNext} />}
-              {stage.id === 'context' && <ContextChangeGame lesson={lesson} onComplete={handleNext} />}
-              {stage.id === 'chop' && (
-                <div className="flex-1 min-h-0 overflow-hidden w-full">
-                  <KnifeHitGame onComplete={handleNext} onClose={handleNext} flashcards={lesson.dialogue.map((line: any, i: number) => ({ id: String(i), originalText: line.native, translation: line.translation, romanization: line.pronunciation, tier: line.tier }))} />
-                </div>
-              )}
-              {stage.id === 'fight' && (
-                <div className="flex-1 min-h-0 overflow-hidden w-full">
-                  <GoblinFightGame onClose={handleNext} flashcards={lesson.dialogue.map((line: any, i: number) => ({ id: String(i), originalText: line.native, translation: line.translation, romanization: line.pronunciation, translatedText: line.translation, nativeText: null, speechRate: 1, nextReviewTimestamp: Date.now(), status: 'new' as const }))} />
-                </div>
-              )}
               {stage.id === 'chat' && <ChatWrapper lesson={lesson} onComplete={handleNext} />}
+              {stage.id === 'games' && <GamesArenaHub lesson={lesson} onComplete={handleNext} />}
+              {stage.id === 'read' && (
+                <ReadingStage 
+                  lesson={lesson} 
+                  onComplete={(analytics) => {
+                    if (analytics) setReadingAnalytics(analytics);
+                    handleNext();
+                  }} 
+                />
+              )}
+              {stage.id === 'real_chat' && (
+                <RealRoleplayStage 
+                  lesson={lesson} 
+                  analyticsFromReading={readingAnalytics}
+                  onComplete={handleNext} 
+                />
+              )}
               {stage.id === 'radio' && <RadioWrapper lesson={lesson} onComplete={handleNext} />}
               
             </motion.div>
@@ -321,51 +345,207 @@ export default function LessonPage() {
         </div>
       </div>
 
-      {/* 🎉 Celebratory Lesson Completion Modal */}
+      {/* 🎉 Celebratory Lesson Completion & AI Master Evaluation Modal */}
       <AnimatePresence>
         {isCompletedModalOpen && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4"
+            className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-4"
           >
             <motion.div
-              initial={{ scale: 0.8, y: 20 }}
+              initial={{ scale: 0.85, y: 20 }}
               animate={{ scale: 1, y: 0 }}
-              exit={{ scale: 0.8, y: 20 }}
-              className="bg-white/80 backdrop-blur-2xl rounded-3xl p-6 max-w-sm w-full text-center shadow-[0_8px_32px_rgba(0,0,0,0.1)] border border-white/40 space-y-6 text-slate-800"
+              exit={{ scale: 0.85, y: 20 }}
+              className="bg-white rounded-3xl max-w-md w-full max-h-[90vh] flex flex-col text-center shadow-2xl border border-slate-200 overflow-hidden text-slate-800"
             >
-              <div className="text-7xl animate-bounce">🏆</div>
-              <div className="space-y-2">
-                <h2 className="text-2xl font-black text-slate-800">
-                  {isAr ? 'أحسنت! إنجاز رائع 🎉' : 'Awesome Job! 🎉'}
-                </h2>
-                <p className="text-sm font-medium text-slate-600">
-                  {isAr ? `لقد أكملت جميع مراحل اليوم ${dayNumber} بنجاح` : `You completed all stages of Day ${dayNumber}`}
-                </p>
+              {/* Scrollable Modal Content */}
+              <div className="flex-1 overflow-y-auto p-5 sm:p-6 space-y-4">
+                {/* Trophy & Badge */}
+                <div className="text-5xl sm:text-6xl animate-bounce">🏆</div>
+                
+                <div className="space-y-1.5">
+                  <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-200 text-xs font-black">
+                    <Sparkles className="w-3.5 h-3.5 text-blue-500" />
+                    <span>{isAr ? 'تقرير الذكاء الاصطناعي الشامل للدرس' : 'AI Master Evaluation'}</span>
+                  </div>
+                  <h2 className="text-xl sm:text-2xl font-black text-slate-800">
+                    {isAr ? `إنجاز رائع! اليوم ${dayNumber}` : `Awesome Job! Day ${dayNumber}`}
+                  </h2>
+                  {masterEvaluation && (
+                    <div className="pt-1">
+                      <span className="inline-block px-3.5 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-black border border-emerald-300 shadow-sm">
+                        {isAr ? `معدل إتقان العبارات: ${masterEvaluation.accuracyScore}% 🎯` : `Overall Mastery: ${masterEvaluation.accuracyScore}% 🎯`}
+                      </span>
+                    </div>
+                  )}
+                </div>
+
+                {/* AI Coach Personalized Message */}
+                {masterEvaluation?.coachPersonalMessage && (
+                  <div className="bg-gradient-to-br from-blue-50 via-indigo-50/50 to-blue-50 border border-blue-200/90 rounded-2xl p-3.5 text-right shadow-sm">
+                    <div className="flex items-center gap-1.5 mb-1 text-xs font-black text-blue-700">
+                      <Brain className="w-4 h-4 text-blue-600" />
+                      <span>{isAr ? 'همسة المدرب الذكي:' : 'Coach Insight:'}</span>
+                    </div>
+                    <p className="text-xs sm:text-sm font-bold text-slate-700 leading-relaxed">
+                      {masterEvaluation.coachPersonalMessage}
+                    </p>
+                  </div>
+                )}
+
+                {/* Three Performance Trajectory Badges */}
+                {masterEvaluation && (
+                  <div className="grid grid-cols-3 gap-2 text-center">
+                    {/* Conquered */}
+                    <div className="bg-amber-50/90 border border-amber-200 rounded-2xl p-2.5 flex flex-col items-center shadow-sm">
+                      <span className="text-xl">🌟</span>
+                      <span className="text-lg font-black text-amber-700 mt-0.5">
+                        {masterEvaluation.conqueredPhrases.length}
+                      </span>
+                      <span className="text-[10px] font-black text-amber-800 leading-tight">
+                        {isAr ? 'تم التغلب عليها' : 'Conquered'}
+                      </span>
+                      <span className="text-[9px] text-amber-600 font-bold mt-0.5 hidden xs:inline">
+                        {isAr ? 'أتقنتها بعد تعثر' : 'Struggled then won'}
+                      </span>
+                    </div>
+
+                    {/* Mastered */}
+                    <div className="bg-emerald-50/90 border border-emerald-200 rounded-2xl p-2.5 flex flex-col items-center shadow-sm">
+                      <span className="text-xl">👑</span>
+                      <span className="text-lg font-black text-emerald-700 mt-0.5">
+                        {masterEvaluation.masteredPhrases.length}
+                      </span>
+                      <span className="text-[10px] font-black text-emerald-800 leading-tight">
+                        {isAr ? 'إتقان فوري' : 'Mastered'}
+                      </span>
+                      <span className="text-[9px] text-emerald-600 font-bold mt-0.5 hidden xs:inline">
+                        {isAr ? 'من أول محاولة' : 'First try'}
+                      </span>
+                    </div>
+
+                    {/* Needs Review / SRS */}
+                    <div className="bg-purple-50/90 border border-purple-200 rounded-2xl p-2.5 flex flex-col items-center shadow-sm">
+                      <span className="text-xl">📦</span>
+                      <span className="text-lg font-black text-purple-700 mt-0.5">
+                        {masterEvaluation.needsReviewPhrases.length}
+                      </span>
+                      <span className="text-[10px] font-black text-purple-800 leading-tight">
+                        {isAr ? 'في المراجعة' : 'In SRS'}
+                      </span>
+                      <span className="text-[9px] text-purple-600 font-bold mt-0.5 hidden xs:inline">
+                        {isAr ? 'تكرار ذكي' : 'Spaced review'}
+                      </span>
+                    </div>
+                  </div>
+                )}
+
+                {/* Spaced Repetition SRS Notice */}
+                {masterEvaluation && masterEvaluation.srsCardsAddedCount > 0 && (
+                  <div className="text-[11px] font-bold text-slate-600 bg-slate-50 rounded-xl p-2.5 border border-slate-200 flex items-center justify-between">
+                    <span className="flex items-center gap-1.5 text-right">
+                      <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                      <span>{isAr ? 'تمت جدولة جميع العبارات آلياً في المراجعة الذكية (SRS)' : 'All phrases auto-scheduled in Spaced Repetition (SRS)'}</span>
+                    </span>
+                    <span className="text-[10px] font-black bg-purple-100 text-purple-700 px-2 py-0.5 rounded-full shrink-0">
+                      {masterEvaluation.srsCardsAddedCount} {isAr ? 'بطاقة' : 'cards'}
+                    </span>
+                  </div>
+                )}
+
+                {/* Expandable Detailed Phrases List Toggle */}
+                {masterEvaluation && (
+                  <div className="space-y-2">
+                    <button
+                      onClick={() => setShowEvaluationDetails(!showEvaluationDetails)}
+                      className="w-full py-2 px-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-black text-xs flex items-center justify-between transition-colors cursor-pointer"
+                    >
+                      <span>{isAr ? 'عرض تفاصيل تشخيص كل عبارة 📋' : 'View Detailed Phrase Diagnostics 📋'}</span>
+                      {showEvaluationDetails ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+                    </button>
+
+                    {showEvaluationDetails && (
+                      <div className="max-h-48 overflow-y-auto space-y-2 text-right pr-1">
+                        {/* Conquered list */}
+                        {masterEvaluation.conqueredPhrases.map((p, idx) => (
+                          <div key={`conq-${idx}`} className="p-2.5 rounded-xl bg-amber-50/80 border border-amber-200 text-xs">
+                            <div className="flex items-center justify-between mb-0.5" dir="ltr">
+                              <span className="font-black text-slate-800">{p.native}</span>
+                              <span className="text-[10px] font-black bg-amber-200/80 text-amber-900 px-2 py-0.5 rounded-full">
+                                🌟 تم التغلب عليها
+                              </span>
+                            </div>
+                            <div className="text-slate-600 font-bold" dir="rtl">{p.translation}</div>
+                            {p.diagnosticNote && (
+                              <div className="text-[10px] text-amber-800 font-bold mt-1" dir="rtl">{p.diagnosticNote}</div>
+                            )}
+                          </div>
+                        ))}
+
+                        {/* Mastered list */}
+                        {masterEvaluation.masteredPhrases.map((p, idx) => (
+                          <div key={`mast-${idx}`} className="p-2.5 rounded-xl bg-emerald-50/80 border border-emerald-200 text-xs">
+                            <div className="flex items-center justify-between mb-0.5" dir="ltr">
+                              <span className="font-black text-slate-800">{p.native}</span>
+                              <span className="text-[10px] font-black bg-emerald-200/80 text-emerald-900 px-2 py-0.5 rounded-full">
+                                👑 إتقان فوري
+                              </span>
+                            </div>
+                            <div className="text-slate-600 font-bold" dir="rtl">{p.translation}</div>
+                            {p.diagnosticNote && (
+                              <div className="text-[10px] text-emerald-800 font-bold mt-1" dir="rtl">{p.diagnosticNote}</div>
+                            )}
+                          </div>
+                        ))}
+
+                        {/* Needs review list */}
+                        {masterEvaluation.needsReviewPhrases.map((p, idx) => (
+                          <div key={`need-${idx}`} className="p-2.5 rounded-xl bg-purple-50/80 border border-purple-200 text-xs">
+                            <div className="flex items-center justify-between mb-0.5" dir="ltr">
+                              <span className="font-black text-slate-800">{p.native}</span>
+                              <span className="text-[10px] font-black bg-purple-200/80 text-purple-900 px-2 py-0.5 rounded-full">
+                                📦 مراجعة قادمة (10د)
+                              </span>
+                            </div>
+                            <div className="text-slate-600 font-bold" dir="rtl">{p.translation}</div>
+                            {p.diagnosticNote && (
+                              <div className="text-[10px] text-purple-800 font-bold mt-1" dir="rtl">{p.diagnosticNote}</div>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* Rewards Box */}
+                <div className="bg-slate-900 text-white p-3.5 rounded-2xl border border-slate-800 flex justify-around items-center shadow-inner">
+                  <div className="text-center">
+                    <div className="text-2xl font-black text-amber-400">+50</div>
+                    <div className="text-xs font-bold text-slate-400">{isAr ? 'ذهب 🪙' : 'Gold 🪙'}</div>
+                  </div>
+                  <div className="w-px h-8 bg-slate-800" />
+                  <div className="text-center">
+                    <div className="text-2xl font-black text-emerald-400">+20</div>
+                    <div className="text-xs font-bold text-slate-400">{isAr ? 'خشب 🪵' : 'Wood 🪵'}</div>
+                  </div>
+                  <div className="w-px h-8 bg-slate-800" />
+                  <div className="text-center">
+                    <div className="text-2xl font-black text-amber-300">+100</div>
+                    <div className="text-xs font-bold text-slate-400">{isAr ? 'ازدهار القرية 🏰' : 'Prosperity 🏰'}</div>
+                  </div>
+                </div>
               </div>
 
-              {/* Rewards Box */}
-              <div className="bg-slate-950/60 p-4 rounded-2xl border border-blue-500/20 flex justify-around items-center">
-                <div className="text-center">
-                  <div className="text-2xl font-black text-amber-500">+50</div>
-                  <div className="text-xs font-bold text-blue-300/60">{isAr ? 'ذهب 🪙' : 'Gold'}</div>
-                </div>
-                <div className="w-px h-8 bg-blue-500/20" />
-                <div className="text-center">
-                  <div className="text-2xl font-black text-emerald-500">+20</div>
-                  <div className="text-xs font-bold text-blue-300/60">{isAr ? 'خشب 🪵' : 'Wood'}</div>
-                </div>
-              </div>
-
-              {/* Action Buttons */}
-              <div className="space-y-3 pt-2">
+              {/* Action Buttons Sticky Footer */}
+              <div className="p-4 bg-slate-50 border-t border-slate-200 space-y-2 shrink-0">
                 <Button3D
                   variant="success"
                   fullWidth
                   size="lg"
-                  className="text-base py-3.5 !bg-[#58CC02] hover:!bg-[#46A302] !border-b-4 !border-[#46A302] !shadow-none !rounded-2xl"
+                  className="text-base py-3 !bg-[#58CC02] hover:!bg-[#46A302] !border-b-4 !border-[#46A302] !shadow-none !rounded-2xl cursor-pointer"
                   onClick={() => {
                     setIsCompletedModalOpen(false)
                     navigate(`/lesson/d${dayNumber + 1}`)
@@ -374,17 +554,38 @@ export default function LessonPage() {
                   {isAr ? 'الدرس التالي ➔' : 'Next Lesson ➔'}
                 </Button3D>
 
-                <Button3D
-                  variant="ghost"
-                  fullWidth
-                  size="md"
-                  onClick={() => {
-                    setIsCompletedModalOpen(false)
-                    navigate('/learn')
-                  }}
-                >
-                  {isAr ? 'العودة للخريطة 🗺️' : 'Back to Map 🗺️'}
-                </Button3D>
+                <div className="grid grid-cols-3 gap-2">
+                  <button
+                    onClick={() => {
+                      setIsCompletedModalOpen(false)
+                      navigate('/village')
+                    }}
+                    className="py-2.5 px-2 rounded-2xl bg-amber-50 hover:bg-amber-100 text-amber-800 font-black text-xs border border-amber-200 transition-colors flex items-center justify-center gap-1 cursor-pointer"
+                  >
+                    <span>🏰 {isAr ? 'قريتك' : 'Village'}</span>
+                  </button>
+
+                  <button
+                    onClick={() => {
+                      setIsCompletedModalOpen(false)
+                      navigate('/review')
+                    }}
+                    className="py-2.5 px-2 rounded-2xl bg-purple-50 hover:bg-purple-100 text-purple-700 font-black text-xs border border-purple-200 transition-colors flex items-center justify-center gap-1 cursor-pointer"
+                  >
+                    <Brain className="w-3.5 h-3.5" />
+                    <span>{isAr ? 'المراجعة' : 'Review'}</span>
+                  </button>
+
+                  <button
+                    onClick={() => {
+                      setIsCompletedModalOpen(false)
+                      navigate('/learn')
+                    }}
+                    className="py-2.5 px-2 rounded-2xl bg-white hover:bg-slate-100 text-slate-700 font-black text-xs border border-slate-200 transition-colors cursor-pointer"
+                  >
+                    {isAr ? 'الخريطة 🗺️' : 'Map 🗺️'}
+                  </button>
+                </div>
               </div>
             </motion.div>
           </motion.div>

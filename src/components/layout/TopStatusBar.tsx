@@ -24,7 +24,10 @@ export function TopStatusBar() {
 
   return (
     <>
-      <header className="sticky top-3 z-40 flex items-center justify-between p-2 sm:p-2.5 px-3 sm:px-4 bg-white/95 backdrop-blur-xl border border-slate-200/90 max-w-2xl mx-auto rounded-full shadow-md transition-all duration-300">
+      <header 
+        className="sticky top-2 sm:top-3 z-40 flex items-center justify-between p-2 sm:p-2.5 px-3 sm:px-4 bg-white/95 backdrop-blur-xl border border-slate-200/90 max-w-2xl mx-auto rounded-full shadow-md transition-all duration-300"
+        style={{ marginTop: 'max(0.5rem, env(safe-area-inset-top, 0px))' }}
+      >
         
         <div className="flex items-center gap-1.5 sm:gap-2">
           {/* Target Learning Language & Level Switcher Chip */}

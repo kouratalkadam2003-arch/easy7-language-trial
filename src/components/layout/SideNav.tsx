@@ -1,14 +1,16 @@
 import { useState } from "react"
 import { NavLink, useNavigate } from "react-router-dom"
-import { BookOpen, Home, Sparkles, User, Settings, Trophy, Globe, LogOut } from "lucide-react"
+import { BookOpen, Home, Sparkles, User, Settings, Trophy, Globe, LogOut, Castle } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { useUserStore } from "@/store/userStore"
+import { useDueReviewCount } from "@/hooks/useDueReviewCount"
 import { LanguageSelectModal, TARGET_LANGUAGES } from "./LanguageSelectModal"
 
 export function SideNav() {
   const navigate = useNavigate()
   const { uiLang, targetLanguage, logout } = useUserStore()
   const [isLangModalOpen, setIsLangModalOpen] = useState(false)
+  const dueCount = useDueReviewCount()
 
   const isAr = uiLang === 'ar'
   const currentTarget = TARGET_LANGUAGES.find(l => l.code === targetLanguage) || TARGET_LANGUAGES[0]
@@ -17,6 +19,7 @@ export function SideNav() {
     { to: "/learn", icon: BookOpen, label: isAr ? "تعلم" : "Learn" },
     { to: "/", icon: Home, label: isAr ? "الرئيسية" : "Home" },
     { to: "/review", icon: Sparkles, label: isAr ? "مراجعة" : "Review" },
+    { to: "/village", icon: Castle, label: isAr ? "المملكة" : "Kingdom" },
     { to: "/leaderboard", icon: Trophy, label: isAr ? "صدارة" : "Leaderboard" },
     { to: "/profile", icon: User, label: isAr ? "ملفي" : "Profile" },
   ]
@@ -76,6 +79,11 @@ export function SideNav() {
               >
                 <Icon className="w-5 h-5 flex-shrink-0" aria-hidden="true" />
                 <span>{link.label}</span>
+                {(link.to === '/review' || link.to === '/village') && dueCount > 0 && (
+                  <span className="ms-auto bg-rose-600 text-white text-[11px] font-black rounded-full min-w-[20px] h-5 px-1.5 flex items-center justify-center shadow-md animate-pulse">
+                    {dueCount}
+                  </span>
+                )}
               </NavLink>
             )
           })}

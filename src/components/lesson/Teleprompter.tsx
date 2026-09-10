@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react'
+import React, { useState, useEffect, useMemo, useRef } from 'react'
 import { motion } from 'motion/react'
 import { ChevronUp, ChevronDown, RefreshCcw, Languages } from 'lucide-react'
 import { toArabicPhonetics } from '@/utils/phonetics'
@@ -77,11 +77,36 @@ export function Teleprompter({
     setViewIndex(latest)
   }
 
-  const normalizedLiveSpeaker = activeLiveSpeaker?.toLowerCase() === 'sarah' ? 'sara' : activeLiveSpeaker?.toLowerCase()
+  const isSara = speaker?.toLowerCase() === 'sara'
+  const normalizedLiveSpeaker = activeLiveSpeaker?.toLowerCase()
+  const isLiveMatch = isSara
+    ? (normalizedLiveSpeaker === 'sarah' || normalizedLiveSpeaker === 'sara')
+    : (normalizedLiveSpeaker === 'khalid' || normalizedLiveSpeaker === 'khaled')
+
+  const currentSpeaker = turns[globalActiveTurnIndex]?.speaker?.toLowerCase()
+  const isOfflineMatch = isSara
+    ? (currentSpeaker === 'sarah' || currentSpeaker === 'sara')
+    : (currentSpeaker === 'khalid' || currentSpeaker === 'khaled')
+
   const isMyTurnActive = isLiveMode
-    ? normalizedLiveSpeaker === (speaker === 'Sara' ? 'sara' : 'khalid')
-    : audioStatus === 'speaking' &&
-      turns[globalActiveTurnIndex]?.speaker?.toLowerCase() === speaker.toLowerCase()
+    ? isLiveMatch
+    : audioStatus === 'speaking' && isOfflineMatch
+
+  const idleVideoRef = useRef<HTMLVideoElement>(null)
+  const talkVideoRef = useRef<HTMLVideoElement>(null)
+
+  useEffect(() => {
+    if (isMyTurnActive) {
+      if (talkVideoRef.current) {
+        talkVideoRef.current.currentTime = 0
+        talkVideoRef.current.play().catch(() => {})
+      }
+    } else {
+      if (idleVideoRef.current) {
+        idleVideoRef.current.play().catch(() => {})
+      }
+    }
+  }, [isMyTurnActive])
 
   const currentLine = myTurns[viewIndex]
   const isCurrentlySpeakingThisLine =
@@ -129,24 +154,29 @@ export function Teleprompter({
   }
 
   return (
-    <div className="absolute inset-0 w-full h-full overflow-hidden">
-      {/* Background Video - Idle (Listening) */}
+    <div className="absolute inset-0 w-full h-full overflow-hidden bg-slate-900">
+      {/* Background Video - Idle (Always present base layer so character NEVER disappears) */}
       <video
+        ref={idleVideoRef}
         src={speaker === 'Sara' ? '/female_teacher_idle.mp4' : '/male_teacher_idle.mp4'}
         autoPlay
         loop
         muted
         playsInline
-        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-150 ${!isMyTurnActive ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
+        className="absolute inset-0 w-full h-full object-cover z-0"
       />
-      {/* Background Video - Talking */}
+      {/* Background Video - Talking (Fades in over idle layer when speaking) */}
       <video
+        ref={talkVideoRef}
         src={speaker === 'Sara' ? '/female_teacher.mp4' : '/male_teacher.mp4'}
         autoPlay
         loop
         muted
         playsInline
-        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-150 ${isMyTurnActive ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
+        preload="auto"
+        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-200 z-10 ${
+          isMyTurnActive ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        }`}
       />
 
       {/* Host Badge Header */}

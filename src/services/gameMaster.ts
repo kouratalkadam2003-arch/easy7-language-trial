@@ -64,6 +64,7 @@ export async function generateQuest(level: number, context: string): Promise<Que
     trapPositions: [[6, 3], [5, 3], [4, 3]] // fallback 3 traps
   };
 
+  const apiKey = getApiKey();
   if (!apiKey) {
     console.error("Gemini API Key is missing!");
     return {

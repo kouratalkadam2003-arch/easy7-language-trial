@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Easy7 Languages</string>
+    <string name="title_activity_main">Easy7 Languages</string>
+    <string name="package_name">com.easy7.languages</string>
+    <string name="custom_url_scheme">com.easy7.languages</string>
+</resources>

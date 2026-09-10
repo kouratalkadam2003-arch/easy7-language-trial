@@ -11,6 +11,9 @@ interface UserState {
   targetLanguage: string
   currentLevel: string
   isOnboarded: boolean
+  userName: string
+  userJob: string
+  userGoal: string
   completedLessons: string[]
   setUiLang: (lang: 'ar' | 'en') => void
   setTheme: (theme: 'light' | 'dark') => void
@@ -19,6 +22,7 @@ interface UserState {
   setGameMode: (mode: 'story' | 'normal') => void
   setTargetLanguage: (lang: string) => void
   setCurrentLevel: (level: string) => void
+  setUserProfile: (profile: { userName?: string; userJob?: string; userGoal?: string }) => void
   completeOnboarding: () => void
   completeLesson: (id: string) => void
   logout: () => void
@@ -36,14 +40,32 @@ export const useUserStore = create<UserState>()(
       targetLanguage: 'en',
       currentLevel: 'A1',
       isOnboarded: false,
+      userName: '',
+      userJob: '',
+      userGoal: '',
       completedLessons: [],
       setUiLang: (lang) => set({ uiLang: lang }),
       setTheme: (theme) => set({ theme }),
       addGems: (amount) => set((state) => ({ gems: state.gems + amount })),
       removeHearts: (amount) => set((state) => ({ hearts: Math.max(0, state.hearts - amount) })),
       setGameMode: (mode) => set({ gameMode: mode }),
-      setTargetLanguage: (lang) => set({ targetLanguage: lang }),
+      setTargetLanguage: (lang) => {
+        const cleanLang = (lang || 'en').toLowerCase();
+        if (typeof window !== 'undefined') {
+          localStorage.setItem('target_lang', cleanLang);
+          localStorage.setItem('easy7_target_language', cleanLang);
+          try {
+            window.dispatchEvent(new CustomEvent('easy7:language_changed', { detail: cleanLang }));
+          } catch (_) {}
+        }
+        set({ targetLanguage: cleanLang });
+      },
       setCurrentLevel: (level) => set({ currentLevel: level }),
+      setUserProfile: (profile) => set((state) => ({
+        userName: profile.userName !== undefined ? profile.userName : state.userName,
+        userJob: profile.userJob !== undefined ? profile.userJob : state.userJob,
+        userGoal: profile.userGoal !== undefined ? profile.userGoal : state.userGoal,
+      })),
       completeOnboarding: () => set({ isOnboarded: true }),
       completeLesson: (id) => set((state) => ({ 
         completedLessons: state.completedLessons.includes(id) 

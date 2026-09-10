@@ -36,7 +36,7 @@ export function scriptedReply(userText: string): string {
     return '*listens carefully* I see. Talk more, Laith. Your English is good!';
 }
 
-export async function askElly(history: EllyTurn[]): Promise<string> {
+export async function askElly(history: EllyTurn[], customSystem?: string): Promise<string> {
     const lastUserText = [...history].reverse().find(t => t.role === 'user')?.text || '';
 
     const apiKey = getApiKey();
@@ -51,7 +51,7 @@ export async function askElly(history: EllyTurn[]): Promise<string> {
                 role: t.role === 'user' ? 'user' : 'model',
                 parts: [{ text: t.text }],
             })),
-            config: { systemInstruction: ELLY_SYSTEM },
+            config: { systemInstruction: customSystem || ELLY_SYSTEM },
         });
         return result.text?.trim() || scriptedReply(lastUserText);
     } catch (e) {

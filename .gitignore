@@ -32,3 +32,6 @@ HOW-TO-RUN.md
 .codex/
 .kilo/
 *.bat
+.history/
+*.apk
+*.opus

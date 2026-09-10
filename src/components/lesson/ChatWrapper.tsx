@@ -16,7 +16,7 @@ export function ChatWrapper({ lesson, onComplete }: Props) {
       <ChatModeModal 
         mode="practice" 
         onStart={(mode) => setChatMode(mode)} 
-        onCancel={onComplete} 
+        onCancel={() => setChatMode({ type: 'voice', gender: 'male' })} 
       />
     );
   }
@@ -29,13 +29,14 @@ export function ChatWrapper({ lesson, onComplete }: Props) {
 
   if (chatMode.type === 'voice') {
     return (
-      <div className="absolute inset-0 bg-white z-50">
+      <div className="relative w-full h-full flex-1 flex flex-col min-h-0 overflow-hidden rounded-3xl bg-slate-950 shadow-2xl">
         <VoiceChatStage
           nativeLanguage={nativeLanguage as any}
           language={language as any}
           topic={topic}
           level={lesson.cefr}
           storyContent={storyContent}
+          lessonDialogue={lesson.dialogue}
           isPractice={true}
           dayNumber={lesson.day}
           wordDataCache={{}}
@@ -45,12 +46,13 @@ export function ChatWrapper({ lesson, onComplete }: Props) {
           onToggleVoiceGender={() => {
             setChatMode({ type: 'voice', gender: chatMode.gender === 'male' ? 'female' : 'male' });
           }}
+          onComplete={onComplete}
         />
         <button 
           onClick={onComplete}
-          className="absolute top-4 right-4 bg-white p-2 rounded-full shadow-md text-red-500 font-bold border-2 border-red-100 z-[60]"
+          className="absolute top-3 left-3 bg-white/90 hover:bg-white text-slate-800 font-extrabold text-xs sm:text-sm px-4 py-2 rounded-full shadow-lg border border-slate-200 z-[60] flex items-center gap-1.5 transition-all active:scale-95 cursor-pointer"
         >
-          إنهاء المحادثة
+          <span>المتابعة إلى التحديات ➔</span>
         </button>
       </div>
     );
@@ -58,9 +60,9 @@ export function ChatWrapper({ lesson, onComplete }: Props) {
 
   if (chatMode.type === 'text') {
     return (
-      <div className="absolute inset-0 bg-white z-50 flex items-center justify-center flex-col">
+      <div className="flex-1 w-full flex items-center justify-center flex-col">
          <h1 className="text-2xl font-bold">محادثة نصية (قيد التطوير)</h1>
-         <button onClick={onComplete} className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-lg">إكمال</button>
+         <button onClick={onComplete} className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-lg">المتابعة للتحديات ➔</button>
       </div>
     );
   }

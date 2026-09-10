@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useUserStore } from '@/store/userStore';
 
 export type ChatModeOptions = { type: 'text' } | { type: 'voice', gender: 'male' | 'female' };
 
@@ -22,10 +23,15 @@ const UI_TEXTS_AR = {
 };
 
 const ChatModeModal: React.FC<ChatModeModalProps> = ({ onStart, onCancel, mode }) => {
+  const { userName, setUserProfile } = useUserStore();
   const [step, setStep] = useState<'mode' | 'voice'>(mode === 'practice' ? 'voice' : 'mode');
   const [selectedGender, setSelectedGender] = useState<'male' | 'female'>('male');
+  const [nameInput, setNameInput] = useState(userName || '');
   
   const handleStartVoiceChat = () => {
+    if (nameInput.trim() && nameInput.trim() !== userName) {
+      setUserProfile({ userName: nameInput.trim() });
+    }
     onStart({ type: 'voice', gender: selectedGender });
   };
 
@@ -85,6 +91,21 @@ const ChatModeModal: React.FC<ChatModeModalProps> = ({ onStart, onCancel, mode }
                 {UI_TEXTS_AR.femaleVoice}
               </button>
             </div>
+
+            {/* Quick Name Confirm/Input */}
+            <div className="mb-5 bg-slate-950/60 p-3 rounded-2xl border border-blue-500/20 text-start">
+              <label className="block text-[11px] font-bold text-blue-200/80 mb-1.5">
+                {userName ? `مرحباً يا ${userName}! اسمك المستخدم في التدريب:` : 'اكتب اسمك ليتحدث معك المدرب مباشرة باسمك 👤:'}
+              </label>
+              <input
+                type="text"
+                value={nameInput}
+                onChange={(e) => setNameInput(e.target.value)}
+                placeholder="مثال: إسلام، سارة، أحمد..."
+                className="w-full bg-slate-900 border border-blue-500/40 rounded-xl px-3 py-2 text-sm text-white font-bold focus:outline-none focus:border-blue-400"
+              />
+            </div>
+
             <div className="flex flex-col sm:flex-row justify-center gap-3">
                 {mode === 'chat' && (
                     <button 

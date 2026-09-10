@@ -15,13 +15,11 @@ const ZIGZAG_OFFSETS = [0, 40, 70, 40, 0, -40, -70, -40]
 
 export default function LearnPage() {
   const navigate = useNavigate()
-  const { uiLang, gameMode } = useUserStore()
+  const { uiLang, gameMode, completedLessons = [] } = useUserStore()
   const isAr = uiLang === 'ar'
 
-  // For now, first node is current, rest locked
-  const completedDays: string[] = []
-
-  let globalIdx = 0
+  // Sequential progression: first uncompleted topic across all units is active, rest locked
+  let foundFirstUncompleted = false
 
   return (
     <div className="min-h-dvh bg-slate-50 relative overflow-hidden text-slate-900 pb-32" dir="rtl">
@@ -35,15 +33,21 @@ export default function LearnPage() {
 
       {(gameMode === 'story' ? STORY_UNITS : NORMAL_UNITS).map((unit) => {
         const unitNodes = unit.topics.map((topic) => {
-          const done = completedDays.includes(topic.id)
+          const isDone = completedLessons.includes(topic.id) 
+            || completedLessons.includes(String(topic.day)) 
+            || completedLessons.includes(`d${topic.day}`)
+
           let status: 'completed' | 'active' | 'locked' = 'locked'
-          if (done) status = 'completed'
-          else if (globalIdx === 0 || completedDays.includes(unit.topics[0]?.id)) {
-            if (!done && !completedDays.length && globalIdx === 0) status = 'active'
+          if (isDone) {
+            status = 'completed'
+          } else if (!foundFirstUncompleted) {
+            status = 'active'
+            foundFirstUncompleted = true
+          } else {
+            status = 'locked'
           }
-          if (globalIdx === 0 && !done) status = 'active'
-          const idx = globalIdx++
-          return { ...topic, status, idx }
+
+          return { ...topic, status }
         })
 
         return (

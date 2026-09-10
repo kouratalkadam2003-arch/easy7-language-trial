@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { FastForward, Wrench } from 'lucide-react';
 import { Flashcard } from '../types/remix_types';
+import { useLessonTrackerStore } from '@/store/lessonTrackerStore';
 
 // --- الثوابت وإعدادات اللعبة ---
 const ARENA_WIDTH = 360;
@@ -226,10 +227,15 @@ const MagicOrb = () => (
   </svg>
 );
 
-// --- التطبيق الرئيسي ---
+export interface ZombieFightStats {
+  mistakes: string[];
+  score: number;
+  won: boolean;
+}
+
 interface GoblinFightGameProps {
   flashcards?: Flashcard[];
-  onClose?: () => void;
+  onClose?: (stats?: ZombieFightStats) => void;
   /**
    * ترتيب ظهور العبارات:
    * - 'text' (افتراضي): ترتيب النص الأصلي كما ورد في الحوار (وضع الدرس).
@@ -283,75 +289,26 @@ export default function GoblinFightGame({ flashcards = [], onClose, orderMode = 
   const [currentQuestion, setCurrentQuestion] = useState<CurrentQuestion | null>(null);
 
   const STATIC_QUESTION_BANK: Record<number, CurrentQuestion[]> = {
-    1: [ // W1: MCQ
+    1: [ // W1: Recon / MCQ (Basic Recognition)
       { prompt: 'تفاحة', options: ['Apple', 'Banana', 'Orange', 'Grape'], correctAnswer: 'Apple', type: 'mcq' },
       { prompt: 'سيارة', options: ['Car', 'Bus', 'Train', 'Bike'], correctAnswer: 'Car', type: 'mcq' },
       { prompt: 'كتاب', options: ['Book', 'Pen', 'Paper', 'Desk'], correctAnswer: 'Book', type: 'mcq' },
       { prompt: 'شمس', options: ['Sun', 'Moon', 'Star', 'Sky'], correctAnswer: 'Sun', type: 'mcq' },
       { prompt: 'ماء', options: ['Water', 'Fire', 'Earth', 'Air'], correctAnswer: 'Water', type: 'mcq' }
     ],
-    2: [ // W2: Listen
+    2: [ // W2: Swarm / Listen & Speed
       { prompt: '🔊 Brother', options: ['أخ', 'أب', 'أم', 'أخت'], correctAnswer: 'أخ', type: 'listen' },
       { prompt: '🔊 Window', options: ['نافذة', 'باب', 'جدار', 'سقف'], correctAnswer: 'نافذة', type: 'listen' },
       { prompt: '🔊 Yellow', options: ['أصفر', 'أحمر', 'أزرق', 'أخضر'], correctAnswer: 'أصفر', type: 'listen' },
       { prompt: '🔊 Animal', options: ['حيوان', 'نبات', 'إنسان', 'جماد'], correctAnswer: 'حيوان', type: 'listen' },
       { prompt: '🔊 Happy', options: ['سعيد', 'حزين', 'غاضب', 'خائف'], correctAnswer: 'سعيد', type: 'listen' }
     ],
-    3: [ // W3: Fill Blank
-      { prompt: 'I ___ an apple', options: ['ate', 'run', 'sleep', 'blue'], correctAnswer: 'ate', type: 'fill_blank' },
-      { prompt: 'The sky is ___', options: ['blue', 'red', 'green', 'yellow'], correctAnswer: 'blue', type: 'fill_blank' },
-      { prompt: 'She ___ to school', options: ['goes', 'going', 'go', 'gone'], correctAnswer: 'goes', type: 'fill_blank' },
-      { prompt: 'We ___ playing', options: ['are', 'is', 'am', 'be'], correctAnswer: 'are', type: 'fill_blank' },
-      { prompt: 'He has a ___ dog', options: ['big', 'much', 'many', 'very'], correctAnswer: 'big', type: 'fill_blank' }
-    ],
-    4: [ // W4: Scramble (4 words)
-      { prompt: 'الجو بارد جداً', options: ['It is very cold', 'It very cold is', 'Cold is very it', 'Very cold it is'], correctAnswer: 'It is very cold', type: 'scramble' },
-      { prompt: 'أنا أحب القراءة', options: ['I like reading', 'I reading like', 'Like I reading', 'Reading like I'], correctAnswer: 'I like reading', type: 'scramble' },
-      { prompt: 'هم يلعبون هناك', options: ['They play over there', 'Over there they play', 'They over there play', 'Play they over there'], correctAnswer: 'They play over there', type: 'scramble' },
-      { prompt: 'القطة تنام الآن', options: ['The cat sleeps now', 'Now sleeps the cat', 'The cat now sleeps', 'Sleeps the cat now'], correctAnswer: 'The cat sleeps now', type: 'scramble' },
-      { prompt: 'هذا كتابي الجديد', options: ['This is my book', 'This my book is', 'My book is this', 'Is this my book'], correctAnswer: 'This is my book', type: 'scramble' }
-    ],
-    5: [ // W5: MCQ Timer
-      { prompt: 'Bird', options: ['طائر', 'كلب', 'قطة', 'سمكة'], correctAnswer: 'طائر', type: 'mcq' },
-      { prompt: 'Tree', options: ['شجرة', 'وردة', 'حجر', 'جبل'], correctAnswer: 'شجرة', type: 'mcq' },
-      { prompt: 'House', options: ['منزل', 'مدرسة', 'مستشفى', 'شارع'], correctAnswer: 'منزل', type: 'mcq' },
-      { prompt: 'Friend', options: ['صديق', 'عدو', 'جار', 'أخ'], correctAnswer: 'صديق', type: 'mcq' },
-      { prompt: 'Time', options: ['وقت', 'مكان', 'تاريخ', 'ساعة'], correctAnswer: 'وقت', type: 'mcq' }
-    ],
-    6: [ // W6: Ordered AR->EN
-      { prompt: 'مرحبا، اسمي عمر', options: ['Hello, my name is Omar', 'Hi, I am Ali', 'My name is not Omar', 'Hello, Omar is here'], correctAnswer: 'Hello, my name is Omar', type: 'ordered_ar_en' },
-      { prompt: 'عمري عشر سنوات', options: ['I am ten years old', 'I have ten years', 'Ten years is my age', 'I am years ten old'], correctAnswer: 'I am ten years old', type: 'ordered_ar_en' },
-      { prompt: 'أحب التفاح', options: ['I like apples', 'I like bananas', 'Apples like me', 'I eat apples'], correctAnswer: 'I like apples', type: 'ordered_ar_en' },
-      { prompt: 'أعيش في مدينة', options: ['I live in a city', 'I live in a town', 'A city lives in me', 'Living in a city'], correctAnswer: 'I live in a city', type: 'ordered_ar_en' },
-      { prompt: 'لدي قطة بيضاء', options: ['I have a white cat', 'I have a black dog', 'A white cat has me', 'I see a white cat'], correctAnswer: 'I have a white cat', type: 'ordered_ar_en' }
-    ],
-    7: [ // W7: Ordered EN->AR
-      { prompt: 'Hello, my name is Omar', options: ['مرحبا، اسمي عمر', 'أهلاً، أنا علي', 'اسمي ليس عمر', 'مرحبا، عمر هنا'], correctAnswer: 'مرحبا، اسمي عمر', type: 'ordered_en_ar' },
-      { prompt: 'I am ten years old', options: ['عمري عشر سنوات', 'لدي عشر سنوات', 'عشر سنوات هو عمري', 'أنا سنوات عشر قديم'], correctAnswer: 'عمري عشر سنوات', type: 'ordered_en_ar' },
-      { prompt: 'I like apples', options: ['أحب التفاح', 'أحب الموز', 'التفاح يحبني', 'آكل التفاح'], correctAnswer: 'أحب التفاح', type: 'ordered_en_ar' },
-      { prompt: 'I live in a city', options: ['أعيش في مدينة', 'أعيش في بلدة', 'مدينة كبيرة تعيش فيّ', 'العيش في مدينة'], correctAnswer: 'أعيش في مدينة', type: 'ordered_en_ar' },
-      { prompt: 'I have a white cat', options: ['لدي قطة بيضاء', 'لدي كلب أسود', 'قطة بيضاء تملكني', 'أرى قطة بيضاء'], correctAnswer: 'لدي قطة بيضاء', type: 'ordered_en_ar' }
-    ],
-    8: [ // W8: Horde + Listen
-      { prompt: '🔊 Danger', options: ['خطر', 'أمان', 'خوف', 'سلام'], correctAnswer: 'خطر', type: 'listen' },
-      { prompt: '🔊 Quickly', options: ['بسرعة', 'ببطء', 'بهدوء', 'قوة'], correctAnswer: 'بسرعة', type: 'listen' },
-      { prompt: '🔊 Night', options: ['ليل', 'نهار', 'صباح', 'مساء'], correctAnswer: 'ليل', type: 'listen' },
-      { prompt: '🔊 Sword', options: ['سيف', 'درع', 'رمح', 'سهم'], correctAnswer: 'سيف', type: 'listen' },
-      { prompt: '🔊 Magic', options: ['سحر', 'علم', 'خيال', 'حقيقة'], correctAnswer: 'سحر', type: 'listen' }
-    ],
-    9: [ // W9: Sniper + Scramble (5 words)
-      { prompt: 'القطة السوداء تنام على السرير', options: ['The black cat sleeps on the bed', 'On the bed sleeps the black cat', 'The black cat on the bed sleeps', 'Sleeps the black cat on the bed'], correctAnswer: 'The black cat sleeps on the bed', type: 'scramble' },
-      { prompt: 'الرجل الطويل يقف قرب الباب', options: ['The tall man stands near the door', 'Near the door stands the tall man', 'The tall man near the door stands', 'Stands the tall man near the door'], correctAnswer: 'The tall man stands near the door', type: 'scramble' },
-      { prompt: 'نحن نلعب كرة القدم كل يوم', options: ['We play football every single day', 'Every single day play football we', 'We every single day play football', 'Play football we every single day'], correctAnswer: 'We play football every single day', type: 'scramble' },
-      { prompt: 'هي تقرأ كتابا في المكتبة', options: ['She is reading a book in the library', 'In the library she is reading a book', 'She reading a book in the library', 'Reading a book in the library she is'], correctAnswer: 'She is reading a book in the library', type: 'scramble' },
-      { prompt: 'الشمس تشرق في الصباح الباكر', options: ['The sun rises in the early morning', 'In the early morning the sun rises', 'The sun in the early morning rises', 'Rises the sun in the early morning'], correctAnswer: 'The sun rises in the early morning', type: 'scramble' }
-    ],
-    10: [ // W10: Boss 1 (Scramble)
-      { prompt: 'القائد العظيم لا يستسلم أبدا', options: ['The great leader never gives up', 'Never gives up the great leader', 'The great leader gives up never', 'Gives up never the great leader'], correctAnswer: 'The great leader never gives up', type: 'scramble' },
-      { prompt: 'الضوء الساطع يملأ الغرفة الواسعة', options: ['The bright light fills the large room', 'Fills the large room the bright light', 'The bright light the large room fills', 'The large room fills the bright light'], correctAnswer: 'The bright light fills the large room', type: 'scramble' },
-      { prompt: 'الأبطال الحقيقيون يظهرون وقت الشدة', options: ['Real heroes appear in hard times', 'In hard times appear real heroes', 'Real heroes in hard times appear', 'Appear real heroes in hard times'], correctAnswer: 'Real heroes appear in hard times', type: 'scramble' },
-      { prompt: 'السيف القوي يقطع الفولاذ الصلب', options: ['The strong sword cuts solid steel', 'Cuts solid steel the strong sword', 'The strong sword solid steel cuts', 'Solid steel cuts the strong sword'], correctAnswer: 'The strong sword cuts solid steel', type: 'scramble' },
-      { prompt: 'السحر القديم يحمي المملكة دائما', options: ['Ancient magic always protects the kingdom', 'Always protects the kingdom ancient magic', 'Ancient magic the kingdom protects always', 'Protects always the kingdom ancient magic'], correctAnswer: 'Ancient magic always protects the kingdom', type: 'scramble' }
+    3: [ // W3: Boss Battle
+      { prompt: 'The great leader never gives up', options: ['القائد العظيم لا يستسلم أبدا', 'القائد لا يستسلم أبدا', 'القائد العظيم يستسلم دائما', 'القائد يستسلم أبدا'], correctAnswer: 'القائد العظيم لا يستسلم أبدا', type: 'mcq' },
+      { prompt: 'The bright light fills the room', options: ['الضوء الساطع يملأ الغرفة', 'الضوء يملأ الغرفة', 'الضوء الساطع في الغرفة', 'الغرفة تملأ الضوء'], correctAnswer: 'الضوء الساطع يملأ الغرفة', type: 'mcq' },
+      { prompt: 'Real heroes appear in hard times', options: ['الأبطال الحقيقيون يظهرون وقت الشدة', 'الأبطال يظهرون وقت الشدة', 'الشدة تظهر الأبطال الحقيقيين', 'أبطال يظهرون دائما'], correctAnswer: 'الأبطال الحقيقيون يظهرون وقت الشدة', type: 'mcq' },
+      { prompt: 'The strong sword cuts solid steel', options: ['السيف القوي يقطع الفولاذ الصلب', 'السيف يقطع الفولاذ', 'الفولاذ الصلب يقطع السيف', 'السيف القوي في الفولاذ'], correctAnswer: 'السيف القوي يقطع الفولاذ الصلب', type: 'mcq' },
+      { prompt: 'Ancient magic always protects us', options: ['السحر القديم يحمينا دائما', 'السحر يحمينا دائما', 'السحر القديم يحمي المملكة', 'نحن نحمي السحر القديم'], correctAnswer: 'السحر القديم يحمينا دائما', type: 'mcq' }
     ]
   };
 
@@ -362,13 +319,11 @@ export default function GoblinFightGame({ flashcards = [], onClose, orderMode = 
     const ordered = orderCards(flashcards, orderMode);
     
     const bank: Record<number, CurrentQuestion[]> = {};
-    for (let wave = 1; wave <= 10; wave++) {
+    for (let wave = 1; wave <= 3; wave++) {
       const qs = ordered.map(fc => {
         const options = [fc.originalText];
         const others = ordered.filter(f => f.id !== fc.id);
-        // المشتّتات (الخيارات الخاطئة) نبقيها مرتبة بترتيب النص أيضًا في وضع الدرس،
-        // ونشغل shuffle فقط للمشتّتات (لا للسؤال الصحيح) لإبقاء التحدي دون كسر ترتيب العرض.
-        const distractors = orderMode === 'text' ? others.slice(0, 3) : shuffleArray(others).slice(0, 3);
+        const distractors = shuffleArray(others).slice(0, 3);
         for (let i = 0; i < 3 && i < distractors.length; i++) {
           options.push(distractors[i].originalText);
         }
@@ -378,8 +333,9 @@ export default function GoblinFightGame({ flashcards = [], onClose, orderMode = 
           options.push(options[Math.floor(Math.random() * options.length)] + " (alt)");
         }
         
-        const type = (wave === 2 || wave === 8) ? 'listen' : 'mcq';
-        const prompt = type === 'listen' ? `🔊 ${fc.originalText}` : fc.translation;
+        const type = wave === 2 ? 'listen' : 'mcq';
+        const charName = (fc as any).character ? `${(fc as any).character}: ` : '';
+        const prompt = type === 'listen' ? `🔊 ${charName}${fc.originalText}` : `${charName}${fc.translation}`;
         
         return {
           prompt,
@@ -388,34 +344,24 @@ export default function GoblinFightGame({ flashcards = [], onClose, orderMode = 
           type
         } as CurrentQuestion;
       });
-      // في وضع الدرس نُبقي ترتيب النص الأصلي (لا shuffle على مستوى الموجة).
-      // في وضع المراجعة الترتيب الذكي دخل بالفعل عبر orderCards.
       bank[wave] = qs;
     }
     return bank;
   }, [flashcards, orderMode]);
 
 const getWaveIndex = (c: number) => {
-  if (c < 5) return 1;
-  if (c < 10) return 2;
-  if (c < 18) return 3;
-  if (c < 23) return 4;
-  if (c < 33) return 5;
-  if (c < 38) return 6;
-  if (c < 43) return 7;
-  if (c < 51) return 8;
-  if (c < 56) return 9;
-  if (c < 63) return 10;
-  return 11;
+  if (c < 4) return 1;
+  if (c < 8) return 2;
+  return 3;
 };
 
 const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): CurrentQuestion => {
   const waveIndex = getWaveIndex(corrects);
   
-  const waveQuestionsList = NEW_QUESTION_BANK[waveIndex] || NEW_QUESTION_BANK[10];
+  const waveQuestionsList = NEW_QUESTION_BANK[waveIndex] || NEW_QUESTION_BANK[1];
   let q: CurrentQuestion;
   
-  if (waveIndex === 11) {
+  if (waveIndex === 3) {
      if (mistakes && mistakes.length > 0) {
        q = mistakes[Math.floor(Math.random() * mistakes.length)];
      } else {
@@ -455,6 +401,46 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
   useEffect(() => {
     stateRef.current = { defenders, goblins, projectiles, streak, gameOver, correctCount, currentQuestion, energy, spawnCount, bossPhase, lives, mistakes, gameWon, upgradeMenu, echoShield, chaosStorm, narratorSeal, inkBombActive, activePowerUpName, hasStartedStory };
   }, [defenders, goblins, projectiles, streak, gameOver, correctCount, currentQuestion, energy, spawnCount, bossPhase, lives, mistakes, gameWon, upgradeMenu, echoShield, chaosStorm, narratorSeal, inkBombActive, activePowerUpName, hasStartedStory]);
+
+  useEffect(() => {
+    if (correctCount === 8 && bossPhase === 'none') {
+      setBossPhase('final_warning');
+      setGoblins([]);
+      setCurrentQuestion(null);
+      
+      setTimeout(() => {
+        setBossPhase('final_boss');
+        if (stateRef.current.mistakes.length === 0) {
+          setMistakes([generateQuestion(0)]);
+        }
+        setTimeout(() => setCurrentQuestion(generateQuestionForFinalBoss()), 100);
+      }, 3500);
+    }
+  }, [correctCount, bossPhase]);
+
+  const restartGame = () => {
+    setDefenders([]);
+    setGoblins([]);
+    setProjectiles([]);
+    setStreak(0);
+    setScore(0);
+    setCorrectCount(0);
+    setEnergy(0);
+    setSpawnCount(0);
+    setBossPhase('none');
+    setLives(5);
+    setMistakes([]);
+    setGameOver(false);
+    setGameWon(false);
+    setUpgradeMenu(false);
+    setExplosion(false);
+    setEchoShield(0);
+    setInkBombActive(false);
+    setChaosStorm(0);
+    setNarratorSeal(0);
+    setActivePowerUpName(null);
+    setCurrentQuestion(generateQuestion(0));
+  };
 
   const generateQuestionForFinalBoss = () => {
     const currentMistakes = stateRef.current.mistakes;
@@ -826,66 +812,24 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
       level: wave
     });
 
-    if (correctCount === 10 && !specialSpawnsRef.current[10]) {
-      specialSpawnsRef.current[10] = true;
-      const newGoblins = Array(8).fill(null).map(() => createGoblin('goblin', 150, 0.3 + Math.random()*0.2));
+    if (correctCount === 4 && !specialSpawnsRef.current[4]) {
+      specialSpawnsRef.current[4] = true;
+      const newGoblins = Array(3).fill(null).map(() => createGoblin('speeder', 80, 0.6));
       setGoblins(prev => [...prev, ...newGoblins]);
-    }
-    if (correctCount === 18 && !specialSpawnsRef.current[18]) {
-      specialSpawnsRef.current[18] = true;
-      const bz = createGoblin('big_goblin', 5000, 0.1);
-      setGoblins(prev => [...prev, { ...bz, maxHp: bz.hp, x: ARENA_WIDTH/2 }]);
-    }
-    if (correctCount === 33 && !specialSpawnsRef.current[33]) {
-      specialSpawnsRef.current[33] = true;
-      setGoblins(prev => [...prev, createGoblin('goblin', 300, 0.3)]);
-    }
-    if (correctCount === 38 && !specialSpawnsRef.current[38]) {
-      specialSpawnsRef.current[38] = true;
-      setGoblins(prev => [...prev, createGoblin('speeder', 200, 0.6)]);
-    }
-    if (correctCount === 43 && !specialSpawnsRef.current[43]) {
-      specialSpawnsRef.current[43] = true;
-      const newGoblins = Array(10).fill(null).map(() => createGoblin('goblin', 200, 0.4 + Math.random()*0.2));
-      setGoblins(prev => [...prev, ...newGoblins]);
-    }
-    if (correctCount === 51 && !specialSpawnsRef.current[51]) {
-      specialSpawnsRef.current[51] = true;
-      const bz = createGoblin('big_goblin', 10000, 0.05);
-      setGoblins(prev => [...prev, { ...bz, maxHp: bz.hp, x: ARENA_WIDTH/2 }]);
     }
 
     let intervalId: NodeJS.Timeout;
     if (wave === 1) {
-      intervalId = setInterval(() => setGoblins(prev => [...prev, createGoblin('goblin', 100, 0.3)]), 3000);
+      intervalId = setInterval(() => setGoblins(prev => [...prev, createGoblin('goblin', 100, 0.35)]), 3000);
     } else if (wave === 2) {
-      intervalId = setInterval(() => setGoblins(prev => [...prev, createGoblin('speeder', 80, 0.8)]), 2500);
-    } else if (wave === 3) {
-      intervalId = setInterval(() => setGoblins(prev => [...prev, createGoblin('tank', 500, 0.2)]), 4000);
-    } else if (wave === 4) {
-      intervalId = setInterval(() => setGoblins(prev => [...prev, createGoblin('ghost', 150, 0.4)]), 3500);
-    } else if (wave === 5) {
       intervalId = setInterval(() => {
-         const type = Math.random() > 0.5 ? 'goblin' : (Math.random() > 0.5 ? 'speeder' : 'tank');
-         setGoblins(prev => [...prev, createGoblin(type as any, type === 'tank' ? 500 : 150, type === 'speeder' ? 1.0 : 0.4)]);
-      }, 1500);
-    } else if (wave === 6) {
-      intervalId = setInterval(() => setGoblins(prev => [...prev, createGoblin('healer', 200, 0.3)]), 3000);
-    } else if (wave === 7) {
-      intervalId = setInterval(() => setGoblins(prev => [...prev, createGoblin('tank', 800, 0.25)]), 3000);
-    } else if (wave === 8) {
-      intervalId = setInterval(() => setGoblins(prev => [...prev, createGoblin('speeder', 150, 0.9)]), 2000);
-    } else if (wave === 9) {
+        const type = Math.random() > 0.5 ? 'speeder' : 'goblin';
+        setGoblins(prev => [...prev, createGoblin(type as any, type === 'speeder' ? 80 : 120, type === 'speeder' ? 0.65 : 0.4)]);
+      }, 2200);
+    } else if (wave === 3 && bossPhase === 'final_boss') {
       intervalId = setInterval(() => {
-         const type = Math.random() > 0.5 ? 'ghost' : 'healer';
-         setGoblins(prev => [...prev, createGoblin(type as any, 250, 0.5)]);
-      }, 2500);
-    } else if (wave === 10) {
-      intervalId = setInterval(() => setGoblins(prev => [...prev, createGoblin('goblin', 250, 0.5)]), 4000);
-    } else if (wave === 11 && bossPhase === 'final_boss') {
-      intervalId = setInterval(() => {
-         setGoblins(prev => [...prev, createGoblin('goblin', 300, 0.5)]);
-      }, 8000);
+        setGoblins(prev => [...prev, createGoblin('goblin', 120, 0.35)]);
+      }, 6000);
     }
 
     return () => {
@@ -895,7 +839,7 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
 
   useEffect(() => {
     if (bossPhase === 'final_boss' && stateRef.current.goblins.filter(z => z.type === 'boss').length === 0) {
-      const bossHp = 7000 + (stateRef.current.mistakes.length * 1000);
+      const bossHp = 3000;
       setGoblins([
         { id: 'final_boss', x: ARENA_WIDTH / 2, y: 150, hp: bossHp, maxHp: bossHp, speed: 0.1, isEating: false, angle: 180, type: 'boss' },
       ]);
@@ -909,74 +853,39 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
 
     if (selectedOption === state.currentQuestion.correctAnswer) {
       // إجابة صحيحة!
+      // Track in cross-stage lesson tracker
+      useLessonTrackerStore.getState().recordZombieFight(state.currentQuestion.prompt, true);
       const newStreak = state.streak + 1;
       setStreak(newStreak);
       setScore(s => s + 10);
       
       const wave = getWaveIndex(state.correctCount);
 
-      if (newStreak === 5) {
+      if (newStreak === 3 || newStreak === 6) {
          setExplosion(true);
          setTimeout(() => setExplosion(false), 1000);
          
-         let powerUpName = '⚡ طاقة إضافية';
-         if (wave === 1) powerUpName = '🔁 Echo Repeat';
-         else if (wave === 2) powerUpName = '🛡️ Echo Shield';
-         else if (wave === 3) powerUpName = '💣 Ink Bomb';
-         else if (wave === 4) powerUpName = '🌪️ Chaos Storm';
-         else if (wave === 5) powerUpName = '⏰ Time Freeze';
-         else if (wave === 6) powerUpName = '📜 Narrator Seal';
-         else if (wave === 7) powerUpName = '⚡ Translator Wrath';
-         else if (wave === 8) powerUpName = '🔁 Echo Boost x2';
-         else if (wave === 9) powerUpName = '🌪️ Chaos Storm x2';
-         else if (wave >= 10) powerUpName = '⚡ MAX POWER!';
+         let powerUpName = '⚡ طاقة خارقة';
+         if (wave === 1) powerUpName = '🛡️ Echo Shield';
+         else if (wave === 2) powerUpName = '💣 Ink Bomb';
+         else powerUpName = '🌪️ Chaos Storm';
          
          setActivePowerUpName(powerUpName);
-         setTimeout(() => setActivePowerUpName(null), 3000);
+         setTimeout(() => setActivePowerUpName(null), 2500);
 
-         if (wave === 2) {
+         if (wave === 1) {
             setEchoShield(Date.now() + 8000);
-         } else if (wave === 3 || wave === 5) {
+         } else if (wave === 2) {
             setInkBombActive(true);
-            setGoblins(prev => prev.map(z => ({ ...z, lastAttackTime: Date.now() + 5000 })));
-            setTimeout(() => setInkBombActive(false), 5000);
-         } else if (wave === 4 || wave === 9) {
-            setChaosStorm(Date.now() + 6000);
-            setGoblins(prev => prev.map(z => {
-               const newY = z.y > ARENA_HEIGHT * 0.5 ? z.y - 100 : z.y;
-               return { ...z, y: newY, hp: z.hp * (wave === 9 ? 0.5 : 0.8) };
-            }));
-         } else if (wave === 6) {
-            setNarratorSeal(Date.now() + 10000);
-         } else if (wave === 7) {
-            setGoblins(prev => prev.map(z => {
-               if (z.type === 'boss') return { ...z, hp: Math.max(0, z.hp - 1500) };
-               if (z.type === 'big_goblin') return { ...z, hp: Math.max(0, z.hp - 1000) };
-               return { ...z, hp: 0 };
-            }));
-         } else if (wave >= 10) {
-            setEchoShield(Date.now() + 8000);
-            setInkBombActive(true); setTimeout(() => setInkBombActive(false), 5000);
-            setChaosStorm(Date.now() + 6000);
-            setNarratorSeal(Date.now() + 10000);
+            setGoblins(prev => prev.map(z => ({ ...z, lastAttackTime: Date.now() + 4000 })));
+            setTimeout(() => setInkBombActive(false), 4000);
          } else {
-            setEnergy(e => e + (wave === 8 ? 100 : 50));
+            setChaosStorm(Date.now() + 5000);
             setGoblins(prev => prev.map(z => {
-               if (z.type === 'boss') return z;
-               if (z.type === 'big_goblin') return { ...z, hp: Math.max(0, z.hp - z.maxHp / 2) };
-               return { ...z, hp: 0 };
+               const newY = z.y > ARENA_HEIGHT * 0.5 ? z.y - 80 : z.y;
+               return { ...z, y: newY, hp: Math.max(0, z.hp - 100) };
             }));
          }
-      }
-      
-      if (wave === 4 || wave === 9) {
-         setGoblins(prev => prev.map(z => z.type === 'big_goblin' ? { ...z, hp: Math.max(0, z.hp - (wave === 4 ? 1000 : 2000)) } : z));
-      }
-      if (wave === 10) {
-         setGoblins(prev => prev.map(z => z.type === 'boss' ? { ...z, hp: Math.max(0, z.hp - 1000) } : z));
-      }
-      if (wave === 6 || wave === 7) {
-         setGoblins(prev => prev.filter(z => z.type !== 'goblin' && z.type !== 'speeder'));
       }
       
       setCorrectCount(c => {
@@ -1064,6 +973,10 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
       }
     } else {
       // إجابة خاطئة
+      // Track mistake in cross-stage lesson tracker
+      if (state.currentQuestion) {
+        useLessonTrackerStore.getState().recordZombieFight(state.currentQuestion.prompt, false);
+      }
       if (state.currentQuestion) {
         setMistakes(prev => {
           if (!prev.some(m => m.prompt === state.currentQuestion!.prompt)) {
@@ -1094,8 +1007,8 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
   };
 
   let rank = 'مبتدئ';
-  if (correctCount >= 5) rank = 'متقدم';
-  else if (correctCount >= 2) rank = 'متوسط';
+  if (correctCount >= 6) rank = 'متقدم';
+  else if (correctCount >= 3) rank = 'متوسط';
 
   const nextType = spawnCount % 3 === 0 ? 'swordsman' : spawnCount % 3 === 1 ? 'archer' : 'mage';
   const nextCost = nextType === 'swordsman' ? 30 : nextType === 'archer' ? 45 : 60;
@@ -1108,37 +1021,12 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
       setCorrectCount(0);
       setBossPhase('none');
       setCurrentQuestion(generateQuestion(0));
-    } else if (phase === 'wave3') {
-      setCorrectCount(10);
+    } else if (phase === 'wave2') {
+      setCorrectCount(4);
       setBossPhase('none');
-      setCurrentQuestion(generateQuestion(10));
-    } else if (phase === 'wave4') {
-      setCorrectCount(18);
-      setBossPhase('none');
-      setCurrentQuestion(generateQuestion(18));
-    } else if (phase === 'wave5') {
-      setCorrectCount(23);
-      setBossPhase('none');
-      setCurrentQuestion(generateQuestion(23));
-    } else if (phase === 'wave6') {
-      setCorrectCount(33);
-      setBossPhase('none');
-      setCurrentQuestion(generateQuestion(33));
-    } else if (phase === 'wave8') {
-      setCorrectCount(43);
-      setBossPhase('none');
-      setCurrentQuestion(generateQuestion(43));
-    } else if (phase === 'wave10') {
-      setCorrectCount(56);
-      setBossPhase('warning');
-      setCurrentQuestion(null);
-      setTimeout(() => {
-        setBossPhase('active');
-        setCurrentQuestion(generateQuestion(56));
-        setGoblins([{ id: 'boss1', x: ARENA_WIDTH / 2, y: 150, hp: 7000, maxHp: 7000, speed: 0.1, isEating: false, angle: 180, type: 'boss' }]);
-      }, 4000);
+      setCurrentQuestion(generateQuestion(4));
     } else if (phase === 'final_boss') {
-      setCorrectCount(63);
+      setCorrectCount(8);
       setBossPhase('final_warning');
       setCurrentQuestion(null);
       setTimeout(() => {
@@ -1147,7 +1035,7 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
           setMistakes([generateQuestion(0)]);
         }
         setTimeout(() => setCurrentQuestion(generateQuestionForFinalBoss()), 100);
-      }, 4000);
+      }, 3000);
     }
   };
 
@@ -1255,7 +1143,7 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
       {/* Skip Compact Arrow Button */}
       {onClose && (
         <button 
-          onClick={onClose} 
+          onClick={() => onClose({ mistakes: mistakes.map(m => m.correctAnswer), score, won: false })} 
           title="تخطي"
           className="absolute top-3 left-3 z-50 p-2.5 rounded-full bg-slate-800/80 hover:bg-slate-700 text-white shadow-md border border-slate-600/60 active:scale-95 transition-all cursor-pointer"
         >
@@ -1267,13 +1155,8 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
         <div className="absolute top-10 right-2 z-50 bg-gray-800 border border-gray-600 rounded-lg p-3 flex flex-col gap-2 shadow-2xl">
           <div className="text-white text-sm font-bold border-b border-gray-600 pb-1 mb-1 text-center">أدوات المطور (Admin)</div>
           <button onClick={() => jumpToPhase('wave1')} className="bg-gray-700 hover:bg-gray-600 text-white text-xs py-2 px-4 rounded">الموجة 1</button>
-          <button onClick={() => jumpToPhase('wave3')} className="bg-gray-700 hover:bg-gray-600 text-white text-xs py-2 px-4 rounded">الموجة 3</button>
-          <button onClick={() => jumpToPhase('wave4')} className="bg-gray-700 hover:bg-gray-600 text-white text-xs py-2 px-4 rounded">الموجة 4</button>
-          <button onClick={() => jumpToPhase('wave5')} className="bg-gray-700 hover:bg-gray-600 text-white text-xs py-2 px-4 rounded">الموجة 5</button>
-          <button onClick={() => jumpToPhase('wave6')} className="bg-gray-700 hover:bg-gray-600 text-white text-xs py-2 px-4 rounded">الموجة 6</button>
-          <button onClick={() => jumpToPhase('wave8')} className="bg-gray-700 hover:bg-gray-600 text-white text-xs py-2 px-4 rounded">الموجة 8</button>
-          <button onClick={() => jumpToPhase('wave10')} className="bg-orange-700 hover:bg-orange-600 text-white text-xs py-2 px-4 rounded">الزعيم 1 (W10)</button>
-          <button onClick={() => jumpToPhase('final_boss')} className="bg-purple-900 hover:bg-purple-800 text-white text-xs py-2 px-4 rounded border border-purple-500">الزعيم الأخير (W11)</button>
+          <button onClick={() => jumpToPhase('wave2')} className="bg-gray-700 hover:bg-gray-600 text-white text-xs py-2 px-4 rounded">الموجة 2</button>
+          <button onClick={() => jumpToPhase('final_boss')} className="bg-purple-900 hover:bg-purple-800 text-white text-xs py-2 px-4 rounded border border-purple-500">الزعيم الأخير</button>
           <button onClick={() => setShowAdmin(false)} className="bg-slate-600 hover:bg-slate-500 text-white text-xs py-2 px-4 rounded mt-2">إغلاق</button>
         </div>
       )}
@@ -1307,30 +1190,41 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
 
       {gameWon && (
         <div className="absolute inset-0 bg-black/95 flex flex-col items-center justify-center z-50 p-4 overflow-y-auto">
-          <h1 className="text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 mb-4 mt-10 drop-shadow-lg text-center leading-tight">انتصار عظيم!</h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-6 font-medium text-center">لقد دمرت الزعيم الأخير وتعلمت من أخطائك بنجاح.</p>
+          <h1 className="text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 mb-3 mt-8 drop-shadow-lg text-center leading-tight">انتصار عظيم! 🏆</h1>
+          <p className="text-lg md:text-xl text-gray-300 mb-6 font-medium text-center">لقد دمرت الزعيم الأخير وأتقنت كلمات الدرس بنجاح.</p>
           
-          <div className="bg-gray-800 border border-gray-700 rounded-xl p-4 w-full max-w-md mb-8">
-             <h2 className="text-2xl text-white font-bold mb-4 text-center border-b border-gray-700 pb-2">الكلمات التي تعلمتها</h2>
-             <div className="flex flex-col gap-2 max-h-60 overflow-y-auto pr-2">
+          <div className="bg-gray-800 border border-gray-700 rounded-2xl p-4 w-full max-w-md mb-6 shadow-xl">
+             <h2 className="text-xl text-white font-bold mb-3 text-center border-b border-gray-700 pb-2">سجل الكلمات</h2>
+             <div className="flex flex-col gap-2 max-h-56 overflow-y-auto pr-2">
                 {mistakes.map((m, idx) => (
-                  <div key={idx} className="flex justify-between items-center bg-gray-700 p-2 rounded">
-                    <span className="text-green-400 font-bold">{m.correctAnswer}</span>
-                    <span className="text-gray-300 text-sm">{m.prompt}</span>
+                  <div key={idx} className="flex justify-between items-center bg-gray-700/80 p-2.5 rounded-xl border border-gray-600/40">
+                    <span className="text-emerald-400 font-bold text-sm">{m.correctAnswer}</span>
+                    <span className="text-gray-300 text-xs">{m.prompt}</span>
                   </div>
                 ))}
                 {mistakes.length === 0 && (
-                  <div className="text-center text-gray-400 py-4">لم ترتكب أي أخطاء! أداء مثالي.</div>
+                  <div className="text-center text-emerald-300 py-3 font-medium">✨ لم ترتكب أي أخطاء! أداء أسطوري ومثالي.</div>
                 )}
              </div>
           </div>
 
-          <button 
-            onClick={() => window.location.reload()} 
-            className="bg-blue-600 hover:bg-blue-700 active:scale-95 text-white font-bold py-4 px-10 rounded-xl text-xl shadow-[0_0_20px_rgba(37,99,235,0.5)] transition-all mb-10"
-          >
-            العب مرة أخرى
-          </button>
+          <div className="flex flex-col sm:flex-row gap-3 w-full max-w-md mb-8">
+            {onClose && (
+              <button 
+                onClick={() => onClose({ mistakes: mistakes.map(m => m.correctAnswer), score, won: true })} 
+                className="flex-1 bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 active:scale-95 text-white font-black py-3.5 px-6 rounded-xl text-base shadow-[0_4px_15px_rgba(16,185,129,0.4)] transition-all flex items-center justify-center gap-2 cursor-pointer"
+              >
+                <span>متابعة الدرس</span>
+                <span className="text-lg">←</span>
+              </button>
+            )}
+            <button 
+              onClick={restartGame} 
+              className="bg-slate-700 hover:bg-slate-600 active:scale-95 text-white font-bold py-3.5 px-6 rounded-xl text-sm shadow-md transition-all cursor-pointer"
+            >
+              العب مجدداً
+            </button>
+          </div>
         </div>
       )}
 
@@ -1528,13 +1422,13 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
               <p className="text-2xl font-bold text-purple-200 mb-2">لقد أيقظت الزعيم الأخير!</p>
               {mistakes.length > 0 ? (
                 <>
-                  <p className="text-lg text-purple-300">أخطائك ({mistakes.length} كلمات) في المقبرة زادت من قوته!</p>
+                  <p className="text-lg text-purple-300">أخطاؤك ({mistakes.length} كلمات) في المقبرة زادت من غضبه!</p>
                   <p className="text-lg text-purple-300 mt-2">سيختبرك الآن في الكلمات التي أخطأت بها.</p>
                 </>
               ) : (
-                <p className="text-lg text-purple-300">سيختبرك الآن في الكلمات التي أخطأت بها.</p>
+                <p className="text-lg text-purple-300">استعد.. اختبار القوة الأخير لإنهاء المعركة!</p>
               )}
-              <p className="text-lg text-purple-300 mt-4 bg-black/50 px-4 py-2 rounded-lg border border-purple-500">أجب بشكل صحيح 7 مرات لتدميره نهائياً!</p>
+              <p className="text-lg text-purple-300 mt-4 bg-black/50 px-4 py-2 rounded-lg border border-purple-500">أجب بشكل صحيح 3 مرات لتدميره نهائياً!</p>
             </div>
           )}
         </div>
@@ -1589,7 +1483,7 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
                 <div className="flex w-full justify-between gap-4 mt-4">
                   <div className="flex-1 bg-blue-500 p-2 rounded-xl text-center">
                     <span className="text-[10px] text-white/80 block font-bold">الموجة:</span>
-                    <span className="text-xl font-black text-white">{Math.min(waveLevel, 3)}</span>
+                    <span className="text-xl font-black text-white">{Math.min(waveLevel, 3)} / 3</span>
                   </div>
                   <div className="flex-1 bg-blue-500 p-2 rounded-xl text-center">
                     <span className="text-[10px] text-white/80 block font-bold">النقاط الكلية:</span>
@@ -1599,11 +1493,19 @@ const generateQuestion = (corrects: number, mistakes?: CurrentQuestion[]): Curre
 
                 <div className="flex flex-col w-full gap-3 mt-6">
                   <button 
-                    onClick={() => window.location.reload()}
+                    onClick={restartGame}
                     className="w-full py-3.5 bg-blue-600 hover:bg-blue-700 text-white font-black rounded-xl transition-all cursor-pointer shadow-md"
                   >
                     إعادة المحاولة مجدداً
                   </button>
+                  {onClose && (
+                    <button 
+                      onClick={() => onClose({ mistakes: mistakes.map(m => m.correctAnswer), score, won: false })}
+                      className="w-full py-2.5 bg-slate-200 hover:bg-slate-300 text-slate-700 font-bold rounded-xl transition-all cursor-pointer text-sm"
+                    >
+                      تخطي والعودة للدرس
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

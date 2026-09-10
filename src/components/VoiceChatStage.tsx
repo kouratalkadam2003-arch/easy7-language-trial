@@ -22,8 +22,9 @@ const UI_TEXTS_AR = {
     micDenied: 'تم رفض إذن الميكروفون. يرجى تفعيله من إعدادات المتصفح.',
 };
 
-import { getKeyForVoiceChat, markKeyExhausted } from '../utils/apiKeyPool';
+import { getApiKey, getKeyForVoiceChat, markKeyExhausted } from '../utils/apiKeyPool';
 import { extractSessionLearningItems } from '../services/sessionExtractor';
+import { cleanWord, lookupQuickTranslation } from '../utils/wordTranslator';
 import { Sparkles, CheckCircle2 } from 'lucide-react';
 
 interface VoiceChatStageProps {
@@ -41,6 +42,8 @@ interface VoiceChatStageProps {
     voiceGender: 'male' | 'female';
     flashcards?: Flashcard[];
     onToggleVoiceGender?: () => void;
+    onComplete?: () => void;
+    lessonDialogue?: Array<{ native: string; translation: string; character?: string; pronunciation?: string }>;
 }
 
 function downsampleBuffer(buffer: Float32Array, inputSampleRate: number, outputSampleRate: number = 16000): Float32Array {
@@ -99,6 +102,8 @@ const VoiceChatStage: React.FC<VoiceChatStageProps> = ({
     level,
     storyContent,
     voiceGender,
+    onComplete,
+    lessonDialogue,
 }) => {
     const texts = UI_TEXTS_AR;
     const [status, setStatus] = useState<'idle' | 'connecting' | 'listening' | 'speaking' | 'error' | 'ended'>('idle');
@@ -109,6 +114,17 @@ const VoiceChatStage: React.FC<VoiceChatStageProps> = ({
     const [userAudioLevel, setUserAudioLevel] = useState<number>(0);
     const [extractionSummary, setExtractionSummary] = useState<{ summary: string; count: number } | null>(null);
     const [isExtracting, setIsExtracting] = useState<boolean>(false);
+    const [revealedTranslations, setRevealedTranslations] = useState<Set<string>>(new Set());
+    const callCompletedRef = useRef<boolean>(false);
+
+    const toggleTranslation = (id: string) => {
+        setRevealedTranslations(prev => {
+            const next = new Set(prev);
+            if (next.has(id)) next.delete(id);
+            else next.add(id);
+            return next;
+        });
+    };
 
     // Live session opened straight against the Gemini Live API. Previously this
     // was a WebSocket to our own /ws-voice relay, which static hosting can't run.
@@ -194,8 +210,20 @@ const VoiceChatStage: React.FC<VoiceChatStageProps> = ({
             source.addEventListener('ended', () => {
                 audioSourcesRef.current.delete(source);
                 if (audioSourcesRef.current.size === 0) {
-                    setStatus('listening');
-                    statusRef.current = 'listening';
+                    if (callCompletedRef.current) {
+                        console.log('[VoiceChat] Dialogue completed by AI. Automatically terminating call.');
+                        cleanup();
+                        setStatus('ended');
+                        statusRef.current = 'ended';
+                        if (onComplete) {
+                            setTimeout(() => {
+                                onComplete();
+                            }, 1200);
+                        }
+                    } else {
+                        setStatus('listening');
+                        statusRef.current = 'listening';
+                    }
                 }
             });
         } catch (err) {
@@ -205,13 +233,59 @@ const VoiceChatStage: React.FC<VoiceChatStageProps> = ({
 
     const translateSpeechAsync = async (text: string, entryId: string) => {
         if (!text || text.trim().length === 0) return;
+        const cleanRaw = text.replace(/^(ليث|إيلي|أنت|bot|user|leith|eli):\s*/i, '').trim();
+        const norm = cleanWord(cleanRaw);
+        if (!norm) return;
+
+        // 1. Strict Priority: Check authoritative lessonDialogue from curriculum JSON
+        if (lessonDialogue && lessonDialogue.length > 0) {
+            const exact = lessonDialogue.find(d => cleanWord(d.native) === norm);
+            if (exact && exact.translation) {
+                setTranscript(prev => prev.map(m => m.id === entryId ? { ...m, translation: exact.translation } : m));
+                return;
+            }
+            const partial = lessonDialogue.find(d => {
+                const dClean = cleanWord(d.native);
+                return dClean.length > 3 && (norm.includes(dClean) || dClean.includes(norm));
+            });
+            if (partial && partial.translation) {
+                setTranscript(prev => prev.map(m => m.id === entryId ? { ...m, translation: partial.translation } : m));
+                return;
+            }
+        }
+
+        // 2. Check storyContent lines (format: "Speaker: Native (Translation)")
+        if (storyContent) {
+            const lines = storyContent.split('\n');
+            for (const line of lines) {
+                const match = line.match(/:\s*(.+?)\s*\((.+?)\)/);
+                if (match) {
+                    const lineNativeClean = cleanWord(match[1]);
+                    const lineTrans = match[2].trim();
+                    if (lineNativeClean === norm || (lineNativeClean.length > 3 && (norm.includes(lineNativeClean) || lineNativeClean.includes(norm)))) {
+                        setTranscript(prev => prev.map(m => m.id === entryId ? { ...m, translation: lineTrans } : m));
+                        return;
+                    }
+                }
+            }
+        }
+
+        // 3. Check canonical dictionary (strictly immutable approved translations)
+        const langCode = (language?.code || 'en').toLowerCase();
+        const dictTrans = lookupQuickTranslation(cleanRaw, langCode);
+        if (dictTrans) {
+            setTranscript(prev => prev.map(m => m.id === entryId ? { ...m, translation: dictTrans } : m));
+            return;
+        }
+
+        // 4. Fallback to LLM with strict literal translation prompt
         try {
             const apiKey = getApiKey();
             if (!apiKey) return;
             const genAI = new GoogleGenAI({ apiKey });
             const res = await genAI.models.generateContent({
                 model: TEXT_MODEL,
-                contents: `Translate this spoken sentence into clear, natural Arabic. Output only the Arabic translation:\n"${text}"`
+                contents: `Translate this spoken sentence into clear, natural, and standard Arabic. Output ONLY the exact Arabic translation with no notes, no markdown, and no alternative variations:\n"${cleanRaw}"`
             });
             const arabic = res.text?.trim();
             if (arabic) {
@@ -322,8 +396,16 @@ const VoiceChatStage: React.FC<VoiceChatStageProps> = ({
                         }
                         break;
                     case 'transcript': {
-                        const chunk: string = msg.text || '';
+                        let chunk: string = msg.text || '';
                         if (!chunk) break;
+
+                        // Detect AI conclusion token or closing phrases
+                        if (chunk.includes('[CALL_COMPLETED]') || /خلاص\s*انتهينا|انتهينا\s*من\s*محادثة\s*اليوم|نلتقي\s*في\s*ساحة\s*التحديات/i.test(chunk)) {
+                            callCompletedRef.current = true;
+                            chunk = chunk.replace(/\[CALL_COMPLETED\]/g, '').trim();
+                        }
+                        if (!chunk) break;
+
                         setTranscript(prev => {
                             const newTr = [...prev];
                             const last = newTr[newTr.length - 1];
@@ -383,12 +465,16 @@ const VoiceChatStage: React.FC<VoiceChatStageProps> = ({
 
             const liveClient = new GoogleGenAI({ apiKey });
 
-            const effectiveLevel = useUserStore.getState().currentLevel || level || 'A1';
+            const userState = useUserStore.getState();
+            const effectiveLevel = userState.currentLevel || level || 'A1';
             const systemInstruction = buildVoiceCoachPrompt({
                 voiceGender,
                 language: langName,
                 nativeLanguage: natLangName,
                 storyContent: storyContent || topicTitle,
+                userName: userState.userName || 'صديقي',
+                userJob: userState.userJob || '',
+                userGoal: userState.userGoal || '',
                 level: effectiveLevel,
             });
 
@@ -584,15 +670,17 @@ const VoiceChatStage: React.FC<VoiceChatStageProps> = ({
                         if (status === 'idle' || status === 'error' || status === 'ended') setupSession();
                     }}
                 >
-                    <video
-                        src={voiceGender === 'male' ? '/male_teacher.mp4' : '/female_teacher.mp4'}
-                        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${status === 'speaking' ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
-                        loop muted playsInline autoPlay
-                    />
+                    {/* Continuous Idle Base Layer */}
                     <video
                         src={voiceGender === 'male' ? '/male_teacher_idle.mp4' : '/female_teacher_idle.mp4'}
-                        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${status !== 'speaking' ? 'opacity-100 z-10' : 'opacity-0 z-0'}`}
+                        className="absolute inset-0 w-full h-full object-cover z-0"
                         loop muted playsInline autoPlay
+                    />
+                    {/* Speaking Layer */}
+                    <video
+                        src={voiceGender === 'male' ? '/male_teacher.mp4' : '/female_teacher.mp4'}
+                        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 z-10 ${status === 'speaking' ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+                        loop muted playsInline autoPlay preload="auto"
                     />
 
                     {(status === 'idle' || status === 'ended') && (
@@ -661,8 +749,21 @@ const VoiceChatStage: React.FC<VoiceChatStageProps> = ({
                                         {entry.text}
                                     </div>
                                     {entry.translation && (
-                                        <div className="text-xs sm:text-sm font-bold text-amber-300 mt-1 leading-normal">
-                                            {entry.translation}
+                                        <div className="mt-1">
+                                            {revealedTranslations.has(entry.id) ? (
+                                                <div className="text-xs sm:text-sm font-bold text-amber-300 leading-normal bg-amber-950/40 p-1.5 rounded-lg border border-amber-500/30">
+                                                    {entry.translation}
+                                                </div>
+                                            ) : (
+                                                <button
+                                                    onClick={() => toggleTranslation(entry.id)}
+                                                    className="text-[10px] font-bold text-slate-400 hover:text-amber-300 transition-colors flex items-center gap-1 cursor-pointer bg-slate-800/80 px-2 py-0.5 rounded-md border border-slate-700/60"
+                                                    title="كشف الترجمة العربية لهذه الجملة"
+                                                >
+                                                    <span>🌐</span>
+                                                    <span>ترجمة 👁️</span>
+                                                </button>
+                                            )}
                                         </div>
                                     )}
                                 </div>

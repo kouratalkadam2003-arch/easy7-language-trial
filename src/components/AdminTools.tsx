@@ -2,7 +2,8 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useUserStore } from '@/store/userStore'
 import { useFarmStore } from '@/store/farmStore'
-import { Shield, BookOpen, Film, RefreshCw, X, Droplets } from 'lucide-react'
+import { Shield, BookOpen, Film, RefreshCw, X, Droplets, Castle, Skull, HeartHandshake, Sparkles } from 'lucide-react'
+import { globalSpacedRepetition } from '@/kingdom/engine/spacedRepetition'
 
 export function AdminTools() {
   const [isOpen, setIsOpen] = useState(false)
@@ -146,38 +147,109 @@ export function AdminTools() {
           </div>
         </div>
 
-        {/* SRS Utilities */}
+        {/* Kingdom & SRS Utilities */}
         <div className="space-y-2">
-          <h3 className="text-xs font-bold text-slate-400 uppercase">أدوات الـ SRS والتقدم</h3>
+          <h3 className="text-xs font-bold text-slate-400 uppercase">مملكة المراجعة ونظام التكرار المتباعد (SRS)</h3>
           <div className="grid grid-cols-2 gap-2">
             <button
+              onClick={() => {
+                setIsOpen(false);
+                navigate('/village');
+              }}
+              className="flex items-center justify-center gap-2 p-2.5 bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 border border-amber-500/20 rounded-2xl text-xs font-bold transition-all cursor-pointer"
+            >
+              <Castle className="w-4 h-4" />
+              <span>دخول المملكة 🏰</span>
+            </button>
+            <button
+              onClick={() => {
+                setIsOpen(false);
+                navigate('/review');
+              }}
+              className="flex items-center justify-center gap-2 p-2.5 bg-purple-500/10 hover:bg-purple-500/20 text-purple-400 border border-purple-500/20 rounded-2xl text-xs font-bold transition-all cursor-pointer"
+            >
+              <BookOpen className="w-4 h-4" />
+              <span>مراجعة البطاقات 📚</span>
+            </button>
+            <button
+              onClick={() => {
+                globalSpacedRepetition.syncWithEasy7Progress({
+                  completedLessons: ['d1'],
+                  streak: 3,
+                  cards: [
+                    { id: 'rev_1', native: 'Hello, how are you?', translation: 'مرحباً، كيف حالك؟' },
+                    { id: 'rev_2', native: 'Nice to meet you', translation: 'سعيد بلقائك' },
+                    { id: 'rev_3', native: 'Welcome to the village', translation: 'أهلاً بك في القرية' },
+                    { id: 'rev_4', native: 'We build strong walls', translation: 'نبني جدراناً قوية' },
+                    { id: 'rev_5', native: 'See you tomorrow', translation: 'أراك غداً' },
+                  ]
+                });
+                alert('تمت إضافة 5 عبارات مستحقة للمملكة! ستظهر فقاعات بيضاء فوق المقاتل والمزارع والقائد والمبنى.');
+              }}
+              className="flex items-center justify-center gap-2 p-2.5 bg-slate-950 hover:bg-slate-800 border border-slate-800 rounded-2xl text-xs font-bold transition-all cursor-pointer text-emerald-400"
+            >
+              <Sparkles className="w-4 h-4" />
+              <span>+5 عبارات مراجعة للمملكة</span>
+            </button>
+            <button
               onClick={handleWaterAll}
-              className="flex items-center justify-center gap-2 p-3 bg-slate-950 hover:bg-slate-800 border border-slate-800 rounded-2xl text-xs font-bold transition-all cursor-pointer"
+              className="flex items-center justify-center gap-2 p-2.5 bg-slate-950 hover:bg-slate-800 border border-slate-800 rounded-2xl text-xs font-bold transition-all cursor-pointer"
             >
               <Droplets className="w-4 h-4 text-[#1CB0F6]" />
               <span>سقي النباتات الـ SRS</span>
             </button>
-            <button
-              onClick={handleUnlockAll}
-              className="flex items-center justify-center gap-2 p-3 bg-slate-950 hover:bg-slate-800 border border-slate-800 rounded-2xl text-xs font-bold transition-all cursor-pointer"
-            >
-              <BookOpen className="w-4 h-4 text-emerald-400" />
-              <span>فتح كافة المراحل</span>
-            </button>
           </div>
         </div>
 
-        {/* Lesson Stages Jump */}
+        {/* Lesson Stages Jump (New 5 Stages) */}
         <div className="space-y-2">
-          <h3 className="text-xs font-bold text-slate-400 uppercase">الانتقال السريع لمراحل الدرس</h3>
-          <div className="grid grid-cols-3 gap-1.5 bg-slate-950 p-2 rounded-2xl border border-slate-800">
-            <button onClick={() => { setIsOpen(false); window.dispatchEvent(new CustomEvent('JUMP_TO_STAGE', { detail: { stageId: 'read' } })); }} className="p-1.5 bg-slate-900 hover:bg-slate-800 rounded-xl text-[10px] font-bold cursor-pointer text-center">📖 القراءة</button>
-            <button onClick={() => { setIsOpen(false); window.dispatchEvent(new CustomEvent('JUMP_TO_STAGE', { detail: { stageId: 'listen' } })); }} className="p-1.5 bg-slate-900 hover:bg-slate-800 rounded-xl text-[10px] font-bold cursor-pointer text-center">🎧 الاستماع</button>
-            <button onClick={() => { setIsOpen(false); window.dispatchEvent(new CustomEvent('JUMP_TO_STAGE', { detail: { stageId: 'chop' } })); }} className="p-1.5 bg-slate-900 hover:bg-slate-800 rounded-xl text-[10px] font-bold cursor-pointer text-center">🪓 الاحتطاب</button>
-            <button onClick={() => { setIsOpen(false); window.dispatchEvent(new CustomEvent('JUMP_TO_STAGE', { detail: { stageId: 'context' } })); }} className="p-1.5 bg-slate-900 hover:bg-slate-800 rounded-xl text-[10px] font-bold cursor-pointer text-center">🔄 السياق</button>
-            <button onClick={() => { setIsOpen(false); window.dispatchEvent(new CustomEvent('JUMP_TO_STAGE', { detail: { stageId: 'fight' } })); }} className="p-1.5 bg-slate-900 hover:bg-slate-800 rounded-xl text-[10px] font-bold cursor-pointer text-center">⚔️ القتال</button>
-            <button onClick={() => { setIsOpen(false); window.dispatchEvent(new CustomEvent('JUMP_TO_STAGE', { detail: { stageId: 'chat' } })); }} className="p-1.5 bg-[#FF9600]/20 text-[#FF9600] border border-[#FF9600]/30 hover:bg-[#FF9600]/30 rounded-xl text-[10px] font-bold cursor-pointer text-center">💬 الممارسة AI</button>
-            <button onClick={() => { setIsOpen(false); window.dispatchEvent(new CustomEvent('JUMP_TO_STAGE', { detail: { stageId: 'radio' } })); }} className="p-1.5 bg-[#2CC0D0]/20 text-[#2CC0D0] border border-[#2CC0D0]/30 hover:bg-[#2CC0D0]/30 rounded-xl text-[10px] font-bold cursor-pointer text-center">📻 الراديو AI</button>
+          <h3 className="text-xs font-bold text-slate-400 uppercase">الانتقال لمراحل الدرس (النظام الجديد)</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 bg-slate-950 p-2.5 rounded-2xl border border-slate-800">
+            <button
+              onClick={() => {
+                setIsOpen(false);
+                window.dispatchEvent(new CustomEvent('JUMP_TO_STAGE', { detail: { stageId: 'chat' } }));
+              }}
+              className="p-2 bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500/30 rounded-xl text-xs font-bold cursor-pointer text-center"
+            >
+              🎙️ 1. المحادثة المباشرة
+            </button>
+            <button
+              onClick={() => {
+                setIsOpen(false);
+                window.dispatchEvent(new CustomEvent('JUMP_TO_STAGE', { detail: { stageId: 'games' } }));
+              }}
+              className="p-2 bg-amber-500/20 text-amber-400 border border-amber-500/30 hover:bg-amber-500/30 rounded-xl text-xs font-bold cursor-pointer text-center"
+            >
+              🏆 2. ساحة التحديات والحفظ
+            </button>
+            <button
+              onClick={() => {
+                setIsOpen(false);
+                window.dispatchEvent(new CustomEvent('JUMP_TO_STAGE', { detail: { stageId: 'read' } }));
+              }}
+              className="p-2 bg-purple-500/20 text-purple-400 border border-purple-500/30 hover:bg-purple-500/30 rounded-xl text-xs font-bold cursor-pointer text-center"
+            >
+              📖 3. الاستماع والقراءة
+            </button>
+            <button
+              onClick={() => {
+                setIsOpen(false);
+                window.dispatchEvent(new CustomEvent('JUMP_TO_STAGE', { detail: { stageId: 'real_chat' } }));
+              }}
+              className="p-2 bg-pink-500/20 text-pink-400 border border-pink-500/30 hover:bg-pink-500/30 rounded-xl text-xs font-bold cursor-pointer text-center"
+            >
+              💬 4. محادثة الموقف الواقعي
+            </button>
+            <button
+              onClick={() => {
+                setIsOpen(false);
+                window.dispatchEvent(new CustomEvent('JUMP_TO_STAGE', { detail: { stageId: 'radio' } }));
+              }}
+              className="p-2 bg-blue-500/20 text-blue-400 border border-blue-500/30 hover:bg-blue-500/30 rounded-xl text-xs font-bold cursor-pointer text-center"
+            >
+              📻 5. راديو القرية AI
+            </button>
           </div>
         </div>
 

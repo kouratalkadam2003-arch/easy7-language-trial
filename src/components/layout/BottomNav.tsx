@@ -1,12 +1,15 @@
 import { NavLink } from "react-router-dom"
-import { Home, Shield, Droplets, Trophy, User } from "lucide-react"
+import { Home, Castle, Sparkles, Trophy, User } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { useDueReviewCount } from "@/hooks/useDueReviewCount"
 
 export function BottomNav() {
+  const dueCount = useDueReviewCount()
+
   const links = [
     { to: "/learn", icon: Home, label: "تعلم" },
-    { to: "/village", icon: Shield, label: "القرية" },
-    { to: "/farm", icon: Droplets, label: "المزرعة" },
+    { to: "/review", icon: Sparkles, label: "مراجعة" },
+    { to: "/village", icon: Castle, label: "المملكة" },
     { to: "/leaderboard", icon: Trophy, label: "صدارة" },
     { to: "/profile", icon: User, label: "حسابي" },
   ]
@@ -19,6 +22,8 @@ export function BottomNav() {
       <nav className="flex items-center justify-around h-14 sm:h-16 max-w-md mx-auto px-1 sm:px-2">
         {links.map((link) => {
           const Icon = link.icon
+          const hasBadge = (link.to === '/review' || link.to === '/village') && dueCount > 0
+
           return (
             <NavLink
               key={link.to}
@@ -32,7 +37,14 @@ export function BottomNav() {
                 )
               }
             >
-              <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
+              <div className="relative">
+                <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
+                {hasBadge && (
+                  <span className="absolute -top-1.5 -end-2.5 bg-rose-600 text-white text-[9px] font-black rounded-full min-w-[16px] h-4 px-1 flex items-center justify-center shadow-md animate-pulse">
+                    {dueCount}
+                  </span>
+                )}
+              </div>
               <span className="leading-none truncate max-w-[60px]">{link.label}</span>
             </NavLink>
           )

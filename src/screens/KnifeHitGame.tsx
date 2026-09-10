@@ -1,27 +1,36 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { 
-  Settings, 
-  Volume2, 
-  VolumeX, 
-  Award, 
-  RotateCcw, 
-  Flame, 
-  Globe, 
-  Trophy, 
-  Info, 
-  Mic, 
-  MicOff, 
+import { matchText, matchSpeech } from '@/utils/smartMatcher';
+import { useLessonTrackerStore } from '@/store/lessonTrackerStore';
+import {
+  Settings,
+  Volume2,
+  VolumeX,
+  Award,
+  RotateCcw,
+  Flame,
+  Globe,
+  Trophy,
+  Info,
+  Mic,
+  MicOff,
   X,
   Sliders,
   HelpCircle
 } from 'lucide-react';
 
-function speakEnglish(text: string) {
-  if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+function speakTargetLanguage(text: string, langCode: string = 'en-US', onComplete?: () => void) {
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+    if (onComplete) onComplete();
+    return;
+  }
   window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = 'en-US';
+  utterance.lang = langCode;
   utterance.rate = 0.85;
+  if (onComplete) {
+    utterance.onend = () => onComplete();
+    utterance.onerror = () => onComplete();
+  }
   window.speechSynthesis.speak(utterance);
 }
 
@@ -330,6 +339,30 @@ function orderVocab(cards: any[], mode: 'text' | 'srs'): any[] {
   });
 }
 
+/**
+ * حساب متانة الخشبة وعدد السكاكين بحسب صعوبة العبارة وطور التدريب (النقر، الصوت، الكتابة):
+ * - العبارة السهلة (1-3 كلمات): 5 سكاكين في النقر، 3 في الصوت، 2 في الكتابة
+ * - العبارة المتوسطة (4-6 كلمات): 6 سكاكين في النقر، 4 في الصوت، 3 في الكتابة
+ * - العبارة الصعبة (7+ كلمات): 8 سكاكين في النقر، 5 في الصوت، 4 في الكتابة
+ */
+export function getPhraseDurability(word: string, tier: string = 'core', mode: 'tap' | 'sound' | 'write'): number {
+  const cleanWord = (word || '').trim();
+  const wordCount = cleanWord.split(/\s+/).filter(Boolean).length;
+  const charCount = cleanWord.length;
+
+  let diff = 1;
+  if (wordCount >= 4 || charCount >= 18) diff = 2;
+  if (wordCount >= 7 || charCount >= 32 || tier === 'secondary') diff = 3;
+
+  if (mode === 'tap') {
+    return diff === 1 ? 5 : diff === 2 ? 6 : 8;
+  }
+  if (mode === 'sound') {
+    return diff === 1 ? 3 : diff === 2 ? 4 : 5;
+  }
+  return diff === 1 ? 2 : diff === 2 ? 3 : 4;
+}
+
 export default function KnifeHitGame({ onClose, drill, language, onComplete, flashcards, orderMode = 'text' }: KnifeHitGameProps) {
   // Game states
   const [stage, setStage] = useState<number>(1);
@@ -352,9 +385,17 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
   const [knivesInStage, setKnivesInStage] = useState<number>(5);
   const [isBossStage, setIsBossStage] = useState<boolean>(false);
 
-  // Mode systems (tap -> sound -> write) based on tiers
+  // Mode systems (tap -> sound -> write) - Ordered logically: Tap -> Voice -> Write
   const [currentMode, setCurrentMode] = useState<'tap' | 'sound' | 'write'>('tap');
   const [typedWord, setTypedWord] = useState<string>('');
+  const [typeFeedback, setTypeFeedback] = useState<{ message: string; isCorrect: boolean } | null>(null);
+  const [speechFeedback, setSpeechFeedback] = useState<{
+    message: string;
+    isCorrect: boolean;
+    heard?: string;
+    expected?: string;
+  } | null>(null);
+  const [interimHeard, setInterimHeard] = useState<string>('');
 
   // Score pop visual cue
   const [popScore, setPopScore] = useState<boolean>(false);
@@ -393,6 +434,7 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
   // Current vocab pairing
   const vocabList = flashcards && flashcards.length > 0 
     ? orderVocab(flashcards, orderMode).map(f => ({
+        character: f.character || "",
         word: f.originalText,
         translation: f.translation,
         pronunciation: f.romanization || "",
@@ -400,15 +442,17 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
       }))
     : (VOCABULARY_LISTS[currentLang] || VOCABULARY_LISTS['Spanish']).map(v => ({
         ...v,
+        character: "",
         tier: "core"
       }));
 
   const currentVocab = drill ? {
+    character: drill.character || "",
     word: drill.originalSentence || drill.word,
     translation: drill.translation,
     pronunciation: drill.nativeScript || "",
     tier: drill.tier || "core"
-  } : vocabList[vocabIndex % vocabList.length];
+  } : (vocabList[vocabIndex] || vocabList[0]);
 
   // Ref to keep loop updated with React states without recreation
   const loopStateRef = useRef({
@@ -436,13 +480,54 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
   const audioCtxRef = useRef<AudioContext | null>(null);
   const analyserRef = useRef<AnalyserNode | null>(null);
   const micStreamRef = useRef<MediaStream | null>(null);
-  const lastVoiceThrowTimeRef = useRef<number>(0);
   const recognitionRef = useRef<any>(null);
   const currentVocabRef = useRef<any>(currentVocab);
+  const isVoiceLockedRef = useRef<boolean>(false);
+  const isAudioPlayingRef = useRef<boolean>(false);
+  const silenceTimeoutRef = useRef<any>(null);
 
   useEffect(() => {
     currentVocabRef.current = currentVocab;
   }, [currentVocab]);
+
+  // Compute accurate BCP-47 language code for Web Speech API & TTS
+  const getLanguageCode = (): string => {
+    let code = 'en';
+    if (typeof language === 'string' && language.trim().length > 0) {
+      code = language.toLowerCase();
+    } else if (language && typeof language === 'object' && (language as any).code) {
+      code = (language as any).code.toLowerCase();
+    } else if (currentLang) {
+      const map: Record<string, string> = {
+        spanish: 'es', french: 'fr', german: 'de', italian: 'it', japanese: 'ja', chinese: 'zh', english: 'en', arabic: 'ar'
+      };
+      code = map[currentLang.toLowerCase()] || 'en';
+    }
+
+    const speechLangMap: Record<string, string> = {
+      en: 'en-US',
+      es: 'es-ES',
+      fr: 'fr-FR',
+      de: 'de-DE',
+      it: 'it-IT',
+      ja: 'ja-JP',
+      zh: 'zh-CN',
+      ar: 'ar-SA'
+    };
+    return speechLangMap[code] || 'en-US';
+  };
+
+  // Speak current target phrase cleanly with echo guard
+  const speakCurrentWord = () => {
+    const word = currentVocab.word;
+    if (!word) return;
+    isAudioPlayingRef.current = true;
+    speakTargetLanguage(word, getLanguageCode(), () => {
+      setTimeout(() => {
+        isAudioPlayingRef.current = false;
+      }, 500);
+    });
+  };
 
   // Auto-start Mic when entering sound mode
   useEffect(() => {
@@ -476,33 +561,14 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
         const recognition = new SpeechRecognition();
         recognition.continuous = true;
         recognition.interimResults = true;
-        
-        // Use the current language for better accuracy
-        const langMap: Record<string, string> = {
-          'Spanish': 'es-ES',
-          'French': 'fr-FR',
-          'German': 'de-DE',
-          'Japanese': 'ja-JP',
-          'Arabic': 'ar-SA',
-        };
-        
-        let targetLangCode = 'en-US';
-        if (language && typeof language === 'object' && (language as any).code) {
-           const code = (language as any).code;
-           if (code === 'en') targetLangCode = 'en-US';
-           else if (code === 'es') targetLangCode = 'es-ES';
-           else if (code === 'fr') targetLangCode = 'fr-FR';
-           else if (code === 'de') targetLangCode = 'de-DE';
-           else if (code === 'ar') targetLangCode = 'ar-SA';
-           else if (code === 'ja') targetLangCode = 'ja-JP';
-           else targetLangCode = code;
-        } else {
-           targetLangCode = langMap[currentLang] || 'en-US';
-        }
-        
-        recognition.lang = targetLangCode;
+        recognition.lang = getLanguageCode();
 
         recognition.onresult = (event: any) => {
+          if (isAudioPlayingRef.current) return;
+          if (isVoiceLockedRef.current) return;
+          if (engineRef.current.flyingKnife) return;
+          if (gameState !== 'playing' || knivesLeft <= 0) return;
+
           let finalTranscript = '';
           let interimTranscript = '';
           
@@ -514,42 +580,93 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
             }
           }
           
-          const transcript = (finalTranscript || interimTranscript).toLowerCase().trim();
+          const currentInterim = (interimTranscript || '').trim();
+          if (currentInterim) {
+            setInterimHeard(currentInterim);
+          }
+
+          const candidateText = (finalTranscript || interimTranscript).toLowerCase().trim();
+          if (!candidateText) return;
+
           const targetWord = (currentVocabRef.current?.word || "").toLowerCase().trim();
-          
-            if (transcript && targetWord) {
-              // Remove punctuation for comparison
-              const cleanTranscript = transcript.replace(/[.,!?؟،]/g, '').toLowerCase().trim();
-              const cleanTarget = targetWord.replace(/[.,!?؟،]/g, '').toLowerCase().trim();
-              
-              // Strict word matching
-              const transcriptWords = cleanTranscript.split(/\s+/);
-              const targetWords = cleanTarget.split(/\s+/);
-              
-              let matchCount = 0;
-              targetWords.forEach(tw => {
-                  if (tw.length > 2 && transcriptWords.some(tr => tr === tw || tr.includes(tw) || tw.includes(tr))) {
-                      matchCount++;
-                  } else if (transcriptWords.includes(tw)) {
-                      matchCount++;
-                  }
+          if (!targetWord) return;
+
+          // Process speech evaluation
+          const processAttempt = (textToTest: string) => {
+            if (isVoiceLockedRef.current || isAudioPlayingRef.current) return;
+            if (engineRef.current.flyingKnife) return;
+            if (gameState !== 'playing' || knivesLeft <= 0) return;
+
+            setInterimHeard('');
+            const speechResult = matchSpeech(textToTest, targetWord, 0.75);
+
+            if (speechResult.isMatch) {
+              // Lock voice to prevent multi-knife runaway throws on the same spoken word
+              isVoiceLockedRef.current = true;
+              synthSounds.playLevelUp();
+              // Track correct speech in cross-stage tracker
+              useLessonTrackerStore.getState().recordKnifeHit(targetWord, true);
+              setSpeechFeedback({
+                message: `نطق رائع ومتقن! 🎯 (${targetWord})`,
+                isCorrect: true,
+                heard: speechResult.heardText,
+                expected: targetWord
               });
-              
-              const matchRatio = matchCount / targetWords.length;
-              const isCorrect = cleanTranscript === cleanTarget || cleanTranscript.includes(cleanTarget) || matchRatio >= 0.7;
-              
-              if (isCorrect) {
-                const now = Date.now();
-                if (now - lastVoiceThrowTimeRef.current > 500) { // debounce
-                  throwKnifeRef.current(true);
-                  lastVoiceThrowTimeRef.current = now;
-                }
+
+              // Launch exactly one knife!
+              throwKnifeRef.current(true);
+
+              // Unlock after knife flight finishes
+              setTimeout(() => {
+                isVoiceLockedRef.current = false;
+                setSpeechFeedback(null);
+              }, 1400);
+            } else {
+              // Check if candidate is long enough to consider a real incorrect attempt
+              if (textToTest.length >= Math.min(3, targetWord.length)) {
+                synthSounds.playClang();
+                // Track mistake in cross-stage tracker
+                useLessonTrackerStore.getState().recordKnifeHit(targetWord, false);
+                engineRef.current.shakeDuration = 10;
+                engineRef.current.shakeIntensity = 4;
+                setSpeechFeedback({
+                  message: `❌ سمعنا: "${speechResult.heardText}" — المطلوب: "${targetWord}"`,
+                  isCorrect: false,
+                  heard: speechResult.heardText,
+                  expected: targetWord
+                });
+
+                // Temporary lock so multiple error sounds don't stack
+                isVoiceLockedRef.current = true;
+                setTimeout(() => {
+                  isVoiceLockedRef.current = false;
+                  setSpeechFeedback(null);
+                }, 2200);
               }
             }
+          };
+
+          if (finalTranscript) {
+            if (silenceTimeoutRef.current) clearTimeout(silenceTimeoutRef.current);
+            processAttempt(finalTranscript);
+          } else if (interimTranscript) {
+            // Immediate trigger if already correct
+            const quickCheck = matchSpeech(interimTranscript, targetWord, 0.75);
+            if (quickCheck.isMatch) {
+              if (silenceTimeoutRef.current) clearTimeout(silenceTimeoutRef.current);
+              processAttempt(interimTranscript);
+            } else {
+              // Wait for user to finish utterance before declaring incorrect
+              if (silenceTimeoutRef.current) clearTimeout(silenceTimeoutRef.current);
+              silenceTimeoutRef.current = setTimeout(() => {
+                processAttempt(candidateText);
+              }, 850);
+            }
+          }
         };
         
         recognition.onerror = (event: any) => {
-          console.error("Speech recognition error", event.error);
+          console.warn("Speech recognition error:", event.error);
         };
 
         recognition.onend = () => {
@@ -564,7 +681,7 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
         recognition.start();
         recognitionRef.current = recognition;
       } else {
-        console.warn("Speech recognition not supported in this browser. Falling back to volume-based detection.");
+        console.warn("Speech recognition not supported in this browser.");
       }
 
       setIsListening(true);
@@ -652,14 +769,44 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
     setGameState('playing');
   };
 
+  // Helper to switch sub-stages within the current phrase
+  const switchSubStage = (targetMode: 'tap' | 'sound' | 'write') => {
+    setCurrentMode(targetMode);
+    const active = currentVocabRef.current || currentVocab;
+    const needed = getPhraseDurability(active?.word || '', active?.tier || 'core', targetMode);
+    setKnivesLeft(needed);
+    setKnivesInStage(needed);
+    resetEngineForMode();
+  };
+
+  const switchSubStageRef = useRef(switchSubStage);
+  useEffect(() => {
+    switchSubStageRef.current = switchSubStage;
+  });
+
   // Helper to advance to next word stage
   const advanceNextWord = () => {
     if (drill && onComplete) {
       onComplete(true);
     } else {
-      setStage(prev => prev + 1);
+      const totalPhrases = vocabList.length;
+      if (stage >= totalPhrases) {
+        synthSounds.playLevelUp();
+        if (onComplete) {
+          onComplete(true);
+        } else if (onClose) {
+          onClose();
+        }
+      } else {
+        setStage(prev => prev + 1);
+      }
     }
   };
+
+  const advanceNextWordRef = useRef(advanceNextWord);
+  useEffect(() => {
+    advanceNextWordRef.current = advanceNextWord;
+  });
 
   // Typing submit handler for write mode
   const handleTypeSubmit = () => {
@@ -668,17 +815,30 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
     if (engine.flyingKnife) return;
     if (knivesLeft <= 0) return;
 
-    const correct = currentVocab.word.toLowerCase().replace(/[.,!?؟،]/g, '').trim();
-    const typedClean = typedWord.toLowerCase().replace(/[.,!?؟،]/g, '').trim();
+    const target = currentVocab.word;
+    const matchResult = matchText(typedWord, target);
 
-    if (typedClean === correct) {
+    if (matchResult.isMatch) {
+      if (matchResult.hasTypo) {
+        setTypeFeedback({ message: `تم القبول والتصحيح: ${matchResult.correctedText} ✨`, isCorrect: true });
+      } else {
+        setTypeFeedback({ message: 'إجابة ممتازة! 🎯', isCorrect: true });
+      }
+      // Track correct typing in cross-stage tracker
+      useLessonTrackerStore.getState().recordKnifeHit(target, true);
+      setTimeout(() => setTypeFeedback(null), 1800);
+
       throwKnifeRef.current(true);
       setTypedWord('');
     } else {
       // Wrong word feedback - clang and shake
       synthSounds.playClang();
+      // Track mistake in cross-stage tracker
+      useLessonTrackerStore.getState().recordKnifeHit(target, false);
       engine.shakeDuration = 8;
       engine.shakeIntensity = 3;
+      setTypeFeedback({ message: `حاول مجدداً: المطلوب "${target}"`, isCorrect: false });
+      setTimeout(() => setTypeFeedback(null), 2000);
     }
   };
 
@@ -702,11 +862,21 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
     engine.speed = 0.02 + Math.min(0.04, targetStage * 0.005);
     engine.speedDir = Math.random() > 0.5 ? 1 : -1;
 
-    // Reset mode systems
-    setCurrentMode('tap');
+    // Reset feedback and input
+    setSpeechFeedback(null);
+    setInterimHeard('');
     setTypedWord('');
-    setKnivesLeft(5);
-    setKnivesInStage(5);
+
+    // Strictly map stage to vocabIndex: Stage 1 -> Line 0 (the first speaker & first line of dialogue)
+    const targetIdx = (targetStage - 1) % Math.max(1, vocabList.length);
+    setVocabIndex(targetIdx);
+
+    // Each new phrase begins with sub-stage 1: tap (النقر والنظر)
+    setCurrentMode('tap');
+    const targetPhrase = vocabList[targetIdx] || vocabList[0];
+    const neededKnives = getPhraseDurability(targetPhrase?.word || '', targetPhrase?.tier || 'core', 'tap');
+    setKnivesLeft(neededKnives);
+    setKnivesInStage(neededKnives);
 
     // Initial knives stuck on log: MUST BE 0 as per user request (clean wood block for each phrase)
     const reservedAngles: number[] = [];
@@ -727,8 +897,6 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
       });
       reservedAngles.push(angle);
     }
-
-    setVocabIndex(prev => (prev + 1) % vocabList.length);
 
     if (isBoss) {
       setTimeout(() => {
@@ -751,8 +919,25 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
     if (engine.flyingKnife) return;
     if (knivesLeft <= 0) return;
 
-    // Block tap throws in write or sound mode unless forced (by typing or voice)
-    if (!force && (currentMode === 'write' || currentMode === 'sound')) return;
+    // In sound mode: only speech recognition can throw
+    if (!force && currentMode === 'sound') {
+      setSpeechFeedback({
+        message: '🎙️ في هذه المرحلة: انطق العبارة بصوتك في الميكروفون لإطلاق السكين!',
+        isCorrect: false
+      });
+      setTimeout(() => setSpeechFeedback(null), 2500);
+      return;
+    }
+
+    // In write mode: only typing can throw
+    if (!force && currentMode === 'write') {
+      setTypeFeedback({
+        message: '⌨️ في هذه المرحلة: اكتب العبارة في المربع بالأسفل لإطلاق السكين!',
+        isCorrect: false
+      });
+      setTimeout(() => setTypeFeedback(null), 2500);
+      return;
+    }
 
     synthSounds.playThrow();
 
@@ -943,13 +1128,7 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
         }
         const normalizedVolume = peak / 255;
         setMicVolume(normalizedVolume);
-
-        const now = Date.now();
-        // If sound peak level exceeds threshold and 500ms since last launch passed, fire!
-        if (normalizedVolume >= micThreshold && now - lastVoiceThrowTimeRef.current > 600) {
-          lastVoiceThrowTimeRef.current = now;
-          throwKnifeRef.current(true); // Force throw
-        }
+        // Note: Voice volume is used for UI indicator only. Knife throw is strictly driven by SpeechRecognition matching!
       }
       micAnimId = requestAnimationFrame(checkMicVolume);
     };
@@ -1038,30 +1217,17 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
         if (engine.shatterTimer <= 0) {
           engine.isShattering = false;
           
-          // Sub-stage mode transition logic
-          const wordTier = loopStateRef.current.currentVocab?.tier || 'core';
-          const mode = loopStateRef.current.currentMode;
+          // Guided 3-Phase Progression for current phrase:
+          // 1. tap (النقر والنظر) -> 2. sound (الكلام بالصوت) -> 3. write (الكتابة والتثبيت)
+          const activeMode = loopStateRef.current.currentMode;
           
-          if (mode === 'tap') {
-            if (wordTier === 'core' || wordTier === 'medium') {
-              setCurrentMode('sound');
-              setKnivesLeft(5);
-              setKnivesInStage(5);
-              resetEngineForMode();
-            } else {
-              advanceNextWord();
-            }
-          } else if (mode === 'sound') {
-            if (wordTier === 'core') {
-              setCurrentMode('write');
-              setKnivesLeft(5);
-              setKnivesInStage(5);
-              resetEngineForMode();
-            } else {
-              advanceNextWord();
-            }
+          if (activeMode === 'tap') {
+            switchSubStageRef.current('sound');
+          } else if (activeMode === 'sound') {
+            switchSubStageRef.current('write');
           } else {
-            advanceNextWord();
+            // Write mode completed: Phrase finished across all 3 modes! Move to next phrase.
+            advanceNextWordRef.current();
           }
         }
       }
@@ -1271,66 +1437,49 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
               }
             }
 
+            // Hit processing:
             if (hitKnife) {
-              // Fail Game Over State!
+              // Metallic clang sound and sparkling deflection, but counts as a successful hit!
               synthSounds.playClang();
-              setGameState('gameover');
-              
-              // Camera Shake
-              engine.shakeDuration = 22;
-              engine.shakeIntensity = 8;
-
-              // Spawn spinning dropped knife
-              engine.particles.push({
-                id: `drop_k_${Math.random()}`,
-                x: logCenter.x,
-                y: targetHitY + 10,
-                vx: Math.random() * 6 - 3,
-                vy: 5 + Math.random() * 4,
-                angle: 0,
-                vAngle: 0.15,
-                size: 6,
-                color: '#ffffff',
-                alpha: 1.0,
-                decay: 0.015,
-                type: 'knife'
-              });
+              // Wedge knife slightly beside the existing knife
+              positiveHitAngle = (positiveHitAngle + 0.12) % (Math.PI * 2);
             } else {
-              // Successfully hit Wood!
+              // Standard wood hit
               synthSounds.playHitWood();
-              
-              engine.shakeDuration = 8;
-              engine.shakeIntensity = 3.5;
+            }
 
-              // Insert stuck knife at hit point
-              const localAngleInLog = positiveHitAngle;
-              engine.stuckKnives.push({
-                id: `knife_${Date.now()}_${Math.random()}`,
-                angle: localAngleInLog
+            engine.shakeDuration = 8;
+            engine.shakeIntensity = 3.5;
+
+            // Insert stuck knife at hit point (always sticks!)
+            const localAngleInLog = positiveHitAngle;
+            engine.stuckKnives.push({
+              id: `knife_${Date.now()}_${Math.random()}`,
+              angle: localAngleInLog
+            });
+
+            // Add scores pop pop
+            setScore(prev => prev + 10);
+            setPopScore(true);
+            setTimeout(() => setPopScore(false), 200);
+
+            // Spawn sparks (cyan if striking another blade, amber if wood)
+            for (let s = 0; s < 12; s++) {
+              engine.particles.push({
+                id: `spark_${Math.random()}`,
+                x: logCenter.x,
+                y: targetHitY,
+                vx: Math.random() * 8 - 4,
+                vy: Math.random() * -4 - 1.5,
+                angle: 0,
+                vAngle: 0,
+                size: Math.random() * 2 + 1,
+                color: hitKnife ? '#38bdf8' : '#fbe18c',
+                alpha: 1.0,
+                decay: 0.04,
+                type: 'spark'
               });
-
-              // Add scores pop pop
-              setScore(prev => prev + 10);
-              setPopScore(true);
-              setTimeout(() => setPopScore(false), 200);
-
-              // Spawn tiny sparks
-              for (let s = 0; s < 12; s++) {
-                engine.particles.push({
-                  id: `spark_${Math.random()}`,
-                  x: logCenter.x,
-                  y: targetHitY,
-                  vx: Math.random() * 8 - 4,
-                  vy: Math.random() * -4 - 1.5,
-                  angle: 0,
-                  vAngle: 0,
-                  size: Math.random() * 2 + 1,
-                  color: '#fbe18c',
-                  alpha: 1.0,
-                  decay: 0.04,
-                  type: 'spark'
-                });
-              }
+            }
 
               // Did we split any apple?
               engine.applesOnLog.forEach((apple) => {
@@ -1391,7 +1540,6 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
                   shatterLog();
                 }, 100);
               }
-            } // end hit success
           }
         }
       }
@@ -1583,6 +1731,7 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
   const handleRestart = () => {
     setScore(0);
     setStage(1);
+    setVocabIndex(0);
     setupStage(1);
   };
 
@@ -1624,9 +1773,16 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
 
         {/* Level and stages banner */}
         <div className="flex flex-col items-center">
-          <span className="text-[10px] text-black uppercase tracking-wider font-bold bg-white/50 px-2 rounded-full mb-1">المرحلة {stage}</span>
-          <span className="text-sm font-black text-white px-4 py-1 bg-blue-600 rounded-xl">
-            {isBossStage ? "⚠️ مرحلة الزعيم ⚠️" : `المستوى ${Math.ceil(stage / 5)}`}
+          <div className="flex items-center gap-1.5 mb-1">
+            <span className="text-[11px] text-white/95 uppercase tracking-wider font-black bg-blue-700/80 border border-blue-400/40 px-3 py-0.5 rounded-full shadow-sm">
+              العبارة {Math.min(stage, vocabList.length)} من {vocabList.length}
+            </span>
+            <span className="text-[10px] text-amber-300 font-bold bg-amber-500/20 border border-amber-400/40 px-2 py-0.5 rounded-full">
+              {currentMode === 'tap' ? '1. نقر' : currentMode === 'sound' ? '2. كلام' : '3. كتابة'}
+            </span>
+          </div>
+          <span className="text-xs font-black text-white px-3 py-0.5 bg-blue-600 rounded-xl shadow">
+            {isBossStage ? "⚠️ مرحلة التحدي الأكبر ⚠️" : `المستوى ${Math.ceil(stage / 5)}`}
           </span>
         </div>
 
@@ -1726,54 +1882,110 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
             <div className="absolute inset-0 bg-gradient-to-tr from-white/5 to-transparent rounded-lg pointer-events-none" />
             <div className="absolute top-1 left-2 right-2 h-1/3 bg-gradient-to-b from-white/10 to-transparent rounded-t-lg pointer-events-none" />
 
-            <p className="text-[9px] uppercase text-white tracking-widest mb-0.5 font-extrabold drop-shadow-sm">
-              {currentMode === 'tap' && "وضع النقر: تعرّف على الكلمة"}
-              {currentMode === 'sound' && "وضع الاستماع: استمع واقذف"}
-              {currentMode === 'write' && "وضع الكتابة: اكتب الكلمة للإطلاق"}
-            </p>
+            {/* 3-Step Guided Mode Tabs */}
+            <div className="flex items-center justify-center gap-1.5 mb-2" onClick={(e) => e.stopPropagation()}>
+              <button
+                type="button"
+                onClick={() => switchSubStage('tap')}
+                className={`px-3 py-1 rounded-full text-[10px] font-black transition-all flex items-center gap-1 ${
+                  currentMode === 'tap'
+                    ? 'bg-amber-400 text-slate-950 shadow-md scale-105 border border-amber-300'
+                    : 'bg-white/20 text-white/80 hover:bg-white/30'
+                }`}
+                title="المرحلة الأولى: انظر للعبارة وترجمتها واضرب السكاكين بالنقر"
+              >
+                <span>1. 👆 نقر ونظر</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => switchSubStage('sound')}
+                className={`px-3 py-1 rounded-full text-[10px] font-black transition-all flex items-center gap-1 ${
+                  currentMode === 'sound'
+                    ? 'bg-amber-400 text-slate-950 shadow-md scale-105 border border-amber-300'
+                    : 'bg-white/20 text-white/80 hover:bg-white/30'
+                }`}
+                title="المرحلة الثانية: انطق العبارة بصوتك في الميكروفون لإطلاق السكاكين"
+              >
+                <Mic className="w-3 h-3" />
+                <span>2. 🎙️ كلام</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => switchSubStage('write')}
+                className={`px-3 py-1 rounded-full text-[10px] font-black transition-all flex items-center gap-1 ${
+                  currentMode === 'write'
+                    ? 'bg-amber-400 text-slate-950 shadow-md scale-105 border border-amber-300'
+                    : 'bg-white/20 text-white/80 hover:bg-white/30'
+                }`}
+                title="المرحلة الثالثة: اكتب العبارة بالإنجليزية لإطلاق السكاكين وتثبيتها"
+              >
+                <span>3. ⌨️ كتابة</span>
+              </button>
+            </div>
             
             <div className="flex flex-col relative z-10 items-center">
-              <span className="text-lg font-black text-white leading-tight drop-shadow-md">
+              {currentVocab.character && (
+                <div className="inline-flex items-center gap-1.5 px-3 py-0.5 mb-1.5 rounded-full bg-white/20 text-white text-xs font-black border border-white/30 shadow-sm" dir="ltr">
+                  <span>🗣️</span>
+                  <span>{currentVocab.character}</span>
+                </div>
+              )}
+
+              <span className="text-xl font-black text-white leading-tight drop-shadow-md">
                 {currentVocab.translation}
               </span>
-              
-              {currentMode === 'tap' && (
-                <span className="text-[10px] text-white font-medium mt-0.5 drop-shadow-sm">
-                  {currentVocab.word} ({currentVocab.pronunciation})
+
+              {/* Target phrase & pronunciation helper */}
+              <div className="flex items-center gap-2 mt-1">
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    speakCurrentWord();
+                  }}
+                  className="p-1.5 rounded-full bg-white/20 hover:bg-white/35 text-white transition-all cursor-pointer active:scale-95 shadow"
+                  title="استمع للنطق النموذجي"
+                >
+                  <Volume2 className="w-4 h-4" />
+                </button>
+                <span className="text-xs font-black text-white drop-shadow">
+                  {currentVocab.word}
                 </span>
-              )}
+                {currentVocab.pronunciation && (
+                  <span className="text-[10px] text-white/70 font-medium">
+                    ({currentVocab.pronunciation})
+                  </span>
+                )}
+              </div>
               
               {currentMode === 'sound' && (
-                <div className="flex flex-col items-center gap-2 mt-1 w-full px-2">
-                  <div className="flex items-center gap-2">
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        speakEnglish(currentVocab.word);
-                      }}
-                      className="p-1.5 rounded-full bg-[#1CB0F6] text-white hover:bg-[#1CB0F6]/80 transition-colors cursor-pointer"
-                    >
-                      <Volume2 className="w-4 h-4" />
-                    </button>
-                    <span className="text-[10px] text-white/50">استمع النطق للتحقق</span>
-                  </div>
-                  
-                  <div className="flex items-center gap-1.5 px-3 py-1 bg-red-500/20 rounded-full border border-red-500/40 animate-pulse mt-1">
-                    <Mic className="w-3.5 h-3.5 text-red-400" />
-                    <span className="text-[9px] font-bold text-red-200">تحدث: "{currentVocab.word}"</span>
-                  </div>
+                <div className="flex flex-col items-center gap-1.5 mt-2 w-full px-2">
+                  {/* Dynamic Speech Feedback / Status */}
+                  {speechFeedback ? (
+                    <div className={`text-[11px] font-black px-3 py-1.5 rounded-xl text-center shadow-lg transition-all w-full max-w-[280px] ${
+                      speechFeedback.isCorrect
+                        ? 'bg-emerald-500 text-white border-2 border-emerald-300 animate-bounce'
+                        : 'bg-rose-600 text-white border-2 border-rose-400 animate-shake'
+                    }`}>
+                      {speechFeedback.message}
+                    </div>
+                  ) : interimHeard ? (
+                    <div className="text-[10px] font-bold px-3 py-1 rounded-full bg-amber-400/20 text-amber-200 border border-amber-400/50 animate-pulse w-full max-w-[260px] text-center">
+                      🎙️ أسمع: "{interimHeard}"...
+                    </div>
+                  ) : (
+                    <div className="flex items-center gap-1.5 px-3 py-1 bg-white/10 rounded-full border border-white/20">
+                      <Mic className="w-3.5 h-3.5 text-emerald-300 animate-pulse" />
+                      <span className="text-[10px] font-bold text-white/95">انطق العبارة بصوت واضح لإطلاق السكين</span>
+                    </div>
+                  )}
 
-                  {/* SUPER SOUND TRACKER VISUALIZER */}
+                  {/* Realtime audio wave meter */}
                   {isListening && (
-                    <div className="w-full h-1.5 bg-black/50 rounded-full overflow-hidden mt-1 relative flex">
+                    <div className="w-full max-w-[200px] h-1.5 bg-black/50 rounded-full overflow-hidden mt-1 relative">
                       <div 
-                        className="h-full bg-gradient-to-r from-green-400 via-yellow-400 to-red-500 transition-all duration-75"
-                        style={{ width: `${Math.min(100, micVolume * 300)}%` }} // multiply by 300 to make it very sensitive
-                      />
-                      {/* Threshold marker */}
-                      <div 
-                        className="absolute top-0 bottom-0 w-0.5 bg-white z-10"
-                        style={{ left: `${micThreshold * 300}%` }}
+                        className="h-full bg-gradient-to-r from-emerald-400 via-amber-300 to-rose-400 transition-all duration-75"
+                        style={{ width: `${Math.min(100, micVolume * 350)}%` }}
                       />
                     </div>
                   )}
@@ -1781,22 +1993,33 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
               )}
 
               {currentMode === 'write' && (
-                <div className="flex gap-1.5 mt-2 w-full max-w-[220px]" onClick={(e) => e.stopPropagation()}>
-                  <input
-                    value={typedWord}
-                    onChange={(e) => setTypedWord(e.target.value)}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter') handleTypeSubmit()
-                    }}
-                    placeholder="اكتب بالإنجليزية..."
-                    className="flex-1 rounded-lg border border-white/20 bg-black/40 px-2 py-1 text-xs text-white placeholder:text-white/40 focus:outline-none focus:border-[#1CB0F6]"
-                  />
-                  <button
-                    onClick={handleTypeSubmit}
-                    className="bg-[#1CB0F6] text-white px-2 py-1 rounded-lg text-xs font-bold hover:bg-[#1CB0F6]/80 transition-colors"
-                  >
-                    أطلق
-                  </button>
+                <div className="flex flex-col gap-1.5 mt-2 w-full max-w-[220px]" onClick={(e) => e.stopPropagation()}>
+                  <div className="flex gap-1.5 w-full">
+                    <input
+                      value={typedWord}
+                      onChange={(e) => setTypedWord(e.target.value)}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter') handleTypeSubmit()
+                      }}
+                      placeholder="اكتب بالإنجليزية..."
+                      className="flex-1 rounded-lg border border-white/20 bg-black/40 px-2 py-1 text-xs text-white placeholder:text-white/40 focus:outline-none focus:border-[#1CB0F6]"
+                    />
+                    <button
+                      onClick={handleTypeSubmit}
+                      className="bg-[#1CB0F6] text-white px-2 py-1 rounded-lg text-xs font-bold hover:bg-[#1CB0F6]/80 transition-colors"
+                    >
+                      أطلق
+                    </button>
+                  </div>
+                  {typeFeedback && (
+                    <div className={`text-[10px] font-bold px-2 py-0.5 rounded text-center transition-all ${
+                      typeFeedback.isCorrect
+                        ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
+                        : 'bg-red-500/20 text-red-300 border border-red-500/40'
+                    }`}>
+                      {typeFeedback.message}
+                    </div>
+                  )}
                 </div>
               )}
             </div>

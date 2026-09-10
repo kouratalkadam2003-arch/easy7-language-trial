@@ -18,6 +18,8 @@ import ProfilePage from '@/pages/ProfilePage'
 import SettingsPage from '@/pages/SettingsPage'
 import StoryPage from '@/pages/StoryPage'
 import StoryLessonRunner from '@/story/StoryLessonRunner'
+import { NotificationPermissionBanner } from '@/components/notifications/NotificationPermissionBanner'
+import { notificationService } from '@/services/notificationService'
 
 import { AdminTools } from '@/components/AdminTools'
 
@@ -29,6 +31,10 @@ function AppShell() {
   const isImmersive = IMMERSIVE_ROUTES.some(r =>
     r === '/' ? location.pathname === '/' : location.pathname.startsWith(r)
   )
+
+  React.useEffect(() => {
+    notificationService.startHeartbeat()
+  }, [])
 
   return (
     <>
@@ -48,8 +54,12 @@ function AppShell() {
       ) : (
         <div className="flex min-h-screen bg-[var(--background)]">
           <SideNav />
-          <main className="flex-1 pb-20 md:pb-0">
+          <main 
+            className="flex-1 pb-24 md:pb-0"
+            style={{ paddingBottom: 'calc(5rem + env(safe-area-inset-bottom, 0px))' }}
+          >
             <TopStatusBar />
+            <NotificationPermissionBanner />
             <Routes>
               <Route path="/learn" element={<LearnPage />} />
               <Route path="/review" element={<ReviewPage />} />

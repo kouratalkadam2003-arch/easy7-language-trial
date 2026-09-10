@@ -117,19 +117,21 @@ Extract the learning items and summary now in strict JSON.`;
         // Save unique items directly to ReviewStore
         if (items.length > 0) {
             const now = Date.now();
+            const langCode = (options.targetLanguage || (typeof window !== 'undefined' ? localStorage.getItem('target_lang') : 'en') || 'en').toLowerCase();
             const newCards: ReviewCard[] = items.map((item, idx) => ({
                 id: `extracted_${now}_${idx}`,
-                native: item.nativeText,
-                translation: item.targetText,
+                native: item.targetText || item.nativeText,
+                translation: item.nativeText || item.targetText,
                 pronunciation: item.pronunciation,
                 tier: item.type === 'MISTAKE' || item.type === 'NATIVE_SUBSTITUTION' ? 'core' : 'medium',
                 addedAt: now,
                 nextReviewAt: now, // Due immediately for first reinforcement
                 intervalMinutes: 10,
+                language: langCode,
             }));
 
             useReviewStore.getState().addCards(newCards);
-            console.log(`[sessionExtractor] Saved ${newCards.length} learning cards to review store`);
+            console.log(`[sessionExtractor] Saved ${newCards.length} learning cards to review store for ${langCode}`);
         }
 
         return {
