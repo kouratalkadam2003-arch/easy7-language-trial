@@ -721,5 +721,18 @@
     - مستودع `origin` (الرئيسي) على فرع `castle-version` والـ Tag: `castle-version`.
 - **النتيجة**: النسخة مرفوعة ومحفوظة بنجاح 100% على GitHub.
 
+---
+
+### Antigravity (Gemini) - 2026-09-10 21:44 🌐 نشر "نسخة القلعة" على Cloudflare Pages (حساب جديد)
+- **شنو ديت**:
+  - بناء كامل للمشروع (`npm run build`) بنجاح تام وإنتاج `dist/` مع PWA Service Worker وPrecache لجميع الـ Assets والدروس.
+  - ربط حساب Cloudflare الجديد للمالك:
+    - Account ID: `f58217a69dd64c9e8d18db1e80b31d1c` (`Firstislam623@gmail.com's Account`).
+  - إنشاء مشروع Pages جديد باسم: **`easy7-castle`**.
+  - ضبط متغيرات البيئة تلقائياً للمشروع (`NODE_VERSION=20`, `VITE_GEMINI_API_KEY`, `VITE_GEMINI_API_KEYS`).
+  - رفع 2,591 ملفاً بنجاح تام ونشر التطبيق الحي.
+  - **الرابط الحي المنشور:** **`https://easy7-castle.pages.dev`** (تم التحقق: HTTP 200 OK لمسار الجذر ومسار SPA `/learn`).
+
+
 
 
