@@ -35,3 +35,6 @@ HOW-TO-RUN.md
 .history/
 *.apk
 *.opus
+
+# Project Time Machine Snapshots
+.project_snapshots/
