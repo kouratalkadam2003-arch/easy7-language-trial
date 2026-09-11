@@ -482,6 +482,7 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
   const micStreamRef = useRef<MediaStream | null>(null);
   const recognitionRef = useRef<any>(null);
   const currentVocabRef = useRef<any>(currentVocab);
+  const isListeningRef = useRef<boolean>(false);
   const isVoiceLockedRef = useRef<boolean>(false);
   const isAudioPlayingRef = useRef<boolean>(false);
   const silenceTimeoutRef = useRef<any>(null);
@@ -492,29 +493,54 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
 
   // Compute accurate BCP-47 language code for Web Speech API & TTS
   const getLanguageCode = (): string => {
-    let code = 'en';
+    let rawLang = '';
     if (typeof language === 'string' && language.trim().length > 0) {
-      code = language.toLowerCase();
+      rawLang = language.trim().toLowerCase();
     } else if (language && typeof language === 'object' && (language as any).code) {
-      code = (language as any).code.toLowerCase();
+      rawLang = String((language as any).code).toLowerCase();
     } else if (currentLang) {
-      const map: Record<string, string> = {
-        spanish: 'es', french: 'fr', german: 'de', italian: 'it', japanese: 'ja', chinese: 'zh', english: 'en', arabic: 'ar'
-      };
-      code = map[currentLang.toLowerCase()] || 'en';
+      rawLang = String(currentLang).toLowerCase();
     }
 
-    const speechLangMap: Record<string, string> = {
-      en: 'en-US',
+    const bcp47Map: Record<string, string> = {
+      // Spanish
+      spanish: 'es-ES',
       es: 'es-ES',
+      'es-es': 'es-ES',
+      'es-mx': 'es-MX',
+      // French
+      french: 'fr-FR',
       fr: 'fr-FR',
+      'fr-fr': 'fr-FR',
+      // German
+      german: 'de-DE',
       de: 'de-DE',
+      'de-de': 'de-DE',
+      // Italian
+      italian: 'it-IT',
       it: 'it-IT',
+      'it-it': 'it-IT',
+      // Japanese
+      japanese: 'ja-JP',
       ja: 'ja-JP',
+      'ja-jp': 'ja-JP',
+      // Chinese
+      chinese: 'zh-CN',
       zh: 'zh-CN',
-      ar: 'ar-SA'
+      'zh-cn': 'zh-CN',
+      mandarin: 'zh-CN',
+      // Arabic
+      arabic: 'ar-SA',
+      ar: 'ar-SA',
+      'ar-sa': 'ar-SA',
+      // English
+      english: 'en-US',
+      en: 'en-US',
+      'en-us': 'en-US',
+      'en-gb': 'en-GB'
     };
-    return speechLangMap[code] || 'en-US';
+
+    return bcp47Map[rawLang] || 'en-US';
   };
 
   // Speak current target phrase cleanly with echo guard
@@ -542,18 +568,28 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
   const startMic = async () => {
     try {
       setMicError(null);
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      micStreamRef.current = stream;
+      isListeningRef.current = true;
+      setIsListening(true);
 
-      const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
-      const audioCtx = new AudioContextClass();
-      audioCtxRef.current = audioCtx;
+      // Web Audio API for visual amplitude meter only
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        micStreamRef.current = stream;
 
-      const source = audioCtx.createMediaStreamSource(stream);
-      const analyser = audioCtx.createAnalyser();
-      analyser.fftSize = 128;
-      analyserRef.current = analyser;
-      source.connect(analyser);
+        const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+        if (AudioContextClass) {
+          const audioCtx = new AudioContextClass();
+          audioCtxRef.current = audioCtx;
+
+          const source = audioCtx.createMediaStreamSource(stream);
+          const analyser = audioCtx.createAnalyser();
+          analyser.fftSize = 128;
+          analyserRef.current = analyser;
+          source.connect(analyser);
+        }
+      } catch (audioErr) {
+        console.warn("AudioContext init failed, proceeding with SpeechRecognition:", audioErr);
+      }
 
       // Initialize Speech Recognition
       const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
@@ -588,11 +624,27 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
           const candidateText = (finalTranscript || interimTranscript).toLowerCase().trim();
           if (!candidateText) return;
 
-          const targetWord = (currentVocabRef.current?.word || "").toLowerCase().trim();
+          const targetForeign = drill 
+            ? (currentVocabRef.current?.word || "") 
+            : (currentVocabRef.current?.translation || currentVocabRef.current?.word || "");
           const targetTranslation = (currentVocabRef.current?.translation || "").toLowerCase().trim();
+          const targetWord = (currentVocabRef.current?.word || "").toLowerCase().trim();
           const targetPronunciation = (currentVocabRef.current?.pronunciation || "").toLowerCase().trim();
           const targetCharacter = (currentVocabRef.current?.character || "").toLowerCase().trim();
-          if (!targetWord && !targetTranslation) return;
+
+          const evaluateMatch = (textToTest: string) => {
+            const resPrimary = targetForeign ? matchSpeech(textToTest, targetForeign, 0.70) : { isMatch: false, similarity: 0, heardText: textToTest };
+            const resWord = (targetWord && targetWord !== targetForeign) ? matchSpeech(textToTest, targetWord, 0.70) : { isMatch: false, similarity: 0, heardText: textToTest };
+            const resTrans = (targetTranslation && targetTranslation !== targetForeign) ? matchSpeech(textToTest, targetTranslation, 0.70) : { isMatch: false, similarity: 0, heardText: textToTest };
+            const resPron = targetPronunciation ? matchSpeech(textToTest, targetPronunciation, 0.70) : { isMatch: false, similarity: 0, heardText: textToTest };
+            const resChar = targetCharacter ? matchSpeech(textToTest, targetCharacter, 0.70) : { isMatch: false, similarity: 0, heardText: textToTest };
+
+            const isMatch = resPrimary.isMatch || resWord.isMatch || resTrans.isMatch || resPron.isMatch || resChar.isMatch;
+            const bestResult = [resPrimary, resWord, resTrans, resPron, resChar].sort((a, b) => (b.similarity || 0) - (a.similarity || 0))[0] || resPrimary;
+            const displayTarget = targetForeign || targetTranslation || targetWord;
+
+            return { isMatch, bestResult, displayTarget };
+          };
 
           // Process speech evaluation
           const processAttempt = (textToTest: string) => {
@@ -601,15 +653,7 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
             if (gameState !== 'playing' || knivesLeft <= 0) return;
 
             setInterimHeard('');
-            // Test candidate against target word, translation, pronunciation or character
-            const resWord = targetWord ? matchSpeech(textToTest, targetWord, 0.68) : { isMatch: false, similarity: 0, heardText: textToTest };
-            const resTrans = targetTranslation ? matchSpeech(textToTest, targetTranslation, 0.68) : { isMatch: false, similarity: 0, heardText: textToTest };
-            const resPron = targetPronunciation ? matchSpeech(textToTest, targetPronunciation, 0.68) : { isMatch: false, similarity: 0, heardText: textToTest };
-            const resChar = targetCharacter ? matchSpeech(textToTest, targetCharacter, 0.68) : { isMatch: false, similarity: 0, heardText: textToTest };
-
-            const isMatch = resWord.isMatch || resTrans.isMatch || resPron.isMatch || resChar.isMatch;
-            const bestResult = [resWord, resTrans, resPron, resChar].sort((a, b) => (b.similarity || 0) - (a.similarity || 0))[0] || resWord;
-            const displayTarget = targetTranslation || targetWord;
+            const { isMatch, bestResult, displayTarget } = evaluateMatch(textToTest);
 
             if (isMatch) {
               // Lock voice to prevent multi-knife runaway throws on the same spoken word
@@ -662,8 +706,8 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
             processAttempt(finalTranscript);
           } else if (interimTranscript) {
             // Immediate trigger if already correct
-            const quickCheck = matchSpeech(interimTranscript, targetWord, 0.75);
-            if (quickCheck.isMatch) {
+            const quickEval = evaluateMatch(interimTranscript);
+            if (quickEval.isMatch) {
               if (silenceTimeoutRef.current) clearTimeout(silenceTimeoutRef.current);
               processAttempt(interimTranscript);
             } else {
@@ -678,33 +722,55 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
         
         recognition.onerror = (event: any) => {
           console.warn("Speech recognition error:", event.error);
-        };
-
-        recognition.onend = () => {
-          // Auto restart if still listening
-          if (isListening && recognitionRef.current) {
-            try {
-              recognitionRef.current.start();
-            } catch (e) {}
+          if (event.error === 'not-allowed') {
+            setMicError("يرجى منح إذن الميكروفون في المتصفح لاستخدام خاصية النطق.");
+            stopMic();
+          } else if (event.error === 'audio-capture') {
+            // Hardware conflict: release getUserMedia stream so SpeechRecognition has sole access
+            if (micStreamRef.current) {
+              micStreamRef.current.getTracks().forEach(t => t.stop());
+              micStreamRef.current = null;
+            }
           }
         };
 
-        recognition.start();
-        recognitionRef.current = recognition;
+        recognition.onend = () => {
+          // Auto restart if still listening (using ref to avoid stale closures)
+          if (isListeningRef.current && recognitionRef.current) {
+            setTimeout(() => {
+              if (isListeningRef.current && recognitionRef.current) {
+                try {
+                  recognitionRef.current.start();
+                } catch (e) {}
+              }
+            }, 100);
+          }
+        };
+
+        try {
+          recognition.start();
+          recognitionRef.current = recognition;
+        } catch (e) {
+          console.warn("Recognition initial start error:", e);
+        }
       } else {
         console.warn("Speech recognition not supported in this browser.");
+        setMicError("متصفحك لا يدعم خاصية التعرف على الصوت المباشرة.");
       }
 
       setIsListening(true);
     } catch (err: any) {
       console.error("Microphone integration error:", err);
       setMicError("عذراً، لم نتمكن من تشغيل الميكروفون. تأكد من منح الصلاحية في المتصفح.");
+      isListeningRef.current = false;
       setIsListening(false);
     }
   };
 
   // Stop microphoning
   const stopMic = () => {
+    isListeningRef.current = false;
+    setIsListening(false);
     if (micStreamRef.current) {
       micStreamRef.current.getTracks().forEach(track => track.stop());
       micStreamRef.current = null;
@@ -714,11 +780,12 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
       audioCtxRef.current = null;
     }
     if (recognitionRef.current) {
-      recognitionRef.current.stop();
+      try {
+        recognitionRef.current.stop();
+      } catch (e) {}
       recognitionRef.current = null;
     }
     analyserRef.current = null;
-    setIsListening(false);
     setMicVolume(0);
   };
 
@@ -930,17 +997,19 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
     if (engine.flyingKnife) return;
     if (knivesLeft <= 0) return;
 
-    // In sound mode on mobile: voice volume or tap fallback can both throw!
+    // In sound mode on mobile: only speech can throw! Tapping reminds the user to speak
     if (!force && currentMode === 'sound') {
-      const displayTarget = currentVocabRef.current?.translation || currentVocabRef.current?.word || "";
-      useLessonTrackerStore.getState().recordKnifeHit(displayTarget, true);
+      const displayTarget = drill 
+        ? (currentVocabRef.current?.word || "") 
+        : (currentVocabRef.current?.translation || currentVocabRef.current?.word || "");
       setSpeechFeedback({
-        message: `🎯 رمية ممتازة! انطق أيضاً لممارسة النطق: (${displayTarget})`,
-        isCorrect: true,
-        heard: displayTarget,
+        message: `🎙️ في هذه المرحلة: انطق العبارة بصوتك لإطلاق السكين: (${displayTarget})`,
+        isCorrect: false,
+        heard: '',
         expected: displayTarget
       });
-      setTimeout(() => setSpeechFeedback(null), 1200);
+      setTimeout(() => setSpeechFeedback(null), 2000);
+      return;
     }
 
     // In write mode: only typing can throw
@@ -1142,35 +1211,7 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
         }
         const normalizedVolume = peak / 255;
         setMicVolume(normalizedVolume);
-
-        // MOBILE VOICE TRIGGER: When user speaks and voice volume crosses threshold
-        if (
-          normalizedVolume >= micThreshold &&
-          !isVoiceLockedRef.current &&
-          !isAudioPlayingRef.current &&
-          !engineRef.current.flyingKnife &&
-          gameState === 'playing' &&
-          knivesLeft > 0
-        ) {
-          isVoiceLockedRef.current = true;
-          const displayTarget = currentVocabRef.current?.translation || currentVocabRef.current?.word || "";
-          synthSounds.playThrow();
-          throwKnifeRef.current(true);
-          useLessonTrackerStore.getState().recordKnifeHit(displayTarget, true);
-
-          setSpeechFeedback({
-            message: `صوت رائع! 🎯 انطلقت السكين! (${displayTarget})`,
-            isCorrect: true,
-            heard: displayTarget,
-            expected: displayTarget
-          });
-
-          // Debounce cooldown so one spoken word launches one knife cleanly
-          setTimeout(() => {
-            isVoiceLockedRef.current = false;
-            setSpeechFeedback(null);
-          }, 1100);
-        }
+        // Note: Voice volume is strictly for UI level meter. Knife throw is exclusively triggered by verified speech recognition match!
       }
       micAnimId = requestAnimationFrame(checkMicVolume);
     };
@@ -2185,8 +2226,8 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
             {/* Microphone tutorial explanation bubble */}
             <p className="text-[9.5px] text-[#4fdbc8] text-center italic leading-relaxed bg-[#5c452e]/50 px-3.5 py-1.5 rounded-xl border border-[#d59a6c]/10 w-full">
               {isListening 
-                ? "🎤 الميكروفون نَشِط! اصرخ بقوة، قل 'إطلاق' أو انفخ بقوة لإطلاق السكين بالصوت!"
-                : "💡 يمكنك تشغيل الميكروفون أعلاه لإطلاق السكاكين عبر صوتك بدلاً من اللمس!"}
+                ? "🎤 الميكروفون نَشِط! انطق العبارة المطلوبة بصوت واضح ودقيق لإطلاق السكين!"
+                : "💡 الميكروفون يعمل تلقائياً في مرحلة الصوت للتحقق من صحة نطقك للعبارة!"}
             </p>
 
             {/* Lower Language deck switch tools */}
