@@ -564,40 +564,48 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
     }
   }, [currentMode]);
 
-  // Start microphoning and speech recognition
+  // Start microphoning and speech recognition cleanly without getUserMedia contention on mobile
   const startMic = async () => {
     try {
       setMicError(null);
       isListeningRef.current = true;
       setIsListening(true);
 
-      // Web Audio API for visual amplitude meter only
-      try {
-        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-        micStreamRef.current = stream;
-
-        const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
-        if (AudioContextClass) {
-          const audioCtx = new AudioContextClass();
-          audioCtxRef.current = audioCtx;
-
-          const source = audioCtx.createMediaStreamSource(stream);
-          const analyser = audioCtx.createAnalyser();
-          analyser.fftSize = 128;
-          analyserRef.current = analyser;
-          source.connect(analyser);
-        }
-      } catch (audioErr) {
-        console.warn("AudioContext init failed, proceeding with SpeechRecognition:", audioErr);
-      }
-
-      // Initialize Speech Recognition
+      // Initialize Speech Recognition directly (exclusive hardware mic access)
       const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
       if (SpeechRecognition) {
+        if (recognitionRef.current) {
+          try {
+            recognitionRef.current.stop();
+          } catch (e) {}
+        }
+
         const recognition = new SpeechRecognition();
         recognition.continuous = true;
         recognition.interimResults = true;
         recognition.lang = getLanguageCode();
+
+        recognition.onstart = () => {
+          setIsListening(true);
+          isListeningRef.current = true;
+          setMicError(null);
+        };
+
+        recognition.onsoundstart = () => {
+          setMicVolume(0.8);
+        };
+
+        recognition.onsoundend = () => {
+          setMicVolume(0);
+        };
+
+        recognition.onspeechstart = () => {
+          setMicVolume(1.0);
+        };
+
+        recognition.onspeechend = () => {
+          setMicVolume(0);
+        };
 
         recognition.onresult = (event: any) => {
           if (isAudioPlayingRef.current) return;
@@ -725,12 +733,12 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
           if (event.error === 'not-allowed') {
             setMicError("يرجى منح إذن الميكروفون في المتصفح لاستخدام خاصية النطق.");
             stopMic();
+          } else if (event.error === 'network') {
+            setMicError("تعذر الاتصال بخدمة التعرف الصوتي. تأكد من اتصال الإنترنت.");
+          } else if (event.error === 'no-speech') {
+            // Silence - keep listening normally
           } else if (event.error === 'audio-capture') {
-            // Hardware conflict: release getUserMedia stream so SpeechRecognition has sole access
-            if (micStreamRef.current) {
-              micStreamRef.current.getTracks().forEach(t => t.stop());
-              micStreamRef.current = null;
-            }
+            setMicError("الميكروفون غير متاح أو محجوز.");
           }
         };
 
@@ -2042,9 +2050,22 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
               </div>
               
               {currentMode === 'sound' && (
-                <div className="flex flex-col items-center gap-1.5 mt-2 w-full px-2">
-                  {/* Dynamic Speech Feedback / Status */}
-                  {speechFeedback ? (
+                <div className="flex flex-col items-center gap-1.5 mt-2 w-full px-2" onClick={(e) => e.stopPropagation()}>
+                  {/* Dynamic Speech Feedback / Status / Error Banner */}
+                  {micError ? (
+                    <div className="flex flex-col items-center gap-1 w-full max-w-[280px]">
+                      <div className="text-[11px] font-bold px-3 py-1.5 rounded-xl bg-red-600/90 text-white border border-red-400 text-center w-full shadow">
+                        ⚠️ {micError}
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => startMic()}
+                        className="px-3 py-1 bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-[11px] rounded-full shadow cursor-pointer active:scale-95"
+                      >
+                        🔄 إعادة تشغيل الميكروفون
+                      </button>
+                    </div>
+                  ) : speechFeedback ? (
                     <div className={`text-[11px] font-black px-3 py-1.5 rounded-xl text-center shadow-lg transition-all w-full max-w-[280px] ${
                       speechFeedback.isCorrect
                         ? 'bg-emerald-500 text-white border-2 border-emerald-300 animate-bounce'
@@ -2053,14 +2074,23 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
                       {speechFeedback.message}
                     </div>
                   ) : interimHeard ? (
-                    <div className="text-[10px] font-bold px-3 py-1 rounded-full bg-amber-400/20 text-amber-200 border border-amber-400/50 animate-pulse w-full max-w-[260px] text-center">
+                    <div className="text-[11px] font-bold px-3 py-1.5 rounded-full bg-amber-400/30 text-amber-200 border border-amber-400/60 animate-pulse w-full max-w-[260px] text-center shadow">
                       🎙️ أسمع: "{interimHeard}"...
                     </div>
-                  ) : (
-                    <div className="flex items-center gap-1.5 px-3 py-1 bg-white/10 rounded-full border border-white/20">
-                      <Mic className="w-3.5 h-3.5 text-emerald-300 animate-pulse" />
-                      <span className="text-[10px] font-bold text-white/95">انطق العبارة بصوت واضح لإطلاق السكين</span>
+                  ) : isListening ? (
+                    <div className="flex items-center gap-1.5 px-3 py-1 bg-emerald-950/70 rounded-full border border-emerald-400/60 shadow">
+                      <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping" />
+                      <span className="text-[10px] font-bold text-emerald-200">الميكروفون يستمع... انطق العبارة بوضوح</span>
                     </div>
+                  ) : (
+                    <button
+                      type="button"
+                      onClick={() => startMic()}
+                      className="flex items-center gap-1.5 px-4 py-1.5 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 text-white text-xs font-black rounded-full shadow-lg border border-emerald-300 transition-all active:scale-95 animate-pulse cursor-pointer"
+                    >
+                      <Mic className="w-3.5 h-3.5" />
+                      <span>اضغط هنا لتفعيل الميكروفون 🎙️</span>
+                    </button>
                   )}
 
                   {/* Realtime audio wave meter */}
@@ -2068,7 +2098,7 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
                     <div className="w-full max-w-[200px] h-1.5 bg-black/50 rounded-full overflow-hidden mt-1 relative">
                       <div 
                         className="h-full bg-gradient-to-r from-emerald-400 via-amber-300 to-rose-400 transition-all duration-75"
-                        style={{ width: `${Math.min(100, micVolume * 350)}%` }}
+                        style={{ width: `${Math.min(100, micVolume * 100)}%` }}
                       />
                     </div>
                   )}
