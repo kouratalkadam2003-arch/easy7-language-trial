@@ -358,7 +358,7 @@ export function getPhraseDurability(word: string, tier: string = 'core', mode: '
     return diff === 1 ? 5 : diff === 2 ? 6 : 8;
   }
   if (mode === 'sound') {
-    return diff === 1 ? 3 : diff === 2 ? 4 : 5;
+    return 1; // Exactly 1 verified correct pronunciation per phrase on mobile!
   }
   return diff === 1 ? 2 : diff === 2 ? 3 : 4;
 }
@@ -482,6 +482,7 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
   const micStreamRef = useRef<MediaStream | null>(null);
   const recognitionRef = useRef<any>(null);
   const currentVocabRef = useRef<any>(currentVocab);
+  const currentModeRef = useRef<'tap' | 'sound' | 'write'>(currentMode);
   const isListeningRef = useRef<boolean>(false);
   const isVoiceLockedRef = useRef<boolean>(false);
   const isAudioPlayingRef = useRef<boolean>(false);
@@ -490,6 +491,10 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
   useEffect(() => {
     currentVocabRef.current = currentVocab;
   }, [currentVocab]);
+
+  useEffect(() => {
+    currentModeRef.current = currentMode;
+  }, [currentMode]);
 
   // Compute accurate BCP-47 language code for Web Speech API & TTS
   const getLanguageCode = (): string => {
@@ -743,15 +748,13 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
         };
 
         recognition.onend = () => {
-          // Auto restart if still listening (using ref to avoid stale closures)
-          if (isListeningRef.current && recognitionRef.current) {
+          // Re-spawn fresh recognition instance so Android Chrome never gets stuck on an ended instance
+          if (isListeningRef.current) {
             setTimeout(() => {
-              if (isListeningRef.current && recognitionRef.current) {
-                try {
-                  recognitionRef.current.start();
-                } catch (e) {}
+              if (isListeningRef.current) {
+                startMic();
               }
-            }, 100);
+            }, 120);
           }
         };
 
@@ -957,10 +960,11 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
     const targetIdx = (targetStage - 1) % Math.max(1, vocabList.length);
     setVocabIndex(targetIdx);
 
-    // Each new phrase begins with sub-stage 1: tap (النقر والنظر)
-    setCurrentMode('tap');
+    // Preserve active mode (e.g. sound mode) so speech sessions continue across phrases seamlessly
+    const activeSubMode = (currentModeRef.current as 'tap' | 'sound' | 'write') || 'tap';
+    setCurrentMode(activeSubMode);
     const targetPhrase = vocabList[targetIdx] || vocabList[0];
-    const neededKnives = getPhraseDurability(targetPhrase?.word || '', targetPhrase?.tier || 'core', 'tap');
+    const neededKnives = getPhraseDurability(targetPhrase?.word || '', targetPhrase?.tier || 'core', activeSubMode);
     setKnivesLeft(neededKnives);
     setKnivesInStage(neededKnives);
 
@@ -1315,9 +1319,10 @@ export default function KnifeHitGame({ onClose, drill, language, onComplete, fla
           if (activeMode === 'tap') {
             switchSubStageRef.current('sound');
           } else if (activeMode === 'sound') {
-            switchSubStageRef.current('write');
+            // Voice mode completed: Advance immediately to the next phrase in voice mode!
+            advanceNextWordRef.current();
           } else {
-            // Write mode completed: Phrase finished across all 3 modes! Move to next phrase.
+            // Write mode completed: Phrase finished! Move to next phrase.
             advanceNextWordRef.current();
           }
         }

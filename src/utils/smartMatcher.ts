@@ -48,19 +48,24 @@ export function calculateSimilarity(s1: string, s2: string): number {
   return (longerLength - distance) / longerLength;
 }
 
-// Normalize text for comparison: lowercase, remove punctuation, diacritics, extra spaces
+// Normalize text for comparison: lowercase, remove punctuation, accents, diacritics, extra spaces
 export function normalizeText(text: string): string {
   if (!text) return '';
   return text
     .toLowerCase()
+    // Normalize Latin accents/diacritics: é->e, à->a, ö->o, ü->u, etc.
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    // German specific conversions
+    .replace(/ß/g, 'ss')
     // Remove Arabic diacritics (Harakat)
     .replace(/[\u064B-\u0652\u0670]/g, '')
     // Normalize Arabic letters: أ/إ/آ -> ا, ة -> ه, ى -> ي
     .replace(/[أإآ]/g, 'ا')
     .replace(/ة/g, 'ه')
     .replace(/ى/g, 'ي')
-    // Remove all punctuation (Latin and Arabic)
-    .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()؟،«»"'/\\?<>!]/g, ' ')
+    // Remove all punctuation (Latin, Spanish, and Arabic)
+    .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()؟،«»"'/\\?<>!¿¡]/g, ' ')
     // Collapse multi-spaces
     .replace(/\s+/g, ' ')
     .trim();
@@ -146,11 +151,11 @@ export interface SpeechMatchResult {
 
 /**
  * Checks spoken speech transcript against target phrase:
- * - Uses token boundary checks (avoids false-positive substring collisions)
- * - Tolerates minor acoustic variations while strictly rejecting incorrect words
- * - Provides explicit feedback explaining what was heard vs expected
+ * - Tolerates non-native accents, minor phonetic substitutions, and swallowed articles
+ * - Handles token sequence containment and multi-word coverage
+ * - Provides intelligent progressive feedback for learners
  */
-export function matchSpeech(transcript: string, targetPhrase: string, threshold = 0.75): SpeechMatchResult {
+export function matchSpeech(transcript: string, targetPhrase: string, threshold = 0.60): SpeechMatchResult {
   const cleanTranscript = normalizeText(transcript);
   const cleanTarget = normalizeText(targetPhrase);
 
@@ -184,12 +189,11 @@ export function matchSpeech(transcript: string, targetPhrase: string, threshold 
     };
   }
 
-  // 2. Exact word sequence containment (e.g. user said "um hello there" for "hello")
+  // 2. Phrase containment (either spoken contains target, or target contains spoken with high overlap)
   const targetJoined = targetWords.join(' ');
   const spokenJoined = spokenWords.join(' ');
-  const isPhraseContained = new RegExp(`\\b${targetJoined.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(spokenJoined);
 
-  if (isPhraseContained) {
+  if (spokenJoined.includes(targetJoined)) {
     return {
       isMatch: true,
       similarity: 1.0,
@@ -199,6 +203,19 @@ export function matchSpeech(transcript: string, targetPhrase: string, threshold 
       expectedText: cleanTarget,
       feedbackMessage: `نطق صحيح ومتقن! ✅ (${targetPhrase})`,
       confidenceScore: 1.0
+    };
+  }
+
+  if (targetJoined.includes(spokenJoined) && spokenJoined.length >= Math.min(3, targetJoined.length * 0.5)) {
+    return {
+      isMatch: true,
+      similarity: 0.90,
+      matchedWords: targetWords,
+      missingWords: [],
+      heardText: cleanTranscript,
+      expectedText: cleanTarget,
+      feedbackMessage: `نطق رائع ومتقن! ✅ (${targetPhrase})`,
+      confidenceScore: 0.90
     };
   }
 
@@ -217,16 +234,19 @@ export function matchSpeech(transcript: string, targetPhrase: string, threshold 
     };
   }
 
-  // 4. Word-level matching for multi-word phrases
+  // 4. Intelligent Word-level matching with learner accent tolerance
   const matchedWords: string[] = [];
   const missingWords: string[] = [];
 
   for (const targetWord of targetWords) {
     const wordFound = spokenWords.some(spokenWord => {
-      if (targetWord.length <= 3) {
-        return spokenWord === targetWord;
+      if (spokenWord === targetWord) return true;
+      if (spokenWord.includes(targetWord) || targetWord.includes(spokenWord)) {
+        if (Math.min(spokenWord.length, targetWord.length) >= 3) return true;
       }
-      return calculateSimilarity(spokenWord, targetWord) >= 0.80;
+      const sim = calculateSimilarity(spokenWord, targetWord);
+      // For learner accents: 65% similarity is enough to identify the word
+      return sim >= 0.65;
     });
 
     if (wordFound) {
@@ -238,7 +258,16 @@ export function matchSpeech(transcript: string, targetPhrase: string, threshold 
 
   const wordRatio = targetWords.length > 0 ? matchedWords.length / targetWords.length : 0;
   const bestScore = Math.max(fullSimilarity, wordRatio);
-  const isMatch = bestScore >= threshold;
+  
+  // Intelligent decision:
+  // - If single word: similarity >= 0.65 is accepted
+  // - If 2 words: matching at least 1 word is accepted
+  // - If 3+ words: matching at least 50% of words or bestScore >= threshold
+  const isMatch = targetWords.length === 1
+    ? bestScore >= 0.65
+    : targetWords.length <= 2
+    ? matchedWords.length >= 1
+    : (wordRatio >= 0.50 || bestScore >= threshold);
 
   const feedbackMessage = isMatch
     ? `أحسنت! نطق صحيح 🎯 (${targetPhrase})`
